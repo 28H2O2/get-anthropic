@@ -32,7 +32,7 @@ SOURCE_DESC = {
     "transformer_circuits": "Transformer 可解释性研究（Anthropic Circuits 团队）",
 }
 
-LOOKBACK_DAYS = 14
+LOOKBACK_DAYS = 30
 
 
 def parse_digest(md_path: Path) -> dict[str, dict]:
@@ -109,6 +109,7 @@ def build():
                 "url": url,
                 "title": title_en,
                 "desc": SOURCE_DESC.get(source, ""),
+                "date": art_date,  # 文章发布日期
             })
 
         # 只展示近 14 天的已处理文章

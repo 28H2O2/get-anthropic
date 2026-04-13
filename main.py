@@ -113,7 +113,7 @@ SOURCE_LABELS = {
 }
 
 
-def build_digest(new_articles: list[dict], config: dict, today_str: str, since_str: str = "") -> str:
+def build_digest(new_articles: list[dict], config: dict, today_str: str, since_str: str = "") -> tuple[str, list[dict]]:
     """生成 Markdown 格式的每日日报"""
     engine = config.get("translate_engine", "aliyun")
     mode = config.get("translate_mode", "summary")
@@ -129,6 +129,8 @@ def build_digest(new_articles: list[dict], config: dict, today_str: str, since_s
         "",
     ]
 
+    actually_processed = []  # 只记录真正翻译成功的文章
+
     for i, article in enumerate(new_articles, 1):
         url = article["url"]
         raw_title = article.get("title", "")
@@ -139,7 +141,7 @@ def build_digest(new_articles: list[dict], config: dict, today_str: str, since_s
 
         content = fetch_content(article, since_str, today_str)
         if not content:
-            # 真实发布日期超出窗口，跳过
+            # 真实发布日期超出窗口或内容获取失败，跳过，不标记为已处理
             continue
         title = article.get("title") or raw_title or url
 
@@ -159,8 +161,9 @@ def build_digest(new_articles: list[dict], config: dict, today_str: str, since_s
             "---",
             "",
         ]
+        actually_processed.append(article)
 
-    return "\n".join(lines)
+    return "\n".join(lines), actually_processed
 
 
 def init_index(config: dict):
@@ -256,7 +259,7 @@ def main():
         print(f"（已按 --limit {args.limit} 限制处理数量）")
 
     print("=== 开始翻译 ===")
-    digest = build_digest(new_articles, config, today_str, since_str)
+    digest, actually_processed = build_digest(new_articles, config, today_str, since_str)
 
     # 写入日报
     output_dir = BASE_DIR / config.get("output_dir", "output") / today_str
@@ -266,8 +269,8 @@ def main():
         f.write(digest)
     print(f"=== 日报已保存到 {output_file} ===")
 
-    # 标记已处理，并补全标题和真实发布日期
-    for a in new_articles:
+    # 只标记实际翻译成功的文章为已处理（跳过的不标记，下次运行可重试）
+    for a in actually_processed:
         url = a["url"]
         index[url]["processed"] = True
         if a.get("title"):

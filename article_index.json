@@ -87,7 +87,7 @@
     "title": "Labor market impacts of AI: A new measure and early evidence",
     "date": "2026-03-05",
     "source": "anthropic_research",
-    "processed": true
+    "processed": false
   },
   "https://www.anthropic.com/news/where-stand-department-war": {
     "title": "",
@@ -822,22 +822,16 @@
     "processed": false
   },
   "https://www.anthropic.com/news/claude-for-financial-services": {
-    "title": "",
+    "title": "Claude for Financial Services",
     "date": "2025-07-15",
     "source": "anthropic_news",
-    "processed": false
+    "processed": true
   },
   "https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future": {
     "title": "",
     "date": "2025-07-15",
     "source": "anthropic_news",
     "processed": false
-  },
-  "https://www.anthropic.com/news/claude-for-financial-services": {
-    "title": "Claude for Financial Services",
-    "date": "2025-07-15",
-    "source": "anthropic_news",
-    "processed": true
   },
   "https://www.anthropic.com/news/paul-smith-to-join-anthropic": {
     "title": "",

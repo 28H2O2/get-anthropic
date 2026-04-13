@@ -383,6 +383,14 @@
 
     .archive-list a:hover { color: var(--accent); text-decoration: underline; }
 
+    .archive-date {
+      font-size: 0.68rem;
+      color: var(--text-3);
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
     /* ── footer ── */
     .site-footer {
       text-align: center;
@@ -532,7 +540,7 @@
         transformer_circuits: 'Transformer Circuits',
       }[key] || key;
       const links = items.map(it =>
-        `<li><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title || it.url)}</a></li>`
+        `<li><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title || it.url)}</a>${it.date ? `<span class="archive-date">${esc(it.date)}</span>` : ''}</li>`
       ).join('');
       return `
 <div class="archive-group">
