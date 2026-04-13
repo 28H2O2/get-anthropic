@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-04-14（新增 alignment / engineering 来源 + claude_blog 卡片修复 + 文档）
+
+### 新增信息来源
+- `fetchers/alignment.py`：抓取 alignment.anthropic.com（Anthropic 对齐科学博客，36 篇）
+- `fetchers/engineering.py`：抓取 anthropic.com/engineering（工程实践博客，22 篇）
+  - 日期从 Next.js payload 中提取 `publishedOn` 字段
+- `config.json`：新增 `alignment: true` / `engineering: true` 开关
+
+### 修复 claude_blog 漏抓新卡片
+- `fetchers/claude_blog.py`：兼容三种卡片格式（旧 marquee_cms / 新 card_blog_wrap 封面卡 / card_blog_list_wrap 列表条目）
+- 修复前漏掉约 12 篇文章（含 the-advisor-strategy 等）
+
+### 新增固定参考链接
+- `build_data.py`：新增 `STATIC_REFS` 顶层常量，归档区底部显示 Claude's Constitution 链接
+
+### 文档
+- `docs/overview.md`：仓库概要（架构、数据流、目录结构、运行方式、TODO）
+- `docs/code_review.md`：全仓库 code review 结果（必须修复 / 建议改进 / 可选优化）
+
+### 数据更新
+- 批量回填所有 alignment 文章日期（月份精度）
+- 翻译近 60 天内新文章，总已处理 185 篇
+
+---
+
 ## 2026-04-13（修复 is_new 日期误判 + 补翻 claude_blog 缺失摘要）
 
 ### 修复 `is_new()` 使用 sitemap lastmod 导致旧文章反复出现

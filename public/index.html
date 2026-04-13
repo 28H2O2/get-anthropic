@@ -23,6 +23,8 @@
       --cook-bg:    #f0fdf4; --cook-text:    #15803d;
       --trans-bg:   #faf5ff; --trans-text:   #7e22ce;
       --red-bg:     #fff1f2; --red-text:     #be123c;
+      --align-bg:   #f0faf4; --align-text:   #065f46;
+      --eng-bg:     #fefce8; --eng-text:     #854d0e;
 
       --font-sans:  "PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
       --font-serif: Georgia,"Palatino Linotype","Times New Roman",serif;
@@ -247,6 +249,8 @@
     .tag-cookbook            { background: var(--cook-bg);  color: var(--cook-text); }
     .tag-transformer_circuits{ background: var(--trans-bg); color: var(--trans-text);}
     .tag-red_team            { background: var(--red-bg);   color: var(--red-text);  }
+    .tag-alignment           { background: var(--align-bg); color: var(--align-text);}
+    .tag-engineering         { background: var(--eng-bg);   color: var(--eng-text);  }
 
     .card-summary {
       font-size: 0.8rem;
@@ -364,6 +368,9 @@
     .dot-cookbook    { background: #16a34a; }
     .dot-transformer { background: #9333ea; }
     .dot-red         { background: #be123c; }
+    .dot-alignment   { background: #059669; }
+    .dot-engineering { background: #b45309; }
+    .dot-ref         { background: #6b7280; }
 
     .archive-desc {
       font-size: 0.72rem;
@@ -493,6 +500,9 @@
     transformer_circuits: 'dot-transformer',
     red_team:             'dot-red',
     claude_blog:          'dot-news',
+    alignment:            'dot-alignment',
+    engineering:          'dot-engineering',
+    references:           'dot-ref',
   };
 
   const SOURCE_TITLE = {
@@ -502,6 +512,9 @@
     transformer_circuits: 'Transformer Circuits',
     red_team:             'Red Team',
     claude_blog:          'Claude Blog',
+    alignment:            'Alignment Science',
+    engineering:          'Engineering Blog',
+    references:           'References',
   };
 
   const SOURCE_URL = {
@@ -511,6 +524,8 @@
     transformer_circuits: 'https://transformer-circuits.pub',
     red_team:             'https://red.anthropic.com',
     claude_blog:          'https://claude.com/blog',
+    alignment:            'https://alignment.anthropic.com',
+    engineering:          'https://www.anthropic.com/engineering',
   };
 
   const CARD_ACCENT = {
@@ -520,6 +535,8 @@
     transformer_circuits: 'card-transformer_circuits',
     red_team:             'card-red_team',
     claude_blog:          'card-news',
+    alignment:            'card-alignment',
+    engineering:          'card-engineering',
   };
 
   function esc(str) {

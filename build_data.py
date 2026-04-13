@@ -25,6 +25,8 @@ SOURCE_LABELS = {
     "transformer_circuits": "Transformer Circuits",
     "red_team": "Red Team",
     "claude_blog": "Claude Blog",
+    "alignment": "Alignment Science",
+    "engineering": "Engineering Blog",
 }
 
 SOURCE_DESC = {
@@ -34,9 +36,28 @@ SOURCE_DESC = {
     "transformer_circuits": "Transformer 可解释性研究（Anthropic Circuits 团队）",
     "red_team": "Anthropic 红队安全研究（red.anthropic.com）",
     "claude_blog": "Claude 官方博客（面向用户与企业）",
+    "alignment": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+    "engineering": "Anthropic 工程实践博客（anthropic.com/engineering）",
 }
 
 LOOKBACK_DAYS = 30
+
+# 固定参考链接（不通过 fetcher 抓取，直接写入归档区）
+STATIC_REFS = [
+    {
+        "key": "references",
+        "title": "References",
+        "desc": "Anthropic 重要参考文档",
+        "items": [
+            {
+                "url": "https://www.anthropic.com/constitution",
+                "title": "Claude's Constitution (Model Spec)",
+                "desc": "Claude 的价值观与行为准则",
+                "date": "2024-05-08",
+            },
+        ],
+    }
+]
 
 
 def parse_digest(md_path: Path) -> dict[str, dict]:
@@ -101,7 +122,7 @@ def build():
     # 按日期分组，只取近 LOOKBACK_DAYS 天有真实日期的文章
     days: dict[str, list] = {}
     all_urls_by_source: dict[str, list] = {k: [] for k in SOURCE_LABELS}
-    ARCHIVE_ORDER = ["anthropic_news", "anthropic_research", "red_team", "claude_blog", "cookbook", "transformer_circuits"]
+    ARCHIVE_ORDER = ["anthropic_news", "anthropic_research", "red_team", "claude_blog", "alignment", "engineering", "cookbook", "transformer_circuits"]
 
     for url, meta in index.items():
         source = meta.get("source", "")
@@ -141,12 +162,21 @@ def build():
         for d, articles in sorted(days.items(), reverse=True)
     ]
 
+    # 将固定参考注入 all_urls
+    for ref in STATIC_REFS:
+        all_urls_by_source[ref["key"]] = [
+            {"url": it["url"], "title": it["title"], "desc": it["desc"], "date": it["date"]}
+            for it in ref["items"]
+        ]
+
+    ARCHIVE_ORDER_FULL = ARCHIVE_ORDER + [r["key"] for r in STATIC_REFS]
+
     data = {
         "generated_at": today_str,
         "lookback_days": LOOKBACK_DAYS,
         "digests": digests,
         "all_urls": all_urls_by_source,
-        "archive_order": ARCHIVE_ORDER,
+        "archive_order": ARCHIVE_ORDER_FULL,
     }
 
     PUBLIC_DIR.mkdir(exist_ok=True)

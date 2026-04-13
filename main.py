@@ -14,6 +14,7 @@
 #   python3 main.py --limit 5              # 每次最多处理 N 篇新文章
 # 依赖文件：
 #   fetchers/anthropic_blog.py, fetchers/cookbook.py, fetchers/transformer.py
+#   fetchers/red_team.py, fetchers/claude_blog.py, fetchers/alignment.py, fetchers/engineering.py
 #   translator.py, config.json
 # 项目作用：主协调器，调度 fetcher → 对比索引 → 日期过滤 → 翻译 → 输出日报
 # 最后修改：2026-04-13
@@ -23,7 +24,7 @@ import argparse
 from datetime import date, timedelta
 from pathlib import Path
 
-from fetchers import anthropic_blog, cookbook, transformer, red_team, claude_blog
+from fetchers import anthropic_blog, cookbook, transformer, red_team, claude_blog, alignment, engineering
 from translator import translate
 
 BASE_DIR = Path(__file__).parent
@@ -76,6 +77,12 @@ def fetch_all_articles(config: dict) -> list[dict]:
 
     if sources.get("claude_blog"):
         articles.extend(claude_blog.fetch_article_list())
+
+    if sources.get("alignment"):
+        articles.extend(alignment.fetch_article_list())
+
+    if sources.get("engineering"):
+        articles.extend(engineering.fetch_article_list())
 
     return articles
 
@@ -139,6 +146,36 @@ def fetch_content(article: dict, since_str: str, today_str: str) -> str:
         return cookbook.fetch_article_content(url) or ""
     elif source == "transformer_circuits":
         return transformer.fetch_article_content(url) or ""
+    elif source == "alignment":
+        if article.get("description"):
+            content, title, pub_date = alignment.fetch_article_content(url)
+            if title and not article.get("title"):
+                article["title"] = title
+            if pub_date:
+                article["date"] = pub_date
+                if not (since_str <= pub_date <= today_str):
+                    print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
+                    return ""
+            return article["description"]
+        content, title, pub_date = alignment.fetch_article_content(url)
+        if title and not article.get("title"):
+            article["title"] = title
+        if pub_date:
+            article["date"] = pub_date
+            if not (since_str <= pub_date <= today_str):
+                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
+                return ""
+        return content or ""
+    elif source == "engineering":
+        content, title, pub_date = engineering.fetch_article_content(url)
+        if title and not article.get("title"):
+            article["title"] = title
+        if pub_date:
+            article["date"] = pub_date
+            if not (since_str <= pub_date <= today_str):
+                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
+                return ""
+        return content or ""
     return ""
 
 
@@ -149,6 +186,8 @@ SOURCE_LABELS = {
     "transformer_circuits": "Transformer Circuits",
     "red_team": "Red Team",
     "claude_blog": "Claude Blog",
+    "alignment": "Alignment Science",
+    "engineering": "Engineering Blog",
 }
 
 

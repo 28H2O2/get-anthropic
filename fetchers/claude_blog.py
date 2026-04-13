@@ -52,35 +52,57 @@ def fetch_article_list() -> list[dict]:
     articles = []
     seen = set()
 
-    # 文章卡片结构：div.marquee_cms_blog_list_item
+    def _add(href, title, date_text):
+        if not href.startswith("/blog/") or "category" in href:
+            return
+        url = BASE_URL + href
+        if url in seen:
+            return
+        seen.add(url)
+        articles.append({
+            "url": url,
+            "title": title or href.split("/")[-1],
+            "date": _parse_text_date(date_text),
+            "source": "claude_blog",
+        })
+
+    # 旧卡片格式：div.marquee_cms_blog_list_item
     for card in soup.find_all("div", class_=lambda c: c and "marquee_cms_blog_list_item" in c and "content" not in c):
-        # 找链接
         link_el = card.find("a", href=True)
         if not link_el:
             continue
-        href = link_el["href"]
-        if not href.startswith("/blog/") or "category" in href:
-            continue
-
-        url = BASE_URL + href
-        if url in seen:
-            continue
-        seen.add(url)
-
-        # 标题
         title_el = card.find(["h1", "h2", "h3", "h4"])
-        title = title_el.get_text(strip=True) if title_el else href.split("/")[-1]
-
-        # 日期（div.u-text-style-caption.u-foreground-tertiary）
         date_el = card.find("div", class_=lambda c: c and "u-text-style-caption" in c)
-        date = _parse_text_date(date_el.get_text(strip=True)) if date_el else ""
+        _add(link_el["href"],
+             title_el.get_text(strip=True) if title_el else "",
+             date_el.get_text(strip=True) if date_el else "")
 
-        articles.append({
-            "url": url,
-            "title": title,
-            "date": date,
-            "source": "claude_blog",
-        })
+    # 新卡片格式：div.card_blog_wrap（含大图封面卡片）
+    for card in soup.find_all("div", class_=lambda c: c and "card_blog_wrap" in c):
+        link_el = card.find("a", href=True)
+        if not link_el:
+            continue
+        title_el = card.find(class_=lambda c: c and "card_blog_title" in c)
+        date_el = card.find("div", class_=lambda c: c and "u-text-style-caption" in c)
+        _add(link_el["href"],
+             title_el.get_text(strip=True) if title_el else "",
+             date_el.get_text(strip=True) if date_el else "")
+
+    # 新列表格式：article.card_blog_list_wrap（博客列表条目）
+    for card in soup.find_all("article", class_=lambda c: c and "card_blog_list_wrap" in c):
+        link_el = card.find("a", href=True)
+        if not link_el:
+            # 列表条目的链接可能在外层 div 上
+            parent = card.parent
+            link_el = parent.find("a", href=True) if parent else None
+        if not link_el:
+            continue
+        title_el = card.find(class_=lambda c: c and "card_blog_list_title" in c)
+        # 列表条目的日期在 card_blog_list_meta 里
+        date_el = card.find(class_=lambda c: c and "u-text-style-caption" in c)
+        _add(link_el["href"],
+             title_el.get_text(strip=True) if title_el else "",
+             date_el.get_text(strip=True) if date_el else "")
 
     print(f"[claude_blog] 发现 {len(articles)} 篇文章")
     return articles

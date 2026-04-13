@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13",
+  "generated_at": "2026-04-14",
   "lookback_days": 30,
   "digests": [
     {
@@ -9,7 +9,25 @@
           "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
           "title_en": "Preparing your security program for AI-accelerated offense",
           "title_zh": "Preparing your security program for AI-accelerated offense",
-          "summary_zh": "【机器翻译摘要】\n为AI加速进攻准备您的安全计划\n\n为AI加速进攻准备您的安全计划\n人工智能正在改变发现和利用漏洞的速度。我们正在发布一组初步建议，以根据我们自己的调查结果和安全实践来加强您的防御。\n类别\n代理人\n产品\nClaude 企业\n日期\n2026年4月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 准备-您的-安全-程序-为-ai-加速-进攻\n本周早些时候，我们宣布了Glasswing项目-我们的urgen",
+          "summary_zh": "【机器翻译摘要】\n为人工智能驱动的攻击做好安全防护准备\n\n为人工智能驱动的攻击做好安全防护准备\n人工智能正在改变漏洞被发现和被利用的速度。我们正基于自身的研究发现和安全实践，发布一组初步的安全建议，以强化您的防御能力。\n类别\n代理人\n产品\nClaude 企业\n日期\n2026年4月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/为人工智能加速的攻击做好安全计划的准备\n本周早些时候，我们宣布了“玻璃翼”项目——我们紧急…",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-10"
+        },
+        {
+          "url": "https://claude.com/blog/seeing-like-an-agent",
+          "title_en": "Seeing like an agent: how we design tools in Claude Code",
+          "title_zh": "Seeing like an agent: how we design tools in Claude Code",
+          "summary_zh": "【机器翻译摘要】\n以代理的视角看待问题：我们在 Claude Code中如何设计工具\n\n以代理的视角看待问题：我们在 Claude Code中如何设计工具\n了解 Claude Code团队如何从模型的角度出发，设计、测试并持续迭代工具。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/像智能体一样观察\n构建智能体框架最困难的部分之一，就是搭建其工具链。\nClaude 完全通过……行动\n工具调用\n，但工具有多种构建方式。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-10"
+        },
+        {
+          "url": "https://claude.com/blog/multi-agent-coordination-patterns",
+          "title_en": "Multi-agent coordination patterns: Five approaches and when to use them",
+          "title_zh": "Multi-agent coordination patterns: Five approaches and when to use them",
+          "summary_zh": "【机器翻译摘要】\n多智能体协调模式：五种方法及适用场景\n\n多智能体协调模式：五种方法及适用场景\n五种多智能体协调模式、它们之间的权衡，以及何时从一种模式演进到另一种模式。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/多智能体协调模式\n在之前的一篇文章中，我们探讨了多智能体系统在何时能够创造价值，以及在何时单个智能体是更优的选择。这篇帖子是为那些已经做出决定、如今需要……的团队准备的。",
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-10"
@@ -27,6 +45,24 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-04-09"
+        },
+        {
+          "url": "https://claude.com/blog/the-advisor-strategy",
+          "title_en": "The advisor strategy: Give agents an intelligence boost",
+          "title_zh": "The advisor strategy: Give agents an intelligence boost",
+          "summary_zh": "【机器翻译摘要】\n顾问策略：为客服代表提供智能增强\n\n顾问策略：为客服代表提供智能增强\n将Opus作为顾问与Sonnet或Haiku作为执行者搭配使用，只需支付极低的成本，即可让您的智能体达到接近Opus级别的智能水平。\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年4月9日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/顾问策略\n想要更好地平衡智能效果与成本的开发者，已经一致采用了我们所谓的“顾问策略”：将Opus作为顾问与Sonnet结合使用。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-09"
+        },
+        {
+          "url": "https://claude.com/blog/cowork-for-enterprise",
+          "title_en": "Making Claude Cowork ready for enterprise",
+          "title_zh": "Making Claude Cowork ready for enterprise",
+          "summary_zh": "【机器翻译摘要】\n使Claude协作者为企业做好准备\n\n使Claude协作者为企业做好准备\n类别\n产品公告\n产品\nClaude 企业\n日期\n2026年4月9日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/cowork-for-enterprise\nClaude Cowork现已在所有付费套餐中正式上线。在企业内部，Claude Cowork已经成为团队运作的关键组成部分：处理任务、起草项目交付成果，并确保团队信息同步。\n今天，我们推出组织级控制功能，帮助团队部署 Claude Cowork公司。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-09"
         }
       ]
     },
@@ -37,7 +73,16 @@
           "url": "https://claude.com/blog/claude-managed-agents",
           "title_en": "Claude Managed Agents: get to production 10x faster",
           "title_zh": "Claude Managed Agents: get to production 10x faster",
-          "summary_zh": "【机器翻译摘要】\nClaude 托管代理: 投入生产的速度提高10倍\n\nClaude 托管代理: 投入生产的速度提高10倍\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年4月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/claude-管理型智能体\n今天，我们将推出 Claude 托管代理，这是一套可组合的 API，用于大规模构建和部署云托管代理。\n到目前为止，构建代理意味着将开发周期花费在安全的基础架构，状态管理，许可以及为每个月重新设计代理循环上。",
+          "summary_zh": "【机器翻译摘要】\nClaude 受管代理：上线速度提升10倍\n\nClaude 受管代理：上线速度提升10倍\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年4月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/claude-管理型智能体\n今天，我们正式推出Claude托管代理，这是一套可组合的API，用于大规模构建和部署云端托管的代理。\n直到现在，构建智能体仍然意味着要将开发周期耗费在安全基础设施、状态管理、权限控制以及为每个模型重新调整智能体循环上。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-08"
+        },
+        {
+          "url": "https://claude.com/blog/carta-healthcare-clinical-abstractor",
+          "title_en": "How Carta Healthcare gets AI to reason like a clinical abstractor",
+          "title_zh": "How Carta Healthcare gets AI to reason like a clinical abstractor",
+          "summary_zh": "【机器翻译摘要】\nCarta Healthcare如何让AI像临床摘要员一样进行推理\n\nCarta Healthcare如何让AI像临床摘要员一样进行推理\n一家每年处理22,000例手术数据的临床数据摘要平台，以及团队如何通过正确实施上下文工程实现99%的准确率。\n‍\n类别\n企业人工智能\n产品\nClaude 平台\n日期\n2026年4月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/卡塔-医疗-临床摘要生成器\n在我们的新系列中，\n初创企业如何使用Claude进行构建\n，我们强调超高速增长的企业正在如何变革。",
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-08"
@@ -48,12 +93,12 @@
       "date": "2026-04-07",
       "articles": [
         {
-          "url": "https://red.anthropic.com/2026/mythos-preview/",
-          "title_en": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
-          "title_zh": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
-          "summary_zh": "",
-          "source": "Red Team",
-          "source_key": "red_team",
+          "url": "https://claude.com/blog/subagents-in-claude-code",
+          "title_en": "How and when to use subagents in Claude Code",
+          "title_zh": "How and when to use subagents in Claude Code",
+          "summary_zh": "【机器翻译摘要】\n在 Claude 代码中如何以及何时使用子代理\n\n在 Claude 代码中如何以及何时使用子代理\nClaude 代码子代理实用指南：何时使用、如何有效指导，以及判断是否值得授权的信号。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/claude代码中的子代理\nClaude 代码\n擅长处理复杂、多步骤的项目，但长时间工作容易让人感到疲惫。每一次文件的阅读，每一条思路的延伸，每一个未完成的念头，都停留在意识流中。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
           "date": "2026-04-07"
         }
       ]
@@ -88,7 +133,7 @@
           "url": "https://claude.com/blog/harnessing-claudes-intelligence",
           "title_en": "Harnessing Claude’s intelligence",
           "title_zh": "Harnessing Claude’s intelligence",
-          "summary_zh": "【机器翻译摘要】\n利用 Claude 的智慧\n\n利用 Claude 的智慧\n构建平衡智能、延迟和成本的应用程序。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月2日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 利用-claudes-intelligence\nAnthropic 的联合创始人之一Chris Olah，\n说\n像 Claude 这样的人工智能生成系统的增长超过了它们的构建。研究人员设定了指导增长的条件，但出现的确切结构或能力并不总是可预测的。",
+          "summary_zh": "【机器翻译摘要】\n利用Claude的智能\n\n利用Claude的智能\n构建在智能、延迟和成本之间取得平衡的应用程序。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月2日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/利用Claude的智能\nAnthropic 的联合创始人之一，克里斯·奥拉，\n说\n生成式人工智能系统，比如Claude，更多的是“培养”出来的，而非“构建”出来的。研究人员设定条件以引导生长，但最终出现的具体结构或功能并不总是可预测的。",
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-02"
@@ -111,10 +156,38 @@
           "url": "https://www.anthropic.com/research/how-australia-uses-claude",
           "title_en": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
           "title_zh": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
-          "summary_zh": "【机器翻译摘要】\n澳大利亚如何使用Claude：来自Anthropic经济指数的发现\n\n经济研究\n澳大利亚如何使用Claude：来自Anthropic经济指数的发现\n2026年3月31日\nAnthropic 正在拓展至澳大利亚。我们正在开业一个\n新办公室\n在悉尼的接下来几周内，我们已经签署了一份……\n谅解备忘录\n与澳大利亚政府合作开展人工智能安全研究，并支持澳大利亚国家人工智能战略的目标。为庆祝这一时刻，我们决定深入探讨澳大利亚人是如何使用Claude的。\n主要调查结果\n澳大利亚位居领先地位之一。",
+          "summary_zh": "[阿里云翻译失败: {'message': \"HTTPSConnectionPool(host='mt.aliyuncs.com', port=443): Read timed out. (read timeout=10.0)\"}]",
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-03-31"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/claude-platform-compliance-api",
+          "title_en": "Audit Claude Platform activity with the Compliance API",
+          "title_zh": "Audit Claude Platform activity with the Compliance API",
+          "summary_zh": "【机器翻译摘要】\n使用合规API审计Claude平台活动\n\n使用合规API审计Claude平台活动\n合规性 API 为管理员提供了对其 Claude 平台组织中审计日志的程序化访问权限。\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年3月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/claude-platform-compliance-api\n使用合规API审计Claude平台活动\n合规性API现已在Claude平台上可用，使管理员能够以编程方式访问跨t的审计日志。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-03-30"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+          "title_en": "Claude Code auto mode: a safer way to skip permissions",
+          "title_zh": "Claude Code auto mode: a safer way to skip permissions",
+          "summary_zh": "【机器翻译摘要】\nClaude 代码自动模式：一种更安全的跳过权限请求的方式\n\n默认情况下，Claude Code会在执行命令或修改文件之前请求用户批准。这能保障用户的安全，但也意味着需要频繁点击“同意”。长此以往，就会产生审批乏力，人们不再密切关注自己所审批的内容。\n用户有两种解决方案来避免这种乏力：一个内置的沙箱，其中工具被隔离以防止危险操作，或者\n--危险地跳过权限检查\n用于禁用所有权限提示的标志，允许Claude直接执行操作。",
+          "source": "Engineering Blog",
+          "source_key": "engineering",
+          "date": "2026-03-25"
         }
       ]
     },
@@ -128,6 +201,24 @@
           "summary_zh": "【机器翻译摘要】\nAnthropic 经济指数报告：学习曲线\n\n经济研究\nAnthropic 经济指数报告：学习曲线\n2026年3月24日\n以PDF格式阅读\nAnthropic 经济指数采用我们的隐私保护数据分析。\n系统\n以跟踪Claude在整个经济中的使用情况。这是我们尽早了解人工智能经济影响的一项举措，以便研究人员和政策制定者有充足的时间做好准备。\n本最新报告研究2026年2月Claude的使用情况，基于我们在……中提出的经济原语框架。",
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
+          "date": "2026-03-24"
+        },
+        {
+          "url": "https://claude.com/blog/auto-mode",
+          "title_en": "Auto mode for Claude Code",
+          "title_zh": "Auto mode for Claude Code",
+          "summary_zh": "【机器翻译摘要】\nClaude 代码的自动模式\n\nClaude 代码的自动模式\n自动模式提供了一种比……更安全、可长时间运行的替代方案。\n--危险地跳过权限检查\n。\n类别\nClaude 代码\n产品公告\n产品\nClaude 代码\n日期\n2026年3月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/自动模式\n今天，我们推出了自动模式——Claude 代码中的一种全新权限模式。在该模式下，Claude 会代表您做出权限决策，并在操作执行前通过安全机制对其进行监控。它现在作为团队中的研究预览版可用。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-03-24"
+        },
+        {
+          "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+          "title_en": "Harness design for long-running application development",
+          "title_zh": "Harness design for long-running application development",
+          "summary_zh": "【机器翻译摘要】\n面向长时运行应用开发的框架设计\n\n由我们团队成员普里特维·拉贾塞卡兰撰写，\n实验室\n团队。\n过去几个月里，我一直致力于解决两个相互关联的问题：让Claude生成高质量的前端设计，以及让它在无需人工干预的情况下构建完整的应用。这项工作源于我们此前的相关努力。\n前端设计技能\n和\n长期运行的编码代理框架\n，在那里我和我的同事通过提示工程将Claude的性能大幅提升，远远超过基线水平。",
+          "source": "Engineering Blog",
+          "source_key": "engineering",
           "date": "2026-03-24"
         }
       ]
@@ -161,6 +252,43 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-03-23"
+        },
+        {
+          "url": "https://claude.com/blog/dispatch-and-computer-use",
+          "title_en": "Put Claude to work on your computer",
+          "title_zh": "Put Claude to work on your computer",
+          "summary_zh": "【机器翻译摘要】\n让Claude在你的电脑上工作\n\n让Claude在你的电脑上工作\n在 Claude 协作和 Claude 编码中，Claude 可以使用您的电脑进行指向、单击并完成任务。Dispatch允许你通过手机为他们分配任务。\n类别\n产品公告\n产品\nClaude 个应用\nClaude 代码\n日期\n2026年3月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/调度与计算机使用\n在Claude协作和Claude代码中，您现在可以启用Claude，以使用您的电脑来完成任务。当Claude无法访问其所需的工具时，n",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-03-23"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/product-management-on-the-ai-exponential",
+          "title_en": "Product management on the AI exponential",
+          "title_zh": "Product management on the AI exponential",
+          "summary_zh": "【机器翻译摘要】\n人工智能exponential时代的产品管理\n\n人工智能exponential时代的产品管理\nClaude Code的产品负责人Cat Wu分享了在模型智能快速演进的背景下，产品管理团队如何调整工作流程和产品路线图。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年3月19日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/人工智能指数级增长下的产品管理\n自从\nClaude Sonnet 3.5（新）\n2024年10月，我养成了一个习惯：每次遇到新模型，都会通过调用Claude代码（公司内部工具）来进行测试。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-03-19"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo",
+          "title_en": "Code with Claude comes to San Francisco, London, and Tokyo",
+          "title_zh": "Code with Claude comes to San Francisco, London, and Tokyo",
+          "summary_zh": "【机器翻译摘要】\n由Claude编写的代码将登陆旧金山、伦敦和东京。\n\n由Claude编写的代码将登陆旧金山、伦敦和东京。\n技术专场、新功能现场演示以及与Anthropic工程师的答疑时间——您可以在线观看，也可申请参会。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年3月18日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/与Claude一起编程-旧金山-伦敦-东京\nAnthropic的开发者大会，\n使用Claude编写代码\n，今年春天将扩展到三个城市。继去年在旧金山上线后，我们也在引入……",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-03-18"
         }
       ]
     }
@@ -180,134 +308,116 @@
         "date": "2026-03-31"
       },
       {
-        "url": "https://www.anthropic.com/news/claude-opus-4-5",
-        "title": "claude-opus-4-5",
-        "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-03-13"
-      },
-      {
         "url": "https://www.anthropic.com/news/claude-partner-network",
-        "title": "claude-partner-network",
+        "title": "Anthropic invests $100 million into the Claude Partner Network",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-03-12"
       },
       {
-        "url": "https://www.anthropic.com/news/claude-opus-4-6",
-        "title": "claude-opus-4-6",
-        "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-03-11"
-      },
-      {
-        "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
-        "title": "claude-sonnet-4-6",
+        "url": "https://www.anthropic.com/news/the-anthropic-institute",
+        "title": "Introducing The Anthropic Institute",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-03-11"
       },
       {
         "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
-        "title": "sydney-fourth-office-asia-pacific",
+        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
         "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-03-11"
-      },
-      {
-        "url": "https://www.anthropic.com/news/the-anthropic-institute",
-        "title": "the-anthropic-institute",
-        "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-03-11"
+        "date": "2026-03-10"
       },
       {
         "url": "https://www.anthropic.com/news/mozilla-firefox-security",
-        "title": "mozilla-firefox-security",
+        "title": "Partnering with Mozilla to improve Firefox’s security",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-03-06"
       },
       {
         "url": "https://www.anthropic.com/news/where-stand-department-war",
-        "title": "where-stand-department-war",
+        "title": "Where things stand with the Department of War",
         "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-03-06"
-      },
-      {
-        "url": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
-        "title": "enabling-claude-code-to-work-more-autonomously",
-        "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-03-02"
+        "date": "2026-03-05"
       },
       {
         "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-        "title": "statement-comments-secretary-war",
+        "title": "Statement on the comments from Secretary of War Pete Hegseth",
         "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-02-28"
+        "date": "2026-02-27"
       },
       {
         "url": "https://www.anthropic.com/news/statement-department-of-war",
-        "title": "statement-department-of-war",
+        "title": "Statement from Dario Amodei on our discussions with the Department of War",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-26"
       },
       {
         "url": "https://www.anthropic.com/news/acquires-vercept",
-        "title": "acquires-vercept",
+        "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-25"
       },
       {
         "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
-        "title": "responsible-scaling-policy-v3",
+        "title": "Responsible Scaling Policy Version 3.0",
         "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-02-25"
+        "date": "2026-02-24"
       },
       {
         "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
-        "title": "detecting-and-preventing-distillation-attacks",
+        "title": "Detecting and preventing distillation attacks",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-23"
       },
       {
         "url": "https://www.anthropic.com/news/claude-code-security",
-        "title": "claude-code-security",
+        "title": "Making frontier cybersecurity capabilities available to defenders",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-20"
       },
       {
+        "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+        "title": "Introducing Sonnet 4.6",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-02-17"
+      },
+      {
         "url": "https://www.anthropic.com/news/anthropic-infosys",
-        "title": "anthropic-infosys",
+        "title": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-17"
       },
       {
         "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
-        "title": "anthropic-rwanda-mou",
+        "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-17"
       },
       {
         "url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
-        "title": "bengaluru-office-partnerships-across-india",
+        "title": "Anthropic opens Bengaluru office and announces new partnerships across India",
         "desc": "Anthropic 官方新闻与产品公告",
-        "date": "2026-02-17"
+        "date": "2026-02-16"
       },
       {
         "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
-        "title": "anthropic-codepath-partnership",
+        "title": "Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-13"
       },
       {
         "url": "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
-        "title": "chris-liddell-appointed-anthropic-board",
+        "title": "Chris Liddell appointed to Anthropic’s board of directors",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-13"
       },
       {
         "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-        "title": "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+        "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-12"
       },
       {
         "url": "https://www.anthropic.com/news/donate-public-first-action",
-        "title": "donate-public-first-action",
+        "title": "Anthropic is donating $20 million to Public First Action",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-12"
       },
@@ -322,6 +432,12 @@
         "title": "claude-for-nonprofits",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-02-09"
+      },
+      {
+        "url": "https://www.anthropic.com/news/claude-opus-4-6",
+        "title": "claude-opus-4-6",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-02-05"
       },
       {
         "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
@@ -480,6 +596,12 @@
         "date": "2025-12-02"
       },
       {
+        "url": "https://www.anthropic.com/news/claude-opus-4-5",
+        "title": "claude-opus-4-5",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2025-11-24"
+      },
+      {
         "url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude",
         "title": "anthropic-education-report-how-educators-use-claude",
         "desc": "Anthropic 官方新闻与产品公告",
@@ -628,6 +750,12 @@
         "title": "deloitte-anthropic-partnership",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2025-10-06"
+      },
+      {
+        "url": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
+        "title": "enabling-claude-code-to-work-more-autonomously",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2025-09-29"
       },
       {
         "url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
@@ -1395,57 +1523,45 @@
       },
       {
         "url": "https://www.anthropic.com/research/diff-tool",
-        "title": "diff-tool",
+        "title": "A “diff” tool for AI: Finding behavioral differences in new models",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-13"
       },
       {
         "url": "https://www.anthropic.com/research/labor-market-impacts",
-        "title": "labor-market-impacts",
+        "title": "Labor market impacts of AI: A new measure and early evidence",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-05"
       },
       {
-        "url": "https://www.anthropic.com/research/mapping-mind-language-model",
-        "title": "mapping-mind-language-model",
-        "desc": "Anthropic 研究论文与技术博客",
-        "date": "2026-03-02"
-      },
-      {
         "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
-        "title": "deprecation-updates-opus-3",
+        "title": "An update on our model deprecation commitments for Claude Opus 3",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-02-25"
       },
       {
         "url": "https://www.anthropic.com/research/AI-fluency-index",
-        "title": "AI-fluency-index",
+        "title": "Anthropic Education Report: The AI Fluency Index",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-02-23"
       },
       {
         "url": "https://www.anthropic.com/research/persona-selection-model",
-        "title": "persona-selection-model",
+        "title": "The persona selection model",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-02-23"
       },
       {
-        "url": "https://www.anthropic.com/research/anthropic-interviewer",
-        "title": "anthropic-interviewer",
-        "desc": "Anthropic 研究论文与技术博客",
-        "date": "2026-02-19"
-      },
-      {
         "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
-        "title": "measuring-agent-autonomy",
+        "title": "Measuring AI agent autonomy in practice",
         "desc": "Anthropic 研究论文与技术博客",
-        "date": "2026-02-19"
+        "date": "2026-02-18"
       },
       {
         "url": "https://www.anthropic.com/research/india-brief-economic-index",
-        "title": "india-brief-economic-index",
+        "title": "India Country Brief: The Anthropic Economic Index",
         "desc": "Anthropic 研究论文与技术博客",
-        "date": "2026-02-17"
+        "date": "2026-02-16"
       },
       {
         "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
@@ -1518,6 +1634,12 @@
         "title": "economic-research",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-12-05"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-interviewer",
+        "title": "anthropic-interviewer",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-12-04"
       },
       {
         "url": "https://www.anthropic.com/research/prompt-injection-defenses",
@@ -1998,6 +2120,12 @@
         "title": "engineering-challenges-interpretability",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2024-06-13"
+      },
+      {
+        "url": "https://www.anthropic.com/research/mapping-mind-language-model",
+        "title": "mapping-mind-language-model",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2024-05-21"
       },
       {
         "url": "https://www.anthropic.com/research/probes-catch-sleeper-agents",
@@ -2753,103 +2881,103 @@
         "url": "https://red.anthropic.com/2026/mythos-preview/",
         "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2026-04-07"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2026/exploit/",
         "title": "Reverse engineering Claude's CVE-2026-2796 exploit",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2026-03-06"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2026/firefox/",
         "title": "Partnering with Mozilla to improve Firefox’s security",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2026-03-06"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2026/zero-days/",
         "title": "LLM-discovered 0-days",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2026-02-05"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2026/cyber-toolkits-update/",
         "title": "AI Models on Realistic Cyber Ranges",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2026-01-16"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2026/property-based-testing/",
         "title": "Finding Bugs with Claude and Property-based Testing",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2026-01-14"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2026/critical-infrastructure-defense/",
         "title": "Experimenting with AI to Defend Critical Infrastructure",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2026-01-08"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/project-vend-2/",
         "title": "Project Vend: Phase Two",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-12-18"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/smart-contracts/",
         "title": "AI Agents Find Smart Contract Exploits",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-12-01"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/project-fetch/",
         "title": "Project Fetch",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-11-12"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/ai-for-cyber-defenders/",
         "title": "Building AI for Cyber Defenders",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-09-29"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/biorisk/",
         "title": "LLMs and Biorisk",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-09-05"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/nuclear-safeguards/",
         "title": "Developing Nuclear Safeguards for AI",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-08-21"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/cyber-competitions/",
         "title": "Claude Does Cyber Competitions",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-08-09"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/claude-4-cyber/",
         "title": "Cyber Evaluations of Claude 4",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-07-15"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/project-vend/",
         "title": "Project Vend",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-06-27"
+        "date": ""
       },
       {
         "url": "https://red.anthropic.com/2025/cyber-toolkits/",
         "title": "Cyber Toolkits for LLMs",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": "2025-06-13"
+        "date": ""
       }
     ],
     "claude_blog": [
@@ -2860,16 +2988,88 @@
         "date": "2026-04-10"
       },
       {
+        "url": "https://claude.com/blog/seeing-like-an-agent",
+        "title": "Seeing like an agent: how we design tools in Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-10"
+      },
+      {
+        "url": "https://claude.com/blog/multi-agent-coordination-patterns",
+        "title": "Multi-agent coordination patterns: Five approaches and when to use them",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-10"
+      },
+      {
+        "url": "https://claude.com/blog/the-advisor-strategy",
+        "title": "The advisor strategy: Give agents an intelligence boost",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-09"
+      },
+      {
+        "url": "https://claude.com/blog/cowork-for-enterprise",
+        "title": "Making Claude Cowork ready for enterprise",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-09"
+      },
+      {
         "url": "https://claude.com/blog/claude-managed-agents",
         "title": "Claude Managed Agents: get to production 10x faster",
         "desc": "Claude 官方博客（面向用户与企业）",
         "date": "2026-04-08"
       },
       {
+        "url": "https://claude.com/blog/carta-healthcare-clinical-abstractor",
+        "title": "How Carta Healthcare gets AI to reason like a clinical abstractor",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-08"
+      },
+      {
+        "url": "https://claude.com/blog/subagents-in-claude-code",
+        "title": "How and when to use subagents in Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-07"
+      },
+      {
         "url": "https://claude.com/blog/harnessing-claudes-intelligence",
         "title": "Harnessing Claude’s intelligence",
         "desc": "Claude 官方博客（面向用户与企业）",
         "date": "2026-04-02"
+      },
+      {
+        "url": "https://claude.com/blog/claude-platform-compliance-api",
+        "title": "Audit Claude Platform activity with the Compliance API",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-03-30"
+      },
+      {
+        "url": "https://claude.com/blog/auto-mode",
+        "title": "Auto mode for Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-03-24"
+      },
+      {
+        "url": "https://claude.com/blog/dispatch-and-computer-use",
+        "title": "Put Claude to work on your computer",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-03-23"
+      },
+      {
+        "url": "https://claude.com/blog/product-management-on-the-ai-exponential",
+        "title": "Product management on the AI exponential",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-03-19"
+      },
+      {
+        "url": "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo",
+        "title": "Code with Claude comes to San Francisco, London, and Tokyo",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-03-18"
+      },
+      {
+        "url": "https://claude.com/blog/1m-context-ga",
+        "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-03-13"
       },
       {
         "url": "https://claude.com/blog/claude-builds-visuals",
@@ -2913,6 +3113,366 @@
         "desc": "Claude 官方博客（面向用户与企业）",
         "date": "2025-08-25"
       }
+    ],
+    "alignment": [
+      {
+        "url": "https://alignment.anthropic.com/2026/abstractive-red-teaming/",
+        "title": "Abstractive Red-Teaming of Language Model Character",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-03-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/hot-mess-of-ai/",
+        "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-02-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/coding-audit-realism/",
+        "title": "Measuring and improving coding audit realism with deployment resources",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/automated-alignment-agent/",
+        "title": "A3: An Automated Alignment Agent for Safety Finetuning",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/auditbench/",
+        "title": "AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/challenges-hopes/",
+        "title": "3 Challenges and 2 Hopes for the Safety of Unsupervised Elicitation",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/psm/",
+        "title": "The Persona Selection Model: Why AI Assistants might Behave like Humans",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/auditing-overt-saboteur/",
+        "title": "Pre-deployment auditing can catch an overt saboteur",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/petri-v2/",
+        "title": "Petri 2.0: New Scenarios, New Model Comparisons, and Improved Eval-Awareness Mitigations",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/bloom-auto-evals/",
+        "title": "Bloom: an open source tool for automated behavioral evaluations",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/activation-oracles/",
+        "title": "Activation Oracles: Training and Evaluating LLMs as General-Purpose Activation Explainers",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/alignment-faking-mitigations/",
+        "title": "Towards training-time mitigations for alignment faking in RL",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/auditing-mo-replication/",
+        "title": "Open Source Replication of the Auditing Game Model Organism",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
+        "title": "Anthropic Fellows Program 2026",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/selective-gradient-masking/",
+        "title": "Beyond Data Filtering: Knowledge Localization for Capability Removal in LLMs",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/honesty-elicitation/",
+        "title": "Evaluating honesty and lie detection techniques on a diverse suite dishonest models",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/strengthening-red-teams/",
+        "title": "Strengthening Red Teams: A Modular Scaffold for Control Evaluations",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/sabotage-risk-report/",
+        "title": "Anthropic's Pilot Sabotage Risk Report",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/stress-testing-model-specs/",
+        "title": "Stress-testing model specs reveals character differences among language models",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/believe-it-or-not/",
+        "title": "Believe It or Not: How Deeply do LLMs Believe Implanted Facts?",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/inoculation-prompting/",
+        "title": "Inoculation Prompting: Instructing LLMs to misbehave at train-time improves test-time alignment",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/subtle-reasoning/",
+        "title": "Training fails to elicit subtle reasoning in current language models",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/petri/",
+        "title": "Petri: An open-source auditing tool to accelerate AI safety research",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/openai-findings/",
+        "title": "Findings from a Pilot Anthropic–OpenAI Alignment Evaluation Exercise",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/pretraining-data-filtering/",
+        "title": "Enhancing Model Safety through Pretraining Data Filtering",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/automated-auditing/",
+        "title": "Building and evaluating alignment auditing agents",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/subliminal-learning/",
+        "title": "Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/inverse-scaling/",
+        "title": "Inverse Scaling in Test-Time Compute",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/cheap-monitors/",
+        "title": "Model-Internals Classifiers",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/unsupervised-elicitation/",
+        "title": "Unsupervised Elicitation",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/modifying-beliefs-via-sdf/",
+        "title": "Modifying LLM Beliefs with Synthetic Document Finetuning",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/bumpers/",
+        "title": "Putting up Bumpers",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/alignment-faking-revisited/",
+        "title": "Alignment Faking Revisited: Improved Classifiers and Open Source Extensions",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/distill-paraphrases/",
+        "title": "Do reasoning models use their scratchpad like we do? Evidence from distilling paraphrases",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/automated-researchers-sandbag/",
+        "title": "Automated Researchers Can Subtly Sandbag",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2025/wont-vs-cant/",
+        "title": "Won't vs. Can't: Sandbagging-like Behavior from Claude Models",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2025-01-01"
+      }
+    ],
+    "engineering": [
+      {
+        "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+        "title": "Claude Code auto mode: a safer way to skip permissions",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-03-25"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+        "title": "Harness design for long-running application development",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-03-24"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+        "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-03-06"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/building-c-compiler",
+        "title": "Building a C compiler with a team of parallel Claudes",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-02-05"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
+        "title": "Designing AI-resistant technical evaluations",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-01-21"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+        "title": "Demystifying evals for AI agents",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-01-09"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+        "title": "Effective harnesses for long-running agents",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-11-26"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+        "title": "Introducing advanced tool use on the Claude Developer Platform",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-11-24"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+        "title": "Code execution with MCP: Building more efficient agents",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-11-04"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+        "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-10-20"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+        "title": "Effective context engineering for AI agents",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-09-29"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+        "title": "A postmortem of three recent issues",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-09-17"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+        "title": "Writing effective tools for agents — with agents",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-09-11"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/desktop-extensions",
+        "title": "Desktop Extensions: One-click MCP server installation for Claude Desktop",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-06-26"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+        "title": "How we built our multi-agent research system",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-06-13"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+        "title": "Claude Code: Best practices for agentic coding",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-04-18"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/claude-think-tool",
+        "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-03-20"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/swe-bench-sonnet",
+        "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-01-06"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/building-effective-agents",
+        "title": "Building effective agents",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2024-12-19"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/contextual-retrieval",
+        "title": "Introducing Contextual Retrieval",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2024-09-19"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+        "title": "Featured Quantifying infrastructure noise in agentic coding evals Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": ""
+      }
+    ],
+    "references": [
+      {
+        "url": "https://www.anthropic.com/constitution",
+        "title": "Claude's Constitution (Model Spec)",
+        "desc": "Claude 的价值观与行为准则",
+        "date": "2024-05-08"
+      }
     ]
   },
   "archive_order": [
@@ -2920,7 +3480,10 @@
     "anthropic_research",
     "red_team",
     "claude_blog",
+    "alignment",
+    "engineering",
     "cookbook",
-    "transformer_circuits"
+    "transformer_circuits",
+    "references"
   ]
 }
