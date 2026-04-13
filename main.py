@@ -266,12 +266,14 @@ def main():
         f.write(digest)
     print(f"=== 日报已保存到 {output_file} ===")
 
-    # 标记已处理，并补全标题
+    # 标记已处理，并补全标题和真实发布日期
     for a in new_articles:
         url = a["url"]
         index[url]["processed"] = True
         if a.get("title"):
             index[url]["title"] = a["title"]
+        if a.get("date"):
+            index[url]["date"] = a["date"]  # 保存真实发布日期（覆盖 sitemap lastmod）
 
     save_index(index)
     processed_count = sum(1 for v in index.values() if v.get("processed"))

@@ -9,6 +9,8 @@ on:
 jobs:
   fetch-and-build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 允许 bot 推送到仓库
 
     steps:
       - name: 检出代码

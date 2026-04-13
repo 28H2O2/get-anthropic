@@ -6,9 +6,32 @@
 # 项目作用：Anthropic 官网内容的发现层，通过 sitemap 检测新文章
 # 最后修改：2026-04-13
 
+import re
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 from typing import Optional
+
+_MONTH_MAP = {
+    "jan": "01", "feb": "02", "mar": "03", "apr": "04",
+    "may": "05", "jun": "06", "jul": "07", "aug": "08",
+    "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+}
+_DATE_RE = re.compile(
+    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2}),\s+(20\d{2})",
+    re.IGNORECASE,
+)
+
+
+def _parse_text_date(text: str) -> str:
+    """将 'Jan 11, 2026' 格式转为 '2026-01-11'，失败返回空字符串"""
+    m = _DATE_RE.search(text)
+    if not m:
+        return ""
+    month = _MONTH_MAP.get(m.group(1).lower(), "")
+    day = m.group(2).zfill(2)
+    year = m.group(3)
+    return f"{year}-{month}-{day}" if month else ""
 
 SITEMAP_URL = "https://www.anthropic.com/sitemap.xml"
 HEADERS = {
@@ -80,11 +103,18 @@ def fetch_article_content(url: str) -> tuple[Optional[str], str, str]:
         if h1:
             title = h1.get_text(strip=True)
 
-    # 提取真实发布日期（而非 sitemap 的 lastmod，后者是修改日期会误判为新文章）
+    # 提取真实发布日期（Anthropic 页面无 meta 标签，日期在 div.body-3.agate 文本里）
     pub_date = ""
-    pub_time_tag = soup.find("meta", property="article:published_time")
-    if pub_time_tag and pub_time_tag.get("content"):
-        pub_date = pub_time_tag["content"][:10]
+    # 优先：div.body-3.agate 文本，例如 "Jan 11, 2026"
+    date_div = soup.find("div", class_=lambda c: c and "body-3" in c and "agate" in c)
+    if date_div:
+        pub_date = _parse_text_date(date_div.get_text())
+    # 备选：article:published_time meta
+    if not pub_date:
+        pub_time_tag = soup.find("meta", property="article:published_time")
+        if pub_time_tag and pub_time_tag.get("content"):
+            pub_date = pub_time_tag["content"][:10]
+    # 备选：<time datetime>
     if not pub_date:
         time_el = soup.find("time", attrs={"datetime": True})
         if time_el:
