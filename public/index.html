@@ -348,6 +348,17 @@
       flex-shrink: 0;
     }
 
+    .archive-group-title a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .archive-group-title a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
     .dot-news        { background: var(--accent); }
     .dot-research    { background: #2563eb; }
     .dot-cookbook    { background: #16a34a; }
@@ -493,6 +504,15 @@
     claude_blog:          'Claude Blog',
   };
 
+  const SOURCE_URL = {
+    anthropic_news:       'https://www.anthropic.com/news',
+    anthropic_research:   'https://www.anthropic.com/research',
+    cookbook:             'https://platform.claude.com/cookbook',
+    transformer_circuits: 'https://transformer-circuits.pub',
+    red_team:             'https://red.anthropic.com',
+    claude_blog:          'https://claude.com/blog',
+  };
+
   const CARD_ACCENT = {
     anthropic_news:       'card-news',
     anthropic_research:   'card-anthropic_research',
@@ -569,7 +589,9 @@
   <div class="archive-group-meta">
     <div class="archive-group-title">
       <span class="dot ${esc(DOT_CLASS[key] || 'dot-news')}"></span>
-      ${esc(title)}
+      ${SOURCE_URL[key]
+        ? `<a href="${esc(SOURCE_URL[key])}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>`
+        : esc(title)}
     </div>
     <p class="archive-desc">${esc(desc)}</p>
   </div>

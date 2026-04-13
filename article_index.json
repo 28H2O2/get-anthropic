@@ -2635,103 +2635,103 @@
   },
   "https://red.anthropic.com/2026/mythos-preview/": {
     "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
-    "date": "",
+    "date": "2026-04-07",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2026/exploit/": {
     "title": "Reverse engineering Claude's CVE-2026-2796 exploit",
-    "date": "",
+    "date": "2026-03-06",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2026/firefox/": {
     "title": "Partnering with Mozilla to improve Firefox’s security",
-    "date": "",
+    "date": "2026-03-06",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2026/zero-days/": {
     "title": "LLM-discovered 0-days",
-    "date": "",
+    "date": "2026-02-05",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2026/cyber-toolkits-update/": {
     "title": "AI Models on Realistic Cyber Ranges",
-    "date": "",
+    "date": "2026-01-16",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2026/property-based-testing/": {
     "title": "Finding Bugs with Claude and Property-based Testing",
-    "date": "",
+    "date": "2026-01-14",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2026/critical-infrastructure-defense/": {
     "title": "Experimenting with AI to Defend Critical Infrastructure",
-    "date": "",
+    "date": "2026-01-08",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/project-vend-2/": {
     "title": "Project Vend: Phase Two",
-    "date": "",
+    "date": "2025-12-18",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/smart-contracts/": {
     "title": "AI Agents Find Smart Contract Exploits",
-    "date": "",
+    "date": "2025-12-01",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/project-fetch/": {
     "title": "Project Fetch",
-    "date": "",
+    "date": "2025-11-12",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/ai-for-cyber-defenders/": {
     "title": "Building AI for Cyber Defenders",
-    "date": "",
+    "date": "2025-09-29",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/biorisk/": {
     "title": "LLMs and Biorisk",
-    "date": "",
+    "date": "2025-09-05",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/nuclear-safeguards/": {
     "title": "Developing Nuclear Safeguards for AI",
-    "date": "",
+    "date": "2025-08-21",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/cyber-competitions/": {
     "title": "Claude Does Cyber Competitions",
-    "date": "",
+    "date": "2025-08-09",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/claude-4-cyber/": {
     "title": "Cyber Evaluations of Claude 4",
-    "date": "",
+    "date": "2025-07-15",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/project-vend/": {
     "title": "Project Vend",
-    "date": "",
+    "date": "2025-06-27",
     "source": "red_team",
     "processed": true
   },
   "https://red.anthropic.com/2025/cyber-toolkits/": {
     "title": "Cyber Toolkits for LLMs",
-    "date": "",
+    "date": "2025-06-13",
     "source": "red_team",
     "processed": true
   }

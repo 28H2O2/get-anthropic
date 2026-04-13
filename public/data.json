@@ -45,6 +45,20 @@
       ]
     },
     {
+      "date": "2026-04-07",
+      "articles": [
+        {
+          "url": "https://red.anthropic.com/2026/mythos-preview/",
+          "title_en": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
+          "title_zh": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
+          "summary_zh": "",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-04-07"
+        }
+      ]
+    },
+    {
       "date": "2026-04-06",
       "articles": [
         {
@@ -2739,103 +2753,103 @@
         "url": "https://red.anthropic.com/2026/mythos-preview/",
         "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-04-07"
       },
       {
         "url": "https://red.anthropic.com/2026/exploit/",
         "title": "Reverse engineering Claude's CVE-2026-2796 exploit",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-03-06"
       },
       {
         "url": "https://red.anthropic.com/2026/firefox/",
         "title": "Partnering with Mozilla to improve Firefox’s security",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-03-06"
       },
       {
         "url": "https://red.anthropic.com/2026/zero-days/",
         "title": "LLM-discovered 0-days",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-02-05"
       },
       {
         "url": "https://red.anthropic.com/2026/cyber-toolkits-update/",
         "title": "AI Models on Realistic Cyber Ranges",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-01-16"
       },
       {
         "url": "https://red.anthropic.com/2026/property-based-testing/",
         "title": "Finding Bugs with Claude and Property-based Testing",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-01-14"
       },
       {
         "url": "https://red.anthropic.com/2026/critical-infrastructure-defense/",
         "title": "Experimenting with AI to Defend Critical Infrastructure",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-01-08"
       },
       {
         "url": "https://red.anthropic.com/2025/project-vend-2/",
         "title": "Project Vend: Phase Two",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-12-18"
       },
       {
         "url": "https://red.anthropic.com/2025/smart-contracts/",
         "title": "AI Agents Find Smart Contract Exploits",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-12-01"
       },
       {
         "url": "https://red.anthropic.com/2025/project-fetch/",
         "title": "Project Fetch",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-11-12"
       },
       {
         "url": "https://red.anthropic.com/2025/ai-for-cyber-defenders/",
         "title": "Building AI for Cyber Defenders",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-09-29"
       },
       {
         "url": "https://red.anthropic.com/2025/biorisk/",
         "title": "LLMs and Biorisk",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-09-05"
       },
       {
         "url": "https://red.anthropic.com/2025/nuclear-safeguards/",
         "title": "Developing Nuclear Safeguards for AI",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-08-21"
       },
       {
         "url": "https://red.anthropic.com/2025/cyber-competitions/",
         "title": "Claude Does Cyber Competitions",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-08-09"
       },
       {
         "url": "https://red.anthropic.com/2025/claude-4-cyber/",
         "title": "Cyber Evaluations of Claude 4",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-07-15"
       },
       {
         "url": "https://red.anthropic.com/2025/project-vend/",
         "title": "Project Vend",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-06-27"
       },
       {
         "url": "https://red.anthropic.com/2025/cyber-toolkits/",
         "title": "Cyber Toolkits for LLMs",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-06-13"
       }
     ],
     "claude_blog": [
