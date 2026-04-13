@@ -22,6 +22,7 @@
       --res-bg:     #eff6ff; --res-text:     #1d4ed8;
       --cook-bg:    #f0fdf4; --cook-text:    #15803d;
       --trans-bg:   #faf5ff; --trans-text:   #7e22ce;
+      --red-bg:     #fff1f2; --red-text:     #be123c;
 
       --font-sans:  "PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
       --font-serif: Georgia,"Palatino Linotype","Times New Roman",serif;
@@ -201,6 +202,7 @@
     .card-anthropic_research::after  { background: linear-gradient(90deg, #1d4ed8, #60a5fa); }
     .card-cookbook::after     { background: linear-gradient(90deg, #15803d, #4ade80); }
     .card-transformer_circuits::after { background: linear-gradient(90deg, #7e22ce, #c084fc); }
+    .card-red_team::after     { background: linear-gradient(90deg, #be123c, #fb7185); }
 
     .card-header {
       display: flex;
@@ -244,6 +246,7 @@
     .tag-anthropic_research  { background: var(--res-bg);   color: var(--res-text);  }
     .tag-cookbook            { background: var(--cook-bg);  color: var(--cook-text); }
     .tag-transformer_circuits{ background: var(--trans-bg); color: var(--trans-text);}
+    .tag-red_team            { background: var(--red-bg);   color: var(--red-text);  }
 
     .card-summary {
       font-size: 0.8rem;
@@ -310,15 +313,27 @@
     }
 
     .archive-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.75rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
     }
+
+    .archive-group {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 0 2rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .archive-group:last-child { border-bottom: none; padding-bottom: 0; }
+
+    .archive-group-meta { padding-top: 0.1rem; }
 
     .archive-group-title {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.45rem;
       font-size: 0.72rem;
       font-weight: 700;
       text-transform: uppercase;
@@ -337,21 +352,20 @@
     .dot-research    { background: #2563eb; }
     .dot-cookbook    { background: #16a34a; }
     .dot-transformer { background: #9333ea; }
+    .dot-red         { background: #be123c; }
 
     .archive-desc {
-      font-size: 0.73rem;
+      font-size: 0.72rem;
       color: var(--text-3);
-      margin-bottom: 0.75rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px solid var(--border);
+      line-height: 1.5;
     }
 
     .archive-list {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 0.35rem;
-      max-height: 240px;
+      gap: 0.3rem;
+      max-height: 200px;
       overflow-y: auto;
       padding-right: 4px;
     }
@@ -466,6 +480,17 @@
     anthropic_research:   'dot-research',
     cookbook:             'dot-cookbook',
     transformer_circuits: 'dot-transformer',
+    red_team:             'dot-red',
+    claude_blog:          'dot-news',
+  };
+
+  const SOURCE_TITLE = {
+    anthropic_news:       'Anthropic News',
+    anthropic_research:   'Anthropic Research',
+    cookbook:             'Claude Cookbook',
+    transformer_circuits: 'Transformer Circuits',
+    red_team:             'Red Team',
+    claude_blog:          'Claude Blog',
   };
 
   const CARD_ACCENT = {
@@ -473,14 +498,9 @@
     anthropic_research:   'card-anthropic_research',
     cookbook:             'card-cookbook',
     transformer_circuits: 'card-transformer_circuits',
+    red_team:             'card-red_team',
+    claude_blog:          'card-news',
   };
-
-  const ARCHIVE_ORDER = [
-    'anthropic_news',
-    'anthropic_research',
-    'cookbook',
-    'transformer_circuits',
-  ];
 
   function esc(str) {
     return String(str)
@@ -535,26 +555,24 @@
     }).join('');
   }
 
-  function archiveHtml(allUrls) {
-    return ARCHIVE_ORDER.map(key => {
+  function archiveHtml(allUrls, orderArr) {
+    const order = orderArr || Object.keys(allUrls);
+    return order.filter(k => allUrls[k] && allUrls[k].length).map(key => {
       const items = allUrls[key] || [];
       const desc  = items[0] ? items[0].desc : '';
-      const title = {
-        anthropic_news:       'Anthropic News',
-        anthropic_research:   'Anthropic Research',
-        cookbook:             'Claude Cookbook',
-        transformer_circuits: 'Transformer Circuits',
-      }[key] || key;
+      const title = SOURCE_TITLE[key] || key;
       const links = items.map(it =>
         `<li><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title || it.url)}</a>${it.date ? `<span class="archive-date">${esc(it.date)}</span>` : ''}</li>`
       ).join('');
       return `
 <div class="archive-group">
-  <div class="archive-group-title">
-    <span class="dot ${esc(DOT_CLASS[key] || '')}"></span>
-    ${esc(title)}
+  <div class="archive-group-meta">
+    <div class="archive-group-title">
+      <span class="dot ${esc(DOT_CLASS[key] || 'dot-news')}"></span>
+      ${esc(title)}
+    </div>
+    <p class="archive-desc">${esc(desc)}</p>
   </div>
-  <p class="archive-desc">${esc(desc)}</p>
   <ul class="archive-list">${links || '<li>暂无数据</li>'}</ul>
 </div>`;
     }).join('');
@@ -575,7 +593,7 @@
         digestsHtml(data.digests) +
         `<div class="archive-section">
            <h2 class="archive-heading">全部引用链接</h2>
-           <div class="archive-grid">${archiveHtml(data.all_urls || {})}</div>
+           <div class="archive-grid">${archiveHtml(data.all_urls || {}, data.archive_order)}</div>
          </div>`;
 
     } catch (err) {

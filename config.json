@@ -7,6 +7,8 @@
     "anthropic_news": true,
     "anthropic_research": true,
     "cookbook": true,
-    "transformer_circuits": true
+    "transformer_circuits": true,
+    "red_team": true,
+    "claude_blog": true
   }
 }

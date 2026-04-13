@@ -23,6 +23,8 @@ SOURCE_LABELS = {
     "anthropic_research": "Anthropic Research",
     "cookbook": "Claude Cookbook",
     "transformer_circuits": "Transformer Circuits",
+    "red_team": "Red Team",
+    "claude_blog": "Claude Blog",
 }
 
 SOURCE_DESC = {
@@ -30,6 +32,8 @@ SOURCE_DESC = {
     "anthropic_research": "Anthropic 研究论文与技术博客",
     "cookbook": "Claude 官方开发示例与教程",
     "transformer_circuits": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+    "red_team": "Anthropic 红队安全研究（red.anthropic.com）",
+    "claude_blog": "Claude 官方博客（面向用户与企业）",
 }
 
 LOOKBACK_DAYS = 30
@@ -97,6 +101,7 @@ def build():
     # 按日期分组，只取近 LOOKBACK_DAYS 天有真实日期的文章
     days: dict[str, list] = {}
     all_urls_by_source: dict[str, list] = {k: [] for k in SOURCE_LABELS}
+    ARCHIVE_ORDER = ["anthropic_news", "anthropic_research", "red_team", "claude_blog", "cookbook", "transformer_circuits"]
 
     for url, meta in index.items():
         source = meta.get("source", "")
@@ -141,6 +146,7 @@ def build():
         "lookback_days": LOOKBACK_DAYS,
         "digests": digests,
         "all_urls": all_urls_by_source,
+        "archive_order": ARCHIVE_ORDER,
     }
 
     PUBLIC_DIR.mkdir(exist_ok=True)

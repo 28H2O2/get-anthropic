@@ -23,7 +23,7 @@ import argparse
 from datetime import date, timedelta
 from pathlib import Path
 
-from fetchers import anthropic_blog, cookbook, transformer
+from fetchers import anthropic_blog, cookbook, transformer, red_team, claude_blog
 from translator import translate
 
 BASE_DIR = Path(__file__).parent
@@ -71,6 +71,12 @@ def fetch_all_articles(config: dict) -> list[dict]:
     if sources.get("transformer_circuits"):
         articles.extend(transformer.fetch_article_list())
 
+    if sources.get("red_team"):
+        articles.extend(red_team.fetch_article_list())
+
+    if sources.get("claude_blog"):
+        articles.extend(claude_blog.fetch_article_list())
+
     return articles
 
 
@@ -98,6 +104,37 @@ def fetch_content(article: dict, since_str: str, today_str: str) -> str:
                 print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
                 return ""
         return content or ""
+    elif source == "red_team":
+        if article.get("description"):
+            # 首页有 description 时优先用于翻译，同时补充日期
+            content, title, pub_date = red_team.fetch_article_content(url)
+            if title and not article.get("title"):
+                article["title"] = title
+            if pub_date:
+                article["date"] = pub_date
+                if not (since_str <= pub_date <= today_str):
+                    print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
+                    return ""
+            return article["description"]
+        content, title, pub_date = red_team.fetch_article_content(url)
+        if title and not article.get("title"):
+            article["title"] = title
+        if pub_date:
+            article["date"] = pub_date
+            if not (since_str <= pub_date <= today_str):
+                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
+                return ""
+        return content or ""
+    elif source == "claude_blog":
+        content, title, pub_date = claude_blog.fetch_article_content(url)
+        if title and not article.get("title"):
+            article["title"] = title
+        if pub_date:
+            article["date"] = pub_date
+            if not (since_str <= pub_date <= today_str):
+                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
+                return ""
+        return content or ""
     elif source == "cookbook":
         return cookbook.fetch_article_content(url) or ""
     elif source == "transformer_circuits":
@@ -110,6 +147,8 @@ SOURCE_LABELS = {
     "anthropic_research": "Anthropic Research",
     "cookbook": "Claude Cookbook",
     "transformer_circuits": "Transformer Circuits",
+    "red_team": "Red Team",
+    "claude_blog": "Claude Blog",
 }
 
 
