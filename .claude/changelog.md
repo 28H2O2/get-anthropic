@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-04-13（修复 is_new 日期误判 + 补翻 claude_blog 缺失摘要）
+
+### 修复 `is_new()` 使用 sitemap lastmod 导致旧文章反复出现
+- `main.py`：`is_new()` 改为优先读取 `index[url]["date"]`（已修正的真实日期），而非 sitemap 返回的 `lastmod`
+- `main.py`：翻译循环结束后，对所有 `new_articles`（含跳过的）都将真实日期回写 index，防止下次再被误判
+
+### 补翻 3 篇缺摘要的 claude_blog 文章
+- 运行 `python3 main.py --lookback 30` 成功翻译：
+  - Preparing your security program for AI-accelerated offense (2026-04-10)
+  - Claude Managed Agents: get to production 10x faster (2026-04-08)
+  - Harnessing Claude's intelligence (2026-04-02)
+- 重新生成 `public/data.json`
+
+---
+
 ## 2026-04-13（Vercel 部署 + 日期修复）
 
 ### 修复文章日期错误（sitemap lastmod → 真实发布时间）

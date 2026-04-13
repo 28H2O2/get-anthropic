@@ -269,7 +269,8 @@ def main():
 
     def is_new(a: dict) -> bool:
         url = a["url"]
-        art_date = a.get("date", "")
+        # 优先使用 index 中已修正的日期（避免 sitemap lastmod 误判为新文章）
+        art_date = index.get(url, {}).get("date") or a.get("date", "")
 
         if not args.force and index.get(url, {}).get("processed"):
             return False   # 已处理过
@@ -320,6 +321,12 @@ def main():
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(digest)
         print(f"=== 日报已保存到 {output_file} ===")
+
+    # 保存所有 new_articles 的真实日期到 index（包括被跳过的），防止下次 sitemap lastmod 误判
+    for a in new_articles:
+        url = a["url"]
+        if a.get("date"):
+            index[url]["date"] = a["date"]
 
     # 只标记实际翻译成功的文章为已处理（跳过的不标记，下次运行可重试）
     for a in actually_processed:
