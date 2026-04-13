@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-04-13（Vercel 部署 + 日期修复）
+
+### 修复文章日期错误（sitemap lastmod → 真实发布时间）
+- `fetchers/anthropic_blog.py`：`fetch_article_content` 改为返回 `(content, title, pub_date)` 三元组，pub_date 从 `<meta property="article:published_time">` 或 `<time datetime>` 提取
+- `main.py`：获取内容后用真实发布日期覆盖 sitemap lastmod；若真实日期超出 lookback 窗口则跳过该文章
+
+### 新增 Vercel 静态站部署
+- `build_data.py`：将 `article_index.json` + `output/*/digest.md` 合并为 `public/data.json`（前端数据源）
+- `public/index.html`：中文前端，按日期展示近 14 天文章，含英文/中文标题、中文摘要、全量链接归档
+- `.github/workflows/daily-fetch.yml`：每天 23:30 UTC（北京时间 07:30）自动抓取 + 翻译 + 生成数据 + 推送（触发 Vercel 重新部署）
+- `vercel.json`：静态站配置，输出目录指向 `public/`
+- `.gitignore`：忽略 `.env`、日志、Python 缓存等敏感/临时文件
+- 停止本地 crontab，改由 GitHub Actions 托管定时任务
+
+### 仓库
+- GitHub：https://github.com/28H2O2/get-anthropic
+
+---
+
 ## 2026-04-10（第二次更新）
 
 ### 修复日报只显示近期文章 + 维护文章总索引
