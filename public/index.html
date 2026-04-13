@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthropic 资讯日报</title>
+  <style>
+    :root {
+      --bg:           #f7f5f2;
+      --bg-card:      #fffefb;
+      --bg-archive:   #f0ede8;
+      --text:         #1c1917;
+      --text-2:       #57534e;
+      --text-3:       #a8a29e;
+      --border:       #e2ddd8;
+      --border-hover: #c9c3bb;
+      --accent:       #c2410c;
+      --accent-light: #fff7ed;
+      --accent-mid:   #ea580c;
+
+      --news-bg:    #fff7ed; --news-text:    #9a3412;
+      --res-bg:     #eff6ff; --res-text:     #1d4ed8;
+      --cook-bg:    #f0fdf4; --cook-text:    #15803d;
+      --trans-bg:   #faf5ff; --trans-text:   #7e22ce;
+
+      --font-sans:  "PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+      --font-serif: Georgia,"Palatino Linotype","Times New Roman",serif;
+      --radius:     10px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── top accent bar ── */
+    body::before {
+      content: '';
+      display: block;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent) 0%, var(--accent-mid) 50%, #fbbf24 100%);
+    }
+
+    /* ── header ── */
+    .site-header {
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    .header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 1.1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .header-left { display: flex; align-items: baseline; gap: 0.75rem; }
+
+    .site-title {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: normal;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    .site-title .brand { color: var(--accent); }
+
+    .site-sub {
+      font-size: 0.75rem;
+      color: var(--text-3);
+      letter-spacing: 0.01em;
+    }
+
+    .header-meta {
+      font-size: 0.75rem;
+      color: var(--text-3);
+      text-align: right;
+      line-height: 1.5;
+    }
+
+    .header-meta strong {
+      display: block;
+      color: var(--text-2);
+      font-weight: 500;
+    }
+
+    /* ── main ── */
+    .main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 5rem;
+    }
+
+    /* ── date sections ── */
+    .date-section {
+      margin-bottom: 3rem;
+      opacity: 0;
+      transform: translateY(12px);
+      animation: rise 0.45s ease forwards;
+    }
+    .date-section:nth-child(1) { animation-delay: 0.04s; }
+    .date-section:nth-child(2) { animation-delay: 0.12s; }
+    .date-section:nth-child(3) { animation-delay: 0.20s; }
+    .date-section:nth-child(4) { animation-delay: 0.28s; }
+    .date-section:nth-child(5) { animation-delay: 0.36s; }
+    .date-section:nth-child(n+6) { animation-delay: 0.44s; }
+
+    @keyframes rise {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .date-heading {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .date-pill {
+      display: flex;
+      align-items: baseline;
+      gap: 0.3rem;
+      flex-shrink: 0;
+    }
+
+    .date-year {
+      font-size: 0.72rem;
+      color: var(--text-3);
+      font-family: var(--font-serif);
+    }
+
+    .date-day {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    .date-rule { flex: 1; height: 1px; background: var(--border); }
+
+    .date-count {
+      font-size: 0.7rem;
+      color: var(--text-3);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* ── cards ── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 0.9rem;
+    }
+
+    .article-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.2rem 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      position: relative;
+      overflow: hidden;
+      transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .article-card::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2.5px;
+      transition: opacity 0.2s;
+      opacity: 0.6;
+    }
+
+    .article-card:hover {
+      box-shadow: 0 6px 24px rgba(0,0,0,0.07);
+      transform: translateY(-2px);
+      border-color: var(--border-hover);
+    }
+
+    .article-card:hover::after { opacity: 1; }
+
+    .card-news::after         { background: linear-gradient(90deg, #c2410c, #fb923c); }
+    .card-anthropic_research::after  { background: linear-gradient(90deg, #1d4ed8, #60a5fa); }
+    .card-cookbook::after     { background: linear-gradient(90deg, #15803d, #4ade80); }
+    .card-transformer_circuits::after { background: linear-gradient(90deg, #7e22ce, #c084fc); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.6rem;
+    }
+
+    .card-titles { flex: 1; min-width: 0; }
+
+    .title-en {
+      font-size: 0.875rem;
+      font-weight: 600;
+      line-height: 1.45;
+      color: var(--text);
+      word-break: break-word;
+    }
+
+    .title-zh {
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: var(--text-2);
+      line-height: 1.45;
+      margin-top: 0.25rem;
+      word-break: break-word;
+    }
+
+    .source-tag {
+      display: inline-block;
+      font-size: 0.67rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      padding: 0.18rem 0.5rem;
+      border-radius: 4px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .tag-anthropic_news      { background: var(--news-bg);  color: var(--news-text); }
+    .tag-anthropic_research  { background: var(--res-bg);   color: var(--res-text);  }
+    .tag-cookbook            { background: var(--cook-bg);  color: var(--cook-text); }
+    .tag-transformer_circuits{ background: var(--trans-bg); color: var(--trans-text);}
+
+    .card-summary {
+      font-size: 0.8rem;
+      color: var(--text-2);
+      line-height: 1.7;
+      flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-summary.is-empty {
+      color: var(--text-3);
+      font-style: italic;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 0.6rem;
+      margin-top: auto;
+      border-top: 1px solid var(--border);
+    }
+
+    .read-link {
+      font-size: 0.77rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.2rem;
+      transition: gap 0.18s ease, color 0.18s ease;
+    }
+
+    .read-link:hover { gap: 0.45rem; color: var(--accent-mid); }
+
+    /* ── archive ── */
+    .archive-section {
+      margin-top: 4.5rem;
+      padding: 2.5rem 2rem 2.5rem;
+      background: var(--bg-archive);
+      border-radius: 14px;
+      border: 1px solid var(--border);
+    }
+
+    .archive-heading {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-weight: normal;
+      color: var(--text);
+      margin-bottom: 1.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .archive-heading::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border-hover);
+    }
+
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.75rem 2.5rem;
+    }
+
+    .archive-group-title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-2);
+      margin-bottom: 0.3rem;
+    }
+
+    .archive-group-title .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .dot-news        { background: var(--accent); }
+    .dot-research    { background: #2563eb; }
+    .dot-cookbook    { background: #16a34a; }
+    .dot-transformer { background: #9333ea; }
+
+    .archive-desc {
+      font-size: 0.73rem;
+      color: var(--text-3);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .archive-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      max-height: 240px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .archive-list::-webkit-scrollbar { width: 3px; }
+    .archive-list::-webkit-scrollbar-thumb { background: var(--border-hover); border-radius: 2px; }
+
+    .archive-list li {
+      font-size: 0.76rem;
+      display: flex;
+      gap: 0.4rem;
+      align-items: flex-start;
+      line-height: 1.45;
+    }
+
+    .archive-list li::before {
+      content: '—';
+      color: var(--text-3);
+      flex-shrink: 0;
+      font-size: 0.65rem;
+      margin-top: 2px;
+    }
+
+    .archive-list a {
+      color: var(--text-2);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .archive-list a:hover { color: var(--accent); text-decoration: underline; }
+
+    /* ── footer ── */
+    .site-footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.72rem;
+      color: var(--text-3);
+      letter-spacing: 0.02em;
+    }
+
+    /* ── loading / error ── */
+    .state-msg {
+      text-align: center;
+      padding: 6rem 2rem;
+      color: var(--text-3);
+      font-size: 0.875rem;
+    }
+
+    .state-msg.is-error { color: #b45309; }
+
+    .no-content {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-3);
+      font-size: 0.875rem;
+      font-style: italic;
+    }
+
+    /* ── responsive ── */
+    @media (max-width: 620px) {
+      .header-inner { flex-direction: column; align-items: flex-start; gap: 0.25rem; }
+      .header-meta  { text-align: left; }
+      .main         { padding: 1.75rem 1rem 4rem; }
+      .cards-grid   { grid-template-columns: 1fr; }
+      .archive-grid { grid-template-columns: 1fr; }
+      .archive-section { padding: 1.5rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <h1 class="site-title"><span class="brand">Anthropic</span> 资讯日报</h1>
+      <span class="site-sub">每天自动聚合</span>
+    </div>
+    <div class="header-meta" id="js-header-meta">
+      <strong>加载中…</strong>
+    </div>
+  </div>
+</header>
+
+<main class="main" id="js-main">
+  <div class="state-msg" id="js-loading">正在加载数据…</div>
+</main>
+
+<footer class="site-footer">
+  数据来源：Anthropic 官网 &nbsp;·&nbsp; 自动抓取与翻译
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  const DOT_CLASS = {
+    anthropic_news:       'dot-news',
+    anthropic_research:   'dot-research',
+    cookbook:             'dot-cookbook',
+    transformer_circuits: 'dot-transformer',
+  };
+
+  const CARD_ACCENT = {
+    anthropic_news:       'card-news',
+    anthropic_research:   'card-anthropic_research',
+    cookbook:             'card-cookbook',
+    transformer_circuits: 'card-transformer_circuits',
+  };
+
+  const ARCHIVE_ORDER = [
+    'anthropic_news',
+    'anthropic_research',
+    'cookbook',
+    'transformer_circuits',
+  ];
+
+  function esc(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function fmtDate(s) {
+    // "2026-04-09" → { year:"2026年", day:"04月09日" }
+    const p = s.split('-');
+    return { year: p[0] + '年', day: (p[1] || '') + '月' + (p[2] || '') + '日' };
+  }
+
+  function cardHtml(a) {
+    const sk  = a.source_key || '';
+    const hasZh = a.title_zh && a.title_zh !== a.title_en;
+    const hasSummary = a.summary_zh && a.summary_zh.trim().length > 5;
+    return `
+<article class="article-card ${esc(CARD_ACCENT[sk] || '')}">
+  <div class="card-header">
+    <div class="card-titles">
+      <div class="title-en">${esc(a.title_en)}</div>
+      ${hasZh ? `<div class="title-zh">${esc(a.title_zh)}</div>` : ''}
+    </div>
+    <span class="source-tag tag-${esc(sk)}">${esc(a.source)}</span>
+  </div>
+  <div class="card-summary${hasSummary ? '' : ' is-empty'}">${hasSummary ? esc(a.summary_zh) : '暂无摘要'}</div>
+  <div class="card-footer">
+    <a class="read-link" href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">阅读原文 →</a>
+  </div>
+</article>`;
+  }
+
+  function digestsHtml(digests) {
+    if (!digests || !digests.length) return '<p class="no-content">近期暂无文章</p>';
+    return digests.map(day => {
+      const { year, day: d } = fmtDate(day.date);
+      return `
+<section class="date-section">
+  <div class="date-heading">
+    <div class="date-pill">
+      <span class="date-year">${esc(year)}</span>
+      <span class="date-day">${esc(d)}</span>
+    </div>
+    <div class="date-rule"></div>
+    <span class="date-count">${day.articles.length} 篇</span>
+  </div>
+  <div class="cards-grid">${day.articles.map(cardHtml).join('')}</div>
+</section>`;
+    }).join('');
+  }
+
+  function archiveHtml(allUrls) {
+    return ARCHIVE_ORDER.map(key => {
+      const items = allUrls[key] || [];
+      const desc  = items[0] ? items[0].desc : '';
+      const title = {
+        anthropic_news:       'Anthropic News',
+        anthropic_research:   'Anthropic Research',
+        cookbook:             'Claude Cookbook',
+        transformer_circuits: 'Transformer Circuits',
+      }[key] || key;
+      const links = items.map(it =>
+        `<li><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title || it.url)}</a></li>`
+      ).join('');
+      return `
+<div class="archive-group">
+  <div class="archive-group-title">
+    <span class="dot ${esc(DOT_CLASS[key] || '')}"></span>
+    ${esc(title)}
+  </div>
+  <p class="archive-desc">${esc(desc)}</p>
+  <ul class="archive-list">${links || '<li>暂无数据</li>'}</ul>
+</div>`;
+    }).join('');
+  }
+
+  async function init() {
+    const main     = document.getElementById('js-main');
+    const metaEl   = document.getElementById('js-header-meta');
+
+    try {
+      const res  = await fetch('./data.json');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+
+      metaEl.innerHTML = `<strong>最新 ${esc(String(data.lookback_days || 14))} 天内容</strong>更新于 ${esc(data.generated_at || '')}`;
+
+      main.innerHTML =
+        digestsHtml(data.digests) +
+        `<div class="archive-section">
+           <h2 class="archive-heading">全部引用链接</h2>
+           <div class="archive-grid">${archiveHtml(data.all_urls || {})}</div>
+         </div>`;
+
+    } catch (err) {
+      main.innerHTML = `<div class="state-msg is-error">数据加载失败：${esc(err.message)}<br><small>请确认 data.json 存在且格式正确</small></div>`;
+      metaEl.innerHTML = '<strong>Anthropic 资讯日报</strong>';
+      console.error(err);
+    }
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>

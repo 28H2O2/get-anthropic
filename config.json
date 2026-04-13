@@ -1,0 +1,12 @@
+{
+  "output_dir": "output",
+  "translate_engine": "aliyun",
+  "translate_mode": "summary",
+  "claude_model": "claude-haiku-4-5-20251001",
+  "sources": {
+    "anthropic_news": true,
+    "anthropic_research": true,
+    "cookbook": true,
+    "transformer_circuits": true
+  }
+}

@@ -1,0 +1,45 @@
+name: 每日抓取 Anthropic 文章
+
+on:
+  schedule:
+    # 每天 23:30 UTC = 北京时间 07:30
+    - cron: '30 23 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  fetch-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 运行抓取与翻译
+        env:
+          ALIYUN_ACCESS_KEY_ID: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
+          ALIYUN_ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 main.py
+
+      - name: 生成前端数据
+        run: python3 build_data.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add article_index.json output/ public/data.json
+          # 只有有变更时才提交
+          git diff --cached --quiet || git commit -m "chore: 每日更新 $(date -u '+%Y-%m-%d')"
+          git push
