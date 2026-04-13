@@ -181,11 +181,6 @@
         "desc": "Anthropic 官方新闻与产品公告"
       },
       {
-        "url": "https://www.anthropic.com/news/claude-for-financial-services",
-        "title": "claude-for-financial-services",
-        "desc": "Anthropic 官方新闻与产品公告"
-      },
-      {
         "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
         "title": "anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
         "desc": "Anthropic 官方新闻与产品公告"
@@ -703,6 +698,11 @@
       {
         "url": "https://www.anthropic.com/news/head-of-EMEA-new-roles",
         "title": "head-of-EMEA-new-roles",
+        "desc": "Anthropic 官方新闻与产品公告"
+      },
+      {
+        "url": "https://www.anthropic.com/news/claude-for-financial-services",
+        "title": "Claude for Financial Services",
         "desc": "Anthropic 官方新闻与产品公告"
       },
       {

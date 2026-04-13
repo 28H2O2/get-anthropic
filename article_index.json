@@ -257,12 +257,6 @@
     "source": "anthropic_news",
     "processed": false
   },
-  "https://www.anthropic.com/news/claude-for-financial-services": {
-    "title": "",
-    "date": "2026-02-13",
-    "source": "anthropic_news",
-    "processed": false
-  },
   "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation": {
     "title": "",
     "date": "2026-02-12",
@@ -1114,6 +1108,12 @@
     "date": "2025-07-21",
     "source": "anthropic_news",
     "processed": false
+  },
+  "https://www.anthropic.com/news/claude-for-financial-services": {
+    "title": "Claude for Financial Services",
+    "date": "2025-07-15",
+    "source": "anthropic_news",
+    "processed": true
   },
   "https://www.anthropic.com/news/paul-smith-to-join-anthropic": {
     "title": "",
