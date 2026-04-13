@@ -23,7 +23,7 @@
           "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
           "title_en": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
           "title_zh": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-          "summary_zh": "【机器翻译摘要】\nAnthropic 扩大与Google和Broadcom的合作伙伴关系，以实现数千兆瓦的下一代计算\n\n公告\nAnthropic 扩大与Google和Broadcom的合作伙伴关系，以实现数千兆瓦的下一代计算\n2026年4月6日\n我们已与谷歌和博通签署一项新协议，采购数吉瓦级的新一代张量处理单元（TPU）算力，预计将于2027年开始投入使用。我们的计算基础架构的这一重大扩展将为我们的frontier Claude 机型提供动力，并帮助我们满足全球客户的非凡需求。\n“这一与谷歌和B公司达成的开创性合作……”",
+          "summary_zh": "【机器翻译摘要】\nAnthropic 扩大与谷歌和博通的合作，布局多吉瓦级下一代算力设施。\n\n公告\nAnthropic 扩大与谷歌和博通的合作，布局多吉瓦级下一代算力设施。\n2026年4月6日\n我们已与谷歌和博通签署一项新协议，采购数吉瓦级的新一代张量处理单元（TPU）算力，预计将于2027年开始投入使用。我们计算基础设施的这一重大扩展，将为我们的前沿Claude模型提供强大算力，并助力我们满足全球客户的巨大需求。\n“这一与谷歌和B公司达成的开创性合作……”",
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-04-06"
@@ -37,10 +37,79 @@
           "url": "https://www.anthropic.com/research/emotion-concepts-function",
           "title_en": "Emotion concepts and their function in a large language model",
           "title_zh": "Emotion concepts and their function in a large language model",
-          "summary_zh": "【机器翻译摘要】\n情感概念及其在大型语言模型中的功能\n\n可解释性\n情感概念及其在大型语言模型中的功能\n2026年4月2日\n阅读论文\n所有现代语言模型有时都会表现得好像它们有情感一样。他们可能会说很乐意帮助你，或者在犯错时表示抱歉。有时，他们在应对任务时甚至会表现出沮丧或焦虑的情绪。这些行为背后的原因是什么？现代人工智能模型的训练方式促使它们去……\n像角色一样行动\n具有类人特征。此外，这些模型是",
+          "summary_zh": "【机器翻译摘要】\n情感概念及其在大型语言模型中的作用\n\n可解释性\n情感概念及其在大型语言模型中的作用\n2026年4月2日\n阅读论文\n所有现代语言模型有时都会表现得好像它们有情感一样。他们可能会说很乐意帮助你，或者在犯错时表示抱歉。有时，他们在应对任务时甚至会表现出沮丧或焦虑的情绪。这些行为背后的原因是什么？现代人工智能模型的训练方式促使它们去……\n像角色一样行动\n具有类人特征。此外，这些模型是",
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-04-02"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/australia-MOU",
+          "title_en": "Australian government and Anthropic sign MOU for AI safety and research",
+          "title_zh": "Australian government and Anthropic sign MOU for AI safety and research",
+          "summary_zh": "【机器翻译摘要】\n澳大利亚政府和 Anthropic 签署AI安全和研究谅解备忘录\n\n公告\n澳大利亚政府和 Anthropic 签署AI安全和研究谅解备忘录\n2026年3月31日\n今天，Anthropic 与澳大利亚政府签署了一份谅解备忘录，合作开展人工智能安全研究，并支持澳大利亚国家人工智能计划的目标。我们的首席执行官Dario Amodei在访问澳大利亚堪培拉期间会见了总理Anthony Albanese，以正式确定该协议。我们还宣布与澳大利亚领先的研究机构合作，300万澳元",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-03-31"
+        },
+        {
+          "url": "https://www.anthropic.com/research/how-australia-uses-claude",
+          "title_en": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
+          "title_zh": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
+          "summary_zh": "【机器翻译摘要】\n澳大利亚如何使用 {{0 }}: 来自 Anthropic 经济指数的发现\n\n经济研究\n澳大利亚如何使用 {{0 }}: 来自 Anthropic 经济指数的发现\n2026年3月31日\nAnthropic 正在向澳大利亚扩张。我们要开一家\n新办公室\n在接下来的几周里，我们在悉尼签署了一份\n谅解备忘录\n与澳大利亚政府合作开展人工智能安全研究，并支持澳大利亚国家人工智能计划的目标。为了纪念这一场合，我们认为我们应该更仔细地研究澳大利亚人如何使用 Claude。\n关键发现\n澳大利亚是leadi",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-03-31"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
+          "title_en": "Anthropic Economic Index report: Learning curves",
+          "title_zh": "Anthropic Economic Index report: Learning curves",
+          "summary_zh": "【机器翻译摘要】\nAnthropic 经济指数报告: 学习曲线\n\n经济研究\nAnthropic 经济指数报告: 学习曲线\n2026年3月24日\n以PDF格式阅读\nAnthropic 经济指数使用我们的隐私保护数据分析\n系统\n跟踪整个经济体如何使用 Claude。这是我们尽早了解人工智能对经济影响的努力的一部分，以便研究人员和政策制定者有足够的时间做好准备。\n这份最新报告研究了 Claude 在2026年2月的使用情况，建立在我们的",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-03-24"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/introducing-anthropic-science",
+          "title_en": "Introducing our Science Blog",
+          "title_zh": "Introducing our Science Blog",
+          "summary_zh": "【机器翻译摘要】\n介绍我们的科学博客\n\n科学\n介绍我们的科学博客\n2026年3月23日\n我们正在推出一个关于人工智能和科学的新博客。我们将分享 Anthropic 和其他地方的工作，我们与外部研究人员和实验室的合作，并讨论科学家在研究中使用AI的实际工作流程。\n加快科学进步的步伐是 Anthropic 使命的核心部分。\n爱的恩典机器\n描述了 “压缩的21世纪” 的前景，在这个世纪里，几十年的科学进步发生在仅仅",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-03-23"
+        },
+        {
+          "url": "https://www.anthropic.com/research/long-running-Claude",
+          "title_en": "Long-running Claude for scientific computing",
+          "title_zh": "Long-running Claude for scientific computing",
+          "summary_zh": "【机器翻译摘要】\n用于科学计算的长时间运行 Claude\n\n科学\n用于科学计算的长时间运行 Claude\n2026年3月23日\n在这篇文章中，Siddharth Mishra-Sharma\n，\n发现团队的一名研究人员解释了如何将多日代理编码工作流程-测试预言机，持久内存和编排模式-应用于科学计算任务，即使在一个人的领域之外。\n前提\n目前使用AI代理的大多数科学家都在对话循环中工作，严格控制流程的每一步。作为模型已经成为\n明显更好的a",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-03-23"
+        },
+        {
+          "url": "https://www.anthropic.com/research/vibe-physics",
+          "title_en": "Vibe physics: The AI grad student",
+          "title_zh": "Vibe physics: The AI grad student",
+          "summary_zh": "【机器翻译摘要】\nVibe物理学: AI研究生\n\n科学\nVibe物理学: AI研究生\n2026年3月23日\nAI能做理论物理吗？在这篇客座文章中，物理学教授\n马修·施瓦茨\n决定通过监督 Claude 通过真正的研究计算来找出答案，从开始到结束，而无需亲自触摸文件。他对发生的事情的叙述如下。\n摘要\n我引导 Claude Opus 4.5通过一个真正的理论物理计算，在文本提示背后封装了代码和计算的复杂性。\n结果是技术性的",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-03-23"
         }
       ]
     }
@@ -55,7 +124,7 @@
       },
       {
         "url": "https://www.anthropic.com/news/australia-MOU",
-        "title": "australia-MOU",
+        "title": "Australian government and Anthropic sign MOU for AI safety and research",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-03-31"
       },
@@ -1245,31 +1314,31 @@
       },
       {
         "url": "https://www.anthropic.com/research/how-australia-uses-claude",
-        "title": "how-australia-uses-claude",
+        "title": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-31"
       },
       {
         "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
-        "title": "economic-index-march-2026-report",
+        "title": "Anthropic Economic Index report: Learning curves",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-24"
       },
       {
         "url": "https://www.anthropic.com/research/introducing-anthropic-science",
-        "title": "introducing-anthropic-science",
+        "title": "Introducing our Science Blog",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-23"
       },
       {
         "url": "https://www.anthropic.com/research/long-running-Claude",
-        "title": "long-running-Claude",
+        "title": "Long-running Claude for scientific computing",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-23"
       },
       {
         "url": "https://www.anthropic.com/research/vibe-physics",
-        "title": "vibe-physics",
+        "title": "Vibe physics: The AI grad student",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-23"
       },

@@ -261,13 +261,26 @@ def main():
     print("=== 开始翻译 ===")
     digest, actually_processed = build_digest(new_articles, config, today_str, since_str)
 
-    # 写入日报
+    # 写入日报（同一天多次运行时追加，避免覆盖已有摘要）
     output_dir = BASE_DIR / config.get("output_dir", "output") / today_str
     output_dir.mkdir(parents=True, exist_ok=True)
     output_file = output_dir / "digest.md"
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write(digest)
-    print(f"=== 日报已保存到 {output_file} ===")
+    if output_file.exists():
+        # 追加：去掉新 digest 的标题行，只保留文章条目部分
+        existing = output_file.read_text(encoding="utf-8")
+        # 提取新 digest 中的文章块（--- 之后的内容）
+        parts = digest.split("\n---\n", 1)
+        append_content = "\n---\n" + parts[1] if len(parts) > 1 else ""
+        if append_content.strip():
+            with open(output_file, "a", encoding="utf-8") as f:
+                f.write(append_content)
+            print(f"=== 已追加到 {output_file} ===")
+        else:
+            print(f"=== 无新内容可追加 ===")
+    else:
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(digest)
+        print(f"=== 日报已保存到 {output_file} ===")
 
     # 只标记实际翻译成功的文章为已处理（跳过的不标记，下次运行可重试）
     for a in actually_processed:

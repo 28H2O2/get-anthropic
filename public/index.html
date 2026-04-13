@@ -362,9 +362,10 @@
     .archive-list li {
       font-size: 0.76rem;
       display: flex;
+      align-items: baseline;
       gap: 0.4rem;
-      align-items: flex-start;
-      line-height: 1.45;
+      line-height: 1.5;
+      padding: 0.15rem 0;
     }
 
     .archive-list li::before {
@@ -372,23 +373,28 @@
       color: var(--text-3);
       flex-shrink: 0;
       font-size: 0.65rem;
-      margin-top: 2px;
     }
 
     .archive-list a {
       color: var(--text-2);
       text-decoration: none;
       transition: color 0.15s;
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
-    .archive-list a:hover { color: var(--accent); text-decoration: underline; }
+    .archive-list a:hover { color: var(--accent); }
 
     .archive-date {
       font-size: 0.68rem;
       color: var(--text-3);
       white-space: nowrap;
       flex-shrink: 0;
-      margin-top: 2px;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.02em;
     }
 
     /* ── footer ── */

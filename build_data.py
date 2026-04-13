@@ -112,8 +112,8 @@ def build():
                 "date": art_date,  # 文章发布日期
             })
 
-        # 只展示近 14 天的已处理文章
-        if not art_date or not meta.get("processed"):
+        # 只展示近 30 天内有日期的文章（无论是否翻译，无摘要显示占位）
+        if not art_date:
             continue
         if not (since_str <= art_date <= today_str):
             continue

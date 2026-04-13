@@ -18,40 +18,40 @@
     "processed": true
   },
   "https://www.anthropic.com/news/australia-MOU": {
-    "title": "",
+    "title": "Australian government and Anthropic sign MOU for AI safety and research",
     "date": "2026-03-31",
     "source": "anthropic_news",
-    "processed": false
+    "processed": true
   },
   "https://www.anthropic.com/research/how-australia-uses-claude": {
-    "title": "",
+    "title": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
     "date": "2026-03-31",
     "source": "anthropic_research",
-    "processed": false
+    "processed": true
   },
   "https://www.anthropic.com/research/economic-index-march-2026-report": {
-    "title": "",
+    "title": "Anthropic Economic Index report: Learning curves",
     "date": "2026-03-24",
     "source": "anthropic_research",
-    "processed": false
+    "processed": true
   },
   "https://www.anthropic.com/research/introducing-anthropic-science": {
-    "title": "",
+    "title": "Introducing our Science Blog",
     "date": "2026-03-23",
     "source": "anthropic_research",
-    "processed": false
+    "processed": true
   },
   "https://www.anthropic.com/research/long-running-Claude": {
-    "title": "",
+    "title": "Long-running Claude for scientific computing",
     "date": "2026-03-23",
     "source": "anthropic_research",
-    "processed": false
+    "processed": true
   },
   "https://www.anthropic.com/research/vibe-physics": {
-    "title": "",
+    "title": "Vibe physics: The AI grad student",
     "date": "2026-03-23",
     "source": "anthropic_research",
-    "processed": false
+    "processed": true
   },
   "https://www.anthropic.com/research/diff-tool": {
     "title": "",
