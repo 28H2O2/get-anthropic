@@ -429,6 +429,30 @@
       letter-spacing: 0.02em;
     }
 
+    /* ── nav buttons ── */
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--text-2);
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.3rem 0.7rem;
+      text-decoration: none;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s, background 0.15s;
+      white-space: nowrap;
+    }
+
+    .nav-btn:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+      background: var(--accent-light);
+    }
+
     /* ── footer ── */
     .site-footer {
       text-align: center;
@@ -475,8 +499,11 @@
       <h1 class="site-title"><span class="brand">Anthropic</span> 资讯日报</h1>
       <span class="site-sub">每天自动聚合</span>
     </div>
-    <div class="header-meta" id="js-header-meta">
-      <strong>加载中…</strong>
+    <div style="display:flex;align-items:center;gap:1rem;">
+      <a class="nav-btn" href="#archive">全部引用链接 ↓</a>
+      <div class="header-meta" id="js-header-meta">
+        <strong>加载中…</strong>
+      </div>
     </div>
   </div>
 </header>
@@ -630,8 +657,8 @@
 
       main.innerHTML =
         digestsHtml(data.digests) +
-        `<div class="archive-section">
-           <h2 class="archive-heading">全部引用链接</h2>
+        `<div class="archive-section" id="archive">
+           <h2 class="archive-heading">全部引用链接 <a class="nav-btn" href="#" style="font-family:var(--font-sans);font-size:0.72rem;">↑ 回到顶部</a></h2>
            <div class="archive-grid">${archiveHtml(data.all_urls || {}, data.archive_order)}</div>
          </div>`;
 
