@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anthropic 资讯日报</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23c2410c'/><text x='16' y='23' font-family='Georgia,serif' font-size='20' font-weight='bold' fill='white' text-anchor='middle'>A</text></svg>">
   <style>
     :root {
       --bg:           #f7f5f2;
@@ -453,6 +454,59 @@
       background: var(--accent-light);
     }
 
+    /* ── static refs ── */
+    .static-refs {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px dashed var(--border-hover);
+    }
+
+    .static-refs-label {
+      font-size: 0.67rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-3);
+      margin-bottom: 0.75rem;
+    }
+
+    .static-refs-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .static-ref-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.3rem 0.7rem 0.3rem 0.55rem;
+      background: var(--bg);
+      border: 1px solid var(--border-hover);
+      border-radius: 20px;
+      font-size: 0.73rem;
+      color: var(--text-2);
+      text-decoration: none;
+      transition: border-color 0.15s, color 0.15s, background 0.15s;
+    }
+
+    .static-ref-chip:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-light);
+    }
+
+    .static-ref-chip .ref-icon {
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+
+    .static-ref-date {
+      font-size: 0.65rem;
+      color: var(--text-3);
+      margin-left: 0.1rem;
+    }
+
     /* ── footer ── */
     .site-footer {
       text-align: center;
@@ -619,6 +673,15 @@
     }).join('');
   }
 
+  function staticRefsHtml(refs) {
+    if (!refs || !refs.length) return '';
+    const chips = refs.flatMap(group => group.items || []).map(it => `
+<a class="static-ref-chip" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">
+  <span class="ref-icon">📄</span>${esc(it.title)}${it.date ? `<span class="static-ref-date">${esc(it.date)}</span>` : ''}
+</a>`).join('');
+    return `<div class="static-refs"><div class="static-refs-label">参考文档</div><div class="static-refs-items">${chips}</div></div>`;
+  }
+
   function archiveHtml(allUrls, orderArr) {
     const order = orderArr || Object.keys(allUrls);
     return order.filter(k => allUrls[k] && allUrls[k].length).map(key => {
@@ -660,6 +723,7 @@
         `<div class="archive-section" id="archive">
            <h2 class="archive-heading">全部引用链接 <a class="nav-btn" href="#" style="font-family:var(--font-sans);font-size:0.72rem;">↑ 回到顶部</a></h2>
            <div class="archive-grid">${archiveHtml(data.all_urls || {}, data.archive_order)}</div>
+           ${staticRefsHtml(data.static_refs || [])}
          </div>`;
 
     } catch (err) {

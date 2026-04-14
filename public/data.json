@@ -163,6 +163,15 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-04-07"
+        },
+        {
+          "url": "https://red.anthropic.com/2026/mythos-preview/",
+          "title_en": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
+          "title_zh": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
+          "summary_zh": "",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-04-07"
         }
       ]
     },
@@ -199,6 +208,15 @@
           "summary_zh": "【机器翻译摘要】\n利用Claude的智能\n\n利用Claude的智能\n构建在智能、延迟和成本之间取得平衡的应用程序。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月2日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/利用Claude的智能\nAnthropic 的联合创始人之一，克里斯·奥拉，\n说\n生成式人工智能系统，比如Claude，更多的是“培养”出来的，而非“构建”出来的。研究人员设定条件以引导生长，但最终出现的具体结构或功能并不总是可预测的。",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-04-02"
+        },
+        {
+          "url": "https://transformer-circuits.pub/2026/emotions/index.html",
+          "title_en": "Emotion Concepts and their Function in a Large Language ModelSofroniew et al., 2026We find representations of emotion concepts in Claude Sonnet 4.5 and show that they causally influence its outputs.",
+          "title_zh": "Emotion Concepts and their Function in a Large Language ModelSofroniew et al., 2026We find representations of emotion concepts in Claude Sonnet 4.5 and show that they causally influence its outputs.",
+          "summary_zh": "",
+          "source": "Transformer Circuits",
+          "source_key": "transformer_circuits",
           "date": "2026-04-02"
         }
       ]
@@ -2698,17 +2716,29 @@
         "url": "https://transformer-circuits.pub/2026/emotions/index.html",
         "title": "Emotion Concepts and their Function in a Large Language ModelSofroniew et al., 2026We find representations of emotion concepts in Claude Sonnet 4.5 and show that they causally influence its outputs.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2026"
-      },
-      {
-        "url": "https://transformer-circuits.pub/2025/november-update/index.html",
-        "title": "Circuits Updates — November 2025A short update on harm pressure.",
-        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2025"
+        "date": "2026-04-02"
       },
       {
         "url": "https://transformer-circuits.pub/2025/introspection/index.html",
         "title": "Emergent Introspective Awareness in Large Language ModelsLindsey, 2025We find evidence that language models can introspect on their internal states.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2025-10-29"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+        "title": "On the Biology of a Large Language ModelLindsey et al., 2025We investigate the internal mechanisms used by Claude 3.5 Haiku — Anthropic's lightweight\n                    production model — in a variety of contexts.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2025-03-27"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+        "title": "Circuit Tracing: Revealing Computational Graphs in Language ModelsAmeisen et al., 2025We describe an approach to tracing the \"step-by-step\" computation involved when a model responds\n                    to a single prompt.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2025-03-27"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2025/november-update/index.html",
+        "title": "Circuits Updates — November 2025A short update on harm pressure.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
         "date": "2025"
       },
@@ -2779,18 +2809,6 @@
         "date": "2025"
       },
       {
-        "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
-        "title": "On the Biology of a Large Language ModelLindsey et al., 2025We investigate the internal mechanisms used by Claude 3.5 Haiku — Anthropic's lightweight\n                    production model — in a variety of contexts.",
-        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2025"
-      },
-      {
-        "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
-        "title": "Circuit Tracing: Revealing Computational Graphs in Language ModelsAmeisen et al., 2025We describe an approach to tracing the \"step-by-step\" computation involved when a model responds\n                    to a single prompt.",
-        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2025"
-      },
-      {
         "url": "https://transformer-circuits.pub/2025/crosscoder-diffing-update/index.html",
         "title": "Insights on Crosscoder Model DiffingA preliminary note on using crosscoders to diff models.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
@@ -2801,6 +2819,12 @@
         "title": "Circuits Updates — January 2025A collection of small updates: dictionary learning optimization techniques.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
         "date": "2025"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+        "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 SonnetTempleton et al., 2024Using a sparse autoencoder, we extract a large number of interpretable features from Claude 3\n                    Sonnet. Some appear to be safety-relevant.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2024-05-21"
       },
       {
         "url": "https://transformer-circuits.pub/2024/model-diffing/index.html",
@@ -2845,12 +2869,6 @@
         "date": "2024"
       },
       {
-        "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
-        "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 SonnetTempleton et al., 2024Using a sparse autoencoder, we extract a large number of interpretable features from Claude 3\n                    Sonnet. Some appear to be safety-relevant.",
-        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2024"
-      },
-      {
         "url": "https://transformer-circuits.pub/2024/april-update/index.html",
         "title": "Circuits Updates — April 2024A collection of small updates from the Anthropic Interpretability Team.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
@@ -2881,6 +2899,24 @@
         "date": "2024"
       },
       {
+        "url": "https://transformer-circuits.pub/2023/superposition-composition/index.html",
+        "title": "Distributed Representations: Composition & SuperpositionAn informal note on how \"distributed representations\" might be understood\n                    as two different, competing strategies — \"composition\" and \"superposition\" — with quite\n                    different properties.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2023-05-04"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2023/privileged-basis/index.html",
+        "title": "Privileged Bases in the Transformer Residual StreamOur mathematical theories of the Transformer architecture suggest that\n                    individual coordinates in the residual stream should have no special\n                    significance, but recent work has shown that this observation is false in practice.\n                    We investigate this phenomenon and provisionally conclude that the per-dimension normalizers in\n                    the Adam optimizer are to blame for the effect.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2023-03-16"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2023/toy-double-descent/index.html",
+        "title": "Superposition, Memorization, and Double DescentHenighan et al., 2023We have little mechanistic understanding of how deep learning\n                    models overfit to their training data, despite it being a\n                    central problem. Here we extend our previous work on toy models\n                    to shed light on how models generalize beyond their training\n                    data.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2023-01-05"
+      },
+      {
         "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
         "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary LearningBricken et al., 2023Using a sparse autoencoder, we extract a large number of interpretable features from a one-layer\n                    transformer.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
@@ -2905,38 +2941,20 @@
         "date": "2023"
       },
       {
-        "url": "https://transformer-circuits.pub/2023/superposition-composition/index.html",
-        "title": "Distributed Representations: Composition & SuperpositionAn informal note on how \"distributed representations\" might be understood\n                    as two different, competing strategies — \"composition\" and \"superposition\" — with quite\n                    different properties.",
-        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2023"
-      },
-      {
-        "url": "https://transformer-circuits.pub/2023/privileged-basis/index.html",
-        "title": "Privileged Bases in the Transformer Residual StreamOur mathematical theories of the Transformer architecture suggest that\n                    individual coordinates in the residual stream should have no special\n                    significance, but recent work has shown that this observation is false in practice.\n                    We investigate this phenomenon and provisionally conclude that the per-dimension normalizers in\n                    the Adam optimizer are to blame for the effect.",
-        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2023"
-      },
-      {
-        "url": "https://transformer-circuits.pub/2023/toy-double-descent/index.html",
-        "title": "Superposition, Memorization, and Double DescentHenighan et al., 2023We have little mechanistic understanding of how deep learning\n                    models overfit to their training data, despite it being a\n                    central problem. Here we extend our previous work on toy models\n                    to shed light on how models generalize beyond their training\n                    data.",
-        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2023"
-      },
-      {
-        "url": "https://transformer-circuits.pub/2022/toy_model/index.html",
-        "title": "Toy Models of SuperpositionElhage et al., 2022Neural networks often seem to pack many unrelated concepts into a single\n                    neuron - a puzzling phenomenon known as 'polysemanticity'. In our latest interpretability work,\n                    we build toy models where the origins and dynamics of polysemanticity can be fully understood.",
-        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2022"
-      },
-      {
         "url": "https://transformer-circuits.pub/2022/solu/index.html",
         "title": "Softmax Linear UnitsAn alternative activation function increases the fraction of neurons which\n                    appear to correspond to human-understandable concepts.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "2022"
+        "date": "2022-06-27"
       },
       {
         "url": "https://transformer-circuits.pub/2022/mech-interp-essay/index.html",
         "title": "Mechanistic Interpretability, Variables, and the Importance of Interpretable BasesAn informal note on intuitions related to mechanistic interpretability.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2022-06-27"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+        "title": "Toy Models of SuperpositionElhage et al., 2022Neural networks often seem to pack many unrelated concepts into a single\n                    neuron - a puzzling phenomenon known as 'polysemanticity'. In our latest interpretability work,\n                    we build toy models where the origins and dynamics of polysemanticity can be fully understood.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
         "date": "2022"
       },
@@ -2976,103 +2994,103 @@
         "url": "https://red.anthropic.com/2026/mythos-preview/",
         "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-04-07"
       },
       {
         "url": "https://red.anthropic.com/2026/exploit/",
         "title": "Reverse engineering Claude's CVE-2026-2796 exploit",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-03-06"
       },
       {
         "url": "https://red.anthropic.com/2026/firefox/",
         "title": "Partnering with Mozilla to improve Firefox’s security",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-03-06"
       },
       {
         "url": "https://red.anthropic.com/2026/zero-days/",
         "title": "LLM-discovered 0-days",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-02-05"
       },
       {
         "url": "https://red.anthropic.com/2026/cyber-toolkits-update/",
         "title": "AI Models on Realistic Cyber Ranges",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-01-16"
       },
       {
         "url": "https://red.anthropic.com/2026/property-based-testing/",
         "title": "Finding Bugs with Claude and Property-based Testing",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-01-14"
       },
       {
         "url": "https://red.anthropic.com/2026/critical-infrastructure-defense/",
         "title": "Experimenting with AI to Defend Critical Infrastructure",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2026-01-08"
       },
       {
         "url": "https://red.anthropic.com/2025/project-vend-2/",
         "title": "Project Vend: Phase Two",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-12-18"
       },
       {
         "url": "https://red.anthropic.com/2025/smart-contracts/",
         "title": "AI Agents Find Smart Contract Exploits",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-12-01"
       },
       {
         "url": "https://red.anthropic.com/2025/project-fetch/",
         "title": "Project Fetch",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-11-12"
       },
       {
         "url": "https://red.anthropic.com/2025/ai-for-cyber-defenders/",
         "title": "Building AI for Cyber Defenders",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-09-29"
       },
       {
         "url": "https://red.anthropic.com/2025/biorisk/",
         "title": "LLMs and Biorisk",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-09-05"
       },
       {
         "url": "https://red.anthropic.com/2025/nuclear-safeguards/",
         "title": "Developing Nuclear Safeguards for AI",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-08-21"
       },
       {
         "url": "https://red.anthropic.com/2025/cyber-competitions/",
         "title": "Claude Does Cyber Competitions",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-08-09"
       },
       {
         "url": "https://red.anthropic.com/2025/claude-4-cyber/",
         "title": "Cyber Evaluations of Claude 4",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-07-15"
       },
       {
         "url": "https://red.anthropic.com/2025/project-vend/",
         "title": "Project Vend",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-06-27"
       },
       {
         "url": "https://red.anthropic.com/2025/cyber-toolkits/",
         "title": "Cyber Toolkits for LLMs",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
-        "date": ""
+        "date": "2025-06-13"
       }
     ],
     "claude_blog": [
@@ -3560,14 +3578,6 @@
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
         "date": ""
       }
-    ],
-    "references": [
-      {
-        "url": "https://www.anthropic.com/constitution",
-        "title": "Claude's Constitution (Model Spec)",
-        "desc": "Claude 的价值观与行为准则",
-        "date": "2024-05-08"
-      }
     ]
   },
   "archive_order": [
@@ -3578,7 +3588,20 @@
     "alignment",
     "engineering",
     "cookbook",
-    "transformer_circuits",
-    "references"
+    "transformer_circuits"
+  ],
+  "static_refs": [
+    {
+      "title": "References",
+      "desc": "Anthropic 重要参考文档",
+      "items": [
+        {
+          "url": "https://www.anthropic.com/constitution",
+          "title": "Claude's Constitution (Model Spec)",
+          "desc": "Claude 的价值观与行为准则",
+          "date": "2024-05-08"
+        }
+      ]
+    }
   ]
 }

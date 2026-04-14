@@ -152,7 +152,15 @@ def fetch_content(article: dict, since_str: str, today_str: str) -> str:
                 return ""
         return content or ""
     elif source == "transformer_circuits":
-        return transformer.fetch_article_content(url) or ""
+        content, title, pub_date = transformer.fetch_article_content(url)
+        if title and not article.get("title"):
+            article["title"] = title
+        if pub_date:
+            article["date"] = pub_date
+            if not (since_str <= pub_date <= today_str):
+                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
+                return ""
+        return content or ""
     elif source == "alignment":
         if article.get("description"):
             content, title, pub_date = alignment.fetch_article_content(url)

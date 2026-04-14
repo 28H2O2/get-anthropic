@@ -4,12 +4,34 @@
 # 运行方式：被 main.py 调用，不单独运行
 # 依赖：requests, beautifulsoup4
 # 项目作用：Anthropic 可解释性研究（Circuits 团队）的发现层
-# 最后修改：2026-04-10
+# 最后修改：2026-04-14
 
+import re
 import requests
 from bs4 import BeautifulSoup
-import re
+from datetime import datetime
 from typing import Optional
+
+_MONTH_MAP = {
+    "january":"01","february":"02","march":"03","april":"04",
+    "may":"05","june":"06","july":"07","august":"08",
+    "september":"09","october":"10","november":"11","december":"12",
+}
+_DATE_RE = re.compile(
+    r"(January|February|March|April|May|June|July|August|September|October|November|December)"
+    r"\s+(\d{1,2}),?\s+(20\d{2})",
+    re.IGNORECASE,
+)
+
+def _parse_pub_date(html_text: str) -> str:
+    """从页面原始 HTML 中提取 'Month DD, YYYY' 格式日期，返回 YYYY-MM-DD 或空字符串"""
+    m = _DATE_RE.search(html_text)
+    if not m:
+        return ""
+    month = _MONTH_MAP.get(m.group(1).lower(), "")
+    day   = m.group(2).zfill(2)
+    year  = m.group(3)
+    return f"{year}-{month}-{day}" if month else ""
 
 BASE_URL = "https://transformer-circuits.pub"
 INDEX_URL = "https://transformer-circuits.pub/"
@@ -67,24 +89,40 @@ def fetch_article_list() -> list[dict]:
     return articles
 
 
-def fetch_article_content(url: str) -> Optional[str]:
-    """抓取 transformer-circuits 文章正文（纯静态 HTML）"""
+def fetch_article_content(url: str) -> tuple[Optional[str], str, str]:
+    """抓取 transformer-circuits 文章正文，返回 (content, title, pub_date)"""
     try:
         resp = requests.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
     except requests.RequestException as e:
         print(f"[transformer] 抓取文章失败 {url}: {e}")
-        return None
+        return None, "", ""
 
     soup = BeautifulSoup(resp.content, "lxml")
 
-    # transformer-circuits 论文通常有 <article> 或 <d-article>（Distill 格式）
+    # 从原始 HTML 中提取精确日期（页面文本含 "Published March 27, 2025"）
+    pub_date = _parse_pub_date(resp.text)
+
+    # 标题
+    title = ""
+    og = soup.find("meta", property="og:title")
+    if og and og.get("content"):
+        title = og["content"].strip()
+    elif soup.find("h1"):
+        title = soup.find("h1").get_text(strip=True)
+
+    # 正文
+    content = None
     for selector in ["d-article", "article", "main", ".l-body"]:
         el = soup.select_one(selector)
         if el:
             text = el.get_text(separator="\n", strip=True)
             if len(text) > 200:
-                return text[:8000]  # 论文较长，截取前 8000 字符
+                content = text[:8000]
+                break
 
-    body = soup.find("body")
-    return body.get_text(separator="\n", strip=True)[:8000] if body else None
+    if not content:
+        body = soup.find("body")
+        content = body.get_text(separator="\n", strip=True)[:8000] if body else None
+
+    return content, title, pub_date

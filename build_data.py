@@ -168,21 +168,26 @@ def build():
             key=lambda x: x.get("date") or "0000-00-00", reverse=True
         )
 
-    # 将固定参考注入 all_urls
-    for ref in STATIC_REFS:
-        all_urls_by_source[ref["key"]] = [
-            {"url": it["url"], "title": it["title"], "desc": it["desc"], "date": it["date"]}
-            for it in ref["items"]
-        ]
-
-    ARCHIVE_ORDER_FULL = ARCHIVE_ORDER + [r["key"] for r in STATIC_REFS]
+    # 固定参考文档单独输出（不混入 all_urls）
+    static_refs = [
+        {
+            "title": ref["title"],
+            "desc": ref["desc"],
+            "items": [
+                {"url": it["url"], "title": it["title"], "desc": it["desc"], "date": it["date"]}
+                for it in ref["items"]
+            ],
+        }
+        for ref in STATIC_REFS
+    ]
 
     data = {
         "generated_at": today_str,
         "lookback_days": LOOKBACK_DAYS,
         "digests": digests,
         "all_urls": all_urls_by_source,
-        "archive_order": ARCHIVE_ORDER_FULL,
+        "archive_order": ARCHIVE_ORDER,
+        "static_refs": static_refs,
     }
 
     PUBLIC_DIR.mkdir(exist_ok=True)

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-04-14（Red Team / Transformer 精确日期 + References 独立样式 + Favicon）
+
+### 改进
+- `fetchers/transformer.py`：`fetch_article_content` 改为返回元组，从页面提取 "Published Month DD, YYYY" 格式精确日期
+- `fetchers/red_team.py`：回填全部 17 篇精确日期到 `article_index.json`
+- 回填 transformer 10 篇年份级别日期升级为完整日期
+- `build_data.py`：`static_refs` 独立为顶层字段，不再混入 `all_urls`
+- `public/index.html`：References 以胶囊 chip 样式独立展示于归档区底部；加 SVG favicon
+
 ## 2026-04-14（Cookbook 日期回填 + 归档排序 + 10 篇新文章翻译）
 
 ### 改进
