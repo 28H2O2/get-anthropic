@@ -454,57 +454,143 @@
       background: var(--accent-light);
     }
 
-    /* ── static refs ── */
-    .static-refs {
+    /* ── constitution card ── */
+    .constitution-wrap {
       margin-top: 2rem;
-      padding-top: 1.5rem;
+      padding-top: 1.75rem;
       border-top: 1px dashed var(--border-hover);
     }
 
-    .static-refs-label {
-      font-size: 0.67rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--text-3);
-      margin-bottom: 0.75rem;
+    .constitution-card {
+      display: flex;
+      align-items: stretch;
+      text-decoration: none;
+      color: inherit;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
     }
 
-    .static-refs-items {
+    .constitution-card:hover {
+      box-shadow: 0 8px 32px rgba(194, 65, 12, 0.10);
+      transform: translateY(-2px);
+      border-color: var(--border-hover);
+    }
+
+    .constitution-accent-bar {
+      width: 4px;
+      flex-shrink: 0;
+      background: linear-gradient(180deg, var(--accent) 0%, var(--accent-mid) 55%, #fbbf24 100%);
+    }
+
+    .constitution-body {
+      flex: 1;
+      padding: 1.35rem 1.5rem;
       display: flex;
-      flex-wrap: wrap;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .constitution-icon {
+      font-size: 2rem;
+      line-height: 1;
+      flex-shrink: 0;
+      opacity: 0.85;
+      user-select: none;
+    }
+
+    .constitution-text { flex: 1; min-width: 0; }
+
+    .constitution-eyebrow {
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.3rem;
+    }
+
+    .constitution-title {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      font-weight: normal;
+      color: var(--text);
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+    }
+
+    .constitution-desc {
+      font-size: 0.78rem;
+      color: var(--text-3);
+      margin-top: 0.3rem;
+      line-height: 1.5;
+    }
+
+    .constitution-arrow {
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 1.35rem 1.5rem 1.35rem 0;
       gap: 0.5rem;
     }
 
-    .static-ref-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.3rem 0.7rem 0.3rem 0.55rem;
-      background: var(--bg);
-      border: 1px solid var(--border-hover);
-      border-radius: 20px;
-      font-size: 0.73rem;
-      color: var(--text-2);
-      text-decoration: none;
-      transition: border-color 0.15s, color 0.15s, background 0.15s;
-    }
-
-    .static-ref-chip:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-      background: var(--accent-light);
-    }
-
-    .static-ref-chip .ref-icon {
-      font-size: 0.8rem;
-      opacity: 0.7;
-    }
-
-    .static-ref-date {
-      font-size: 0.65rem;
+    .constitution-date {
+      font-size: 0.67rem;
       color: var(--text-3);
-      margin-left: 0.1rem;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.03em;
+    }
+
+    .constitution-cta {
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+      transition: gap 0.18s ease;
+    }
+
+    .constitution-card:hover .constitution-cta { gap: 0.45rem; }
+
+    /* ── floating back-to-top ── */
+    .fab-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 200;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(194,65,12,0.35);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px);
+      transition: opacity 0.22s ease, transform 0.22s ease, background 0.15s, box-shadow 0.15s;
+      font-size: 1.05rem;
+      line-height: 1;
+    }
+
+    .fab-top.visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .fab-top:hover {
+      background: var(--accent-mid);
+      box-shadow: 0 6px 20px rgba(194,65,12,0.45);
     }
 
     /* ── footer ── */
@@ -561,6 +647,8 @@
     </div>
   </div>
 </header>
+
+<button class="fab-top" id="js-fab" title="回到顶部" aria-label="回到顶部">↑</button>
 
 <main class="main" id="js-main">
   <div class="state-msg" id="js-loading">正在加载数据…</div>
@@ -675,11 +763,25 @@
 
   function staticRefsHtml(refs) {
     if (!refs || !refs.length) return '';
-    const chips = refs.flatMap(group => group.items || []).map(it => `
-<a class="static-ref-chip" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">
-  <span class="ref-icon">📄</span>${esc(it.title)}${it.date ? `<span class="static-ref-date">${esc(it.date)}</span>` : ''}
-</a>`).join('');
-    return `<div class="static-refs"><div class="static-refs-label">参考文档</div><div class="static-refs-items">${chips}</div></div>`;
+    const cards = refs.flatMap(group => group.items || []).map(it => `
+<div class="constitution-wrap">
+  <a class="constitution-card" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">
+    <div class="constitution-accent-bar"></div>
+    <div class="constitution-body">
+      <div class="constitution-icon">§</div>
+      <div class="constitution-text">
+        <div class="constitution-eyebrow">Foundational Document</div>
+        <div class="constitution-title">${esc(it.title)}</div>
+        <div class="constitution-desc">${esc(it.desc)}</div>
+      </div>
+    </div>
+    <div class="constitution-arrow">
+      ${it.date ? `<span class="constitution-date">${esc(it.date)}</span>` : ''}
+      <span class="constitution-cta">阅读原文 →</span>
+    </div>
+  </a>
+</div>`).join('');
+    return cards;
   }
 
   function archiveHtml(allUrls, orderArr) {
@@ -706,6 +808,15 @@
 </div>`;
     }).join('');
   }
+
+  // ── floating back-to-top ──
+  (function () {
+    const fab = document.getElementById('js-fab');
+    if (!fab) return;
+    fab.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    const onScroll = () => fab.classList.toggle('visible', window.scrollY > 400);
+    window.addEventListener('scroll', onScroll, { passive: true });
+  })();
 
   async function init() {
     const main     = document.getElementById('js-main');
