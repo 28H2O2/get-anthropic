@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-04-14（Cookbook 日期回填 + 归档排序 + 10 篇新文章翻译）
+
+### 改进
+- `build_data.py`：归档区（all_urls）按日期倒序排列，无日期排最后
+- 回填全部 76 篇 cookbook 文章的真实发布日期到 `article_index.json`
+- 30 天内 10 篇 cookbook 文章重置为未处理并完成翻译，已加入前端首页
+
 ## 2026-04-14（Cookbook 支持精确发布日期）
 
 ### 改进

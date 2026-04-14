@@ -135,7 +135,7 @@ def build():
                 "url": url,
                 "title": title_en,
                 "desc": SOURCE_DESC.get(source, ""),
-                "date": art_date,  # 文章发布日期
+                "date": art_date,
             })
 
         # 只展示近 30 天内有日期的文章（无论是否翻译，无摘要显示占位）
@@ -161,6 +161,12 @@ def build():
         {"date": d, "articles": sorted(articles, key=lambda x: x["date"], reverse=True)}
         for d, articles in sorted(days.items(), reverse=True)
     ]
+
+    # 归档区按日期倒序排列（无日期的排最后）
+    for source_key in all_urls_by_source:
+        all_urls_by_source[source_key].sort(
+            key=lambda x: x.get("date") or "0000-00-00", reverse=True
+        )
 
     # 将固定参考注入 all_urls
     for ref in STATIC_REFS:

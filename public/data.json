@@ -31,6 +31,15 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-10"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-sre-incident-responder",
+          "title_en": "Build an SRE incident response agent with Claude Managed Agents",
+          "title_zh": "Build an SRE incident response agent with Claude Managed Agents",
+          "summary_zh": "【机器翻译摘要】\n使用 Claude 托管代理构建SRE事件响应代理\n\n2026年4月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-04-10"
         }
       ]
     },
@@ -86,6 +95,42 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-08"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-data-analyst-agent",
+          "title_en": "Build a data analyst agent with Claude Managed Agents",
+          "title_zh": "Build a data analyst agent with Claude Managed Agents",
+          "summary_zh": "【机器翻译摘要】\n使用 Claude 个托管代理构建data analyst代理\n\n2026年4月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-04-08"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-slack-data-bot",
+          "title_en": "Build a Slack data analyst bot with Claude Managed Agents",
+          "title_zh": "Build a Slack data analyst bot with Claude Managed Agents",
+          "summary_zh": "【机器翻译摘要】\n使用 Claude 个托管代理构建Slack数据分析机器人\n\n2026年4月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-04-08"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-iterate-fix-failing-tests",
+          "title_en": "Managed Agents tutorial: iterate on a failing test suite",
+          "title_zh": "Managed Agents tutorial: iterate on a failing test suite",
+          "summary_zh": "【机器翻译摘要】\n托管代理教程：迭代修复失败的测试套件\n\n2026年4月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-04-08"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-operate-in-production",
+          "title_en": "Managed Agents tutorial: production setup",
+          "title_zh": "Managed Agents tutorial: production setup",
+          "summary_zh": "【机器翻译摘要】\n托管代理教程：生产环境部署\n\n2026年4月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -99,6 +144,24 @@
           "summary_zh": "【机器翻译摘要】\n在 Claude 代码中如何以及何时使用子代理\n\n在 Claude 代码中如何以及何时使用子代理\nClaude 代码子代理实用指南：何时使用、如何有效指导，以及判断是否值得授权的信号。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/claude代码中的子代理\nClaude 代码\n擅长处理复杂、多步骤的项目，但长时间工作容易让人感到疲惫。每一次文件的阅读，每一条思路的延伸，每一个未完成的念头，都停留在意识流中。",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-04-07"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-prompt-versioning-and-rollback",
+          "title_en": "Managed Agents tutorial: prompt versioning and rollback",
+          "title_zh": "Managed Agents tutorial: prompt versioning and rollback",
+          "summary_zh": "【机器翻译摘要】\n托管代理教程：提示版本控制与回滚\n\n2026年4月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-04-07"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/tool-use-threat-intel-enrichment-agent",
+          "title_en": "Threat intelligence enrichment agent",
+          "title_zh": "Threat intelligence enrichment agent",
+          "summary_zh": "【机器翻译摘要】\n威胁情报增强代理\n\n2026年4月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-04-07"
         }
       ]
@@ -173,6 +236,15 @@
           "summary_zh": "【机器翻译摘要】\n使用合规API审计Claude平台活动\n\n使用合规API审计Claude平台活动\n合规性 API 为管理员提供了对其 Claude 平台组织中审计日志的程序化访问权限。\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年3月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/claude-platform-compliance-api\n使用合规API审计Claude平台活动\n合规性API现已在Claude平台上可用，使管理员能够以编程方式访问跨t的审计日志。",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-03-30"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-05-building-a-session-browser",
+          "title_en": "Building a session browser",
+          "title_zh": "Building a session browser",
+          "summary_zh": "【机器翻译摘要】\n构建会话浏览器\n\n2026年3月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-03-30"
         }
       ]
@@ -261,6 +333,29 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-03-23"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide",
+          "title_en": "Knowledge graph construction with Claude",
+          "title_zh": "Knowledge graph construction with Claude",
+          "summary_zh": "【机器翻译摘要】\n使用 Claude 构建知识图谱\n\n2026年3月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-03-23"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "articles": [
+        {
+          "url": "https://platform.claude.com/cookbook/tool-use-context-engineering-context-engineering-tools",
+          "title_en": "Context engineering: memory, compaction, and tool clearing",
+          "title_zh": "Context engineering: memory, compaction, and tool clearing",
+          "summary_zh": "【机器翻译摘要】\n上下文工程：内存管理、压缩与工具清理\n\n2026年3月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-03-20"
         }
       ]
     },
@@ -2142,460 +2237,460 @@
     ],
     "cookbook": [
       {
-        "url": "https://platform.claude.com/cookbook/tool-use-programmatic-tool-calling-ptc",
-        "title": "Programmatic tool calling (PTC)",
-        "desc": "Claude 官方开发示例与教程",
-        "date": ""
-      },
-      {
-        "url": "https://platform.claude.com/cookbook/tool-use-tool-search-with-embeddings",
-        "title": "Tool search with embeddings",
-        "desc": "Claude 官方开发示例与教程",
-        "date": ""
-      },
-      {
-        "url": "https://platform.claude.com/cookbook/tool-use-automatic-context-compaction",
-        "title": "Automatic context compaction",
-        "desc": "Claude 官方开发示例与教程",
-        "date": ""
-      },
-      {
-        "url": "https://platform.claude.com/cookbook/multimodal-crop-tool",
-        "title": "Giving Claude a crop tool for better image analysis",
-        "desc": "Claude 官方开发示例与教程",
-        "date": ""
-      },
-      {
-        "url": "https://platform.claude.com/cookbook/coding-prompting-for-frontend-aesthetics",
-        "title": "Prompting for frontend aesthetics",
-        "desc": "Claude 官方开发示例与教程",
-        "date": ""
-      },
-      {
-        "url": "https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction",
-        "title": "Introduction to Claude Skills",
-        "desc": "Claude 官方开发示例与教程",
-        "date": ""
-      },
-      {
         "url": "https://platform.claude.com/cookbook/managed-agents-sre-incident-responder",
         "title": "Build an SRE incident response agent with Claude Managed Agents",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-04-10"
       },
       {
         "url": "https://platform.claude.com/cookbook/managed-agents-data-analyst-agent",
         "title": "Build a data analyst agent with Claude Managed Agents",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-04-08"
       },
       {
         "url": "https://platform.claude.com/cookbook/managed-agents-slack-data-bot",
         "title": "Build a Slack data analyst bot with Claude Managed Agents",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-04-08"
       },
       {
         "url": "https://platform.claude.com/cookbook/managed-agents-cma-iterate-fix-failing-tests",
         "title": "Managed Agents tutorial: iterate on a failing test suite",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-04-08"
       },
       {
         "url": "https://platform.claude.com/cookbook/managed-agents-cma-operate-in-production",
         "title": "Managed Agents tutorial: production setup",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-04-08"
       },
       {
         "url": "https://platform.claude.com/cookbook/managed-agents-cma-prompt-versioning-and-rollback",
         "title": "Managed Agents tutorial: prompt versioning and rollback",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-04-07"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-threat-intel-enrichment-agent",
         "title": "Threat intelligence enrichment agent",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-04-07"
       },
       {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-05-building-a-session-browser",
         "title": "Building a session browser",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-03-30"
       },
       {
         "url": "https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide",
         "title": "Knowledge graph construction with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-03-23"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-context-engineering-context-engineering-tools",
         "title": "Context engineering: memory, compaction, and tool clearing",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-03-20"
       },
       {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-04-migrating-from-openai-agents-sdk",
         "title": "Migrating from the OpenAI Agents SDK",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-03-09"
       },
       {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-03-the-site-reliability-agent",
         "title": "The site reliability agent",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-02-16"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-session-memory-compaction",
         "title": "Session memory compaction",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2026-01-16"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/tool-use-programmatic-tool-calling-ptc",
+        "title": "Programmatic tool calling (PTC)",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2025-11-24"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/tool-use-tool-search-with-embeddings",
+        "title": "Tool search with embeddings",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2025-11-24"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/tool-use-automatic-context-compaction",
+        "title": "Automatic context compaction",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2025-11-24"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-elevenlabs-low-latency-stt-claude-tts",
         "title": "Low latency voice assistant with ElevenLabs",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-11-24"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/multimodal-crop-tool",
+        "title": "Giving Claude a crop tool for better image analysis",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2025-11-22"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/coding-prompting-for-frontend-aesthetics",
+        "title": "Prompting for frontend aesthetics",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2025-10-21"
       },
       {
         "url": "https://platform.claude.com/cookbook/skills-notebooks-02-skills-financial-applications",
         "title": "Claude Skills for financial applications",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-10-15"
       },
       {
         "url": "https://platform.claude.com/cookbook/skills-notebooks-03-skills-custom-development",
         "title": "Building custom Skills for Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-10-15"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction",
+        "title": "Introduction to Claude Skills",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2025-10-14"
       },
       {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-00-the-one-liner-research-agent",
         "title": "The one-liner research agent",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-09-12"
       },
       {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-01-the-chief-of-staff-agent",
         "title": "The chief of staff agent",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-09-12"
       },
       {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-02-the-observability-agent",
         "title": "The observability agent",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-09-12"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-evaluation-tool-evaluation",
         "title": "Tool evaluation",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-09-10"
       },
       {
         "url": "https://platform.claude.com/cookbook/observability-usage-cost-api",
         "title": "Usage & cost Admin API cookbook",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-08-18"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-memory-cookbook",
         "title": "Memory & context management with Claude Sonnet 4.6",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-05-22"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-speculative-prompt-caching",
         "title": "Speculative prompt caching",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-05-15"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-parallel-tools",
         "title": "Parallel tool calls on Claude 3.7 Sonnet",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-03-05"
       },
       {
         "url": "https://platform.claude.com/cookbook/extended-thinking-extended-thinking",
         "title": "Extended thinking",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-02-24"
       },
       {
         "url": "https://platform.claude.com/cookbook/extended-thinking-extended-thinking-with-tool-use",
         "title": "Extended thinking with tool use",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2025-02-24"
       },
       {
         "url": "https://platform.claude.com/cookbook/patterns-agents-basic-workflows",
         "title": "Basic workflows",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-12-19"
       },
       {
         "url": "https://platform.claude.com/cookbook/patterns-agents-evaluator-optimizer",
         "title": "Evaluator optimizer",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-12-19"
       },
       {
         "url": "https://platform.claude.com/cookbook/patterns-agents-orchestrator-workers",
         "title": "Orchestrator workers",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-12-19"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-batch-processing",
         "title": "Batch processing with Message Batches API",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-10-08"
       },
       {
         "url": "https://platform.claude.com/cookbook/capabilities-text-to-sql-guide",
         "title": "Text to SQL with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-09-23"
       },
       {
         "url": "https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide",
         "title": "Enhancing RAG with contextual retrieval",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-09-13"
       },
       {
         "url": "https://platform.claude.com/cookbook/finetuning-finetuning-on-bedrock",
         "title": "Finetuning Claude 3 Haiku on Bedrock",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-08-19"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-generate-test-cases",
         "title": "Generate synthetic test data for your prompt template",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-08-16"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-prompt-caching",
         "title": "Prompt caching through the Claude API",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-08-14"
       },
       {
         "url": "https://platform.claude.com/cookbook/capabilities-summarization-guide",
         "title": "Summarization with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-08-07"
       },
       {
         "url": "https://platform.claude.com/cookbook/capabilities-retrieval-augmented-generation-guide",
         "title": "Retrieval augmented generation",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-07-02"
       },
       {
         "url": "https://platform.claude.com/cookbook/capabilities-classification-guide",
         "title": "Classification with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-05-19"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-tool-choice",
         "title": "Tool choice",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-05-15"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-vision-with-tools",
         "title": "Using vision with tools",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-05-15"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-sampling-past-max-tokens",
         "title": "Sampling responses from Claude beyond the max tokens limit",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-05-08"
       },
       {
         "url": "https://platform.claude.com/cookbook/multimodal-best-practices-for-vision",
         "title": "Best practices for using vision with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-05-08"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-tool-use-with-pydantic",
         "title": "Note-saving tool with Pydantic and Anthropic tool use",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-04-12"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-deepgram-prerecorded-audio",
         "title": "Transcribe an audio file with Deepgram & use Anthropic to prepare interview questions!",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-04-10"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-wolframalpha-using-llm-api",
         "title": "Using the Wolfram Alpha LLM API as a tool with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-04-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-calculator-tool",
         "title": "Using a calculator tool with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-04-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-customer-service-agent",
         "title": "Creating a customer service agent with client-side tools",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-04-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/tool-use-extracting-structured-json",
         "title": "Extracting structured JSON using Claude and tool use",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-04-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-metaprompt",
         "title": "Metaprompt",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-18"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-using-citations",
         "title": "Citations",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-14"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-pinecone-claude-3-rag-agent",
         "title": "Claude 3 RAG agents with LangChain v1",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-14"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-read-web-pages-with-haiku",
         "title": "Summarizing web page content with Claude 3 Haiku",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-13"
       },
       {
         "url": "https://platform.claude.com/cookbook/multimodal-using-sub-agents",
         "title": "Using Haiku as a sub-agent",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-13"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-llamaindex-multi-modal",
         "title": "Multi-modal",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-08"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-mongodb-rag-using-mongodb",
         "title": "How to build a RAG system using Claude 3 and MongoDB",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-06"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-building-evals",
         "title": "Building evals",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-building-moderation-filter",
         "title": "Building a moderation filter with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-how-to-enable-json-mode",
         "title": "Prompting Claude for \"JSON mode\"",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-how-to-make-sql-queries",
         "title": "How to make SQL queries with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/multimodal-getting-started-with-vision",
         "title": "Getting started - how to pass images into Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/multimodal-how-to-transcribe-text",
         "title": "How to transcribe documents with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/multimodal-reading-charts-graphs-powerpoints",
         "title": "Working with charts, graphs, and slide decks",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-03"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-llamaindex-multi-document-agents",
         "title": "Multi-document agents",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-02"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-llamaindex-react-agent",
         "title": "ReAct agent",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-02"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-llamaindex-basic-rag-with-llamaindex",
         "title": "RAG pipeline with LlamaIndex",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-01"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-llamaindex-router-query-engine",
         "title": "RouterQuery engine",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-01"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-llamaindex-subquestion-query-engine",
         "title": "SubQuestionQueryEngine",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-03-01"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-pinecone-rag-using-pinecone",
         "title": "Retrieval-augmented generation using Pinecone",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2024-02-18"
       },
       {
         "url": "https://platform.claude.com/cookbook/misc-pdf-upload-summarization",
         "title": "\"Uploading\" PDFs to Claude via the API",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2023-08-15"
       },
       {
         "url": "https://platform.claude.com/cookbook/third-party-wikipedia-wikipedia-search-cookbook",
         "title": "Iteratively searching Wikipedia with Claude",
         "desc": "Claude 官方开发示例与教程",
-        "date": ""
+        "date": "2023-08-15"
       }
     ],
     "transformer_circuits": [

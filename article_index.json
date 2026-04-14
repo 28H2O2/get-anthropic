@@ -17,6 +17,12 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://platform.claude.com/cookbook/managed-agents-sre-incident-responder": {
+    "title": "Build an SRE incident response agent with Claude Managed Agents",
+    "date": "2026-04-10",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/research/trustworthy-agents": {
     "title": "Trustworthy agents in practice",
     "date": "2026-04-09",
@@ -47,10 +53,46 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://platform.claude.com/cookbook/managed-agents-data-analyst-agent": {
+    "title": "Build a data analyst agent with Claude Managed Agents",
+    "date": "2026-04-08",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/managed-agents-slack-data-bot": {
+    "title": "Build a Slack data analyst bot with Claude Managed Agents",
+    "date": "2026-04-08",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-iterate-fix-failing-tests": {
+    "title": "Managed Agents tutorial: iterate on a failing test suite",
+    "date": "2026-04-08",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-operate-in-production": {
+    "title": "Managed Agents tutorial: production setup",
+    "date": "2026-04-08",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://claude.com/blog/subagents-in-claude-code": {
     "title": "How and when to use subagents in Claude Code",
     "date": "2026-04-07",
     "source": "claude_blog",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-prompt-versioning-and-rollback": {
+    "title": "Managed Agents tutorial: prompt versioning and rollback",
+    "date": "2026-04-07",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-threat-intel-enrichment-agent": {
+    "title": "Threat intelligence enrichment agent",
+    "date": "2026-04-07",
+    "source": "cookbook",
     "processed": true
   },
   "https://www.anthropic.com/news/google-broadcom-partnership-compute": {
@@ -87,6 +129,12 @@
     "title": "Audit Claude Platform activity with the Compliance API",
     "date": "2026-03-30",
     "source": "claude_blog",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-05-building-a-session-browser": {
+    "title": "Building a session browser",
+    "date": "2026-03-30",
+    "source": "cookbook",
     "processed": true
   },
   "https://www.anthropic.com/engineering/claude-code-auto-mode": {
@@ -137,6 +185,18 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide": {
+    "title": "Knowledge graph construction with Claude",
+    "date": "2026-03-23",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-context-engineering-context-engineering-tools": {
+    "title": "Context engineering: memory, compaction, and tool clearing",
+    "date": "2026-03-20",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://claude.com/blog/product-management-on-the-ai-exponential": {
     "title": "Product management on the AI exponential",
     "date": "2026-03-19",
@@ -183,6 +243,12 @@
     "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
     "date": "2026-03-10",
     "source": "anthropic_news",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-04-migrating-from-openai-agents-sdk": {
+    "title": "Migrating from the OpenAI Agents SDK",
+    "date": "2026-03-09",
+    "source": "cookbook",
     "processed": true
   },
   "https://www.anthropic.com/news/mozilla-firefox-security": {
@@ -303,6 +369,12 @@
     "title": "India Country Brief: The Anthropic Economic Index",
     "date": "2026-02-16",
     "source": "anthropic_research",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-03-the-site-reliability-agent": {
+    "title": "The site reliability agent",
+    "date": "2026-02-16",
+    "source": "cookbook",
     "processed": true
   },
   "https://www.anthropic.com/news/anthropic-codepath-partnership": {
@@ -454,6 +526,12 @@
     "date": "2026-01-16",
     "source": "anthropic_news",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/misc-session-memory-compaction": {
+    "title": "Session memory compaction",
+    "date": "2026-01-16",
+    "source": "cookbook",
+    "processed": true
   },
   "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report": {
     "title": "",
@@ -683,11 +761,41 @@
     "source": "engineering",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/tool-use-programmatic-tool-calling-ptc": {
+    "title": "Programmatic tool calling (PTC)",
+    "date": "2025-11-24",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-tool-search-with-embeddings": {
+    "title": "Tool search with embeddings",
+    "date": "2025-11-24",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-automatic-context-compaction": {
+    "title": "Automatic context compaction",
+    "date": "2025-11-24",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-elevenlabs-low-latency-stt-claude-tts": {
+    "title": "Low latency voice assistant with ElevenLabs",
+    "date": "2025-11-24",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude": {
     "title": "",
     "date": "2025-11-22",
     "source": "anthropic_news",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/multimodal-crop-tool": {
+    "title": "Giving Claude a crop tool for better image analysis",
+    "date": "2025-11-22",
+    "source": "cookbook",
+    "processed": true
   },
   "https://www.anthropic.com/research/emergent-misalignment-reward-hacking": {
     "title": "",
@@ -947,6 +1055,12 @@
     "source": "anthropic_news",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/coding-prompting-for-frontend-aesthetics": {
+    "title": "Prompting for frontend aesthetics",
+    "date": "2025-10-21",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://claude.com/blog/claude-code-on-the-web": {
     "title": "Claude Code on the web",
     "date": "2025-10-20",
@@ -959,6 +1073,18 @@
     "source": "engineering",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/skills-notebooks-02-skills-financial-applications": {
+    "title": "Claude Skills for financial applications",
+    "date": "2025-10-15",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/skills-notebooks-03-skills-custom-development": {
+    "title": "Building custom Skills for Claude",
+    "date": "2025-10-15",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership": {
     "title": "",
     "date": "2025-10-14",
@@ -970,6 +1096,12 @@
     "date": "2025-10-14",
     "source": "anthropic_research",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction": {
+    "title": "Introduction to Claude Skills",
+    "date": "2025-10-14",
+    "source": "cookbook",
+    "processed": true
   },
   "https://www.anthropic.com/research/small-samples-poison": {
     "title": "",
@@ -1067,11 +1199,35 @@
     "source": "anthropic_news",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-00-the-one-liner-research-agent": {
+    "title": "The one-liner research agent",
+    "date": "2025-09-12",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-01-the-chief-of-staff-agent": {
+    "title": "The chief of staff agent",
+    "date": "2025-09-12",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-02-the-observability-agent": {
+    "title": "The observability agent",
+    "date": "2025-09-12",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/engineering/writing-tools-for-agents": {
     "title": "Writing effective tools for agents — with agents",
     "date": "2025-09-11",
     "source": "engineering",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/tool-evaluation-tool-evaluation": {
+    "title": "Tool evaluation",
+    "date": "2025-09-10",
+    "source": "cookbook",
+    "processed": true
   },
   "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53": {
     "title": "",
@@ -1150,6 +1306,12 @@
     "date": "2025-08-20",
     "source": "anthropic_news",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/observability-usage-cost-api": {
+    "title": "Usage & cost Admin API cookbook",
+    "date": "2025-08-18",
+    "source": "cookbook",
+    "processed": true
   },
   "https://www.anthropic.com/news/building-safeguards-for-claude": {
     "title": "",
@@ -1439,6 +1601,18 @@
     "source": "anthropic_news",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/tool-use-memory-cookbook": {
+    "title": "Memory & context management with Claude Sonnet 4.6",
+    "date": "2025-05-22",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-speculative-prompt-caching": {
+    "title": "Speculative prompt caching",
+    "date": "2025-05-15",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/news/100k-context-windows": {
     "title": "",
     "date": "2025-05-02",
@@ -1499,6 +1673,12 @@
     "source": "anthropic_news",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/tool-use-parallel-tools": {
+    "title": "Parallel tool calls on Claude 3.7 Sonnet",
+    "date": "2025-03-05",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam": {
     "title": "",
     "date": "2025-02-28",
@@ -1522,6 +1702,18 @@
     "date": "2025-02-26",
     "source": "anthropic_news",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/extended-thinking-extended-thinking": {
+    "title": "Extended thinking",
+    "date": "2025-02-24",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/extended-thinking-extended-thinking-with-tool-use": {
+    "title": "Extended thinking with tool use",
+    "date": "2025-02-24",
+    "source": "cookbook",
+    "processed": true
   },
   "https://www.anthropic.com/news/paris-ai-summit": {
     "title": "",
@@ -2087,6 +2279,24 @@
     "source": "engineering",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/patterns-agents-basic-workflows": {
+    "title": "Basic workflows",
+    "date": "2024-12-19",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/patterns-agents-evaluator-optimizer": {
+    "title": "Evaluator optimizer",
+    "date": "2024-12-19",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/patterns-agents-orchestrator-workers": {
+    "title": "Orchestrator workers",
+    "date": "2024-12-19",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/news/elections-ai-2024": {
     "title": "",
     "date": "2024-12-12",
@@ -2159,6 +2369,12 @@
     "source": "anthropic_news",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/misc-batch-processing": {
+    "title": "Batch processing with Message Batches API",
+    "date": "2024-10-08",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/research/circuits-updates-june-2024": {
     "title": "",
     "date": "2024-10-01",
@@ -2171,11 +2387,23 @@
     "source": "anthropic_research",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/capabilities-text-to-sql-guide": {
+    "title": "Text to SQL with Claude",
+    "date": "2024-09-23",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/engineering/contextual-retrieval": {
     "title": "Introducing Contextual Retrieval",
     "date": "2024-09-19",
     "source": "engineering",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide": {
+    "title": "Enhancing RAG with contextual retrieval",
+    "date": "2024-09-13",
+    "source": "cookbook",
+    "processed": true
   },
   "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations": {
     "title": "",
@@ -2266,6 +2494,30 @@
     "date": "2024-09-06",
     "source": "anthropic_research",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/finetuning-finetuning-on-bedrock": {
+    "title": "Finetuning Claude 3 Haiku on Bedrock",
+    "date": "2024-08-19",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-generate-test-cases": {
+    "title": "Generate synthetic test data for your prompt template",
+    "date": "2024-08-16",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-prompt-caching": {
+    "title": "Prompt caching through the Claude API",
+    "date": "2024-08-14",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/capabilities-summarization-guide": {
+    "title": "Summarization with Claude",
+    "date": "2024-08-07",
+    "source": "cookbook",
+    "processed": true
   },
   "https://www.anthropic.com/news/anthropic-bcg": {
     "title": "",
@@ -2387,6 +2639,12 @@
     "source": "anthropic_research",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/capabilities-retrieval-augmented-generation-guide": {
+    "title": "Retrieval augmented generation",
+    "date": "2024-07-02",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/research/engineering-challenges-interpretability": {
     "title": "",
     "date": "2024-06-13",
@@ -2405,6 +2663,36 @@
     "source": "anthropic_news",
     "processed": false
   },
+  "https://platform.claude.com/cookbook/capabilities-classification-guide": {
+    "title": "Classification with Claude",
+    "date": "2024-05-19",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-tool-choice": {
+    "title": "Tool choice",
+    "date": "2024-05-15",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-vision-with-tools": {
+    "title": "Using vision with tools",
+    "date": "2024-05-15",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-sampling-past-max-tokens": {
+    "title": "Sampling responses from Claude beyond the max tokens limit",
+    "date": "2024-05-08",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/multimodal-best-practices-for-vision": {
+    "title": "Best practices for using vision with Claude",
+    "date": "2024-05-08",
+    "source": "cookbook",
+    "processed": true
+  },
   "https://www.anthropic.com/research/probes-catch-sleeper-agents": {
     "title": "",
     "date": "2024-05-02",
@@ -2416,6 +2704,162 @@
     "date": "2024-04-26",
     "source": "anthropic_research",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/tool-use-tool-use-with-pydantic": {
+    "title": "Note-saving tool with Pydantic and Anthropic tool use",
+    "date": "2024-04-12",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-deepgram-prerecorded-audio": {
+    "title": "Transcribe an audio file with Deepgram & use Anthropic to prepare interview questions!",
+    "date": "2024-04-10",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-wolframalpha-using-llm-api": {
+    "title": "Using the Wolfram Alpha LLM API as a tool with Claude",
+    "date": "2024-04-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-calculator-tool": {
+    "title": "Using a calculator tool with Claude",
+    "date": "2024-04-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-customer-service-agent": {
+    "title": "Creating a customer service agent with client-side tools",
+    "date": "2024-04-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/tool-use-extracting-structured-json": {
+    "title": "Extracting structured JSON using Claude and tool use",
+    "date": "2024-04-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-metaprompt": {
+    "title": "Metaprompt",
+    "date": "2024-03-18",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-using-citations": {
+    "title": "Citations",
+    "date": "2024-03-14",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-pinecone-claude-3-rag-agent": {
+    "title": "Claude 3 RAG agents with LangChain v1",
+    "date": "2024-03-14",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-read-web-pages-with-haiku": {
+    "title": "Summarizing web page content with Claude 3 Haiku",
+    "date": "2024-03-13",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/multimodal-using-sub-agents": {
+    "title": "Using Haiku as a sub-agent",
+    "date": "2024-03-13",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-llamaindex-multi-modal": {
+    "title": "Multi-modal",
+    "date": "2024-03-08",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-mongodb-rag-using-mongodb": {
+    "title": "How to build a RAG system using Claude 3 and MongoDB",
+    "date": "2024-03-06",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-building-evals": {
+    "title": "Building evals",
+    "date": "2024-03-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-building-moderation-filter": {
+    "title": "Building a moderation filter with Claude",
+    "date": "2024-03-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-how-to-enable-json-mode": {
+    "title": "Prompting Claude for \"JSON mode\"",
+    "date": "2024-03-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/misc-how-to-make-sql-queries": {
+    "title": "How to make SQL queries with Claude",
+    "date": "2024-03-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/multimodal-getting-started-with-vision": {
+    "title": "Getting started - how to pass images into Claude",
+    "date": "2024-03-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/multimodal-how-to-transcribe-text": {
+    "title": "How to transcribe documents with Claude",
+    "date": "2024-03-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/multimodal-reading-charts-graphs-powerpoints": {
+    "title": "Working with charts, graphs, and slide decks",
+    "date": "2024-03-03",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-llamaindex-multi-document-agents": {
+    "title": "Multi-document agents",
+    "date": "2024-03-02",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-llamaindex-react-agent": {
+    "title": "ReAct agent",
+    "date": "2024-03-02",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-llamaindex-basic-rag-with-llamaindex": {
+    "title": "RAG pipeline with LlamaIndex",
+    "date": "2024-03-01",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-llamaindex-router-query-engine": {
+    "title": "RouterQuery engine",
+    "date": "2024-03-01",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-llamaindex-subquestion-query-engine": {
+    "title": "SubQuestionQueryEngine",
+    "date": "2024-03-01",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-pinecone-rag-using-pinecone": {
+    "title": "Retrieval-augmented generation using Pinecone",
+    "date": "2024-02-18",
+    "source": "cookbook",
+    "processed": true
   },
   "https://transformer-circuits.pub/2024/model-diffing/index.html": {
     "title": "Stage-Wise Model DiffingA preliminary note on model diffing through dictionary fine-tuning.",
@@ -2494,6 +2938,18 @@
     "date": "2024",
     "source": "transformer_circuits",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/misc-pdf-upload-summarization": {
+    "title": "\"Uploading\" PDFs to Claude via the API",
+    "date": "2023-08-15",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/third-party-wikipedia-wikipedia-search-cookbook": {
+    "title": "Iteratively searching Wikipedia with Claude",
+    "date": "2023-08-15",
+    "source": "cookbook",
+    "processed": true
   },
   "https://transformer-circuits.pub/2023/monosemantic-features/index.html": {
     "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary LearningBricken et al., 2023Using a sparse autoencoder, we extract a large number of interpretable features from a one-layer\n                    transformer.",
@@ -2584,462 +3040,6 @@
     "date": "2021",
     "source": "transformer_circuits",
     "processed": false
-  },
-  "https://platform.claude.com/cookbook/tool-use-programmatic-tool-calling-ptc": {
-    "title": "Programmatic tool calling (PTC)",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-tool-search-with-embeddings": {
-    "title": "Tool search with embeddings",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-automatic-context-compaction": {
-    "title": "Automatic context compaction",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/multimodal-crop-tool": {
-    "title": "Giving Claude a crop tool for better image analysis",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/coding-prompting-for-frontend-aesthetics": {
-    "title": "Prompting for frontend aesthetics",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/skills-notebooks-01-skills-introduction": {
-    "title": "Introduction to Claude Skills",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/managed-agents-sre-incident-responder": {
-    "title": "Build an SRE incident response agent with Claude Managed Agents",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/managed-agents-data-analyst-agent": {
-    "title": "Build a data analyst agent with Claude Managed Agents",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/managed-agents-slack-data-bot": {
-    "title": "Build a Slack data analyst bot with Claude Managed Agents",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/managed-agents-cma-iterate-fix-failing-tests": {
-    "title": "Managed Agents tutorial: iterate on a failing test suite",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/managed-agents-cma-operate-in-production": {
-    "title": "Managed Agents tutorial: production setup",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/managed-agents-cma-prompt-versioning-and-rollback": {
-    "title": "Managed Agents tutorial: prompt versioning and rollback",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-threat-intel-enrichment-agent": {
-    "title": "Threat intelligence enrichment agent",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/claude-agent-sdk-05-building-a-session-browser": {
-    "title": "Building a session browser",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide": {
-    "title": "Knowledge graph construction with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-context-engineering-context-engineering-tools": {
-    "title": "Context engineering: memory, compaction, and tool clearing",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/claude-agent-sdk-04-migrating-from-openai-agents-sdk": {
-    "title": "Migrating from the OpenAI Agents SDK",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/claude-agent-sdk-03-the-site-reliability-agent": {
-    "title": "The site reliability agent",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-session-memory-compaction": {
-    "title": "Session memory compaction",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-elevenlabs-low-latency-stt-claude-tts": {
-    "title": "Low latency voice assistant with ElevenLabs",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/skills-notebooks-02-skills-financial-applications": {
-    "title": "Claude Skills for financial applications",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/skills-notebooks-03-skills-custom-development": {
-    "title": "Building custom Skills for Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/claude-agent-sdk-00-the-one-liner-research-agent": {
-    "title": "The one-liner research agent",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/claude-agent-sdk-01-the-chief-of-staff-agent": {
-    "title": "The chief of staff agent",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/claude-agent-sdk-02-the-observability-agent": {
-    "title": "The observability agent",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-evaluation-tool-evaluation": {
-    "title": "Tool evaluation",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/observability-usage-cost-api": {
-    "title": "Usage & cost Admin API cookbook",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-memory-cookbook": {
-    "title": "Memory & context management with Claude Sonnet 4.6",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-speculative-prompt-caching": {
-    "title": "Speculative prompt caching",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-parallel-tools": {
-    "title": "Parallel tool calls on Claude 3.7 Sonnet",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/extended-thinking-extended-thinking": {
-    "title": "Extended thinking",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/extended-thinking-extended-thinking-with-tool-use": {
-    "title": "Extended thinking with tool use",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/patterns-agents-basic-workflows": {
-    "title": "Basic workflows",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/patterns-agents-evaluator-optimizer": {
-    "title": "Evaluator optimizer",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/patterns-agents-orchestrator-workers": {
-    "title": "Orchestrator workers",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-batch-processing": {
-    "title": "Batch processing with Message Batches API",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/capabilities-text-to-sql-guide": {
-    "title": "Text to SQL with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide": {
-    "title": "Enhancing RAG with contextual retrieval",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/finetuning-finetuning-on-bedrock": {
-    "title": "Finetuning Claude 3 Haiku on Bedrock",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-generate-test-cases": {
-    "title": "Generate synthetic test data for your prompt template",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-prompt-caching": {
-    "title": "Prompt caching through the Claude API",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/capabilities-summarization-guide": {
-    "title": "Summarization with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/capabilities-retrieval-augmented-generation-guide": {
-    "title": "Retrieval augmented generation",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/capabilities-classification-guide": {
-    "title": "Classification with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-tool-choice": {
-    "title": "Tool choice",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-vision-with-tools": {
-    "title": "Using vision with tools",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-sampling-past-max-tokens": {
-    "title": "Sampling responses from Claude beyond the max tokens limit",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/multimodal-best-practices-for-vision": {
-    "title": "Best practices for using vision with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-tool-use-with-pydantic": {
-    "title": "Note-saving tool with Pydantic and Anthropic tool use",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-deepgram-prerecorded-audio": {
-    "title": "Transcribe an audio file with Deepgram & use Anthropic to prepare interview questions!",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-wolframalpha-using-llm-api": {
-    "title": "Using the Wolfram Alpha LLM API as a tool with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-calculator-tool": {
-    "title": "Using a calculator tool with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-customer-service-agent": {
-    "title": "Creating a customer service agent with client-side tools",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/tool-use-extracting-structured-json": {
-    "title": "Extracting structured JSON using Claude and tool use",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-metaprompt": {
-    "title": "Metaprompt",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-using-citations": {
-    "title": "Citations",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-pinecone-claude-3-rag-agent": {
-    "title": "Claude 3 RAG agents with LangChain v1",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-read-web-pages-with-haiku": {
-    "title": "Summarizing web page content with Claude 3 Haiku",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/multimodal-using-sub-agents": {
-    "title": "Using Haiku as a sub-agent",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-llamaindex-multi-modal": {
-    "title": "Multi-modal",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-mongodb-rag-using-mongodb": {
-    "title": "How to build a RAG system using Claude 3 and MongoDB",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-building-evals": {
-    "title": "Building evals",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-building-moderation-filter": {
-    "title": "Building a moderation filter with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-how-to-enable-json-mode": {
-    "title": "Prompting Claude for \"JSON mode\"",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-how-to-make-sql-queries": {
-    "title": "How to make SQL queries with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/multimodal-getting-started-with-vision": {
-    "title": "Getting started - how to pass images into Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/multimodal-how-to-transcribe-text": {
-    "title": "How to transcribe documents with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/multimodal-reading-charts-graphs-powerpoints": {
-    "title": "Working with charts, graphs, and slide decks",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-llamaindex-multi-document-agents": {
-    "title": "Multi-document agents",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-llamaindex-react-agent": {
-    "title": "ReAct agent",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-llamaindex-basic-rag-with-llamaindex": {
-    "title": "RAG pipeline with LlamaIndex",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-llamaindex-router-query-engine": {
-    "title": "RouterQuery engine",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-llamaindex-subquestion-query-engine": {
-    "title": "SubQuestionQueryEngine",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-pinecone-rag-using-pinecone": {
-    "title": "Retrieval-augmented generation using Pinecone",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/misc-pdf-upload-summarization": {
-    "title": "\"Uploading\" PDFs to Claude via the API",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
-  },
-  "https://platform.claude.com/cookbook/third-party-wikipedia-wikipedia-search-cookbook": {
-    "title": "Iteratively searching Wikipedia with Claude",
-    "date": "",
-    "source": "cookbook",
-    "processed": true
   },
   "https://red.anthropic.com/2026/mythos-preview/": {
     "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
