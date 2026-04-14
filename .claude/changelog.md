@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-04-14（run.sh 自动调用 build_data.py）
+
+### 修复
+- `run.sh` 每次运行 `main.py` 后自动调用 `build_data.py`，确保前端 `public/data.json` 每日随之更新，30 天滚动窗口生效
+
 ## 2026-04-14（新增 alignment / engineering 来源 + claude_blog 卡片修复 + 文档）
 
 ### 新增信息来源

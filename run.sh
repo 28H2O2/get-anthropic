@@ -16,4 +16,6 @@ LOG_FILE="$LOG_DIR/$(date +%Y-%m-%d).log"
 
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') 开始运行 ===" >> "$LOG_FILE"
 python3 "$SCRIPT_DIR/main.py" "$@" >> "$LOG_FILE" 2>&1
+echo "=== $(date '+%Y-%m-%d %H:%M:%S') 开始构建前端数据 ===" >> "$LOG_FILE"
+python3 "$SCRIPT_DIR/build_data.py" >> "$LOG_FILE" 2>&1
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') 运行完成 ===" >> "$LOG_FILE"
