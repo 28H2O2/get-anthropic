@@ -17,7 +17,7 @@
 #   fetchers/red_team.py, fetchers/claude_blog.py, fetchers/alignment.py, fetchers/engineering.py
 #   translator.py, config.json
 # 项目作用：主协调器，调度 fetcher → 对比索引 → 日期过滤 → 翻译 → 输出日报
-# 最后修改：2026-04-13
+# 最后修改：2026-04-14
 
 import json
 import argparse
@@ -96,8 +96,17 @@ def fetch_content(article: dict, since_str: str, today_str: str) -> str:
     source = article["source"]
     url = article["url"]
 
-    if source == "cookbook" and article.get("description"):
-        return article["description"]
+    if source == "cookbook":
+        content, title, pub_date = cookbook.fetch_article_content(url)
+        if title and not article.get("title"):
+            article["title"] = title
+        if pub_date:
+            article["date"] = pub_date
+            if not (since_str <= pub_date <= today_str):
+                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
+                return ""
+        # 有 description 优先用于翻译（避免抓全文），否则用正文
+        return article.get("description") or content or ""
 
     if source in ("anthropic_news", "anthropic_research"):
         content, title, pub_date = anthropic_blog.fetch_article_content(url)
@@ -142,8 +151,6 @@ def fetch_content(article: dict, since_str: str, today_str: str) -> str:
                 print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
                 return ""
         return content or ""
-    elif source == "cookbook":
-        return cookbook.fetch_article_content(url) or ""
     elif source == "transformer_circuits":
         return transformer.fetch_article_content(url) or ""
     elif source == "alignment":

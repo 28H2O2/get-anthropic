@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-04-14（Cookbook 支持精确发布日期）
+
+### 改进
+- `fetchers/cookbook.py`：`fetch_article_content()` 改为返回 `(content, title, pub_date)` 元组，从详情页解析 "Published on Month DD, YYYY" 格式日期
+- `main.py`：cookbook 分支改为先拉详情页取日期 + 日期窗口过滤，翻译仍优先用列表页 description（减少全文请求）
+
 ## 2026-04-14（run.sh 自动调用 build_data.py）
 
 ### 修复
