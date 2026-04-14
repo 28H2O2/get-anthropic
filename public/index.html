@@ -776,7 +776,6 @@
       </div>
     </div>
     <div class="constitution-arrow">
-      ${it.date ? `<span class="constitution-date">${esc(it.date)}</span>` : ''}
       <span class="constitution-cta">阅读原文 →</span>
     </div>
   </a>
@@ -832,7 +831,7 @@
       main.innerHTML =
         digestsHtml(data.digests) +
         `<div class="archive-section" id="archive">
-           <h2 class="archive-heading">全部引用链接 <a class="nav-btn" href="#" style="font-family:var(--font-sans);font-size:0.72rem;">↑ 回到顶部</a></h2>
+           <h2 class="archive-heading">全部引用链接</h2>
            <div class="archive-grid">${archiveHtml(data.all_urls || {}, data.archive_order)}</div>
            ${staticRefsHtml(data.static_refs || [])}
          </div>`;

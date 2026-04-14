@@ -51,7 +51,7 @@ STATIC_REFS = [
         "items": [
             {
                 "url": "https://www.anthropic.com/constitution",
-                "title": "Claude's Constitution (Model Spec)",
+                "title": "Claude's Constitution",
                 "desc": "Claude 的价值观与行为准则",
                 "date": "2024-05-08",
             },
