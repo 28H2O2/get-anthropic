@@ -3583,8 +3583,8 @@
   "archive_order": [
     "anthropic_news",
     "anthropic_research",
-    "red_team",
     "claude_blog",
+    "red_team",
     "alignment",
     "engineering",
     "cookbook",

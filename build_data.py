@@ -122,7 +122,7 @@ def build():
     # 按日期分组，只取近 LOOKBACK_DAYS 天有真实日期的文章
     days: dict[str, list] = {}
     all_urls_by_source: dict[str, list] = {k: [] for k in SOURCE_LABELS}
-    ARCHIVE_ORDER = ["anthropic_news", "anthropic_research", "red_team", "claude_blog", "alignment", "engineering", "cookbook", "transformer_circuits"]
+    ARCHIVE_ORDER = ["anthropic_news", "anthropic_research", "claude_blog", "red_team", "alignment", "engineering", "cookbook", "transformer_circuits"]
 
     for url, meta in index.items():
         source = meta.get("source", "")
