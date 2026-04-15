@@ -84,3 +84,11 @@ logs/            # 运行日志（由 run.sh 生成）
 ```
 
 切换为 Claude 翻译引擎时需额外设置 `ANTHROPIC_API_KEY`。
+
+## Git 推送规范
+
+GitHub Actions 每天自动运行，会向远端 `main` 提交新数据（`article_index.json`、`public/data.json` 等）。因此**每次 push 前必须先拉取远端变更**，否则会因 non-fast-forward 被拒绝：
+
+```bash
+git pull --rebase origin main && git push origin main
+```
