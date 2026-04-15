@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-04-15（修复"一键直达"滚动落点）
+
+### 修复
+- `public/index.html`：`.archive-section` 加 `scroll-margin-top: 2rem`，点击"一键直达 → 所有引用"后"全部引用链接"标题能完整显示在视口内，不再被推出上边缘
+
 ## 2026-04-14（Red Team / Transformer 精确日期 + References 独立样式 + Favicon）
 
 ### 改进
