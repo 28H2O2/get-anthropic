@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-04-14",
+  "generated_at": "2026-04-15",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-04-14",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/narasimhan-board",
+          "title_en": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+          "title_zh": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+          "summary_zh": "【机器翻译摘要】\nAnthropic 的长期利益信托任命Vas Narasimhan为董事会成员\n\n公告\nAnthropic 的长期利益信托任命Vas Narasimhan为董事会成员\n2026年4月14日\nVas Narasimhan已被 Anthropic 长期利益信托任命为 Anthropic 董事会成员。他是诺华 (世界领先的创新药物公司之一) 的医师，科学家兼首席执行官，并分享了 Anthropic 的信念\n医疗保健\n和\n生命科学\n是AI最有潜力提高h质量的领域之一",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-04-14"
+        },
+        {
+          "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+          "title_en": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+          "title_zh": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+          "summary_zh": "【机器翻译摘要】\n自动对齐研究人员: 使用大型语言模型来扩展可扩展的监督\n\n对齐\n自动对齐研究人员: 使用大型语言模型来扩展可扩展的监督\n2026年4月14日\n阅读研究\n大型语言模型不断加快的改进速度为对齐研究提出了两个特别重要的问题。\n一是如何保持一致。前沿人工智能模型现在正在为其继任者的发展做出贡献。但是他们能提供同样的提升吗\n对齐\n研究人员？我们的语言模型可以用来帮助他们",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-04-14"
+        },
+        {
+          "url": "https://claude.com/blog/claude-code-desktop-redesign",
+          "title_en": "Redesigning Claude Code on desktop for parallel agents",
+          "title_zh": "Redesigning Claude Code on desktop for parallel agents",
+          "summary_zh": "【机器翻译摘要】\n在桌面为并行代理重新设计 Claude 代码\n\n在桌面为并行代理重新设计 Claude 代码\n今天，我们发布了重新设计的 Claude Code桌面应用程序，旨在帮助您一次运行更多 Claude 代码任务。\n下载应用\n下载应用\n下载应用\n阅读文档\n阅读文档\n阅读文档\n类别\nClaude 代码\n产品公告\n产品\nClaude 代码\n日期\n2026年4月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德-代码-桌面-重新设计\n它包括一个新的侧边栏，用于管理多个会话，",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-14"
+        },
+        {
+          "url": "https://claude.com/blog/introducing-routines-in-claude-code",
+          "title_en": "Introducing routines in Claude Code",
+          "title_zh": "Introducing routines in Claude Code",
+          "summary_zh": "【机器翻译摘要】\n介绍 Claude 代码中的例程\n\n介绍 Claude 代码中的例程\n定义可重复的例程，以处理积压工作，查看您的pr并响应云中的事件。\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年4月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 介绍-例程-in-claude-code\n今天，我们将在research preview中介绍 Claude 代码中的例程。例程是您配置一次的 Claude 代码自动化-包括提示、回购和连接器-然后在sche上运行",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-14"
+        }
+      ]
+    },
     {
       "date": "2026-04-10",
       "articles": [
@@ -408,6 +449,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/narasimhan-board",
+        "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-04-14"
+      },
       {
         "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
         "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
@@ -1592,6 +1639,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+        "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-04-14"
+      },
       {
         "url": "https://www.anthropic.com/research/trustworthy-agents",
         "title": "Trustworthy agents in practice",
@@ -3095,6 +3148,18 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/claude-code-desktop-redesign",
+        "title": "Redesigning Claude Code on desktop for parallel agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-14"
+      },
+      {
+        "url": "https://claude.com/blog/introducing-routines-in-claude-code",
+        "title": "Introducing routines in Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-14"
+      },
+      {
         "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
         "title": "Preparing your security program for AI-accelerated offense",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -3279,6 +3344,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/petri-v2/",
         "title": "Petri 2.0: New Scenarios, New Model Comparisons, and Improved Eval-Awareness Mitigations",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/automated-w2s-researcher/",
+        "title": "Automated Weak-to-Strong Researcher",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },

@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/news/narasimhan-board": {
+    "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+    "date": "2026-04-14",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/automated-alignment-researchers": {
+    "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+    "date": "2026-04-14",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-code-desktop-redesign": {
+    "title": "Redesigning Claude Code on desktop for parallel agents",
+    "date": "2026-04-14",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/introducing-routines-in-claude-code": {
+    "title": "Introducing routines in Claude Code",
+    "date": "2026-04-14",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense": {
     "title": "Preparing your security program for AI-accelerated offense",
     "date": "2026-04-10",
@@ -670,6 +694,11 @@
     "date": "2026-01-01",
     "source": "alignment",
     "processed": true
+  },
+  "https://alignment.anthropic.com/2026/automated-w2s-researcher/": {
+    "title": "Automated Weak-to-Strong Researcher",
+    "date": "2026-01-01",
+    "source": "alignment"
   },
   "https://www.anthropic.com/research/bloom": {
     "title": "",
