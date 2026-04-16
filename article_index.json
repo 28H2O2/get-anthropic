@@ -1168,6 +1168,11 @@
     "source": "engineering",
     "processed": false
   },
+  "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills": {
+    "title": "Equipping agents for the real world with Agent Skills",
+    "date": "2025-10-16",
+    "source": "engineering"
+  },
   "https://platform.claude.com/cookbook/skills-notebooks-02-skills-financial-applications": {
     "title": "Claude Skills for financial applications",
     "date": "2025-10-15",

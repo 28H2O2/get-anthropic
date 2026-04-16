@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15",
+  "generated_at": "2026-04-16",
   "lookback_days": 30,
   "digests": [
     {
@@ -3576,6 +3576,12 @@
         "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
         "date": "2025-10-20"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+        "title": "Equipping agents for the real world with Agent Skills",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2025-10-16"
       },
       {
         "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
