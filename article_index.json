@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/news/claude-opus-4-7": {
+    "title": "Introducing Claude Opus 4.7",
+    "date": "2026-04-16",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code": {
+    "title": "Best practices for using Claude Opus 4.7 with Claude Code",
+    "date": "2026-04-16",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/using-claude-code-session-management-and-1m-context": {
+    "title": "Using Claude Code: session management and 1M context",
+    "date": "2026-04-15",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/narasimhan-board": {
     "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
     "date": "2026-04-14",

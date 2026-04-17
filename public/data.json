@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-04-16",
+  "generated_at": "2026-04-17",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-04-16",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/claude-opus-4-7",
+          "title_en": "Introducing Claude Opus 4.7",
+          "title_zh": "Introducing Claude Opus 4.7",
+          "summary_zh": "【机器翻译摘要】\n介绍 Claude Opus 4.7\n\n产品\n公告\n介绍 Claude Opus 4.7\n2026年4月16日\n我们的最新型号 Claude Opus 4.7现已全面上市。\nOpus 4.7是高级软件工程中 Opus 4.6的显著改进，尤其是在最困难的任务中获得了收益。用户报告说，他们可以放心地将最难的编码工作-以前需要密切监督的工作-移交给 Opus 4.7。Opus 4.7严谨、一致地处理复杂、长时间运行的任务，精确关注ins",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-04-16"
+        },
+        {
+          "url": "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code",
+          "title_en": "Best practices for using Claude Opus 4.7 with Claude Code",
+          "title_zh": "Best practices for using Claude Opus 4.7 with Claude Code",
+          "summary_zh": "【机器翻译摘要】\n使用 Claude Opus 4.7和 Claude 代码的最佳做法\n\n使用 Claude Opus 4.7和 Claude 代码的最佳做法\n了解如何使用重新校准的工作量级别、自适应思维和新的默认值来优化您的 Claude 代码设置和 Opus 4.7。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月16日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ best-practices-for-using-claude-opus-4-7-with-claude-code\nOpus 4.7\n是我们迄今为止最强大的通用模型，用于编码、企业工作流程和长期运行的代理任务。It手",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-16"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/using-claude-code-session-management-and-1m-context",
+          "title_en": "Using Claude Code: session management and 1M context",
+          "title_zh": "Using Claude Code: session management and 1M context",
+          "summary_zh": "【机器翻译摘要】\n使用 Claude 代码: 会话管理和1m上下文\n\n使用 Claude 代码: 会话管理和1m上下文\n在 Claude 代码中管理会话、上下文和压缩的方式使您的结果比预期的要多。这里有一个实用指南，可以在每个回合都做出正确的决定。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月15日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ using-claude-code-session-management-and-1m-context\n我们发布了\n/用法\n,一个新的斜杠命令，以帮助您了解您使用 Claude 代码的用法。这个",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-15"
+        }
+      ]
+    },
     {
       "date": "2026-04-14",
       "articles": [
@@ -449,6 +486,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "title": "Introducing Claude Opus 4.7",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-04-16"
+      },
       {
         "url": "https://www.anthropic.com/news/narasimhan-board",
         "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
@@ -3147,6 +3190,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code",
+        "title": "Best practices for using Claude Opus 4.7 with Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-16"
+      },
+      {
+        "url": "https://claude.com/blog/using-claude-code-session-management-and-1m-context",
+        "title": "Using Claude Code: session management and 1M context",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-15"
+      },
       {
         "url": "https://claude.com/blog/claude-code-desktop-redesign",
         "title": "Redesigning Claude Code on desktop for parallel agents",
