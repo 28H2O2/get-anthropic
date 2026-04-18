@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/claude-design-anthropic-labs": {
+    "title": "Introducing Claude Design by Anthropic Labs",
+    "date": "2026-04-17",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-opus-4-7": {
     "title": "Introducing Claude Opus 4.7",
     "date": "2026-04-16",
