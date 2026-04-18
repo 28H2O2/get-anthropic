@@ -744,6 +744,7 @@
     </div>
     <span class="source-tag tag-${esc(sk)}">${esc(a.source)}</span>
   </div>
+  <div class="card-summary${hasSummary ? '' : ' is-empty'}">${hasSummary ? esc(a.summary_zh.replace(/^【机器翻译摘要】\n?/, '')) : '暂无摘要'}</div>
   <div class="card-footer">
     <a class="read-link" href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">阅读原文 →</a>
   </div>

@@ -133,7 +133,7 @@ def _translate_with_aliyun(title: str, content: str, mode: str) -> str:
         # 还原专有名词
         translated = _restore_nouns(translated, mapping)
         if mode == "summary":
-            return f"【机器翻译摘要】\n{translated}"
+            return translated
         return translated
     except Exception as e:
         return f"[阿里云翻译失败: {e}]"
