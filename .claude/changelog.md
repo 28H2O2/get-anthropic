@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-04-18（手机端三项 UI 修复）
+
+### 修复
+- `public/index.html`：header 右侧新增 `.header-actions` class，手机端 `flex-wrap: wrap` + `.header-meta` 独占一行 + `strong { display: inline }`，解决按钮旁文字挤压问题
+- `public/index.html`：`scroll-margin-top` 从 `2rem` 改为 `72px`（桌面端）/ `130px`（手机端），修复 sticky header 遮住 archive 标题的滚动落点问题
+- `public/index.html`：手机端 `.archive-group` 改为 `grid-template-columns: 1fr` 单列，archive 列表从 ~130px 扩展到全宽，文章标题可正常显示
+
 ## 2026-04-15（修复"一键直达"滚动落点）
 
 ### 修复
