@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18",
+  "generated_at": "2026-04-19",
   "lookback_days": 30,
   "digests": [
     {
@@ -466,20 +466,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-03-20"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-19",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/product-management-on-the-ai-exponential",
-          "title_en": "Product management on the AI exponential",
-          "title_zh": "Product management on the AI exponential",
-          "summary_zh": "【机器翻译摘要】\n人工智能exponential时代的产品管理\n\n人工智能exponential时代的产品管理\nClaude Code的产品负责人Cat Wu分享了在模型智能快速演进的背景下，产品管理团队如何调整工作流程和产品路线图。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年3月19日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/人工智能指数级增长下的产品管理\n自从\nClaude Sonnet 3.5（新）\n2024年10月，我养成了一个习惯：每次遇到新模型，都会通过调用Claude代码（公司内部工具）来进行测试。",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-03-19"
         }
       ]
     }
