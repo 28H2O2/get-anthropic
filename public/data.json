@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19",
+  "generated_at": "2026-04-20",
   "lookback_days": 30,
   "digests": [
     {
@@ -452,20 +452,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-03-23"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-20",
-      "articles": [
-        {
-          "url": "https://platform.claude.com/cookbook/tool-use-context-engineering-context-engineering-tools",
-          "title_en": "Context engineering: memory, compaction, and tool clearing",
-          "title_zh": "Context engineering: memory, compaction, and tool clearing",
-          "summary_zh": "【机器翻译摘要】\n上下文工程：内存管理、压缩与工具清理\n\n2026年3月",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-03-20"
         }
       ]
     }
