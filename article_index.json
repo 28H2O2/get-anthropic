@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/anthropic-amazon-compute": {
+    "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+    "date": "2026-04-20",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon": {
+    "title": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon",
+    "date": "2026-04-20",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-design-anthropic-labs": {
     "title": "Introducing Claude Design by Anthropic Labs",
     "date": "2026-04-17",
