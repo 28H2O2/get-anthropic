@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-04-22",
+  "generated_at": "2026-04-23",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-04-22",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/81k-economics",
+          "title_en": "What 81,000 people told us about the economics of AI",
+          "title_zh": "What 81,000 people told us about the economics of AI",
+          "summary_zh": "81,000人告诉我们人工智能的经济学\n\n经济研究\n81,000人告诉我们人工智能的经济学\n2026年4月22日\n阅读PDF\n关键发现：\n我们最近对81,000 Claude 位用户的调查显示，那些在人工智能环境中工作的人对人工智能驱动的工作位移有更多的担忧。这些担忧在早期职业受访者中也更高。\n那些收入最高和最低的职业的人报告了最大的生产率提升，最常见的是范围的增加 (做新任务)。\n受访者体验i",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-04-22"
+        },
+        {
+          "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+          "title_en": "Announcing the Anthropic Economic Index Survey",
+          "title_zh": "Announcing the Anthropic Economic Index Survey",
+          "summary_zh": "宣布 Anthropic 经济指数调查\n\n经济研究\n宣布 Anthropic 经济指数调查\n2026年4月22日\n那\n经济研究\n团队正在启动 Anthropic 经济指数调查，这是一项通过以下方式进行的月度调查\nAnthropic 位面试官\n。\n了解人工智能的经济影响需要超越我们今天拥有的量化数据。使用和扩散指标告诉我们人工智能是如何部署的，传统的劳动力市场指标-如就业率，工资趋势和裁员-跟踪已经发生的事情，通常是wi",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-04-22"
+        },
+        {
+          "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
+          "title_en": "Building agents that reach production systems with MCP",
+          "title_zh": "Building agents that reach production systems with MCP",
+          "summary_zh": "使用MCP到达生产系统的建筑代理\n\n使用MCP到达生产系统的建筑代理\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月22日\n阅读时间\n五\n分钟\n分享\n复制链接\n具有mcp的 https://claude.com/blog/ 构建代理到达生产系统\n代理仅与他们可以达到的系统一样有用。团队倾向于采用三种方法将其连接到外部系统-直接 API calls、CLIs和MCP。这篇文章列出了每个适合的地方，为什么生产代理倾向于登陆MCP，以及",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-22"
+        }
+      ]
+    },
     {
       "date": "2026-04-20",
       "articles": [
@@ -425,56 +457,6 @@
           "source": "Engineering Blog",
           "source_key": "engineering",
           "date": "2026-03-24"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-23",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/introducing-anthropic-science",
-          "title_en": "Introducing our Science Blog",
-          "title_zh": "Introducing our Science Blog",
-          "summary_zh": "【机器翻译摘要】\n隆重推出我们的科学博客\n\n科学\n隆重推出我们的科学博客\n2026年3月23日\n我们即将推出一篇关于人工智能与科学的新博客。我们将分享在Anthropic及其他机构开展的研究工作、我们与外部研究人员和实验室的合作，并探讨科学家在研究中使用人工智能的实用工作流程。\n加快科学进步的步伐是Anthropic使命的核心组成部分。\n充满慈爱的机器\n描述了“压缩的21世纪”的前景，在这一前景中，数十年的科学进步将在短短……内发生。",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-03-23"
-        },
-        {
-          "url": "https://www.anthropic.com/research/long-running-Claude",
-          "title_en": "Long-running Claude for scientific computing",
-          "title_zh": "Long-running Claude for scientific computing",
-          "summary_zh": "【机器翻译摘要】\n长期运行的科学计算Claude\n\n科学\n长期运行的科学计算Claude\n2026年3月23日\n在这篇文章中，西达尔特·米什拉-夏尔马\n，\n发现号团队的一位研究人员阐释了如何将多日代理式编码工作流——测试预言机、持久化内存和编排模式——应用于科学计算任务，即便这些任务超出了研究者的专业领域。\n前提\n目前，大多数使用人工智能代理的科学家都处于一种对话式交互循环中，对流程的每一步都进行严格管控。随着模型变得\n明显更好a",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-03-23"
-        },
-        {
-          "url": "https://www.anthropic.com/research/vibe-physics",
-          "title_en": "Vibe physics: The AI grad student",
-          "title_zh": "Vibe physics: The AI grad student",
-          "summary_zh": "【机器翻译摘要】\n氛围物理：人工智能研究生\n\n科学\n氛围物理：人工智能研究生\n2026年3月23日\n人工智能能做理论物理吗？在这篇客座文章中，物理学教授\n马修·施瓦茨\n决定通过全程监督Claude完成一项真实的科研计算——从头到尾——而自己始终不碰任何文件，来弄个明白。他对事件的描述如下。\n摘要\n我引导 Claude Opus 4.5完成了一次真正的理论物理计算，将代码和计算的复杂性封装在文本提示背后。\n结果是一个技术性的",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-03-23"
-        },
-        {
-          "url": "https://claude.com/blog/dispatch-and-computer-use",
-          "title_en": "Put Claude to work on your computer",
-          "title_zh": "Put Claude to work on your computer",
-          "summary_zh": "【机器翻译摘要】\n让Claude在你的电脑上工作\n\n让Claude在你的电脑上工作\n在 Claude 协作和 Claude 编码中，Claude 可以使用您的电脑进行指向、单击并完成任务。Dispatch允许你通过手机为他们分配任务。\n类别\n产品公告\n产品\nClaude 个应用\nClaude 代码\n日期\n2026年3月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/调度与计算机使用\n在Claude协作和Claude代码中，您现在可以启用Claude，以使用您的电脑来完成任务。当Claude无法访问其所需的工具时，n",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-03-23"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/capabilities-knowledge-graph-guide",
-          "title_en": "Knowledge graph construction with Claude",
-          "title_zh": "Knowledge graph construction with Claude",
-          "summary_zh": "【机器翻译摘要】\n使用 Claude 构建知识图谱\n\n2026年3月",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-03-23"
         }
       ]
     }
@@ -1689,6 +1671,18 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/81k-economics",
+        "title": "What 81,000 people told us about the economics of AI",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-04-22"
+      },
+      {
+        "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+        "title": "Announcing the Anthropic Economic Index Survey",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-04-22"
+      },
       {
         "url": "https://www.anthropic.com/research/automated-alignment-researchers",
         "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
@@ -3197,6 +3191,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
+        "title": "Building agents that reach production systems with MCP",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-22"
+      },
       {
         "url": "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
         "title": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon",

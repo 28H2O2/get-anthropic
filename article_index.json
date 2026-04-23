@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/research/81k-economics": {
+    "title": "What 81,000 people told us about the economics of AI",
+    "date": "2026-04-22",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/economic-index-survey-announcement": {
+    "title": "Announcing the Anthropic Economic Index Survey",
+    "date": "2026-04-22",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp": {
+    "title": "Building agents that reach production systems with MCP",
+    "date": "2026-04-22",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/anthropic-amazon-compute": {
     "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
     "date": "2026-04-20",
