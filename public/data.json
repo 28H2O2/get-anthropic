@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-04-23",
+  "generated_at": "2026-04-24",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-04-23",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/connectors-for-everyday-life",
+          "title_en": "New connectors in Claude for everyday life",
+          "title_zh": "New connectors in Claude for everyday life",
+          "summary_zh": "Claude 中适用于日常生活的新连接器\n\nClaude 中适用于日常生活的新连接器\n类别\n产品公告\n产品\nClaude 个应用程序\n日期\n2026年4月23日\n阅读时间\n五\n分钟\n分享\n复制链接\n适用于日常生活的 https://claude.com/blog/ 连接器\n今天，我们正在扩展您可以连接到 Claude 的内容。除了您已经使用的工作工具，您现在可以连接您整个星期使用的应用程序，包括AllTrails，Instacart，Audible，TripAdvisor，Intuit TurboTax等。\n人们如何使用连接器\n自7月推出以来",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-23"
+        },
+        {
+          "url": "https://claude.com/blog/claude-managed-agents-memory",
+          "title_en": "Built-in memory for Claude Managed Agents",
+          "title_zh": "Built-in memory for Claude Managed Agents",
+          "summary_zh": "Claude 托管代理的内置内存\n\nClaude 托管代理的内置内存\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年4月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-managed-agents-memory\n内存打开\nClaude 个托管代理\n今天在公共测试版中可用。您的代理现在可以从每个会话中学习，使用智能优化的内存层，平衡性能和灵活性。由于内存存储为文件，开发人员可以导出它们，通过 {{13 }}, 一个",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-23"
+        }
+      ]
+    },
     {
       "date": "2026-04-22",
       "articles": [
@@ -425,38 +448,6 @@
           "source": "Engineering Blog",
           "source_key": "engineering",
           "date": "2026-03-25"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-24",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
-          "title_en": "Anthropic Economic Index report: Learning curves",
-          "title_zh": "Anthropic Economic Index report: Learning curves",
-          "summary_zh": "【机器翻译摘要】\nAnthropic 经济指数报告：学习曲线\n\n经济研究\nAnthropic 经济指数报告：学习曲线\n2026年3月24日\n以PDF格式阅读\nAnthropic 经济指数采用我们的隐私保护数据分析。\n系统\n以跟踪Claude在整个经济中的使用情况。这是我们尽早了解人工智能经济影响的一项举措，以便研究人员和政策制定者有充足的时间做好准备。\n本最新报告研究2026年2月Claude的使用情况，基于我们在……中提出的经济原语框架。",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-03-24"
-        },
-        {
-          "url": "https://claude.com/blog/auto-mode",
-          "title_en": "Auto mode for Claude Code",
-          "title_zh": "Auto mode for Claude Code",
-          "summary_zh": "【机器翻译摘要】\nClaude 代码的自动模式\n\nClaude 代码的自动模式\n自动模式提供了一种比……更安全、可长时间运行的替代方案。\n--危险地跳过权限检查\n。\n类别\nClaude 代码\n产品公告\n产品\nClaude 代码\n日期\n2026年3月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/自动模式\n今天，我们推出了自动模式——Claude 代码中的一种全新权限模式。在该模式下，Claude 会代表您做出权限决策，并在操作执行前通过安全机制对其进行监控。它现在作为团队中的研究预览版可用。",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-03-24"
-        },
-        {
-          "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-          "title_en": "Harness design for long-running application development",
-          "title_zh": "Harness design for long-running application development",
-          "summary_zh": "【机器翻译摘要】\n面向长时运行应用开发的框架设计\n\n由我们团队成员普里特维·拉贾塞卡兰撰写，\n实验室\n团队。\n过去几个月里，我一直致力于解决两个相互关联的问题：让Claude生成高质量的前端设计，以及让它在无需人工干预的情况下构建完整的应用。这项工作源于我们此前的相关努力。\n前端设计技能\n和\n长期运行的编码代理框架\n，在那里我和我的同事通过提示工程将Claude的性能大幅提升，远远超过基线水平。",
-          "source": "Engineering Blog",
-          "source_key": "engineering",
-          "date": "2026-03-24"
         }
       ]
     }
@@ -3192,6 +3183,18 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/connectors-for-everyday-life",
+        "title": "New connectors in Claude for everyday life",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-23"
+      },
+      {
+        "url": "https://claude.com/blog/claude-managed-agents-memory",
+        "title": "Built-in memory for Claude Managed Agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-23"
+      },
+      {
         "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
         "title": "Building agents that reach production systems with MCP",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -3720,6 +3723,12 @@
       {
         "url": "https://www.anthropic.com/engineering/managed-agents",
         "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "title": "An update on recent Claude Code quality reports",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
         "date": ""
       }
