@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-04-24",
+  "generated_at": "2026-04-25",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-04-24",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-nec",
+          "title_en": "Anthropic and NEC partner to build AI-native engineering at scale in Japan",
+          "title_zh": "Anthropic and NEC partner to build AI-native engineering at scale in Japan",
+          "summary_zh": "Anthropic 和NEC合作在日本大规模构建AI原生工程\n\n公告\nAnthropic 和NEC合作打造日本最大的人工智能工程团队\n2026年4月24日\nNEC公司\n将使用 Claude，因为它建立了日本最大的人工智能原生工程组织之一，使其面向全球约30,000名NEC集团员工。\n作为这一战略合作的一部分，NEC将成为 Anthropic 的首个日本全球合作伙伴。我们将共同为日本市场开发安全的、行业特定的人工智能产品，从工具开始。",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-04-24"
+        },
+        {
+          "url": "https://www.anthropic.com/news/election-safeguards-update",
+          "title_en": "An update on our election safeguards",
+          "title_zh": "An update on our election safeguards",
+          "summary_zh": "我们的选举保障措施的最新情况\n\n公告\n我们的选举保障措施的最新情况\n2026年4月24日\n世界各地的人们转向 Claude 获取有关政党、候选人和选举期间面临的问题的信息，以及回答更简单的问题，如何时、何地以及如何投票。在我们看来，如果AI模型能够很好地 (即准确，公正地) 回答这些问题，它们就可以成为民主进程的积极力量。\n在这里，我们解释了我们正在做什么来帮助 Claude 提前达到目标",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-04-24"
+        }
+      ]
+    },
     {
       "date": "2026-04-23",
       "articles": [
@@ -301,6 +324,15 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-04-08"
+        },
+        {
+          "url": "https://www.anthropic.com/engineering/managed-agents",
+          "title_en": "Scaling Managed Agents: Decoupling the brain from the hands",
+          "title_zh": "Scaling Managed Agents: Decoupling the brain from the hands",
+          "summary_zh": "",
+          "source": "Engineering Blog",
+          "source_key": "engineering",
+          "date": "2026-04-08"
         }
       ]
     },
@@ -436,24 +468,22 @@
           "date": "2026-03-30"
         }
       ]
-    },
-    {
-      "date": "2026-03-25",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
-          "title_en": "Claude Code auto mode: a safer way to skip permissions",
-          "title_zh": "Claude Code auto mode: a safer way to skip permissions",
-          "summary_zh": "【机器翻译摘要】\nClaude 代码自动模式：一种更安全的跳过权限请求的方式\n\n默认情况下，Claude Code会在执行命令或修改文件之前请求用户批准。这能保障用户的安全，但也意味着需要频繁点击“同意”。长此以往，就会产生审批乏力，人们不再密切关注自己所审批的内容。\n用户有两种解决方案来避免这种乏力：一个内置的沙箱，其中工具被隔离以防止危险操作，或者\n--危险地跳过权限检查\n用于禁用所有权限提示的标志，允许Claude直接执行操作。",
-          "source": "Engineering Blog",
-          "source_key": "engineering",
-          "date": "2026-03-25"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/anthropic-nec",
+        "title": "Anthropic and NEC partner to build AI-native engineering at scale in Japan",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-04-24"
+      },
+      {
+        "url": "https://www.anthropic.com/news/election-safeguards-update",
+        "title": "An update on our election safeguards",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-04-24"
+      },
       {
         "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
         "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
@@ -3589,6 +3619,12 @@
     ],
     "engineering": [
       {
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-04-08"
+      },
+      {
         "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
         "title": "Claude Code auto mode: a safer way to skip permissions",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
@@ -3609,6 +3645,12 @@
       {
         "url": "https://www.anthropic.com/engineering/building-c-compiler",
         "title": "Building a C compiler with a team of parallel Claudes",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-02-05"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+        "title": "Featured Quantifying infrastructure noise in agentic coding evals Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
         "date": "2026-02-05"
       },
@@ -3713,18 +3755,6 @@
         "title": "Introducing Contextual Retrieval",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
         "date": "2024-09-19"
-      },
-      {
-        "url": "https://www.anthropic.com/engineering/infrastructure-noise",
-        "title": "Featured Quantifying infrastructure noise in agentic coding evals Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
-        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
-        "date": ""
-      },
-      {
-        "url": "https://www.anthropic.com/engineering/managed-agents",
-        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
-        "date": ""
       },
       {
         "url": "https://www.anthropic.com/engineering/april-23-postmortem",

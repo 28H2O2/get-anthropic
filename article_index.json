@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/anthropic-nec": {
+    "title": "Anthropic and NEC partner to build AI-native engineering at scale in Japan",
+    "date": "2026-04-24",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/election-safeguards-update": {
+    "title": "An update on our election safeguards",
+    "date": "2026-04-24",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://claude.com/blog/connectors-for-everyday-life": {
     "title": "New connectors in Claude for everyday life",
     "date": "2026-04-23",
@@ -165,6 +177,12 @@
     "title": "Managed Agents tutorial: production setup",
     "date": "2026-04-08",
     "source": "cookbook",
+    "processed": true
+  },
+  "https://www.anthropic.com/engineering/managed-agents": {
+    "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+    "date": "2026-04-08",
+    "source": "engineering",
     "processed": true
   },
   "https://claude.com/blog/subagents-in-claude-code": {
@@ -549,6 +567,12 @@
     "title": "LLM-discovered 0-days",
     "date": "2026-02-05",
     "source": "red_team",
+    "processed": true
+  },
+  "https://www.anthropic.com/engineering/infrastructure-noise": {
+    "title": "Featured Quantifying infrastructure noise in agentic coding evals Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+    "date": "2026-02-05",
+    "source": "engineering",
     "processed": true
   },
   "https://www.anthropic.com/news/claude-is-a-space-to-think": {
@@ -3242,18 +3266,6 @@
     "date": "2021",
     "source": "transformer_circuits",
     "processed": false
-  },
-  "https://www.anthropic.com/engineering/infrastructure-noise": {
-    "title": "Featured Quantifying infrastructure noise in agentic coding evals Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
-    "date": "",
-    "source": "engineering",
-    "processed": true
-  },
-  "https://www.anthropic.com/engineering/managed-agents": {
-    "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-    "date": "",
-    "source": "engineering",
-    "processed": true
   },
   "https://www.anthropic.com/engineering/april-23-postmortem": {
     "title": "An update on recent Claude Code quality reports",
