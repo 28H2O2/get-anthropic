@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25",
+  "generated_at": "2026-04-26",
   "lookback_days": 30,
   "digests": [
     {
@@ -3451,6 +3451,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/automated-w2s-researcher/",
         "title": "Automated Weak-to-Strong Researcher",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/ai-organizations/",
+        "title": "AI Organizations Can Be More Effective but Less Aligned than Individual Agents",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },

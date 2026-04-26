@@ -790,6 +790,11 @@
     "date": "2026-01-01",
     "source": "alignment"
   },
+  "https://alignment.anthropic.com/2026/ai-organizations/": {
+    "title": "AI Organizations Can Be More Effective but Less Aligned than Individual Agents",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
   "https://www.anthropic.com/research/bloom": {
     "title": "",
     "date": "2025-12-20",
