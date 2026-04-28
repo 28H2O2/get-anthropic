@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-04-27",
+  "generated_at": "2026-04-28",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-04-27",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+          "title_en": "Anthropic Sydney office",
+          "title_zh": "Anthropic Sydney office",
+          "summary_zh": "Anthropic 悉尼办事处\n\n公告\nAnthropic 任命Theo Hourmouzis澳大利亚和新西兰总经理并正式开设悉尼办事处\n2026年4月27日\nTheo Hourmouzis将加入 Anthropic，担任澳大利亚和新西兰的总经理，这标志着我们在该地区投资的下一步。随着我们正式开设悉尼办事处，Hourmouzis将于本周与客户和合作伙伴以及我们全球团队的高管会面。\nHourmouzis带来了超过20年的技术领导经验",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-04-27"
+        }
+      ]
+    },
     {
       "date": "2026-04-24",
       "articles": [
@@ -21,6 +35,15 @@
           "summary_zh": "我们的选举保障措施的最新情况\n\n公告\n我们的选举保障措施的最新情况\n2026年4月24日\n世界各地的人们转向 Claude 获取有关政党、候选人和选举期间面临的问题的信息，以及回答更简单的问题，如何时、何地以及如何投票。在我们看来，如果AI模型能够很好地 (即准确，公正地) 回答这些问题，它们就可以成为民主进程的积极力量。\n在这里，我们解释了我们正在做什么来帮助 Claude 提前达到目标",
           "source": "Anthropic News",
           "source_key": "anthropic_news",
+          "date": "2026-04-24"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-remember-user-preferences",
+          "title_en": "Build agents that remember your users",
+          "title_zh": "Build agents that remember your users",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-04-24"
         }
       ]
@@ -472,6 +495,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+        "title": "Anthropic Sydney office",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-04-27"
+      },
       {
         "url": "https://www.anthropic.com/news/anthropic-nec",
         "title": "Anthropic and NEC partner to build AI-native engineering at scale in Japan",
@@ -2372,6 +2401,12 @@
       }
     ],
     "cookbook": [
+      {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-remember-user-preferences",
+        "title": "Build agents that remember your users",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-04-24"
+      },
       {
         "url": "https://platform.claude.com/cookbook/managed-agents-sre-incident-responder",
         "title": "Build an SRE incident response agent with Claude Managed Agents",

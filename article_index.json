@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand": {
+    "title": "Anthropic Sydney office",
+    "date": "2026-04-27",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/anthropic-nec": {
     "title": "Anthropic and NEC partner to build AI-native engineering at scale in Japan",
     "date": "2026-04-24",
@@ -10,6 +16,11 @@
     "date": "2026-04-24",
     "source": "anthropic_news",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-remember-user-preferences": {
+    "title": "Build agents that remember your users",
+    "date": "2026-04-24",
+    "source": "cookbook"
   },
   "https://claude.com/blog/connectors-for-everyday-life": {
     "title": "New connectors in Claude for everyday life",
