@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/claude-for-creative-work": {
+    "title": "Claude for Creative Work",
+    "date": "2026-04-28",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development": {
+    "title": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
+    "date": "2026-04-28",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand": {
     "title": "Anthropic Sydney office",
     "date": "2026-04-27",
@@ -803,6 +815,16 @@
   },
   "https://alignment.anthropic.com/2026/ai-organizations/": {
     "title": "AI Organizations Can Be More Effective but Less Aligned than Individual Agents",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/backdooring-classifiers/": {
+    "title": "Poisoning Fine-tuning Datasets of Constitutional Classifiers",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/introspection-adapters/": {
+    "title": "Introspection Adapters: Training LLMs to Report Their Learned Behaviors",
     "date": "2026-01-01",
     "source": "alignment"
   },

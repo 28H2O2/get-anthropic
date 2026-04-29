@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-04-28",
+  "generated_at": "2026-04-29",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-04-28",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/claude-for-creative-work",
+          "title_en": "Claude for Creative Work",
+          "title_zh": "Claude for Creative Work",
+          "summary_zh": "Claude 用于创造性工作\n\n公告\nClaude 用于创造性工作\n2026年4月28日\n创意专业人士寻求技术来扩大他们工作中的可能性。Claude 不能取代品味或想象力，但它可以开辟新的工作方式-更快，更雄心勃勃的构思，更广泛的技能，以及创意人员承担更大规模项目的能力。人工智能还可以通过处理重复性任务和消除手工劳动来帮助承担创造性过程中消耗时间的部分。这两个的关键去",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-04-28"
+        },
+        {
+          "url": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development",
+          "title_en": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
+          "title_zh": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
+          "summary_zh": "像新开发人员一样加入 Claude 代码: 17年开发经验\n\n像新开发人员一样加入 Claude 代码: 17年开发经验\n将新开发人员加入到MacCoss实验室的700,000行代码库的方法也适用于 Claude 代码。以下是Brendan MacLean，一位 Claude 开发者大使，他的实验室是我们的一部分\nClaude 适用于开源\n程序，做到了。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月28日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ onboarding-claude-code-like-a-new-developer-lessons-from-17-year",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-28"
+        }
+      ]
+    },
     {
       "date": "2026-04-27",
       "articles": [
@@ -495,6 +518,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/claude-for-creative-work",
+        "title": "Claude for Creative Work",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-04-28"
+      },
       {
         "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
         "title": "Anthropic Sydney office",
@@ -3248,6 +3277,12 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development",
+        "title": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-28"
+      },
+      {
         "url": "https://claude.com/blog/connectors-for-everyday-life",
         "title": "New connectors in Claude for everyday life",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -3492,6 +3527,18 @@
       {
         "url": "https://alignment.anthropic.com/2026/ai-organizations/",
         "title": "AI Organizations Can Be More Effective but Less Aligned than Individual Agents",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/backdooring-classifiers/",
+        "title": "Poisoning Fine-tuning Datasets of Constitutional Classifiers",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/introspection-adapters/",
+        "title": "Introspection Adapters: Training LLMs to Report Their Learned Behaviors",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },
