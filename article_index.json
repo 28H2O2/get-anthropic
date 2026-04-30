@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": {
+    "title": "Evaluating Claude’s Bioinformatics Research Capabilities with BioMysteryBench",
+    "date": "2026-04-29",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork": {
+    "title": "Deploying Claude across the enterprise with Claude Cowork",
+    "date": "2026-04-29",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-api-skill": {
+    "title": "Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp",
+    "date": "2026-04-29",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/product-development-in-the-agentic-era": {
+    "title": "Product development in the agentic era",
+    "date": "2026-04-29",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-for-creative-work": {
     "title": "Claude for Creative Work",
     "date": "2026-04-28",
