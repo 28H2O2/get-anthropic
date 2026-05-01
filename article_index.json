@@ -1,4 +1,34 @@
 {
+  "https://www.anthropic.com/research/claude-personal-guidance": {
+    "title": "How people ask Claude for personal guidance",
+    "date": "2026-04-30",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/building-ai-agents-for-the-enterprise": {
+    "title": "Building AI agents for the enterprise",
+    "date": "2026-04-30",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-security-public-beta": {
+    "title": "Claude Security is now in public beta",
+    "date": "2026-04-30",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything": {
+    "title": "Lessons from building Claude Code: Prompt caching is everything",
+    "date": "2026-04-30",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude": {
+    "title": "How Kepler built verifiable AI for financial services with Claude",
+    "date": "2026-04-30",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": {
     "title": "Evaluating Claude’s Bioinformatics Research Capabilities with BioMysteryBench",
     "date": "2026-04-29",

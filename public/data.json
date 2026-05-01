@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-04-30",
+  "generated_at": "2026-05-01",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-04-30",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/claude-personal-guidance",
+          "title_en": "How people ask Claude for personal guidance",
+          "title_zh": "How people ask Claude for personal guidance",
+          "summary_zh": "人们如何向 Claude 寻求个人指导\n\n社会影响\n人们如何向 Claude 寻求个人指导\n2026年4月30日\n人们不只是来 Claude 进行代码审查或会议总结。他们问是否接受这份工作，如何与他们的迷恋对象交谈，如果他们应该搬到世界的另一端。使用我们的\n隐私保护分析工具\n在100万次claude.ai对话的随机样本中，我们发现大约有6% 人来 Claude 寻求个人指导-不仅寻求信息，还寻求下一步该做什么的观点。\n在th",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-04-30"
+        },
+        {
+          "url": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
+          "title_en": "Building AI agents for the enterprise",
+          "title_zh": "Building AI agents for the enterprise",
+          "summary_zh": "为企业构建AI代理\n\n为企业构建AI代理\n在本指南中，我们将分享当今领先的组织如何使用代理来转变其工作，以及 Claude Cowork如何将这些功能带给每个团队。\n类别\n代理人\n产品\nClaude 共事\n日期\n2026年4月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 建设-ai-agents-for-the-enterprise\n我们的2025年9月\nAnthropic 经济指数\n在美国，40% % 的员工报告在工作中使用人工智能，而2023年为20% %。威",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-30"
+        },
+        {
+          "url": "https://claude.com/blog/claude-security-public-beta",
+          "title_en": "Claude Security is now in public beta",
+          "title_zh": "Claude Security is now in public beta",
+          "summary_zh": "Claude 安全性现在处于公共测试版\n\nClaude 安全性现在处于公共测试版\nClaude 企业客户的 Claude 安全性现在处于公共测试版。在 Claude 平台上或通过使用 Claude 构建的技术和服务合作伙伴，使用 Opus 4.7扫描代码中的漏洞并生成建议的修复程序。\n‍\n类别\n产品公告\n产品\nClaude 安全\n日期\n2026年4月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德-安全-公共-beta\nClaude 安全性现已在 Claude Enterp的公共测试版中可用",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-30"
+        },
+        {
+          "url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+          "title_en": "Lessons from building Claude Code: Prompt caching is everything",
+          "title_zh": "Lessons from building Claude Code: Prompt caching is everything",
+          "summary_zh": "构建 Claude 代码的经验教训: 提示缓存就是一切\n\n构建 Claude 代码的经验教训: 提示缓存就是一切\n我们分享优化 Claude 代码中提示缓存的最佳做法，包括如何最有效地构造提示、使用工具和压缩分层。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 经验-从建筑-克劳德-代码-提示-缓存-是-一切\n在工程中经常说 “缓存规则我周围的一切”，并且相同的规则",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-30"
+        },
+        {
+          "url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
+          "title_en": "How Kepler built verifiable AI for financial services with Claude",
+          "title_zh": "How Kepler built verifiable AI for financial services with Claude",
+          "summary_zh": "开普勒如何使用 Claude 为金融服务构建可验证的AI\n\n开普勒如何使用 Claude 为金融服务构建可验证的AI\n在一个平台中，该平台将2600万份SEC文件、收益电话会议记录、IR演示、共识估计和14,000家公司和27个全球市场的私人数据进行索引，以及其背后的团队如何构建人工智能，以验证每个数字到确切的文件、页面和行项目。\n类别\n企业AI\n产品\nClaude 平台\n日期\n2026年4月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-开普勒-建造-verif",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-04-30"
+        }
+      ]
+    },
     {
       "date": "2026-04-29",
       "articles": [
@@ -507,29 +557,6 @@
           "source": "Transformer Circuits",
           "source_key": "transformer_circuits",
           "date": "2026-04-02"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-31",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/australia-MOU",
-          "title_en": "Australian government and Anthropic sign MOU for AI safety and research",
-          "title_zh": "Australian government and Anthropic sign MOU for AI safety and research",
-          "summary_zh": "【机器翻译摘要】\n澳大利亚政府与Anthropic签署人工智能安全与研究合作备忘录\n\n公告\n澳大利亚政府与Anthropic签署人工智能安全与研究合作备忘录\n2026年3月31日\n今天，Anthropic与澳大利亚政府签署了一份关于人工智能安全研究合作的谅解备忘录，以支持澳大利亚国家人工智能计划的目标。公司首席执行官达里奥·阿莫代伊在访澳期间于堪培拉会见了澳大利亚总理安东尼·阿尔巴尼斯，共同正式签署该协议。我们还宣布与澳大利亚顶尖科研机构达成总额为300万澳元的合作，以……",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-03-31"
-        },
-        {
-          "url": "https://www.anthropic.com/research/how-australia-uses-claude",
-          "title_en": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
-          "title_zh": "How Australia Uses Claude: Findings from the Anthropic Economic Index",
-          "summary_zh": "[阿里云翻译失败: {'message': \"HTTPSConnectionPool(host='mt.aliyuncs.com', port=443): Read timed out. (read timeout=10.0)\"}]",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-03-31"
         }
       ]
     }
@@ -1768,6 +1795,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/claude-personal-guidance",
+        "title": "How people ask Claude for personal guidance",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-04-30"
+      },
       {
         "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
         "title": "Evaluating Claude’s Bioinformatics Research Capabilities with BioMysteryBench",
@@ -3300,6 +3333,30 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
+        "title": "Building AI agents for the enterprise",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-30"
+      },
+      {
+        "url": "https://claude.com/blog/claude-security-public-beta",
+        "title": "Claude Security is now in public beta",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-30"
+      },
+      {
+        "url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
+        "title": "Lessons from building Claude Code: Prompt caching is everything",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-30"
+      },
+      {
+        "url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
+        "title": "How Kepler built verifiable AI for financial services with Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-04-30"
+      },
       {
         "url": "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork",
         "title": "Deploying Claude across the enterprise with Claude Cowork",
