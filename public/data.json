@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-05-01",
+  "generated_at": "2026-05-02",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-01",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+          "title_en": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+          "title_zh": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+          "summary_zh": "非技术项目经理如何在六周内构建并发布带有 Claude 代码的压力管理应用程序\n\n非技术项目经理如何在六周内构建并发布带有 Claude 代码的压力管理应用程序\nKostiantyn Vlasenko在着手构建Respiro时从未写过一行代码。仅仅一个多月后，他的产品就在App Store上上线了。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年5月1日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何在六周内使用非技术性项目经理构建和运输压力管理应用程序\n在我们的系列中，\n迪",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-01"
+        }
+      ]
+    },
     {
       "date": "2026-04-30",
       "articles": [
@@ -3333,6 +3347,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+        "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-01"
+      },
       {
         "url": "https://claude.com/blog/building-ai-agents-for-the-enterprise",
         "title": "Building AI agents for the enterprise",

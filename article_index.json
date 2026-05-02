@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks": {
+    "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+    "date": "2026-05-01",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/claude-personal-guidance": {
     "title": "How people ask Claude for personal guidance",
     "date": "2026-04-30",
