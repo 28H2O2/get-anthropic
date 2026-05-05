@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-05-04",
+  "generated_at": "2026-05-05",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-04",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+          "title_en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+          "title_zh": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+          "summary_zh": "与Blackstone、Hellman & Friedman和Goldman Sachs建立一家新的企业AI服务公司\n\n公告\n与Blackstone、Hellman & Friedman和Goldman Sachs建立一家新的企业AI服务公司\n2026年5月4日\n{{1 }}, Blackstone、Hellman & Friedman和Goldman Sachs宣布成立一家新的人工智能服务公司。该组织将与各行业的中型公司合作，将 Claude 纳入其最重要的业务。来自 Anthropic 的应用AI工程师将与公司的工程团队一起工作，以确定 Claude 可以产生最大影响的地方，bu",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-04"
+        }
+      ]
+    },
     {
       "date": "2026-05-01",
       "articles": [
@@ -545,6 +559,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+        "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-04"
+      },
       {
         "url": "https://www.anthropic.com/news/claude-for-creative-work",
         "title": "Claude for Creative Work",
@@ -2938,6 +2958,12 @@
         "title": "Emotion Concepts and their Function in a Large Language ModelSofroniew et al., 2026We find representations of emotion concepts in Claude Sonnet 4.5 and show that they causally influence its outputs.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
         "date": "2026-04-02"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2026/headvis/index.html",
+        "title": "HeadVisWe develop an interactive visualization tool to help us understand the behaviors of attention heads in language models.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2026"
       },
       {
         "url": "https://transformer-circuits.pub/2025/introspection/index.html",

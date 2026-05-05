@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/enterprise-ai-services-company": {
+    "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+    "date": "2026-05-04",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks": {
     "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
     "date": "2026-05-01",
@@ -887,6 +893,11 @@
     "title": "Introspection Adapters: Training LLMs to Report Their Learned Behaviors",
     "date": "2026-01-01",
     "source": "alignment"
+  },
+  "https://transformer-circuits.pub/2026/headvis/index.html": {
+    "title": "HeadVisWe develop an interactive visualization tool to help us understand the behaviors of attention heads in language models.",
+    "date": "2026",
+    "source": "transformer_circuits"
   },
   "https://www.anthropic.com/research/bloom": {
     "title": "",
