@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-05-05",
+  "generated_at": "2026-05-06",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-05",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/finance-agents",
+          "title_en": "Agents for financial services and insurance",
+          "title_zh": "Agents for financial services and insurance",
+          "summary_zh": "金融服务和保险代理\n\n公告\n金融服务代理人\n2026年5月5日\n我们推出了十套开箱即用的智能体模板，专门用于金融服务行业中耗时最长的几项工作：制作推介材料、筛查了解你的客户（KYC）文件，以及月末结账。每一个船作为一个\n插件\n在 Claude Cowork和 Claude 代码中，并作为\nClaude 个托管代理\n,因此团队可以在几天而不是几个月内将 Claude 投入到实际的财务工作中。\nClaude 现在还可以跨Microsoft Excel、PowerPoint、Word和Outlook (c",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-05"
+        },
+        {
+          "url": "https://claude.com/blog/deploying-claude-across-financial-services",
+          "title_en": "Deploying Claude across financial services",
+          "title_zh": "Deploying Claude across financial services",
+          "summary_zh": "跨金融服务部署 Claude\n\n跨金融服务部署 Claude\n在本指南中，我们分享了金融服务公司如何使用 Claude 来压缩其最耗时的工作，包括客户示例和实际采用路线图。\n类别\n企业人工智能\n产品\nClaude 共事\nClaude 企业\n日期\n2026年5月5日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 部署-claude-跨金融服务\n在整个金融服务行业中，公司在研究，交易工作和基础工作方面都在运行 Claude",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-05"
+        }
+      ]
+    },
     {
       "date": "2026-05-04",
       "articles": [
@@ -241,6 +264,15 @@
           "summary_zh": "使用MCP到达生产系统的建筑代理\n\n使用MCP到达生产系统的建筑代理\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月22日\n阅读时间\n五\n分钟\n分享\n复制链接\n具有mcp的 https://claude.com/blog/ 构建代理到达生产系统\n代理仅与他们可以达到的系统一样有用。团队倾向于采用三种方法将其连接到外部系统-直接 API calls、CLIs和MCP。这篇文章列出了每个适合的地方，为什么生产代理倾向于登陆MCP，以及",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-04-22"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-06-the-vulnerability-detection-agent",
+          "title_en": "The vulnerability detection agent",
+          "title_zh": "The vulnerability detection agent",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-04-22"
         }
       ]
@@ -559,6 +591,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/finance-agents",
+        "title": "Agents for financial services and insurance",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-05"
+      },
       {
         "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
         "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
@@ -2496,6 +2534,12 @@
         "date": "2026-04-24"
       },
       {
+        "url": "https://platform.claude.com/cookbook/claude-agent-sdk-06-the-vulnerability-detection-agent",
+        "title": "The vulnerability detection agent",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-04-22"
+      },
+      {
         "url": "https://platform.claude.com/cookbook/managed-agents-sre-incident-responder",
         "title": "Build an SRE incident response agent with Claude Managed Agents",
         "desc": "Claude 官方开发示例与教程",
@@ -3342,6 +3386,12 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/deploying-claude-across-financial-services",
+        "title": "Deploying Claude across financial services",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-05"
+      },
+      {
         "url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
         "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -3652,6 +3702,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/introspection-adapters/",
         "title": "Introspection Adapters: Training LLMs to Report Their Learned Behaviors",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/msm/",
+        "title": "Model Spec Midtraining: Improving How Alignment Training Generalizes",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },
