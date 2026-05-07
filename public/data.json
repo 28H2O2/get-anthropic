@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-05-06",
+  "generated_at": "2026-05-07",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-06",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/higher-limits-spacex",
+          "title_en": "Higher usage limits for Claude and a compute deal with SpaceX",
+          "title_zh": "Higher usage limits for Claude and a compute deal with SpaceX",
+          "summary_zh": "更高的 Claude 使用限制和与SpaceX的计算交易\n\n公告\n更高的 Claude 使用限制和与SpaceX的计算交易\n2026年5月6日\n我们已经同意与SpaceX合作，这将大大提高我们的计算能力。这与我们最近的其他计算交易一起，意味着我们已经能够增加 Claude 代码和 Claude API 的使用限制。\n下面，我们将描述这些变化以及我们在计算方面取得的进展。\n更高的使用限制\n以下三个变化-今天都有效-旨在改善exee",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-06"
+        },
+        {
+          "url": "https://claude.com/blog/new-in-claude-managed-agents",
+          "title_en": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+          "title_zh": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+          "summary_zh": "Claude 托管代理中的新增功能: 梦想、结果和多代理业务流程\n\nClaude 托管代理中的新增功能: 梦想、结果和多代理业务流程\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年5月6日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 新的克劳德管理的代理\n今天，我们将在 Claude 托管代理中启动dreaming，作为研究预览。梦想延伸\n记忆\n通过回顾过去的会议，找到模式，帮助代理人自我完善。我们还将成果、多代理编排和webhook提供给我们",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-06"
+        }
+      ]
+    },
     {
       "date": "2026-05-05",
       "articles": [
@@ -36,6 +59,29 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "articles": [
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-coordinate-specialist-team",
+          "title_en": "Multiagent: coordinate a specialist team",
+          "title_zh": "Multiagent: coordinate a specialist team",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-05-03"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-verify-with-outcome-grader",
+          "title_en": "Outcomes: agents that verify their own work",
+          "title_zh": "Outcomes: agents that verify their own work",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-05-03"
         }
       ]
     },
@@ -573,24 +619,16 @@
           "date": "2026-04-07"
         }
       ]
-    },
-    {
-      "date": "2026-04-06",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
-          "title_en": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-          "title_zh": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-          "summary_zh": "【机器翻译摘要】\nAnthropic 扩大与谷歌和博通的合作，布局多吉瓦级下一代算力设施。\n\n公告\nAnthropic 扩大与谷歌和博通的合作，布局多吉瓦级下一代算力设施。\n2026年4月6日\n我们已与谷歌和博通签署一项新协议，采购数吉瓦级的新一代张量处理单元（TPU）算力，预计将于2027年开始投入使用。我们计算基础设施的这一重大扩展，将为我们的前沿Claude模型提供强大算力，并助力我们满足全球客户的巨大需求。\n“这一与谷歌和B公司达成的开创性合作……”",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-04-06"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/higher-limits-spacex",
+        "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-06"
+      },
       {
         "url": "https://www.anthropic.com/news/finance-agents",
         "title": "Agents for financial services and insurance",
@@ -2528,6 +2566,18 @@
     ],
     "cookbook": [
       {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-coordinate-specialist-team",
+        "title": "Multiagent: coordinate a specialist team",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-05-03"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-verify-with-outcome-grader",
+        "title": "Outcomes: agents that verify their own work",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-05-03"
+      },
+      {
         "url": "https://platform.claude.com/cookbook/managed-agents-cma-remember-user-preferences",
         "title": "Build agents that remember your users",
         "desc": "Claude 官方开发示例与教程",
@@ -3385,6 +3435,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/new-in-claude-managed-agents",
+        "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-06"
+      },
       {
         "url": "https://claude.com/blog/deploying-claude-across-financial-services",
         "title": "Deploying Claude across financial services",

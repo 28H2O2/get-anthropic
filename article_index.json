@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/higher-limits-spacex": {
+    "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+    "date": "2026-05-06",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/new-in-claude-managed-agents": {
+    "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+    "date": "2026-05-06",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/finance-agents": {
     "title": "Agents for financial services and insurance",
     "date": "2026-05-05",
@@ -16,6 +28,16 @@
     "date": "2026-05-04",
     "source": "anthropic_news",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-coordinate-specialist-team": {
+    "title": "Multiagent: coordinate a specialist team",
+    "date": "2026-05-03",
+    "source": "cookbook"
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-verify-with-outcome-grader": {
+    "title": "Outcomes: agents that verify their own work",
+    "date": "2026-05-03",
+    "source": "cookbook"
   },
   "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks": {
     "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
