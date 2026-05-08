@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/research/anthropic-institute-agenda": {
+    "title": "Focus areas for The Anthropic Institute",
+    "date": "2026-05-07",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/donating-open-source-petri": {
+    "title": "Donating our open-source alignment tool",
+    "date": "2026-05-07",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/natural-language-autoencoders": {
+    "title": "Natural Language Autoencoders",
+    "date": "2026-05-07",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook": {
+    "title": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook",
+    "date": "2026-05-07",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/higher-limits-spacex": {
     "title": "Higher usage limits for Claude and a compute deal with SpaceX",
     "date": "2026-05-06",
@@ -940,6 +964,11 @@
   },
   "https://transformer-circuits.pub/2026/headvis/index.html": {
     "title": "HeadVisWe develop an interactive visualization tool to help us understand the behaviors of attention heads in language models.",
+    "date": "2026",
+    "source": "transformer_circuits"
+  },
+  "https://transformer-circuits.pub/2026/nla/index.html": {
+    "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM ActivationsFraser-Taliente, Kantamneni, Ong, et al., 2026We train Claude to translate its internal state into natural language.",
     "date": "2026",
     "source": "transformer_circuits"
   },
