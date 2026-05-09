@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/research/teaching-claude-why": {
+    "title": "Teaching Claude why",
+    "date": "2026-05-08",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://www.anthropic.com/research/anthropic-institute-agenda": {
     "title": "Focus areas for The Anthropic Institute",
     "date": "2026-05-07",
@@ -959,6 +965,11 @@
   },
   "https://alignment.anthropic.com/2026/msm/": {
     "title": "Model Spec Midtraining: Improving How Alignment Training Generalizes",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/teaching-claude-why/": {
+    "title": "Teaching Claude Why",
     "date": "2026-01-01",
     "source": "alignment"
   },
