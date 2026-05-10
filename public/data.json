@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09",
+  "generated_at": "2026-05-10",
   "lookback_days": 30,
   "digests": [
     {
@@ -531,38 +531,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-04-10"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-09",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/trustworthy-agents",
-          "title_en": "Trustworthy agents in practice",
-          "title_zh": "Trustworthy agents in practice",
-          "summary_zh": "【机器翻译摘要】\n实践中的可信代理\n\n政策\n实践中的可信代理\n2026年4月9日\n人工智能“智能体”代表着人类和组织使用人工智能方式的最新重大转变。几年前，人工智能模型主要以聊天机器人的形式广泛可用——它们只是简单的问答工具。现在，通过诸如……这样的产品\nClaude 代码\n和\nClaude 考克\n，人工智能模型还能做更多：它们可以编写和执行代码、管理文件，以及完成跨多个应用程序的任务。这标志着治理领域的新前沿。\n代理人已经……",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-04-09"
-        },
-        {
-          "url": "https://claude.com/blog/the-advisor-strategy",
-          "title_en": "The advisor strategy: Give agents an intelligence boost",
-          "title_zh": "The advisor strategy: Give agents an intelligence boost",
-          "summary_zh": "【机器翻译摘要】\n顾问策略：为客服代表提供智能增强\n\n顾问策略：为客服代表提供智能增强\n将Opus作为顾问与Sonnet或Haiku作为执行者搭配使用，只需支付极低的成本，即可让您的智能体达到接近Opus级别的智能水平。\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年4月9日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/顾问策略\n想要更好地平衡智能效果与成本的开发者，已经一致采用了我们所谓的“顾问策略”：将Opus作为顾问与Sonnet结合使用。",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-09"
-        },
-        {
-          "url": "https://claude.com/blog/cowork-for-enterprise",
-          "title_en": "Making Claude Cowork ready for enterprise",
-          "title_zh": "Making Claude Cowork ready for enterprise",
-          "summary_zh": "【机器翻译摘要】\n使Claude协作者为企业做好准备\n\n使Claude协作者为企业做好准备\n类别\n产品公告\n产品\nClaude 企业\n日期\n2026年4月9日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/cowork-for-enterprise\nClaude Cowork现已在所有付费套餐中正式上线。在企业内部，Claude Cowork已经成为团队运作的关键组成部分：处理任务、起草项目交付成果，并确保团队信息同步。\n今天，我们推出组织级控制功能，帮助团队部署 Claude Cowork公司。",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-09"
         }
       ]
     }
