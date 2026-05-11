@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10",
+  "generated_at": "2026-05-11",
   "lookback_days": 30,
   "digests": [
     {
@@ -490,47 +490,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-14"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-10",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
-          "title_en": "Preparing your security program for AI-accelerated offense",
-          "title_zh": "Preparing your security program for AI-accelerated offense",
-          "summary_zh": "【机器翻译摘要】\n为人工智能驱动的攻击做好安全防护准备\n\n为人工智能驱动的攻击做好安全防护准备\n人工智能正在改变漏洞被发现和被利用的速度。我们正基于自身的研究发现和安全实践，发布一组初步的安全建议，以强化您的防御能力。\n类别\n代理人\n产品\nClaude 企业\n日期\n2026年4月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/为人工智能加速的攻击做好安全计划的准备\n本周早些时候，我们宣布了“玻璃翼”项目——我们紧急…",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-10"
-        },
-        {
-          "url": "https://claude.com/blog/seeing-like-an-agent",
-          "title_en": "Seeing like an agent: how we design tools in Claude Code",
-          "title_zh": "Seeing like an agent: how we design tools in Claude Code",
-          "summary_zh": "【机器翻译摘要】\n以代理的视角看待问题：我们在 Claude Code中如何设计工具\n\n以代理的视角看待问题：我们在 Claude Code中如何设计工具\n了解 Claude Code团队如何从模型的角度出发，设计、测试并持续迭代工具。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/像智能体一样观察\n构建智能体框架最困难的部分之一，就是搭建其工具链。\nClaude 完全通过……行动\n工具调用\n，但工具有多种构建方式。",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-10"
-        },
-        {
-          "url": "https://claude.com/blog/multi-agent-coordination-patterns",
-          "title_en": "Multi-agent coordination patterns: Five approaches and when to use them",
-          "title_zh": "Multi-agent coordination patterns: Five approaches and when to use them",
-          "summary_zh": "【机器翻译摘要】\n多智能体协调模式：五种方法及适用场景\n\n多智能体协调模式：五种方法及适用场景\n五种多智能体协调模式、它们之间的权衡，以及何时从一种模式演进到另一种模式。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/多智能体协调模式\n在之前的一篇文章中，我们探讨了多智能体系统在何时能够创造价值，以及在何时单个智能体是更优的选择。这篇帖子是为那些已经做出决定、如今需要……的团队准备的。",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-10"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/managed-agents-sre-incident-responder",
-          "title_en": "Build an SRE incident response agent with Claude Managed Agents",
-          "title_zh": "Build an SRE incident response agent with Claude Managed Agents",
-          "summary_zh": "【机器翻译摘要】\n使用 Claude 托管代理构建SRE事件响应代理\n\n2026年4月",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-04-10"
         }
       ]
     }
