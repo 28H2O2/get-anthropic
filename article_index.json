@@ -1,4 +1,16 @@
 {
+  "https://claude.com/blog/agent-view-in-claude-code": {
+    "title": "Agent view in Claude Code",
+    "date": "2026-05-11",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-platform-on-aws": {
+    "title": "Introducing the Claude Platform on AWS",
+    "date": "2026-05-11",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/teaching-claude-why": {
     "title": "Teaching Claude why",
     "date": "2026-05-08",
