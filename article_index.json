@@ -1,4 +1,22 @@
 {
+  "https://claude.com/blog/code-w-claude-sf-2026-sf": {
+    "title": "Code w/ Claude SF 2026: Building on the AI exponential",
+    "date": "2026-05-12",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-for-the-legal-industry": {
+    "title": "Claude for the legal industry",
+    "date": "2026-05-12",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity": {
+    "title": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
+    "date": "2026-05-12",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/agent-view-in-claude-code": {
     "title": "Agent view in Claude Code",
     "date": "2026-05-11",

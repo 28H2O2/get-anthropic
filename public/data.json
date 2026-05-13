@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-05-12",
+  "generated_at": "2026-05-13",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-12",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/code-w-claude-sf-2026-sf",
+          "title_en": "Code w/ Claude SF 2026: Building on the AI exponential",
+          "title_zh": "Code w/ Claude SF 2026: Building on the AI exponential",
+          "summary_zh": "代码w/ Claude SF 2026: 基于AI指数构建\n\n代码w/ Claude SF 2026: 基于AI指数构建\n错过了我们的年度开发者大会？主题演讲和分组会议现在在YouTube上。\n类别\n未找到项目。\n产品\nClaude 代码\nClaude 平台\n日期\n2026年5月12日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ code-w-claude-sf-2026-sf\n本周在旧金山，我们举办了\n代码w/ Claude\n,我们的年度开发者大会。该活动汇集了开发人员，工程师和创始人为期两天的主题演讲，breakout sessi",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-12"
+        },
+        {
+          "url": "https://claude.com/blog/claude-for-the-legal-industry",
+          "title_en": "Claude for the legal industry",
+          "title_zh": "Claude for the legal industry",
+          "summary_zh": "Claude 法律行业\n\nClaude 法律行业\n我们将发布20个新的MCP连接器，这些连接器将 Claude 链接到法律行业运行的软件，并为特定的法律工作和实践领域量身定制了12个新插件。\n类别\n产品公告\n产品\nClaude 考克\n日期\n2026年5月12日\n阅读时间\n五\n分钟\n分享\n复制链接\n为法律行业 https://claude.com/blog/ 克劳德\n今年早些时候，我们发布了我们的第一个法律插件，从那以后的几个月里，法律专业人士已经成为最活跃的 Claude",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-12"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity",
+          "title_en": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
+          "title_zh": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
+          "summary_zh": "Anthropic 的网络安全团队如何使用 Claude 代码构建威胁检测平台\n\nAnthropic 的网络安全团队如何使用 Claude 代码构建威胁检测平台\nAnthropic 检测平台工程团队的技术负责人Jackie Bow分享了她的团队如何使用 Claude 代码来构建自动警报分诊、加速调查和转变安全分析师工作方式的工具。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年5月12日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类-使用-claude-网络安全\n在她的整个职业生涯中，杰克",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-12"
+        }
+      ]
+    },
     {
       "date": "2026-05-11",
       "articles": [
@@ -3361,6 +3393,24 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/code-w-claude-sf-2026-sf",
+        "title": "Code w/ Claude SF 2026: Building on the AI exponential",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-12"
+      },
+      {
+        "url": "https://claude.com/blog/claude-for-the-legal-industry",
+        "title": "Claude for the legal industry",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-12"
+      },
+      {
+        "url": "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity",
+        "title": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-12"
+      },
       {
         "url": "https://claude.com/blog/agent-view-in-claude-code",
         "title": "Agent view in Claude Code",
