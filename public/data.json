@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-05-13",
+  "generated_at": "2026-05-14",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-13",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/claude-for-small-business",
+          "title_en": "Introducing Claude for Small Business",
+          "title_zh": "Introducing Claude for Small Business",
+          "summary_zh": "面向小型企业的 Claude 简介\n\n公告\n面向小型企业的 Claude 简介\n2026年5月13日\n我们正在发射\nClaude 适用于小型企业\n-将 Claude 放入小型企业所依赖的工具中的连接器和随时可运行的工作流包-帮助小型企业主充分利用AI并划掉待办事项列表上的项目。\n小企业占美国GDP的44% %，雇佣了近一半的私营部门劳动力，但它们对人工智能的采用落后于大企业。工具和培训是ra",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-13"
+        },
+        {
+          "url": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
+          "title_en": "Best practices for computer and browser use with Claude",
+          "title_zh": "Best practices for computer and browser use with Claude",
+          "summary_zh": "使用 Claude 的计算机和浏览器的最佳做法\n\n使用 Claude 的计算机和浏览器的最佳做法\n为开发人员构建计算机和浏览器使用与 Claude 模型系列的集成的实用指南。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年5月13日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 计算机和浏览器使用与claude的最佳实践\nClaude 的\n最新型号\n代表了计算机和浏览器使用功能的重要一步。由于这些功能，LLM 现在可以为incr供电",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-13"
+        }
+      ]
+    },
     {
       "date": "2026-05-12",
       "articles": [
@@ -551,6 +574,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/claude-for-small-business",
+        "title": "Introducing Claude for Small Business",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-13"
+      },
       {
         "url": "https://www.anthropic.com/news/higher-limits-spacex",
         "title": "Higher usage limits for Claude and a compute deal with SpaceX",
@@ -3393,6 +3422,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
+        "title": "Best practices for computer and browser use with Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-13"
+      },
       {
         "url": "https://claude.com/blog/code-w-claude-sf-2026-sf",
         "title": "Code w/ Claude SF 2026: Building on the AI exponential",

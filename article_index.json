@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/claude-for-small-business": {
+    "title": "Introducing Claude for Small Business",
+    "date": "2026-05-13",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude": {
+    "title": "Best practices for computer and browser use with Claude",
+    "date": "2026-05-13",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/code-w-claude-sf-2026-sf": {
     "title": "Code w/ Claude SF 2026: Building on the AI exponential",
     "date": "2026-05-12",
