@@ -1,4 +1,34 @@
 {
+  "https://www.anthropic.com/news/pwc-expanded-partnership": {
+    "title": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
+    "date": "2026-05-15",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/gates-foundation-partnership": {
+    "title": "Anthropic forms $200 million partnership with the Gates Foundation",
+    "date": "2026-05-14",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/2028-ai-leadership": {
+    "title": "2028: Two scenarios for global AI leadership",
+    "date": "2026-05-14",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/the-founders-playbook": {
+    "title": "The founder's playbook: Building an AI-native startup",
+    "date": "2026-05-14",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start": {
+    "title": "How Claude Code works in large codebases: Best practices and where to start",
+    "date": "2026-05-14",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-for-small-business": {
     "title": "Introducing Claude for Small Business",
     "date": "2026-05-13",

@@ -1,7 +1,62 @@
 {
-  "generated_at": "2026-05-14",
+  "generated_at": "2026-05-15",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-15",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+          "title_en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
+          "title_zh": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
+          "summary_zh": "普华永道正在部署 Claude 以构建技术、执行交易并为客户重塑企业功能\n\n公告\n普华永道正在部署 Claude 以构建技术、执行交易并为客户重塑企业功能\nAnthropic 和普华永道今天宣布扩大战略联盟，深化普华永道如何利用 Claude 为其服务的每个行业的客户构建技术、执行交易和重塑企业职能。大多数企业仍在为人工智能之前的世界而构建的系统和流程上运行，这一阻力估计超过2万亿美元。在一起，Anthropic",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-15"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+          "title_en": "Anthropic forms $200 million partnership with the Gates Foundation",
+          "title_zh": "Anthropic forms $200 million partnership with the Gates Foundation",
+          "summary_zh": "Anthropic 与盖茨基金会建立了2亿美元的合作伙伴关系\n\n公告\nAnthropic 与盖茨基金会建立了2亿美元的合作伙伴关系\n2026年5月14日\n我们正在与\n盖茨基金会\n承诺在未来四年内为全球健康，生命科学，教育和经济流动性计划提供2亿美元的赠款资金，Claude 使用学分和技术支持。这些项目将与美国及全球各地的合作伙伴共同实施。\n这一承诺是 Anthropic 努力扩大人工智能在以下领域的优势的核心",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-14"
+        },
+        {
+          "url": "https://www.anthropic.com/research/2028-ai-leadership",
+          "title_en": "2028: Two scenarios for global AI leadership",
+          "title_zh": "2028: Two scenarios for global AI leadership",
+          "summary_zh": "2028: 全球AI领导力的两个场景\n\n政策\n2028: 全球AI领导力的两个场景\n2026年5月14日\n我们正在发布一篇新论文，解释我们对美国和中国之间人工智能竞争的看法。\n至关重要的是，美国及其盟国必须领先于中国共产党或CCP等威权政府。AI将很快成为\n足够强大\n被用来以前所未有的规模压制公民，甚至改变权力平衡\n在国家之间\n。由于人工智能一天比一天进步得更快，我们有onl",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-05-14"
+        },
+        {
+          "url": "https://claude.com/blog/the-founders-playbook",
+          "title_en": "The founder's playbook: Building an AI-native startup",
+          "title_zh": "The founder's playbook: Building an AI-native startup",
+          "summary_zh": "创始人的剧本: 建立一个人工智能原生创业公司\n\n创始人的剧本: 建立一个人工智能原生创业公司\n我们分享创始人如何在创业旅程的每个阶段使用AI，包括实践练习、框架和使用 Claude 的提示。\n类别\nClaude 代码\n产品\nClaude 共事\nClaude 平台\nClaude 代码\nClaude 个应用程序\n日期\n2026年5月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ -创始人-playbook\n人工智能正在重塑创业公司的建立方式。以前从未写过一行代码的创始人正在交付生产",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-14"
+        },
+        {
+          "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+          "title_en": "How Claude Code works in large codebases: Best practices and where to start",
+          "title_zh": "How Claude Code works in large codebases: Best practices and where to start",
+          "summary_zh": "Claude 代码如何在大型代码库中工作: 最佳实践和从哪里开始\n\nClaude 代码如何在大型代码库中工作: 最佳实践和从哪里开始\n最成功的 Claude 代码部署在配置、工具和组织结构之间共享一组可识别的模式。这篇文章是\nClaude 刻度代码\n,这是一个新系列，涵盖了在企业规模上使用 Claude 代码构建工程组织的最佳实践。\n类别\n企业AI\n产品\nClaude 代码\n日期\n2026年5月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-克劳德-",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-14"
+        }
+      ]
+    },
     {
       "date": "2026-05-13",
       "articles": [
@@ -529,51 +584,22 @@
           "date": "2026-04-15"
         }
       ]
-    },
-    {
-      "date": "2026-04-14",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/narasimhan-board",
-          "title_en": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
-          "title_zh": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
-          "summary_zh": "【机器翻译摘要】\nAnthropic 的长期利益信托任命Vas Narasimhan为董事会成员\n\n公告\nAnthropic 的长期利益信托任命Vas Narasimhan为董事会成员\n2026年4月14日\nVas Narasimhan已被 Anthropic 长期利益信托任命为 Anthropic 董事会成员。他是诺华 (世界领先的创新药物公司之一) 的医师，科学家兼首席执行官，并分享了 Anthropic 的信念\n医疗保健\n和\n生命科学\n是AI最有潜力提高h质量的领域之一",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-04-14"
-        },
-        {
-          "url": "https://www.anthropic.com/research/automated-alignment-researchers",
-          "title_en": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
-          "title_zh": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
-          "summary_zh": "【机器翻译摘要】\n自动对齐研究人员: 使用大型语言模型来扩展可扩展的监督\n\n对齐\n自动对齐研究人员: 使用大型语言模型来扩展可扩展的监督\n2026年4月14日\n阅读研究\n大型语言模型不断加快的改进速度为对齐研究提出了两个特别重要的问题。\n一是如何保持一致。前沿人工智能模型现在正在为其继任者的发展做出贡献。但是他们能提供同样的提升吗\n对齐\n研究人员？我们的语言模型可以用来帮助他们",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-04-14"
-        },
-        {
-          "url": "https://claude.com/blog/claude-code-desktop-redesign",
-          "title_en": "Redesigning Claude Code on desktop for parallel agents",
-          "title_zh": "Redesigning Claude Code on desktop for parallel agents",
-          "summary_zh": "【机器翻译摘要】\n在桌面为并行代理重新设计 Claude 代码\n\n在桌面为并行代理重新设计 Claude 代码\n今天，我们发布了重新设计的 Claude Code桌面应用程序，旨在帮助您一次运行更多 Claude 代码任务。\n下载应用\n下载应用\n下载应用\n阅读文档\n阅读文档\n阅读文档\n类别\nClaude 代码\n产品公告\n产品\nClaude 代码\n日期\n2026年4月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德-代码-桌面-重新设计\n它包括一个新的侧边栏，用于管理多个会话，",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-14"
-        },
-        {
-          "url": "https://claude.com/blog/introducing-routines-in-claude-code",
-          "title_en": "Introducing routines in Claude Code",
-          "title_zh": "Introducing routines in Claude Code",
-          "summary_zh": "【机器翻译摘要】\n介绍 Claude 代码中的例程\n\n介绍 Claude 代码中的例程\n定义可重复的例程，以处理积压工作，查看您的pr并响应云中的事件。\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年4月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 介绍-例程-in-claude-code\n今天，我们将在research preview中介绍 Claude 代码中的例程。例程是您配置一次的 Claude 代码自动化-包括提示、回购和连接器-然后在sche上运行",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-14"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+        "title": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-15"
+      },
+      {
+        "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+        "title": "Anthropic forms $200 million partnership with the Gates Foundation",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-14"
+      },
       {
         "url": "https://www.anthropic.com/news/claude-for-small-business",
         "title": "Introducing Claude for Small Business",
@@ -1830,6 +1856,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/2028-ai-leadership",
+        "title": "2028: Two scenarios for global AI leadership",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-05-14"
+      },
       {
         "url": "https://www.anthropic.com/research/teaching-claude-why",
         "title": "Teaching Claude why",
@@ -3422,6 +3454,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/the-founders-playbook",
+        "title": "The founder's playbook: Building an AI-native startup",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-14"
+      },
+      {
+        "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+        "title": "How Claude Code works in large codebases: Best practices and where to start",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-14"
+      },
       {
         "url": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
         "title": "Best practices for computer and browser use with Claude",
