@@ -5,6 +5,12 @@
     "source": "anthropic_news",
     "processed": true
   },
+  "https://claude.com/blog/deploying-claude-across-the-legal-industry": {
+    "title": "Deploying Claude across the legal industry",
+    "date": "2026-05-15",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/gates-foundation-partnership": {
     "title": "Anthropic forms $200 million partnership with the Gates Foundation",
     "date": "2026-05-14",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15",
+  "generated_at": "2026-05-16",
   "lookback_days": 30,
   "digests": [
     {
@@ -12,6 +12,15 @@
           "summary_zh": "普华永道正在部署 Claude 以构建技术、执行交易并为客户重塑企业功能\n\n公告\n普华永道正在部署 Claude 以构建技术、执行交易并为客户重塑企业功能\nAnthropic 和普华永道今天宣布扩大战略联盟，深化普华永道如何利用 Claude 为其服务的每个行业的客户构建技术、执行交易和重塑企业职能。大多数企业仍在为人工智能之前的世界而构建的系统和流程上运行，这一阻力估计超过2万亿美元。在一起，Anthropic",
           "source": "Anthropic News",
           "source_key": "anthropic_news",
+          "date": "2026-05-15"
+        },
+        {
+          "url": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
+          "title_en": "Deploying Claude across the legal industry",
+          "title_zh": "Deploying Claude across the legal industry",
+          "summary_zh": "在整个法律行业部署 Claude\n\n在整个法律行业部署 Claude\n我们分享了法律专业人士如何使用 Claude 来加速他们最繁琐的工作流程，包括何时使用什么产品、新连接器、实践领域插件以及三阶段采用路线图。\n类别\n企业人工智能\n产品\nClaude 共事\n日期\n2026年5月15日\n阅读时间\n五\n分钟\n分享\n复制链接\n跨法律行业 https://claude.com/blog/ 部署-claude-\n2026年\nFTI咨询/相对论总法律顾问报告\n发现将军的87%",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
           "date": "2026-05-15"
         }
       ]
@@ -568,20 +577,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-16"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-15",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/using-claude-code-session-management-and-1m-context",
-          "title_en": "Using Claude Code: session management and 1M context",
-          "title_zh": "Using Claude Code: session management and 1M context",
-          "summary_zh": "【机器翻译摘要】\n使用 Claude 代码: 会话管理和1m上下文\n\n使用 Claude 代码: 会话管理和1m上下文\n在 Claude 代码中管理会话、上下文和压缩的方式使您的结果比预期的要多。这里有一个实用指南，可以在每个回合都做出正确的决定。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月15日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ using-claude-code-session-management-and-1m-context\n我们发布了\n/用法\n,一个新的斜杠命令，以帮助您了解您使用 Claude 代码的用法。这个",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-15"
         }
       ]
     }
@@ -3454,6 +3449,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
+        "title": "Deploying Claude across the legal industry",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-15"
+      },
       {
         "url": "https://claude.com/blog/the-founders-playbook",
         "title": "The founder's playbook: Building an AI-native startup",
