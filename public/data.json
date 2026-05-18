@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17",
+  "generated_at": "2026-05-18",
   "lookback_days": 30,
   "digests": [
     {
@@ -540,20 +540,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-20"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-17",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-          "title_en": "Introducing Claude Design by Anthropic Labs",
-          "title_zh": "Introducing Claude Design by Anthropic Labs",
-          "summary_zh": "【机器翻译摘要】\n介绍 Anthropic 实验室的 Claude 设计\n\n产品\n公告\n介绍 Anthropic 实验室的 Claude 设计\n2026年4月17日\n今天，我们推出了 Claude Design，这是一个新的\nAnthropic 个实验室\n该产品可让您与 Claude 协作创建精美的视觉作品，如设计、原型、幻灯片、单页寻呼机等。\nClaude 设计采用我们最强大的视觉模型，\nClaude Opus 4.7\n,并在研究预览中提供给 Claude Pro、Max、Team和Enterprise订阅者。我们正在全天逐步向用户推出。\n沙漠",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-04-17"
         }
       ]
     }
