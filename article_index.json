@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/anthropic-acquires-stainless": {
+    "title": "Anthropic acquires Stainless",
+    "date": "2026-05-18",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/pwc-expanded-partnership": {
     "title": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
     "date": "2026-05-15",
