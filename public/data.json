@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-05-19",
+  "generated_at": "2026-05-20",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-20",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+          "title_en": "Using Claude Code: The unreasonable effectiveness of HTML",
+          "title_zh": "Using Claude Code: The unreasonable effectiveness of HTML",
+          "summary_zh": "使用 Claude 代码: HTML不合理的有效性\n\n使用 Claude 代码: HTML不合理的有效性\nClaude 代码团队的成员如何以及为什么使用HTML而不是Markdown来生成更丰富、可读性更强且易于共享的输出。\n‍\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年5月20日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 使用-claude-code-the-不合理的-有效性-html\nMarkdown已成为代理与人类通信的主要文件格式。它的简单，便携，有一些丰富的特克斯",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-20"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-kpmg",
+          "title_en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+          "title_zh": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+          "summary_zh": "毕马威将 Claude 整合到其核心业务和276,000多名战略联盟员工中\n\n公告\n毕马威将 Claude 整合到其核心业务和276,000多名战略联盟员工中\n2026年5月19日\n毕马威 (KPMG) 是全球最大的审计、税务、法律和咨询服务的专业服务公司之一，遍布138个国家和地区，已宣布与 Anthropic 建立全球联盟，将 Claude 纳入其业务核心。\n作为该联盟的一部分，毕马威将 Claude 嵌入到数字网关中，毕马威的人员和客户使用该软件来执行此操作",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-19"
+        },
+        {
+          "url": "https://www.anthropic.com/news/widening-conversation-ai",
+          "title_en": "Widening the conversation on frontier AI",
+          "title_zh": "Widening the conversation on frontier AI",
+          "summary_zh": "扩大关于前沿AI的对话\n\n公告\n扩大关于前沿AI的对话\n2026年5月19日\n在 {{1 }}, 我们希望建立能够促进人类发展并为全球利益而行动的AI系统。为此，我们需要与那些以多种不同视角看待世界的人展开对话。\n在过去几个月里，我们一直与那些其工作与传统关乎人工智能所引发之议题的团体开展对话。我们的第一轮讨论一直与智慧传统-包括学者，神职人员，哲学家，",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-19"
+        },
+        {
+          "url": "https://claude.com/blog/claude-managed-agents-updates",
+          "title_en": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+          "title_zh": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+          "summary_zh": "Claude 托管代理中的新增功能: 自承载沙箱和MCP隧道\n\nClaude 托管代理中的新增功能: 自承载沙箱和MCP隧道\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年5月19日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-managed-agents-更新\n从今天开始，Claude 托管代理可以在您控制的沙盒中运行，并连接到您的专用模型上下文协议 (MCP) 服务器。代理执行工具的沙箱及其到达的服务都在企业的既定边界内运行",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-19"
+        }
+      ]
+    },
     {
       "date": "2026-05-18",
       "articles": [
@@ -560,6 +606,18 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/anthropic-kpmg",
+        "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-19"
+      },
+      {
+        "url": "https://www.anthropic.com/news/widening-conversation-ai",
+        "title": "Widening the conversation on frontier AI",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-19"
+      },
       {
         "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
         "title": "Anthropic acquires Stainless",
@@ -3432,6 +3490,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+        "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-20"
+      },
+      {
+        "url": "https://claude.com/blog/claude-managed-agents-updates",
+        "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-19"
+      },
       {
         "url": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
         "title": "Deploying Claude across the legal industry",

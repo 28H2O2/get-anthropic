@@ -1,4 +1,28 @@
 {
+  "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html": {
+    "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+    "date": "2026-05-20",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/anthropic-kpmg": {
+    "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+    "date": "2026-05-19",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/widening-conversation-ai": {
+    "title": "Widening the conversation on frontier AI",
+    "date": "2026-05-19",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-managed-agents-updates": {
+    "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+    "date": "2026-05-19",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/anthropic-acquires-stainless": {
     "title": "Anthropic acquires Stainless",
     "date": "2026-05-18",
