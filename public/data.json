@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20",
+  "generated_at": "2026-05-21",
   "lookback_days": 30,
   "digests": [
     {
@@ -10,6 +10,15 @@
           "title_en": "Using Claude Code: The unreasonable effectiveness of HTML",
           "title_zh": "Using Claude Code: The unreasonable effectiveness of HTML",
           "summary_zh": "使用 Claude 代码: HTML不合理的有效性\n\n使用 Claude 代码: HTML不合理的有效性\nClaude 代码团队的成员如何以及为什么使用HTML而不是Markdown来生成更丰富、可读性更强且易于共享的输出。\n‍\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年5月20日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 使用-claude-code-the-不合理的-有效性-html\nMarkdown已成为代理与人类通信的主要文件格式。它的简单，便携，有一些丰富的特克斯",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-20"
+        },
+        {
+          "url": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book",
+          "title_en": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
+          "title_zh": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
+          "summary_zh": "Anthropic 销售主管如何使用 Claude 考克管理4,000账簿\n\nAnthropic 销售主管如何使用 Claude 考克管理4,000账簿\n{{1 }}, 美国中端市场GTM的负责人Travis Bryant分享了他如何使用 Claude Cowork来准备客户简介和每周预测，并进行隔夜区域评分，该评分过去需要跨职能团队花费数百个小时。\n‍\nTravis介绍了他如何使用 Claude Cowork来准备客户摘要，提取每周预测并在一夜之间为4,000帐户评分。\n加入网络研讨会\n加入网络研讨会\n加入webin",
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-20"
@@ -577,29 +586,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-04-22"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-20",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-          "title_en": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
-          "title_zh": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
-          "summary_zh": "Anthropic 和Amazon扩展协作，实现高达5千兆瓦的新计算\n\n公告\nAnthropic 和Amazon扩展协作，实现高达5千兆瓦的新计算\n2026年4月20日\n我们已经与亚马逊签署了一项新协议，将深化我们现有的合作伙伴关系，并确保高达5吉瓦 (GW) 的培训和部署能力，包括今年上半年上线的新Trainium2容量和近1GW的Trainium2和Trainium3容量将在年底前上线2026年。\n我们与亚马逊2023年和100多个，",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-04-20"
-        },
-        {
-          "url": "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
-          "title_en": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon",
-          "title_zh": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon",
-          "summary_zh": "与 Opus 4.6 Claude 代码黑客马拉松的获胜者见面\n\n与 Opus 4.6 Claude 代码黑客马拉松的获胜者见面\n从心脏病专家到电子音乐家，了解我们与 Opus 4.6黑客马拉松的获奖者。\n获取 Claude 代码\n桌面\n代码编辑器\n捷特布兰斯\n在网页上\n松弛\ncurl -fsSL\nhttps:// claude.ai/install.sh\n| 大巴\n将命令复制到剪贴板\n伊尔姆\nhttps://claude.ai/install.ps1\n| iex\n将命令复制到剪贴板\n或阅读\n文档\n尝试 Claude 代码\n尝试 Claude 代码\n尝试 Claude 代码\n开发者文档\n开发者文档\n开发者文档\n凯特",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-20"
         }
       ]
     }
@@ -3497,6 +3483,12 @@
         "date": "2026-05-20"
       },
       {
+        "url": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book",
+        "title": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-20"
+      },
+      {
         "url": "https://claude.com/blog/claude-managed-agents-updates",
         "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -3897,6 +3889,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/teaching-claude-why/",
         "title": "Teaching Claude Why",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/sleight-bench/",
+        "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },

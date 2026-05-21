@@ -5,6 +5,12 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book": {
+    "title": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
+    "date": "2026-05-20",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/anthropic-kpmg": {
     "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
     "date": "2026-05-19",
@@ -1078,6 +1084,11 @@
   },
   "https://alignment.anthropic.com/2026/teaching-claude-why/": {
     "title": "Teaching Claude Why",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/sleight-bench/": {
+    "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
     "date": "2026-01-01",
     "source": "alignment"
   },
