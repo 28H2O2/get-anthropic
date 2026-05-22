@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-05-21",
+  "generated_at": "2026-05-22",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-21",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/compliance-api-security-partners",
+          "title_en": "Claude now works with more security and compliance tools",
+          "title_zh": "Claude now works with more security and compliance tools",
+          "summary_zh": "Claude 现在可使用更多安全性和合规性工具\n\nClaude 现在可使用更多安全性和合规性工具\n类别\n企业AI\n产品\nClaude 企业\nClaude 平台\n日期\n2026年5月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 合规性-api-安全性-合作伙伴\n今天，我们将介绍28种与著名的安全性和合规性工具的集成。现在，IT和安全团队可以在我们的平台和产品套件中管理 Claude，就像他们管理其堆栈中的其他应用程序一样。\n它的工作原理\n所有这些新的integra",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-21"
+        },
+        {
+          "url": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+          "title_en": "How our partners are putting Opus to work for cybersecurity",
+          "title_zh": "How our partners are putting Opus to work for cybersecurity",
+          "summary_zh": "我们的合作伙伴如何让 Opus 致力于网络安全\n\n我们的合作伙伴如何让 Opus 致力于网络安全\n了解Wiz、Palo Alto Networks和Accenture等公司如何使用 Claude Opus 更快地查找和修复漏洞，并大规模部署AI防御。\n类别\n企业人工智能\n产品\nClaude 安全\nClaude 平台\n日期\n2026年5月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 我们的合作伙伴如何为网络安全工作\n人工智能正在改变安全漏洞被发现和利用的速度，以及",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-21"
+        }
+      ]
+    },
     {
       "date": "2026-05-20",
       "articles": [
@@ -3476,6 +3499,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/compliance-api-security-partners",
+        "title": "Claude now works with more security and compliance tools",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-21"
+      },
+      {
+        "url": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+        "title": "How our partners are putting Opus to work for cybersecurity",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-21"
+      },
       {
         "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
         "title": "Using Claude Code: The unreasonable effectiveness of HTML",

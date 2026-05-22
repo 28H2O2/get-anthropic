@@ -1,4 +1,16 @@
 {
+  "https://claude.com/blog/compliance-api-security-partners": {
+    "title": "Claude now works with more security and compliance tools",
+    "date": "2026-05-21",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity": {
+    "title": "How our partners are putting Opus to work for cybersecurity",
+    "date": "2026-05-21",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html": {
     "title": "Using Claude Code: The unreasonable effectiveness of HTML",
     "date": "2026-05-20",
