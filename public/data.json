@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-05-22",
+  "generated_at": "2026-05-23",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-22",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/glasswing-initial-update",
+          "title_en": "Project Glasswing: An initial update",
+          "title_zh": "Project Glasswing: An initial update",
+          "summary_zh": "Glasswing项目: 初步更新\n\n公告\nGlasswing项目: 初步更新\n2026年5月22日\n上个月，我们推出了\n项目Glasswing\n,我们的合作努力是在能力越来越强的人工智能模型遭到反对之前，保护世界上最关键的软件。\n从那时起，我们和大约50个合作伙伴使用 Claude Mythos Preview在世界上最具系统重要性的软件中查找了10,000多个严重或严重的漏洞。软件安全的进展曾经是",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-05-22"
+        },
+        {
+          "url": "https://red.anthropic.com/2026/exploit-evals/",
+          "title_en": "Measuring LLMs' Ability to Develop Exploits",
+          "title_zh": "Measuring LLMs' Ability to Develop Exploits",
+          "summary_zh": "衡量 LLMs' 开发漏洞的能力\n\n关于衡量人工智能模型开发利用能力的两个新的、具有挑战性的学术基准\n(ExploitBench和ExploitGym) 和基准测量智能合约的更新版本\n开发 (SCONE-bench)，我们发现Mythos Preview始终优于所有其他\n评估模型。我们认为，这进一步证明了所需的知识和专业知识\n开发漏洞将",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-05-22"
+        },
+        {
+          "url": "https://red.anthropic.com/2026/cvd/",
+          "title_en": "Coordinated Vulnerability Disclosure Dashboard",
+          "title_zh": "Coordinated Vulnerability Disclosure Dashboard",
+          "summary_zh": "协调漏洞披露仪表板\n\n定期更新 Anthropic 发现并报告给维护人员的漏洞记录\n在披露时对每个发现都有加密承诺。",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-05-22"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
+          "title_en": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
+          "title_zh": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
+          "summary_zh": "Anthropic 的财务团队如何使用 Claude 来塑造数字背后的叙述\n\nAnthropic 的财务团队如何使用 Claude 来塑造数字背后的叙述\n{{1 }}, 公司财务和战略团队的Alice Fong分享了她如何使用 Claude 来为首席财务官和董事会维持一个统一的财务叙述，并每周腾出10到20个小时用于影响更大的工作。\n类别\n企业人工智能\n产品\nClaude 考克\n日期\n2026年5月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类-金融-团队-使用-克劳德-塑造-叙事-behin",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-22"
+        }
+      ]
+    },
     {
       "date": "2026-05-21",
       "articles": [
@@ -568,47 +609,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-23"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-22",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/81k-economics",
-          "title_en": "What 81,000 people told us about the economics of AI",
-          "title_zh": "What 81,000 people told us about the economics of AI",
-          "summary_zh": "81,000人告诉我们人工智能的经济学\n\n经济研究\n81,000人告诉我们人工智能的经济学\n2026年4月22日\n阅读PDF\n关键发现：\n我们最近对81,000 Claude 位用户的调查显示，那些在人工智能环境中工作的人对人工智能驱动的工作位移有更多的担忧。这些担忧在早期职业受访者中也更高。\n那些收入最高和最低的职业的人报告了最大的生产率提升，最常见的是范围的增加 (做新任务)。\n受访者体验i",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-04-22"
-        },
-        {
-          "url": "https://www.anthropic.com/research/economic-index-survey-announcement",
-          "title_en": "Announcing the Anthropic Economic Index Survey",
-          "title_zh": "Announcing the Anthropic Economic Index Survey",
-          "summary_zh": "宣布 Anthropic 经济指数调查\n\n经济研究\n宣布 Anthropic 经济指数调查\n2026年4月22日\n那\n经济研究\n团队正在启动 Anthropic 经济指数调查，这是一项通过以下方式进行的月度调查\nAnthropic 位面试官\n。\n了解人工智能的经济影响需要超越我们今天拥有的量化数据。使用和扩散指标告诉我们人工智能是如何部署的，传统的劳动力市场指标-如就业率，工资趋势和裁员-跟踪已经发生的事情，通常是wi",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-04-22"
-        },
-        {
-          "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
-          "title_en": "Building agents that reach production systems with MCP",
-          "title_zh": "Building agents that reach production systems with MCP",
-          "summary_zh": "使用MCP到达生产系统的建筑代理\n\n使用MCP到达生产系统的建筑代理\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月22日\n阅读时间\n五\n分钟\n分享\n复制链接\n具有mcp的 https://claude.com/blog/ 构建代理到达生产系统\n代理仅与他们可以达到的系统一样有用。团队倾向于采用三种方法将其连接到外部系统-直接 API calls、CLIs和MCP。这篇文章列出了每个适合的地方，为什么生产代理倾向于登陆MCP，以及",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-22"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-06-the-vulnerability-detection-agent",
-          "title_en": "The vulnerability detection agent",
-          "title_zh": "The vulnerability detection agent",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-04-22"
         }
       ]
     }
@@ -1901,6 +1901,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/glasswing-initial-update",
+        "title": "Project Glasswing: An initial update",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-05-22"
+      },
       {
         "url": "https://www.anthropic.com/research/2028-ai-leadership",
         "title": "2028: Two scenarios for global AI leadership",
@@ -3396,6 +3402,18 @@
     ],
     "red_team": [
       {
+        "url": "https://red.anthropic.com/2026/exploit-evals/",
+        "title": "Measuring LLMs' Ability to Develop Exploits",
+        "desc": "Anthropic 红队安全研究（red.anthropic.com）",
+        "date": "2026-05-22"
+      },
+      {
+        "url": "https://red.anthropic.com/2026/cvd/",
+        "title": "Coordinated Vulnerability Disclosure Dashboard",
+        "desc": "Anthropic 红队安全研究（red.anthropic.com）",
+        "date": "2026-05-22"
+      },
+      {
         "url": "https://red.anthropic.com/2026/mythos-preview/",
         "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
@@ -3499,6 +3517,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
+        "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-22"
+      },
       {
         "url": "https://claude.com/blog/compliance-api-security-partners",
         "title": "Claude now works with more security and compliance tools",

@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/research/glasswing-initial-update": {
+    "title": "Project Glasswing: An initial update",
+    "date": "2026-05-22",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://red.anthropic.com/2026/exploit-evals/": {
+    "title": "Measuring LLMs' Ability to Develop Exploits",
+    "date": "2026-05-22",
+    "source": "red_team",
+    "processed": true
+  },
+  "https://red.anthropic.com/2026/cvd/": {
+    "title": "Coordinated Vulnerability Disclosure Dashboard",
+    "date": "2026-05-22",
+    "source": "red_team",
+    "processed": true
+  },
+  "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers": {
+    "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
+    "date": "2026-05-22",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/compliance-api-security-partners": {
     "title": "Claude now works with more security and compliance tools",
     "date": "2026-05-21",
