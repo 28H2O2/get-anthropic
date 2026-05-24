@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23",
+  "generated_at": "2026-05-24",
   "lookback_days": 30,
   "digests": [
     {
@@ -586,29 +586,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-04-24"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-23",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/connectors-for-everyday-life",
-          "title_en": "New connectors in Claude for everyday life",
-          "title_zh": "New connectors in Claude for everyday life",
-          "summary_zh": "Claude 中适用于日常生活的新连接器\n\nClaude 中适用于日常生活的新连接器\n类别\n产品公告\n产品\nClaude 个应用程序\n日期\n2026年4月23日\n阅读时间\n五\n分钟\n分享\n复制链接\n适用于日常生活的 https://claude.com/blog/ 连接器\n今天，我们正在扩展您可以连接到 Claude 的内容。除了您已经使用的工作工具，您现在可以连接您整个星期使用的应用程序，包括AllTrails，Instacart，Audible，TripAdvisor，Intuit TurboTax等。\n人们如何使用连接器\n自7月推出以来",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-23"
-        },
-        {
-          "url": "https://claude.com/blog/claude-managed-agents-memory",
-          "title_en": "Built-in memory for Claude Managed Agents",
-          "title_zh": "Built-in memory for Claude Managed Agents",
-          "summary_zh": "Claude 托管代理的内置内存\n\nClaude 托管代理的内置内存\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年4月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-managed-agents-memory\n内存打开\nClaude 个托管代理\n今天在公共测试版中可用。您的代理现在可以从每个会话中学习，使用智能优化的内存层，平衡性能和灵活性。由于内存存储为文件，开发人员可以导出它们，通过 {{13 }}, 一个",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-23"
         }
       ]
     }
