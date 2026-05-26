@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-05-25",
+  "generated_at": "2026-05-26",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-25",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+          "title_en": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+          "title_zh": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+          "summary_zh": "Anthropic 联合创始人克里斯·奥拉对教皇利奥十四世通谕《人类大典》的评论\n\n公告\nAnthropic 联合创始人克里斯·奥拉对教皇利奥十四世通谕《人类大典》的评论\n2026年5月25日\n周一2026年5月25日，教皇利奥十四世释放\n一个通谕\n关于AI的主题: “Magnifica humanitas: 在人工智能时代保护人类”。Anthropic 联合创始人Chris Olah受邀在梵蒂冈城的通谕演讲中发言，这是 Anthropic\n扩大谈话范围\n关于重要的问题",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-25"
+        }
+      ]
+    },
     {
       "date": "2026-05-22",
       "articles": [
@@ -560,6 +574,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+        "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-25"
+      },
       {
         "url": "https://www.anthropic.com/news/anthropic-kpmg",
         "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",

@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical": {
+    "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+    "date": "2026-05-25",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/research/glasswing-initial-update": {
     "title": "Project Glasswing: An initial update",
     "date": "2026-05-22",
