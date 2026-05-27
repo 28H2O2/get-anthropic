@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-05-26",
+  "generated_at": "2026-05-27",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-26",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+          "title_en": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
+          "title_zh": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
+          "summary_zh": "Anthropic 任命KiYoung Choi为韩国代表董事\n\n公告\nAnthropic 在首尔办事处开业前任命KiYoung Choi为韩国代表董事\n2026年5月26日\n韩国是全球 Claude.ai最活跃的市场之一。根据我们最新的\n经济指数\n,韩国人使用 Claude 的比率是人口规模预期的3.5倍以上，使用严重偏向于技术和创造性工作。为了支持这一势头，Choi KiYoung Choi将在开幕式前加入 Anthropic，担任韩国代表董事",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-26"
+        },
+        {
+          "url": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
+          "title_en": "Code w/ Claude London 2026: Rethinking how we build",
+          "title_zh": "Code w/ Claude London 2026: Rethinking how we build",
+          "summary_zh": "Code w/ Claude 伦敦2026: 重新思考我们的建设方式\n\nCode w/ Claude 伦敦2026: 重新思考我们的建设方式\n不能去伦敦吗？主题演讲和分组会议现在正在直播。\n类别\n产品公告\n产品\nClaude 代码\nClaude 平台\n日期\n2026年5月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ code-w-claude-london-2026-rethinking-how-we-build\n本周在伦敦，我们带来了\n代码w/ Claude\n去欧洲。该活动将建设者，开发人员和创始人聚集在一起，进行为期两天的主题演讲，分组讨论和研讨会",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-26"
+        }
+      ]
+    },
     {
       "date": "2026-05-25",
       "articles": [
@@ -12,6 +35,15 @@
           "summary_zh": "Anthropic 联合创始人克里斯·奥拉对教皇利奥十四世通谕《人类大典》的评论\n\n公告\nAnthropic 联合创始人克里斯·奥拉对教皇利奥十四世通谕《人类大典》的评论\n2026年5月25日\n周一2026年5月25日，教皇利奥十四世释放\n一个通谕\n关于AI的主题: “Magnifica humanitas: 在人工智能时代保护人类”。Anthropic 联合创始人Chris Olah受邀在梵蒂冈城的通谕演讲中发言，这是 Anthropic\n扩大谈话范围\n关于重要的问题",
           "source": "Anthropic News",
           "source_key": "anthropic_news",
+          "date": "2026-05-25"
+        },
+        {
+          "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+          "title_en": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
+          "title_zh": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
+          "summary_zh": "随着代理能力的增强，我们如何在产品中包含 Claude，他们的潜在爆炸半径也是如此。工程问题是如何封顶。以下是我们为claude.ai、 Claude 代码和Cowork构建容器时学到的知识。\n\n12个月前，我们会立即拒绝授予 Claude 访问权限以关闭内部 Anthropic 服务的想法。如今，这种访问级别已成为常规，并且 Anthropic 开发人员的工作效率更高。这些部署的风险有两个组成部分: 失败的可能性有多大，以及可能造成的损害有多大。保障措施和模型培训方面的进展稳步推动了第一个; 第二个-理论爆炸半径-只会随着能力和访问经验的增长而增长",
+          "source": "Engineering Blog",
+          "source_key": "engineering",
           "date": "2026-05-25"
         }
       ]
@@ -574,6 +606,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+        "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-26"
+      },
       {
         "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
         "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
@@ -3483,6 +3521,12 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
+        "title": "Code w/ Claude London 2026: Rethinking how we build",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-26"
+      },
+      {
         "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
         "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -4087,6 +4131,18 @@
     ],
     "engineering": [
       {
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+        "title": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-05-25"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "title": "An update on recent Claude Code quality reports",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-04-23"
+      },
+      {
         "url": "https://www.anthropic.com/engineering/managed-agents",
         "title": "Scaling Managed Agents: Decoupling the brain from the hands",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
@@ -4223,12 +4279,6 @@
         "title": "Introducing Contextual Retrieval",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
         "date": "2024-09-19"
-      },
-      {
-        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-        "title": "An update on recent Claude Code quality reports",
-        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
-        "date": ""
       }
     ]
   },

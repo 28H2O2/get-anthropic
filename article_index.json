@@ -1,8 +1,26 @@
 {
+  "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea": {
+    "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
+    "date": "2026-05-26",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build": {
+    "title": "Code w/ Claude London 2026: Rethinking how we build",
+    "date": "2026-05-26",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical": {
     "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
     "date": "2026-05-25",
     "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/engineering/how-we-contain-claude": {
+    "title": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
+    "date": "2026-05-25",
+    "source": "engineering",
     "processed": true
   },
   "https://www.anthropic.com/research/glasswing-initial-update": {
@@ -330,6 +348,12 @@
     "title": "Built-in memory for Claude Managed Agents",
     "date": "2026-04-23",
     "source": "claude_blog",
+    "processed": true
+  },
+  "https://www.anthropic.com/engineering/april-23-postmortem": {
+    "title": "An update on recent Claude Code quality reports",
+    "date": "2026-04-23",
+    "source": "engineering",
     "processed": true
   },
   "https://www.anthropic.com/research/81k-economics": {
@@ -3620,11 +3644,5 @@
     "date": "2021",
     "source": "transformer_circuits",
     "processed": false
-  },
-  "https://www.anthropic.com/engineering/april-23-postmortem": {
-    "title": "An update on recent Claude Code quality reports",
-    "date": "",
-    "source": "engineering",
-    "processed": true
   }
 }
