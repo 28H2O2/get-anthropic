@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-05-27",
+  "generated_at": "2026-05-28",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-27",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+          "title_en": "Coding agents in the social sciences",
+          "title_zh": "Coding agents in the social sciences",
+          "summary_zh": "社会科学中的编码代理\n\n经济研究\n社会科学中的编码代理\n2026年5月27日\n摘要\n我们提供了在2026 2月和3月对1,260位社会科学家进行的有关AI和编码代理使用的调查结果。\n绝大多数受访者 (81%) 曾尝试在研究中使用AI聊天机器人，特别是在编写代码和编辑散文方面。但是，只有20% 在工作中采用了编码代理-像 Claude Code这样的工具，可以自动编写和执行分析代码。\n在使用方面有很大的差异",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-05-27"
+        },
+        {
+          "url": "https://claude.com/blog/using-llms-to-secure-source-code",
+          "title_en": "Using LLMs to secure source code",
+          "title_zh": "Using LLMs to secure source code",
+          "summary_zh": "使用 LLMs来保护源代码\n\n使用 LLMs来保护源代码\n我们分享了如何使用 Claude Opus 构建威胁模型、发现代码库中的漏洞，然后进行验证、分诊和修补的最佳实践。\n类别\n企业人工智能\n产品\n未找到项目。\n日期\n2026年5月27日\n阅读时间\n五\n分钟\n分享\n复制链接\n使用-llms-to-secure-source-code https://claude.com/blog/\n模型能力正在迅速发展，而且是不平衡的。我们一直\n与安全团队合作\n查找并修复自己的cod中的漏洞",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-27"
+        },
+        {
+          "url": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
+          "title_en": "How CodeRabbit used Claude to build an agent orchestration system",
+          "title_zh": "How CodeRabbit used Claude to build an agent orchestration system",
+          "summary_zh": "CodeRabbit如何使用 Claude 构建代理编排系统\n\nCodeRabbit如何使用 Claude 构建代理编排系统\nCodeRabbit在 Claude 上构建了一个位于编码请求和编码代理之间的层，生成了一个结构化的编码计划，团队可以在生成任何代码之前进行审核。\n观看网络研讨会\n观看网络研讨会\n观看网络研讨会\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年5月27日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-coderabbit-使用-claude-构建-代理-编排-系统\n在我们的系列中，\n如何",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-27"
+        },
+        {
+          "url": "https://claude.com/blog/zero-trust-for-ai-agents",
+          "title_en": "Zero Trust for AI agents",
+          "title_zh": "Zero Trust for AI agents",
+          "summary_zh": "对AI代理的零信任\n\n对AI代理的零信任\n我们共享一个安全框架，用于在企业中部署自主的AI代理，涵盖新的威胁环境，分层的零信任架构以及为AI加速攻击而构建的防御操作。\n类别\n企业人工智能\n代理人\n产品\nClaude 安全\n日期\n2026年5月27日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 对ai代理的零信任\n前沿人工智能模型正在将漏洞和利用漏洞之间的时间线从几个月压缩到几个小时。定义",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-27"
+        }
+      ]
+    },
     {
       "date": "2026-05-26",
       "articles": [
@@ -586,20 +627,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-28"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-27",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
-          "title_en": "Anthropic Sydney office",
-          "title_zh": "Anthropic Sydney office",
-          "summary_zh": "Anthropic 悉尼办事处\n\n公告\nAnthropic 任命Theo Hourmouzis澳大利亚和新西兰总经理并正式开设悉尼办事处\n2026年4月27日\nTheo Hourmouzis将加入 Anthropic，担任澳大利亚和新西兰的总经理，这标志着我们在该地区投资的下一步。随着我们正式开设悉尼办事处，Hourmouzis将于本周与客户和合作伙伴以及我们全球团队的高管会面。\nHourmouzis带来了超过20年的技术领导经验",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-04-27"
         }
       ]
     }
@@ -1904,6 +1931,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+        "title": "Coding agents in the social sciences",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-05-27"
+      },
       {
         "url": "https://www.anthropic.com/research/glasswing-initial-update",
         "title": "Project Glasswing: An initial update",
@@ -3520,6 +3553,24 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/using-llms-to-secure-source-code",
+        "title": "Using LLMs to secure source code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-27"
+      },
+      {
+        "url": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
+        "title": "How CodeRabbit used Claude to build an agent orchestration system",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-27"
+      },
+      {
+        "url": "https://claude.com/blog/zero-trust-for-ai-agents",
+        "title": "Zero Trust for AI agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-27"
+      },
       {
         "url": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
         "title": "Code w/ Claude London 2026: Rethinking how we build",

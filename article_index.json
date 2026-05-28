@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/research/coding-agents-social-sciences": {
+    "title": "Coding agents in the social sciences",
+    "date": "2026-05-27",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/using-llms-to-secure-source-code": {
+    "title": "Using LLMs to secure source code",
+    "date": "2026-05-27",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system": {
+    "title": "How CodeRabbit used Claude to build an agent orchestration system",
+    "date": "2026-05-27",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/zero-trust-for-ai-agents": {
+    "title": "Zero Trust for AI agents",
+    "date": "2026-05-27",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea": {
     "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
     "date": "2026-05-26",
