@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/news/claude-opus-4-8": {
+    "title": "Introducing Claude Opus 4.8",
+    "date": "2026-05-28",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/series-h": {
+    "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+    "date": "2026-05-28",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code": {
+    "title": "Introducing dynamic workflows in Claude Code",
+    "date": "2026-05-28",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/coding-agents-social-sciences": {
     "title": "Coding agents in the social sciences",
     "date": "2026-05-27",
@@ -21,6 +39,12 @@
     "title": "Zero Trust for AI agents",
     "date": "2026-05-27",
     "source": "claude_blog",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/milan-office-opening": {
+    "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
+    "date": "2026-05-27",
+    "source": "anthropic_news",
     "processed": true
   },
   "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea": {

@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-05-28",
+  "generated_at": "2026-05-29",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-05-28",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/claude-opus-4-8",
+          "title_en": "Introducing Claude Opus 4.8",
+          "title_zh": "Introducing Claude Opus 4.8",
+          "summary_zh": "介绍 Claude Opus 4.8\n\n产品\n公告\n介绍 Claude Opus 4.8\n2026年5月28日\n我们正在将 Claude Opus 升级到新版本: Claude Opus 4.8。它建立在 Opus 4.7的基础上，并在基准测试中进行了改进，是一个更有效的合作者。它今天仍然以相同的价格出售。\nOpus 4.8推出多项新功能。claude.ai上的用户现在可以控制 Claude 投入任务的工作量。Claude 代码具有新的 “动态工作流” 功能，使其能够解决非常大规模的问题",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-28"
+        },
+        {
+          "url": "https://www.anthropic.com/news/series-h",
+          "title_en": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+          "title_zh": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+          "summary_zh": "Anthropic 在H系列融资中筹集了65亿美元，融资后估值为965亿美元\n\n公告\nAnthropic 在H系列融资中筹集了65亿美元，融资后估值为965亿美元\n2026年5月28日\nAnthropic 在由Altimeter Capital、Dragoneer、Greenoaks和Sequoia Capital牵头的H系列融资中筹集了650亿美元，对公司的估值为9650亿美元。\n各行各业的全球企业都在其核心业务中部署 Claude，全球越来越多的人将其用于日常工作。自2月我们的G系列以来，采用率持续增长",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-05-28"
+        },
+        {
+          "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+          "title_en": "Introducing dynamic workflows in Claude Code",
+          "title_zh": "Introducing dynamic workflows in Claude Code",
+          "summary_zh": "在 Claude 代码中引入动态工作流\n\n在 Claude 代码中引入动态工作流\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年5月28日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 介绍-动态工作流-in-claude-code\n今天，我们在 Claude 代码中引入了动态工作流，帮助 Claude 端到端地处理最具挑战性的任务。你通常计划在季度内完成的工作现在在几天内完成。Claude 动态编写在si中运行数十到数百个并行子代理的业务流程脚本",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-05-28"
+        }
+      ]
+    },
     {
       "date": "2026-05-27",
       "articles": [
@@ -39,6 +71,15 @@
           "summary_zh": "对AI代理的零信任\n\n对AI代理的零信任\n我们共享一个安全框架，用于在企业中部署自主的AI代理，涵盖新的威胁环境，分层的零信任架构以及为AI加速攻击而构建的防御操作。\n类别\n企业人工智能\n代理人\n产品\nClaude 安全\n日期\n2026年5月27日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 对ai代理的零信任\n前沿人工智能模型正在将漏洞和利用漏洞之间的时间线从几个月压缩到几个小时。定义",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-05-27"
+        },
+        {
+          "url": "https://www.anthropic.com/news/milan-office-opening",
+          "title_en": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
+          "title_zh": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
+          "summary_zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员\n\n公告\nAnthropic 开设米兰办事处以支持意大利企业、研究和开发人员\n2026年5月27日\nAnthropic 将在米兰开设新办事处，这是我们在欧洲的第六个办事处，与伦敦、都柏林、巴黎、苏黎世和慕尼黑并列。米兰团队将与意大利公司和该国的开发者社区合作，负责任地构建和扩展 Claude，并为意大利工业和公共生活中已经开展的关于人工智能的对话做出贡献。\n这个办公室的开放紧密f",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
           "date": "2026-05-27"
         }
       ]
@@ -606,33 +647,28 @@
           "date": "2026-04-29"
         }
       ]
-    },
-    {
-      "date": "2026-04-28",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/claude-for-creative-work",
-          "title_en": "Claude for Creative Work",
-          "title_zh": "Claude for Creative Work",
-          "summary_zh": "Claude 用于创造性工作\n\n公告\nClaude 用于创造性工作\n2026年4月28日\n创意专业人士寻求技术来扩大他们工作中的可能性。Claude 不能取代品味或想象力，但它可以开辟新的工作方式-更快，更雄心勃勃的构思，更广泛的技能，以及创意人员承担更大规模项目的能力。人工智能还可以通过处理重复性任务和消除手工劳动来帮助承担创造性过程中消耗时间的部分。这两个的关键去",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-04-28"
-        },
-        {
-          "url": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development",
-          "title_en": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
-          "title_zh": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
-          "summary_zh": "像新开发人员一样加入 Claude 代码: 17年开发经验\n\n像新开发人员一样加入 Claude 代码: 17年开发经验\n将新开发人员加入到MacCoss实验室的700,000行代码库的方法也适用于 Claude 代码。以下是Brendan MacLean，一位 Claude 开发者大使，他的实验室是我们的一部分\nClaude 适用于开源\n程序，做到了。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年4月28日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ onboarding-claude-code-like-a-new-developer-lessons-from-17-year",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-28"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/claude-opus-4-8",
+        "title": "Introducing Claude Opus 4.8",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-28"
+      },
+      {
+        "url": "https://www.anthropic.com/news/series-h",
+        "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-28"
+      },
+      {
+        "url": "https://www.anthropic.com/news/milan-office-opening",
+        "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-05-27"
+      },
       {
         "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
         "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
@@ -3553,6 +3589,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+        "title": "Introducing dynamic workflows in Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-05-28"
+      },
       {
         "url": "https://claude.com/blog/using-llms-to-secure-source-code",
         "title": "Using LLMs to secure source code",
