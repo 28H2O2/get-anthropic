@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29",
+  "generated_at": "2026-05-30",
   "lookback_days": 30,
   "digests": [
     {
@@ -604,47 +604,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-04-30"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-29",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-          "title_en": "Evaluating Claude’s Bioinformatics Research Capabilities with BioMysteryBench",
-          "title_zh": "Evaluating Claude’s Bioinformatics Research Capabilities with BioMysteryBench",
-          "summary_zh": "使用BioMysteryBench评估 Claude 的生物信息学研究能力\n\n科学\n使用BioMysteryBench评估 Claude 的生物信息学研究能力\n2026年4月29日\n在这篇文章中，Brianna\n，\n发现团队的一名研究人员分享了最近生物信息学基准测试工作的结果。\n几乎在大型语言模型可以进行对话的时候，人们就开始问他们是如何与人类专家对抗的。模特可以通过律师考试吗？他们可以回答医疗许可问题或解决奥林匹克数学问题吗？这样的\n基准测试\n-独立的",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-04-29"
-        },
-        {
-          "url": "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork",
-          "title_en": "Deploying Claude across the enterprise with Claude Cowork",
-          "title_zh": "Deploying Claude across the enterprise with Claude Cowork",
-          "summary_zh": "使用 Claude Cowork在整个企业中部署 Claude\n\n使用 Claude Cowork在整个企业中部署 Claude\n了解组织如何使用 Claude Cowork来转变其日常工作，包括来自 Anthropic 自己团队的用例和最佳实践。\n类别\n未找到项目。\n产品\nClaude 考克\n日期\n2026年4月29日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 新-指南-部署-claude-跨企业与claude-cowork\n就在几年前，在工作中使用人工智能意味着与聊天窗口接口: 问一个问题，得到",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-29"
-        },
-        {
-          "url": "https://claude.com/blog/claude-api-skill",
-          "title_en": "Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp",
-          "title_zh": "Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp",
-          "summary_zh": "Claude API 技能现在在CodeRabbit、JetBrains、Resolve AI和Warp中\n\nClaude API 技能现在在CodeRabbit、JetBrains、Resolve AI和Warp中\n类别\n代理人\nClaude 代码\n产品\nClaude 企业\nClaude 代码\n日期\n2026年4月29日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-api-skill\n今天，CodeRabbit、JetBrains、Resolve AI和Warp正在捆绑\n克劳德-api技能\n,为开发人员提供生产就绪的 Claude API 代码，无论他们在哪里构建。该技能于3月在 Claude 代码中首次引入，现在已在开发人员使用的更多工具中使用。\n建筑物",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-29"
-        },
-        {
-          "url": "https://claude.com/blog/product-development-in-the-agentic-era",
-          "title_en": "Product development in the agentic era",
-          "title_zh": "Product development in the agentic era",
-          "summary_zh": "代理时代的产品开发\n\n代理时代的产品开发\nClaude Managed Agents产品经理Jess Yan分享了她如何使用该产品来解封自己，并腾出时间来磨练自己的手艺。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年4月29日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 时代的产品开发\n在人工智能时代担任产品经理的讽刺之一是，我的工作比以往任何时候都更加人性化。\n产品管理的工作一直是一种混合的工艺",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-04-29"
         }
       ]
     }
