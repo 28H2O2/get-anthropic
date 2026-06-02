@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/confidential-draft-s1-sec": {
+    "title": "Anthropic confidentially submits draft S-1 to the SEC",
+    "date": "2026-06-01",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-opus-4-8": {
     "title": "Introducing Claude Opus 4.8",
     "date": "2026-05-28",
@@ -1213,6 +1219,11 @@
   },
   "https://transformer-circuits.pub/2026/nla/index.html": {
     "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM ActivationsFraser-Taliente, Kantamneni, Ong, et al., 2026We train Claude to translate its internal state into natural language.",
+    "date": "2026",
+    "source": "transformer_circuits"
+  },
+  "https://transformer-circuits.pub/2026/may-update/index.html": {
+    "title": "Circuits Updates — May 2026A short update on understanding features through downstream connections.",
     "date": "2026",
     "source": "transformer_circuits"
   },

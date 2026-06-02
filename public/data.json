@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-06-01",
+  "generated_at": "2026-06-02",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-01",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+          "title_en": "Anthropic confidentially submits draft S-1 to the SEC",
+          "title_zh": "Anthropic confidentially submits draft S-1 to the SEC",
+          "summary_zh": "Anthropic 向SEC秘密提交S-1草案\n\n公告\nAnthropic 向SEC秘密提交S-1草案\n2026年6月1日\n今天，{{1 }}, PBC秘密地向美国证券交易委员会提交了一份表格S-1的注册声明草案，以提议对我们的普通股进行首次公开发行。这使我们能够在SEC完成审查后选择上市。拟议的首次公开募股将取决于市场状况及其他因素。\n要发行的股票数量和价格还没有",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-01"
+        }
+      ]
+    },
     {
       "date": "2026-05-28",
       "articles": [
@@ -546,6 +560,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+        "title": "Anthropic confidentially submits draft S-1 to the SEC",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-01"
+      },
       {
         "url": "https://www.anthropic.com/news/claude-opus-4-8",
         "title": "Introducing Claude Opus 4.8",
@@ -3093,6 +3113,12 @@
       {
         "url": "https://transformer-circuits.pub/2026/nla/index.html",
         "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM ActivationsFraser-Taliente, Kantamneni, Ong, et al., 2026We train Claude to translate its internal state into natural language.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2026"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2026/may-update/index.html",
+        "title": "Circuits Updates — May 2026A short update on understanding features through downstream connections.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
         "date": "2026"
       },
