@@ -1,4 +1,22 @@
 {
+  "https://claude.com/blog/running-an-ai-native-engineering-org": {
+    "title": "Running an AI-native engineering org",
+    "date": "2026-06-03",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/expanding-project-glasswing": {
+    "title": "Expanding Project Glasswing",
+    "date": "2026-06-02",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
+    "title": "A harness for every task: dynamic workflows in Claude Code",
+    "date": "2026-06-02",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/confidential-draft-s1-sec": {
     "title": "Anthropic confidentially submits draft S-1 to the SEC",
     "date": "2026-06-01",

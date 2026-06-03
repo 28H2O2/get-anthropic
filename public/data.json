@@ -1,7 +1,44 @@
 {
-  "generated_at": "2026-06-02",
+  "generated_at": "2026-06-03",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-03",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
+          "title_en": "Running an AI-native engineering org",
+          "title_zh": "Running an AI-native engineering org",
+          "summary_zh": "运行AI原生工程组织\n\n运行AI原生工程组织\n在Code w/ Claude SF 2026，Claude Code和 Claude Cowork Fiona Fung的工程总监介绍了一旦代理编码成为默认工作方式，团队的流程和结构将如何变化。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年6月3日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 运行-an-ai-native-engineering-org\n多年来，工程带宽一直是构建应用程序的昂贵部分。每个过程",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+          "title_en": "Expanding Project Glasswing",
+          "title_zh": "Expanding Project Glasswing",
+          "summary_zh": "正在扩展Glasswing项目\n\n公告\n正在扩展Glasswing项目\n2026年6月2日\n项目Glasswing\n是我们共同努力保护世界上最重要的软件。4月初，我们宣布大约有50个初始合作伙伴可以访问 Claude Mythos Preview，从那时起，他们一直在部署该模型来扫描其代码库中的漏洞。我们最近\n描述的\n到目前为止，这些合作伙伴是如何发现10,000多个严重或严重的安全漏洞的。\n我们目前正在扩展“玻璃翼”项目。福",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-02"
+        },
+        {
+          "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+          "title_en": "A harness for every task: dynamic workflows in Claude Code",
+          "title_zh": "A harness for every task: dynamic workflows in Claude Code",
+          "summary_zh": "每个任务的工具: Claude 代码中的动态工作流\n\n每个任务的工具: Claude 代码中的动态工作流\nClaude 代码现在可以即时编写和编排自己的多代理工具。以下是动态工作流的工作方式，以及充分利用它们的模式。\n‍\n获取 Claude 代码\n桌面\nVS代码\n捷恩思\n在网页上\n松弛\ncurl -fsSL\nhttps:// claude.ai/install.sh\n| bash\n将命令复制到剪贴板\n尔姆\nhttps:// claude.ai/install.ps1\n| 交互式外壳\n将命令复制到剪贴板\n或阅读\n文档\n尝试 Claude 代码\n尝试 Claude 代码\n尝试 Claude 代码\n德语",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-02"
+        }
+      ]
+    },
     {
       "date": "2026-06-01",
       "articles": [
@@ -533,33 +570,16 @@
           "date": "2026-05-04"
         }
       ]
-    },
-    {
-      "date": "2026-05-03",
-      "articles": [
-        {
-          "url": "https://platform.claude.com/cookbook/managed-agents-cma-coordinate-specialist-team",
-          "title_en": "Multiagent: coordinate a specialist team",
-          "title_zh": "Multiagent: coordinate a specialist team",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-05-03"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/managed-agents-cma-verify-with-outcome-grader",
-          "title_en": "Outcomes: agents that verify their own work",
-          "title_zh": "Outcomes: agents that verify their own work",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-05-03"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "title": "Expanding Project Glasswing",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-02"
+      },
       {
         "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
         "title": "Anthropic confidentially submits draft S-1 to the SEC",
@@ -3510,6 +3530,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
+        "title": "Running an AI-native engineering org",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-03"
+      },
+      {
+        "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+        "title": "A harness for every task: dynamic workflows in Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-02"
+      },
       {
         "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
         "title": "Introducing dynamic workflows in Claude Code",
