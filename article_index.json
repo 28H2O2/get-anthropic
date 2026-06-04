@@ -5,6 +5,42 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack": {
+    "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+    "date": "2026-06-03",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/services-track-partner-hub": {
+    "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+    "date": "2026-06-03",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://red.anthropic.com/2026/attack-navigator/": {
+    "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
+    "date": "2026-06-03",
+    "source": "red_team",
+    "processed": true
+  },
+  "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude": {
+    "title": "How Anthropic enables self-service data analytics with Claude",
+    "date": "2026-06-03",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills": {
+    "title": "Lessons from building Claude Code: How we use skills",
+    "date": "2026-06-03",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork": {
+    "title": "Best practices for getting started with Claude Cowork",
+    "date": "2026-06-03",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/expanding-project-glasswing": {
     "title": "Expanding Project Glasswing",
     "date": "2026-06-02",
@@ -118,6 +154,11 @@
     "date": "2026-05-22",
     "source": "claude_blog",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-07-hosting-the-agent": {
+    "title": "Hosting your agent",
+    "date": "2026-05-22",
+    "source": "cookbook"
   },
   "https://claude.com/blog/compliance-api-security-partners": {
     "title": "Claude now works with more security and compliance tools",

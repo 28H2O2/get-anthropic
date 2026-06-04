@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03",
+  "generated_at": "2026-06-04",
   "lookback_days": 30,
   "digests": [
     {
@@ -10,6 +10,60 @@
           "title_en": "Running an AI-native engineering org",
           "title_zh": "Running an AI-native engineering org",
           "summary_zh": "运行AI原生工程组织\n\n运行AI原生工程组织\n在Code w/ Claude SF 2026，Claude Code和 Claude Cowork Fiona Fung的工程总监介绍了一旦代理编码成为默认工作方式，团队的流程和结构将如何变化。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年6月3日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 运行-an-ai-native-engineering-org\n多年来，工程带宽一直是构建应用程序的昂贵部分。每个过程",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+          "title_en": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+          "title_zh": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+          "summary_zh": "我们学到了什么映射一年的人工智能网络威胁\n\n政策\n边疆红队\n我们学到了什么映射一年的人工智能网络威胁\n2026年6月3日\n随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架有多好？\n在一份新报告中，我们试图解答这一问题。我们检查了在3月2025至3月2026期间被禁止进行恶意网络活动的832帐户，并将其映射到\nMITRE ATT&CK\n,这是c使用的策略和技术的长期数据库",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://www.anthropic.com/news/services-track-partner-hub",
+          "title_en": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+          "title_zh": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+          "summary_zh": "介绍 Claude 合作伙伴网络的Services Track和Partner Hub\n\n公告\n介绍 Claude 合作伙伴网络的Services Track和Partner Hub\n2026年6月3日\n几乎每个大型企业都在将人工智能投入生产，许多企业已经发现了一些重要的东西: 成功的试点与企业可以运行的系统不同。真正的工作——也是真正的机遇——在于整合、评估，以及人们工作方式的演进。这就是为什么那些成功实现人工智能集成的公司，都会与有过相关经验的合作伙伴携手推进。\n在",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://red.anthropic.com/2026/attack-navigator/",
+          "title_en": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
+          "title_zh": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
+          "summary_zh": "映射支持AI的网络威胁: 来自 LLM ATT & CK Navigator的见解\n\n在过去的一年里，我们一直在调查威胁行为者如何将人工智能武器化以进行网络攻击。\n运营。今天，我们将分享一项新的分析，将这些真实世界的攻击映射到\nMITRE ATT & CK框架，网络攻击者使用的战术和技术数据库。我们\n与Verizon合作，将其中一些结果纳入2026 Verizon数据泄露事件\n调查报告 (DBIR)，并且是发布的",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+          "title_en": "How Anthropic enables self-service data analytics with Claude",
+          "title_zh": "How Anthropic enables self-service data analytics with Claude",
+          "summary_zh": "Anthropic 如何通过 Claude 实现自助数据分析\n\nAnthropic 如何通过 Claude 实现自助数据分析\n类别\n企业人工智能\n产品\nClaude 代码\n日期\n2026年6月3日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类-启用-自助服务-数据-分析-使用-claude\n正如许多数据科学和数据工程团队可以证明的那样，实现自助式业务分析传统上是一项艰难的工作。\n通过广泛的非规范化表使数据模型更容易被技术含量较低的同事访问，通常会导致重叠",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+          "title_en": "Lessons from building Claude Code: How we use skills",
+          "title_zh": "Lessons from building Claude Code: How we use skills",
+          "summary_zh": "构建 Claude 代码的经验教训: 我们如何使用技能\n\n构建 Claude 代码的经验教训: 我们如何使用技能\n我们在 Anthropic 内部学习了如何构建和扩展数百种技能。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年6月3日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 经验-从建筑-克劳德-代码-我们如何使用-技能\n技能已成为 Claude 代码中使用最多的扩展点之一。它们很灵活，易于制作，并且易于分发。\n但是这种灵活性也使得很难知道什么是最有效的。什么",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork",
+          "title_en": "Best practices for getting started with Claude Cowork",
+          "title_zh": "Best practices for getting started with Claude Cowork",
+          "summary_zh": "开始使用 Claude Cowork的最佳做法\n\n开始使用 Claude Cowork的最佳做法\nAnthropic 的增长营销主管Austin Lau解释了何时使用 Claude Cowork，如何确定要委派的工作流程以及具体的入门步骤。6月4日，奥斯汀将分享他如何使用 Claude Cowork进行营销。\n注册参加网络研讨会\n注册参加网络研讨会\n注册参加网络研讨会\n类别\n企业人工智能\n产品\nClaude 考克\n日期\n2026年6月3日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 最佳实践-对于",
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-06-03"
@@ -218,6 +272,15 @@
           "summary_zh": "Anthropic 的财务团队如何使用 Claude 来塑造数字背后的叙述\n\nAnthropic 的财务团队如何使用 Claude 来塑造数字背后的叙述\n{{1 }}, 公司财务和战略团队的Alice Fong分享了她如何使用 Claude 来为首席财务官和董事会维持一个统一的财务叙述，并每周腾出10到20个小时用于影响更大的工作。\n类别\n企业人工智能\n产品\nClaude 考克\n日期\n2026年5月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类-金融-团队-使用-克劳德-塑造-叙事-behin",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-05-22"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-07-hosting-the-agent",
+          "title_en": "Hosting your agent",
+          "title_zh": "Hosting your agent",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-05-22"
         }
       ]
@@ -556,24 +619,22 @@
           "date": "2026-05-05"
         }
       ]
-    },
-    {
-      "date": "2026-05-04",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-          "title_en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-          "title_zh": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-          "summary_zh": "与Blackstone、Hellman & Friedman和Goldman Sachs建立一家新的企业AI服务公司\n\n公告\n与Blackstone、Hellman & Friedman和Goldman Sachs建立一家新的企业AI服务公司\n2026年5月4日\n{{1 }}, Blackstone、Hellman & Friedman和Goldman Sachs宣布成立一家新的人工智能服务公司。该组织将与各行业的中型公司合作，将 Claude 纳入其最重要的业务。来自 Anthropic 的应用AI工程师将与公司的工程团队一起工作，以确定 Claude 可以产生最大影响的地方，bu",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-04"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+        "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-03"
+      },
+      {
+        "url": "https://www.anthropic.com/news/services-track-partner-hub",
+        "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-03"
+      },
       {
         "url": "https://www.anthropic.com/news/expanding-project-glasswing",
         "title": "Expanding Project Glasswing",
@@ -2637,6 +2698,12 @@
     ],
     "cookbook": [
       {
+        "url": "https://platform.claude.com/cookbook/claude-agent-sdk-07-hosting-the-agent",
+        "title": "Hosting your agent",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-05-22"
+      },
+      {
         "url": "https://platform.claude.com/cookbook/managed-agents-cma-coordinate-specialist-team",
         "title": "Multiagent: coordinate a specialist team",
         "desc": "Claude 官方开发示例与教程",
@@ -3415,6 +3482,12 @@
     ],
     "red_team": [
       {
+        "url": "https://red.anthropic.com/2026/attack-navigator/",
+        "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
+        "desc": "Anthropic 红队安全研究（red.anthropic.com）",
+        "date": "2026-06-03"
+      },
+      {
         "url": "https://red.anthropic.com/2026/exploit-evals/",
         "title": "Measuring LLMs' Ability to Develop Exploits",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
@@ -3533,6 +3606,24 @@
       {
         "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
         "title": "Running an AI-native engineering org",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-03"
+      },
+      {
+        "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+        "title": "How Anthropic enables self-service data analytics with Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-03"
+      },
+      {
+        "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+        "title": "Lessons from building Claude Code: How we use skills",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-03"
+      },
+      {
+        "url": "https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork",
+        "title": "Best practices for getting started with Claude Cowork",
         "desc": "Claude 官方博客（面向用户与企业）",
         "date": "2026-06-03"
       },
