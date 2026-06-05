@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04",
+  "generated_at": "2026-06-05",
   "lookback_days": 30,
   "digests": [
     {
@@ -594,29 +594,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-06"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-05",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/finance-agents",
-          "title_en": "Agents for financial services and insurance",
-          "title_zh": "Agents for financial services and insurance",
-          "summary_zh": "金融服务和保险代理\n\n公告\n金融服务代理人\n2026年5月5日\n我们推出了十套开箱即用的智能体模板，专门用于金融服务行业中耗时最长的几项工作：制作推介材料、筛查了解你的客户（KYC）文件，以及月末结账。每一个船作为一个\n插件\n在 Claude Cowork和 Claude 代码中，并作为\nClaude 个托管代理\n,因此团队可以在几天而不是几个月内将 Claude 投入到实际的财务工作中。\nClaude 现在还可以跨Microsoft Excel、PowerPoint、Word和Outlook (c",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-05"
-        },
-        {
-          "url": "https://claude.com/blog/deploying-claude-across-financial-services",
-          "title_en": "Deploying Claude across financial services",
-          "title_zh": "Deploying Claude across financial services",
-          "summary_zh": "跨金融服务部署 Claude\n\n跨金融服务部署 Claude\n在本指南中，我们分享了金融服务公司如何使用 Claude 来压缩其最耗时的工作，包括客户示例和实际采用路线图。\n类别\n企业人工智能\n产品\nClaude 共事\nClaude 企业\n日期\n2026年5月5日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 部署-claude-跨金融服务\n在整个金融服务行业中，公司在研究，交易工作和基础工作方面都在运行 Claude",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-05"
         }
       ]
     }
