@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/research/making-claude-a-chemist": {
+    "title": "Making Claude a chemist",
+    "date": "2026-06-05",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/the-claude-cowork-product-guide": {
+    "title": "The Claude Cowork product guide",
+    "date": "2026-06-05",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering": {
+    "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+    "date": "2026-06-05",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/running-an-ai-native-engineering-org": {
     "title": "Running an AI-native engineering org",
     "date": "2026-06-03",

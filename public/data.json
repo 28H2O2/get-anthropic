@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-06-05",
+  "generated_at": "2026-06-06",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-05",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+          "title_en": "Making Claude a chemist",
+          "title_zh": "Making Claude a chemist",
+          "summary_zh": "让 Claude 成为化学家\n\n科学\n让 Claude 成为化学家\n2026年6月5日\n简介: 我们正在与世界一流的合成、计算和分析化学家合作，使 Claude 在化学方面更加出色。在这篇文章中，我们分享了我们的第一项工作，其中 Anthropic 化学家David Kamber研究了 Claude 如何处理化学家最常见的分析输入，即NMR光谱。\n当使用分子时，化学家在白板上的手绘结构、仪器读数、数据库查询字符串之间移动，",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-06-05"
+        },
+        {
+          "url": "https://claude.com/blog/the-claude-cowork-product-guide",
+          "title_en": "The Claude Cowork product guide",
+          "title_zh": "The Claude Cowork product guide",
+          "summary_zh": "Claude Cowork产品指南\n\nClaude Cowork产品指南\n我们分享如何开始使用 Claude Cowork，包括工作流、习惯和插件，这些插件将您的想法转化为完美的可交付成果。\n类别\n企业人工智能\n产品\nClaude 共事\n日期\n2026年6月5日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ -claude-cowork-产品指南\n大多数AI工具都是会话式的。你问一个问题，你得到一个答案，把这个答案变成有用的东西的工作-一个甲板，一个文档，一个电子表格，一封电子邮件-是",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-05"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
+          "title_en": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+          "title_zh": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+          "summary_zh": "一个 Anthropic 卖家如何使用 Claude 代码重建其团队的工作流程\n\n一个 Anthropic 卖家如何使用 Claude 代码重建其团队的工作流程\n在加入 {{1 }}, GTM产品经理Jared Sires之前，他从未开设过终端。现在 Anthropic 的销售团队使用他的工具。\n类别\nClaude 代码\n企业人工智能\n产品\nClaude 代码\nClaude 共事\n日期\n2026年6月5日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类-用途-claude-gtm-工程\n在加入 Anthropic 2024年之前，Jared Sires从未写过一行代码。他为什么要这么做？他是个",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-05"
+        }
+      ]
+    },
     {
       "date": "2026-06-03",
       "articles": [
@@ -571,29 +603,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-07"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-06",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/higher-limits-spacex",
-          "title_en": "Higher usage limits for Claude and a compute deal with SpaceX",
-          "title_zh": "Higher usage limits for Claude and a compute deal with SpaceX",
-          "summary_zh": "更高的 Claude 使用限制和与SpaceX的计算交易\n\n公告\n更高的 Claude 使用限制和与SpaceX的计算交易\n2026年5月6日\n我们已经同意与SpaceX合作，这将大大提高我们的计算能力。这与我们最近的其他计算交易一起，意味着我们已经能够增加 Claude 代码和 Claude API 的使用限制。\n下面，我们将描述这些变化以及我们在计算方面取得的进展。\n更高的使用限制\n以下三个变化-今天都有效-旨在改善exee",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-06"
-        },
-        {
-          "url": "https://claude.com/blog/new-in-claude-managed-agents",
-          "title_en": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
-          "title_zh": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
-          "summary_zh": "Claude 托管代理中的新增功能: 梦想、结果和多代理业务流程\n\nClaude 托管代理中的新增功能: 梦想、结果和多代理业务流程\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年5月6日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 新的克劳德管理的代理\n今天，我们将在 Claude 托管代理中启动dreaming，作为研究预览。梦想延伸\n记忆\n通过回顾过去的会议，找到模式，帮助代理人自我完善。我们还将成果、多代理编排和webhook提供给我们",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-06"
         }
       ]
     }
@@ -1940,6 +1949,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+        "title": "Making Claude a chemist",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-06-05"
+      },
       {
         "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
         "title": "Coding agents in the social sciences",
@@ -3580,6 +3595,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/the-claude-cowork-product-guide",
+        "title": "The Claude Cowork product guide",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-05"
+      },
+      {
+        "url": "https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering",
+        "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-05"
+      },
       {
         "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
         "title": "Running an AI-native engineering org",
