@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06",
+  "generated_at": "2026-06-07",
   "lookback_days": 30,
   "digests": [
     {
@@ -562,47 +562,6 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-05-08"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-07",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/anthropic-institute-agenda",
-          "title_en": "Focus areas for The Anthropic Institute",
-          "title_zh": "Focus areas for The Anthropic Institute",
-          "summary_zh": "Anthropic 研究所的重点领域\n\n政策\nAnthropic 研究所的重点领域\n2026年5月7日\n在\nAnthropic 研究所\n(TAI)，我们将利用我们可以从前沿实验室获得的信息来调查人工智能对世界的影响，并与公众分享我们的学习成果。在这里，我们分享推动我们研究议程的问题。\n我们的议程侧重于四个研究领域:\n经济扩散\n威胁和复原力\n野外的AI系统\nAI驱动的研发\n在\n关于AI安全的核心观点\n,我们写了做有效的",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-05-07"
-        },
-        {
-          "url": "https://www.anthropic.com/research/donating-open-source-petri",
-          "title_en": "Donating our open-source alignment tool",
-          "title_zh": "Donating our open-source alignment tool",
-          "summary_zh": "捐赠我们的开源对齐工具\n\n对齐\n捐赠我们的开源对齐工具\n2026年5月7日\n在2025年10月，我们推出了\n佩特里\n,可以应用于任何大型语言模型的对齐测试的开源工具箱。Petri是作为我们 Anthropic Fellows计划的一部分开发的，可用于快速，轻松地测试AI模型，以关注诸如欺骗，sycophancy和与有害请求的合作等趋势。这是我们努力开发对整个AI开发开放且有用的对齐工具的一部分",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-05-07"
-        },
-        {
-          "url": "https://www.anthropic.com/research/natural-language-autoencoders",
-          "title_en": "Natural Language Autoencoders",
-          "title_zh": "Natural Language Autoencoders",
-          "summary_zh": "自然语言自动编码器\n\n可解释性\n自然语言自动编码器: 将 Claude 的想法转化为文本\n2026年5月7日\n阅读论文\n当你和像 Claude 这样的AI模型交谈时，你会用语言和它交谈。在内部，Claude 将这些单词处理为长的数字列表，然后再次生成单词作为其输出。中间的这些数字称为\n激活-\n就像人脑中的神经活动一样，它们对 Claude 的思想进行编码。\n也像神经活动一样，激活很难理解。我们不能轻易",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-05-07"
-        },
-        {
-          "url": "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook",
-          "title_en": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook",
-          "title_zh": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook",
-          "summary_zh": "跨Excel、PowerPoint、Word和Outlook与 Claude 协作\n\n跨Excel、PowerPoint、Word和Outlook与 Claude 协作\n一个在所有四个应用程序中承载上下文的对话\n类别\n产品公告\n产品\nClaude 企业\n日期\n2026年5月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ collaborate-claude-跨excel-powerpoint-word-and-outlook\n从今天开始，适用于Excel、PowerPoint和Word的 Claude 现已普遍可用，而适用于Outlook的 Claude 现在处于所有付费计划的公共测试版中。当 Claude 在任务i之间移动时",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-07"
         }
       ]
     }
