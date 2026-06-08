@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07",
+  "generated_at": "2026-06-08",
   "lookback_days": 30,
   "digests": [
     {
@@ -548,20 +548,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-11"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-08",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/teaching-claude-why",
-          "title_en": "Teaching Claude why",
-          "title_zh": "Teaching Claude why",
-          "summary_zh": "教 Claude 为什么\n\n对齐\n教 Claude 为什么\n2026年5月8日\n去年，我们发布了一篇关于……的案例研究。\n智能体对齐问题\n。在实验场景中，我们发现来自不同开发者的AI模型在遇到（虚构的）伦理困境时，有时会采取严重偏离预期的行为。例如，在一个备受关注的例子中，这些模型以勒索工程师为手段，试图避免被关停。\n当我们首次发表这项研究时，我们最有能力的前沿模型来自 Claude 4系列。这个w",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-05-08"
         }
       ]
     }
