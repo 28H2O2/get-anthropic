@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/research/agents-in-biology": {
+    "title": "Paving the way for agents in biology",
+    "date": "2026-06-08",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://red.anthropic.com/2026/n-days/": {
+    "title": "Measuring LLMs' Impact on N-day Exploits",
+    "date": "2026-06-08",
+    "source": "red_team",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-for-foundation-models": {
+    "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+    "date": "2026-06-08",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/observability-for-developers-building-connectors": {
+    "title": "Observability for developers building connectors",
+    "date": "2026-06-08",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/making-claude-a-chemist": {
     "title": "Making Claude a chemist",
     "date": "2026-06-05",

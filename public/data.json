@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-06-08",
+  "generated_at": "2026-06-09",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-08",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/agents-in-biology",
+          "title_en": "Paving the way for agents in biology",
+          "title_zh": "Paving the way for agents in biology",
+          "summary_zh": "为生物学中的代理人铺平道路\n\n科学\n为生物学中的代理人铺平道路\n2026年6月8日\n作者: Laura Luebbert基于\n研究\n费多斯·纳斯里、莎拉·古列夫、帕特里克·瓦里、克里蒂克·拉梅什、努拉·A·奥莱里、乔纳·库尔、伯恩哈德·Y·雷纳德、帕迪斯·萨贝蒂和劳拉·吕伯特著。\n在这篇文章中，Laura Luebbert认为，我们需要使生物数据基础设施对代理更加友好。作为案例研究，她和她的团队负责科学研究代理 ({{0 }}, Biomni Open Source (Biomni OSS))\n一\n,爱迪生分析，GPT) 重新",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-06-08"
+        },
+        {
+          "url": "https://red.anthropic.com/2026/n-days/",
+          "title_en": "Measuring LLMs' Impact on N-day Exploits",
+          "title_zh": "Measuring LLMs' Impact on N-day Exploits",
+          "summary_zh": "测量 LLMs' 对N天漏洞利用的影响\n\n在网络安全中，现实世界的很大一部分伤害来自N天:\n已经公开披露，但仅在某些设备上进行了修补。在这篇文章中，我们评估如何\n许多大型语言模型可以加速和自动化开发N天漏洞的过程。",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-06-08"
+        },
+        {
+          "url": "https://claude.com/blog/claude-for-foundation-models",
+          "title_en": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+          "title_zh": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+          "summary_zh": "在基础模型框架中使用 Claude 为Apple平台构建智能应用程序\n\n在基础模型框架中使用 Claude 为Apple平台构建智能应用程序\n类别\n产品公告\n产品\nClaude 平台\nClaude 个应用程序\n日期\n2026年6月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-for-foundation-models\n今天，我们通过新的Swift软件包发布了对 Claude 的Foundation Models framework支持，该软件包允许Apple开发人员使用Apple的Foundation Models framework来调用 Claude 以实现更复杂的工作流程。\n苹果的基础型号f",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-08"
+        },
+        {
+          "url": "https://claude.com/blog/observability-for-developers-building-connectors",
+          "title_en": "Observability for developers building connectors",
+          "title_zh": "Observability for developers building connectors",
+          "summary_zh": "开发人员构建连接器的可观察性\n\n开发人员构建连接器的可观察性\n开发人员现在可以监视其连接器在 Claude 产品中的性能，并将连接器提交到应用程序内目录。\n类别\n未找到项目。\n产品\nClaude 个应用\n日期\n2026年6月8日\n阅读时间\n五\n分钟\n分享\n复制链接\n面向开发人员的 https://claude.com/blog/ 可观察性-构建-连接器\n监视、调试和改进连接器\n中已发布的连接器\n目录\n现在有一个仪表板，显示他们在 Claude 产品su中的表现",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-08"
+        }
+      ]
+    },
     {
       "date": "2026-06-05",
       "articles": [
@@ -1895,6 +1936,12 @@
     ],
     "anthropic_research": [
       {
+        "url": "https://www.anthropic.com/research/agents-in-biology",
+        "title": "Paving the way for agents in biology",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-06-08"
+      },
+      {
         "url": "https://www.anthropic.com/research/making-claude-a-chemist",
         "title": "Making Claude a chemist",
         "desc": "Anthropic 研究论文与技术博客",
@@ -3419,6 +3466,12 @@
     ],
     "red_team": [
       {
+        "url": "https://red.anthropic.com/2026/n-days/",
+        "title": "Measuring LLMs' Impact on N-day Exploits",
+        "desc": "Anthropic 红队安全研究（red.anthropic.com）",
+        "date": "2026-06-08"
+      },
+      {
         "url": "https://red.anthropic.com/2026/attack-navigator/",
         "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
@@ -3540,6 +3593,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/claude-for-foundation-models",
+        "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-08"
+      },
+      {
+        "url": "https://claude.com/blog/observability-for-developers-building-connectors",
+        "title": "Observability for developers building connectors",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-08"
+      },
       {
         "url": "https://claude.com/blog/the-claude-cowork-product-guide",
         "title": "The Claude Cowork product guide",
