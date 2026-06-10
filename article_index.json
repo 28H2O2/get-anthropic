@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
+    "title": "Claude Fable 5 and Claude Mythos 5",
+    "date": "2026-06-09",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/fable-5-fallback-billing-guide": {
+    "title": "Classifier fallback and billing for Claude Fable 5",
+    "date": "2026-06-09",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://claude.com/blog/whats-new-in-claude-managed-agents": {
+    "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
+    "date": "2026-06-09",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/agents-in-biology": {
     "title": "Paving the way for agents in biology",
     "date": "2026-06-08",
@@ -21,6 +39,12 @@
     "title": "Observability for developers building connectors",
     "date": "2026-06-08",
     "source": "claude_blog",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/patterns-agents-async-multi-agent-orchestration": {
+    "title": "Async multi-agent orchestration",
+    "date": "2026-06-08",
+    "source": "cookbook",
     "processed": true
   },
   "https://www.anthropic.com/research/making-claude-a-chemist": {

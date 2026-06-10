@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-06-09",
+  "generated_at": "2026-06-10",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-09",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "title_en": "Claude Fable 5 and Claude Mythos 5",
+          "title_zh": "Claude Fable 5 and Claude Mythos 5",
+          "summary_zh": "Claude 寓言5和 Claude 神话5\n\n公告\nClaude 寓言5和 Claude 神话5\n2026年6月9日\n今天我们推出\nClaude 寓言5\n: 神话级\n一\n我们已经安全使用的模型。\n《寓言5》的性能超越了我们此前公开发布的任何一款模型。在几乎所有经过测试的人工智能能力基准上，它都处于行业领先水平，在软件工程、知识工作、计算机视觉、科学研究等诸多领域均表现出卓越的性能。任务越长，越复杂，寓言5越大",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-09"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/fable-5-fallback-billing-guide",
+          "title_en": "Classifier fallback and billing for Claude Fable 5",
+          "title_zh": "Classifier fallback and billing for Claude Fable 5",
+          "summary_zh": "Claude 寓言5的分类器回退和计费\n\n2026年6月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-06-09"
+        },
+        {
+          "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+          "title_en": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
+          "title_zh": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
+          "summary_zh": "Claude 托管代理中的新增功能: 按计划运行代理并在vault中存储环境变量\n\nClaude 托管代理中的新增功能: 按计划运行代理并在vault中存储环境变量\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年6月9日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 什么-新-克劳德管理-代理\n从今天开始，Claude 托管代理可以按计划运行，并安全地访问CLI工具和其他经过身份验证的服务。这两项功能现在都在 Claude 平台上的公共测试版中可用。\n按计划运行代理\n代理商现在可以r",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-09"
+        }
+      ]
+    },
     {
       "date": "2026-06-08",
       "articles": [
@@ -39,6 +71,15 @@
           "summary_zh": "开发人员构建连接器的可观察性\n\n开发人员构建连接器的可观察性\n开发人员现在可以监视其连接器在 Claude 产品中的性能，并将连接器提交到应用程序内目录。\n类别\n未找到项目。\n产品\nClaude 个应用\n日期\n2026年6月8日\n阅读时间\n五\n分钟\n分享\n复制链接\n面向开发人员的 https://claude.com/blog/ 可观察性-构建-连接器\n监视、调试和改进连接器\n中已发布的连接器\n目录\n现在有一个仪表板，显示他们在 Claude 产品su中的表现",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-06-08"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/patterns-agents-async-multi-agent-orchestration",
+          "title_en": "Async multi-agent orchestration",
+          "title_zh": "Async multi-agent orchestration",
+          "summary_zh": "异步多代理编排\n\n2026年6月",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-06-08"
         }
       ]
@@ -595,6 +636,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "title": "Claude Fable 5 and Claude Mythos 5",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-09"
+      },
       {
         "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
         "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
@@ -2682,6 +2729,18 @@
     ],
     "cookbook": [
       {
+        "url": "https://platform.claude.com/cookbook/fable-5-fallback-billing-guide",
+        "title": "Classifier fallback and billing for Claude Fable 5",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-06-09"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/patterns-agents-async-multi-agent-orchestration",
+        "title": "Async multi-agent orchestration",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-06-08"
+      },
+      {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-07-hosting-the-agent",
         "title": "Hosting your agent",
         "desc": "Claude 官方开发示例与教程",
@@ -3593,6 +3652,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+        "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-09"
+      },
       {
         "url": "https://claude.com/blog/claude-for-foundation-models",
         "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
