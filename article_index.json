@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/building-with-claude-managed-agents": {
+    "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
+    "date": "2026-06-10",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
     "title": "Claude Fable 5 and Claude Mythos 5",
     "date": "2026-06-09",

@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-06-10",
+  "generated_at": "2026-06-11",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-10",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/building-with-claude-managed-agents",
+          "title_en": "The evolution of agentic surfaces: building with Claude Managed Agents",
+          "title_zh": "The evolution of agentic surfaces: building with Claude Managed Agents",
+          "summary_zh": "代理表面的演变: 使用 Claude 个托管代理进行构建\n\n代理表面的演变: 使用 Claude 个托管代理进行构建\n随着模型智能和代理工具的发展，Claude 托管代理使团队能够在生产环境中可靠地大规模构建和部署代理。以下是团队使用它的原因和方式。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年6月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 建筑-与克劳德管理-代理\n让一个代理进入生产需要的不仅仅是一个很好的提示。代理ne",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-10"
+        }
+      ]
+    },
     {
       "date": "2026-06-09",
       "articles": [
@@ -607,29 +621,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-12"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-11",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/agent-view-in-claude-code",
-          "title_en": "Agent view in Claude Code",
-          "title_zh": "Agent view in Claude Code",
-          "summary_zh": "Claude 代码中的代理视图\n\nClaude 代码中的代理视图\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年5月11日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 代理-view-in-claude-code\n今天，我们将在 Claude 代码中引入代理视图: 在一个位置管理所有 Claude 代码会话。\n以前并行运行代理时，您可能必须管理多个终端选项卡，一个tmux网格，以及您下一步需要处理的超负荷的精神分类帐。\n使用 Claude 代码中的代理视图，您可以踢o",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-11"
-        },
-        {
-          "url": "https://claude.com/blog/claude-platform-on-aws",
-          "title_en": "Introducing the Claude Platform on AWS",
-          "title_zh": "Introducing the Claude Platform on AWS",
-          "summary_zh": "介绍AWS上的 Claude 平台\n\n介绍AWS上的 Claude 平台\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年5月11日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-platform-on-aws\nAWS上的 Claude 平台现已正式推出，为AWS客户提供了一种通过AWS身份验证、计费和承诺停用来访问全套 Claude 平台功能的新方式。Claude 在Amazon Bedrock上仍然可用，其中AWS是数据处理器。\n从今天开始，Clau",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-11"
         }
       ]
     }
@@ -3652,6 +3643,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/building-with-claude-managed-agents",
+        "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-10"
+      },
       {
         "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
         "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
