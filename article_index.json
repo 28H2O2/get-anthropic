@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/claude-corps": {
+    "title": "Introducing Claude Corps",
+    "date": "2026-06-11",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/dxc-anthropic-alliance": {
+    "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+    "date": "2026-06-11",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://claude.com/blog/building-with-claude-managed-agents": {
     "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
     "date": "2026-06-10",

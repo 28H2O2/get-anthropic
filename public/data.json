@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-06-11",
+  "generated_at": "2026-06-12",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-11",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/claude-corps",
+          "title_en": "Introducing Claude Corps",
+          "title_zh": "Introducing Claude Corps",
+          "summary_zh": "介绍 Claude 个军团\n\n公告\n政策\n介绍 Claude 个军团\n2026年6月11日\n我们正在发射\nClaude 个军团\n这是一个国家奖学金计划，面向那些在职业生涯早期就热衷于将人工智能的好处扩展到美国各地社区的人。\n我们将教1,000研究员如何很好地使用 Claude，将他们与美国各地的非营利组织相匹配，并支付他们花费一年的时间-全职，亲自-帮助主办组织推进他们的使命。我们的目标是双重的: 主办组织配备了",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-11"
+        },
+        {
+          "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+          "title_en": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+          "title_zh": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+          "summary_zh": "DXC将把 Claude 整合到银行、航空公司和其他受监管行业所依赖的系统中\n\n公告\nDXC将把 Claude 整合到银行、航空公司和其他受监管行业所依赖的系统中\n2026年6月11日\n我们宣布与全球最大的it服务公司之一DXC Technology建立多年的全球联盟。DXC将培训数万名 Claude 认证的前向部署工程师 (fde)-直接嵌入客户组织的工程师-将 Claude 纳入DXC为世界上最大的银行、航空公司、保险公司、制造商、",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-11"
+        }
+      ]
+    },
     {
       "date": "2026-06-10",
       "articles": [
@@ -591,42 +614,22 @@
           "date": "2026-05-13"
         }
       ]
-    },
-    {
-      "date": "2026-05-12",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/code-w-claude-sf-2026-sf",
-          "title_en": "Code w/ Claude SF 2026: Building on the AI exponential",
-          "title_zh": "Code w/ Claude SF 2026: Building on the AI exponential",
-          "summary_zh": "代码w/ Claude SF 2026: 基于AI指数构建\n\n代码w/ Claude SF 2026: 基于AI指数构建\n错过了我们的年度开发者大会？主题演讲和分组会议现在在YouTube上。\n类别\n未找到项目。\n产品\nClaude 代码\nClaude 平台\n日期\n2026年5月12日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ code-w-claude-sf-2026-sf\n本周在旧金山，我们举办了\n代码w/ Claude\n,我们的年度开发者大会。该活动汇集了开发人员，工程师和创始人为期两天的主题演讲，breakout sessi",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-12"
-        },
-        {
-          "url": "https://claude.com/blog/claude-for-the-legal-industry",
-          "title_en": "Claude for the legal industry",
-          "title_zh": "Claude for the legal industry",
-          "summary_zh": "Claude 法律行业\n\nClaude 法律行业\n我们将发布20个新的MCP连接器，这些连接器将 Claude 链接到法律行业运行的软件，并为特定的法律工作和实践领域量身定制了12个新插件。\n类别\n产品公告\n产品\nClaude 考克\n日期\n2026年5月12日\n阅读时间\n五\n分钟\n分享\n复制链接\n为法律行业 https://claude.com/blog/ 克劳德\n今年早些时候，我们发布了我们的第一个法律插件，从那以后的几个月里，法律专业人士已经成为最活跃的 Claude",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-12"
-        },
-        {
-          "url": "https://claude.com/blog/how-anthropic-uses-claude-cybersecurity",
-          "title_en": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
-          "title_zh": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code",
-          "summary_zh": "Anthropic 的网络安全团队如何使用 Claude 代码构建威胁检测平台\n\nAnthropic 的网络安全团队如何使用 Claude 代码构建威胁检测平台\nAnthropic 检测平台工程团队的技术负责人Jackie Bow分享了她的团队如何使用 Claude 代码来构建自动警报分诊、加速调查和转变安全分析师工作方式的工具。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年5月12日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类-使用-claude-网络安全\n在她的整个职业生涯中，杰克",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-12"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/claude-corps",
+        "title": "Introducing Claude Corps",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-11"
+      },
+      {
+        "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+        "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-11"
+      },
       {
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "title": "Claude Fable 5 and Claude Mythos 5",
