@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13",
+  "generated_at": "2026-06-14",
   "lookback_days": 30,
   "digests": [
     {
@@ -580,47 +580,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-15"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-14",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/gates-foundation-partnership",
-          "title_en": "Anthropic forms $200 million partnership with the Gates Foundation",
-          "title_zh": "Anthropic forms $200 million partnership with the Gates Foundation",
-          "summary_zh": "Anthropic 与盖茨基金会建立了2亿美元的合作伙伴关系\n\n公告\nAnthropic 与盖茨基金会建立了2亿美元的合作伙伴关系\n2026年5月14日\n我们正在与\n盖茨基金会\n承诺在未来四年内为全球健康，生命科学，教育和经济流动性计划提供2亿美元的赠款资金，Claude 使用学分和技术支持。这些项目将与美国及全球各地的合作伙伴共同实施。\n这一承诺是 Anthropic 努力扩大人工智能在以下领域的优势的核心",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-14"
-        },
-        {
-          "url": "https://www.anthropic.com/research/2028-ai-leadership",
-          "title_en": "2028: Two scenarios for global AI leadership",
-          "title_zh": "2028: Two scenarios for global AI leadership",
-          "summary_zh": "2028: 全球AI领导力的两个场景\n\n政策\n2028: 全球AI领导力的两个场景\n2026年5月14日\n我们正在发布一篇新论文，解释我们对美国和中国之间人工智能竞争的看法。\n至关重要的是，美国及其盟国必须领先于中国共产党或CCP等威权政府。AI将很快成为\n足够强大\n被用来以前所未有的规模压制公民，甚至改变权力平衡\n在国家之间\n。由于人工智能一天比一天进步得更快，我们有onl",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-05-14"
-        },
-        {
-          "url": "https://claude.com/blog/the-founders-playbook",
-          "title_en": "The founder's playbook: Building an AI-native startup",
-          "title_zh": "The founder's playbook: Building an AI-native startup",
-          "summary_zh": "创始人的剧本: 建立一个人工智能原生创业公司\n\n创始人的剧本: 建立一个人工智能原生创业公司\n我们分享创始人如何在创业旅程的每个阶段使用AI，包括实践练习、框架和使用 Claude 的提示。\n类别\nClaude 代码\n产品\nClaude 共事\nClaude 平台\nClaude 代码\nClaude 个应用程序\n日期\n2026年5月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ -创始人-playbook\n人工智能正在重塑创业公司的建立方式。以前从未写过一行代码的创始人正在交付生产",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-14"
-        },
-        {
-          "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
-          "title_en": "How Claude Code works in large codebases: Best practices and where to start",
-          "title_zh": "How Claude Code works in large codebases: Best practices and where to start",
-          "summary_zh": "Claude 代码如何在大型代码库中工作: 最佳实践和从哪里开始\n\nClaude 代码如何在大型代码库中工作: 最佳实践和从哪里开始\n最成功的 Claude 代码部署在配置、工具和组织结构之间共享一组可识别的模式。这篇文章是\nClaude 刻度代码\n,这是一个新系列，涵盖了在企业规模上使用 Claude 代码构建工程组织的最佳实践。\n类别\n企业AI\n产品\nClaude 代码\n日期\n2026年5月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-克劳德-",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-14"
         }
       ]
     }
