@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14",
+  "generated_at": "2026-06-15",
   "lookback_days": 30,
   "digests": [
     {
@@ -557,29 +557,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-05-18"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-15",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-          "title_en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
-          "title_zh": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
-          "summary_zh": "普华永道正在部署 Claude 以构建技术、执行交易并为客户重塑企业功能\n\n公告\n普华永道正在部署 Claude 以构建技术、执行交易并为客户重塑企业功能\nAnthropic 和普华永道今天宣布扩大战略联盟，深化普华永道如何利用 Claude 为其服务的每个行业的客户构建技术、执行交易和重塑企业职能。大多数企业仍在为人工智能之前的世界而构建的系统和流程上运行，这一阻力估计超过2万亿美元。在一起，Anthropic",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-15"
-        },
-        {
-          "url": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
-          "title_en": "Deploying Claude across the legal industry",
-          "title_zh": "Deploying Claude across the legal industry",
-          "summary_zh": "在整个法律行业部署 Claude\n\n在整个法律行业部署 Claude\n我们分享了法律专业人士如何使用 Claude 来加速他们最繁琐的工作流程，包括何时使用什么产品、新连接器、实践领域插件以及三阶段采用路线图。\n类别\n企业人工智能\n产品\nClaude 共事\n日期\n2026年5月15日\n阅读时间\n五\n分钟\n分享\n复制链接\n跨法律行业 https://claude.com/blog/ 部署-claude-\n2026年\nFTI咨询/相对论总法律顾问报告\n发现将军的87%",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-15"
         }
       ]
     }
