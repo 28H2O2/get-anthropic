@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-06-15",
+  "generated_at": "2026-06-16",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-15",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
+          "title_en": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
+          "title_zh": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
+          "summary_zh": "与 Opus 4.7 Claude 代码黑客马拉松的获胜者见面\n\n与 Opus 4.7 Claude 代码黑客马拉松的获胜者见面\n从医疗培训和电子维修到编码教育和工厂维护，请参阅我们最新的虚拟黑客马拉松获胜者构建的项目。\n获取 Claude 代码\n桌面\nVS代码\n捷恩思\n在web上\n松弛\ncurl -fsSL\nhttps:// claude.ai/install.sh\n| bash\n将命令复制到剪贴板\n尔姆\nhttps:// claude.ai/install.ps1\n| 交互式外壳\n将命令复制到剪贴板\n或阅读\n文档\n尝试 Claude 代码\n尝试 Claude 代码\n尝试 Claude 代码\n德维尔",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-15"
+        }
+      ]
+    },
     {
       "date": "2026-06-12",
       "articles": [
@@ -3609,6 +3623,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
+        "title": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-15"
+      },
       {
         "url": "https://claude.com/blog/building-with-claude-managed-agents",
         "title": "The evolution of agentic surfaces: building with Claude Managed Agents",

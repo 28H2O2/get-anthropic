@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon": {
+    "title": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
+    "date": "2026-06-15",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/anthropic-public-record": {
     "title": "Results from first Anthropic Public Record",
     "date": "2026-06-12",
