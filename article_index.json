@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/research/claude-code-expertise": {
+    "title": "Agentic coding and persistent returns to expertise",
+    "date": "2026-06-16",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon": {
     "title": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
     "date": "2026-06-15",
