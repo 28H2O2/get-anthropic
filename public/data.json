@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-06-17",
+  "generated_at": "2026-06-18",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-17",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+          "title_en": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+          "title_zh": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+          "summary_zh": "Anthropic 开设首尔办事处并宣布在韩国人工智能生态系统建立新的合作伙伴关系\n\n公告\nAnthropic 开设首尔办事处并宣布在韩国人工智能生态系统建立新的合作伙伴关系\n2026年6月17日\n我们的\n首尔办事处\n现已开放。除此之外，我们还宣布在韩国人工智能生态系统中建立新的合作伙伴关系-与企业，初创公司和研究人员进行了一些最雄心勃勃的 Claude 部署。\n“我在韩国看到的是了解创新和安全是同一枚硬币的两面的团队，” Anthro韩国代表总监KiYoung Choi说",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-17"
+        },
+        {
+          "url": "https://www.anthropic.com/research/team/frontier-red-team",
+          "title_en": "Frontier Red Team",
+          "title_zh": "Frontier Red Team",
+          "summary_zh": "边疆红队\n\n返回概览\n边疆红队\nFrontier Red团队对AI系统进行压力测试，以了解其当前功能的全部范围，并预测接下来会发生什么。我们提供有关AI对网络安全，国家安全和自治系统的影响的基于证据的分析。\n研究\n项目交易\n我们在旧金山办公室为员工创建了一个市场，但有一个很大的转折。我们委托 Claude 代表我们的同事进行购买、销售和谈判。\n阅读更多\n普布利",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-06-17"
+        },
+        {
+          "url": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
+          "title_en": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
+          "title_zh": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
+          "summary_zh": "认识我们的 Claude Opus 4.8 Build Day hackathon的获胜者\n\n认识我们的 Claude Opus 4.8 Build Day hackathon的获胜者\n从重建唐代建筑到投票合成旧金山，看看我们最新的黑客马拉松的获胜者在一天内用 Claude Opus 4.8建造了什么。\n获取Claude验证码\n桌面\nVS代码\n捷恩思\n在网页上\n松弛\ncurl -fsSL\nhttps://claude.ai/install.sh\n| bash\n将命令复制到剪贴板\n尔姆\nhttps://claude.ai/install.ps1\n| 交互式外壳\n将命令复制到剪贴板\n或者阅读\n文档\n试试Claude代码\n试试Claude代码\n试试Claude代码\n德语",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-17"
+        },
+        {
+          "url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+          "title_en": "Claude Design now stays on brand for daily work",
+          "title_zh": "Claude Design now stays on brand for daily work",
+          "summary_zh": "Claude 设计现在留在品牌的日常工作\n\nClaude 设计现在留在品牌的日常工作\n类别\n产品公告\n产品\nClaude 设计\nClaude 代码\n日期\n2026年6月17日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德-设计-保持品牌-日常工作\nClaude Design现在可以跨项目使用您的设计系统，流畅地使用 Claude 代码，允许您直接在画布上进行编辑，并连接到您已经使用的更多工具。它在 Claude 桌面应用程序的边栏中有一个新家; 您也可以在\n克拉",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-17"
+        },
+        {
+          "url": "https://claude.com/blog/workload-identity-federation",
+          "title_en": "Secure access to the Claude Platform with Workload Identity Federation",
+          "title_zh": "Secure access to the Claude Platform with Workload Identity Federation",
+          "summary_zh": "使用工作负载联合身份验证对 Claude 平台进行安全访问\n\n使用工作负载联合身份验证对 Claude 平台进行安全访问\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年6月17日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 工作负载-身份-联合\n工作负载联合身份验证 (WIF) 现已在 Claude 平台上普遍可用。WIF与任何符合OIDC标准的身份提供商兼容，并涵盖所有 Claude API 端点，包括通过我们的第一方sdk和 Claude 代码访问端点时。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-17"
+        }
+      ]
+    },
     {
       "date": "2026-06-16",
       "articles": [
@@ -178,6 +228,15 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-06-08"
+        },
+        {
+          "url": "https://www.anthropic.com/research/n-days",
+          "title_en": "n-days",
+          "title_zh": "n-days",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-06-08"
         }
       ]
     },
@@ -277,6 +336,15 @@
           "summary_zh": "开始使用 Claude Cowork的最佳做法\n\n开始使用 Claude Cowork的最佳做法\nAnthropic 的增长营销主管Austin Lau解释了何时使用 Claude Cowork，如何确定要委派的工作流程以及具体的入门步骤。6月4日，奥斯汀将分享他如何使用 Claude Cowork进行营销。\n注册参加网络研讨会\n注册参加网络研讨会\n注册参加网络研讨会\n类别\n企业人工智能\n产品\nClaude 考克\n日期\n2026年6月3日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 最佳实践-对于",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://www.anthropic.com/research/attack-navigator",
+          "title_en": "attack-navigator",
+          "title_zh": "attack-navigator",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
           "date": "2026-06-03"
         }
       ]
@@ -493,6 +561,15 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-05-22"
+        },
+        {
+          "url": "https://www.anthropic.com/research/exploit-evals",
+          "title_en": "exploit-evals",
+          "title_zh": "exploit-evals",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-05-22"
         }
       ]
     },
@@ -573,24 +650,16 @@
           "date": "2026-05-19"
         }
       ]
-    },
-    {
-      "date": "2026-05-18",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-          "title_en": "Anthropic acquires Stainless",
-          "title_zh": "Anthropic acquires Stainless",
-          "summary_zh": "Anthropic 获得不锈钢\n\n公告\nAnthropic 获得不锈钢\n2026年5月18日\n人工智能的前沿正从“会回答的模型”转向“会行动的智能体”，而智能体的能力上限取决于其可接入的系统。如今，Anthropic 正在收购sdk和MCP服务器工具领域的领先者Stainless，以进一步扩大其影响力。\nStainless成立于2022年，从我们的 API 开始，就为每一代官方的 Anthropic SDK提供了动力。数百家公司依靠不锈钢来生成sdk、CLIs和M",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-18"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+        "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-17"
+      },
       {
         "url": "https://www.anthropic.com/news/anthropic-public-record",
         "title": "Results from first Anthropic Public Record",
@@ -1968,6 +2037,12 @@
     ],
     "anthropic_research": [
       {
+        "url": "https://www.anthropic.com/research/team/frontier-red-team",
+        "title": "Frontier Red Team",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-06-17"
+      },
+      {
         "url": "https://www.anthropic.com/research/claude-code-expertise",
         "title": "Agentic coding and persistent returns to expertise",
         "desc": "Anthropic 研究论文与技术博客",
@@ -1980,10 +2055,22 @@
         "date": "2026-06-08"
       },
       {
+        "url": "https://www.anthropic.com/research/n-days",
+        "title": "n-days",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-06-08"
+      },
+      {
         "url": "https://www.anthropic.com/research/making-claude-a-chemist",
         "title": "Making Claude a chemist",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-06-05"
+      },
+      {
+        "url": "https://www.anthropic.com/research/attack-navigator",
+        "title": "attack-navigator",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-06-03"
       },
       {
         "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
@@ -1994,6 +2081,12 @@
       {
         "url": "https://www.anthropic.com/research/glasswing-initial-update",
         "title": "Project Glasswing: An initial update",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-05-22"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploit-evals",
+        "title": "exploit-evals",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-05-22"
       },
@@ -2064,6 +2157,12 @@
         "date": "2026-04-09"
       },
       {
+        "url": "https://www.anthropic.com/research/mythos-preview",
+        "title": "mythos-preview",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-04-07"
+      },
+      {
         "url": "https://www.anthropic.com/research/emotion-concepts-function",
         "title": "Emotion concepts and their function in a large language model",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2104,6 +2203,12 @@
         "title": "A “diff” tool for AI: Finding behavioral differences in new models",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-13"
+      },
+      {
+        "url": "https://www.anthropic.com/research/exploit",
+        "title": "exploit",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-03-06"
       },
       {
         "url": "https://www.anthropic.com/research/labor-market-impacts",
@@ -2148,6 +2253,12 @@
         "date": "2026-02-05"
       },
       {
+        "url": "https://www.anthropic.com/research/zero-days",
+        "title": "zero-days",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-02-05"
+      },
+      {
         "url": "https://www.anthropic.com/research/economic-index-primitives",
         "title": "economic-index-primitives",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2166,6 +2277,12 @@
         "date": "2026-01-19"
       },
       {
+        "url": "https://www.anthropic.com/research/cyber-toolkits-update",
+        "title": "cyber-toolkits-update",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-01-16"
+      },
+      {
         "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
         "title": "anthropic-economic-index-january-2026-report",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2178,10 +2295,22 @@
         "date": "2026-01-15"
       },
       {
+        "url": "https://www.anthropic.com/research/property-based-testing",
+        "title": "property-based-testing",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-01-14"
+      },
+      {
         "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
         "title": "next-generation-constitutional-classifiers",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-01-09"
+      },
+      {
+        "url": "https://www.anthropic.com/research/critical-infrastructure-defense",
+        "title": "critical-infrastructure-defense",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-01-08"
       },
       {
         "url": "https://www.anthropic.com/research/bloom",
@@ -2218,6 +2347,12 @@
         "title": "anthropic-interviewer",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-12-04"
+      },
+      {
+        "url": "https://www.anthropic.com/research/smart-contracts",
+        "title": "smart-contracts",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-12-01"
       },
       {
         "url": "https://www.anthropic.com/research/prompt-injection-defenses",
@@ -2370,10 +2505,22 @@
         "date": "2025-10-03"
       },
       {
+        "url": "https://www.anthropic.com/research/biorisk",
+        "title": "biorisk",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-09-05"
+      },
+      {
         "url": "https://www.anthropic.com/research/clio",
         "title": "clio",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-08-28"
+      },
+      {
+        "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+        "title": "nuclear-safeguards-for-ai",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-08-21"
       },
       {
         "url": "https://www.anthropic.com/research/end-subset-conversations",
@@ -2382,10 +2529,22 @@
         "date": "2025-08-15"
       },
       {
+        "url": "https://www.anthropic.com/research/cyber-competitions",
+        "title": "cyber-competitions",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-08-09"
+      },
+      {
         "url": "https://www.anthropic.com/research/visible-extended-thinking",
         "title": "visible-extended-thinking",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-07-23"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-4-cyber",
+        "title": "claude-4-cyber",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-07-15"
       },
       {
         "url": "https://www.anthropic.com/research/project-vend-1",
@@ -2410,6 +2569,12 @@
         "title": "confidential-inference-trusted-vms",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-06-18"
+      },
+      {
+        "url": "https://www.anthropic.com/research/cyber-toolkits",
+        "title": "cyber-toolkits",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-06-13"
       },
       {
         "url": "https://www.anthropic.com/research/open-source-circuit-tracing",
@@ -3643,6 +3808,24 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
+        "title": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-17"
+      },
+      {
+        "url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+        "title": "Claude Design now stays on brand for daily work",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-17"
+      },
+      {
+        "url": "https://claude.com/blog/workload-identity-federation",
+        "title": "Secure access to the Claude Platform with Workload Identity Federation",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-17"
+      },
       {
         "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
         "title": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",

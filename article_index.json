@@ -1,4 +1,34 @@
 {
+  "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem": {
+    "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+    "date": "2026-06-17",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/team/frontier-red-team": {
+    "title": "Frontier Red Team",
+    "date": "2026-06-17",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon": {
+    "title": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",
+    "date": "2026-06-17",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work": {
+    "title": "Claude Design now stays on brand for daily work",
+    "date": "2026-06-17",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/workload-identity-federation": {
+    "title": "Secure access to the Claude Platform with Workload Identity Federation",
+    "date": "2026-06-17",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/claude-code-expertise": {
     "title": "Agentic coding and persistent returns to expertise",
     "date": "2026-06-16",
@@ -95,6 +125,11 @@
     "source": "cookbook",
     "processed": true
   },
+  "https://www.anthropic.com/research/n-days": {
+    "title": "",
+    "date": "2026-06-08",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/research/making-claude-a-chemist": {
     "title": "Making Claude a chemist",
     "date": "2026-06-05",
@@ -154,6 +189,11 @@
     "date": "2026-06-03",
     "source": "claude_blog",
     "processed": true
+  },
+  "https://www.anthropic.com/research/attack-navigator": {
+    "title": "",
+    "date": "2026-06-03",
+    "source": "anthropic_research"
   },
   "https://www.anthropic.com/news/expanding-project-glasswing": {
     "title": "Expanding Project Glasswing",
@@ -273,6 +313,11 @@
     "title": "Hosting your agent",
     "date": "2026-05-22",
     "source": "cookbook"
+  },
+  "https://www.anthropic.com/research/exploit-evals": {
+    "title": "",
+    "date": "2026-05-22",
+    "source": "anthropic_research"
   },
   "https://claude.com/blog/compliance-api-security-partners": {
     "title": "Claude now works with more security and compliance tools",
@@ -774,6 +819,11 @@
     "source": "red_team",
     "processed": false
   },
+  "https://www.anthropic.com/research/mythos-preview": {
+    "title": "",
+    "date": "2026-04-07",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/news/google-broadcom-partnership-compute": {
     "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
     "date": "2026-04-06",
@@ -960,6 +1010,11 @@
     "source": "red_team",
     "processed": true
   },
+  "https://www.anthropic.com/research/exploit": {
+    "title": "",
+    "date": "2026-03-06",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/news/where-stand-department-war": {
     "title": "Where things stand with the Department of War",
     "date": "2026-03-05",
@@ -1140,6 +1195,11 @@
     "source": "engineering",
     "processed": true
   },
+  "https://www.anthropic.com/research/zero-days": {
+    "title": "",
+    "date": "2026-02-05",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/news/claude-is-a-space-to-think": {
     "title": "",
     "date": "2026-02-04",
@@ -1248,6 +1308,11 @@
     "source": "red_team",
     "processed": true
   },
+  "https://www.anthropic.com/research/cyber-toolkits-update": {
+    "title": "",
+    "date": "2026-01-16",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report": {
     "title": "",
     "date": "2026-01-15",
@@ -1271,6 +1336,11 @@
     "date": "2026-01-14",
     "source": "red_team",
     "processed": true
+  },
+  "https://www.anthropic.com/research/property-based-testing": {
+    "title": "",
+    "date": "2026-01-14",
+    "source": "anthropic_research"
   },
   "https://www.anthropic.com/news/introducing-anthropic-labs": {
     "title": "",
@@ -1301,6 +1371,11 @@
     "date": "2026-01-08",
     "source": "red_team",
     "processed": true
+  },
+  "https://www.anthropic.com/research/critical-infrastructure-defense": {
+    "title": "",
+    "date": "2026-01-08",
+    "source": "anthropic_research"
   },
   "https://www.anthropic.com/news/prompting-long-context": {
     "title": "",
@@ -1519,6 +1594,11 @@
     "date": "2025-12-01",
     "source": "red_team",
     "processed": true
+  },
+  "https://www.anthropic.com/research/smart-contracts": {
+    "title": "",
+    "date": "2025-12-01",
+    "source": "anthropic_research"
   },
   "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents": {
     "title": "Effective harnesses for long-running agents",
@@ -2047,6 +2127,11 @@
     "source": "red_team",
     "processed": true
   },
+  "https://www.anthropic.com/research/biorisk": {
+    "title": "",
+    "date": "2025-09-05",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education": {
     "title": "",
     "date": "2025-09-04",
@@ -2119,6 +2204,11 @@
     "source": "red_team",
     "processed": true
   },
+  "https://www.anthropic.com/research/nuclear-safeguards-for-ai": {
+    "title": "",
+    "date": "2025-08-21",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/news/claude-code-on-team-and-enterprise": {
     "title": "",
     "date": "2025-08-20",
@@ -2184,6 +2274,11 @@
     "date": "2025-08-09",
     "source": "red_team",
     "processed": true
+  },
+  "https://www.anthropic.com/research/cyber-competitions": {
+    "title": "",
+    "date": "2025-08-09",
+    "source": "anthropic_research"
   },
   "https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule": {
     "title": "",
@@ -2365,6 +2460,11 @@
     "source": "red_team",
     "processed": true
   },
+  "https://www.anthropic.com/research/claude-4-cyber": {
+    "title": "",
+    "date": "2025-07-15",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations": {
     "title": "",
     "date": "2025-07-14",
@@ -2430,6 +2530,11 @@
     "date": "2025-06-13",
     "source": "red_team",
     "processed": true
+  },
+  "https://www.anthropic.com/research/cyber-toolkits": {
+    "title": "",
+    "date": "2025-06-13",
+    "source": "anthropic_research"
   },
   "https://www.anthropic.com/research/open-source-circuit-tracing": {
     "title": "",
