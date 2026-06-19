@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-06-18",
+  "generated_at": "2026-06-19",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-18",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+          "title_en": "Project Fetch: Phase two",
+          "title_zh": "Project Fetch: Phase two",
+          "summary_zh": "项目获取: 第二阶段\n\n前沿红队\n项目获取: 第二阶段\n2026年6月18日\nMichael Ilie，C. Daniel Freeman和Kevin K. Troy\n在2025年8月，我们运行了一个\n实验\n查看 Claude 可以在多大程度上帮助 Anthropic 员工-他们不是机器人专家-使用现成的四足动物机器人 (以下称为robodog) 执行复杂 (有趣) 的任务。我们把这个项目叫做Fetch。我们发现，访问我们当时最先进的模型 (Claude Opus 4.1) 帮助一个团队大大优于另一个团队",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-06-18"
+        },
+        {
+          "url": "https://claude.com/blog/artifacts-in-claude-code",
+          "title_en": "Claude Code now supports artifacts",
+          "title_zh": "Claude Code now supports artifacts",
+          "summary_zh": "Claude 代码现在支持项目\n\nClaude 代码现在支持项目\n以实时交互式网页的形式预览正在进行的工作-从您的完整会话上下文构建，并可与您的团队共享。\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年6月18日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 工件-in-claude-code\n从今天开始，Claude 代码可以将工作进度捕获为工件，从而将 Claude 代码的工作转化为可共享的实时可视化页面-包括PR演练、系统解释器、d",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-18"
+        },
+        {
+          "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+          "title_en": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+          "title_zh": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+          "summary_zh": "转向 Claude 代码: CLAUDE.md文件、技能、挂钩、规则、子代理等\n\n转向 Claude 代码: CLAUDE.md文件、技能、挂钩、规则、子代理等\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年6月18日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 转向-克劳德-代码-技能-钩子-规则-子代理-和-更多\nClaude 是为您的工作方式而构建的，您可以在 Claude 代码中对其进行自定义。\n有七种方法用于指示 Claude 的行为: CLAUDE.md文件、规则、\n技能\n，\n子代理\n，\n钩子\n、输出样式，并附加系统提示。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-18"
+        },
+        {
+          "url": "https://claude.com/blog/enterprise-managed-auth",
+          "title_en": "Centrally manage authorization for MCP connectors",
+          "title_zh": "Centrally manage authorization for MCP connectors",
+          "summary_zh": "集中管理MCP连接器的授权\n\n集中管理MCP连接器的授权\n类别\n企业人工智能\n产品公告\n产品\nClaude 企业\nClaude 个应用程序\n日期\n2026年6月18日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 企业管理的auth\n管理员现在可以通过其身份提供商为整个组织提供MCP连接器，从Okta开始。用户在首次登录时自动获得连接器访问权限，授权由其组织集中配置。\n连接器使 Claude",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-18"
+        }
+      ]
+    },
     {
       "date": "2026-06-17",
       "articles": [
@@ -616,38 +657,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-20"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-19",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/anthropic-kpmg",
-          "title_en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
-          "title_zh": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
-          "summary_zh": "毕马威将 Claude 整合到其核心业务和276,000多名战略联盟员工中\n\n公告\n毕马威将 Claude 整合到其核心业务和276,000多名战略联盟员工中\n2026年5月19日\n毕马威 (KPMG) 是全球最大的审计、税务、法律和咨询服务的专业服务公司之一，遍布138个国家和地区，已宣布与 Anthropic 建立全球联盟，将 Claude 纳入其业务核心。\n作为该联盟的一部分，毕马威将 Claude 嵌入到数字网关中，毕马威的人员和客户使用该软件来执行此操作",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-19"
-        },
-        {
-          "url": "https://www.anthropic.com/news/widening-conversation-ai",
-          "title_en": "Widening the conversation on frontier AI",
-          "title_zh": "Widening the conversation on frontier AI",
-          "summary_zh": "扩大关于前沿AI的对话\n\n公告\n扩大关于前沿AI的对话\n2026年5月19日\n在 {{1 }}, 我们希望建立能够促进人类发展并为全球利益而行动的AI系统。为此，我们需要与那些以多种不同视角看待世界的人展开对话。\n在过去几个月里，我们一直与那些其工作与传统关乎人工智能所引发之议题的团体开展对话。我们的第一轮讨论一直与智慧传统-包括学者，神职人员，哲学家，",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-19"
-        },
-        {
-          "url": "https://claude.com/blog/claude-managed-agents-updates",
-          "title_en": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
-          "title_zh": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
-          "summary_zh": "Claude 托管代理中的新增功能: 自承载沙箱和MCP隧道\n\nClaude 托管代理中的新增功能: 自承载沙箱和MCP隧道\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年5月19日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-managed-agents-更新\n从今天开始，Claude 托管代理可以在您控制的沙盒中运行，并连接到您的专用模型上下文协议 (MCP) 服务器。代理执行工具的沙箱及其到达的服务都在企业的既定边界内运行",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-19"
         }
       ]
     }
@@ -2036,6 +2045,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+        "title": "Project Fetch: Phase two",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-06-18"
+      },
       {
         "url": "https://www.anthropic.com/research/team/frontier-red-team",
         "title": "Frontier Red Team",
@@ -3808,6 +3823,24 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
+        "title": "Claude Code now supports artifacts",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-18"
+      },
+      {
+        "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+        "title": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-18"
+      },
+      {
+        "url": "https://claude.com/blog/enterprise-managed-auth",
+        "title": "Centrally manage authorization for MCP connectors",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-18"
+      },
       {
         "url": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
         "title": "Meet the winners of our Claude Opus 4.8 Build Day hackathon",

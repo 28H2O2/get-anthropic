@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/research/project-fetch-phase-two": {
+    "title": "Project Fetch: Phase two",
+    "date": "2026-06-18",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/artifacts-in-claude-code": {
+    "title": "Claude Code now supports artifacts",
+    "date": "2026-06-18",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more": {
+    "title": "Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more",
+    "date": "2026-06-18",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/enterprise-managed-auth": {
+    "title": "Centrally manage authorization for MCP connectors",
+    "date": "2026-06-18",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem": {
     "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
     "date": "2026-06-17",
