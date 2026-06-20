@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19",
+  "generated_at": "2026-06-20",
   "lookback_days": 30,
   "digests": [
     {
@@ -634,29 +634,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-21"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-20",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
-          "title_en": "Using Claude Code: The unreasonable effectiveness of HTML",
-          "title_zh": "Using Claude Code: The unreasonable effectiveness of HTML",
-          "summary_zh": "使用 Claude 代码: HTML不合理的有效性\n\n使用 Claude 代码: HTML不合理的有效性\nClaude 代码团队的成员如何以及为什么使用HTML而不是Markdown来生成更丰富、可读性更强且易于共享的输出。\n‍\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年5月20日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 使用-claude-code-the-不合理的-有效性-html\nMarkdown已成为代理与人类通信的主要文件格式。它的简单，便携，有一些丰富的特克斯",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-20"
-        },
-        {
-          "url": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book",
-          "title_en": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
-          "title_zh": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
-          "summary_zh": "Anthropic 销售主管如何使用 Claude 考克管理4,000账簿\n\nAnthropic 销售主管如何使用 Claude 考克管理4,000账簿\n{{1 }}, 美国中端市场GTM的负责人Travis Bryant分享了他如何使用 Claude Cowork来准备客户简介和每周预测，并进行隔夜区域评分，该评分过去需要跨职能团队花费数百个小时。\n‍\nTravis介绍了他如何使用 Claude Cowork来准备客户摘要，提取每周预测并在一夜之间为4,000帐户评分。\n加入网络研讨会\n加入网络研讨会\n加入webin",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-20"
         }
       ]
     }
