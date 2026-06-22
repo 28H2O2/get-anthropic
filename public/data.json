@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21",
+  "generated_at": "2026-06-22",
   "lookback_days": 30,
   "digests": [
     {
@@ -552,65 +552,6 @@
           "source": "Engineering Blog",
           "source_key": "engineering",
           "date": "2026-05-25"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-22",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/glasswing-initial-update",
-          "title_en": "Project Glasswing: An initial update",
-          "title_zh": "Project Glasswing: An initial update",
-          "summary_zh": "Glasswing项目: 初步更新\n\n公告\nGlasswing项目: 初步更新\n2026年5月22日\n上个月，我们推出了\n项目Glasswing\n,我们的合作努力是在能力越来越强的人工智能模型遭到反对之前，保护世界上最关键的软件。\n从那时起，我们和大约50个合作伙伴使用 Claude Mythos Preview在世界上最具系统重要性的软件中查找了10,000多个严重或严重的漏洞。软件安全的进展曾经是",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-05-22"
-        },
-        {
-          "url": "https://red.anthropic.com/2026/exploit-evals/",
-          "title_en": "Measuring LLMs' Ability to Develop Exploits",
-          "title_zh": "Measuring LLMs' Ability to Develop Exploits",
-          "summary_zh": "衡量 LLMs' 开发漏洞的能力\n\n关于衡量人工智能模型开发利用能力的两个新的、具有挑战性的学术基准\n(ExploitBench和ExploitGym) 和基准测量智能合约的更新版本\n开发 (SCONE-bench)，我们发现Mythos Preview始终优于所有其他\n评估模型。我们认为，这进一步证明了所需的知识和专业知识\n开发漏洞将",
-          "source": "Red Team",
-          "source_key": "red_team",
-          "date": "2026-05-22"
-        },
-        {
-          "url": "https://red.anthropic.com/2026/cvd/",
-          "title_en": "Coordinated Vulnerability Disclosure Dashboard",
-          "title_zh": "Coordinated Vulnerability Disclosure Dashboard",
-          "summary_zh": "协调漏洞披露仪表板\n\n定期更新 Anthropic 发现并报告给维护人员的漏洞记录\n在披露时对每个发现都有加密承诺。",
-          "source": "Red Team",
-          "source_key": "red_team",
-          "date": "2026-05-22"
-        },
-        {
-          "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
-          "title_en": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
-          "title_zh": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
-          "summary_zh": "Anthropic 的财务团队如何使用 Claude 来塑造数字背后的叙述\n\nAnthropic 的财务团队如何使用 Claude 来塑造数字背后的叙述\n{{1 }}, 公司财务和战略团队的Alice Fong分享了她如何使用 Claude 来为首席财务官和董事会维持一个统一的财务叙述，并每周腾出10到20个小时用于影响更大的工作。\n类别\n企业人工智能\n产品\nClaude 考克\n日期\n2026年5月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类-金融-团队-使用-克劳德-塑造-叙事-behin",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-22"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-07-hosting-the-agent",
-          "title_en": "Hosting your agent",
-          "title_zh": "Hosting your agent",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-05-22"
-        },
-        {
-          "url": "https://www.anthropic.com/research/exploit-evals",
-          "title_en": "exploit-evals",
-          "title_zh": "exploit-evals",
-          "summary_zh": "",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-05-22"
         }
       ]
     }
