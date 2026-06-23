@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-06-22",
+  "generated_at": "2026-06-23",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-22",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
+          "title_en": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+          "title_zh": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+          "summary_zh": "AWS、Google Cloud和Microsoft Foundry上的完整 Claude 桌面体验\n\nAWS、Google Cloud和Microsoft Foundry上的完整 Claude 桌面体验\n类别\n企业AI\n产品\nClaude 企业\n日期\n2026年6月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 全克劳德桌面体验aws-google-cloud-and-microsoft-foundry\n通过AWS、Google Cloud和Microsoft Foundry使用 Claude 桌面的组织现在可以在一个应用程序中获得完整的桌面体验-聊天、 Claude Cowork和 Claude 代码。\n现在，IT团队可以将推理保留在内部",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-22"
+        }
+      ]
+    },
     {
       "date": "2026-06-18",
       "articles": [
@@ -3718,6 +3732,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
+        "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-22"
+      },
       {
         "url": "https://claude.com/blog/artifacts-in-claude-code",
         "title": "Claude Code now supports artifacts",

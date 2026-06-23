@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry": {
+    "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
+    "date": "2026-06-22",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/project-fetch-phase-two": {
     "title": "Project Fetch: Phase two",
     "date": "2026-06-18",
