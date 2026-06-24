@@ -1,4 +1,16 @@
 {
+  "https://claude.com/blog/agent-identity-access-model": {
+    "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+    "date": "2026-06-24",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/introducing-claude-tag": {
+    "title": "Introducing Claude Tag",
+    "date": "2026-06-23",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry": {
     "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
     "date": "2026-06-22",
@@ -1487,6 +1499,11 @@
   },
   "https://alignment.anthropic.com/2026/sleight-bench/": {
     "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/diffuse-ai-control/": {
+    "title": "Diffuse AI Control on Fuzzy Tasks",
     "date": "2026-01-01",
     "source": "alignment"
   },

@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-06-23",
+  "generated_at": "2026-06-24",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-24",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/agent-identity-access-model",
+          "title_en": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+          "title_zh": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+          "summary_zh": "Claude 标记中的座席身份: 适用于团队范围内的自主AI的新访问模型\n\nClaude 标记中的座席身份: 适用于团队范围内的自主AI的新访问模型\nClaude 标记的代理身份访问模型的工作原理，以及在团队工作区中配置该模型的最佳做法。\n类别\nClaude 代码\n产品\nClaude 标签\n日期\n2026年6月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 代理-身份-访问-模型\n为了让AI代理在人类代理团队中完成最佳工作，它需要访问人类拥有的相同工具，文档和上下文。\n在 “单人” 人工智能实验中",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-24"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/introducing-claude-tag",
+          "title_en": "Introducing Claude Tag",
+          "title_zh": "Introducing Claude Tag",
+          "summary_zh": "介绍 Claude 标签\n\n产品\n介绍 Claude 标签\n2026年6月23日\nClaude 标记是团队使用 Claude 的新方法。\n我们从Slack开始，Claude 可以作为团队成员加入。授予 Claude 对选定通道的访问权限，并将其连接到您选择的任何工具、数据甚至代码库。然后，频道中的任何人都可以标记\n@{{ 0}}\n中，并在他们专注于其他工作时将任务委派给it。Claude 通过记住其所处渠道的相关信息来构建上下文，并可以计划要完成的任务",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-06-23"
+        }
+      ]
+    },
     {
       "date": "2026-06-22",
       "articles": [
@@ -572,6 +600,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/introducing-claude-tag",
+        "title": "Introducing Claude Tag",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-23"
+      },
       {
         "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
         "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
@@ -3733,6 +3767,12 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/agent-identity-access-model",
+        "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-24"
+      },
+      {
         "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
         "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -4313,6 +4353,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/sleight-bench/",
         "title": "SLEIGHT-Bench: Finding Blind Spots in AI Monitors",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/diffuse-ai-control/",
+        "title": "Diffuse AI Control on Fuzzy Tasks",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },
