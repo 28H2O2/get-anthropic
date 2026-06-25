@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24",
+  "generated_at": "2026-06-25",
   "lookback_days": 30,
   "digests": [
     {
@@ -10,6 +10,15 @@
           "title_en": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
           "title_zh": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
           "summary_zh": "Claude 标记中的座席身份: 适用于团队范围内的自主AI的新访问模型\n\nClaude 标记中的座席身份: 适用于团队范围内的自主AI的新访问模型\nClaude 标记的代理身份访问模型的工作原理，以及在团队工作区中配置该模型的最佳做法。\n类别\nClaude 代码\n产品\nClaude 标签\n日期\n2026年6月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 代理-身份-访问-模型\n为了让AI代理在人类代理团队中完成最佳工作，它需要访问人类拥有的相同工具，文档和上下文。\n在 “单人” 人工智能实验中",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-24"
+        },
+        {
+          "url": "https://claude.com/blog/building-effective-human-agent-teams",
+          "title_en": "Building effective human-agent teams",
+          "title_zh": "Building effective human-agent teams",
+          "summary_zh": "建立有效的人工代理团队\n\n建立有效的人工代理团队\n我们使用人工智能的方式正在从单人游戏体验演变为多人游戏体验，人类和代理人作为一个团队一起工作，以实现共同的目标。我们分享这种新的行动方式的例子。\n类别\n企业人工智能\n产品\nClaude 标签\n日期\n2026年6月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 建设-有效-人-代理-团队\n使用AI曾经意味着一个人与单个聊天窗口交互。随着时间的推移，A",
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-06-24"
@@ -571,29 +580,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-05-26"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-25",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
-          "title_en": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
-          "title_zh": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
-          "summary_zh": "Anthropic 联合创始人克里斯·奥拉对教皇利奥十四世通谕《人类大典》的评论\n\n公告\nAnthropic 联合创始人克里斯·奥拉对教皇利奥十四世通谕《人类大典》的评论\n2026年5月25日\n周一2026年5月25日，教皇利奥十四世释放\n一个通谕\n关于AI的主题: “Magnifica humanitas: 在人工智能时代保护人类”。Anthropic 联合创始人Chris Olah受邀在梵蒂冈城的通谕演讲中发言，这是 Anthropic\n扩大谈话范围\n关于重要的问题",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-25"
-        },
-        {
-          "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-          "title_en": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
-          "title_zh": "Featured How we contain Claude across products As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
-          "summary_zh": "随着代理能力的增强，我们如何在产品中包含 Claude，他们的潜在爆炸半径也是如此。工程问题是如何封顶。以下是我们为claude.ai、 Claude 代码和Cowork构建容器时学到的知识。\n\n12个月前，我们会立即拒绝授予 Claude 访问权限以关闭内部 Anthropic 服务的想法。如今，这种访问级别已成为常规，并且 Anthropic 开发人员的工作效率更高。这些部署的风险有两个组成部分: 失败的可能性有多大，以及可能造成的损害有多大。保障措施和模型培训方面的进展稳步推动了第一个; 第二个-理论爆炸半径-只会随着能力和访问经验的增长而增长",
-          "source": "Engineering Blog",
-          "source_key": "engineering",
-          "date": "2026-05-25"
         }
       ]
     }
@@ -3769,6 +3755,12 @@
       {
         "url": "https://claude.com/blog/agent-identity-access-model",
         "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-24"
+      },
+      {
+        "url": "https://claude.com/blog/building-effective-human-agent-teams",
+        "title": "Building effective human-agent teams",
         "desc": "Claude 官方博客（面向用户与企业）",
         "date": "2026-06-24"
       },
