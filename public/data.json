@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25",
+  "generated_at": "2026-06-26",
   "lookback_days": 30,
   "digests": [
     {
@@ -557,29 +557,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-05-27"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-26",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-          "title_en": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
-          "title_zh": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
-          "summary_zh": "Anthropic 任命KiYoung Choi为韩国代表董事\n\n公告\nAnthropic 在首尔办事处开业前任命KiYoung Choi为韩国代表董事\n2026年5月26日\n韩国是全球 Claude.ai最活跃的市场之一。根据我们最新的\n经济指数\n,韩国人使用 Claude 的比率是人口规模预期的3.5倍以上，使用严重偏向于技术和创造性工作。为了支持这一势头，Choi KiYoung Choi将在开幕式前加入 Anthropic，担任韩国代表董事",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-26"
-        },
-        {
-          "url": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
-          "title_en": "Code w/ Claude London 2026: Rethinking how we build",
-          "title_zh": "Code w/ Claude London 2026: Rethinking how we build",
-          "summary_zh": "Code w/ Claude 伦敦2026: 重新思考我们的建设方式\n\nCode w/ Claude 伦敦2026: 重新思考我们的建设方式\n不能去伦敦吗？主题演讲和分组会议现在正在直播。\n类别\n产品公告\n产品\nClaude 代码\nClaude 平台\n日期\n2026年5月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ code-w-claude-london-2026-rethinking-how-we-build\n本周在伦敦，我们带来了\n代码w/ Claude\n去欧洲。该活动将建设者，开发人员和创始人聚集在一起，进行为期两天的主题演讲，分组讨论和研讨会",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-26"
         }
       ]
     }
