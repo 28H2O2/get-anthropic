@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/research/economic-index-june-2026-report": {
+    "title": "Anthropic Economic Index report: Cadences",
+    "date": "2026-06-26",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://claude.com/blog/agent-identity-access-model": {
     "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
     "date": "2026-06-24",
