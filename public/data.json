@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27",
+  "generated_at": "2026-06-28",
   "lookback_days": 30,
   "digests": [
     {
@@ -489,38 +489,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-06-01"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-28",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/claude-opus-4-8",
-          "title_en": "Introducing Claude Opus 4.8",
-          "title_zh": "Introducing Claude Opus 4.8",
-          "summary_zh": "介绍 Claude Opus 4.8\n\n产品\n公告\n介绍 Claude Opus 4.8\n2026年5月28日\n我们正在将 Claude Opus 升级到新版本: Claude Opus 4.8。它建立在 Opus 4.7的基础上，并在基准测试中进行了改进，是一个更有效的合作者。它今天仍然以相同的价格出售。\nOpus 4.8推出多项新功能。claude.ai上的用户现在可以控制 Claude 投入任务的工作量。Claude 代码具有新的 “动态工作流” 功能，使其能够解决非常大规模的问题",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-28"
-        },
-        {
-          "url": "https://www.anthropic.com/news/series-h",
-          "title_en": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
-          "title_zh": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
-          "summary_zh": "Anthropic 在H系列融资中筹集了65亿美元，融资后估值为965亿美元\n\n公告\nAnthropic 在H系列融资中筹集了65亿美元，融资后估值为965亿美元\n2026年5月28日\nAnthropic 在由Altimeter Capital、Dragoneer、Greenoaks和Sequoia Capital牵头的H系列融资中筹集了650亿美元，对公司的估值为9650亿美元。\n各行各业的全球企业都在其核心业务中部署 Claude，全球越来越多的人将其用于日常工作。自2月我们的G系列以来，采用率持续增长",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-05-28"
-        },
-        {
-          "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
-          "title_en": "Introducing dynamic workflows in Claude Code",
-          "title_zh": "Introducing dynamic workflows in Claude Code",
-          "summary_zh": "在 Claude 代码中引入动态工作流\n\n在 Claude 代码中引入动态工作流\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年5月28日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 介绍-动态工作流-in-claude-code\n今天，我们在 Claude 代码中引入了动态工作流，帮助 Claude 端到端地处理最具挑战性的任务。你通常计划在季度内完成的工作现在在几天内完成。Claude 动态编写在si中运行数十到数百个并行子代理的业务流程脚本",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-05-28"
         }
       ]
     }
