@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-06-29",
+  "generated_at": "2026-06-30",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-06-29",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+          "title_en": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+          "title_zh": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+          "summary_zh": "介绍适用于Amazon Bedrock和Google Cloud的 Claude 应用程序网关\n\n介绍适用于Amazon Bedrock和Google Cloud的 Claude 应用程序网关\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年6月29日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 介绍-the-claude-apps-gateway\n今天，我们推出了适用于Amazon Bedrock和Google Cloud的 Claude 应用程序网关。以前，在这些平台上运行 Claude 代码意味着为每个开发人员提供一个云凭据，手动将设置推送到每台笔记本电脑，并单独设置",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-29"
+        },
+        {
+          "url": "https://claude.com/blog/claude-in-microsoft-foundry",
+          "title_en": "Claude in Microsoft Foundry is now generally available",
+          "title_zh": "Claude in Microsoft Foundry is now generally available",
+          "summary_zh": "Microsoft Foundry中的 Claude 现已正式发布\n\nMicrosoft Foundry中的 Claude 现已正式发布\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年6月29日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-in-microsoft-foundry\n从今天开始，Claude 模型将在Azure上托管的Microsoft Foundry中正式提供。Claude 在Azure环境中运行，其中包含团队已使用的身份验证、计费和治理控件。您可以选择处理推理的位置，包括美国数据区f",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-06-29"
+        }
+      ]
+    },
     {
       "date": "2026-06-26",
       "articles": [
@@ -3667,6 +3690,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+        "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-29"
+      },
+      {
+        "url": "https://claude.com/blog/claude-in-microsoft-foundry",
+        "title": "Claude in Microsoft Foundry is now generally available",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-06-29"
+      },
       {
         "url": "https://claude.com/blog/agent-identity-access-model",
         "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",

@@ -1,4 +1,16 @@
 {
+  "https://claude.com/blog/introducing-the-claude-apps-gateway": {
+    "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+    "date": "2026-06-29",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-in-microsoft-foundry": {
+    "title": "Claude in Microsoft Foundry is now generally available",
+    "date": "2026-06-29",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/economic-index-june-2026-report": {
     "title": "Anthropic Economic Index report: Cadences",
     "date": "2026-06-26",
