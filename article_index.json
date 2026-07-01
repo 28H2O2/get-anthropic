@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/news/claude-science-ai-workbench": {
+    "title": "Claude Science, an AI workbench for scientists",
+    "date": "2026-06-30",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/claude-sonnet-5": {
+    "title": "Introducing Claude Sonnet 5",
+    "date": "2026-06-30",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/getting-started-with-loops": {
+    "title": "Getting started with loops",
+    "date": "2026-06-30",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/introducing-the-claude-apps-gateway": {
     "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
     "date": "2026-06-29",
@@ -16,6 +34,11 @@
     "date": "2026-06-26",
     "source": "anthropic_research",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/evals-agentic-search-reproduce-agentic-search-benchmarks": {
+    "title": "Reproduce Claude's agentic search benchmark scores in the Messages API",
+    "date": "2026-06-25",
+    "source": "cookbook"
   },
   "https://claude.com/blog/agent-identity-access-model": {
     "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
@@ -1543,6 +1566,11 @@
   },
   "https://transformer-circuits.pub/2026/may-update/index.html": {
     "title": "Circuits Updates — May 2026A short update on understanding features through downstream connections.",
+    "date": "2026",
+    "source": "transformer_circuits"
+  },
+  "https://transformer-circuits.pub/2026/june-update/index.html": {
+    "title": "Circuits Updates — June 2026A short update on turn-averaged sparse autoencoders.",
     "date": "2026",
     "source": "transformer_circuits"
   },
