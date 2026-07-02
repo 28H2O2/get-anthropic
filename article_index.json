@@ -17,6 +17,12 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://www.anthropic.com/news/redeploying-fable-5": {
+    "title": "Redeploying Claude Fable 5",
+    "date": "2026-06-30",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://claude.com/blog/introducing-the-claude-apps-gateway": {
     "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
     "date": "2026-06-29",

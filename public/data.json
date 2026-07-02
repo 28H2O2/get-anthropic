@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01",
+  "generated_at": "2026-07-02",
   "lookback_days": 30,
   "digests": [
     {
@@ -30,6 +30,15 @@
           "summary_zh": "开始使用循环\n\n开始使用循环\n了解 Claude 代码团队如何定义代理循环，以及从基于回扣到基于目标、基于时间和主动循环的实际指导，以及何时使用每个循环。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年6月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 开始使用循环\n现在有很多关于 “设计循环” 的讨论，而不是提示你的编码代理。如果你花一些时间在X上试图确定一个",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-06-30"
+        },
+        {
+          "url": "https://www.anthropic.com/news/redeploying-fable-5",
+          "title_en": "Redeploying Claude Fable 5",
+          "title_zh": "Redeploying Claude Fable 5",
+          "summary_zh": "重新部署 Claude 寓言5\n\n公告\n重新部署寓言5\n2026年6月30日\n更新\nClaude 寓言5和神话5重新部署\n2026年7月1日\n现在恢复了对 Claude 寓言5和Mythos 5的访问。\n6月12日星期五，美国政府对我们的最新型号 Claude Fable 5和 Claude Mythos 5实施了出口管制。这要求我们对外国国民实施准入限制，无论其身处美国境内还是境外。由于该命令立即生效，并且我们没有可靠的方法来实时验证国籍，因此我们暂停了",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
           "date": "2026-06-30"
         }
       ]
@@ -546,20 +555,6 @@
           "date": "2026-06-02"
         }
       ]
-    },
-    {
-      "date": "2026-06-01",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-          "title_en": "Anthropic confidentially submits draft S-1 to the SEC",
-          "title_zh": "Anthropic confidentially submits draft S-1 to the SEC",
-          "summary_zh": "Anthropic 向SEC秘密提交S-1草案\n\n公告\nAnthropic 向SEC秘密提交S-1草案\n2026年6月1日\n今天，{{1 }}, PBC秘密地向美国证券交易委员会提交了一份表格S-1的注册声明草案，以提议对我们的普通股进行首次公开发行。这使我们能够在SEC完成审查后选择上市。拟议的首次公开募股将取决于市场状况及其他因素。\n要发行的股票数量和价格还没有",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-06-01"
-        }
-      ]
     }
   ],
   "all_urls": {
@@ -573,6 +568,12 @@
       {
         "url": "https://www.anthropic.com/news/claude-sonnet-5",
         "title": "Introducing Claude Sonnet 5",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-06-30"
+      },
+      {
+        "url": "https://www.anthropic.com/news/redeploying-fable-5",
+        "title": "Redeploying Claude Fable 5",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-06-30"
       },
