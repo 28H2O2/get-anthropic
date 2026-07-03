@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework": {
+    "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+    "date": "2026-07-02",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend": {
+    "title": "Giving admins more visibility and control over Claude spend",
+    "date": "2026-07-02",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-science-ai-workbench": {
     "title": "Claude Science, an AI workbench for scientists",
     "date": "2026-06-30",

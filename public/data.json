@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-07-02",
+  "generated_at": "2026-07-03",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-02",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+          "title_en": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+          "title_zh": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+          "summary_zh": "关于寓言5的网络保障措施和我们的越狱框架的更多细节\n\n公告\n关于寓言5的网络保障措施和我们的越狱框架的更多细节\n2026年7月2日\nClaude 寓言5已\n重新部署\n现在可供全球所有用户使用。我们借此机会就两个方面作进一步说明。\n首先，我们提供有关\n网络安全保障措施\n-具体来说，\n安全分类器\n-我们推出的模型。这些是伴随模型的AI系统，用于检测和阻止危险 (或潜在危险) c",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-07-02"
+        },
+        {
+          "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+          "title_en": "Giving admins more visibility and control over Claude spend",
+          "title_zh": "Giving admins more visibility and control over Claude spend",
+          "summary_zh": "为管理员提供更多的可见性和对 Claude 支出的控制\n\n为管理员提供更多的可见性和对 Claude 支出的控制\n新的分析和成本控制可用于 Claude Enterprise。\n类别\n产品公告\n产品\nClaude 企业\n日期\n2026年7月2日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 给予-管理员-更多-可见性和控制-克劳德-使用和支出\n我们将为 Claude Enterprise引入更丰富的管理分析、模型级别权利和支出警报。随着 Claude 承担越来越困难和复杂的代理",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-02"
+        }
+      ]
+    },
     {
       "date": "2026-06-30",
       "articles": [
@@ -532,33 +555,16 @@
           "date": "2026-06-03"
         }
       ]
-    },
-    {
-      "date": "2026-06-02",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-          "title_en": "Expanding Project Glasswing",
-          "title_zh": "Expanding Project Glasswing",
-          "summary_zh": "正在扩展Glasswing项目\n\n公告\n正在扩展Glasswing项目\n2026年6月2日\n项目Glasswing\n是我们共同努力保护世界上最重要的软件。4月初，我们宣布大约有50个初始合作伙伴可以访问 Claude Mythos Preview，从那时起，他们一直在部署该模型来扫描其代码库中的漏洞。我们最近\n描述的\n到目前为止，这些合作伙伴是如何发现10,000多个严重或严重的安全漏洞的。\n我们目前正在扩展“玻璃翼”项目。福",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-06-02"
-        },
-        {
-          "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
-          "title_en": "A harness for every task: dynamic workflows in Claude Code",
-          "title_zh": "A harness for every task: dynamic workflows in Claude Code",
-          "summary_zh": "每个任务的工具: Claude 代码中的动态工作流\n\n每个任务的工具: Claude 代码中的动态工作流\nClaude 代码现在可以即时编写和编排自己的多代理工具。以下是动态工作流的工作方式，以及充分利用它们的模式。\n‍\n获取 Claude 代码\n桌面\nVS代码\n捷恩思\n在网页上\n松弛\ncurl -fsSL\nhttps:// claude.ai/install.sh\n| bash\n将命令复制到剪贴板\n尔姆\nhttps:// claude.ai/install.ps1\n| 交互式外壳\n将命令复制到剪贴板\n或阅读\n文档\n尝试 Claude 代码\n尝试 Claude 代码\n尝试 Claude 代码\n德语",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-06-02"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+        "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-07-02"
+      },
       {
         "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
         "title": "Claude Science, an AI workbench for scientists",
@@ -3761,6 +3767,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+        "title": "Giving admins more visibility and control over Claude spend",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-02"
+      },
       {
         "url": "https://claude.com/blog/getting-started-with-loops",
         "title": "Getting started with loops",
