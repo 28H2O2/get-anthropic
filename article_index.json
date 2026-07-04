@@ -2791,6 +2791,11 @@
     "source": "cookbook",
     "processed": true
   },
+  "https://www.anthropic.com/news/visible-extended-thinking": {
+    "title": "",
+    "date": "2025-02-24",
+    "source": "anthropic_news"
+  },
   "https://www.anthropic.com/news/paris-ai-summit": {
     "title": "",
     "date": "2025-02-20",
