@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-07-07",
+  "generated_at": "2026-07-08",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-07",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
+          "title_en": "Bringing Claude Code and Claude Cowork to government",
+          "title_zh": "Bringing Claude Code and Claude Cowork to government",
+          "summary_zh": "将 Claude 代码和 Claude Cowork带给政府\n\n将 Claude 代码和 Claude Cowork带给政府\n类别\n产品公告\nClaude 代码\n产品\nClaude 代码\nClaude 考克\n日期\n2026年7月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 将claude代码和claude cowork带到政府\nClaude 代码\n和\nClaude 考克\n现已在政府桌面的 Claude 中提供公共测试版，它基于我们的商业客户使用的相同应用程序构建，并通过FedRAMP高授权环境交付。\n使用 Claude 代码，发布",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-07"
+        },
+        {
+          "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
+          "title_en": "Choosing a Claude model and effort level in Claude Code",
+          "title_zh": "Choosing a Claude model and effort level in Claude Code",
+          "summary_zh": "在 Claude 代码中选择 Claude 模型和工作量级别\n\n在 Claude 代码中选择 Claude 模型和工作量级别\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年7月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-claude代码中的模型和努力级别\n主要要点\n：\nClaude 模型选择选择一组固定权重或模型的总体功能范围。虽然可以提供上下文或引导模型，但模型的整体知识库和功能是设置的。\n努力不仅仅意味着 “思考时间”。它控制着",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-07"
+        },
+        {
+          "url": "https://claude.com/blog/cowork-web-mobile",
+          "title_en": "Claude Cowork is coming to mobile and web",
+          "title_zh": "Claude Cowork is coming to mobile and web",
+          "summary_zh": "Claude Cowork即将进入移动和web\n\nClaude Cowork即将进入移动和web\n你的工作随处可见，没有你，你会继续下去。\n类别\n产品公告\n产品\nClaude 共事\n日期\n2026年7月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ cowork-web-mobile\nClaude Cowork正在向移动设备和web推出，以便您的会话和文件在任何设备上随处可见。Beta访问将在接下来的几周内推出，从最大用户开始，还有更多计划。\n工作周围的工作\n协作",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-07"
+        },
+        {
+          "url": "https://claude.com/blog/how-people-are-using-claude-cowork",
+          "title_en": "How people are using Claude Cowork",
+          "title_zh": "How people are using Claude Cowork",
+          "summary_zh": "人们如何使用 Claude Cowork\n\n人们如何使用 Claude Cowork\n在 Claude 个Cowork会话的样本中，我们发现大约一半的使用包括 “工作周围的工作”-这些任务是广泛工作的一部分，但很少是一个人的核心职责。\n类别\n企业人工智能\n产品\nClaude 共事\n日期\n2026年7月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 人们如何使用-claude-cowork\n当我们释放\nClaude 代码\n2025年，我们对有多少非技术用户开始使用pla感到惊讶",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-07"
+        }
+      ]
+    },
     {
       "date": "2026-07-06",
       "articles": [
@@ -3714,6 +3755,30 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
+        "title": "Bringing Claude Code and Claude Cowork to government",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-07"
+      },
+      {
+        "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
+        "title": "Choosing a Claude model and effort level in Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-07"
+      },
+      {
+        "url": "https://claude.com/blog/cowork-web-mobile",
+        "title": "Claude Cowork is coming to mobile and web",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-07"
+      },
+      {
+        "url": "https://claude.com/blog/how-people-are-using-claude-cowork",
+        "title": "How people are using Claude Cowork",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-07"
+      },
       {
         "url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
         "title": "A field guide to Claude Fable 5: Finding your unknowns",

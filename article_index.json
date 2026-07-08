@@ -1,4 +1,28 @@
 {
+  "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government": {
+    "title": "Bringing Claude Code and Claude Cowork to government",
+    "date": "2026-07-07",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-model-and-effort-level-in-claude-code": {
+    "title": "Choosing a Claude model and effort level in Claude Code",
+    "date": "2026-07-07",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/cowork-web-mobile": {
+    "title": "Claude Cowork is coming to mobile and web",
+    "date": "2026-07-07",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-people-are-using-claude-cowork": {
+    "title": "How people are using Claude Cowork",
+    "date": "2026-07-07",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/alberta-government-claude-cybersecurity": {
     "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities",
     "date": "2026-07-06",
