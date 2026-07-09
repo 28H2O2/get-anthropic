@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/research/off-switch-dual-use": {
+    "title": "An off switch for dual use knowledge in AI models",
+    "date": "2026-07-08",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work": {
+    "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
+    "date": "2026-07-08",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds": {
+    "title": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
+    "date": "2026-07-08",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government": {
     "title": "Bringing Claude Code and Claude Cowork to government",
     "date": "2026-07-07",
@@ -1611,6 +1629,11 @@
   },
   "https://alignment.anthropic.com/2026/diffuse-ai-control/": {
     "title": "Diffuse AI Control on Fuzzy Tasks",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/modular-pretraining/": {
+    "title": "Modular Pretraining Enables Access Control",
     "date": "2026-01-01",
     "source": "alignment"
   },

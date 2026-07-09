@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-07-08",
+  "generated_at": "2026-07-09",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-08",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/off-switch-dual-use",
+          "title_en": "An off switch for dual use knowledge in AI models",
+          "title_zh": "An off switch for dual use knowledge in AI models",
+          "summary_zh": "AI模型中两用知识的关闭开关\n\n对齐\nAI模型中两用知识的关闭开关\n2026年7月8日\n这篇文章描述了由\nAE工作室\n与 Anthropic 合作。\n除其他外，前沿人工智能模型是一个庞大的知识储备。其中一些知识是\n双重用途\n,这意味着它可以用于好的或坏的。例如，网络安全知识可以帮助修补关键的安全漏洞，或者可以用来利用它们。病毒学知识可以帮助研究人员制造疫苗，但是",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-07-08"
+        },
+        {
+          "url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
+          "title_en": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
+          "title_zh": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
+          "summary_zh": "在前沿工作: 汤森路透如何为高风险的专业工作构建人工智能\n\n在前沿工作: 汤森路透如何为高风险的专业工作构建人工智能\n汤森路透 (Thomson Reuters) 的ct0 Joel Hron多年来一直将AI放入律师和会计师信任的产品中。这就是为什么他认为 Claude 寓言5是人工智能在知识工作中可能发生的关键演变。\n‍\n类别\n企业人工智能\n产品\nClaude 平台\nClaude 企业\nClaude 代码\n日期\n2026年7月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 在前沿工作-如何-thoms",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-08"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
+          "title_en": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
+          "title_zh": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
+          "summary_zh": "Anthropic 的营销运营团队如何使用 Claude Cowork自动生成报告和营销活动\n\nAnthropic 的营销运营团队如何使用 Claude Cowork自动生成报告和营销活动\nIan Chan和Annabel Custer在 {{1 }}, 分享他们如何自动化他们的团队过去在多个平台上手工完成的工作。\n类别\n企业人工智能\n产品\nClaude 共事\n日期\n2026年7月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类学-营销-运营-团队-使用-克劳德-考克-自动化-报告和活动-构建\n营销运营",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-08"
+        }
+      ]
+    },
     {
       "date": "2026-07-07",
       "articles": [
@@ -458,65 +490,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-06-09"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-08",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/agents-in-biology",
-          "title_en": "Paving the way for agents in biology",
-          "title_zh": "Paving the way for agents in biology",
-          "summary_zh": "为生物学中的代理人铺平道路\n\n科学\n为生物学中的代理人铺平道路\n2026年6月8日\n作者: Laura Luebbert基于\n研究\n费多斯·纳斯里、莎拉·古列夫、帕特里克·瓦里、克里蒂克·拉梅什、努拉·A·奥莱里、乔纳·库尔、伯恩哈德·Y·雷纳德、帕迪斯·萨贝蒂和劳拉·吕伯特著。\n在这篇文章中，Laura Luebbert认为，我们需要使生物数据基础设施对代理更加友好。作为案例研究，她和她的团队负责科学研究代理 ({{0 }}, Biomni Open Source (Biomni OSS))\n一\n,爱迪生分析，GPT) 重新",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-06-08"
-        },
-        {
-          "url": "https://red.anthropic.com/2026/n-days/",
-          "title_en": "Measuring LLMs' Impact on N-day Exploits",
-          "title_zh": "Measuring LLMs' Impact on N-day Exploits",
-          "summary_zh": "测量 LLMs' 对N天漏洞利用的影响\n\n在网络安全中，现实世界的很大一部分伤害来自N天:\n已经公开披露，但仅在某些设备上进行了修补。在这篇文章中，我们评估如何\n许多大型语言模型可以加速和自动化开发N天漏洞的过程。",
-          "source": "Red Team",
-          "source_key": "red_team",
-          "date": "2026-06-08"
-        },
-        {
-          "url": "https://claude.com/blog/claude-for-foundation-models",
-          "title_en": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
-          "title_zh": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
-          "summary_zh": "在基础模型框架中使用 Claude 为Apple平台构建智能应用程序\n\n在基础模型框架中使用 Claude 为Apple平台构建智能应用程序\n类别\n产品公告\n产品\nClaude 平台\nClaude 个应用程序\n日期\n2026年6月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-for-foundation-models\n今天，我们通过新的Swift软件包发布了对 Claude 的Foundation Models framework支持，该软件包允许Apple开发人员使用Apple的Foundation Models framework来调用 Claude 以实现更复杂的工作流程。\n苹果的基础型号f",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-06-08"
-        },
-        {
-          "url": "https://claude.com/blog/observability-for-developers-building-connectors",
-          "title_en": "Observability for developers building connectors",
-          "title_zh": "Observability for developers building connectors",
-          "summary_zh": "开发人员构建连接器的可观察性\n\n开发人员构建连接器的可观察性\n开发人员现在可以监视其连接器在 Claude 产品中的性能，并将连接器提交到应用程序内目录。\n类别\n未找到项目。\n产品\nClaude 个应用\n日期\n2026年6月8日\n阅读时间\n五\n分钟\n分享\n复制链接\n面向开发人员的 https://claude.com/blog/ 可观察性-构建-连接器\n监视、调试和改进连接器\n中已发布的连接器\n目录\n现在有一个仪表板，显示他们在 Claude 产品su中的表现",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-06-08"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/patterns-agents-async-multi-agent-orchestration",
-          "title_en": "Async multi-agent orchestration",
-          "title_zh": "Async multi-agent orchestration",
-          "summary_zh": "异步多代理编排\n\n2026年6月",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-06-08"
-        },
-        {
-          "url": "https://www.anthropic.com/research/n-days",
-          "title_en": "n-days",
-          "title_zh": "n-days",
-          "summary_zh": "",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-06-08"
         }
       ]
     }
@@ -1947,6 +1920,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/off-switch-dual-use",
+        "title": "An off switch for dual use knowledge in AI models",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-07-08"
+      },
       {
         "url": "https://www.anthropic.com/research/global-workspace",
         "title": "A global workspace in language models",
@@ -3756,6 +3735,18 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
+        "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-08"
+      },
+      {
+        "url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
+        "title": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-08"
+      },
+      {
         "url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
         "title": "Bringing Claude Code and Claude Cowork to government",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -4408,6 +4399,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/diffuse-ai-control/",
         "title": "Diffuse AI Control on Fuzzy Tasks",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/modular-pretraining/",
+        "title": "Modular Pretraining Enables Access Control",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },
