@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/news/ben-bernanke": {
+    "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+    "date": "2026-07-09",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/hard-questions": {
+    "title": "Inviting hard questions",
+    "date": "2026-07-09",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/reflect-with-claude": {
+    "title": "A new way to reflect on how you use Claude",
+    "date": "2026-07-09",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/ust-claude": {
+    "title": "UST is bringing Claude to physical AI",
+    "date": "2026-07-09",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/research/off-switch-dual-use": {
     "title": "An off switch for dual use knowledge in AI models",
     "date": "2026-07-08",
