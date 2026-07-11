@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-07-10",
+  "generated_at": "2026-07-11",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-10",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
+          "title_en": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
+          "title_zh": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
+          "summary_zh": "在前沿工作: 认知如何信任 Claude 寓言5通宵工作\n\n在前沿工作: 认知如何信任 Claude 寓言5通宵工作\nCognition研究高级副总裁Silas Alberti已经在该公司的AI软件工程师Devin内部测试了几乎所有 Claude 模型。Claude 寓言5是他信任的第一个离开过夜的人。\n类别\n企业人工智能\n产品\n未找到项目。\n日期\n2026年7月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night\nCog",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-10"
+        }
+      ]
+    },
     {
       "date": "2026-07-09",
       "articles": [
@@ -485,20 +499,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-06-11"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-10",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/building-with-claude-managed-agents",
-          "title_en": "The evolution of agentic surfaces: building with Claude Managed Agents",
-          "title_zh": "The evolution of agentic surfaces: building with Claude Managed Agents",
-          "summary_zh": "代理表面的演变: 使用 Claude 个托管代理进行构建\n\n代理表面的演变: 使用 Claude 个托管代理进行构建\n随着模型智能和代理工具的发展，Claude 托管代理使团队能够在生产环境中可靠地大规模构建和部署代理。以下是团队使用它的原因和方式。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年6月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 建筑-与克劳德管理-代理\n让一个代理进入生产需要的不仅仅是一个很好的提示。代理ne",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-06-10"
         }
       ]
     }
@@ -3767,6 +3767,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
+        "title": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-10"
+      },
       {
         "url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
         "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
