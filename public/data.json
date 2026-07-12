@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11",
+  "generated_at": "2026-07-12",
   "lookback_days": 30,
   "digests": [
     {
@@ -476,29 +476,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-06-12"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/claude-corps",
-          "title_en": "Introducing Claude Corps",
-          "title_zh": "Introducing Claude Corps",
-          "summary_zh": "介绍 Claude 个军团\n\n公告\n政策\n介绍 Claude 个军团\n2026年6月11日\n我们正在发射\nClaude 个军团\n这是一个国家奖学金计划，面向那些在职业生涯早期就热衷于将人工智能的好处扩展到美国各地社区的人。\n我们将教1,000研究员如何很好地使用 Claude，将他们与美国各地的非营利组织相匹配，并支付他们花费一年的时间-全职，亲自-帮助主办组织推进他们的使命。我们的目标是双重的: 主办组织配备了",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-06-11"
-        },
-        {
-          "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-          "title_en": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-          "title_zh": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-          "summary_zh": "DXC将把 Claude 整合到银行、航空公司和其他受监管行业所依赖的系统中\n\n公告\nDXC将把 Claude 整合到银行、航空公司和其他受监管行业所依赖的系统中\n2026年6月11日\n我们宣布与全球最大的it服务公司之一DXC Technology建立多年的全球联盟。DXC将培训数万名 Claude 认证的前向部署工程师 (fde)-直接嵌入客户组织的工程师-将 Claude 纳入DXC为世界上最大的银行、航空公司、保险公司、制造商、",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-06-11"
         }
       ]
     }
