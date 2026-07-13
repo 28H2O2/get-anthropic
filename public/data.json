@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12",
+  "generated_at": "2026-07-13",
   "lookback_days": 30,
   "digests": [
     {
@@ -444,38 +444,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-06-15"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-12",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/anthropic-public-record",
-          "title_en": "Results from first Anthropic Public Record",
-          "title_zh": "Results from first Anthropic Public Record",
-          "summary_zh": "第一个 Anthropic 公共记录的结果\n\n公告\n第一个 Anthropic 公共记录的结果\n2026年6月12日\n我们正在进行一项新的调查系列 Anthropic Public Record，以了解公众对AI的看法和感受，并提供第一波调查结果的快照，该调查在11月和12月2025年与近52,000名美国人进行。\n我们发现：\n近一半 (48%) 的美国人将治疗癌症或阿尔茨海默氏症等疾病列为他们对人工智能的三大希望之一，其次是帮助残疾人",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-06-12"
-        },
-        {
-          "url": "https://www.anthropic.com/news/fable-mythos-access",
-          "title_en": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-          "title_zh": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-          "summary_zh": "关于美国政府暂停访问Fable 5和Mythos 5的指令的声明\n\n公告\n关于美国政府暂停访问Fable 5和Mythos 5的指令的声明\n2026年6月12日\n美国政府以国家安全当局为由，发布了一项出口管制指令，禁止任何外国国民，无论是在美国境内还是境外，包括外国国民 Anthropic 雇员，访问Fable 5和Mythos 5。这个命令的净效果是，我们必须突然禁用寓言5和神话5\n全部\n我们的客户确保合规。\n事故",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-06-12"
-        },
-        {
-          "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
-          "title_en": "TCS and Anthropic partner to bring Claude to regulated industries",
-          "title_zh": "TCS and Anthropic partner to bring Claude to regulated industries",
-          "summary_zh": "TCS和 Anthropic 合作伙伴将 Claude 带入受监管行业\n\n公告\nTCS和 Anthropic 合作伙伴将 Claude 带入受监管行业\n2026年6月12日\n我们宣布与\n塔塔咨询服务\n(TCS)，全球最大的技术服务公司之一。TCS将为其分布在56个国家的50,000名员工提供 Claude; 为金融服务、医疗保健、公共部门和其他受监管行业的客户提供 Claude 支持的产品; 并加入\nClaude 合作伙伴网络，\n我们的咨询和服务网络",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-06-12"
         }
       ]
     }
