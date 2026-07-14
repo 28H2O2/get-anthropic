@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/research/claude-values-models-languages": {
+    "title": "How Claude's values vary by model and language",
+    "date": "2026-07-13",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail": {
+    "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
+    "date": "2026-07-13",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night": {
     "title": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
     "date": "2026-07-10",
@@ -28,6 +40,11 @@
     "date": "2026-07-09",
     "source": "anthropic_news",
     "processed": true
+  },
+  "https://www.anthropic.com/research/claude-plays-robotics": {
+    "title": "",
+    "date": "2026-07-09",
+    "source": "anthropic_research"
   },
   "https://www.anthropic.com/research/off-switch-dual-use": {
     "title": "An off switch for dual use knowledge in AI models",

@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-07-14",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-13",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/claude-values-models-languages",
+          "title_en": "How Claude's values vary by model and language",
+          "title_zh": "How Claude's values vary by model and language",
+          "summary_zh": "Claude 的值如何因模型和语言而异\n\n社会影响\nClaude 的跨模型和跨语言值\n2026年7月13日\n当有人问 Claude 一个没有普遍正确答案的问题时 -- 比如说，是否接受一份新工作或者如何处理与朋友的冲突 -- Claude 的回答必然反映了某些价值观。\n一\n我们希望 Claude 反映的值在\nClaude 的宪法\n,但没有任何文档可以预测每天发生的数百万次对话中可能出现的每一个价值\nClaude.ai\n。在",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-07-13"
+        },
+        {
+          "url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
+          "title_en": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
+          "title_zh": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
+          "summary_zh": "在前沿领域深耕：赫比亚如何打造金融尽职调查的人工智能，做到一丝不苟、无一疏漏\n\n在前沿领域深耕：赫比亚如何打造金融尽职调查的人工智能，做到一丝不苟、无一疏漏\nHebbia为金融专业人士构建研究和勤奋软件，并根据与专家结果相关的财务评估测试每个新模型。在测试中，Claude Fable 5发布了其研究团队记录的最大准确性增益，并跟踪了先前模型不断下降的复杂查询。\n类别\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年7月13日\n阅读时间\n五\n分钟\n分享\n复制链接\n超文本传输协议",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-13"
+        }
+      ]
+    },
     {
       "date": "2026-07-10",
       "articles": [
@@ -53,6 +76,15 @@
           "summary_zh": "UST将 Claude 带入物理AI\n\n案例研究\nUST将 Claude 带入物理AI\n2026年7月9日\n在工厂承诺制造数百万个芯片之前，工程师会在工厂中对设计进行压力测试。在产品发货之前，装配线上的故障必须在召回之前被发现。当人工智能完成这种工作时，它被称为物理人工智能: 内置在生产人们使用的东西的设备和工程过程中的智能。\n我们正在与\n中国科学技术大学\n,一家技术和工程服务公司",
           "source": "Anthropic News",
           "source_key": "anthropic_news",
+          "date": "2026-07-09"
+        },
+        {
+          "url": "https://www.anthropic.com/research/claude-plays-robotics",
+          "title_en": "claude-plays-robotics",
+          "title_zh": "claude-plays-robotics",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
           "date": "2026-07-09"
         }
       ]
@@ -1899,6 +1931,18 @@
     ],
     "anthropic_research": [
       {
+        "url": "https://www.anthropic.com/research/claude-values-models-languages",
+        "title": "How Claude's values vary by model and language",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-07-13"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-plays-robotics",
+        "title": "claude-plays-robotics",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-07-09"
+      },
+      {
         "url": "https://www.anthropic.com/research/off-switch-dual-use",
         "title": "An off switch for dual use knowledge in AI models",
         "desc": "Anthropic 研究论文与技术博客",
@@ -3712,6 +3756,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
+        "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-13"
+      },
       {
         "url": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
         "title": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
