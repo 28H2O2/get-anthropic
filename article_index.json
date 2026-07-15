@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/news/canadian-ai-research": {
+    "title": "Anthropic commits $10 million to Canadian AI research",
+    "date": "2026-07-14",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/claude-for-teachers": {
+    "title": "Introducing Claude for Teachers",
+    "date": "2026-07-14",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/how-canada-uses-claude": {
+    "title": "How Canada uses Claude",
+    "date": "2026-07-14",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://www.anthropic.com/research/claude-values-models-languages": {
     "title": "How Claude's values vary by model and language",
     "date": "2026-07-13",
@@ -1681,6 +1699,11 @@
   },
   "https://alignment.anthropic.com/2026/modular-pretraining/": {
     "title": "Modular Pretraining Enables Access Control",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/": {
+    "title": "Agentic Misalignment in Summer 2026",
     "date": "2026-01-01",
     "source": "alignment"
   },
