@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-07-15",
+  "generated_at": "2026-07-16",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-15",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
+          "title_en": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
+          "title_zh": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
+          "summary_zh": "在前沿工作: 为什么Base44信任 Claude 寓言5最具挑战性的工程工作\n\n在前沿工作: 为什么Base44信任 Claude 寓言5最具挑战性的工程工作\nBase44的产品负责人Yoav Orlev作为其第一位员工加入了vibe编码平台，自 Sonnet 4以来，他的团队一直以 Claude 模型为基础。这就是为什么他认为 Claude Fable 5是第一个以高级工程师的方式对软件进行推理的模型，这使他的团队的其他成员得以自由构建。\n类别\n企业人工智能\n产品\nClaude 平台\n日期\n2026年7月15日\n已读",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-15"
+        }
+      ]
+    },
     {
       "date": "2026-07-14",
       "articles": [
@@ -494,20 +508,6 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-06-16"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-15",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
-          "title_en": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
-          "title_zh": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
-          "summary_zh": "与 Opus 4.7 Claude 代码黑客马拉松的获胜者见面\n\n与 Opus 4.7 Claude 代码黑客马拉松的获胜者见面\n从医疗培训和电子维修到编码教育和工厂维护，请参阅我们最新的虚拟黑客马拉松获胜者构建的项目。\n获取 Claude 代码\n桌面\nVS代码\n捷恩思\n在web上\n松弛\ncurl -fsSL\nhttps:// claude.ai/install.sh\n| bash\n将命令复制到剪贴板\n尔姆\nhttps:// claude.ai/install.ps1\n| 交互式外壳\n将命令复制到剪贴板\n或阅读\n文档\n尝试 Claude 代码\n尝试 Claude 代码\n尝试 Claude 代码\n德维尔",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-06-15"
         }
       ]
     }
@@ -3806,6 +3806,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
+        "title": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-15"
+      },
       {
         "url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
         "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
