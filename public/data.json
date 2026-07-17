@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-07-16",
+  "generated_at": "2026-07-17",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-16",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/ai-code-migration",
+          "title_en": "How Anthropic runs large-scale code migrations with Claude Code",
+          "title_zh": "How Anthropic runs large-scale code migrations with Claude Code",
+          "summary_zh": "Anthropic 如何使用 Claude 代码运行大规模代码迁移\n\nAnthropic 如何使用 Claude 代码运行大规模代码迁移\n使用AI代理运行大型代码迁移的分步指南-包括Bun的百万行Zig-to-Rust端口。\n类别\nClaude 代码\n企业人工智能\n产品\nClaude 代码\n日期\n2026年7月16日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ ai代码迁移\n代码迁移，将生产代码库移植到一种新语言的项目，直到最近都是多年的努力。\n在过去的一个月里，Anth的个人开发人员",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-16"
+        },
+        {
+          "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+          "title_en": "Working with Claude Fable 5 in Claude Cowork",
+          "title_zh": "Working with Claude Fable 5 in Claude Cowork",
+          "summary_zh": "使用 Claude Cowork中的 Claude 寓言5\n\n使用 Claude Cowork中的 Claude 寓言5\nClaude 《寓言5》可以独自完成漫长而复杂的工作。以下是如何在 Claude Cowork中最大限度地利用它，从一点点想法开始，到完成工作。\n类别\n企业人工智能\n产品\nClaude 考克\n日期\n2026年7月16日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ working-with-claude-fable-5-in-claude-cowork\nClaude 寓言5是 Anthropic 的\n最有能力的一般可用模型\n,专为长时间运行、复杂和asyn而构建",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-16"
+        }
+      ]
+    },
     {
       "date": "2026-07-15",
       "articles": [
@@ -494,20 +517,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-06-17"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-16",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/claude-code-expertise",
-          "title_en": "Agentic coding and persistent returns to expertise",
-          "title_zh": "Agentic coding and persistent returns to expertise",
-          "summary_zh": "代理编码和持续的专业知识回报\n\n经济研究\n代理编码和持续的专业知识回报\n2026年6月16日\n在PDF中阅读\n主要发现\n在……的基础上\n先前\n工作\n,我们介绍了一个研究交互式代理编码的框架，该框架基于\n隐私保护分析\n2025年10月和2026年4月之间的约400,000个 Claude 代码会话。我们评估任务的组成、人工智能协作和成功率。\n在典型的会议中，人们做出大部分计划决策 (做什么)，而 Claude 做出大部分计划决策",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-06-16"
         }
       ]
     }
@@ -3806,6 +3815,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/ai-code-migration",
+        "title": "How Anthropic runs large-scale code migrations with Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-16"
+      },
+      {
+        "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+        "title": "Working with Claude Fable 5 in Claude Cowork",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-16"
+      },
       {
         "url": "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
         "title": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
