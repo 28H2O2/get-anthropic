@@ -1,4 +1,16 @@
 {
+  "https://claude.com/blog/working-at-the-frontier-cursor": {
+    "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
+    "date": "2026-07-17",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/ciso-guide-to-agentic-ai": {
+    "title": "Zero risk isn't the job: a CISO's guide to agentic AI",
+    "date": "2026-07-17",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/ai-code-migration": {
     "title": "How Anthropic runs large-scale code migrations with Claude Code",
     "date": "2026-07-16",
