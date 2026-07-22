@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/news/skills": {
+    "title": "Introducing Agent Skills | Claude by Anthropic",
+    "date": "2026-07-21",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle": {
+    "title": "How Anthropic secures its AI-native software development lifecycle",
+    "date": "2026-07-21",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code": {
+    "title": "How Datadog built a “universal machine tool” for Claude Code",
+    "date": "2026-07-21",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/rare-disease-research-grants": {
     "title": "Apply for Anthropic’s AI for Science rare disease research grants",
     "date": "2026-07-20",

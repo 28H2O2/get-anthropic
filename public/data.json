@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-07-21",
+  "generated_at": "2026-07-22",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-21",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/skills",
+          "title_en": "Introducing Agent Skills | Claude by Anthropic",
+          "title_zh": "Introducing Agent Skills | Claude by Anthropic",
+          "summary_zh": "由 Anthropic 介绍座席技能 | Claude\n\n介绍代理技能\n类别\n产品公告\n产品\nClaude 平台\n日期\n2025年10月16日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/skills\n更新：\n我们添加了\n全组织技能管理\n，一个\n目录\n具有合作伙伴建立的技能，并已发布\n代理技能\n作为跨平台可移植性的开放标准。(2025年12月18日)\nClaude 现在可以使用\n技能\n改进它执行特定任务的方式。技能是包含指令、脚本和",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-07-21"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+          "title_en": "How Anthropic secures its AI-native software development lifecycle",
+          "title_zh": "How Anthropic secures its AI-native software development lifecycle",
+          "summary_zh": "Anthropic 如何保护其AI原生软件开发生命周期\n\nAnthropic 如何保护其AI原生软件开发生命周期\nAnthropic CISO副手Jason Clinton详细介绍了安全工程团队如何保护具有合并代码的AI创作80% 的SDLC。\n类别\nClaude 代码\n企业人工智能\n代理人\n产品\nClaude 代码\nClaude 标签\nClaude 企业\n日期\n2026年7月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类安全-它-人工智能-原生-软件-开发-生命周期\n{{1 }}, 代码量和部署速度",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-21"
+        },
+        {
+          "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
+          "title_en": "How Datadog built a “universal machine tool” for Claude Code",
+          "title_zh": "How Datadog built a “universal machine tool” for Claude Code",
+          "summary_zh": "Datadog如何为 Claude 代码构建 “通用机床”\n\nDatadog如何为 Claude 代码构建 “通用机床”\nDatadog具有用于确定性内核的代理写入规范，以编写应用程序代码。\n‍\n类别\nClaude 代码\n企业人工智能\n产品\nClaude 代码\n日期\n2026年7月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-datadog-内置-通用-机床-工具-用于-claude-代码\n代理商，机械化和工业化\n所有Datadog工程师都使用AI编码工具进行生产代码，并且 Claude 代码驱动至少两个",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-21"
+        }
+      ]
+    },
     {
       "date": "2026-07-20",
       "articles": [
@@ -478,6 +510,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/skills",
+        "title": "Introducing Agent Skills | Claude by Anthropic",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-07-21"
+      },
       {
         "url": "https://www.anthropic.com/news/rare-disease-research-grants",
         "title": "Apply for Anthropic’s AI for Science rare disease research grants",
@@ -3776,6 +3814,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+        "title": "How Anthropic secures its AI-native software development lifecycle",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-21"
+      },
+      {
+        "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
+        "title": "How Datadog built a “universal machine tool” for Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-21"
+      },
       {
         "url": "https://claude.com/blog/working-at-the-frontier-rakuten",
         "title": "Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5",
