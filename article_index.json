@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/news/anthropic-economic-index-connector": {
+    "title": "The Anthropic Economic Index connector",
+    "date": "2026-07-22",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/economic-futures-research-fund-agenda": {
+    "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+    "date": "2026-07-22",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills": {
+    "title": "Building verification loops in Claude Code with skills",
+    "date": "2026-07-22",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude": {
+    "title": "How Outtake built a cyber investigator on Claude",
+    "date": "2026-07-22",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/skills": {
     "title": "Introducing Agent Skills | Claude by Anthropic",
     "date": "2026-07-21",
@@ -15,6 +39,12 @@
     "title": "How Datadog built a “universal machine tool” for Claude Code",
     "date": "2026-07-21",
     "source": "claude_blog",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/donation-public-first-action": {
+    "title": "Donating another $20 million to Public First Action",
+    "date": "2026-07-21",
+    "source": "anthropic_news",
     "processed": true
   },
   "https://www.anthropic.com/news/rare-disease-research-grants": {

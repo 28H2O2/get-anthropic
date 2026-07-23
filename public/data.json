@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-07-22",
+  "generated_at": "2026-07-23",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-22",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+          "title_en": "The Anthropic Economic Index connector",
+          "title_zh": "The Anthropic Economic Index connector",
+          "summary_zh": "Anthropic 经济指标连接器\n\n产品\n公告\n经济研究\n向 Claude 询问 Anthropic 经济指数\n2026年7月22日\n人们对人工智能和工作有一些难题: 哪些工作会改变，哪些任务正在自动化，以及这对他们自己的领域意味着什么。这\nAnthropic 经济指数\n存在以帮助用真实数据回答它们。今天，我们推出了 Claude 的 Anthropic 经济指数连接器，任何人都可以直接浏览这些数据。\nAnthropic 经济指数衡量人工智能的实际使用情况",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+          "title_en": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+          "title_zh": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+          "summary_zh": "通过 Anthropic 经济期货研究基金支持雄心勃勃的外部研究\n\n经济研究\n经济期货研究基金研究议程\n2026年7月22日\n我们正在分享 Anthropic 经济期货研究基金的研究议程。我们向该基金投入2亿美元，用于支持针对人工智能经济影响的应对举措开展具有前瞻性的外部研究。\n通过该基金支持的研究，我们希望研究哪些项目可以使经济更加灵活和有弹性，确保分享人工智能的好处，并将危害降至最低。",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
+          "title_en": "Building verification loops in Claude Code with skills",
+          "title_zh": "Building verification loops in Claude Code with skills",
+          "summary_zh": "使用技能在 Claude 代码中构建验证循环\n\n使用技能在 Claude 代码中构建验证循环\n如何将手动检查转换为技能，以便 Claude 关闭自己的反馈循环。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年7月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 建筑-验证-循环-在-克劳德-代码-与-技能\n大多数\n代理编码\n会话遵循循环: 您请求更改、 Claude 收集上下文、采取操作、验证结果，并在需要时返回以收集其他上下文。\nVerif",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude",
+          "title_en": "How Outtake built a cyber investigator on Claude",
+          "title_zh": "How Outtake built a cyber investigator on Claude",
+          "summary_zh": "Outtack如何在 Claude 上建立网络调查员\n\nOuttack如何在 Claude 上建立网络调查员\nOuttack如何确保多小时的代理会话保持正常运行，以发现攻击网络操作\n类别\n代理人\nClaude 代码\n产品\nClaude 代码\nClaude 平台\n日期\n2026年7月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何构建claude上的网络调查员\n在我们的系列中，\n创业公司如何用 {{0 }},\n我们重点介绍了初创公司如何通过AI改变其行业。在本文中，我们分享了outtack如何构建",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-22"
+        }
+      ]
+    },
     {
       "date": "2026-07-21",
       "articles": [
@@ -30,6 +71,15 @@
           "summary_zh": "Datadog如何为 Claude 代码构建 “通用机床”\n\nDatadog如何为 Claude 代码构建 “通用机床”\nDatadog具有用于确定性内核的代理写入规范，以编写应用程序代码。\n‍\n类别\nClaude 代码\n企业人工智能\n产品\nClaude 代码\n日期\n2026年7月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-datadog-内置-通用-机床-工具-用于-claude-代码\n代理商，机械化和工业化\n所有Datadog工程师都使用AI编码工具进行生产代码，并且 Claude 代码驱动至少两个",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-07-21"
+        },
+        {
+          "url": "https://www.anthropic.com/news/donation-public-first-action",
+          "title_en": "Donating another $20 million to Public First Action",
+          "title_zh": "Donating another $20 million to Public First Action",
+          "summary_zh": "向公众第一行动再捐赠2000万美元\n\n公告\nAnthropic 正在向Public First Action再捐赠2000万美元\n2026年7月21日\n我们将额外捐款2000万美元\n公众第一行动\n,使我们的总支持达到4000万美元。公共首倡是一家无党派组织，致力于向公众普及人工智能相关知识，并与那些认真推动建立健全、审慎的人工智能安全机制的共和党人、民主党人及独立人士携手合作。我们的两项捐款都是专门用于支持公共第一行动的公共教育",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
           "date": "2026-07-21"
         }
       ]
@@ -492,27 +542,31 @@
           "date": "2026-06-23"
         }
       ]
-    },
-    {
-      "date": "2026-06-22",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
-          "title_en": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
-          "title_zh": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry",
-          "summary_zh": "AWS、Google Cloud和Microsoft Foundry上的完整 Claude 桌面体验\n\nAWS、Google Cloud和Microsoft Foundry上的完整 Claude 桌面体验\n类别\n企业AI\n产品\nClaude 企业\n日期\n2026年6月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 全克劳德桌面体验aws-google-cloud-and-microsoft-foundry\n通过AWS、Google Cloud和Microsoft Foundry使用 Claude 桌面的组织现在可以在一个应用程序中获得完整的桌面体验-聊天、 Claude Cowork和 Claude 代码。\n现在，IT团队可以将推理保留在内部",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-06-22"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
       {
+        "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+        "title": "The Anthropic Economic Index connector",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-07-22"
+      },
+      {
+        "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+        "title": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-07-22"
+      },
+      {
         "url": "https://www.anthropic.com/news/skills",
         "title": "Introducing Agent Skills | Claude by Anthropic",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-07-21"
+      },
+      {
+        "url": "https://www.anthropic.com/news/donation-public-first-action",
+        "title": "Donating another $20 million to Public First Action",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-07-21"
       },
@@ -3814,6 +3868,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
+        "title": "Building verification loops in Claude Code with skills",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-22"
+      },
+      {
+        "url": "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude",
+        "title": "How Outtake built a cyber investigator on Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-22"
+      },
       {
         "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
         "title": "How Anthropic secures its AI-native software development lifecycle",
