@@ -1,4 +1,16 @@
 {
+  "https://claude.com/blog/four-role-based-claude-certifications": {
+    "title": "Four role-based certifications for the people who put Claude to work for customers",
+    "date": "2026-07-23",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/think-through-hard-problems-in-voice-mode": {
+    "title": "Think through hard problems in voice mode",
+    "date": "2026-07-23",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/anthropic-economic-index-connector": {
     "title": "The Anthropic Economic Index connector",
     "date": "2026-07-22",
@@ -908,6 +920,11 @@
     "date": "2026-04-28",
     "source": "claude_blog",
     "processed": true
+  },
+  "https://www.anthropic.com/news/claude-for-creative-work-dev": {
+    "title": "",
+    "date": "2026-04-28",
+    "source": "anthropic_news"
   },
   "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand": {
     "title": "Anthropic Sydney office",

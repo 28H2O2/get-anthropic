@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-07-23",
+  "generated_at": "2026-07-24",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-23",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/four-role-based-claude-certifications",
+          "title_en": "Four role-based certifications for the people who put Claude to work for customers",
+          "title_zh": "Four role-based certifications for the people who put Claude to work for customers",
+          "summary_zh": "针对让 Claude 为客户工作的人员的四项基于角色的认证\n\n针对让 Claude 为客户工作的人员的四项基于角色的认证\n类别\n企业AI\n产品\nClaude 个应用程序\nClaude 平台\n日期\n2026年7月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 四-基于角色-claude-认证\n我们正在扩展 Claude 认证计划，提供三个新的基于角色的认证，涵盖客户部署AI所需的整个团队。Anthropic 的目标是成为AI支持的领导者。为了支持这一目标，我们推出了\nC",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-23"
+        },
+        {
+          "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+          "title_en": "Think through hard problems in voice mode",
+          "title_zh": "Think through hard problems in voice mode",
+          "summary_zh": "在语音模式下思考难题\n\n在语音模式下思考难题\n从今天开始，语音模式将在 Claude {{4 }}, Claude {{2 }}, 和 Claude {{3 }}, 可以使用您连接的工具 (如Gmail和Slack)，并使用更多语言。\n类别\n产品公告\n产品\nClaude 个应用\n日期\n2026年7月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 以语音模式思考难题\n有些问题你无法通过打字。语音模式用于练习重要的音调会议，决定",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-23"
+        }
+      ]
+    },
     {
       "date": "2026-07-22",
       "articles": [
@@ -528,20 +551,6 @@
           "date": "2026-06-24"
         }
       ]
-    },
-    {
-      "date": "2026-06-23",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/introducing-claude-tag",
-          "title_en": "Introducing Claude Tag",
-          "title_zh": "Introducing Claude Tag",
-          "summary_zh": "介绍 Claude 标签\n\n产品\n介绍 Claude 标签\n2026年6月23日\nClaude 标记是团队使用 Claude 的新方法。\n我们从Slack开始，Claude 可以作为团队成员加入。授予 Claude 对选定通道的访问权限，并将其连接到您选择的任何工具、数据甚至代码库。然后，频道中的任何人都可以标记\n@{{ 0}}\n中，并在他们专注于其他工作时将任务委派给it。Claude 通过记住其所处渠道的相关信息来构建上下文，并可以计划要完成的任务",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-06-23"
-        }
-      ]
     }
   ],
   "all_urls": {
@@ -801,6 +810,12 @@
       {
         "url": "https://www.anthropic.com/news/claude-for-creative-work",
         "title": "Claude for Creative Work",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-04-28"
+      },
+      {
+        "url": "https://www.anthropic.com/news/claude-for-creative-work-dev",
+        "title": "claude-for-creative-work-dev",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-04-28"
       },
@@ -3868,6 +3883,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/four-role-based-claude-certifications",
+        "title": "Four role-based certifications for the people who put Claude to work for customers",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-23"
+      },
+      {
+        "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+        "title": "Think through hard problems in voice mode",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-23"
+      },
       {
         "url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
         "title": "Building verification loops in Claude Code with skills",
