@@ -1,4 +1,34 @@
 {
+  "https://www.anthropic.com/news/claude-opus-5": {
+    "title": "Introducing Claude Opus 5",
+    "date": "2026-07-24",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/project-pilot": {
+    "title": "Project Pilot: Can AI models fly drones?",
+    "date": "2026-07-24",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them": {
+    "title": "How the product designer who built Claude Design uses it to explore ideas before building them",
+    "date": "2026-07-24",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models": {
+    "title": "The new rules of context engineering for Claude 5 generation models",
+    "date": "2026-07-24",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case": {
+    "title": "Claude models explained: choosing the best model for your use case",
+    "date": "2026-07-24",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/four-role-based-claude-certifications": {
     "title": "Four role-based certifications for the people who put Claude to work for customers",
     "date": "2026-07-23",
