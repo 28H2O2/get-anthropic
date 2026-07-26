@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-07-26",
   "lookback_days": 30,
   "digests": [
     {
@@ -562,20 +562,6 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-06-26"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-25",
-      "articles": [
-        {
-          "url": "https://platform.claude.com/cookbook/evals-agentic-search-reproduce-agentic-search-benchmarks",
-          "title_en": "Reproduce Claude's agentic search benchmark scores in the Messages API",
-          "title_zh": "Reproduce Claude's agentic search benchmark scores in the Messages API",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-06-25"
         }
       ]
     }
