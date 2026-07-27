@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26",
+  "generated_at": "2026-07-27",
   "lookback_days": 30,
   "digests": [
     {
@@ -548,20 +548,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-06-29"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-26",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-          "title_en": "Anthropic Economic Index report: Cadences",
-          "title_zh": "Anthropic Economic Index report: Cadences",
-          "summary_zh": "Anthropic 经济指数报告: Cadences\n\n经济研究\nAnthropic 经济指数报告: Cadences\n2026年6月26日\n在PDF中阅读\n引言\n一年前，大多数 Claude 的使用形式是用户和助理之间的对话。随着 Claude 代码和Cowork的快速增长，Claude 会话现在越来越多地由长时间运行的代理任务组成。聊天记录不再完全捕捉到人们如何使用人工智能，我们研究 Claude 对经济影响的方法也不得不适应。\n为了跟上步伐，我们对我们的",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-06-26"
         }
       ]
     }
