@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-07-27",
+  "generated_at": "2026-07-28",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-27",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/cognizant-anthropic",
+          "title_en": "Expanding our partnership with Cognizant | Anthropic",
+          "title_zh": "Expanding our partnership with Cognizant | Anthropic",
+          "summary_zh": "扩大我们与Cognizant的合作关系 | Anthropic\n\n公告\nCognizant和 Anthropic 扩大合作关系，将 Claude 带给企业客户\n2026年7月27日\n我们正在扩大我们的\n伙伴关系\n与\n认知\n,全球最大的技术服务公司之一。\nCognizant在为制造业、生命科学、保险和其他行业的客户构建和运行的系统中使用 Claude。随着我们合作关系的扩展，它将 Claude 嵌入到自己的业务和工程平台中，扩展了 Claude 认证的wo",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-07-27"
+        },
+        {
+          "url": "https://www.anthropic.com/news/position-open-weights-models",
+          "title_en": "Our position on open-weights models",
+          "title_zh": "Our position on open-weights models",
+          "summary_zh": "我们对开放权重模型的立场\n\n公告\n我们对开放权重模型的立场\n2026年7月27日\nAnthropic 首席执行官Dario Amodei的帖子\n在过去的几天里，有很多关于开放权重模型的讨论，尤其是来自中国的模型。报道称，一些美国官员\n考虑禁止\n美国公司使用中国开放式权重模型。作为回应，许多科技公司已经签署了\n一封信\n支持开放权重模型，甚至有人指责 Anthropic 想要禁止开放权重模型",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-07-27"
+        }
+      ]
+    },
     {
       "date": "2026-07-24",
       "articles": [
@@ -554,6 +577,18 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/cognizant-anthropic",
+        "title": "Expanding our partnership with Cognizant | Anthropic",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-07-27"
+      },
+      {
+        "url": "https://www.anthropic.com/news/position-open-weights-models",
+        "title": "Our position on open-weights models",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-07-27"
+      },
       {
         "url": "https://www.anthropic.com/news/claude-opus-5",
         "title": "Introducing Claude Opus 5",

@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/cognizant-anthropic": {
+    "title": "Expanding our partnership with Cognizant | Anthropic",
+    "date": "2026-07-27",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/position-open-weights-models": {
+    "title": "Our position on open-weights models",
+    "date": "2026-07-27",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-opus-5": {
     "title": "Introducing Claude Opus 5",
     "date": "2026-07-24",
