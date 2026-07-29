@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-07-28",
+  "generated_at": "2026-07-29",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-07-28",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+          "title_en": "Discovering cryptographic weaknesses with Claude",
+          "title_zh": "Discovering cryptographic weaknesses with Claude",
+          "summary_zh": "使用 Claude 发现加密漏洞\n\n前沿红队\n使用 Claude 发现加密漏洞\n2026年7月28日\n摘要\n使用 Claude Mythos Preview，Anthropic 的研究人员发现了攻击加密算法 (用于保持在线数据私密性的数学方法) 的改进方法。第一次攻击大大削弱了HAWK，这是一种为后量子世界构建的数字签名方案。第二种方法确定了一种攻击回合减少的AES的新方法，这是使用最广泛的对称密码。这些是实质上的",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-07-28"
+        },
+        {
+          "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+          "title_en": "Bringing MCP 2026-07-28 to Claude",
+          "title_zh": "Bringing MCP 2026-07-28 to Claude",
+          "summary_zh": "将MCP 2026-07-28带到 Claude\n\n将MCP 2026-07-28带到 Claude\n类别\n产品公告\n产品\nClaude 个应用\nClaude 平台\n日期\n2026年7月28日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ bringing-mcp-2026-07-28-to-claude\n模型上下文协议的第五个规范版本，\nMCP 2026-07-28\n，\n是今天的生活。最新的规范将MCP转移到无状态核心，同时加强授权和毕业的官方扩展。正在对 Claude 个产品推出支持。\n什么是新的MCP\n‍\nMCP最近sur",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-07-28"
+        }
+      ]
+    },
     {
       "date": "2026-07-27",
       "articles": [
@@ -2092,6 +2115,12 @@
     ],
     "anthropic_research": [
       {
+        "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+        "title": "Discovering cryptographic weaknesses with Claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-07-28"
+      },
+      {
         "url": "https://www.anthropic.com/research/project-pilot",
         "title": "Project Pilot: Can AI models fly drones?",
         "desc": "Anthropic 研究论文与技术博客",
@@ -3929,6 +3958,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+        "title": "Bringing MCP 2026-07-28 to Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-07-28"
+      },
       {
         "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
         "title": "How the product designer who built Claude Design uses it to explore ideas before building them",

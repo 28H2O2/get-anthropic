@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": {
+    "title": "Discovering cryptographic weaknesses with Claude",
+    "date": "2026-07-28",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude": {
+    "title": "Bringing MCP 2026-07-28 to Claude",
+    "date": "2026-07-28",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/cognizant-anthropic": {
     "title": "Expanding our partnership with Cognizant | Anthropic",
     "date": "2026-07-27",
