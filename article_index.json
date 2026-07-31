@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
+    "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+    "date": "2026-07-30",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": {
     "title": "Discovering cryptographic weaknesses with Claude",
     "date": "2026-07-28",
