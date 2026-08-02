@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01",
+  "generated_at": "2026-08-02",
   "lookback_days": 30,
   "digests": [
     {
@@ -521,29 +521,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-06"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-          "title_en": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-          "title_zh": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-          "summary_zh": "关于寓言5的网络保障措施和我们的越狱框架的更多细节\n\n公告\n关于寓言5的网络保障措施和我们的越狱框架的更多细节\n2026年7月2日\nClaude 寓言5已\n重新部署\n现在可供全球所有用户使用。我们借此机会就两个方面作进一步说明。\n首先，我们提供有关\n网络安全保障措施\n-具体来说，\n安全分类器\n-我们推出的模型。这些是伴随模型的AI系统，用于检测和阻止危险 (或潜在危险) c",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-02"
-        },
-        {
-          "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-          "title_en": "Giving admins more visibility and control over Claude spend",
-          "title_zh": "Giving admins more visibility and control over Claude spend",
-          "summary_zh": "为管理员提供更多的可见性和对 Claude 支出的控制\n\n为管理员提供更多的可见性和对 Claude 支出的控制\n新的分析和成本控制可用于 Claude Enterprise。\n类别\n产品公告\n产品\nClaude 企业\n日期\n2026年7月2日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 给予-管理员-更多-可见性和控制-克劳德-使用和支出\n我们将为 Claude Enterprise引入更丰富的管理分析、模型级别权利和支出警报。随着 Claude 承担越来越困难和复杂的代理",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-02"
         }
       ]
     }
