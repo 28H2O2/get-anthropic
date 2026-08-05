@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/tino-cuellar": {
+    "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
+    "date": "2026-08-04",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude": {
+    "title": "A guide to cost visibility and control in Claude",
+    "date": "2026-08-04",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": {
     "title": "Investigating three real-world incidents in our cybersecurity evaluations",
     "date": "2026-07-30",

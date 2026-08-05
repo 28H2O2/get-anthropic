@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-08-04",
+  "generated_at": "2026-08-05",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-04",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/tino-cuellar",
+          "title_en": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
+          "title_zh": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
+          "summary_zh": "Tino Cuellar加入 Anthropic 担任首席全球事务主管\n\n公告\nMariano-florentino (Tino) cu é llar将加入 Anthropic 担任首席全球事务主管\n2026年8月4日\n马里亚诺-弗洛伦蒂诺 (Tino) cu é llar将加入 Anthropic，担任其首任首席全球事务官，领导公司在政策、战略性国际参与和全球政府关系方面的工作。\n蒂诺的职业生涯横跨法律、科技、国际安全以及国际、国家和州各级公共机构。他最近辞去了",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-08-04"
+        },
+        {
+          "url": "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude",
+          "title_en": "A guide to cost visibility and control in Claude",
+          "title_zh": "A guide to cost visibility and control in Claude",
+          "summary_zh": "Claude 中的成本可见性和控制指南\n\nClaude 中的成本可见性和控制指南\n了解如何通过IT管理员的成本控制来优化 Claude Enterprise的成本。\n类别\n企业人工智能\n产品\nClaude 企业\n日期\n2026年8月4日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 成本指南-可见性和控制-在克劳德\n企业以多种方式使用 Claude，从向数千名员工推广it，到在 Claude 平台上构建应用程序的初创公司和单个团队。成本对他们所有人都很重要。\n在th中",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-04"
+        }
+      ]
+    },
     {
       "date": "2026-07-30",
       "articles": [
@@ -527,6 +550,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/tino-cuellar",
+        "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-08-04"
+      },
       {
         "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
         "title": "Investigating three real-world incidents in our cybersecurity evaluations",
@@ -3891,6 +3920,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude",
+        "title": "A guide to cost visibility and control in Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-04"
+      },
       {
         "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
         "title": "Bringing MCP 2026-07-28 to Claude",
