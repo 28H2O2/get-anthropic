@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/claude-enterprise-inference-hooks": {
+    "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
+    "date": "2026-08-05",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/tino-cuellar": {
     "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
     "date": "2026-08-04",
