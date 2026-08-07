@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude": {
+    "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+    "date": "2026-08-06",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/claude-enterprise-inference-hooks": {
     "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
     "date": "2026-08-05",
