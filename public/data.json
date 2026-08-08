@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-08-07",
+  "generated_at": "2026-08-08",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-07",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+          "title_en": "Improving Fable 5 Safeguards",
+          "title_zh": "Improving Fable 5 Safeguards",
+          "summary_zh": "改进寓言5保障措施\n\n产品\n公告\n改善寓言5的生物学保障措施\n2026年8月7日\n我们正在对 Claude Fable 5的生物学保护措施进行更新，以大幅减少误报。Fable 5用户现在将体验到更少的 “回退”-系统在进行生物学相关查询后切换到功能较弱的模型。在我们的测试中，此更新减少了\n生物学相关\n在我们的产品表面上回退了大约85% %。\n一\n因此，寓言5将能够协助更广泛的bi",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-08-07"
+        },
+        {
+          "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+          "title_en": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+          "title_zh": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+          "summary_zh": "自动模式现在是Pro、Max和团队计划的 Claude 代码中的默认模式\n\n自动模式现在是Pro、Max和团队计划的 Claude 代码中的默认模式\nClaude 默认情况下，Pro、Max和Team计划的代码将很快运行自动模式，从而实现运行时间更长的自主工作，并在我们的测试中捕获比手动审查更危险的命令。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年8月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 自动模式-默认-在-克劳德-代码\n我们正在制作\n自动模式\nClaude 代码中的默认值。从8月14日开始，新的sessio",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-07"
+        },
+        {
+          "url": "https://claude.com/blog/auto-mode-in-production",
+          "title_en": "Running auto mode in production",
+          "title_zh": "Running auto mode in production",
+          "summary_zh": "在生产环境中运行自动模式\n\n在生产环境中运行自动模式\nNuro，Gusto和Garner Health的团队如何使用自动模式在生产规模上平衡速度和安全性。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年8月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 自动模式-生产中\n作者\nMolly Vorwerck\n自动模式现在是默认的\n在 Claude 代码中设置。分类器不是要求您批准代理要运行的每个命令，而是评估每个操作并阻止看起来很重要的操作",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-07"
+        }
+      ]
+    },
     {
       "date": "2026-08-06",
       "articles": [
@@ -10,6 +42,15 @@
           "title_en": "Millennium and Anthropic are building a digital risk analyst with Claude",
           "title_zh": "Millennium and Anthropic are building a digital risk analyst with Claude",
           "summary_zh": "Millennium和 Anthropic 正在与 Claude 建立数字风险分析师\n\nMillennium和 Anthropic 正在与 Claude 建立数字风险分析师\n类别\n企业人工智能\n代理\nClaude 代码\n产品\nClaude 企业\n日期\n2026年8月6日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 千年和人类正在建设数字风险分析师与克劳德\nAnthropic 正在与世界上最大的另类投资管理公司之一Millennium合作，共同开发一位数字风险分析师: 一位人工智能队友，与之合作并在其监督下工作。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-06"
+        },
+        {
+          "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+          "title_en": "Run Claude Code sessions on your own compute",
+          "title_zh": "Run Claude Code sessions on your own compute",
+          "summary_zh": "在您自己的计算上运行 Claude 个代码会话\n\n在您自己的计算上运行 Claude 个代码会话\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年8月6日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ run-claude-code-sessions-on-your-own-compute\n现在，在公共测试版中，自托管环境允许您在自己的基础结构上运行 Claude 代码会话。从web、移动设备、桌面或例程启动一个会话，它在您的网络内部运行，紧挨着您的内部服务、工具链和安全控制，而不是o",
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-06"
@@ -183,6 +224,42 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-23"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-consult-an-advisor",
+          "title_en": "managed-agents-cma-consult-an-advisor",
+          "title_zh": "managed-agents-cma-consult-an-advisor",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-07-23"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-cap-session-spend",
+          "title_en": "managed-agents-cma-cap-session-spend",
+          "title_zh": "managed-agents-cma-cap-session-spend",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-07-23"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-use-skills-from-a-repo",
+          "title_en": "managed-agents-cma-use-skills-from-a-repo",
+          "title_zh": "managed-agents-cma-use-skills-from-a-repo",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-07-23"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-pin-inference-geo",
+          "title_en": "managed-agents-cma-pin-inference-geo",
+          "title_zh": "managed-agents-cma-pin-inference-geo",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-07-23"
         }
       ]
     },
@@ -223,6 +300,15 @@
           "summary_zh": "Outtack如何在 Claude 上建立网络调查员\n\nOuttack如何在 Claude 上建立网络调查员\nOuttack如何确保多小时的代理会话保持正常运行，以发现攻击网络操作\n类别\n代理人\nClaude 代码\n产品\nClaude 代码\nClaude 平台\n日期\n2026年7月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何构建claude上的网络调查员\n在我们的系列中，\n创业公司如何用 {{0 }},\n我们重点介绍了初创公司如何通过AI改变其行业。在本文中，我们分享了outtack如何构建",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-07-22"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-08-dynamic-workflows",
+          "title_en": "claude-agent-sdk-08-dynamic-workflows",
+          "title_zh": "claude-agent-sdk-08-dynamic-workflows",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-07-22"
         }
       ]
@@ -348,6 +434,15 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-15"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-watch-subagents-live",
+          "title_en": "managed-agents-cma-watch-subagents-live",
+          "title_zh": "managed-agents-cma-watch-subagents-live",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-07-15"
         }
       ]
     },
@@ -469,42 +564,16 @@
           "date": "2026-07-09"
         }
       ]
-    },
-    {
-      "date": "2026-07-08",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/off-switch-dual-use",
-          "title_en": "An off switch for dual use knowledge in AI models",
-          "title_zh": "An off switch for dual use knowledge in AI models",
-          "summary_zh": "AI模型中两用知识的关闭开关\n\n对齐\nAI模型中两用知识的关闭开关\n2026年7月8日\n这篇文章描述了由\nAE工作室\n与 Anthropic 合作。\n除其他外，前沿人工智能模型是一个庞大的知识储备。其中一些知识是\n双重用途\n,这意味着它可以用于好的或坏的。例如，网络安全知识可以帮助修补关键的安全漏洞，或者可以用来利用它们。病毒学知识可以帮助研究人员制造疫苗，但是",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-07-08"
-        },
-        {
-          "url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
-          "title_en": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
-          "title_zh": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
-          "summary_zh": "在前沿工作: 汤森路透如何为高风险的专业工作构建人工智能\n\n在前沿工作: 汤森路透如何为高风险的专业工作构建人工智能\n汤森路透 (Thomson Reuters) 的ct0 Joel Hron多年来一直将AI放入律师和会计师信任的产品中。这就是为什么他认为 Claude 寓言5是人工智能在知识工作中可能发生的关键演变。\n‍\n类别\n企业人工智能\n产品\nClaude 平台\nClaude 企业\nClaude 代码\n日期\n2026年7月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 在前沿工作-如何-thoms",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-08"
-        },
-        {
-          "url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
-          "title_en": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
-          "title_zh": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
-          "summary_zh": "Anthropic 的营销运营团队如何使用 Claude Cowork自动生成报告和营销活动\n\nAnthropic 的营销运营团队如何使用 Claude Cowork自动生成报告和营销活动\nIan Chan和Annabel Custer在 {{1 }}, 分享他们如何自动化他们的团队过去在多个平台上手工完成的工作。\n类别\n企业人工智能\n产品\nClaude 共事\n日期\n2026年7月8日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类学-营销-运营-团队-使用-克劳德-考克-自动化-报告和活动-构建\n营销运营",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-08"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+        "title": "Improving Fable 5 Safeguards",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-08-07"
+      },
       {
         "url": "https://www.anthropic.com/news/tino-cuellar",
         "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
@@ -2934,10 +3003,58 @@
     ],
     "cookbook": [
       {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-consult-an-advisor",
+        "title": "managed-agents-cma-consult-an-advisor",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-07-23"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-cap-session-spend",
+        "title": "managed-agents-cma-cap-session-spend",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-07-23"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-use-skills-from-a-repo",
+        "title": "managed-agents-cma-use-skills-from-a-repo",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-07-23"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-pin-inference-geo",
+        "title": "managed-agents-cma-pin-inference-geo",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-07-23"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/claude-agent-sdk-08-dynamic-workflows",
+        "title": "claude-agent-sdk-08-dynamic-workflows",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-07-22"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-watch-subagents-live",
+        "title": "managed-agents-cma-watch-subagents-live",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-07-15"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-plan-big-execute-small",
+        "title": "managed-agents-cma-plan-big-execute-small",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-07-02"
+      },
+      {
         "url": "https://platform.claude.com/cookbook/evals-agentic-search-reproduce-agentic-search-benchmarks",
         "title": "Reproduce Claude's agentic search benchmark scores in the Messages API",
         "desc": "Claude 官方开发示例与教程",
         "date": "2026-06-25"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-with-mongodb-atlas",
+        "title": "managed-agents-cma-with-mongodb-atlas",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-06-22"
       },
       {
         "url": "https://platform.claude.com/cookbook/fable-5-fallback-billing-guide",
@@ -3876,8 +3993,26 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+        "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-07"
+      },
+      {
+        "url": "https://claude.com/blog/auto-mode-in-production",
+        "title": "Running auto mode in production",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-07"
+      },
+      {
         "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
         "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-06"
+      },
+      {
+        "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+        "title": "Run Claude Code sessions on your own compute",
         "desc": "Claude 官方博客（面向用户与企业）",
         "date": "2026-08-06"
       },

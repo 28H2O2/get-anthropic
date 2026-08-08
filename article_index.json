@@ -1,6 +1,30 @@
 {
+  "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards": {
+    "title": "Improving Fable 5 Safeguards",
+    "date": "2026-08-07",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/auto-mode-default-in-claude-code": {
+    "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+    "date": "2026-08-07",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/auto-mode-in-production": {
+    "title": "Running auto mode in production",
+    "date": "2026-08-07",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude": {
     "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+    "date": "2026-08-06",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute": {
+    "title": "Run Claude Code sessions on your own compute",
     "date": "2026-08-06",
     "source": "claude_blog",
     "processed": true
@@ -95,6 +119,26 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://platform.claude.com/cookbook/managed-agents-cma-consult-an-advisor": {
+    "title": "managed-agents-cma-consult-an-advisor",
+    "date": "2026-07-23",
+    "source": "cookbook"
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-cap-session-spend": {
+    "title": "managed-agents-cma-cap-session-spend",
+    "date": "2026-07-23",
+    "source": "cookbook"
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-use-skills-from-a-repo": {
+    "title": "managed-agents-cma-use-skills-from-a-repo",
+    "date": "2026-07-23",
+    "source": "cookbook"
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-pin-inference-geo": {
+    "title": "managed-agents-cma-pin-inference-geo",
+    "date": "2026-07-23",
+    "source": "cookbook"
+  },
   "https://www.anthropic.com/news/anthropic-economic-index-connector": {
     "title": "The Anthropic Economic Index connector",
     "date": "2026-07-22",
@@ -118,6 +162,11 @@
     "date": "2026-07-22",
     "source": "claude_blog",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-08-dynamic-workflows": {
+    "title": "claude-agent-sdk-08-dynamic-workflows",
+    "date": "2026-07-22",
+    "source": "cookbook"
   },
   "https://www.anthropic.com/news/skills": {
     "title": "Introducing Agent Skills | Claude by Anthropic",
@@ -184,6 +233,11 @@
     "date": "2026-07-15",
     "source": "claude_blog",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-watch-subagents-live": {
+    "title": "managed-agents-cma-watch-subagents-live",
+    "date": "2026-07-15",
+    "source": "cookbook"
   },
   "https://www.anthropic.com/news/canadian-ai-research": {
     "title": "Anthropic commits $10 million to Canadian AI research",
@@ -322,6 +376,11 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://platform.claude.com/cookbook/managed-agents-cma-plan-big-execute-small": {
+    "title": "managed-agents-cma-plan-big-execute-small",
+    "date": "2026-07-02",
+    "source": "cookbook"
+  },
   "https://www.anthropic.com/news/claude-science-ai-workbench": {
     "title": "Claude Science, an AI workbench for scientists",
     "date": "2026-06-30",
@@ -392,6 +451,11 @@
     "date": "2026-06-22",
     "source": "claude_blog",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-with-mongodb-atlas": {
+    "title": "managed-agents-cma-with-mongodb-atlas",
+    "date": "2026-06-22",
+    "source": "cookbook"
   },
   "https://www.anthropic.com/research/project-fetch-phase-two": {
     "title": "Project Fetch: Phase two",
