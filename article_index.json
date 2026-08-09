@@ -4498,5 +4498,89 @@
     "date": "2021",
     "source": "transformer_circuits",
     "processed": false
+  },
+  "https://platform.claude.com/cookbook/?category=Claude+Managed+Agents": {
+    "title": "Claude Managed Agents",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Agent+Patterns": {
+    "title": "Agent Patterns",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Observability": {
+    "title": "Observability",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Skills": {
+    "title": "Skills",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Tools": {
+    "title": "Tools",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Claude+Agent+SDK": {
+    "title": "Claude Agent SDK",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Evals": {
+    "title": "Evals",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval": {
+    "title": "RAG & Retrieval",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Integrations": {
+    "title": "Integrations",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Responses": {
+    "title": "Responses",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Cybersecurity": {
+    "title": "Cybersecurity",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Multimodal": {
+    "title": "Multimodal",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Thinking": {
+    "title": "Thinking",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/?category=Fine-Tuning": {
+    "title": "Fine-Tuning",
+    "date": "",
+    "source": "cookbook",
+    "processed": true
   }
 }

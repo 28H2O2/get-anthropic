@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08",
+  "generated_at": "2026-08-09",
   "lookback_days": 30,
   "digests": [
     {
@@ -512,56 +512,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-10"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/ben-bernanke",
-          "title_en": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
-          "title_zh": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
-          "summary_zh": "本·伯南克被任命为 Anthropic 的长期利益信托\n\n公告\n本·伯南克被任命为 Anthropic 的长期利益信托\n2026年7月9日\nAnthropic 的长期利益信托 (LTBT) 已任命布鲁金斯学会杰出研究员，美联储前主席本·伯南克博士为其最新成员。他加入了一个独立机构，致力于履行 Anthropic 的使命: 为人类的长期利益负责任地发展高级人工智能。\n伯南克领导美联储2006年2014年，指导c",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-09"
-        },
-        {
-          "url": "https://www.anthropic.com/news/hard-questions",
-          "title_en": "Inviting hard questions",
-          "title_zh": "Inviting hard questions",
-          "summary_zh": "邀请难题\n\n公告\n邀请难题\n2026年7月9日\n谁来决定AI的规则？\n人工智能能为我的孩子创造更美好的未来吗？\n人工智能会让世界变得更加危险吗？\n人工智能能否帮助科学家治愈疾病？\n人们对人工智能有许多难以解答的问题。解决这些问题是我们的职责。\n许多人对人工智能持积极态度。他们已经每天都在使用它，他们看到了它的潜力，使我们的工作和生活不那么费力，改变我们的学习方式，帮助加快科学和",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-09"
-        },
-        {
-          "url": "https://www.anthropic.com/news/reflect-with-claude",
-          "title_en": "A new way to reflect on how you use Claude",
-          "title_zh": "A new way to reflect on how you use Claude",
-          "summary_zh": "反思如何使用 Claude 的新方法\n\n公告\n介绍一种反思如何使用 Claude 的方法\n2026年7月9日\n今天，我们将在beta版中介绍一种新的方式来反思和改进您如何使用 Claude。在我们的\n访谈\n对于用户来说，一个共同的主题是希望更好地理解人工智能如何融入日常生活。一个人应该多久使用一次人工智能？如何才能最有效地使用它？人工智能在哪些任务上更适用，而在哪些任务上还是由人类来完成更为合适？\n我们构建了这个功能来帮助回答这些类型的",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-09"
-        },
-        {
-          "url": "https://www.anthropic.com/news/ust-claude",
-          "title_en": "UST is bringing Claude to physical AI",
-          "title_zh": "UST is bringing Claude to physical AI",
-          "summary_zh": "UST将 Claude 带入物理AI\n\n案例研究\nUST将 Claude 带入物理AI\n2026年7月9日\n在工厂承诺制造数百万个芯片之前，工程师会在工厂中对设计进行压力测试。在产品发货之前，装配线上的故障必须在召回之前被发现。当人工智能完成这种工作时，它被称为物理人工智能: 内置在生产人们使用的东西的设备和工程过程中的智能。\n我们正在与\n中国科学技术大学\n,一家技术和工程服务公司",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-09"
-        },
-        {
-          "url": "https://www.anthropic.com/research/claude-plays-robotics",
-          "title_en": "claude-plays-robotics",
-          "title_zh": "claude-plays-robotics",
-          "summary_zh": "",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-07-09"
         }
       ]
     }
@@ -3553,6 +3503,90 @@
         "title": "Iteratively searching Wikipedia with Claude",
         "desc": "Claude 官方开发示例与教程",
         "date": "2023-08-15"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Claude+Managed+Agents",
+        "title": "Claude Managed Agents",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Agent+Patterns",
+        "title": "Agent Patterns",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Observability",
+        "title": "Observability",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Skills",
+        "title": "Skills",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Tools",
+        "title": "Tools",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Claude+Agent+SDK",
+        "title": "Claude Agent SDK",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Evals",
+        "title": "Evals",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=RAG+%26+Retrieval",
+        "title": "RAG & Retrieval",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Integrations",
+        "title": "Integrations",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Responses",
+        "title": "Responses",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Cybersecurity",
+        "title": "Cybersecurity",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Multimodal",
+        "title": "Multimodal",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Thinking",
+        "title": "Thinking",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/?category=Fine-Tuning",
+        "title": "Fine-Tuning",
+        "desc": "Claude 官方开发示例与教程",
+        "date": ""
       }
     ],
     "transformer_circuits": [
