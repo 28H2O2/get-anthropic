@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-09",
+  "generated_at": "2026-08-11",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-10",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/riemann-zeta",
+          "title_en": "Learning more about Claude's mathematical capabilities",
+          "title_zh": "Learning more about Claude's mathematical capabilities",
+          "summary_zh": "了解有关 Claude 的数学功能的更多信息\n\n科学\n了解有关 Claude 的数学功能的更多信息\n2026年8月10日\n最近，Anthropic 的一名员工向 Claude 提出了不合理的挑战。这是关于数学中最著名的未解决问题之一:\n真正尝试一下黎曼假设\n。\nClaude 确实进行了一次真正的尝试，但是如果您熟悉任务的难度，您可能已经预料到了 (黎曼假设可以追溯到1859年，并且具有\n百万美元赏金\n)，它没有成功。然而，在",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-08-10"
+        }
+      ]
+    },
     {
       "date": "2026-08-07",
       "articles": [
@@ -28,6 +42,15 @@
           "title_en": "Running auto mode in production",
           "title_zh": "Running auto mode in production",
           "summary_zh": "在生产环境中运行自动模式\n\n在生产环境中运行自动模式\nNuro，Gusto和Garner Health的团队如何使用自动模式在生产规模上平衡速度和安全性。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年8月7日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 自动模式-生产中\n作者\nMolly Vorwerck\n自动模式现在是默认的\n在 Claude 代码中设置。分类器不是要求您批准代理要运行的每个命令，而是评估每个操作并阻止看起来很重要的操作",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-07"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
+          "title_en": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+          "title_zh": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+          "summary_zh": "",
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-07"
@@ -498,20 +521,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-13"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-10",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
-          "title_en": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
-          "title_zh": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night",
-          "summary_zh": "在前沿工作: 认知如何信任 Claude 寓言5通宵工作\n\n在前沿工作: 认知如何信任 Claude 寓言5通宵工作\nCognition研究高级副总裁Silas Alberti已经在该公司的AI软件工程师Devin内部测试了几乎所有 Claude 模型。Claude 寓言5是他信任的第一个离开过夜的人。\n类别\n企业人工智能\n产品\n未找到项目。\n日期\n2026年7月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night\nCog",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-10"
         }
       ]
     }
@@ -2050,6 +2059,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/riemann-zeta",
+        "title": "Learning more about Claude's mathematical capabilities",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-08-10"
+      },
       {
         "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
         "title": "Discovering cryptographic weaknesses with Claude",
@@ -4035,6 +4050,12 @@
       {
         "url": "https://claude.com/blog/auto-mode-in-production",
         "title": "Running auto mode in production",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-07"
+      },
+      {
+        "url": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
+        "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
         "desc": "Claude 官方博客（面向用户与企业）",
         "date": "2026-08-07"
       },

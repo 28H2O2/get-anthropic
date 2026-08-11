@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/research/riemann-zeta": {
+    "title": "Learning more about Claude's mathematical capabilities",
+    "date": "2026-08-10",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards": {
     "title": "Improving Fable 5 Safeguards",
     "date": "2026-08-07",
@@ -16,6 +22,11 @@
     "date": "2026-08-07",
     "source": "claude_blog",
     "processed": true
+  },
+  "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale": {
+    "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+    "date": "2026-08-07",
+    "source": "claude_blog"
   },
   "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude": {
     "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
