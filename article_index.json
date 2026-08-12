@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/compliance-api-cowork-and-claude-code": {
+    "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
+    "date": "2026-08-11",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/riemann-zeta": {
     "title": "Learning more about Claude's mathematical capabilities",
     "date": "2026-08-10",

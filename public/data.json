@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-11",
+  "generated_at": "2026-08-12",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-11",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+          "title_en": "Compliance API coverage extends to Claude Cowork and Claude Code",
+          "title_zh": "Compliance API coverage extends to Claude Cowork and Claude Code",
+          "summary_zh": "合规性 API 覆盖范围扩展到 Claude Cowork和 Claude 代码\n\n合规性 API 覆盖范围扩展到 Claude Cowork和 Claude 代码\n类别\n企业AI\n产品公告\n产品\nClaude 企业\nClaude 个应用\nClaude 代码\nClaude 共事\n日期\n2026年8月11日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 合规性-api-cowork-and-claude-code\nClaude 的合规性 API 现在涵盖桌面应用程序、web和移动设备上的Cowork，以及CLI和桌面应用程序中的 Claude 代码。针对 Claude 个Enterprise客户的覆盖范围处于测试阶段。合规性和securi",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-11"
+        }
+      ]
+    },
     {
       "date": "2026-08-10",
       "articles": [
@@ -4041,6 +4055,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+        "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-11"
+      },
       {
         "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
         "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
