@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs": {
+    "title": "How well do job retraining programs work?",
+    "date": "2026-08-12",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/cowork-chrome-side-panel": {
+    "title": "The Claude in Chrome side panel is now Claude Cowork",
+    "date": "2026-08-12",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/compliance-api-cowork-and-claude-code": {
     "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
     "date": "2026-08-11",
@@ -10,6 +22,11 @@
     "date": "2026-08-10",
     "source": "anthropic_research",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/cost-optimization-cost-optimization": {
+    "title": "cost-optimization-cost-optimization",
+    "date": "2026-08-09",
+    "source": "cookbook"
   },
   "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards": {
     "title": "Improving Fable 5 Safeguards",
@@ -1976,6 +1993,11 @@
   },
   "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/": {
     "title": "Agentic Misalignment in Summer 2026",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/conceptual-reasoning-index/": {
+    "title": "Introducing the Conceptual Reasoning Index",
     "date": "2026-01-01",
     "source": "alignment"
   },

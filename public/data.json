@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-08-12",
+  "generated_at": "2026-08-13",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-12",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+          "title_en": "How well do job retraining programs work?",
+          "title_zh": "How well do job retraining programs work?",
+          "summary_zh": "工作再培训计划的效果如何？\n\n经济研究\n审查有关工人再培训计划的证据\n2026年8月12日\n下载报告\n我们正在分享由独立研究员David Roodman和 Anthropic 的Maxim Massenkoff共同撰写的有关工人再培训计划的证据。\n对工人进行再培训是减轻人工智能对劳动力市场干扰的最受欢迎的政策选择。在本报告中，作者调查了这些计划在面临重大劳动力市场中断的情况下是否有效。\n审查是",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-08-12"
+        },
+        {
+          "url": "https://claude.com/blog/cowork-chrome-side-panel",
+          "title_en": "The Claude in Chrome side panel is now Claude Cowork",
+          "title_zh": "The Claude in Chrome side panel is now Claude Cowork",
+          "summary_zh": "铬侧板中的 Claude 现在是 Claude Cowork\n\n铬侧板中的 Claude 现在是 Claude Cowork\n在浏览器中为 Claude 提供任务，跨选项卡工作，然后在桌面、移动和web应用中继续对话。\n类别\n产品公告\n产品\nClaude 共事\nClaude 个应用\n日期\n2026年8月12日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ cowork-镀铬侧板\n这\n在Chrome中 Claude\n侧面板现在是一个\nClaude 共事\n会话。对话保存到您的历史记录中，您的技能和连接器在浏览器中工作，",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-12"
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "articles": [
@@ -27,6 +50,20 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "articles": [
+        {
+          "url": "https://platform.claude.com/cookbook/cost-optimization-cost-optimization",
+          "title_en": "cost-optimization-cost-optimization",
+          "title_zh": "cost-optimization-cost-optimization",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-08-09"
         }
       ]
     },
@@ -512,29 +549,6 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-07-14"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-13",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/claude-values-models-languages",
-          "title_en": "How Claude's values vary by model and language",
-          "title_zh": "How Claude's values vary by model and language",
-          "summary_zh": "Claude 的值如何因模型和语言而异\n\n社会影响\nClaude 的跨模型和跨语言值\n2026年7月13日\n当有人问 Claude 一个没有普遍正确答案的问题时 -- 比如说，是否接受一份新工作或者如何处理与朋友的冲突 -- Claude 的回答必然反映了某些价值观。\n一\n我们希望 Claude 反映的值在\nClaude 的宪法\n,但没有任何文档可以预测每天发生的数百万次对话中可能出现的每一个价值\nClaude.ai\n。在",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-07-13"
-        },
-        {
-          "url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
-          "title_en": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
-          "title_zh": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
-          "summary_zh": "在前沿领域深耕：赫比亚如何打造金融尽职调查的人工智能，做到一丝不苟、无一疏漏\n\n在前沿领域深耕：赫比亚如何打造金融尽职调查的人工智能，做到一丝不苟、无一疏漏\nHebbia为金融专业人士构建研究和勤奋软件，并根据与专家结果相关的财务评估测试每个新模型。在测试中，Claude Fable 5发布了其研究团队记录的最大准确性增益，并跟踪了先前模型不断下降的复杂查询。\n类别\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年7月13日\n阅读时间\n五\n分钟\n分享\n复制链接\n超文本传输协议",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-13"
         }
       ]
     }
@@ -2074,6 +2088,12 @@
     ],
     "anthropic_research": [
       {
+        "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+        "title": "How well do job retraining programs work?",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-08-12"
+      },
+      {
         "url": "https://www.anthropic.com/research/riemann-zeta",
         "title": "Learning more about Claude's mathematical capabilities",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2981,6 +3001,12 @@
       }
     ],
     "cookbook": [
+      {
+        "url": "https://platform.claude.com/cookbook/cost-optimization-cost-optimization",
+        "title": "cost-optimization-cost-optimization",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-08-09"
+      },
       {
         "url": "https://platform.claude.com/cookbook/managed-agents-cma-consult-an-advisor",
         "title": "managed-agents-cma-consult-an-advisor",
@@ -4056,6 +4082,12 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/cowork-chrome-side-panel",
+        "title": "The Claude in Chrome side panel is now Claude Cowork",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-12"
+      },
+      {
         "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
         "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -4888,6 +4920,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
         "title": "Agentic Misalignment in Summer 2026",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/conceptual-reasoning-index/",
+        "title": "Introducing the Conceptual Reasoning Index",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },
