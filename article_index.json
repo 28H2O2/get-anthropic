@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/research/multiagent-systems": {
+    "title": "Patterns and problems in multiagent systems",
+    "date": "2026-08-13",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions": {
+    "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+    "date": "2026-08-13",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room": {
+    "title": "Claude Tag now reads even more of the room",
+    "date": "2026-08-13",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5": {
+    "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+    "date": "2026-08-13",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs": {
     "title": "How well do job retraining programs work?",
     "date": "2026-08-12",

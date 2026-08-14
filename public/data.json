@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-08-13",
+  "generated_at": "2026-08-14",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-13",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/multiagent-systems",
+          "title_en": "Patterns and problems in multiagent systems",
+          "title_zh": "Patterns and problems in multiagent systems",
+          "summary_zh": "多智能体系统中的模式和问题\n\n边疆红队\n新兴多智能体系统中的模式和问题\n2026年8月13日\n模型正在改进，人工智能代理正在共享代码库、市场和其他社会系统中承担更多的任务。结果，代理之间的现实世界交互的增加迫在眉睫。我们已经\n开始研究这个\n,但对于这在规模上看起来是什么样子仍然有很大的不确定性。轨迹很容易想象，也很难减缓: 目前的机构是由人设计的，也是为人设计的，",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-08-13"
+        },
+        {
+          "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+          "title_en": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+          "title_zh": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+          "summary_zh": "Slack中的自助数据分析: Anthropic 如何为临时问题部署 Claude 标记\n\nSlack中的自助数据分析: Anthropic 如何为临时问题部署 Claude 标记\n类别\n未找到任何项目。\n产品\n未找到任何项目。\n日期\n2026年8月13日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 自助服务-数据分析-在松弛中-如何-人类-部署-克劳德-标签-针对-特别-问题\n作者\n克莱门特彭\n赵莉莉\n在我们的\n上一篇文章\n,我们描述了如何通过三个主要工件使 Claude 能够以95% 的准确性回答数据分析问题:\nA被治理",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-13"
+        },
+        {
+          "url": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
+          "title_en": "Claude Tag now reads even more of the room",
+          "title_zh": "Claude Tag now reads even more of the room",
+          "summary_zh": "Claude 标签现在可以读取房间的更多内容\n\nClaude 标签现在可以读取房间的更多内容\nClaude 有更多的上下文来决定何时在Slack中主动协作 (以及何时不协作)\n类别\n产品公告\n产品\nClaude 标签\n日期\n2026年8月13日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德-标签-现在-阅读-甚至更多的房间\n通过 Claude 标记，您可以将 Claude 添加到Slack频道，以便与您的团队一起使用。Claude 在您 @-提及它时做出响应，或者在它认为它可能有帮助时主动响应。\n之前，Claude o",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-13"
+        },
+        {
+          "url": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+          "title_en": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+          "title_zh": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+          "summary_zh": "确保前沿: JetBrains如何评估和部署 Claude 寓言5\n\n确保前沿: JetBrains如何评估和部署 Claude 寓言5\nJetBrains Agent Systems的CTO vladdivlav Tankov介绍了该公司如何针对其私有存储库评估frontier模型，他的团队何时到达 Claude 寓言5，以及为什么他将保护措施和数据保留视为与之合作的核心。\n‍\n类别\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年8月13日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ how-jetbrains-evaluates-and-deploys-claude-fable-5",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-13"
+        }
+      ]
+    },
     {
       "date": "2026-08-12",
       "articles": [
@@ -517,38 +558,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-07-15"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/canadian-ai-research",
-          "title_en": "Anthropic commits $10 million to Canadian AI research",
-          "title_zh": "Anthropic commits $10 million to Canadian AI research",
-          "summary_zh": "Anthropic 向加拿大AI研究承诺1000万美元\n\n公告\nAnthropic 向加拿大AI研究承诺1000万美元\n2026年7月14日\nLe fran ç ais套装.\n加拿大各机构和研究人员在当代人工智能时代发挥了至关重要的作用。在人们对神经网络研究普遍持怀疑态度的时期，多伦多大学和蒙特利尔大学是为数不多的、持续培育这一关键研究方向的机构之一；与此同时，阿尔伯塔大学的研究人员也在强化学习领域开展了开创性工作。并且",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-14"
-        },
-        {
-          "url": "https://www.anthropic.com/news/claude-for-teachers",
-          "title_en": "Introducing Claude for Teachers",
-          "title_zh": "Introducing Claude for Teachers",
-          "summary_zh": "为教师介绍 Claude\n\n产品\n为教师介绍 Claude\n2026年7月14日\n我们正在推出\nClaude 教师\n,为美国经过验证的K-12教育工作者免费提供高级 Claude 功能、教学技能库以及与循证课程的直接联系，这些课程符合所有50个州的学术标准。\n为什么我们要为教师建设\n几十年的研究表明，差异化、基于掌握的学习和小组教学等实践可靠地提高了学生的成绩，但",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-14"
-        },
-        {
-          "url": "https://www.anthropic.com/research/how-canada-uses-claude",
-          "title_en": "How Canada uses Claude",
-          "title_zh": "How Canada uses Claude",
-          "summary_zh": "加拿大如何使用 Claude\n\n经济研究\n加拿大如何使用 {{0 }}: 来自 Anthropic 经济指数的发现\n2026年7月14日\n法语随后。\n主要发现\n根据最新发布的 Anthropic 经济指数，加拿大在采用 Claude 方面处于领先地位。加拿大占全球 Claude.ai流量的2.6% %，总体排名第8位。鉴于其人口规模，人均使用量比预期高出四倍多。\n加拿大的高采用率通常与其高采用率是一致的",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-07-14"
         }
       ]
     }
@@ -2087,6 +2096,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/multiagent-systems",
+        "title": "Patterns and problems in multiagent systems",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-08-13"
+      },
       {
         "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
         "title": "How well do job retraining programs work?",
@@ -4081,6 +4096,24 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+        "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-13"
+      },
+      {
+        "url": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
+        "title": "Claude Tag now reads even more of the room",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-13"
+      },
+      {
+        "url": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+        "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-13"
+      },
       {
         "url": "https://claude.com/blog/cowork-chrome-side-panel",
         "title": "The Claude in Chrome side panel is now Claude Cowork",
