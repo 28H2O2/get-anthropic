@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/claude-text-watermark": {
+    "title": "How Claude's text watermarking works",
+    "date": "2026-08-14",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions": {
+    "title": "Maximizing the value of your Claude Code sessions",
+    "date": "2026-08-14",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/multiagent-systems": {
     "title": "Patterns and problems in multiagent systems",
     "date": "2026-08-13",
@@ -21,6 +33,12 @@
     "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
     "date": "2026-08-13",
     "source": "claude_blog",
+    "processed": true
+  },
+  "https://platform.claude.com/cookbook/capabilities-content-moderation-guide": {
+    "title": "capabilities-content-moderation-guide",
+    "date": "2026-08-13",
+    "source": "cookbook",
     "processed": true
   },
   "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs": {

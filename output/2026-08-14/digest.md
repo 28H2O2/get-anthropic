@@ -113,3 +113,80 @@ JetBrains Agent Systems的CTO vladdivlav Tankov介绍了该公司如何针对其
 https://claude.com/blog/ how-jetbrains-evaluates-and-deploys-claude-fable-5
 
 ---
+
+---
+
+### [How Claude's text watermarking works](https://www.anthropic.com/news/claude-text-watermark)
+
+**来源**: Anthropic News  
+**发布日期**: 2026-08-14  
+**原文**: https://www.anthropic.com/news/claude-text-watermark
+
+**中文摘要**：
+
+Claude 的文本水印是如何工作的
+
+公告
+Claude 的文字水印是如何工作的
+2026年8月14日
+以后的 Claude 模型将生成包含水印的文本。这是一种确定 Claude 参与编写文本的可能性的方法，我们与其他几家主要的人工智能提供商一起，正在实施这一更改，以符合欧盟人工智能法案。
+在本文中，我们分享了一些问题的答案，这些问题涉及我们选择的水印方法是如何工作的，它是否会影响 Claude 的输出，以及为什么我们
+
+---
+
+### [Maximizing the value of your Claude Code sessions](https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions)
+
+**来源**: Claude Blog  
+**发布日期**: 2026-08-14  
+**原文**: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions
+
+**中文摘要**：
+
+最大化 Claude 个代码会话的价值
+
+最大化 Claude 个代码会话的价值
+如何运行从每个令牌中获得最大价值的高效会话。
+类别
+Claude 代码
+企业人工智能
+产品
+Claude 代码
+日期
+2026年8月14日
+阅读时间
+五
+分钟
+分享
+复制链接
+https://claude.com/blog/ 最大化您的克劳德代码会话的价值
+作者
+莉迪亚·哈莉
+简而言之
+运行
+/清除
+任务之间。
+这防止先前不相关的上下文被发送回模型，这可以减少令牌使用。
+将您的模型和努力水平设置为
+
+---
+
+### [capabilities-content-moderation-guide](https://platform.claude.com/cookbook/capabilities-content-moderation-guide)
+
+**来源**: Claude Cookbook  
+**发布日期**:   
+**原文**: https://platform.claude.com/cookbook/capabilities-content-moderation-guide
+
+**中文摘要**：
+
+功能-内容-审核-指南
+
+
+使用 Claude 强制执行内容策略
+内容审核是在内容之前根据书面策略检查内容的过程
+出去，然后决定它会发生什么: 发布，拒绝或发送给人类
+审阅者。内容可以来自任何地方: 用户评论，卖家列表，广告
+法律必须明确的创意、营销活动。该政策是用简单的方式写的
+政策、法律或品牌团队使用英语，内容比任何评论都快
+团队可以阅读。这个阁楼的每个主人
+
+---

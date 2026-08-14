@@ -3,6 +3,29 @@
   "lookback_days": 30,
   "digests": [
     {
+      "date": "2026-08-14",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "title_en": "How Claude's text watermarking works",
+          "title_zh": "How Claude's text watermarking works",
+          "summary_zh": "Claude 的文本水印是如何工作的\n\n公告\nClaude 的文字水印是如何工作的\n2026年8月14日\n以后的 Claude 模型将生成包含水印的文本。这是一种确定 Claude 参与编写文本的可能性的方法，我们与其他几家主要的人工智能提供商一起，正在实施这一更改，以符合欧盟人工智能法案。\n在本文中，我们分享了一些问题的答案，这些问题涉及我们选择的水印方法是如何工作的，它是否会影响 Claude 的输出，以及为什么我们",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-08-14"
+        },
+        {
+          "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+          "title_en": "Maximizing the value of your Claude Code sessions",
+          "title_zh": "Maximizing the value of your Claude Code sessions",
+          "summary_zh": "最大化 Claude 个代码会话的价值\n\n最大化 Claude 个代码会话的价值\n如何运行从每个令牌中获得最大价值的高效会话。\n类别\nClaude 代码\n企业人工智能\n产品\nClaude 代码\n日期\n2026年8月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 最大化您的克劳德代码会话的价值\n作者\n莉迪亚·哈莉\n简而言之\n运行\n/清除\n任务之间。\n这防止先前不相关的上下文被发送回模型，这可以减少令牌使用。\n将您的模型和努力水平设置为",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-14"
+        }
+      ]
+    },
+    {
       "date": "2026-08-13",
       "articles": [
         {
@@ -39,6 +62,15 @@
           "summary_zh": "确保前沿: JetBrains如何评估和部署 Claude 寓言5\n\n确保前沿: JetBrains如何评估和部署 Claude 寓言5\nJetBrains Agent Systems的CTO vladdivlav Tankov介绍了该公司如何针对其私有存储库评估frontier模型，他的团队何时到达 Claude 寓言5，以及为什么他将保护措施和数据保留视为与之合作的核心。\n‍\n类别\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年8月13日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ how-jetbrains-evaluates-and-deploys-claude-fable-5",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-08-13"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/capabilities-content-moderation-guide",
+          "title_en": "capabilities-content-moderation-guide",
+          "title_zh": "capabilities-content-moderation-guide",
+          "summary_zh": "功能-内容-审核-指南\n\n\n使用 Claude 强制执行内容策略\n内容审核是在内容之前根据书面策略检查内容的过程\n出去，然后决定它会发生什么: 发布，拒绝或发送给人类\n审阅者。内容可以来自任何地方: 用户评论，卖家列表，广告\n法律必须明确的创意、营销活动。该政策是用简单的方式写的\n政策、法律或品牌团队使用英语，内容比任何评论都快\n团队可以阅读。这个阁楼的每个主人",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-08-13"
         }
       ]
@@ -564,6 +596,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/claude-text-watermark",
+        "title": "How Claude's text watermarking works",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-08-14"
+      },
       {
         "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
         "title": "Improving Fable 5 Safeguards",
@@ -3017,6 +3055,12 @@
     ],
     "cookbook": [
       {
+        "url": "https://platform.claude.com/cookbook/capabilities-content-moderation-guide",
+        "title": "capabilities-content-moderation-guide",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-08-13"
+      },
+      {
         "url": "https://platform.claude.com/cookbook/cost-optimization-cost-optimization",
         "title": "cost-optimization-cost-optimization",
         "desc": "Claude 官方开发示例与教程",
@@ -4096,6 +4140,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+        "title": "Maximizing the value of your Claude Code sessions",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-14"
+      },
       {
         "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
         "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
