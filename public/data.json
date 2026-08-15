@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14",
+  "generated_at": "2026-08-15",
   "lookback_days": 30,
   "digests": [
     {
@@ -567,29 +567,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-16"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-15",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
-          "title_en": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
-          "title_zh": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work",
-          "summary_zh": "在前沿工作: 为什么Base44信任 Claude 寓言5最具挑战性的工程工作\n\n在前沿工作: 为什么Base44信任 Claude 寓言5最具挑战性的工程工作\nBase44的产品负责人Yoav Orlev作为其第一位员工加入了vibe编码平台，自 Sonnet 4以来，他的团队一直以 Claude 模型为基础。这就是为什么他认为 Claude Fable 5是第一个以高级工程师的方式对软件进行推理的模型，这使他的团队的其他成员得以自由构建。\n类别\n企业人工智能\n产品\nClaude 平台\n日期\n2026年7月15日\n已读",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-15"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/managed-agents-cma-watch-subagents-live",
-          "title_en": "managed-agents-cma-watch-subagents-live",
-          "title_zh": "managed-agents-cma-watch-subagents-live",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-07-15"
         }
       ]
     }
