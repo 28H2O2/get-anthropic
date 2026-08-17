@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-16",
+  "generated_at": "2026-08-17",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-17",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+          "title_en": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+          "title_zh": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+          "summary_zh": "ABC Legal如何将每个员工变成具有 Claude 个托管代理的建造者\n\nABC Legal如何将每个员工变成具有 Claude 个托管代理的建造者\nABC Legal将其组织的AI采用从分散的实验转变为具有 Claude 的受管理的专业代理团队。\n类别\n企业人工智能\n产品\nClaude 企业\n日期\n2026年8月17日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-abc-法律-将每个员工转变为-建造者-与-克劳德-管理-代理\n当美国法律文件交付公司ABC Legal的CTO Brandon Fuller",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-17"
+        }
+      ]
+    },
     {
       "date": "2026-08-14",
       "articles": [
@@ -521,29 +535,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-20"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/working-at-the-frontier-cursor",
-          "title_en": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
-          "title_zh": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
-          "summary_zh": "在前沿工作: Cursor如何知道 Claude 寓言5已准备好应对最困难的1% 问题\n\n在前沿工作: Cursor如何知道 Claude 寓言5已准备好应对最困难的1% 问题\nNate Schmidt在Cursor的工作是根据前沿模型解决长期运行的实际工程问题的能力来评估前沿模型。这就是为什么-以及如何-Claude 寓言5改变了关于编码代理能力的演算。\n类别\n企业人工智能\n产品\nClaude 平台\n日期\n2026年7月17日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 在前沿光标处工作\n光标是一个AI",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-17"
-        },
-        {
-          "url": "https://claude.com/blog/ciso-guide-to-agentic-ai",
-          "title_en": "Zero risk isn't the job: a CISO's guide to agentic AI",
-          "title_zh": "Zero risk isn't the job: a CISO's guide to agentic AI",
-          "summary_zh": "零风险不是工作: CISO的agentic AI指南\n\n零风险不是工作: CISO的agentic AI指南\nAnthropic CISO的副手Jason Clinton分享了他的团队采用agentic AI的经验教训，以及他们为安全构建和部署代理而开发的风险评估框架。\n类别\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年7月17日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ ciso-代理指南-ai\n安全领导者被要求批准几个月前甚至不存在的agentic AI用例",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-17"
         }
       ]
     }
@@ -4094,6 +4085,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+        "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-17"
+      },
       {
         "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
         "title": "Maximizing the value of your Claude Code sessions",
