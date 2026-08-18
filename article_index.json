@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/research/Claude-accelerates-protein-design": {
+    "title": "How Claude is accelerating protein design and analytical chemistry",
+    "date": "2026-08-18",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/ai-ci-cd-on-call": {
+    "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+    "date": "2026-08-18",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/the-claude-science-product-guide": {
+    "title": "The Claude Science product guide",
+    "date": "2026-08-18",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents": {
     "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
     "date": "2026-08-17",

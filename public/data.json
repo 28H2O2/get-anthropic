@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-08-17",
+  "generated_at": "2026-08-18",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-18",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+          "title_en": "How Claude is accelerating protein design and analytical chemistry",
+          "title_zh": "How Claude is accelerating protein design and analytical chemistry",
+          "summary_zh": "Claude 如何加速蛋白质设计和分析化学\n\n科学\nClaude 如何加速蛋白质设计和分析化学\n2026年8月18日\n摘要：\n在这篇文章中，我们分享了两个结果，这些结果显示了 Claude 如何帮助生命科学家加快研究步伐。首先，我们测试了 Claude 从头开始设计蛋白质结合剂的能力，这是代表药物设计过程早期部分的关键任务，并且在历史上每个目标都需要专家数周或数月的时间。Claude (Mythos预览和 Opus 4.8) 设计的蛋白质b",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-08-18"
+        },
+        {
+          "url": "https://claude.com/blog/ai-ci-cd-on-call",
+          "title_en": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+          "title_zh": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+          "summary_zh": "Claude 通话中: Claude 标记如何作为 Anthropic CI/CD故障的第一响应者\n\nClaude 通话中: Claude 标记如何作为 Anthropic CI/CD故障的第一响应者\n我们的持续集成团队的一名工程师在 Anthropic 处仔细查看他构建的为CI事件响应提供支持的代理。\n类别\n企业人工智能\n代理人\nClaude 代码\n产品\nClaude 标签\n日期\n2026年8月18日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ ai-ci-cd-on-call\n作者\n萨钦·马尔霍特拉\n使用我们的安装套件设置您自己的 Claude 随叫随到\n。\n几周前，我在电话中，我的同事",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-18"
+        },
+        {
+          "url": "https://claude.com/blog/the-claude-science-product-guide",
+          "title_en": "The Claude Science product guide",
+          "title_zh": "The Claude Science product guide",
+          "summary_zh": "Claude 科学产品指南\n\nClaude 科学产品指南\n我们分享如何使用 Claude 科学，包括设置通用工作流、新的生命科学技能和流行的数据库连接器。\n类别\n企业人工智能\n产品\nClaude 科学\n日期\n2026年8月18日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德科学产品指南\n生命科学组织正处于人工智能采用之旅的转折点。\n德勤的2026生命科学展望\n发现78% 的生物制药和医疗技术领导者期望",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-18"
+        }
+      ]
+    },
     {
       "date": "2026-08-17",
       "articles": [
@@ -2080,6 +2112,12 @@
     ],
     "anthropic_research": [
       {
+        "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+        "title": "How Claude is accelerating protein design and analytical chemistry",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-08-18"
+      },
+      {
         "url": "https://www.anthropic.com/research/multiagent-systems",
         "title": "Patterns and problems in multiagent systems",
         "desc": "Anthropic 研究论文与技术博客",
@@ -4085,6 +4123,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/ai-ci-cd-on-call",
+        "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-18"
+      },
+      {
+        "url": "https://claude.com/blog/the-claude-science-product-guide",
+        "title": "The Claude Science product guide",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-18"
+      },
       {
         "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
         "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
