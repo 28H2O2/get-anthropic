@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams": {
+    "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
+    "date": "2026-08-19",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/Claude-accelerates-protein-design": {
     "title": "How Claude is accelerating protein design and analytical chemistry",
     "date": "2026-08-18",
