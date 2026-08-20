@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-08-19",
+  "generated_at": "2026-08-20",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-20",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+          "title_en": "Anthropic’s approach to teaching and learning AI",
+          "title_zh": "Anthropic’s approach to teaching and learning AI",
+          "summary_zh": "Anthropic 的AI教学方法\n\nAnthropic 的AI教学方法\nClaude 学院为用户提供了学习如何有效使用AI所需的教育工具。在这篇文章中，我们将重点介绍为什么我们要推出它，以及我们自己的教学方法如何影响它的发展。\n类别\n产品公告\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年8月20日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 人类学-教学和学习方法-人工智能\n数以百万计的人参观了Anthro",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-20"
+        },
+        {
+          "url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+          "title_en": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+          "title_zh": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+          "summary_zh": "Ho w monday.com将其平台转变为代理优先的产品，人类和代理合作\n\nHo w monday.com将其平台转变为代理优先的产品，人类和代理合作\n在使用附加AI功能达到顶峰后，Monday在 Claude 附近重建了其平台。两个月后，500万代理互动，其团队分享了从过渡到代理优先产品的五个经验教训。\n类别\n代理人\n产品\nClaude 企业\n日期\n2026年8月20日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-星期一-com-将其平台转换为-代理",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-20"
+        },
+        {
+          "url": "https://claude.com/blog/claude-code-guide-for-startups",
+          "title_en": "The Claude Code guide for startups",
+          "title_zh": "The Claude Code guide for startups",
+          "summary_zh": "适用于创业公司的 Claude 代码指南\n\n适用于创业公司的 Claude 代码指南\n快速增长的初创公司如何使用 Claude 代码来发货-从对十几家公司的采访中得出的五个操作原则。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年8月20日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-code-guide-for-startups\n作者\n迈克尔·塞格纳\n喜欢PDF？\n本指南也可供下载\n-同样的五条规则、创始人见解和清单，用于离线阅读或与他人分享",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-20"
+        },
+        {
+          "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+          "title_en": "Build production agents with computer use, the Skills API, and the Files API",
+          "title_zh": "Build production agents with computer use, the Skills API, and the Files API",
+          "summary_zh": "使用计算机、技能 {{13 }}, 和文件 API 构建生产代理\n\n使用计算机、技能 {{13 }}, 和文件 API 构建生产代理\n类别\n产品公告\n代理人\n企业人工智能\n产品\nClaude 平台\n日期\n2026年8月20日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 计算机-使用-技能-api-文件-api\n计算机使用，技能 {{13 }}, 和文件 API 今天通常在 Claude 平台上提供。计算机使用还为在web应用程序中工作的代理添加了新的浏览器使用工具。他们一起让你建立代理ope",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-20"
+        }
+      ]
+    },
     {
       "date": "2026-08-19",
       "articles": [
@@ -558,29 +599,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-07-21"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-20",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/rare-disease-research-grants",
-          "title_en": "Apply for Anthropic’s AI for Science rare disease research grants",
-          "title_zh": "Apply for Anthropic’s AI for Science rare disease research grants",
-          "summary_zh": "申请 Anthropic 的AI科学罕见病研究补助金\n\n公告\n申请 Anthropic 的AI科学罕见病研究补助金\n2026年7月20日\n去年春天，我们宣布\nAnthropic 的AI科学计划\n该计划旨在通过访问我们的 API 来加速科学研究和发现。自上线以来，我们已支持众多研究人员开展各类具有重大影响力的项目，涵盖药物重定位、量子模拟等多个领域。在整个计划中，我们发现当Sci的多个AI",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-20"
-        },
-        {
-          "url": "https://claude.com/blog/working-at-the-frontier-rakuten",
-          "title_en": "Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5",
-          "title_zh": "Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5",
-          "summary_zh": "在前沿工作: 乐天如何通过 Claude 寓言5在一夜之间建立代理\n\n在前沿工作: 乐天如何通过 Claude 寓言5在一夜之间建立代理\n乐天AI业务总经理Yusuke Kaji自2024年9月以来一直在测试 Claude 模型。这就是为什么他认为 Claude 寓言5是长期运行的企业代理的一步变化。\n类别\n企业人工智能\n产品\nClaude 代码\nClaude 共事\nClaude 平台\n日期\n2026年7月20日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 在边境工作-乐天\n作为AI业务的总经理",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-20"
         }
       ]
     }
@@ -4137,6 +4155,30 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+        "title": "Anthropic’s approach to teaching and learning AI",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-20"
+      },
+      {
+        "url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+        "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-20"
+      },
+      {
+        "url": "https://claude.com/blog/claude-code-guide-for-startups",
+        "title": "The Claude Code guide for startups",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-20"
+      },
+      {
+        "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+        "title": "Build production agents with computer use, the Skills API, and the Files API",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-20"
+      },
       {
         "url": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
         "title": "Turning conversation into knowledge: how Slack builds human-agent teams",

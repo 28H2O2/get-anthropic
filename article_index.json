@@ -1,4 +1,28 @@
 {
+  "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai": {
+    "title": "Anthropic’s approach to teaching and learning AI",
+    "date": "2026-08-20",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate": {
+    "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+    "date": "2026-08-20",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-code-guide-for-startups": {
+    "title": "The Claude Code guide for startups",
+    "date": "2026-08-20",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/computer-use-skills-api-files-api": {
+    "title": "Build production agents with computer use, the Skills API, and the Files API",
+    "date": "2026-08-20",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams": {
     "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
     "date": "2026-08-19",
