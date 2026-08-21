@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-08-20",
+  "generated_at": "2026-08-21",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-21",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+          "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+          "title_zh": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+          "summary_zh": "将 Claude Mythos 5的网络安全功能带给更多防御者\n\n将 Claude Mythos 5的网络安全功能带给更多防御者\n类别\n产品公告\n产品\n未找到任何项目。\n日期\n2026年8月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ bringing-claude-mythos-5-to-more-defenders\n我们正在分享我们努力的最新情况，以帮助更多的团队使用前沿能力进行网络防御。\nClaude 神话5\n现在可在\nClaude 安全\n,并即将推出合作伙伴的网络防御工具。我们还向他发起了一项3500万美元的基金",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-21"
+        },
+        {
+          "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+          "title_en": "The AI-Native SDLC playbook",
+          "title_zh": "The AI-Native SDLC playbook",
+          "summary_zh": "AI原生SDLC剧本\n\nAI原生SDLC剧本\n如何通过AI改变您的软件开发生命周期-分阶段进行。\n‍\n类别\n企业人工智能\nClaude 代码\n产品\nClaude 企业\nClaude 代码\nClaude 标签\n日期\n2026年8月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ -ai-native-sdlc-playbook\n作者\n路易斯·克拉克斯顿\n代码不再是瓶颈\n组织已经开始使用人工智能以一年前无法想象的速度编写代码，但围绕代码的流程在",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-21"
+        }
+      ]
+    },
     {
       "date": "2026-08-20",
       "articles": [
@@ -558,47 +581,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-07-22"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/skills",
-          "title_en": "Introducing Agent Skills | Claude by Anthropic",
-          "title_zh": "Introducing Agent Skills | Claude by Anthropic",
-          "summary_zh": "由 Anthropic 介绍座席技能 | Claude\n\n介绍代理技能\n类别\n产品公告\n产品\nClaude 平台\n日期\n2025年10月16日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/skills\n更新：\n我们添加了\n全组织技能管理\n，一个\n目录\n具有合作伙伴建立的技能，并已发布\n代理技能\n作为跨平台可移植性的开放标准。(2025年12月18日)\nClaude 现在可以使用\n技能\n改进它执行特定任务的方式。技能是包含指令、脚本和",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-21"
-        },
-        {
-          "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
-          "title_en": "How Anthropic secures its AI-native software development lifecycle",
-          "title_zh": "How Anthropic secures its AI-native software development lifecycle",
-          "summary_zh": "Anthropic 如何保护其AI原生软件开发生命周期\n\nAnthropic 如何保护其AI原生软件开发生命周期\nAnthropic CISO副手Jason Clinton详细介绍了安全工程团队如何保护具有合并代码的AI创作80% 的SDLC。\n类别\nClaude 代码\n企业人工智能\n代理人\n产品\nClaude 代码\nClaude 标签\nClaude 企业\n日期\n2026年7月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类安全-它-人工智能-原生-软件-开发-生命周期\n{{1 }}, 代码量和部署速度",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-21"
-        },
-        {
-          "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
-          "title_en": "How Datadog built a “universal machine tool” for Claude Code",
-          "title_zh": "How Datadog built a “universal machine tool” for Claude Code",
-          "summary_zh": "Datadog如何为 Claude 代码构建 “通用机床”\n\nDatadog如何为 Claude 代码构建 “通用机床”\nDatadog具有用于确定性内核的代理写入规范，以编写应用程序代码。\n‍\n类别\nClaude 代码\n企业人工智能\n产品\nClaude 代码\n日期\n2026年7月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-datadog-内置-通用-机床-工具-用于-claude-代码\n代理商，机械化和工业化\n所有Datadog工程师都使用AI编码工具进行生产代码，并且 Claude 代码驱动至少两个",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-21"
-        },
-        {
-          "url": "https://www.anthropic.com/news/donation-public-first-action",
-          "title_en": "Donating another $20 million to Public First Action",
-          "title_zh": "Donating another $20 million to Public First Action",
-          "summary_zh": "向公众第一行动再捐赠2000万美元\n\n公告\nAnthropic 正在向Public First Action再捐赠2000万美元\n2026年7月21日\n我们将额外捐款2000万美元\n公众第一行动\n,使我们的总支持达到4000万美元。公共首倡是一家无党派组织，致力于向公众普及人工智能相关知识，并与那些认真推动建立健全、审慎的人工智能安全机制的共和党人、民主党人及独立人士携手合作。我们的两项捐款都是专门用于支持公共第一行动的公共教育",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-21"
         }
       ]
     }
@@ -3756,6 +3738,12 @@
         "date": "2026"
       },
       {
+        "url": "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html",
+        "title": "Characterizing interference weights in a tiny language modelWe identify interference weights in a 1-layer transformer by measuring their effect on model outputs and loss.",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2026"
+      },
+      {
         "url": "https://transformer-circuits.pub/2025/introspection/index.html",
         "title": "Emergent Introspective Awareness in Large Language ModelsLindsey, 2025We find evidence that language models can introspect on their internal states.",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
@@ -4155,6 +4143,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+        "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-21"
+      },
+      {
+        "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+        "title": "The AI-Native SDLC playbook",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-21"
+      },
       {
         "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
         "title": "Anthropic’s approach to teaching and learning AI",
@@ -5072,6 +5072,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/conceptual-reasoning-index/",
         "title": "Introducing the Conceptual Reasoning Index",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/chive/",
+        "title": "Would This Change Your Answer? Evaluating Explanations of LLM Behavior in the Wild with\n                    Counterfactual Experiments",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },

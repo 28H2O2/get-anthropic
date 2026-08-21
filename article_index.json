@@ -1,4 +1,16 @@
 {
+  "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders": {
+    "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+    "date": "2026-08-21",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/the-ai-native-sdlc-playbook": {
+    "title": "The AI-Native SDLC playbook",
+    "date": "2026-08-21",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai": {
     "title": "Anthropic’s approach to teaching and learning AI",
     "date": "2026-08-20",
@@ -2097,6 +2109,11 @@
     "date": "2026-01-01",
     "source": "alignment"
   },
+  "https://alignment.anthropic.com/2026/chive/": {
+    "title": "Would This Change Your Answer? Evaluating Explanations of LLM Behavior in the Wild with\n                    Counterfactual Experiments",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
   "https://transformer-circuits.pub/2026/headvis/index.html": {
     "title": "HeadVisWe develop an interactive visualization tool to help us understand the behaviors of attention heads in language models.",
     "date": "2026",
@@ -2119,6 +2136,11 @@
   },
   "https://transformer-circuits.pub/2026/workspace/index.html": {
     "title": "Verbalizable Representations Form a Global Workspace in Language ModelsGurnee et al., 2026We find that Claude maintains a small, privileged set of representations it can report on, control, and reason with, atop a much larger volume of automatic processing.",
+    "date": "2026",
+    "source": "transformer_circuits"
+  },
+  "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html": {
+    "title": "Characterizing interference weights in a tiny language modelWe identify interference weights in a 1-layer transformer by measuring their effect on model outputs and loss.",
     "date": "2026",
     "source": "transformer_circuits"
   },
