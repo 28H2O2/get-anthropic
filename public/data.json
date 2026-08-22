@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21",
+  "generated_at": "2026-08-22",
   "lookback_days": 30,
   "digests": [
     {
@@ -531,56 +531,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-22",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-          "title_en": "The Anthropic Economic Index connector",
-          "title_zh": "The Anthropic Economic Index connector",
-          "summary_zh": "Anthropic 经济指标连接器\n\n产品\n公告\n经济研究\n向 Claude 询问 Anthropic 经济指数\n2026年7月22日\n人们对人工智能和工作有一些难题: 哪些工作会改变，哪些任务正在自动化，以及这对他们自己的领域意味着什么。这\nAnthropic 经济指数\n存在以帮助用真实数据回答它们。今天，我们推出了 Claude 的 Anthropic 经济指数连接器，任何人都可以直接浏览这些数据。\nAnthropic 经济指数衡量人工智能的实际使用情况",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-22"
-        },
-        {
-          "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-          "title_en": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
-          "title_zh": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund",
-          "summary_zh": "通过 Anthropic 经济期货研究基金支持雄心勃勃的外部研究\n\n经济研究\n经济期货研究基金研究议程\n2026年7月22日\n我们正在分享 Anthropic 经济期货研究基金的研究议程。我们向该基金投入2亿美元，用于支持针对人工智能经济影响的应对举措开展具有前瞻性的外部研究。\n通过该基金支持的研究，我们希望研究哪些项目可以使经济更加灵活和有弹性，确保分享人工智能的好处，并将危害降至最低。",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-22"
-        },
-        {
-          "url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
-          "title_en": "Building verification loops in Claude Code with skills",
-          "title_zh": "Building verification loops in Claude Code with skills",
-          "summary_zh": "使用技能在 Claude 代码中构建验证循环\n\n使用技能在 Claude 代码中构建验证循环\n如何将手动检查转换为技能，以便 Claude 关闭自己的反馈循环。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年7月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 建筑-验证-循环-在-克劳德-代码-与-技能\n大多数\n代理编码\n会话遵循循环: 您请求更改、 Claude 收集上下文、采取操作、验证结果，并在需要时返回以收集其他上下文。\nVerif",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-22"
-        },
-        {
-          "url": "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude",
-          "title_en": "How Outtake built a cyber investigator on Claude",
-          "title_zh": "How Outtake built a cyber investigator on Claude",
-          "summary_zh": "Outtack如何在 Claude 上建立网络调查员\n\nOuttack如何在 Claude 上建立网络调查员\nOuttack如何确保多小时的代理会话保持正常运行，以发现攻击网络操作\n类别\n代理人\nClaude 代码\n产品\nClaude 代码\nClaude 平台\n日期\n2026年7月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何构建claude上的网络调查员\n在我们的系列中，\n创业公司如何用 {{0 }},\n我们重点介绍了初创公司如何通过AI改变其行业。在本文中，我们分享了outtack如何构建",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-22"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-08-dynamic-workflows",
-          "title_en": "claude-agent-sdk-08-dynamic-workflows",
-          "title_zh": "claude-agent-sdk-08-dynamic-workflows",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-07-22"
         }
       ]
     }
@@ -5078,6 +5028,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/chive/",
         "title": "Would This Change Your Answer? Evaluating Explanations of LLM Behavior in the Wild with\n                    Counterfactual Experiments",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/lie-detectors/",
+        "title": "Fine-Tuned Lie Detectors Failed to Generalize",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },

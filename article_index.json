@@ -2114,6 +2114,11 @@
     "date": "2026-01-01",
     "source": "alignment"
   },
+  "https://alignment.anthropic.com/2026/lie-detectors/": {
+    "title": "Fine-Tuned Lie Detectors Failed to Generalize",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
   "https://transformer-circuits.pub/2026/headvis/index.html": {
     "title": "HeadVisWe develop an interactive visualization tool to help us understand the behaviors of attention heads in language models.",
     "date": "2026",
