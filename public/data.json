@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22",
+  "generated_at": "2026-08-23",
   "lookback_days": 30,
   "digests": [
     {
@@ -472,65 +472,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-24"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-23",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/four-role-based-claude-certifications",
-          "title_en": "Four role-based certifications for the people who put Claude to work for customers",
-          "title_zh": "Four role-based certifications for the people who put Claude to work for customers",
-          "summary_zh": "针对让 Claude 为客户工作的人员的四项基于角色的认证\n\n针对让 Claude 为客户工作的人员的四项基于角色的认证\n类别\n企业AI\n产品\nClaude 个应用程序\nClaude 平台\n日期\n2026年7月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 四-基于角色-claude-认证\n我们正在扩展 Claude 认证计划，提供三个新的基于角色的认证，涵盖客户部署AI所需的整个团队。Anthropic 的目标是成为AI支持的领导者。为了支持这一目标，我们推出了\nC",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-23"
-        },
-        {
-          "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-          "title_en": "Think through hard problems in voice mode",
-          "title_zh": "Think through hard problems in voice mode",
-          "summary_zh": "在语音模式下思考难题\n\n在语音模式下思考难题\n从今天开始，语音模式将在 Claude {{4 }}, Claude {{2 }}, 和 Claude {{3 }}, 可以使用您连接的工具 (如Gmail和Slack)，并使用更多语言。\n类别\n产品公告\n产品\nClaude 个应用\n日期\n2026年7月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 以语音模式思考难题\n有些问题你无法通过打字。语音模式用于练习重要的音调会议，决定",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-23"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/managed-agents-cma-consult-an-advisor",
-          "title_en": "managed-agents-cma-consult-an-advisor",
-          "title_zh": "managed-agents-cma-consult-an-advisor",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-07-23"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/managed-agents-cma-cap-session-spend",
-          "title_en": "managed-agents-cma-cap-session-spend",
-          "title_zh": "managed-agents-cma-cap-session-spend",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-07-23"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/managed-agents-cma-use-skills-from-a-repo",
-          "title_en": "managed-agents-cma-use-skills-from-a-repo",
-          "title_zh": "managed-agents-cma-use-skills-from-a-repo",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-07-23"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/managed-agents-cma-pin-inference-geo",
-          "title_en": "managed-agents-cma-pin-inference-geo",
-          "title_zh": "managed-agents-cma-pin-inference-geo",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-07-23"
         }
       ]
     }
