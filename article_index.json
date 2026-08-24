@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/research/team/economics": {
+    "title": "Economics",
+    "date": "2026-08-24",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep": {
+    "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+    "date": "2026-08-24",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders": {
     "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
     "date": "2026-08-21",

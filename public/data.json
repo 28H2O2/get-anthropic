@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-08-23",
+  "generated_at": "2026-08-24",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-24",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/team/economics",
+          "title_en": "Economics",
+          "title_zh": "Economics",
+          "summary_zh": "经济学\n\n返回到概述\n经济学\n经济研究团队研究人工智能如何重塑经济，包括工作，生产力和经济机会。通过严格的数据收集和分析，我们跟踪人工智能对现实世界的经济影响，并发布研究报告，帮助政策制定者、企业和公众理解并为未来的变化做好准备。\n研究团队:\n对齐\n经济学\n可解释性\n社会影响\n边疆红队\n我们做什么\n我们为unde建立了经验基础",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-08-24"
+        },
+        {
+          "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+          "title_en": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+          "title_zh": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+          "summary_zh": "Anthropic 现场营销人员如何使用 Claude 代码向每位销售代表发送每周个性化更新\n\nAnthropic 现场营销人员如何使用 Claude 代码向每位销售代表发送每周个性化更新\nAnthropic 营销团队的Adam Ward分享了他如何使用 Claude 将每周销售报告转化为他支持的每位客户经理的个性化周一简报。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年8月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-一个人类领域-营销人员-使用-克劳德-代码-发送-每周-个性化-更新-每次-销售",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-24"
+        }
+      ]
+    },
     {
       "date": "2026-08-21",
       "articles": [
@@ -422,56 +445,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-07-27"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/claude-opus-5",
-          "title_en": "Introducing Claude Opus 5",
-          "title_zh": "Introducing Claude Opus 5",
-          "summary_zh": "介绍 Claude Opus 5\n\n产品\n公告\n介绍 Claude Opus 5\n2026年7月24日\nClaude Opus 5今天可用。这是一个深思熟虑、积极主动的模型，以一半的价格接近 Claude 寓言5的前沿智能。\n关于编码和知识工作评估，如\n前沿-长凳\n和\nGDPval-AA\n,Opus 5是最新的，尽管它在网络安全任务上仍然落后于Mythos 5。\nOpus 5旨在每天使用: 它比其他型号更有效。这是新的默认模型",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-24"
-        },
-        {
-          "url": "https://www.anthropic.com/research/project-pilot",
-          "title_en": "Project Pilot: Can AI models fly drones?",
-          "title_zh": "Project Pilot: Can AI models fly drones?",
-          "summary_zh": "项目试点: AI模型能飞无人机吗？\n\n边疆红队\nProject Pilot: AI可以控制无人机吗？\n2026年7月24日\nAnthropic 和Andon实验室\n去年，我们的几个研究项目研究了前沿模型如何与物理世界相互作用。在\n项目\n出售\n,AI模型开了一家小店；\n项目提取\n早期将机器人视为数字模型和物理对象之间的中介。正如我们最近在\n项目获取: 第二阶段\n,我们已经看到模型功能的改进，这样他们的能力",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-07-24"
-        },
-        {
-          "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
-          "title_en": "How the product designer who built Claude Design uses it to explore ideas before building them",
-          "title_zh": "How the product designer who built Claude Design uses it to explore ideas before building them",
-          "summary_zh": "构建 Claude 设计的产品设计师如何使用它在构建创意之前探索创意\n\n构建 Claude 设计的产品设计师如何使用它在构建创意之前探索创意\nAnthropic 的产品设计师Nate Parrott分享了他如何使用 Claude Design (beta版) 来探索、迭代和分享早期的视觉创意，从产品原型到幻灯片和动画。\n类别\n企业人工智能\n产品\nClaude 设计\n日期\n2026年7月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-产品-设计师-谁-建造-克劳德-设计-使用-它-探索-想法之前-bu",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-24"
-        },
-        {
-          "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-          "title_en": "The new rules of context engineering for Claude 5 generation models",
-          "title_zh": "The new rules of context engineering for Claude 5 generation models",
-          "summary_zh": "Claude 5代模型的上下文工程新规则\n\nClaude 5代模型的上下文工程新规则\n我们删除了超过80% 的 Claude 代码的更高级模型的系统提示。如何将我们学到的经验应用于您自己的 Claude 代码中的上下文工程以及您自己的代理。\n类别\nClaude 代码\n代理人\n产品\nClaude 代码\nClaude 企业\nClaude 平台\n日期\n2026年7月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ the-new-rules-of-context-engineering-for-claude-5-generation-models\n我以前写过",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-24"
-        },
-        {
-          "url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
-          "title_en": "Claude models explained: choosing the best model for your use case",
-          "title_zh": "Claude models explained: choosing the best model for your use case",
-          "summary_zh": "Claude 模型说明: 为您的用例选择最佳模型\n\nClaude 模型说明: 为您的用例选择最佳模型\n类别\n企业人工智能\n代理人\nClaude 代码\n产品\nClaude 代码\nClaude 考克\nClaude 设计\nClaude 企业\nClaude 平台\n日期\n2026年7月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德-模型-解释-为您的用例选择最佳模型\n我们的建议: 开始聪明\n我们听到的最常见的问题之一是 “我应该为这个工作负载选择什么模型？” 因为我们已经发布了更多的模型课程和版本",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-24"
         }
       ]
     }
@@ -2016,6 +1989,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/team/economics",
+        "title": "Economics",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-08-24"
+      },
       {
         "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
         "title": "How Claude is accelerating protein design and analytical chemistry",
@@ -4034,6 +4013,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+        "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-24"
+      },
       {
         "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
         "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
