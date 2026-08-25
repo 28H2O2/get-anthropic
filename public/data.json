@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-08-24",
+  "generated_at": "2026-08-25",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-25",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+          "title_en": "Funding better evaluations of AI’s impact on wellbeing",
+          "title_zh": "Funding better evaluations of AI’s impact on wellbeing",
+          "summary_zh": "为更好地评估AI对福祉的影响提供资金\n\n公告\n为更好地评估AI对福祉的影响提供资金\n2026年8月25日\n我们正在启动一项500万美元的拨款计划，以资助人工智能如何影响用户健康的独立研究。该计划将为建立开源评估的受赠者提供直接资金，访问我们的模型以及技术支持，以帮助AI行业衡量我们的模型如何影响使用它们的人。受赠者将完全独立工作，并将他们的工作作为开源项目发布，任何d",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+          "title_en": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+          "title_zh": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+          "summary_zh": "贝恩公司作为全球卓越合作伙伴加入 Claude 合作伙伴网络\n\n贝恩公司作为全球卓越合作伙伴加入 Claude 合作伙伴网络\nAnthropic 和贝恩公司正在合作帮助企业部署人工智能，这是在贝恩向19,000名员工推出 Claude 的基础上。\n类别\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年8月25日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 贝恩公司加入克劳德合作伙伴网络即全球卓越合作伙伴\n贝恩公司 (Bain & Company) 和 Anthropic 今天宣布建立全球合作伙伴关系，以帮助企业",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-25"
+        },
+        {
+          "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+          "title_en": "Claude's memory works everywhere, and you decide what's in it",
+          "title_zh": "Claude's memory works everywhere, and you decide what's in it",
+          "summary_zh": "Claude 的内存随处可见，由您决定其中的内容\n\nClaude 的内存随处可见，由您决定其中的内容\n类别\n产品公告\n产品\nClaude 考克\n日期\n2026年8月25日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claudes-memory-works-everywhere-and-you-dree-whats-in-it\n从今天开始，您在聊天中使用的内存与在 Claude Cowork中使用的内存相同。现在，无论你在哪里使用 Claude，它都从它已经知道的你开始。您可以逐主题查看 Claude 记忆的所有内容，并编辑或删除其中的任何内容。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-25"
+        }
+      ]
+    },
     {
       "date": "2026-08-24",
       "articles": [
@@ -451,6 +483,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+        "title": "Funding better evaluations of AI’s impact on wellbeing",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-08-25"
+      },
       {
         "url": "https://www.anthropic.com/news/claude-text-watermark",
         "title": "How Claude's text watermarking works",
@@ -4013,6 +4051,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+        "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-25"
+      },
+      {
+        "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+        "title": "Claude's memory works everywhere, and you decide what's in it",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-25"
+      },
       {
         "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
         "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",

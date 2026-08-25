@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/news/wellbeing-research-grants": {
+    "title": "Funding better evaluations of AI’s impact on wellbeing",
+    "date": "2026-08-25",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner": {
+    "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+    "date": "2026-08-25",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it": {
+    "title": "Claude's memory works everywhere, and you decide what's in it",
+    "date": "2026-08-25",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/team/economics": {
     "title": "Economics",
     "date": "2026-08-24",
