@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/research/enabling-independent-research": {
+    "title": "Enabling independent research on how people use Claude",
+    "date": "2026-08-26",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-in-chrome-generally-available": {
+    "title": "Claude in Chrome is generally available",
+    "date": "2026-08-26",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/cowork-built-in-browser": {
+    "title": "Claude gets its own browser in Cowork",
+    "date": "2026-08-26",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude": {
+    "title": "How Warp builds self-improving agents on Claude",
+    "date": "2026-08-26",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/wellbeing-research-grants": {
     "title": "Funding better evaluations of AI’s impact on wellbeing",
     "date": "2026-08-25",

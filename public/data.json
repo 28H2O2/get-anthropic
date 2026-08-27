@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-08-25",
+  "generated_at": "2026-08-27",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-26",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/enabling-independent-research",
+          "title_en": "Enabling independent research on how people use Claude",
+          "title_zh": "Enabling independent research on how people use Claude",
+          "summary_zh": "对人们如何使用 Claude 进行独立研究\n\n社会影响\n对人们如何使用 Claude 进行独立研究\n2026年8月26日\n今年早些时候，我们进行了一项试点，允许外部研究人员访问汇总的真实 Claude 使用数据。三个研究小组为我们的隐私保护分析工具 Anthropic Insights设计了自己的研究; 我们代表他们运行数据收集，他们进行了自己的独立分析。在这篇文章中，我们分享了这些研究的高级结果，以及我们在运行这个pi中学到的东西",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-08-26"
+        },
+        {
+          "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+          "title_en": "Claude in Chrome is generally available",
+          "title_zh": "Claude in Chrome is generally available",
+          "summary_zh": "Chrome中的 Claude 通常可用\n\nChrome中的 Claude 通常可用\n在浏览器中为 Claude 提供任务，跨选项卡工作，然后在桌面、移动和web应用中继续对话。\n添加到Chrome\n添加到Chrome\n添加到Chrome\n类别\n产品公告\n产品\nClaude 共事\nClaude 个应用程序\n日期\n2026年8月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-in-chrome-一般可用\nChrome中的 Claude 现已在每个付费 Claude 计划中普遍提供。Claude 现在也可以自主执行操作",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-26"
+        },
+        {
+          "url": "https://claude.com/blog/cowork-built-in-browser",
+          "title_en": "Claude gets its own browser in Cowork",
+          "title_zh": "Claude gets its own browser in Cowork",
+          "summary_zh": "Claude 在Cowork中获得自己的浏览器\n\nClaude 在Cowork中获得自己的浏览器\nClaude 在桌面应用程序中打开自己的浏览器以导航网站、阅读页面和填写表单。\n类别\n产品公告\n产品\nClaude 共事\nClaude 个应用\n日期\n2026年8月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ cowork-内置浏览器\nClaude 现在在桌面应用程序上的 Claude Cowork中内置了一个浏览器。当任务需要使用网站时，浏览器会在侧面板中打开并 Claude 导航网页、读取网页、单击",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-26"
+        },
+        {
+          "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+          "title_en": "How Warp builds self-improving agents on Claude",
+          "title_zh": "How Warp builds self-improving agents on Claude",
+          "summary_zh": "Warp如何在 Claude 上构建自我改进代理\n\nWarp如何在 Claude 上构建自我改进代理\n了解Warp如何设计一个简单的开发模式，任何人都可以使用它来创建自我改进代理。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年8月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-扭曲-构建-自我改进-克劳德上的代理\n作者\n迈克尔·塞格纳\n在我们的系列中，我们重点介绍了初创公司如何通过AI改变其行业。在本文中，我们将分享Warp如何在",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-26"
+        }
+      ]
+    },
     {
       "date": "2026-08-25",
       "articles": [
@@ -454,29 +495,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-07-28"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/cognizant-anthropic",
-          "title_en": "Expanding our partnership with Cognizant | Anthropic",
-          "title_zh": "Expanding our partnership with Cognizant | Anthropic",
-          "summary_zh": "扩大我们与Cognizant的合作关系 | Anthropic\n\n公告\nCognizant和 Anthropic 扩大合作关系，将 Claude 带给企业客户\n2026年7月27日\n我们正在扩大我们的\n伙伴关系\n与\n认知\n,全球最大的技术服务公司之一。\nCognizant在为制造业、生命科学、保险和其他行业的客户构建和运行的系统中使用 Claude。随着我们合作关系的扩展，它将 Claude 嵌入到自己的业务和工程平台中，扩展了 Claude 认证的wo",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-27"
-        },
-        {
-          "url": "https://www.anthropic.com/news/position-open-weights-models",
-          "title_en": "Our position on open-weights models",
-          "title_zh": "Our position on open-weights models",
-          "summary_zh": "我们对开放权重模型的立场\n\n公告\n我们对开放权重模型的立场\n2026年7月27日\nAnthropic 首席执行官Dario Amodei的帖子\n在过去的几天里，有很多关于开放权重模型的讨论，尤其是来自中国的模型。报道称，一些美国官员\n考虑禁止\n美国公司使用中国开放式权重模型。作为回应，许多科技公司已经签署了\n一封信\n支持开放权重模型，甚至有人指责 Anthropic 想要禁止开放权重模型",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-27"
         }
       ]
     }
@@ -2027,6 +2045,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/enabling-independent-research",
+        "title": "Enabling independent research on how people use Claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-08-26"
+      },
       {
         "url": "https://www.anthropic.com/research/team/economics",
         "title": "Economics",
@@ -4051,6 +4075,24 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+        "title": "Claude in Chrome is generally available",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-26"
+      },
+      {
+        "url": "https://claude.com/blog/cowork-built-in-browser",
+        "title": "Claude gets its own browser in Cowork",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-26"
+      },
+      {
+        "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "title": "How Warp builds self-improving agents on Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-26"
+      },
       {
         "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
         "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
