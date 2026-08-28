@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/expanding-support-for-scientists": {
+    "title": "Expanding our support for scientists",
+    "date": "2026-08-27",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/model-hardware-standard-research-preview": {
+    "title": "Previewing the Model Hardware Standard",
+    "date": "2026-08-27",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/research/enabling-independent-research": {
     "title": "Enabling independent research on how people use Claude",
     "date": "2026-08-26",

@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-08-27",
+  "generated_at": "2026-08-28",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-27",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+          "title_en": "Expanding our support for scientists",
+          "title_zh": "Expanding our support for scientists",
+          "summary_zh": "扩大对科学家的支持\n\n公告\n扩大对科学家的支持\n2026年8月27日\n随着 Claude 在科学研究方面的能力越来越强，我们正专注于构建产品和计划来支持研究社区。在6月，我们推出了\nClaude 科学\n,一种产品，它集成了研究人员最常用的工具，产生了可审计的工件，并提供了对计算资源的灵活访问。我们还继续扩大我们的\nAI科学计划\n,它向r提供免费学分",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-08-27"
+        },
+        {
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          "title_en": "Previewing the Model Hardware Standard",
+          "title_zh": "Previewing the Model Hardware Standard",
+          "summary_zh": "预览模型硬件标准\n\n公告\n有益的部署\n预览模型硬件标准\n2026年8月27日\n我们正在向第一批科学研究实验室和高级制造商开放模型硬件标准 (MHS) 的研究预览，这是AI代理安全操作物理设备的共享规范。MHS使人工智能代理能够并行操作多个实验室和制造仪器，如显微镜、液体处理机和机械臂，并执行复杂的任务，包括日常工作。",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-08-27"
+        }
+      ]
+    },
     {
       "date": "2026-08-26",
       "articles": [
@@ -474,33 +497,22 @@
           "date": "2026-07-30"
         }
       ]
-    },
-    {
-      "date": "2026-07-28",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-          "title_en": "Discovering cryptographic weaknesses with Claude",
-          "title_zh": "Discovering cryptographic weaknesses with Claude",
-          "summary_zh": "使用 Claude 发现加密漏洞\n\n前沿红队\n使用 Claude 发现加密漏洞\n2026年7月28日\n摘要\n使用 Claude Mythos Preview，Anthropic 的研究人员发现了攻击加密算法 (用于保持在线数据私密性的数学方法) 的改进方法。第一次攻击大大削弱了HAWK，这是一种为后量子世界构建的数字签名方案。第二种方法确定了一种攻击回合减少的AES的新方法，这是使用最广泛的对称密码。这些是实质上的",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-07-28"
-        },
-        {
-          "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
-          "title_en": "Bringing MCP 2026-07-28 to Claude",
-          "title_zh": "Bringing MCP 2026-07-28 to Claude",
-          "summary_zh": "将MCP 2026-07-28带到 Claude\n\n将MCP 2026-07-28带到 Claude\n类别\n产品公告\n产品\nClaude 个应用\nClaude 平台\n日期\n2026年7月28日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ bringing-mcp-2026-07-28-to-claude\n模型上下文协议的第五个规范版本，\nMCP 2026-07-28\n，\n是今天的生活。最新的规范将MCP转移到无状态核心，同时加强授权和毕业的官方扩展。正在对 Claude 个产品推出支持。\n什么是新的MCP\n‍\nMCP最近sur",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-07-28"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+        "title": "Expanding our support for scientists",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-08-27"
+      },
+      {
+        "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+        "title": "Previewing the Model Hardware Standard",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-08-27"
+      },
       {
         "url": "https://www.anthropic.com/news/wellbeing-research-grants",
         "title": "Funding better evaluations of AI’s impact on wellbeing",
