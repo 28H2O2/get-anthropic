@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures": {
+    "title": "Automated researchers can reliably mitigate alignment failures",
+    "date": "2026-08-28",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/how-anthropic-employees-use-claude-tag": {
+    "title": "How Anthropic employees use Claude Tag",
+    "date": "2026-08-28",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts": {
+    "title": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+    "date": "2026-08-28",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/expanding-support-for-scientists": {
     "title": "Expanding our support for scientists",
     "date": "2026-08-27",
@@ -2182,6 +2200,16 @@
   },
   "https://alignment.anthropic.com/2026/lie-detectors/": {
     "title": "Fine-Tuned Lie Detectors Failed to Generalize",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/automated-alignment-researchers/": {
+    "title": "Automated Researchers Can Reliably Mitigate Alignment Failures",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/taste/": {
+    "title": "TASTE: Can AI Models Judge AI Safety Research Proposals?",
     "date": "2026-01-01",
     "source": "alignment"
   },

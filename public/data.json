@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-08-28",
+  "generated_at": "2026-08-29",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-28",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+          "title_en": "Automated researchers can reliably mitigate alignment failures",
+          "title_zh": "Automated researchers can reliably mitigate alignment failures",
+          "summary_zh": "自动化研究人员可以可靠地缓解对齐失败\n\n对齐\n自动化研究人员可以可靠地缓解对齐失败\n2026年8月28日\n阅读论文\n作为\nAI开始自我构建\n,自动化对齐研究对于让安全研究跟上步伐变得越来越重要。虽然测量\n成功\n的一致性研究是巨大的挑战，研究人员 (在 Anthropic 和其他地方) 已经开发了基准和自动审计工具，如\n彼得里\n,即量化共同对齐\n失败，\n像欺骗，马夫和监狱",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-08-28"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropic-employees-use-claude-tag",
+          "title_en": "How Anthropic employees use Claude Tag",
+          "title_zh": "How Anthropic employees use Claude Tag",
+          "summary_zh": "Anthropic 名员工如何使用 Claude 标签\n\nAnthropic 名员工如何使用 Claude 标签\n生产客户准备的抵押品，编制每周的问题报告，并运行法律审查，所有这些工作已经发生。\n类别\n企业AI\n产品\nClaude 标签\n日期\n2026年8月28日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类-员工-使用-克劳德-标签\n作者\nAleksandra Todorova\nClaude 标签\n将 Claude 引入到Slack等聊天工具中，您可以在其中像同事一样在线程中标记 @{{ 0}}",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-28"
+        },
+        {
+          "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+          "title_en": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+          "title_zh": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+          "summary_zh": "Claude 教师，现在可用于美国K-12学校和地区\n\nClaude 教师，现在可用于美国K-12学校和地区\n从今天开始，美国K-12学校和学区可以免费为教师提供 Claude。这包括高级 Claude 功能，例如以学习科学为基础的教学技能以及与所有50个州的学术标准的直接联系。通过2027年6月30日注册的合格组织可以获得一整年的免费访问权限。\n类别\n产品公告\n产品\nClaude 个应用\n日期\n8月28日，202",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-08-28"
+        }
+      ]
+    },
     {
       "date": "2026-08-27",
       "articles": [
@@ -2058,6 +2090,12 @@
     ],
     "anthropic_research": [
       {
+        "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+        "title": "Automated researchers can reliably mitigate alignment failures",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-08-28"
+      },
+      {
         "url": "https://www.anthropic.com/research/enabling-independent-research",
         "title": "Enabling independent research on how people use Claude",
         "desc": "Anthropic 研究论文与技术博客",
@@ -4088,6 +4126,18 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/blog/how-anthropic-employees-use-claude-tag",
+        "title": "How Anthropic employees use Claude Tag",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-28"
+      },
+      {
+        "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+        "title": "Claude for Teachers, now available for U.S. K-12 schools and districts",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-08-28"
+      },
+      {
         "url": "https://claude.com/blog/claude-in-chrome-generally-available",
         "title": "Claude in Chrome is generally available",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -5064,6 +5114,18 @@
       {
         "url": "https://alignment.anthropic.com/2026/lie-detectors/",
         "title": "Fine-Tuned Lie Detectors Failed to Generalize",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers/",
+        "title": "Automated Researchers Can Reliably Mitigate Alignment Failures",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/taste/",
+        "title": "TASTE: Can AI Models Judge AI Safety Research Proposals?",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },
