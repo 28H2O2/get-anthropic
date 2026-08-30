@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29",
+  "generated_at": "2026-08-30",
   "lookback_days": 30,
   "digests": [
     {
@@ -513,20 +513,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-04"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-          "title_en": "Investigating three real-world incidents in our cybersecurity evaluations",
-          "title_zh": "Investigating three real-world incidents in our cybersecurity evaluations",
-          "summary_zh": "在我们的网络安全评估中，对三起真实事件展开调查\n\n前沿红队\n在我们的网络安全评估中，对三起真实事件展开调查\n2026年7月30日\n在审查我们的网络安全评估记录时，我们发现了三起事件，其中 Claude 模型从内部或与第三方评估环境交互时到达互联网，然后未经授权访问三个不同组织的真实系统。\n以下我们将说明事件经过、发生原因，以及我们正在采取的改进措施。我们鼓励其他AI实验室",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-07-30"
         }
       ]
     }
