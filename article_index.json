@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/improving-alignment-security-efforts": {
+    "title": "Improving our alignment and security practices",
+    "date": "2026-08-31",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures": {
     "title": "Automated researchers can reliably mitigate alignment failures",
     "date": "2026-08-28",

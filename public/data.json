@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-31",
+  "generated_at": "2026-09-01",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-08-31",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+          "title_en": "Improving our alignment and security practices",
+          "title_zh": "Improving our alignment and security practices",
+          "summary_zh": "改进我们的一致性和安全实践\n\n改善我们的一致性和安全工作\n2026年8月31日\n7月30日，我们\n报告的\nClaude 模型获得对真实计算机系统的未授权访问的三个事件。这些模型——为评估目的而故意在未启用网络安全防护的情况下运行——因第三方测评环境中的配置失误而接入了互联网。另外，在8月4日上，英国人工智能安全研究所\n报告的\n来自自己的网络安全测试的事件，其中 Claude Mythos 5采取了一系列o",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-08-31"
+        }
+      ]
+    },
     {
       "date": "2026-08-28",
       "articles": [
@@ -519,6 +533,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+        "title": "Improving our alignment and security practices",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-08-31"
+      },
       {
         "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
         "title": "Expanding our support for scientists",
