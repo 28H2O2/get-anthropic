@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/enterprise-frontier-safeguards": {
+    "title": "Developing Enterprise Frontier Safeguards with our customers",
+    "date": "2026-09-01",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/improving-alignment-security-efforts": {
     "title": "Improving our alignment and security practices",
     "date": "2026-08-31",

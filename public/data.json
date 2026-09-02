@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-01",
+  "generated_at": "2026-09-02",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-01",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+          "title_en": "Developing Enterprise Frontier Safeguards with our customers",
+          "title_zh": "Developing Enterprise Frontier Safeguards with our customers",
+          "summary_zh": "与客户一起开发企业前沿保障措施\n\n公告\n与客户一起开发企业前沿保障措施\n2026年9月1日\n今天，我们宣布推出Enterprise Frontier Safeguards (EFS)，该解决方案将零数据保留 (ZDR) 的隐私与用于检测滥用的最先进的保护措施相结合。EFS的工作原理是将数据存储在客户控制的云基础架构中，而不是 Anthropic。EFS将于今年秋季晚些时候起分阶段向客户推出。为了使过渡顺利进行，符合条件的客户将获得Z",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-09-01"
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "articles": [
@@ -533,6 +547,12 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+        "title": "Developing Enterprise Frontier Safeguards with our customers",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-09-01"
+      },
       {
         "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
         "title": "Improving our alignment and security practices",
