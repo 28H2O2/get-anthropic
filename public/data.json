@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-09-02",
+  "generated_at": "2026-09-03",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-02",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+          "title_en": "A guide to the anatomy of effective commerce agents",
+          "title_zh": "A guide to the anatomy of effective commerce agents",
+          "summary_zh": "有效商业代理的解剖指南\n\n有效商业代理的解剖指南\n代理的体系结构、延迟和成本技术以及评估实践，使在线购买和销售变得更加容易。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年9月2日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 有效商业代理的解剖\n作者\n阿里·沙扎尔\n马修·科恩\n在过去的一年里，我们与整个商业行业的团队合作-零售商，市场，旅游，娱乐和telec",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-02"
+        },
+        {
+          "url": "https://claude.com/blog/claude-for-commerce-agents",
+          "title_en": "Building commerce agents with Claude",
+          "title_zh": "Building commerce agents with Claude",
+          "summary_zh": "使用 Claude 构建商务代理\n\n使用 Claude 构建商务代理\n在 Claude 上经营购物代理的零售商已经看到多达35% 的购物车60% 更大，购物者更有可能完成购买。\n类别\n产品公告\n代理人\n产品\nClaude 平台\n日期\n2026年9月2日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-for-commerce-agents\n世界上许多最大的零售商、市场、电子商务平台和旅游公司都使用 Claude 来建立代理，使购物更容易。企业c",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-02"
+        }
+      ]
+    },
     {
       "date": "2026-09-01",
       "articles": [
@@ -4151,6 +4174,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+        "title": "A guide to the anatomy of effective commerce agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-02"
+      },
+      {
+        "url": "https://claude.com/blog/claude-for-commerce-agents",
+        "title": "Building commerce agents with Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-02"
+      },
       {
         "url": "https://claude.com/blog/how-anthropic-employees-use-claude-tag",
         "title": "How Anthropic employees use Claude Tag",

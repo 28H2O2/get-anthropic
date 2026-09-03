@@ -1,4 +1,16 @@
 {
+  "https://claude.com/blog/the-anatomy-of-effective-commerce-agents": {
+    "title": "A guide to the anatomy of effective commerce agents",
+    "date": "2026-09-02",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-for-commerce-agents": {
+    "title": "Building commerce agents with Claude",
+    "date": "2026-09-02",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/enterprise-frontier-safeguards": {
     "title": "Developing Enterprise Frontier Safeguards with our customers",
     "date": "2026-09-01",
