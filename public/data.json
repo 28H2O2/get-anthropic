@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03",
+  "generated_at": "2026-09-04",
   "lookback_days": 30,
   "digests": [
     {
@@ -145,6 +145,15 @@
           "summary_zh": "Warp如何在 Claude 上构建自我改进代理\n\nWarp如何在 Claude 上构建自我改进代理\n了解Warp如何设计一个简单的开发模式，任何人都可以使用它来创建自我改进代理。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年8月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-扭曲-构建-自我改进-克劳德上的代理\n作者\n迈克尔·塞格纳\n在我们的系列中，我们重点介绍了初创公司如何通过AI改变其行业。在本文中，我们将分享Warp如何在",
           "source": "Claude Blog",
           "source_key": "claude_blog",
+          "date": "2026-08-26"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
+          "title_en": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
+          "title_zh": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-08-26"
         }
       ]
@@ -541,29 +550,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-05"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/tino-cuellar",
-          "title_en": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
-          "title_zh": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer",
-          "summary_zh": "Tino Cuellar加入 Anthropic 担任首席全球事务主管\n\n公告\nMariano-florentino (Tino) cu é llar将加入 Anthropic 担任首席全球事务主管\n2026年8月4日\n马里亚诺-弗洛伦蒂诺 (Tino) cu é llar将加入 Anthropic，担任其首任首席全球事务官，领导公司在政策、战略性国际参与和全球政府关系方面的工作。\n蒂诺的职业生涯横跨法律、科技、国际安全以及国际、国家和州各级公共机构。他最近辞去了",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-08-04"
-        },
-        {
-          "url": "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude",
-          "title_en": "A guide to cost visibility and control in Claude",
-          "title_zh": "A guide to cost visibility and control in Claude",
-          "summary_zh": "Claude 中的成本可见性和控制指南\n\nClaude 中的成本可见性和控制指南\n了解如何通过IT管理员的成本控制来优化 Claude Enterprise的成本。\n类别\n企业人工智能\n产品\nClaude 企业\n日期\n2026年8月4日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 成本指南-可见性和控制-在克劳德\n企业以多种方式使用 Claude，从向数千名员工推广it，到在 Claude 平台上构建应用程序的初创公司和单个团队。成本对他们所有人都很重要。\n在th中",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-04"
         }
       ]
     }
@@ -3082,6 +3068,12 @@
       }
     ],
     "cookbook": [
+      {
+        "url": "https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
+        "title": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-08-26"
+      },
       {
         "url": "https://platform.claude.com/cookbook/capabilities-content-moderation-guide",
         "title": "capabilities-content-moderation-guide",

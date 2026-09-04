@@ -77,6 +77,11 @@
     "source": "claude_blog",
     "processed": true
   },
+  "https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer": {
+    "title": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
+    "date": "2026-08-26",
+    "source": "cookbook"
+  },
   "https://www.anthropic.com/news/wellbeing-research-grants": {
     "title": "Funding better evaluations of AI’s impact on wellbeing",
     "date": "2026-08-25",
