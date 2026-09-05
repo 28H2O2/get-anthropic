@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/research/formalizing-fermats-last-theorem": {
+    "title": "Formalizing Fermat's Last Theorem",
+    "date": "2026-09-04",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://claude.com/blog/the-anatomy-of-effective-commerce-agents": {
     "title": "A guide to the anatomy of effective commerce agents",
     "date": "2026-09-02",

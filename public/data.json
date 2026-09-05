@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-04",
+  "generated_at": "2026-09-05",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-04",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+          "title_en": "Formalizing Fermat's Last Theorem",
+          "title_zh": "Formalizing Fermat's Last Theorem",
+          "summary_zh": "费马大定理的形式化\n\n科学\n费马大定理的形式化\n2026年9月4日\n我们正在分享费马大定理的第一个完整的计算机验证。Claude 在11天内基本上自主地用精益编程语言编写证明。下面，我们描述了形式化是如何完成的，并分享了一些关于这项工作对研究数学意味着什么的想法。\n大约在1637，皮埃尔·德·费马在他的Diophantus的算术副本的页边写下了一份索赔\n这将成为一个t",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-09-04"
+        }
+      ]
+    },
     {
       "date": "2026-09-02",
       "articles": [
@@ -536,20 +550,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-06"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/claude-enterprise-inference-hooks",
-          "title_en": "Inference hooks: inline data loss prevention for Claude Enterprise",
-          "title_zh": "Inference hooks: inline data loss prevention for Claude Enterprise",
-          "summary_zh": "推理挂钩: Claude Enterprise的内联数据丢失防护\n\n推理挂钩: Claude Enterprise的内联数据丢失防护\n类别\n企业人工智能\n产品公告\n产品\nClaude 企业\nClaude 个应用程序\nClaude 考克\nClaude 代码\n日期\n2026年8月5日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-enterprise-inference-hooks\n推理挂钩可让您的合规性团队在每个提示和工具调用响应到达 Claude 之前对其进行检查并强制执行策略-跨 Claude 企业表面 (包括聊天、 Claude 代码、 Claude Cowork)",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-05"
         }
       ]
     }
@@ -2124,6 +2124,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+        "title": "Formalizing Fermat's Last Theorem",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-09-04"
+      },
       {
         "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
         "title": "Automated researchers can reliably mitigate alignment failures",
