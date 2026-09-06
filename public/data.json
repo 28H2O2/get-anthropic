@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05",
+  "generated_at": "2026-09-06",
   "lookback_days": 30,
   "digests": [
     {
@@ -527,29 +527,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-07"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-06",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
-          "title_en": "Millennium and Anthropic are building a digital risk analyst with Claude",
-          "title_zh": "Millennium and Anthropic are building a digital risk analyst with Claude",
-          "summary_zh": "Millennium和 Anthropic 正在与 Claude 建立数字风险分析师\n\nMillennium和 Anthropic 正在与 Claude 建立数字风险分析师\n类别\n企业人工智能\n代理\nClaude 代码\n产品\nClaude 企业\n日期\n2026年8月6日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 千年和人类正在建设数字风险分析师与克劳德\nAnthropic 正在与世界上最大的另类投资管理公司之一Millennium合作，共同开发一位数字风险分析师: 一位人工智能队友，与之合作并在其监督下工作。",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-06"
-        },
-        {
-          "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
-          "title_en": "Run Claude Code sessions on your own compute",
-          "title_zh": "Run Claude Code sessions on your own compute",
-          "summary_zh": "在您自己的计算上运行 Claude 个代码会话\n\n在您自己的计算上运行 Claude 个代码会话\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年8月6日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ run-claude-code-sessions-on-your-own-compute\n现在，在公共测试版中，自托管环境允许您在自己的基础结构上运行 Claude 代码会话。从web、移动设备、桌面或例程启动一个会话，它在您的网络内部运行，紧挨着您的内部服务、工具链和安全控制，而不是o",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-06"
         }
       ]
     }
