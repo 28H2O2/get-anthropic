@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform": {
+    "title": "Reducing cost and improving performance with Claude Platform",
+    "date": "2026-09-08",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/formalizing-fermats-last-theorem": {
     "title": "Formalizing Fermat's Last Theorem",
     "date": "2026-09-04",

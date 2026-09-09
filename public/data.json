@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-08",
+  "generated_at": "2026-09-09",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-08",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+          "title_en": "Reducing cost and improving performance with Claude Platform",
+          "title_zh": "Reducing cost and improving performance with Claude Platform",
+          "summary_zh": "使用 Claude 平台降低成本并提高性能\n\n使用 Claude 平台降低成本并提高性能\n调整提示缓存、指令和工作量可以在不牺牲应用程序性能的情况下降低 Claude 的成本。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年9月8日\n阅读时间\n五\n分钟\n分享\n复制链接\n使用claude平台降低成本和提高性能的 https://claude.com/blog/\n作者\n兰斯·马丁\n性能和成本通常被视为一种权衡: 花更少的钱，你会接受更差的结果。在实践中，我们已经f",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-08"
+        }
+      ]
+    },
     {
       "date": "2026-09-04",
       "articles": [
@@ -472,20 +486,6 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-08-10"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-09",
-      "articles": [
-        {
-          "url": "https://platform.claude.com/cookbook/cost-optimization-cost-optimization",
-          "title_en": "cost-optimization-cost-optimization",
-          "title_zh": "cost-optimization-cost-optimization",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-08-09"
         }
       ]
     }
@@ -4108,6 +4108,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+        "title": "Reducing cost and improving performance with Claude Platform",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-08"
+      },
       {
         "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
         "title": "A guide to the anatomy of effective commerce agents",
