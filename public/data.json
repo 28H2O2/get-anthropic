@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-09",
+  "generated_at": "2026-09-10",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-09",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+          "title_en": "An alignment assessment of recent cybersecurity incidents",
+          "title_zh": "An alignment assessment of recent cybersecurity incidents",
+          "summary_zh": "近期网络安全事件的一致性评估\n\n对齐\n近期网络安全事件的一致性评估\n2026年9月9日\n引言\n我们提供了对四个事件的一致性评估，其中 Claude 模型获得了对真实第三方系统的未经授权的访问。我们描述了其中三起事件\n在7月30日上\n；我们在扫描了大约141,000份成绩单后确定了这些成绩单，我们认为 Claude 可以在网络评估期间获得互联网访问权限。鉴于成绩单的数量和我们披露事件的愿望",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-09-09"
+        }
+      ]
+    },
     {
       "date": "2026-09-08",
       "articles": [
@@ -472,20 +486,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-11"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-10",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/riemann-zeta",
-          "title_en": "Learning more about Claude's mathematical capabilities",
-          "title_zh": "Learning more about Claude's mathematical capabilities",
-          "summary_zh": "了解有关 Claude 的数学功能的更多信息\n\n科学\n了解有关 Claude 的数学功能的更多信息\n2026年8月10日\n最近，Anthropic 的一名员工向 Claude 提出了不合理的挑战。这是关于数学中最著名的未解决问题之一:\n真正尝试一下黎曼假设\n。\nClaude 确实进行了一次真正的尝试，但是如果您熟悉任务的难度，您可能已经预料到了 (黎曼假设可以追溯到1859年，并且具有\n百万美元赏金\n)，它没有成功。然而，在",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-08-10"
         }
       ]
     }
@@ -2060,6 +2060,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+        "title": "An alignment assessment of recent cybersecurity incidents",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-09-09"
+      },
       {
         "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
         "title": "Formalizing Fermat's Last Theorem",
