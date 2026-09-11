@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities": {
+    "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
+    "date": "2026-09-10",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process": {
+    "title": "T. Rowe Price brings more of Claude to its investment process",
+    "date": "2026-09-10",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai": {
+    "title": "What 1,000 small business owners taught us about AI",
+    "date": "2026-09-10",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents": {
     "title": "An alignment assessment of recent cybersecurity incidents",
     "date": "2026-09-09",
