@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11",
+  "generated_at": "2026-09-12",
   "lookback_days": 30,
   "digests": [
     {
@@ -481,29 +481,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-08-13"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-12",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-          "title_en": "How well do job retraining programs work?",
-          "title_zh": "How well do job retraining programs work?",
-          "summary_zh": "工作再培训计划的效果如何？\n\n经济研究\n审查有关工人再培训计划的证据\n2026年8月12日\n下载报告\n我们正在分享由独立研究员David Roodman和 Anthropic 的Maxim Massenkoff共同撰写的有关工人再培训计划的证据。\n对工人进行再培训是减轻人工智能对劳动力市场干扰的最受欢迎的政策选择。在本报告中，作者调查了这些计划在面临重大劳动力市场中断的情况下是否有效。\n审查是",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-08-12"
-        },
-        {
-          "url": "https://claude.com/blog/cowork-chrome-side-panel",
-          "title_en": "The Claude in Chrome side panel is now Claude Cowork",
-          "title_zh": "The Claude in Chrome side panel is now Claude Cowork",
-          "summary_zh": "铬侧板中的 Claude 现在是 Claude Cowork\n\n铬侧板中的 Claude 现在是 Claude Cowork\n在浏览器中为 Claude 提供任务，跨选项卡工作，然后在桌面、移动和web应用中继续对话。\n类别\n产品公告\n产品\nClaude 共事\nClaude 个应用\n日期\n2026年8月12日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ cowork-镀铬侧板\n这\n在Chrome中 Claude\n侧面板现在是一个\nClaude 共事\n会话。对话保存到您的历史记录中，您的技能和连接器在浏览器中工作，",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-12"
         }
       ]
     }
