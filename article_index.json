@@ -3007,6 +3007,11 @@
     "source": "anthropic_news",
     "processed": false
   },
+  "https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude": {
+    "title": "",
+    "date": "2025-08-27",
+    "source": "anthropic_research"
+  },
   "https://claude.com/blog/claude-for-chrome": {
     "title": "Piloting Claude in Chrome",
     "date": "2025-08-25",
@@ -3453,6 +3458,11 @@
     "source": "transformer_circuits",
     "processed": false
   },
+  "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7": {
+    "title": "",
+    "date": "2025-03-27",
+    "source": "anthropic_research"
+  },
   "https://www.anthropic.com/engineering/claude-think-tool": {
     "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations",
     "date": "2025-03-20",
@@ -3523,6 +3533,11 @@
     "date": "2025-02-20",
     "source": "anthropic_research",
     "processed": false
+  },
+  "https://www.anthropic.com/research/the-anthropic-economic-index": {
+    "title": "",
+    "date": "2025-02-10",
+    "source": "anthropic_research"
   },
   "https://www.anthropic.com/news/lyft-announcement": {
     "title": "",

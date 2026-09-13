@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12",
+  "generated_at": "2026-09-13",
   "lookback_days": 30,
   "digests": [
     {
@@ -431,56 +431,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-14"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-13",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/multiagent-systems",
-          "title_en": "Patterns and problems in multiagent systems",
-          "title_zh": "Patterns and problems in multiagent systems",
-          "summary_zh": "多智能体系统中的模式和问题\n\n边疆红队\n新兴多智能体系统中的模式和问题\n2026年8月13日\n模型正在改进，人工智能代理正在共享代码库、市场和其他社会系统中承担更多的任务。结果，代理之间的现实世界交互的增加迫在眉睫。我们已经\n开始研究这个\n,但对于这在规模上看起来是什么样子仍然有很大的不确定性。轨迹很容易想象，也很难减缓: 目前的机构是由人设计的，也是为人设计的，",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-08-13"
-        },
-        {
-          "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
-          "title_en": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
-          "title_zh": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
-          "summary_zh": "Slack中的自助数据分析: Anthropic 如何为临时问题部署 Claude 标记\n\nSlack中的自助数据分析: Anthropic 如何为临时问题部署 Claude 标记\n类别\n未找到任何项目。\n产品\n未找到任何项目。\n日期\n2026年8月13日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 自助服务-数据分析-在松弛中-如何-人类-部署-克劳德-标签-针对-特别-问题\n作者\n克莱门特彭\n赵莉莉\n在我们的\n上一篇文章\n,我们描述了如何通过三个主要工件使 Claude 能够以95% 的准确性回答数据分析问题:\nA被治理",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-13"
-        },
-        {
-          "url": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
-          "title_en": "Claude Tag now reads even more of the room",
-          "title_zh": "Claude Tag now reads even more of the room",
-          "summary_zh": "Claude 标签现在可以读取房间的更多内容\n\nClaude 标签现在可以读取房间的更多内容\nClaude 有更多的上下文来决定何时在Slack中主动协作 (以及何时不协作)\n类别\n产品公告\n产品\nClaude 标签\n日期\n2026年8月13日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德-标签-现在-阅读-甚至更多的房间\n通过 Claude 标记，您可以将 Claude 添加到Slack频道，以便与您的团队一起使用。Claude 在您 @-提及它时做出响应，或者在它认为它可能有帮助时主动响应。\n之前，Claude o",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-13"
-        },
-        {
-          "url": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
-          "title_en": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
-          "title_zh": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
-          "summary_zh": "确保前沿: JetBrains如何评估和部署 Claude 寓言5\n\n确保前沿: JetBrains如何评估和部署 Claude 寓言5\nJetBrains Agent Systems的CTO vladdivlav Tankov介绍了该公司如何针对其私有存储库评估frontier模型，他的团队何时到达 Claude 寓言5，以及为什么他将保护措施和数据保留视为与之合作的核心。\n‍\n类别\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年8月13日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ how-jetbrains-evaluates-and-deploys-claude-fable-5",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-13"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/capabilities-content-moderation-guide",
-          "title_en": "capabilities-content-moderation-guide",
-          "title_zh": "capabilities-content-moderation-guide",
-          "summary_zh": "功能-内容-审核-指南\n\n\n使用 Claude 强制执行内容策略\n内容审核是在内容之前根据书面策略检查内容的过程\n出去，然后决定它会发生什么: 发布，拒绝或发送给人类\n审阅者。内容可以来自任何地方: 用户评论，卖家列表，广告\n法律必须明确的创意、营销活动。该政策是用简单的方式写的\n政策、法律或品牌团队使用英语，内容比任何评论都快\n团队可以阅读。这个阁楼的每个主人",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-08-13"
         }
       ]
     }
@@ -2650,6 +2600,12 @@
         "date": "2025-08-28"
       },
       {
+        "url": "https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude",
+        "title": "anthropic-education-report-how-educators-use-claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-08-27"
+      },
+      {
         "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
         "title": "nuclear-safeguards-for-ai",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2728,6 +2684,12 @@
         "date": "2025-04-04"
       },
       {
+        "url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+        "title": "anthropic-economic-index-insights-from-claude-sonnet-3-7",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-03-27"
+      },
+      {
         "url": "https://www.anthropic.com/research/forecasting-rare-behaviors",
         "title": "forecasting-rare-behaviors",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2738,6 +2700,12 @@
         "title": "crosscoder-model-diffing",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-02-20"
+      },
+      {
+        "url": "https://www.anthropic.com/research/the-anthropic-economic-index",
+        "title": "the-anthropic-economic-index",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-02-10"
       },
       {
         "url": "https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment",
