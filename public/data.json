@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13",
+  "generated_at": "2026-09-14",
   "lookback_days": 30,
   "digests": [
     {
@@ -408,29 +408,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-17"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/claude-text-watermark",
-          "title_en": "How Claude's text watermarking works",
-          "title_zh": "How Claude's text watermarking works",
-          "summary_zh": "Claude 的文本水印是如何工作的\n\n公告\nClaude 的文字水印是如何工作的\n2026年8月14日\n以后的 Claude 模型将生成包含水印的文本。这是一种确定 Claude 参与编写文本的可能性的方法，我们与其他几家主要的人工智能提供商一起，正在实施这一更改，以符合欧盟人工智能法案。\n在本文中，我们分享了一些问题的答案，这些问题涉及我们选择的水印方法是如何工作的，它是否会影响 Claude 的输出，以及为什么我们",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-08-14"
-        },
-        {
-          "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
-          "title_en": "Maximizing the value of your Claude Code sessions",
-          "title_zh": "Maximizing the value of your Claude Code sessions",
-          "summary_zh": "最大化 Claude 个代码会话的价值\n\n最大化 Claude 个代码会话的价值\n如何运行从每个令牌中获得最大价值的高效会话。\n类别\nClaude 代码\n企业人工智能\n产品\nClaude 代码\n日期\n2026年8月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 最大化您的克劳德代码会话的价值\n作者\n莉迪亚·哈莉\n简而言之\n运行\n/清除\n任务之间。\n这防止先前不相关的上下文被发送回模型，这可以减少令牌使用。\n将您的模型和努力水平设置为",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-14"
         }
       ]
     }
