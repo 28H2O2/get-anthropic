@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-09-14",
+  "generated_at": "2026-09-15",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-14",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+          "title_en": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+          "title_zh": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+          "summary_zh": "代理编码正在给CI带来压力。以下是我们在 Anthropic 上扩展测试影响分析的方式\n\n代理编码正在给CI带来压力。以下是我们在 Anthropic 上扩展测试影响分析的方式\n我们的CI工作量在6个月内增加了25倍。在找到可持续的解决方案之前，我们对测试选择服务进行了三次修补。\n类别\nClaude 代码\n企业AI\n产品\nClaude 代码\nClaude 企业\nClaude 标签\n日期\n2026年9月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 代理编码-是-紧张-ci-heres-我们如何-扩展-测试-影响-分析-人类\n作者\n萨钦·马尔霍特拉",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-14"
+        },
+        {
+          "url": "https://claude.com/blog/claude-for-financial-advisors",
+          "title_en": "Claude for Financial Advisors",
+          "title_zh": "Claude for Financial Advisors",
+          "summary_zh": "Claude 财务顾问\n\nClaude 财务顾问\n财务顾问现在可以将 Claude 连接到他们所依赖的托管人、投资组合平台、crm和规划工具，以及为财务顾问的日常工作量身定制的新技能。\n类别\n产品公告\n产品\n未找到任何项目。\n日期\n2026年9月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德为财务顾问\n今天，我们将为财务顾问发布 Claude，这是一套连接器和工作流技能，旨在",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-14"
+        },
+        {
+          "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+          "title_en": "How healthcare organizations use Claude Tag",
+          "title_zh": "How healthcare organizations use Claude Tag",
+          "summary_zh": "医疗保健组织如何使用 Claude 标签\n\n医疗保健组织如何使用 Claude 标签\nInsight Health、Tennr和Medallion如何构建带有 Claude 标签的人工代理团队。\n类别\n企业人工智能\n产品\nClaude 标签\n日期\n2026年9月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 方法-医疗保健-组织-使用-claude-tag\n作者\nCamy Pearson\n玛丽亚·豪\nAraba Koomson\n医疗保健组织正在使用\nClaude 标签 (测试版)\n,这将 Claude 作为\n一个队友\n,为了帮助他们对生产警报进行分诊，维护",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-14"
+        },
+        {
+          "url": "https://claude.com/blog/deploying-ai-from-pilot-to-production",
+          "title_en": "Deploying AI from pilot to production",
+          "title_zh": "Deploying AI from pilot to production",
+          "summary_zh": "将人工智能从试点阶段部署到生产环境\n\n将人工智能从试点阶段部署到生产环境\n在这本由埃森哲撰写的指南中，我们分享了将企业人工智能从试点到生产的七个考虑因素，以及领导层需要做出的决策。\n类别\n企业人工智能\n产品\nClaude 企业\n日期\n2026年9月14日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 部署-ai-从试点到生产\n成功的AI试点并不能保证成功部署到组织的其他部分。根据Accentur",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-14"
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "articles": [
@@ -4060,6 +4101,30 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+        "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-14"
+      },
+      {
+        "url": "https://claude.com/blog/claude-for-financial-advisors",
+        "title": "Claude for Financial Advisors",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-14"
+      },
+      {
+        "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+        "title": "How healthcare organizations use Claude Tag",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-14"
+      },
+      {
+        "url": "https://claude.com/blog/deploying-ai-from-pilot-to-production",
+        "title": "Deploying AI from pilot to production",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-14"
+      },
       {
         "url": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
         "title": "T. Rowe Price brings more of Claude to its investment process",
