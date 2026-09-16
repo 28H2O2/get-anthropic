@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-15",
+  "generated_at": "2026-09-16",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-15",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+          "title_en": "Claude for Small Business launches new workflows, integrations, and training programs",
+          "title_zh": "Claude for Small Business launches new workflows, integrations, and training programs",
+          "summary_zh": "Claude 面向小型企业推出新的工作流、集成和培训计划\n\nClaude 面向小型企业推出新的工作流、集成和培训计划\n我们正在发布新的\nClaude 用于小型企业\n工作流程和集成可帮助所有者运营和发展业务。我们还将开始 Claude SMB之旅的下一阶段，提供免费的合作伙伴网络研讨会和社区举办的研讨会。\n类别\n产品公告\n产品\nClaude 用于小型企业\n日期\n2026年9月15日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-for-small-business-launche",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://claude.com/blog/salesforce-in-claude",
+          "title_en": "Bringing Salesforce into Claude",
+          "title_zh": "Bringing Salesforce into Claude",
+          "summary_zh": "将Salesforce引入 Claude\n\n将Salesforce引入 Claude\n卖家现在可以使用我们新的Salesforce in Claude 插件来调查公司、准备电话、审核管道和起草CRM更新。\n类别\n企业人工智能\n产品\nClaude 企业\n日期\n2026年9月15日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ salesforce-in-claude\n今天，我们将在 Claude beta版中发布Salesforce，这是一个由Salesforce构建的插件，可将卖方的帐户，机会和管道带入其现有销售中的 Claude",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-15"
+        },
+        {
+          "url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+          "title_en": "Building an AI-native revenue organization",
+          "title_zh": "Building an AI-native revenue organization",
+          "summary_zh": "构建AI原生收入组织\n\n构建AI原生收入组织\n在本指南中，我们将分享收入领导者如何在整个销售组织中推广 Claude，包括设置决策、三阶段推广计划和ROI衡量框架。\n类别\n企业人工智能\n产品\nClaude 共事\n日期\n2026年9月15日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 建设-人工智能-原生-收入-组织\n在与收入领导者的对话中，我们听到了同样的挑战: 一半的团队几乎没有接触",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-15"
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "articles": [
@@ -4101,6 +4133,24 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+        "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-15"
+      },
+      {
+        "url": "https://claude.com/blog/salesforce-in-claude",
+        "title": "Bringing Salesforce into Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-15"
+      },
+      {
+        "url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+        "title": "Building an AI-native revenue organization",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-15"
+      },
       {
         "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
         "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
