@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/cowork-is-now-claude": {
+    "title": "Claude Cowork and chat are now one Claude",
+    "date": "2026-09-16",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs": {
     "title": "Claude for Small Business launches new workflows, integrations, and training programs",
     "date": "2026-09-15",

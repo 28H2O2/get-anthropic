@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-16",
+  "generated_at": "2026-09-17",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-16",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/cowork-is-now-claude",
+          "title_en": "Claude Cowork and chat are now one Claude",
+          "title_zh": "Claude Cowork and chat are now one Claude",
+          "summary_zh": "Claude Cowork和聊天现在是一个 Claude\n\nClaude Cowork和聊天现在是一个 Claude\n你不必选择任务的去向。Claude 执行更多工作。\n类别\n产品公告\n产品\nClaude 个应用\nClaude 共事\n日期\n2026年9月16日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ cowork-is-now-claude\n从今天开始，Claude Cowork和chat将合并为一个 Claude。提出一个简单的问题，或者交出中午到期的报告，然后 Claude 从那里拿走它，即使您已经关闭了笔记本电脑。它正在推出o",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-16"
+        }
+      ]
+    },
     {
       "date": "2026-09-15",
       "articles": [
@@ -467,20 +481,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-18"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-17",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
-          "title_en": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
-          "title_zh": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
-          "summary_zh": "ABC Legal如何将每个员工变成具有 Claude 个托管代理的建造者\n\nABC Legal如何将每个员工变成具有 Claude 个托管代理的建造者\nABC Legal将其组织的AI采用从分散的实验转变为具有 Claude 的受管理的专业代理团队。\n类别\n企业人工智能\n产品\nClaude 企业\n日期\n2026年8月17日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-abc-法律-将每个员工转变为-建造者-与-克劳德-管理-代理\n当美国法律文件交付公司ABC Legal的CTO Brandon Fuller",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-17"
         }
       ]
     }
@@ -4133,6 +4133,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/cowork-is-now-claude",
+        "title": "Claude Cowork and chat are now one Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-16"
+      },
       {
         "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
         "title": "Claude for Small Business launches new workflows, integrations, and training programs",
