@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/news/life-sciences-verification-program": {
+    "title": "Introducing the Life Sciences Verification Program",
+    "date": "2026-09-17",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": {
+    "title": "How Claude is uplifting biomolecular modeling",
+    "date": "2026-09-17",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5": {
+    "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+    "date": "2026-09-17",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/projects-redesigned": {
+    "title": "Projects redesigned: from folder to conversation",
+    "date": "2026-09-17",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/cowork-is-now-claude": {
     "title": "Claude Cowork and chat are now one Claude",
     "date": "2026-09-16",
