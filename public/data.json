@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-18",
+  "generated_at": "2026-09-19",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-18",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+          "title_en": "Partnering with Accenture on embedded evaluation",
+          "title_zh": "Partnering with Accenture on embedded evaluation",
+          "summary_zh": "与埃森哲合作进行嵌入式评估\n\n公告\n与埃森哲合作进行嵌入式评估\n2026年9月18日\n我们正在与埃森哲合作，对frontier AI进行独立评估。这是朝着我们首席执行官的承诺迈出的重要一步\n论文\n“我们必须加快前沿的步伐”，将评估人员嵌入到 Anthropic 中。\n该合作伙伴关系将由埃森哲的专业AI业务人员领导，并将包括评估和红色团队模型，进行一致性评估以及测试模型保障措施。埃森哲帮助业务部门",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-09-18"
+        }
+      ]
+    },
     {
       "date": "2026-09-17",
       "articles": [
@@ -357,6 +371,15 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-08-26"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/misc-admin-api",
+          "title_en": "misc-admin-api",
+          "title_zh": "misc-admin-api",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-08-26"
         }
       ]
     },
@@ -478,24 +501,16 @@
           "date": "2026-08-20"
         }
       ]
-    },
-    {
-      "date": "2026-08-19",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
-          "title_en": "Turning conversation into knowledge: how Slack builds human-agent teams",
-          "title_zh": "Turning conversation into knowledge: how Slack builds human-agent teams",
-          "summary_zh": "将对话转化为知识: Slack如何建立人类代理团队\n\n将对话转化为知识: Slack如何建立人类代理团队\n与Slack首席产品官Jaime DeLanghe的对话。\n‍\n类别\n企业AI\n产品\n未找到任何项目。\n日期\n2026年8月19日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 将对话转化为知识如何松弛构建人-代理-团队\n这是我们关于构建人工智能团队的系列文章的第二篇。这\n首先\n分享了我们在 Anthropic 中学到的使用多人AI构建团队的知识。在thi",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-19"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "title": "Partnering with Accenture on embedded evaluation",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-09-18"
+      },
       {
         "url": "https://www.anthropic.com/news/life-sciences-verification-program",
         "title": "Introducing the Life Sciences Verification Program",
@@ -3059,6 +3074,12 @@
       {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
         "title": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-08-26"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/misc-admin-api",
+        "title": "misc-admin-api",
         "desc": "Claude 官方开发示例与教程",
         "date": "2026-08-26"
       },

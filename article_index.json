@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/accenture-embedded-evaluation": {
+    "title": "Partnering with Accenture on embedded evaluation",
+    "date": "2026-09-18",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/life-sciences-verification-program": {
     "title": "Introducing the Life Sciences Verification Program",
     "date": "2026-09-17",
@@ -187,6 +193,11 @@
   },
   "https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer": {
     "title": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
+    "date": "2026-08-26",
+    "source": "cookbook"
+  },
+  "https://platform.claude.com/cookbook/misc-admin-api": {
+    "title": "misc-admin-api",
     "date": "2026-08-26",
     "source": "cookbook"
   },
