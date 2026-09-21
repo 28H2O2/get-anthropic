@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-09-21",
   "lookback_days": 30,
   "digests": [
     {
@@ -435,29 +435,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-08-24"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-21",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-          "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "title_zh": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-          "summary_zh": "将 Claude Mythos 5的网络安全功能带给更多防御者\n\n将 Claude Mythos 5的网络安全功能带给更多防御者\n类别\n产品公告\n产品\n未找到任何项目。\n日期\n2026年8月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ bringing-claude-mythos-5-to-more-defenders\n我们正在分享我们努力的最新情况，以帮助更多的团队使用前沿能力进行网络防御。\nClaude 神话5\n现在可在\nClaude 安全\n,并即将推出合作伙伴的网络防御工具。我们还向他发起了一项3500万美元的基金",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-21"
-        },
-        {
-          "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
-          "title_en": "The AI-Native SDLC playbook",
-          "title_zh": "The AI-Native SDLC playbook",
-          "summary_zh": "AI原生SDLC剧本\n\nAI原生SDLC剧本\n如何通过AI改变您的软件开发生命周期-分阶段进行。\n‍\n类别\n企业人工智能\nClaude 代码\n产品\nClaude 企业\nClaude 代码\nClaude 标签\n日期\n2026年8月21日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ -ai-native-sdlc-playbook\n作者\n路易斯·克拉克斯顿\n代码不再是瓶颈\n组织已经开始使用人工智能以一年前无法想象的速度编写代码，但围绕代码的流程在",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-21"
         }
       ]
     }
