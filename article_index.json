@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/what-a-task-costs-on-opus-5-5": {
+    "title": "What a task costs on Opus 5.5",
+    "date": "2026-09-22",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/accenture-embedded-evaluation": {
     "title": "Partnering with Accenture on embedded evaluation",
     "date": "2026-09-18",

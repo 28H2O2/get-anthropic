@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-22",
+  "generated_at": "2026-09-23",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-22",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+          "title_en": "What a task costs on Opus 5.5",
+          "title_zh": "What a task costs on Opus 5.5",
+          "summary_zh": "一项任务在 Opus 5.5上花费多少\n\n一项任务在 Opus 5.5上花费多少\nOpus 每个令牌的5.5成本低于 Opus 5。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年9月22日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ what-a-task-costs-on-opus-5-5\n作者\nAddy Osmani\n任务的成本和重试的成本\n你不打算购买数百万个代币。您开始构建功能、完成迁移或运行任务。令牌计数是到达那里所需的模型。\n两种型号，每",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-22"
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "articles": [
@@ -4111,6 +4125,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+        "title": "What a task costs on Opus 5.5",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-22"
+      },
       {
         "url": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
         "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
