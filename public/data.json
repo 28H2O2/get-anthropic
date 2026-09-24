@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-09-23",
+  "generated_at": "2026-09-24",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-23",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "title_en": "Claude discovers a novel enzyme system",
+          "title_zh": "Claude discovers a novel enzyme system",
+          "summary_zh": "Claude 发现一种新的酶系统\n\n科学\nClaude 发现具有CRISPR样重复序列的新型酶系统\n2026年9月23日\n我们将在 Anthropic 引入一个新的生命科学研究小组和实验室。我们的重点是使用 Claude 进行基础生物学研究: 探索DNA数据集以识别未表征的蛋白质家族，大规模生成假设，并通过实验室实验对其进行测试。这篇文章介绍了这项工作背后的团队，并分享了 Claude 发现了一种新的酶系统的早期结果",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-09-23"
+        },
+        {
+          "url": "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
+          "title_en": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+          "title_zh": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+          "summary_zh": "CodeRabbit、Power Digital和ThoughtSpot如何在 Claude Marketplace上使用Snowflake和Vercel进行扩展\n\nCodeRabbit、Power Digital和ThoughtSpot如何在 Claude Marketplace上使用Snowflake和Vercel进行扩展\nCodeRabbit通过 Claude Marketplace扩展了其Vercel计划，Power Digital和ThoughtSpot利用其现有的 Anthropic 承诺扩展了其雪花容量。\n类别\n企业AI\n产品\nClaude 平台\n日期\n2026年9月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-coderabbit-power-digital-thoughtspot-scale-带有雪花-和-vercel-claude-marketp",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-23"
+        },
+        {
+          "url": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+          "title_en": "How to prepare for AI-driven code modernization projects",
+          "title_zh": "How to prepare for AI-driven code modernization projects",
+          "summary_zh": "如何为AI驱动的代码现代化项目做准备\n\n如何为AI驱动的代码现代化项目做准备\n如何为关键系统和受监管企业组织人工智能驱动的现代化项目。\n类别\n企业人工智能\nClaude 代码\n产品\nClaude 代码\n日期\n2026年9月23日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何为ai驱动的代码现代化做准备-项目\n作者\n约拿以西结\nLexie Tonelli\n在我们的\n现场笔记\n系列，Anthropic 前向部署工程师分享受实际cu启发的最佳实践",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-23"
+        },
+        {
+          "url": "https://claude.com/blog/claude-marketplace",
+          "title_en": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+          "title_zh": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+          "summary_zh": "Claude Marketplace: 一个发现来自我们合作伙伴的插件、代理和服务的地方\n\nClaude Marketplace: 一个发现来自我们合作伙伴的插件、代理和服务的地方\n查找工具和服务，以便在 Claude 中完成更多工作，或列出您为与 Claude 客户一起成长而构建的工具和服务。\n类别\n产品公告\n产品\nClaude 平台\n日期\n2026年9月23日\n阅读时间\n五\n分钟\n分享\n复制链接\n克劳德 https://claude.com/blog/ -市场\n从今天开始，\nClaude 市场\n将插件和连接器、代理和产品以及服务合作伙伴放在一个地方。对于custome",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-23"
+        }
+      ]
+    },
     {
       "date": "2026-09-22",
       "articles": [
@@ -428,33 +469,16 @@
           "date": "2026-08-25"
         }
       ]
-    },
-    {
-      "date": "2026-08-24",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/team/economics",
-          "title_en": "Economics",
-          "title_zh": "Economics",
-          "summary_zh": "经济学\n\n返回到概述\n经济学\n经济研究团队研究人工智能如何重塑经济，包括工作，生产力和经济机会。通过严格的数据收集和分析，我们跟踪人工智能对现实世界的经济影响，并发布研究报告，帮助政策制定者、企业和公众理解并为未来的变化做好准备。\n研究团队:\n对齐\n经济学\n可解释性\n社会影响\n边疆红队\n我们做什么\n我们为unde建立了经验基础",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-08-24"
-        },
-        {
-          "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
-          "title_en": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
-          "title_zh": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
-          "summary_zh": "Anthropic 现场营销人员如何使用 Claude 代码向每位销售代表发送每周个性化更新\n\nAnthropic 现场营销人员如何使用 Claude 代码向每位销售代表发送每周个性化更新\nAnthropic 营销团队的Adam Ward分享了他如何使用 Claude 将每周销售报告转化为他支持的每位客户经理的个性化周一简报。\n类别\nClaude 代码\n产品\nClaude 代码\n日期\n2026年8月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-一个人类领域-营销人员-使用-克劳德-代码-发送-每周-个性化-更新-每次-销售",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-24"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "title": "Claude discovers a novel enzyme system",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-09-23"
+      },
       {
         "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
         "title": "Partnering with Accenture on embedded evaluation",
@@ -4125,6 +4149,24 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
+        "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-23"
+      },
+      {
+        "url": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+        "title": "How to prepare for AI-driven code modernization projects",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-23"
+      },
+      {
+        "url": "https://claude.com/blog/claude-marketplace",
+        "title": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-23"
+      },
       {
         "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
         "title": "What a task costs on Opus 5.5",

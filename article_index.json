@@ -1,4 +1,28 @@
 {
+  "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system": {
+    "title": "Claude discovers a novel enzyme system",
+    "date": "2026-09-23",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace": {
+    "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+    "date": "2026-09-23",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects": {
+    "title": "How to prepare for AI-driven code modernization projects",
+    "date": "2026-09-23",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-marketplace": {
+    "title": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+    "date": "2026-09-23",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/what-a-task-costs-on-opus-5-5": {
     "title": "What a task costs on Opus 5.5",
     "date": "2026-09-22",
