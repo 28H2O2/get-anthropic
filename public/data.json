@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-24",
+  "generated_at": "2026-09-25",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-24",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/project-swap",
+          "title_en": "Project Swap: What happens when agents trade for us?",
+          "title_zh": "Project Swap: What happens when agents trade for us?",
+          "summary_zh": "项目交换: 当代理商为我们进行交易时会发生什么？\n\n经济学\n项目交换: 当代理商为我们进行交易时会发生什么？\n2026年9月24日\n以PDF格式阅读\n摘要\n为了了解当代理商被派往市场时什么有效，什么中断，我们制作了一个 Claudes的微型市场-一个更受控制的续集\n项目交易\n,我们的第一个实验是代理代表人们在市场中进行交互。Anthropic 六个办公室的员工带来了一本他们想送人的书。每个参与者都与 Claude 进行了简短的聊天，讨论他们喜欢阅读的内容，并发送了一个C",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+          "title_en": "Claude Tag now supports personal connectors in channels",
+          "title_zh": "Claude Tag now supports personal connectors in channels",
+          "summary_zh": "Claude 标签现在支持频道中的个人连接器\n\nClaude 标签现在支持频道中的个人连接器\nClaude 标签现在可以使用您的连接器来处理您在通道中发出的请求。没有其他人可以使用它们，您可以控制如何呈现输出。\n类别\n产品公告\n企业人工智能\n产品\nClaude 标签\n日期\n2026年9月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-tag-现在-支持-个人-连接器-频道\nClaude 标签 (测试版)\n允许您将 Claude 添加到Slack频道，它与您的",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-24"
+        },
+        {
+          "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+          "title_en": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+          "title_zh": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+          "summary_zh": "编码会话更长并且使用更多上下文。Claude Opus 5.5就是基于此而构建的。\n\n编码会话更长并且使用更多上下文。Claude Opus 5.5就是基于此而构建的。\n我们最新的 Opus 模型经过了定价和培训，以优化开发人员现在编写代码的成本。\n类别\nClaude 代码\n企业人工智能\n产品\nClaude 代码\nClaude 企业\n日期\n2026年9月24日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-opus-5-5-built-for-coding-sessions-that-use-more-context\n作者\n迈克尔·塞格纳\n我们估计 Claude Opus 5.5\n费用约少40%\n运行比 Opus 5",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-24"
+        }
+      ]
+    },
     {
       "date": "2026-09-23",
       "articles": [
@@ -435,38 +467,6 @@
           "source": "Claude Cookbook",
           "source_key": "cookbook",
           "date": "2026-08-26"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-25",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/wellbeing-research-grants",
-          "title_en": "Funding better evaluations of AI’s impact on wellbeing",
-          "title_zh": "Funding better evaluations of AI’s impact on wellbeing",
-          "summary_zh": "为更好地评估AI对福祉的影响提供资金\n\n公告\n为更好地评估AI对福祉的影响提供资金\n2026年8月25日\n我们正在启动一项500万美元的拨款计划，以资助人工智能如何影响用户健康的独立研究。该计划将为建立开源评估的受赠者提供直接资金，访问我们的模型以及技术支持，以帮助AI行业衡量我们的模型如何影响使用它们的人。受赠者将完全独立工作，并将他们的工作作为开源项目发布，任何d",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-08-25"
-        },
-        {
-          "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
-          "title_en": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
-          "title_zh": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
-          "summary_zh": "贝恩公司作为全球卓越合作伙伴加入 Claude 合作伙伴网络\n\n贝恩公司作为全球卓越合作伙伴加入 Claude 合作伙伴网络\nAnthropic 和贝恩公司正在合作帮助企业部署人工智能，这是在贝恩向19,000名员工推出 Claude 的基础上。\n类别\n企业人工智能\n产品\n未找到任何项目。\n日期\n2026年8月25日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 贝恩公司加入克劳德合作伙伴网络即全球卓越合作伙伴\n贝恩公司 (Bain & Company) 和 Anthropic 今天宣布建立全球合作伙伴关系，以帮助企业",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-25"
-        },
-        {
-          "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
-          "title_en": "Claude's memory works everywhere, and you decide what's in it",
-          "title_zh": "Claude's memory works everywhere, and you decide what's in it",
-          "summary_zh": "Claude 的内存随处可见，由您决定其中的内容\n\nClaude 的内存随处可见，由您决定其中的内容\n类别\n产品公告\n产品\nClaude 考克\n日期\n2026年8月25日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claudes-memory-works-everywhere-and-you-dree-whats-in-it\n从今天开始，您在聊天中使用的内存与在 Claude Cowork中使用的内存相同。现在，无论你在哪里使用 Claude，它都从它已经知道的你开始。您可以逐主题查看 Claude 记忆的所有内容，并编辑或删除其中的任何内容。",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-25"
         }
       ]
     }
@@ -2059,6 +2059,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/project-swap",
+        "title": "Project Swap: What happens when agents trade for us?",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-09-24"
+      },
       {
         "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
         "title": "How Claude is uplifting biomolecular modeling",
@@ -4149,6 +4155,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+        "title": "Claude Tag now supports personal connectors in channels",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-24"
+      },
+      {
+        "url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+        "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-24"
+      },
       {
         "url": "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
         "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
