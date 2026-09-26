@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": {
+    "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+    "date": "2026-09-25",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/build-plugins-for-claude": {
+    "title": "Build plugins for Claude",
+    "date": "2026-09-25",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/project-swap": {
     "title": "Project Swap: What happens when agents trade for us?",
     "date": "2026-09-24",

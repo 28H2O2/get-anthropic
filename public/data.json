@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-09-25",
+  "generated_at": "2026-09-26",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-25",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+          "title_en": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+          "title_zh": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+          "summary_zh": "Claude 在N = 4个超级杨-米尔斯中计算九回路振幅\n\n科学\n是的，Claude 可以做九个循环\n2026年9月25日\n在这篇客座文章中，物理学家兼科学作家马特·冯·希佩尔 (Matt von Hippel) 分享了他向人工智能公司发出关于他以前的理论物理学子领域的问题的挑战时所发生的事情。\n你发出挑战的情况并不常见，只是在一个月后看到它被击败。但是我们生活在不寻常的时代。\n让我自我介绍一下: 我是马特·冯·希佩尔。我曾经是一名理论物理学家; 现在我是一名科学作家。一直以来，我一直",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-09-25"
+        },
+        {
+          "url": "https://claude.com/blog/build-plugins-for-claude",
+          "title_en": "Build plugins for Claude",
+          "title_zh": "Build plugins for Claude",
+          "summary_zh": "为 Claude 构建插件\n\n为 Claude 构建插件\n现在，您可以通过新的开发人员门户将插件提交到 Claude 目录，通过审核对其进行跟踪，并在插件上线后查看使用情况分析。\n类别\n产品公告\n产品\nClaude 个应用程序\n日期\n2026年9月25日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ build-plugins-for-claude\n每天，数百万人将 Claude 连接到他们的应用程序、工作工具和数据。今天，我们让开发人员更容易接触到他们。\n插件包MCP c",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-25"
+        }
+      ]
+    },
     {
       "date": "2026-09-24",
       "articles": [
@@ -408,65 +431,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-08-27"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-26",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/enabling-independent-research",
-          "title_en": "Enabling independent research on how people use Claude",
-          "title_zh": "Enabling independent research on how people use Claude",
-          "summary_zh": "对人们如何使用 Claude 进行独立研究\n\n社会影响\n对人们如何使用 Claude 进行独立研究\n2026年8月26日\n今年早些时候，我们进行了一项试点，允许外部研究人员访问汇总的真实 Claude 使用数据。三个研究小组为我们的隐私保护分析工具 Anthropic Insights设计了自己的研究; 我们代表他们运行数据收集，他们进行了自己的独立分析。在这篇文章中，我们分享了这些研究的高级结果，以及我们在运行这个pi中学到的东西",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-08-26"
-        },
-        {
-          "url": "https://claude.com/blog/claude-in-chrome-generally-available",
-          "title_en": "Claude in Chrome is generally available",
-          "title_zh": "Claude in Chrome is generally available",
-          "summary_zh": "Chrome中的 Claude 通常可用\n\nChrome中的 Claude 通常可用\n在浏览器中为 Claude 提供任务，跨选项卡工作，然后在桌面、移动和web应用中继续对话。\n添加到Chrome\n添加到Chrome\n添加到Chrome\n类别\n产品公告\n产品\nClaude 共事\nClaude 个应用程序\n日期\n2026年8月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-in-chrome-一般可用\nChrome中的 Claude 现已在每个付费 Claude 计划中普遍提供。Claude 现在也可以自主执行操作",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-26"
-        },
-        {
-          "url": "https://claude.com/blog/cowork-built-in-browser",
-          "title_en": "Claude gets its own browser in Cowork",
-          "title_zh": "Claude gets its own browser in Cowork",
-          "summary_zh": "Claude 在Cowork中获得自己的浏览器\n\nClaude 在Cowork中获得自己的浏览器\nClaude 在桌面应用程序中打开自己的浏览器以导航网站、阅读页面和填写表单。\n类别\n产品公告\n产品\nClaude 共事\nClaude 个应用\n日期\n2026年8月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ cowork-内置浏览器\nClaude 现在在桌面应用程序上的 Claude Cowork中内置了一个浏览器。当任务需要使用网站时，浏览器会在侧面板中打开并 Claude 导航网页、读取网页、单击",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-26"
-        },
-        {
-          "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
-          "title_en": "How Warp builds self-improving agents on Claude",
-          "title_zh": "How Warp builds self-improving agents on Claude",
-          "summary_zh": "Warp如何在 Claude 上构建自我改进代理\n\nWarp如何在 Claude 上构建自我改进代理\n了解Warp如何设计一个简单的开发模式，任何人都可以使用它来创建自我改进代理。\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年8月26日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-扭曲-构建-自我改进-克劳德上的代理\n作者\n迈克尔·塞格纳\n在我们的系列中，我们重点介绍了初创公司如何通过AI改变其行业。在本文中，我们将分享Warp如何在",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-08-26"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
-          "title_en": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
-          "title_zh": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-08-26"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/misc-admin-api",
-          "title_en": "misc-admin-api",
-          "title_zh": "misc-admin-api",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-08-26"
         }
       ]
     }
@@ -2059,6 +2023,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+        "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-09-25"
+      },
       {
         "url": "https://www.anthropic.com/research/project-swap",
         "title": "Project Swap: What happens when agents trade for us?",
@@ -4155,6 +4125,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/build-plugins-for-claude",
+        "title": "Build plugins for Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-25"
+      },
       {
         "url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
         "title": "Claude Tag now supports personal connectors in channels",
