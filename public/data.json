@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-09-28",
+  "generated_at": "2026-09-29",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-28",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
+          "title_en": "Giving companies more control over their AI agents, with NVIDIA",
+          "title_zh": "Giving companies more control over their AI agents, with NVIDIA",
+          "summary_zh": "通过NVIDIA为公司提供对AI代理商的更多控制权\n\n通过NVIDIA为公司提供对AI代理商的更多控制权\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年9月28日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 捐赠-公司-更多-控制-他们的-ai-代理-与-nvidia\nNVIDIA今天宣布\n开放代理安全平台\n,用于加强AI安全的开放式软件平台和参考系统设计。Anthropic 与NVIDIA合作，为代理堆栈带来了额外的安全和控制层。",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-28"
+        }
+      ]
+    },
     {
       "date": "2026-09-25",
       "articles": [
@@ -122,6 +136,15 @@
           "summary_zh": "与埃森哲合作进行嵌入式评估\n\n公告\n与埃森哲合作进行嵌入式评估\n2026年9月18日\n我们正在与埃森哲合作，对frontier AI进行独立评估。这是朝着我们首席执行官的承诺迈出的重要一步\n论文\n“我们必须加快前沿的步伐”，将评估人员嵌入到 Anthropic 中。\n该合作伙伴关系将由埃森哲的专业AI业务人员领导，并将包括评估和红色团队模型，进行一致性评估以及测试模型保障措施。埃森哲帮助业务部门",
           "source": "Anthropic News",
           "source_key": "anthropic_news",
+          "date": "2026-09-18"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/patterns-agents-latency-multi-agent",
+          "title_en": "patterns-agents-latency-multi-agent",
+          "title_zh": "patterns-agents-latency-multi-agent",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
           "date": "2026-09-18"
         }
       ]
@@ -2967,6 +2990,12 @@
     ],
     "cookbook": [
       {
+        "url": "https://platform.claude.com/cookbook/patterns-agents-latency-multi-agent",
+        "title": "patterns-agents-latency-multi-agent",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-09-18"
+      },
+      {
         "url": "https://platform.claude.com/cookbook/claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
         "title": "claude-agent-sdk-scheduled-repository-reviewer-scheduled-repository-reviewer",
         "desc": "Claude 官方开发示例与教程",
@@ -4070,6 +4099,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
+        "title": "Giving companies more control over their AI agents, with NVIDIA",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-28"
+      },
       {
         "url": "https://claude.com/blog/build-plugins-for-claude",
         "title": "Build plugins for Claude",

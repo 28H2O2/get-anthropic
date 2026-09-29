@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia": {
+    "title": "Giving companies more control over their AI agents, with NVIDIA",
+    "date": "2026-09-28",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": {
     "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
     "date": "2026-09-25",
@@ -64,6 +70,11 @@
     "date": "2026-09-18",
     "source": "anthropic_news",
     "processed": true
+  },
+  "https://platform.claude.com/cookbook/patterns-agents-latency-multi-agent": {
+    "title": "patterns-agents-latency-multi-agent",
+    "date": "2026-09-18",
+    "source": "cookbook"
   },
   "https://www.anthropic.com/news/life-sciences-verification-program": {
     "title": "Introducing the Life Sciences Verification Program",
