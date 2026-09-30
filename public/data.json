@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-29",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+          "title_en": "GLM-5.3 and the spread of advanced cyber capabilities",
+          "title_zh": "GLM-5.3 and the spread of advanced cyber capabilities",
+          "summary_zh": "GLM-5.3与先进网络能力的扩散\n\n边疆红队\n政策\nGLM-5.3与先进网络能力的扩散\n2026年9月29日\n马吕斯·弗莱舍·安德鲁·法萨诺\n科尔·麦克福尔、罗伯特·肖、特里普·加拉格尔\n五个月前，我们\n宣布了\nClaude Mythos Preview，这是第一个可以自主构建复杂的端到端网络攻击的AI模型。人工智能的快速改进向我们表明，这种能力最终将扩散到许多其他模型，使恶意网络行为者更容易启动高度imp。",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-09-29"
+        },
+        {
+          "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+          "title_en": "What Do You Want from AI?",
+          "title_zh": "What Do You Want from AI?",
+          "summary_zh": "你想从AI得到什么？\n\n社会影响\n你想从AI得到什么？\n2026年9月29日\n在这里参与\n我们正在启动一项新的研究\nAnthropic 位面试官\n从你的人工智能经验中学习，我们希望你能参与进来。完成后，你可以决定公开你的面试，这样任何人，不仅仅是 {{1 }}, 都可以阅读并从中学习。你可以\n在这里参与\n。\n我们正处于人工智能发展的关键时刻，因为它不断增长的能力意味着它可能变得更有用、更危险。F",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-09-29"
+        },
+        {
+          "url": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
+          "title_en": "Agents you can coach: how Asana builds human-agent teams with Claude",
+          "title_zh": "Agents you can coach: how Asana builds human-agent teams with Claude",
+          "summary_zh": "您可以指导的代理: Asana如何使用 Claude 构建人工代理团队\n\n您可以指导的代理: Asana如何使用 Claude 构建人工代理团队\nAsana首席产品官Arnab Bose介绍了Asana如何将AI代理作为具有范围角色，共享内存和每个人都能看到的工作的队友来运行。\n‍\n类别\n代理人\n产品\nClaude 平台\n日期\n2026年9月29日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 代理-你可以-教练-如何-体式-构建-人类-代理-团队-与-克劳德\n作者\nAleksandra Todorova\n克里斯汀·斯旺森\n这是我们关于b系列的第三篇文章",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-29"
+        }
+      ]
+    },
     {
       "date": "2026-09-28",
       "articles": [
@@ -1991,6 +2023,18 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+        "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-09-29"
+      },
+      {
+        "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+        "title": "What Do You Want from AI?",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-09-29"
+      },
       {
         "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
         "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
@@ -4099,6 +4143,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
+        "title": "Agents you can coach: how Asana builds human-agent teams with Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-29"
+      },
       {
         "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
         "title": "Giving companies more control over their AI agents, with NVIDIA",

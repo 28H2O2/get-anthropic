@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities": {
+    "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+    "date": "2026-09-29",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/your-thoughts-on-ai": {
+    "title": "What Do You Want from AI?",
+    "date": "2026-09-29",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude": {
+    "title": "Agents you can coach: how Asana builds human-agent teams with Claude",
+    "date": "2026-09-29",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia": {
     "title": "Giving companies more control over their AI agents, with NVIDIA",
     "date": "2026-09-28",
