@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/research/what-work-can-robots-do": {
+    "title": "Can we predict the jobs robots will do?",
+    "date": "2026-09-30",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-for-government-is-now-generally-available": {
+    "title": "Claude for Government is now generally available",
+    "date": "2026-09-30",
+    "source": "claude_blog",
+    "processed": true
+  },
+  "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents": {
+    "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+    "date": "2026-09-30",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities": {
     "title": "GLM-5.3 and the spread of advanced cyber capabilities",
     "date": "2026-09-29",

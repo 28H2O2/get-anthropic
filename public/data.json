@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-30",
+  "generated_at": "2026-10-01",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-09-30",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+          "title_en": "Can we predict the jobs robots will do?",
+          "title_zh": "Can we predict the jobs robots will do?",
+          "summary_zh": "我们能预测机器人会做的工作吗？\n\n经济学\n机器人能做哪些工作？\n2026年9月30日\n下载PDF\n主要发现\n我们根据机器人今天执行工作任务的能力提出了一个机器人暴露指数。\n我们将机器人定义为能够感知和行动的自主物理机器，在美国，机器人可以执行四分之三的物理任务，占工作时间的34%，但主要是在有限的环境中。接触机器人的工人更有可能是男性，受教育程度较低，工资较低。例如，驾驶和仓库工作是高度前",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-09-30"
+        },
+        {
+          "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+          "title_en": "Claude for Government is now generally available",
+          "title_zh": "Claude for Government is now generally available",
+          "summary_zh": "政府的 Claude 现已普遍可用\n\n政府的 Claude 现已普遍可用\nMicrosoft 365的 Claude 代码CLI和 Claude 现在也可以在early access中使用。\n类别\n产品公告\n产品\n未找到项目。\n日期\n2026年9月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 政府的克劳德现在普遍可用\n今天，\nClaude 政府\n通常适用于联邦和州机构。该平台通过FedRAMP High a提供 Claude 的编码和代理工作功能",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-30"
+        },
+        {
+          "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
+          "title_en": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+          "title_zh": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+          "summary_zh": "Anthropic 的销售团队如何与 Claude 托管代理重建入站\n\nAnthropic 的销售团队如何与 Claude 托管代理重建入站\n{{1 }}的销售开发负责人Carl Johnson分享了 Claude 支持的购买代理现在如何回答大多数入境客户，以及这如何改变了我们销售团队的工作方式。\n类别\n企业AI\n产品\nClaude 平台\n日期\n2026年9月30日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-人类学-销售-团队-重建-入站-与克劳德-管理-代理\n作者\n卡尔·约翰逊\n作为销售主管，it pai",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-09-30"
+        }
+      ]
+    },
     {
       "date": "2026-09-29",
       "articles": [
@@ -417,20 +449,6 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-09-01"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-31",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-          "title_en": "Improving our alignment and security practices",
-          "title_zh": "Improving our alignment and security practices",
-          "summary_zh": "改进我们的一致性和安全实践\n\n改善我们的一致性和安全工作\n2026年8月31日\n7月30日，我们\n报告的\nClaude 模型获得对真实计算机系统的未授权访问的三个事件。这些模型——为评估目的而故意在未启用网络安全防护的情况下运行——因第三方测评环境中的配置失误而接入了互联网。另外，在8月4日上，英国人工智能安全研究所\n报告的\n来自自己的网络安全测试的事件，其中 Claude Mythos 5采取了一系列o",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-08-31"
         }
       ]
     }
@@ -2023,6 +2041,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+        "title": "Can we predict the jobs robots will do?",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-09-30"
+      },
       {
         "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
         "title": "GLM-5.3 and the spread of advanced cyber capabilities",
@@ -4143,6 +4167,18 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+        "title": "Claude for Government is now generally available",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-30"
+      },
+      {
+        "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
+        "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-09-30"
+      },
       {
         "url": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
         "title": "Agents you can coach: how Asana builds human-agent teams with Claude",
