@@ -1,4 +1,22 @@
 {
+  "https://www.anthropic.com/news/barclays-scales-claude": {
+    "title": "Barclays scales Claude to upgrade operations and improve client experience",
+    "date": "2026-10-01",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/claude-shaped-science": {
+    "title": "Claude-shaped science",
+    "date": "2026-10-01",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://claude.com/blog/claude-code-mods": {
+    "title": "Customize Claude Code with mods",
+    "date": "2026-10-01",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/research/what-work-can-robots-do": {
     "title": "Can we predict the jobs robots will do?",
     "date": "2026-09-30",

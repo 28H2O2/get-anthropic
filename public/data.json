@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-10-01",
+  "generated_at": "2026-10-02",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-01",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/barclays-scales-claude",
+          "title_en": "Barclays scales Claude to upgrade operations and improve client experience",
+          "title_zh": "Barclays scales Claude to upgrade operations and improve client experience",
+          "summary_zh": "Barclays通过扩展 Claude 来升级运营并改善客户体验\n\n公告\nBarclays通过扩展 Claude 来升级运营并改善客户体验\n2026年10月1日\n英国全能银行巴克莱 (Barclays) 正在扩大与 Anthropic 的战略合作，以在其全球运营中集成安全的企业级AI系统。\nBarclays正在整个银行范围内扩展 Claude，以加快软件开发，现代化遗留系统并提高运营效率。作为此次推出的一部分，巴克莱预计 Claude 代码采用率将达到其50%",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-01"
+        },
+        {
+          "url": "https://www.anthropic.com/research/claude-shaped-science",
+          "title_en": "Claude-shaped science",
+          "title_zh": "Claude-shaped science",
+          "summary_zh": "Claude形科学\n\n科学\nClaude形科学\n2026年10月1日\n在这篇客座文章中，Matthew Schwartz教授再次描述了人工智能加速科学的新方法。在\n氛围物理\n,Schwartz讨论了 Claude 和物理学研究生在能力上的相似之处。在这里，他描述了当他停止战斗 Claude 并允许 Claude 找到 “Claude 形” 问题时发生的事情: 最适合当前 LLM 工具功能的问题。这导致他建立了BootLoops，也是",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-01"
+        },
+        {
+          "url": "https://claude.com/blog/claude-code-mods",
+          "title_en": "Customize Claude Code with mods",
+          "title_zh": "Customize Claude Code with mods",
+          "summary_zh": "使用mods自定义 Claude 代码\n\n使用mods自定义 Claude 代码\n使用几行TypeScript更改 Claude 代码的行为和外观。\n类别\n产品公告\n产品\nClaude 代码\n日期\n2026年10月1日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 克劳德-代码-mods\n今天我们将介绍mods，这是一个小的TypeScript函数，它改变了 Claude 代码的工作方式。mod可以重写提示，添加新的UI，替换内置功能或添加全新的功能。你可以自己写一个mod，或者要求 Claude 代码",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-01"
+        }
+      ]
+    },
     {
       "date": "2026-09-30",
       "articles": [
@@ -437,24 +469,16 @@
           "date": "2026-09-02"
         }
       ]
-    },
-    {
-      "date": "2026-09-01",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-          "title_en": "Developing Enterprise Frontier Safeguards with our customers",
-          "title_zh": "Developing Enterprise Frontier Safeguards with our customers",
-          "summary_zh": "与客户一起开发企业前沿保障措施\n\n公告\n与客户一起开发企业前沿保障措施\n2026年9月1日\n今天，我们宣布推出Enterprise Frontier Safeguards (EFS)，该解决方案将零数据保留 (ZDR) 的隐私与用于检测滥用的最先进的保护措施相结合。EFS的工作原理是将数据存储在客户控制的云基础架构中，而不是 Anthropic。EFS将于今年秋季晚些时候起分阶段向客户推出。为了使过渡顺利进行，符合条件的客户将获得Z",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-09-01"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/barclays-scales-claude",
+        "title": "Barclays scales Claude to upgrade operations and improve client experience",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-01"
+      },
       {
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
         "title": "Claude discovers a novel enzyme system",
@@ -2041,6 +2065,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/claude-shaped-science",
+        "title": "Claude-shaped science",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-01"
+      },
       {
         "url": "https://www.anthropic.com/research/what-work-can-robots-do",
         "title": "Can we predict the jobs robots will do?",
@@ -4167,6 +4197,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/claude-code-mods",
+        "title": "Customize Claude Code with mods",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-01"
+      },
       {
         "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
         "title": "Claude for Government is now generally available",
