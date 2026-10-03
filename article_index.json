@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/claude-frontier-academy": {
+    "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+    "date": "2026-10-02",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/barclays-scales-claude": {
     "title": "Barclays scales Claude to upgrade operations and improve client experience",
     "date": "2026-10-01",
