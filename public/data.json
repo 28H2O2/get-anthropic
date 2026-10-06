@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-05",
+  "generated_at": "2026-10-06",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-05",
+      "articles": [
+        {
+          "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+          "title_en": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+          "title_zh": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+          "summary_zh": "Cresta如何将CX专业知识转化为 Claude 代理SDK上的代理构建器\n\nCresta如何将CX专业知识转化为 Claude 代理SDK上的代理构建器\n类别\n未找到任何项目。\n产品\n未找到任何项目。\n日期\n2026年10月5日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 如何-cresta-转向cx-expertise-进入-an-agent-builder-on-claude-agent-sdk\n在我们的系列中，\n初创公司如何使用 Claude 构建\n,我们来看看AI产品背后的决策。在这里，我们探讨如何\n克雷斯塔\n将其构建人工智能原生客户体验的专业知识带入\n指挥\n,一个代理，帮助",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-05"
+        }
+      ]
+    },
     {
       "date": "2026-10-02",
       "articles": [
@@ -4180,6 +4194,12 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+        "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-05"
+      },
       {
         "url": "https://claude.com/blog/claude-code-mods",
         "title": "Customize Claude Code with mods",

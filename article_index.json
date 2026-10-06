@@ -1,4 +1,10 @@
 {
+  "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk": {
+    "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+    "date": "2026-10-05",
+    "source": "claude_blog",
+    "processed": true
+  },
   "https://www.anthropic.com/news/claude-frontier-academy": {
     "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
     "date": "2026-10-02",
