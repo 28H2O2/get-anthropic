@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/cyber-verification-program": {
+    "title": "Expanding the Cyber Verification Program",
+    "date": "2026-10-06",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk": {
     "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
     "date": "2026-10-05",
