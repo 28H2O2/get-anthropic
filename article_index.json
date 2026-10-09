@@ -1,4 +1,34 @@
 {
+  "https://www.anthropic.com/news/2026-usage-policy-update": {
+    "title": "2026 Usage Policy update",
+    "date": "2026-10-08",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/anthropic-cyber-mission": {
+    "title": "Introducing the Anthropic Cyber Mission",
+    "date": "2026-10-08",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/genesis-mission-commitment": {
+    "title": "Building on our commitment to American scientific discovery",
+    "date": "2026-10-08",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source": {
+    "title": "An opt-in vulnerability-finding service for open-source software",
+    "date": "2026-10-08",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/the-missing-map-of-the-sky": {
+    "title": "Using Claude Science to produce the first complete map of the sky in UV light",
+    "date": "2026-10-08",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://www.anthropic.com/news/cyber-verification-program": {
     "title": "Expanding the Cyber Verification Program",
     "date": "2026-10-06",
