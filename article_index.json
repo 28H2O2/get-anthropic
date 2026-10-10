@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/research/investigating-unintended-model-actions": {
+    "title": "Investigating unintended model actions in our evaluations and internal use",
+    "date": "2026-10-09",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://www.anthropic.com/news/2026-usage-policy-update": {
     "title": "2026 Usage Policy update",
     "date": "2026-10-08",

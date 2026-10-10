@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-10",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-09",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+          "title_en": "Investigating unintended model actions in our evaluations and internal use",
+          "title_zh": "Investigating unintended model actions in our evaluations and internal use",
+          "summary_zh": "调查我们的评估和内部使用中的意外模型行为\n\n对齐\n调查我们的评估和内部使用中的意外模型行为\n2026年10月9日\n此报告描述了我们在评估和内部使用 Claude 期间观察到的意外模型操作的示例。这是我们努力的一部分，发布更频繁的关于模型行为和对齐的独立报告，超出我们的系统卡，我们在每个模型版本中发布，以及我们的风险报告，我们每三到六个月发布一次，作为我们负责任的扩展策略的一部分。我们贝尔",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-09"
+        }
+      ]
+    },
     {
       "date": "2026-10-08",
       "articles": [
@@ -494,20 +508,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-10"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-          "title_en": "An alignment assessment of recent cybersecurity incidents",
-          "title_zh": "An alignment assessment of recent cybersecurity incidents",
-          "summary_zh": "近期网络安全事件的一致性评估\n\n对齐\n近期网络安全事件的一致性评估\n2026年9月9日\n引言\n我们提供了对四个事件的一致性评估，其中 Claude 模型获得了对真实第三方系统的未经授权的访问。我们描述了其中三起事件\n在7月30日上\n；我们在扫描了大约141,000份成绩单后确定了这些成绩单，我们认为 Claude 可以在网络评估期间获得互联网访问权限。鉴于成绩单的数量和我们披露事件的愿望",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-09-09"
         }
       ]
     }
@@ -2136,6 +2136,12 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+        "title": "Investigating unintended model actions in our evaluations and internal use",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-09"
+      },
       {
         "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
         "title": "An opt-in vulnerability-finding service for open-source software",
