@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10",
+  "generated_at": "2026-10-11",
   "lookback_days": 30,
   "digests": [
     {
@@ -476,38 +476,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-14"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-10",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-          "title_en": "Measuring AI capabilities in intelligence targeting and conventional weapons",
-          "title_zh": "Measuring AI capabilities in intelligence targeting and conventional weapons",
-          "summary_zh": "测量智能瞄准和常规武器中的AI能力\n\n边疆红队\n测量人工智能模型的战术情报瞄准和常规武器能力\n2026年9月10日\nAnthropic 的Frontier Red团队开发了新的评估，以衡量战术情报目标 (如根据零碎信息找到人的位置) 和常规武器开发 (如工程无人机打击移动目标) 方面的人工智能能力。\n对于军事和情报领域的某些任务，模型可以做的事情，从历史上看，只有",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-09-10"
-        },
-        {
-          "url": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
-          "title_en": "T. Rowe Price brings more of Claude to its investment process",
-          "title_zh": "T. Rowe Price brings more of Claude to its investment process",
-          "summary_zh": "T. Rowe Price为其投资过程带来了更多 Claude\n\nT. Rowe Price为其投资过程带来了更多 Claude\nT. Rowe Price的投资组合经理和分析师正在与 Claude 和 Claude Cowork合作进行基础研究，其开发人员正在使用 Claude 代码构建投资工具。\n类别\n未找到项目。\n产品\nClaude 个应用程序\nClaude 代码\nClaude 考克\n日期\n2026年9月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 价格带来更多的克劳德到其投资过程\nT. Rowe Price，一家全球投资管理公司",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-10"
-        },
-        {
-          "url": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
-          "title_en": "What 1,000 small business owners taught us about AI",
-          "title_zh": "What 1,000 small business owners taught us about AI",
-          "summary_zh": "1,000小企业主教给我们的关于AI的知识\n\n1,000小企业主教给我们的关于AI的知识\nAnthropic 的美国SMB负责人Lina Ochman分享了她在我们的 Claude SMB之旅中学到的东西，以及该计划的下一步。\n类别\n企业人工智能\n产品\n适用于小型企业的 Claude\n日期\n2026年9月10日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ what-1-000-small-business-owners-taught-us-about-ai\n作者\n莉娜·奥什曼\n大多数人工智能工具和培训都是为大公司和风险投资支持的初创公司开发的。小型企业",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-10"
         }
       ]
     }
