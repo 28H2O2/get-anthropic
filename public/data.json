@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-10-12",
+  "generated_at": "2026-10-13",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-12",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/distillation-defenses",
+          "title_en": "Strengthening our defenses against distillation attacks",
+          "title_zh": "Strengthening our defenses against distillation attacks",
+          "summary_zh": "加强我们对蒸馏攻击的防御\n\n加强我们对蒸馏攻击的防御\n2026年10月12日\n最近几个月，我们在使用新方法降低对 Claude 的蒸馏攻击的有效性方面取得了实质性进展，正如我们在本博客中概述的那样。早期证据表明，这些方法已将蒸馏器收集的数据量减少了约90至99%。\n蒸馏攻击是秘密的，工业规模的活动，以提取一个模型的能力，并在另一个模型中复制它们，没有",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-12"
+        },
+        {
+          "url": "https://www.anthropic.com/research/self-replicating-ai",
+          "title_en": "AI models may be capable of self-replicating without access to a datacenter",
+          "title_zh": "AI models may be capable of self-replicating without access to a datacenter",
+          "summary_zh": "人工智能模型可能在无需访问数据中心的情况下实现自我复制。\n\n前沿红队\n人工智能模型可能在无需访问数据中心的情况下实现自我复制。\n2026年10月12日\n威廉·周，丹尼尔·弗里曼\n我们的实验表明，小型人工智能模型可能需要几个月的时间才能在商业物联网 (IoT) 设备上进行自我复制，如智能烤箱和非品牌Android电视盒。像这样的复制器将是具有挑战性的关闭，因为没有集中点关闭-尽管它可能很慢 (数天的倍增时间)。",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-12"
+        }
+      ]
+    },
     {
       "date": "2026-10-09",
       "articles": [
@@ -2104,6 +2127,18 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/distillation-defenses",
+        "title": "Strengthening our defenses against distillation attacks",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-12"
+      },
+      {
+        "url": "https://www.anthropic.com/research/self-replicating-ai",
+        "title": "AI models may be capable of self-replicating without access to a datacenter",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-12"
+      },
       {
         "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
         "title": "Investigating unintended model actions in our evaluations and internal use",

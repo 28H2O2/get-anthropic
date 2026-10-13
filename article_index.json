@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/research/distillation-defenses": {
+    "title": "Strengthening our defenses against distillation attacks",
+    "date": "2026-10-12",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/self-replicating-ai": {
+    "title": "AI models may be capable of self-replicating without access to a datacenter",
+    "date": "2026-10-12",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://www.anthropic.com/research/investigating-unintended-model-actions": {
     "title": "Investigating unintended model actions in our evaluations and internal use",
     "date": "2026-10-09",
