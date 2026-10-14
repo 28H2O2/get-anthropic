@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "lookback_days": 30,
   "digests": [
     {
@@ -5774,6 +5774,12 @@
         "title": "Introducing Contextual Retrieval",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
         "date": "2024-09-19"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+        "title": "Featured Redesigning source control at Anthropic As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": ""
       }
     ]
   },

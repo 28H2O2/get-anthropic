@@ -5192,5 +5192,11 @@
     "date": "",
     "source": "cookbook",
     "processed": true
+  },
+  "https://www.anthropic.com/engineering/redesigning-source-control": {
+    "title": "Featured Redesigning source control at Anthropic As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+    "date": "",
+    "source": "engineering",
+    "processed": true
   }
 }
