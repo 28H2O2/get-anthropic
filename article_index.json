@@ -1,4 +1,16 @@
 {
+  "https://www.anthropic.com/news/2026-us-midterms": {
+    "title": "Preparing for the 2026 US midterms",
+    "date": "2026-10-14",
+    "source": "anthropic_news",
+    "processed": true
+  },
+  "https://www.anthropic.com/news/singapore-office-opening": {
+    "title": "Singapore office and government MOU | Anthropic",
+    "date": "2026-10-14",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/research/distillation-defenses": {
     "title": "Strengthening our defenses against distillation attacks",
     "date": "2026-10-12",
