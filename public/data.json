@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-15",
+  "generated_at": "2026-10-16",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-15",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "title_en": "Anthropic update on independent evaluators",
+          "title_zh": "Anthropic update on independent evaluators",
+          "summary_zh": "Anthropic 独立评估人员的最新情况\n\n公告\n独立评估人员的最新情况\n2026年10月15日\n上个月，我们承诺\n更强大的独立第三方评估\n我们的模型和安全实践。我们还签署了《白宫超级智能协议》，其中公司承诺与独立的外部审计师或评估师合作。今天，我们宣布，我们已经开始为员工提供访问团队的权限\n地铁\n,一家评估前沿人工智能模型的非营利组织。\nMETR将发布其r的结果",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-15"
+        }
+      ]
+    },
     {
       "date": "2026-10-14",
       "articles": [
@@ -451,42 +465,16 @@
           "date": "2026-09-16"
         }
       ]
-    },
-    {
-      "date": "2026-09-15",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
-          "title_en": "Claude for Small Business launches new workflows, integrations, and training programs",
-          "title_zh": "Claude for Small Business launches new workflows, integrations, and training programs",
-          "summary_zh": "Claude 面向小型企业推出新的工作流、集成和培训计划\n\nClaude 面向小型企业推出新的工作流、集成和培训计划\n我们正在发布新的\nClaude 用于小型企业\n工作流程和集成可帮助所有者运营和发展业务。我们还将开始 Claude SMB之旅的下一阶段，提供免费的合作伙伴网络研讨会和社区举办的研讨会。\n类别\n产品公告\n产品\nClaude 用于小型企业\n日期\n2026年9月15日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ claude-for-small-business-launche",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-15"
-        },
-        {
-          "url": "https://claude.com/blog/salesforce-in-claude",
-          "title_en": "Bringing Salesforce into Claude",
-          "title_zh": "Bringing Salesforce into Claude",
-          "summary_zh": "将Salesforce引入 Claude\n\n将Salesforce引入 Claude\n卖家现在可以使用我们新的Salesforce in Claude 插件来调查公司、准备电话、审核管道和起草CRM更新。\n类别\n企业人工智能\n产品\nClaude 企业\n日期\n2026年9月15日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ salesforce-in-claude\n今天，我们将在 Claude beta版中发布Salesforce，这是一个由Salesforce构建的插件，可将卖方的帐户，机会和管道带入其现有销售中的 Claude",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-15"
-        },
-        {
-          "url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
-          "title_en": "Building an AI-native revenue organization",
-          "title_zh": "Building an AI-native revenue organization",
-          "summary_zh": "构建AI原生收入组织\n\n构建AI原生收入组织\n在本指南中，我们将分享收入领导者如何在整个销售组织中推广 Claude，包括设置决策、三阶段推广计划和ROI衡量框架。\n类别\n企业人工智能\n产品\nClaude 共事\n日期\n2026年9月15日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ 建设-人工智能-原生-收入-组织\n在与收入领导者的对话中，我们听到了同样的挑战: 一半的团队几乎没有接触",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-15"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "title": "Anthropic update on independent evaluators",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-15"
+      },
       {
         "url": "https://www.anthropic.com/news/2026-us-midterms",
         "title": "Preparing for the 2026 US midterms",
@@ -5452,6 +5440,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/taste/",
         "title": "TASTE: Can AI Models Judge AI Safety Research Proposals?",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+        "title": "Training Alignment Auditors via Reinforcement Learning",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },

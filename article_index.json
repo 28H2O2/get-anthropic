@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/an-update-on-independent-evaluators": {
+    "title": "Anthropic update on independent evaluators",
+    "date": "2026-10-15",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/news/2026-us-midterms": {
     "title": "Preparing for the 2026 US midterms",
     "date": "2026-10-14",
@@ -2561,6 +2567,11 @@
   },
   "https://alignment.anthropic.com/2026/taste/": {
     "title": "TASTE: Can AI Models Judge AI Safety Research Proposals?",
+    "date": "2026-01-01",
+    "source": "alignment"
+  },
+  "https://alignment.anthropic.com/2026/training-alignment-auditors/": {
+    "title": "Training Alignment Auditors via Reinforcement Learning",
     "date": "2026-01-01",
     "source": "alignment"
   },
