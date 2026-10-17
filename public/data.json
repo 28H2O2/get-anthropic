@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-10-16",
+  "generated_at": "2026-10-17",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-16",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/ai-expectations-gap",
+          "title_en": "The AI expectations gap",
+          "title_zh": "The AI expectations gap",
+          "summary_zh": "人工智能期望差距\n\n经济学\n人工智能期望差距\n2026年10月16日\n以PDF格式阅读\nSzymon Sacher, Tess Cotter, Charles I. Jones, Anton Korinek, Peter McCrory\n主要发现\n美国成年人期望AI能力在未来几年快速发展; Anthropic 员工期望更快的进步; 39% % 的美国成年人和91% % 的员工期望AI能够做出诺贝尔奖级别的发现2030年。\nAnthropic 员工期望人工智能在其非常适合的任务上带来更大的生产力提升。在美国工作中使用人工智能的成年人中",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-16"
+        },
+        {
+          "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+          "title_en": "Designing more efficient quantum circuits with Claude",
+          "title_zh": "Designing more efficient quantum circuits with Claude",
+          "summary_zh": "使用 Claude 设计更高效的量子电路\n\n科学\n使用 Claude 设计更高效的量子电路\n2026年10月16日\n量子计算机需要精心设计的电路才能在有限的硬件上运行有用的算法。我们给出了八个这样的电路的简单语言规范，这些规范来自化学，优化，物理模拟和数论，以及一个自动评估器，可以检查和评分每个设计。Claude 在很大程度上是独立工作的，在某些情况下，发现设计可以改进已发布的最佳电路",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-16"
+        },
+        {
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+          "title_en": "Claude reveals ECDSA curve origins",
+          "title_zh": "Claude reveals ECDSA curve origins",
+          "summary_zh": "Claude 显示ECDSA曲线原点\n\n边疆红队\nClaude 显示ECDSA曲线原点\n2026年10月16日\n“这只是时间戳”: 几十年来最流行的加密标准之一的起源之谜已经被解释了。\n我们追求加密社区的这一长期悬而未决的问题，以解决对ECDSA的担忧，ECDSA是我们使用最广泛的加密标准之一。\n读者应该把这作为一个有趣的结束章节和多年猜测的结束。没有要采取的行动或事情",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-16"
+        },
+        {
+          "url": "https://www.anthropic.com/research/employment-at-anthropic",
+          "title_en": "How employment is changing at Anthropic",
+          "title_zh": "How employment is changing at Anthropic",
+          "summary_zh": "Anthropic 的就业变化\n\n经济学\nAnthropic 的就业变化\n2026年10月16日\n以PDF格式阅读\nNathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory\nAI如何在 {{1 }}调整工作和就业？作为一家处于人工智能应用前沿的公司，Anthropic 可能是人工智能将如何改变整个经济的工作组织、招聘和劳动力需求的领先指标。\n主要发现\nAnthropic 一直在招聘一小部分初级技术职位。这发生在AI代理r工作的时间",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-16"
+        },
+        {
+          "url": "https://www.anthropic.com/research/expectations-for-the-future",
+          "title_en": "Working at the frontier shapes expectations for the future",
+          "title_zh": "Working at the frontier shapes expectations for the future",
+          "summary_zh": "在前沿工作塑造对未来的期望\n\n经济学\n在前沿工作塑造对未来的期望\n2026年10月16日\n我们分享两份报告:\n第一个\n涵盖了AI如何改变 {{1 }}, 以及\n第二个\n看看公众和 Anthropic 员工期望人工智能如何影响工作和经济之间的差距。\nAnthropic 员工和美国员工似乎对人工智能如何影响工作没有不同的理论。相反，他们对AI功能有不同的体验。那些不同的经历似乎很接近",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-16"
+        }
+      ]
+    },
     {
       "date": "2026-10-15",
       "articles": [
@@ -449,20 +499,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-17"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "articles": [
-        {
-          "url": "https://claude.com/blog/cowork-is-now-claude",
-          "title_en": "Claude Cowork and chat are now one Claude",
-          "title_zh": "Claude Cowork and chat are now one Claude",
-          "summary_zh": "Claude Cowork和聊天现在是一个 Claude\n\nClaude Cowork和聊天现在是一个 Claude\n你不必选择任务的去向。Claude 执行更多工作。\n类别\n产品公告\n产品\nClaude 个应用\nClaude 共事\n日期\n2026年9月16日\n阅读时间\n五\n分钟\n分享\n复制链接\nhttps://claude.com/blog/ cowork-is-now-claude\n从今天开始，Claude Cowork和chat将合并为一个 Claude。提出一个简单的问题，或者交出中午到期的报告，然后 Claude 从那里拿走它，即使您已经关闭了笔记本电脑。它正在推出o",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-16"
         }
       ]
     }
@@ -2109,6 +2145,36 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/ai-expectations-gap",
+        "title": "The AI expectations gap",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-16"
+      },
+      {
+        "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+        "title": "Designing more efficient quantum circuits with Claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-16"
+      },
+      {
+        "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+        "title": "Claude reveals ECDSA curve origins",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-16"
+      },
+      {
+        "url": "https://www.anthropic.com/research/employment-at-anthropic",
+        "title": "How employment is changing at Anthropic",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-16"
+      },
+      {
+        "url": "https://www.anthropic.com/research/expectations-for-the-future",
+        "title": "Working at the frontier shapes expectations for the future",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-16"
+      },
       {
         "url": "https://www.anthropic.com/research/distillation-defenses",
         "title": "Strengthening our defenses against distillation attacks",

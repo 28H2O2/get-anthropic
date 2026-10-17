@@ -1,4 +1,34 @@
 {
+  "https://www.anthropic.com/research/ai-expectations-gap": {
+    "title": "The AI expectations gap",
+    "date": "2026-10-16",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
+    "title": "Designing more efficient quantum circuits with Claude",
+    "date": "2026-10-16",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/ecdsa-curve-origins": {
+    "title": "Claude reveals ECDSA curve origins",
+    "date": "2026-10-16",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/employment-at-anthropic": {
+    "title": "How employment is changing at Anthropic",
+    "date": "2026-10-16",
+    "source": "anthropic_research",
+    "processed": true
+  },
+  "https://www.anthropic.com/research/expectations-for-the-future": {
+    "title": "Working at the frontier shapes expectations for the future",
+    "date": "2026-10-16",
+    "source": "anthropic_research",
+    "processed": true
+  },
   "https://www.anthropic.com/news/an-update-on-independent-evaluators": {
     "title": "Anthropic update on independent evaluators",
     "date": "2026-10-15",
