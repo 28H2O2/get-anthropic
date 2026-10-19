@@ -1,4 +1,10 @@
 {
+  "https://www.anthropic.com/news/public-benefit-fund": {
+    "title": "Investing in the public benefit",
+    "date": "2026-10-18",
+    "source": "anthropic_news",
+    "processed": true
+  },
   "https://www.anthropic.com/research/ai-expectations-gap": {
     "title": "The AI expectations gap",
     "date": "2026-10-16",

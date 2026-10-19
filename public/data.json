@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-18",
+  "generated_at": "2026-10-19",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-18",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "title_en": "Investing in the public benefit",
+          "title_zh": "Investing in the public benefit",
+          "summary_zh": "投资于公共利益\n\n公告\n投资于公共利益\n2026年10月18日\n今天，我们将 Anthropic 的部分股份承诺给 Anthropic 公益基金，\n一个新的实体，其结构随着公司的发展而增加股份。经股东批准，Anthropic 的股票5% 将在今天进行，公司价值每50% 增加超过设定的基线，董事会将酌情增加2%。\n作为一家公益公司，我们的大部分工作都是为了追求",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-18"
+        }
+      ]
+    },
     {
       "date": "2026-10-16",
       "articles": [
@@ -437,33 +451,16 @@
           "date": "2026-09-22"
         }
       ]
-    },
-    {
-      "date": "2026-09-18",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-          "title_en": "Partnering with Accenture on embedded evaluation",
-          "title_zh": "Partnering with Accenture on embedded evaluation",
-          "summary_zh": "与埃森哲合作进行嵌入式评估\n\n公告\n与埃森哲合作进行嵌入式评估\n2026年9月18日\n我们正在与埃森哲合作，对frontier AI进行独立评估。这是朝着我们首席执行官的承诺迈出的重要一步\n论文\n“我们必须加快前沿的步伐”，将评估人员嵌入到 Anthropic 中。\n该合作伙伴关系将由埃森哲的专业AI业务人员领导，并将包括评估和红色团队模型，进行一致性评估以及测试模型保障措施。埃森哲帮助业务部门",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-09-18"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/patterns-agents-latency-multi-agent",
-          "title_en": "patterns-agents-latency-multi-agent",
-          "title_zh": "patterns-agents-latency-multi-agent",
-          "summary_zh": "",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-09-18"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/public-benefit-fund",
+        "title": "Investing in the public benefit",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-18"
+      },
       {
         "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
         "title": "Anthropic update on independent evaluators",
