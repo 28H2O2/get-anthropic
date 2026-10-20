@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19",
+  "generated_at": "2026-10-20",
   "lookback_days": 30,
   "digests": [
     {
@@ -63,6 +63,15 @@
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-10-16"
+        },
+        {
+          "url": "https://platform.claude.com/cookbook/managed-agents-cma-agent-security-review",
+          "title_en": "managed-agents-cma-agent-security-review",
+          "title_zh": "managed-agents-cma-agent-security-review",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-10-16"
         }
       ]
     },
@@ -100,6 +109,20 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "articles": [
+        {
+          "url": "https://platform.claude.com/cookbook/observability-opentelemetry-tracing",
+          "title_en": "observability-opentelemetry-tracing",
+          "title_zh": "observability-opentelemetry-tracing",
+          "summary_zh": "",
+          "source": "Claude Cookbook",
+          "source_key": "cookbook",
+          "date": "2026-10-13"
         }
       ]
     },
@@ -3184,6 +3207,18 @@
     ],
     "cookbook": [
       {
+        "url": "https://platform.claude.com/cookbook/managed-agents-cma-agent-security-review",
+        "title": "managed-agents-cma-agent-security-review",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-10-16"
+      },
+      {
+        "url": "https://platform.claude.com/cookbook/observability-opentelemetry-tracing",
+        "title": "observability-opentelemetry-tracing",
+        "desc": "Claude 官方开发示例与教程",
+        "date": "2026-10-13"
+      },
+      {
         "url": "https://platform.claude.com/cookbook/patterns-agents-latency-multi-agent",
         "title": "patterns-agents-latency-multi-agent",
         "desc": "Claude 官方开发示例与教程",
@@ -5468,6 +5503,12 @@
       {
         "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
         "title": "Training Alignment Auditors via Reinforcement Learning",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-01-01"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/graft/",
+        "title": "Reducing Reward Hacking by Localizing Bad Behavior Instead of Penalizing It",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026-01-01"
       },
