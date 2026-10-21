@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-10-21",
-  "generated_at_iso": "2026-10-21T16:14:10+08:00",
+  "generated_at_iso": "2026-10-21T16:15:40+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -4559,15 +4559,15 @@
         "url": "https://transformer-circuits.pub/2026/may-update/index.html",
         "title": "Circuits Updates – May 2026",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://transformer-circuits.pub/2026/june-update/index.html",
         "title": "Circuits Updates – June 2026",
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://transformer-circuits.pub/2025/september-update/index.html",
@@ -8289,71 +8289,71 @@
         "url": "https://alignment.anthropic.com/2026/taste",
         "title": "TASTE: Can AI Models Judge AI Safety Research Proposals?",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/hot-mess-of-ai",
         "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/conceptual-reasoning-index",
         "title": "Introducing the Conceptual Reasoning Index",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/chive",
         "title": "Would This Change Your Answer? Evaluating Explanations of LLM Behavior in the Wild with Counterfactual Experiments",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/automated-w2s-researcher",
         "title": "Automated Weak-to-Strong Researcher",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/automated-alignment-researchers",
         "title": "Automated Researchers Can Mitigate Well-Characterized Alignment Failures",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/automated-alignment-agent",
         "title": "A3: An Automated Alignment Agent for Safety Finetuning",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/ai-organizations",
         "title": "AI Organizations Can Be More Effective but Less Aligned than Individual Agents",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026",
         "title": "Agentic Misalignment in Summer 2026",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2026/abstractive-red-teaming",
         "title": "Abstractive Red-Teaming of Language Model Character",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
-        "date": "",
-        "date_precision": "unknown"
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://alignment.anthropic.com/2025/wont-vs-cant",

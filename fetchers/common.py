@@ -196,6 +196,9 @@ def extract_article(html, url):
     if not description:
         el = soup.select_one('meta[name="description"],meta[property="og:description"]')
         description = el.get("content", "") if el else ""
+    if not published:
+        year = re.search(r"/(20\d{2})/", urlsplit(url).path)
+        published = year[1] if year else ""
     # Prefer actual rich text over the outer main/article containing team/navigation panels.
     body = None
     for selector in ["d-article", ".prose", "[class*='PortableText']", "[class*='portableText']", "[class*='rich-text']", "[class*='RichText']", ".notebook-content", "article", "main"]:

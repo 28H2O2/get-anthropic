@@ -57,6 +57,9 @@ class PipelineTests(unittest.TestCase):
         article = common.extract_article(html, 'https://alignment.anthropic.com/2026/graft/')
         self.assertEqual(article['date'], '2026-10-19')
         self.assertEqual(article['content'], body)
+        year_only = common.extract_article(f'<h1>Title</h1><d-article><p>{body}</p></d-article>', 'https://alignment.anthropic.com/2026/undated/')
+        self.assertEqual(year_only['date'], '2026')
+        self.assertEqual(year_only['date_precision'], 'year')
 
     def test_translation_failure_raises_after_three_tries(self):
         with patch.object(translator, '_once', side_effect=TimeoutError), patch.object(translator.time, 'sleep'):
