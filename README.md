@@ -35,3 +35,9 @@ GitHub Actions 每日 UTC 23:30（UTC+8 次日07:30，实际启动可能延迟�
 来源：Anthropic News / Research、Claude Cookbook、Transformer Circuits、Frontier Red Team、Claude Articles、Alignment Science、Engineering。部分旧入口会重定向，依据 canonical 合并记录并保留 aliases，专门来源优先于通用 Research 分类。
 
 日常发布前先同步远端自动数据，测试通过后构建并验证，提交范围限本次改动；上线后核对 `data.json` 覆盖率与源码版本。
+
+## 网站界面与更新记录
+
+`public/index.html` 是静态页面入口，样式与交互分别位于 `public/assets/style.css`、`public/assets/app.js`。`#latest` 展示近期中文摘录，`#archive` 提供按来源及关键词筛选的原文归档，`#updates` 展示网站自身的更新记录。来源筛选与搜索在切换阅读视图时保留。
+
+网站功能或体验变更记录在 `public/changelog.json`，按时间倒序排列，每条包含 `date`、`type`、`title`、`description` 与 `changes`。每日自动抓取不向此文件追加日志；文章刷新与网站版本更新分别展示。记录中的覆盖率属于对应修复时的快照，首页状态面板读取当前 `data.json`。
