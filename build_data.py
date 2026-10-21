@@ -11,7 +11,10 @@
 import json
 import re
 from pathlib import Path
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
+from translator import valid_translation
+from fetchers.common import is_article, normalize_url
 
 BASE_DIR = Path(__file__).parent
 INDEX_FILE = BASE_DIR / "article_index.json"
@@ -88,7 +91,7 @@ def parse_digest(md_path: Path) -> dict[str, dict]:
         # 提取中文摘要（**中文摘要** 或 **中文译文** 后到下一个 ## 或末尾）
         summary_zh = ""
         summary_match = re.search(
-            r"\*\*中文(?:摘要|译文)\*\*[：:]\s*\n\n([\s\S]+?)(?=\n---|\Z)", block
+            r"\*\*中文(?:摘要|译文|摘录)\*\*[：:]\s*\n\n([\s\S]+?)(?=\n---|\Z)", block
         )
         if summary_match:
             summary_zh = summary_match.group(1).strip()
@@ -100,103 +103,63 @@ def parse_digest(md_path: Path) -> dict[str, dict]:
 
 def build():
     if not INDEX_FILE.exists():
-        print("[build_data] 找不到 article_index.json，请先运行 main.py")
-        return
-
-    with open(INDEX_FILE, "r", encoding="utf-8") as f:
-        index: dict = json.load(f)
-
-    today = date.today()
-    since = today - timedelta(days=LOOKBACK_DAYS)
-    since_str = since.isoformat()
-    today_str = today.isoformat()
-
-    # 收集所有 digest 的摘要映射
-    digest_map: dict[str, dict] = {}
-    if OUTPUT_DIR.exists():
-        for day_dir in sorted(OUTPUT_DIR.iterdir(), reverse=True):
-            md = day_dir / "digest.md"
-            if md.exists():
-                digest_map.update(parse_digest(md))
-
-    # 按日期分组，只取近 LOOKBACK_DAYS 天有真实日期的文章
-    days: dict[str, list] = {}
-    all_urls_by_source: dict[str, list] = {k: [] for k in SOURCE_LABELS}
-    ARCHIVE_ORDER = ["anthropic_news", "anthropic_research", "claude_blog", "red_team", "alignment", "engineering", "cookbook", "transformer_circuits"]
-
+        raise RuntimeError("article_index.json is missing")
+    index = json.loads(INDEX_FILE.read_text())
+    status_file = BASE_DIR / "fetch_status.json"
+    status = json.loads(status_file.read_text()) if status_file.exists() else {}
+    if not status.get("sources") or any(s["status"] != "ok" for s in status["sources"].values()):
+        raise RuntimeError("source discovery failed or has not run; preserving published data")
+    now = datetime.now(ZoneInfo("Asia/Taipei"))
+    today = now.date().isoformat()
+    since = (now.date() - timedelta(days=LOOKBACK_DAYS)).isoformat()
+    days = {}
+    archives = {k: [] for k in SOURCE_LABELS}
     for url, meta in index.items():
-        source = meta.get("source", "")
-        title_en = meta.get("title", "") or url.split("/")[-1]
-        art_date = meta.get("date", "")
-
-        # 全量链接归档（用于底部展示）
-        if source in all_urls_by_source:
-            all_urls_by_source[source].append({
-                "url": url,
-                "title": title_en,
-                "desc": SOURCE_DESC.get(source, ""),
-                "date": art_date,
-            })
-
-        # 只展示近 30 天内有日期的文章（无论是否翻译，无摘要显示占位）
-        if not art_date:
+        source, published = meta.get("source", ""), meta.get("date", "")
+        if source not in archives or meta.get("excluded") or not is_article(url, source):
             continue
-        if not (since_str <= art_date <= today_str):
+        archives[source].append({"url": url, "title": meta.get("title") or url.rsplit("/", 1)[-1], "desc": SOURCE_DESC[source], "date": published if meta.get("date_verified") else "", "date_precision": meta.get("date_precision", "unknown")})
+        dated = len(published) == 10 and since <= published <= today and meta.get("date_verified")
+        undated = not published and meta.get("first_seen_at", "") >= since and meta.get("fetch_status") != "not_article"
+        if not (dated or undated):
             continue
-
-        digest_info = digest_map.get(url, {})
-        article = {
-            "url": url,
-            "title_en": title_en,
-            "title_zh": digest_info.get("title_zh", title_en),
-            "summary_zh": digest_info.get("summary_zh", ""),
-            "source": SOURCE_LABELS.get(source, source),
-            "source_key": source,
-            "date": art_date,
-        }
-        days.setdefault(art_date, []).append(article)
-
-    # 按日期倒序
-    digests = [
-        {"date": d, "articles": sorted(articles, key=lambda x: x["date"], reverse=True)}
-        for d, articles in sorted(days.items(), reverse=True)
-    ]
-
-    # 归档区按日期倒序排列（无日期的排最后）
-    for source_key in all_urls_by_source:
-        all_urls_by_source[source_key].sort(
-            key=lambda x: x.get("date") or "0000-00-00", reverse=True
-        )
-
-    # 固定参考文档单独输出（不混入 all_urls）
-    static_refs = [
-        {
-            "title": ref["title"],
-            "desc": ref["desc"],
-            "items": [
-                {"url": it["url"], "title": it["title"], "desc": it["desc"], "date": it["date"]}
-                for it in ref["items"]
-            ],
-        }
-        for ref in STATIC_REFS
-    ]
-
-    data = {
-        "generated_at": today_str,
-        "lookback_days": LOOKBACK_DAYS,
-        "digests": digests,
-        "all_urls": all_urls_by_source,
-        "archive_order": ARCHIVE_ORDER,
-        "static_refs": static_refs,
-    }
-
+        summary = meta.get("summary_zh", "")
+        ready = valid_translation(summary)
+        article_status = "ready" if ready else meta.get("summary_status", "pending")
+        if article_status not in {"ready", "pending", "failed"}:
+            raise ValueError("invalid article status")
+        article = {"url": normalize_url(url), "title_en": meta.get("title") or url.rsplit("/", 1)[-1], "title_zh": meta.get("title_zh", ""), "summary_zh": summary if ready else "", "summary_status": article_status, "source": SOURCE_LABELS[source], "source_key": source, "date": published, "date_precision": meta.get("date_precision", "unknown")}
+        days.setdefault(published, []).append(article)
+    digests = [{"date": d, "articles": sorted(articles, key=lambda a: (a["source_key"], a["url"]))} for d, articles in sorted(days.items(), reverse=True)]
+    for items in archives.values():
+        items.sort(key=lambda a: (a["date"], a["url"]), reverse=True)
+    articles = [a for day in digests for a in day["articles"]]
+    counts = {key: sum(a["summary_status"] == key for a in articles) for key in ("ready", "pending", "failed")}
+    data = {"generated_at": today, "generated_at_iso": now.isoformat(timespec="seconds"), "lookback_days": LOOKBACK_DAYS, "digests": digests, "all_urls": archives, "archive_order": ["anthropic_news", "anthropic_research", "claude_blog", "red_team", "alignment", "engineering", "cookbook", "transformer_circuits"], "static_refs": STATIC_REFS, "health": {"status": status["status"], "last_success_at": status.get("last_success_at"), "sources": status["sources"], "summary_coverage": {"total": len(articles), **counts, "ratio": round(counts["ready"] / len(articles), 4) if articles else 0}}}
+    validate(data)
     PUBLIC_DIR.mkdir(exist_ok=True)
-    out_file = PUBLIC_DIR / "data.json"
-    with open(out_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    temporary = PUBLIC_DIR / "data.json.tmp"
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.replace(PUBLIC_DIR / "data.json")
+    print(f"[build_data] {len(articles)} articles; ready={counts['ready']}; pending={counts['pending']}; failed={counts['failed']}")
+    return data
 
-    total = sum(len(d["articles"]) for d in digests)
-    print(f"[build_data] 已生成 {out_file}，近 {LOOKBACK_DAYS} 天共 {total} 篇文章")
+
+def validate(data):
+    seen = set()
+    if not data["health"]["sources"] or any(s["status"] != "ok" or s["discovered"] <= 0 for s in data["health"]["sources"].values()):
+        raise ValueError("invalid source health")
+    for day in data["digests"]:
+        for article in day["articles"]:
+            if article["url"] in seen:
+                raise ValueError("duplicate canonical article")
+            seen.add(article["url"])
+            if article["summary_status"] == "ready" and not valid_translation(article["summary_zh"]):
+                raise ValueError("invalid successful excerpt")
+            if article["date"] and len(article["date"]) != 10:
+                raise ValueError("inexact publication date in daily timeline")
+    if not seen:
+        raise ValueError("refusing to publish an empty recent feed")
 
 
 if __name__ == "__main__":

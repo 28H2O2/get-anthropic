@@ -1,97 +1,47 @@
 # Anthropic News Daily
 
-Automatically scrapes new articles from 8 official Anthropic information sources every morning, translates them into Chinese, generates a local Markdown daily report, and builds a static frontend to display content from the last 30 days.
+[简体中文](README.md) | **English**
 
-## Information Sources
+Discover articles from eight official Anthropic sources, verify publication dates, generate Chinese excerpts with Aliyun Machine Translation, and publish the last 30 days of content alongside an archive of original articles.
 
-| Source | Content |
-|------|------|
-| [Anthropic News](https://www.anthropic.com/news) | Official news and product announcements |
-| [Anthropic Research](https://www.anthropic.com/research) | Research papers and technical blogs |
-| [Claude Blog](https://www.anthropic.com/claude-blog) | Claude blog for users and enterprises |
-| [Alignment Science](https://alignment.anthropic.com) | Dedicated blog for alignment science |
-| [Engineering Blog](https://www.anthropic.com/engineering) | Engineering practice blog |
-| [Red Team](https://red.anthropic.com) | Red teaming security research |
-| [Claude Cookbook](https://platform.claude.com/cookbook) | Official development examples and tutorials |
-| [Transformer Circuits](https://transformer-circuits.pub) | Interpretability research |
-
-## Architecture
-
-```
-main.py          # Main scheduler: Scrape → Compare Index → Filter Date → Translate → Write Report
-fetchers/        # Scraping layer for each source (returns article lists only)
-translator.py    # Translation layer, supports aliyun / claude / deepl engines
-build_data.py    # Merges daily reports and index into frontend JSON (public/data.json)
-public/          # Static frontend, deployable to Vercel / GitHub Pages
-article_index.json  # Full article index (persistence to prevent duplicate processing)
-output/          # Daily Chinese reports (output/YYYY-MM-DD/digest.md)
-```
-
-## Quick Start
-
-**1. Install Dependencies**
+## Running
 
 ```bash
 pip install -r requirements.txt
+# Set ALIYUN_ACCESS_KEY_ID and ALIYUN_ACCESS_KEY_SECRET in the current shell.
+python3 -m unittest discover -s tests -v
+python3 main.py                  # Last 30 days by default; failed records can be retried.
+python3 build_data.py            # Updates the frontend only after source discovery and data validation succeed.
+python3 main.py --check-health   # Returns a nonzero exit status when some translations have failed.
 ```
 
-**2. Configure Environment Variables** (Aliyun Machine Translation)
+Use `python3 main.py --init` to establish an initial discovery baseline without bulk translation; existing index records are preserved.
 
-```bash
-export ALIYUN_ACCESS_KEY_ID=your_key
-export ALIYUN_ACCESS_KEY_SECRET=your_secret
-```
+After upgrading, run `python3 main.py --repair-recent` once to verify dates from the last 30 days and check historical date gaps in Cookbook, Alignment, and Transformer Circuits. It translates only articles with verified recent publication dates and newly discovered articles without a date, rather than the entire historical archive.
 
-**3. First Run: Initialize Index** (Marks all existing articles as known to avoid processing a large volume of historical articles on first run)
+`--limit 5` limits the number of translation attempts; `--force` regenerates excerpts within the selected window; `--date YYYY-MM-DD` is available for debugging. `--lookback 7` changes the discovery and translation window to seven days; the frontend retains its 30-day display window. `run.sh` uses the current environment variables and propagates failure exit statuses to its caller.
 
-```bash
-python3 main.py --init
-```
+## Data and status
 
-**4. Run**
+- `article_index.json` is the source of truth for article metadata and Chinese excerpts. `date` is the verified publication date, while `date_precision` preserves day, month, or year precision. `sitemap_lastmod` is used only to discover updates.
+- Legacy records whose dates have not been verified against article pages are excluded from the recent feed. Articles dated only to a month or year remain in the archive without an invented day. Newly discovered articles without a date are labeled separately.
+- `summary_status` is `pending`, `ready`, or `failed`. Only a valid Chinese excerpt allows `processed: true`. HTTP requests and translations each allow up to three attempts.
+- The initial migration imports the latest valid excerpts from historical digests. Article records are authoritative afterward. `output/YYYY-MM-DD/digest.md` is derived from successful excerpts for that day and no longer overwrites newer article records.
+- `fetch_status.json` records discovery counts and the last successful discovery time for each source. `public/data.json` includes article status, excerpt coverage, and source health. Credentials are supplied only through environment variables.
+- With Aliyun, the cleaned introduction or abstract is translated into a Chinese excerpt. The body input contains complete sentences within a budget of approximately 800 English characters, and the title is translated separately. This is an excerpt, rather than a generated summary of the full article.
 
-```bash
-python3 main.py
-```
+## Automation and deployment
 
-The daily report is output to `output/YYYY-MM-DD/digest.md`.
+GitHub Actions runs daily at 23:30 UTC, or 07:30 the following day in UTC+8; actual start times may be delayed. The workflow can also be run manually with `repair_recent` enabled. It runs tests, fetches articles, validates the data build, and commits the results. Vercel publishes `public/`.
 
-## Automation (Daily Schedule)
+If any enabled source fails discovery or returns zero articles, the workflow stops before building or committing data, preserving the previous published version. If an individual translation fails, other valid content and retryable failure states are published; the final health check then marks the Actions run as failed. Source counts and success times appear in the Actions job summary, and diagnostic information is retained as an artifact. Scheduled runs execute serially. A conflicting push fails without automatically overwriting remote changes.
 
-Run automatically every day at 7:30 via crontab:
+Sources: Anthropic News and Research, Claude Cookbook, Transformer Circuits, Frontier Red Team, Claude Articles, Alignment Science, and Engineering. Some legacy URLs redirect. Records are merged by canonical URL, aliases are preserved, and specialized sources take precedence over the general Research category.
 
-```bash
-# crontab -e
-30 7 * * * /path/to/get_anthropic/run.sh
-```
+Before publishing, synchronize remote data generated by automation, run the tests, build and validate the data, and commit only the intended changes. After deployment, check the coverage reported by `data.json` and the deployed source version.
 
-`run.sh` executes `main.py` (scraping and translation) followed by `build_data.py` (updating frontend data).
+## Website interface and changelog
 
-## Common Parameters
+`public/index.html` is the static entry point; styles and interactions live in `public/assets/style.css` and `public/assets/app.js`. `#latest` shows recent Chinese excerpts, `#archive` provides original articles filtered by source and keyword, and `#updates` shows changes to the website itself. Source filters and searches persist when switching reading views.
 
-```bash
-python3 main.py --lookback 7   # Look back 7 days (default 3 days)
-python3 main.py --limit 5      # Maximum of 5 articles per run
-python3 main.py --force        # Ignore processed records, force re-processing
-python3 main.py --date 2026-04-09  # Simulate running on a specific date
-```
-
-## Translation Engine Switching
-
-Modify `translate_engine` in `config.json`:
-
-| Engine | Required Environment Variables |
-|------|-------------|
-| `aliyun` (Default) | `ALIYUN_ACCESS_KEY_ID` / `ALIYUN_ACCESS_KEY_SECRET` |
-| `claude` | `ANTHROPIC_API_KEY` |
-| `deepl` | `DEEPL_API_KEY` |
-
-`translate_mode` can be set to `summary` (first 500 words summary, default) or `full` (full text translation).
-
-## Frontend Deployment
-
-```bash
-python3 build_data.py   # Generate public/data.json
-```
-
-Deploy the `public/` directory to Vercel or GitHub Pages to browse articles from the last 30 days in your browser.
+Website features and experience changes are recorded in `public/changelog.json` in reverse chronological order. Each entry contains `date`, `type`, `title`, `description`, and `changes`. Daily article fetching does not append entries to this file; article refreshes and website updates are displayed separately. Coverage figures in changelog entries are snapshots from the corresponding fixes, while the home page status panel reads the current `data.json`.

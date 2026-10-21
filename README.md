@@ -1,97 +1,45 @@
 # Anthropic 资讯日报
 
-每天早上自动从 8 个 Anthropic 官方信息源抓取新文章，翻译成中文，生成本地 Markdown 日报，并构建静态前端展示近 30 天内容。
+**简体中文** | [English](README.en-US.md)
 
-## 信息源
+从 8 个 Anthropic 官方来源发现文章，核验发布日期，生成阿里云机器翻译中文摘录，并发布近 30 天内容及历史原文归档。
 
-| 来源 | 内容 |
-|------|------|
-| [Anthropic News](https://www.anthropic.com/news) | 官方新闻与产品公告 |
-| [Anthropic Research](https://www.anthropic.com/research) | 研究论文与技术博客 |
-| [Claude Blog](https://www.anthropic.com/claude-blog) | 面向用户与企业的 Claude 博客 |
-| [Alignment Science](https://alignment.anthropic.com) | 对齐科学专项博客 |
-| [Engineering Blog](https://www.anthropic.com/engineering) | 工程实践博客 |
-| [Red Team](https://red.anthropic.com) | 红队安全研究 |
-| [Claude Cookbook](https://platform.claude.com/cookbook) | 官方开发示例与教程 |
-| [Transformer Circuits](https://transformer-circuits.pub) | 可解释性研究 |
-
-## 架构
-
-```
-main.py          # 主调度器：抓取 → 比对索引 → 过滤日期 → 翻译 → 写日报
-fetchers/        # 各信息源的抓取层（只返回文章列表）
-translator.py    # 翻译层，支持 aliyun / claude / deepl 三引擎
-build_data.py    # 将日报和索引合并为前端 JSON（public/data.json）
-public/          # 静态前端，可部署到 Vercel / GitHub Pages
-article_index.json  # 全量文章索引（持久化，防重复处理）
-output/          # 每日中文日报（output/YYYY-MM-DD/digest.md）
-```
-
-## 快速开始
-
-**1. 安装依赖**
+## 运行
 
 ```bash
 pip install -r requirements.txt
+# 在当前 shell 设置 ALIYUN_ACCESS_KEY_ID / ALIYUN_ACCESS_KEY_SECRET
+python3 -m unittest discover -s tests -v
+python3 main.py                  # 默认近30天；失败记录可再次尝试
+python3 build_data.py            # 仅在所有启用来源发现成功、数据验证通过时更新前端
+python3 main.py --check-health   # 部分翻译失败时返回非零
 ```
 
-**2. 配置环境变量**（阿里云机器翻译）
+首次发现基线可用 `python3 main.py --init`，保留已有索引但不批量翻译。
+升级后执行一次 `python3 main.py --repair-recent`，核验近30天日期并补查 Cookbook、Alignment、Transformer 的历史日期缺口。只翻译真实近期文章与首次发现的无日期文章，不全量翻译历史归档。
+`--limit 5` 限制翻译数量；`--force` 重做窗口内摘录；`--date YYYY-MM-DD` 用于调试。`run.sh` 使用当前环境变量，将失败退出状态传给调用方。
 
-```bash
-export ALIYUN_ACCESS_KEY_ID=your_key
-export ALIYUN_ACCESS_KEY_SECRET=your_secret
-```
+## 数据与状态
 
-**3. 首次运行：初始化索引**（将现有文章全部标记为已知，避免首次运行大量处理历史文章）
+- `article_index.json` 是文章元数据和中文摘录的唯一事实源。`date` 为真实发布日期，`date_precision` 保留日/月/年精度；`sitemap_lastmod` 只用于发现更新。
+- 日期未经详情页核验的旧记录不进入近期列表。仅知月份或年份的文章保留在归档，日期不补成某一天；新发现但无日期的文章单独标识。
+- `summary_status` 为 `pending` / `ready` / `failed`。只有有效中文摘录才能标记 `processed: true`，HTTP 和翻译分别最多尝试3次。
+- 首次迁移从历史日报导入最新有效摘录，之后以文章记录为准。`output/YYYY-MM-DD/digest.md` 是当日成功摘录的派生文档，不再反向覆盖新结果。
+- `fetch_status.json` 记录来源发现数和最近成功时间；`public/data.json` 输出文章状态、覆盖率和来源健康度。密钥始终只通过环境变量注入。
+- 阿里云模式翻译清理后的原文导语或摘要，正文最多约800英文字符并保留完整句子，标题单独翻译。它是中文摘录，并非生成式全文摘要。
 
-```bash
-python3 main.py --init
-```
+## 自动运行与部署
 
-**4. 运行**
+GitHub Actions 每日 UTC 23:30（UTC+8 次日07:30，实际启动可能延迟）运行，可手动勾选 `repair_recent` 补查。工作流依次执行测试、抓取、构建验证和提交，Vercel 发布 `public/`。
 
-```bash
-python3 main.py
-```
+任一启用来源发现失败或返回0篇时，不构建、不提交数据，线上保留上一版；单篇翻译失败时发布其他有效内容并保存重试状态，最终健康检查使 Actions 显示失败。各来源数量和成功时间写入 Actions Job Summary，故障信息保留为 artifact。并发定时任务串行执行；推送发生冲突时失败，不自动覆盖远端。
 
-日报输出到 `output/YYYY-MM-DD/digest.md`。
+来源：Anthropic News / Research、Claude Cookbook、Transformer Circuits、Frontier Red Team、Claude Articles、Alignment Science、Engineering。部分旧入口会重定向，依据 canonical 合并记录并保留 aliases，专门来源优先于通用 Research 分类。
 
-## 自动化（每日定时）
+日常发布前先同步远端自动数据，测试通过后构建并验证，提交范围限本次改动；上线后核对 `data.json` 覆盖率与源码版本。
 
-通过 crontab 每天 7:30 自动运行：
+## 网站界面与更新记录
 
-```bash
-# crontab -e
-30 7 * * * /path/to/get_anthropic/run.sh
-```
+`public/index.html` 是静态页面入口，样式与交互分别位于 `public/assets/style.css`、`public/assets/app.js`。`#latest` 展示近期中文摘录，`#archive` 提供按来源及关键词筛选的原文归档，`#updates` 展示网站自身的更新记录。来源筛选与搜索在切换阅读视图时保留。
 
-`run.sh` 会依次执行 `main.py`（抓取翻译）和 `build_data.py`（更新前端数据）。
-
-## 常用参数
-
-```bash
-python3 main.py --lookback 7   # 向前看 7 天（默认 3 天）
-python3 main.py --limit 5      # 单次最多处理 5 篇
-python3 main.py --force        # 忽略已处理记录，强制重新处理
-python3 main.py --date 2026-04-09  # 模拟指定日期运行
-```
-
-## 翻译引擎切换
-
-在 `config.json` 中修改 `translate_engine`：
-
-| 引擎 | 所需环境变量 |
-|------|-------------|
-| `aliyun`（默认） | `ALIYUN_ACCESS_KEY_ID` / `ALIYUN_ACCESS_KEY_SECRET` |
-| `claude` | `ANTHROPIC_API_KEY` |
-| `deepl` | `DEEPL_API_KEY` |
-
-`translate_mode` 可设为 `summary`（前 500 字摘要，默认）或 `full`（全文翻译）。
-
-## 前端部署
-
-```bash
-python3 build_data.py   # 生成 public/data.json
-```
-
-将 `public/` 目录部署到 Vercel 或 GitHub Pages，即可在浏览器中浏览近 30 天文章。
+网站功能或体验变更记录在 `public/changelog.json`，按时间倒序排列，每条包含 `date`、`type`、`title`、`description` 与 `changes`。每日自动抓取不向此文件追加日志；文章刷新与网站版本更新分别展示。记录中的覆盖率属于对应修复时的快照，首页状态面板读取当前 `data.json`。

@@ -2,46 +2,64 @@ name: 每日抓取 Anthropic 文章
 
 on:
   schedule:
-    # 每天 23:30 UTC = 北京时间 07:30
     - cron: '30 23 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      repair_recent:
+        description: '重新核验近期日期与历史漏抓来源'
+        type: boolean
+        default: false
+
+concurrency:
+  group: daily-anthropic-data
+  cancel-in-progress: false
 
 jobs:
   fetch-and-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     permissions:
-      contents: write   # 允许 bot 推送到仓库
-
+      contents: write
     steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: 配置 Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
-
       - name: 安装依赖
         run: pip install -r requirements.txt
-
-      - name: 运行抓取与翻译
+      - name: 回归测试
+        run: python3 -m unittest discover -s tests -v
+      - name: 抓取与翻译（近30天）
         env:
           ALIYUN_ACCESS_KEY_ID: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
           ALIYUN_ACCESS_KEY_SECRET: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 main.py
-
-      - name: 生成前端数据
+          REPAIR_RECENT: ${{ inputs.repair_recent }}
+        run: |
+          if [ "$REPAIR_RECENT" = "true" ]; then
+            python3 main.py --repair-recent
+          else
+            python3 main.py
+          fi
+      - name: 构建并验证数据
         run: python3 build_data.py
-
-      - name: 提交更新
+      - name: 提交有效数据与可重试状态
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add article_index.json output/ public/data.json
-          # 只有有变更时才提交
+          git add article_index.json fetch_status.json output/ public/data.json
           git diff --cached --quiet || git commit -m "chore: 每日更新 $(date -u '+%Y-%m-%d')"
+          # Do not rebase generated data over concurrent changes. A failed push is visible.
           git push
+      - name: 检查部分失败
+        run: python3 main.py --check-health
+      - name: 保存故障诊断
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fetch-diagnostics
+          path: fetch_status.json
+          if-no-files-found: ignore

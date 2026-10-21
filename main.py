@@ -1,400 +1,294 @@
-# 功能：Anthropic 内容聚合主脚本，每天拉取新文章并翻译生成中文日报
-# 输入：
-#   - config.json（配置文件，来自项目根目录）
-#   - article_index.json（全量文章索引，来自项目根目录）
-#   - 各信息源网页（anthropic.com, platform.claude.com, transformer-circuits.pub）
-# 输出：
-#   - output/YYYY-MM-DD/digest.md（当日中文日报，只含近期新文章）
-#   - article_index.json（更新后的全量文章索引，含标题/链接/日期/来源）
-# 如何运行：
-#   python3 main.py                         # 正常运行（只处理近 lookback_days 天的新文章）
-#   python3 main.py --date 2026-04-09       # 模拟指定日期运行
-#   python3 main.py --lookback 7            # 向前看 7 天（默认 3 天）
-#   python3 main.py --force                 # 忽略已处理记录，强制重新处理符合日期的文章
-#   python3 main.py --limit 5              # 每次最多处理 N 篇新文章
-# 依赖文件：
-#   fetchers/anthropic_blog.py, fetchers/cookbook.py, fetchers/transformer.py
-#   fetchers/red_team.py, fetchers/claude_blog.py, fetchers/alignment.py, fetchers/engineering.py
-#   translator.py, config.json
-# 项目作用：主协调器，调度 fetcher → 对比索引 → 日期过滤 → 翻译 → 输出日报
-# 最后修改：2026-04-14
-
-import json
+"""Discover, verify publication metadata, and persist retryable Chinese excerpts."""
 import argparse
-from datetime import date, timedelta
+import json
+import os
+import re
+from concurrent.futures import ThreadPoolExecutor
+from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
-from fetchers import anthropic_blog, cookbook, transformer, red_team, claude_blog, alignment, engineering
-from translator import translate
+from fetchers.common import SOURCE_URLS, discover, fetch_article, is_article, normalize_url
+from translator import translate, valid_translation
 
-BASE_DIR = Path(__file__).parent
-CONFIG_FILE = BASE_DIR / "config.json"
+BASE_DIR = Path(__file__).resolve().parent
 INDEX_FILE = BASE_DIR / "article_index.json"
-
-
-def load_config() -> dict:
-    with open(CONFIG_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def load_index() -> dict:
-    """加载文章索引 {url: {title, date, source}}"""
-    if not INDEX_FILE.exists():
-        return {}
-    with open(INDEX_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_index(index: dict):
-    """持久化文章索引，按 date 倒序排列"""
-    sorted_index = dict(
-        sorted(index.items(), key=lambda x: x[1].get("date", ""), reverse=True)
-    )
-    with open(INDEX_FILE, "w", encoding="utf-8") as f:
-        json.dump(sorted_index, f, ensure_ascii=False, indent=2)
-
-
-def fetch_all_articles(config: dict) -> list[dict]:
-    """调用各 fetcher 获取文章列表"""
-    articles = []
-    sources = config.get("sources", {})
-
-    if sources.get("anthropic_news") or sources.get("anthropic_research"):
-        for a in anthropic_blog.fetch_article_list():
-            if a["source"] == "anthropic_news" and sources.get("anthropic_news"):
-                articles.append(a)
-            elif a["source"] == "anthropic_research" and sources.get("anthropic_research"):
-                articles.append(a)
-
-    if sources.get("cookbook"):
-        articles.extend(cookbook.fetch_article_list())
-
-    if sources.get("transformer_circuits"):
-        articles.extend(transformer.fetch_article_list())
-
-    if sources.get("red_team"):
-        articles.extend(red_team.fetch_article_list())
-
-    if sources.get("claude_blog"):
-        articles.extend(claude_blog.fetch_article_list())
-
-    if sources.get("alignment"):
-        articles.extend(alignment.fetch_article_list())
-
-    if sources.get("engineering"):
-        articles.extend(engineering.fetch_article_list())
-
-    return articles
-
-
-def fetch_content(article: dict, since_str: str, today_str: str) -> str:
-    """获取文章正文，同时回写标题和真实发布日期到 article 字典。
-
-    对于 Anthropic 文章，会从页面 meta 标签提取真实发布日期覆盖 lastmod，
-    如果真实日期不在时间窗口内则返回空字符串（调用方跳过该文章）。
-    """
-    source = article["source"]
-    url = article["url"]
-
-    if source == "cookbook":
-        content, title, pub_date = cookbook.fetch_article_content(url)
-        if title and not article.get("title"):
-            article["title"] = title
-        if pub_date:
-            article["date"] = pub_date
-            if not (since_str <= pub_date <= today_str):
-                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                return ""
-        # 有 description 优先用于翻译（避免抓全文），否则用正文
-        return article.get("description") or content or ""
-
-    if source in ("anthropic_news", "anthropic_research"):
-        content, title, pub_date = anthropic_blog.fetch_article_content(url)
-        if title and not article.get("title"):
-            article["title"] = title
-        # 用真实发布日期覆盖 sitemap 的 lastmod
-        if pub_date:
-            article["date"] = pub_date
-            # 真实日期不在时间窗口内，跳过（lastmod 更新误触发）
-            if not (since_str <= pub_date <= today_str):
-                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                return ""
-        return content or ""
-    elif source == "red_team":
-        if article.get("description"):
-            # 首页有 description 时优先用于翻译，同时补充日期
-            content, title, pub_date = red_team.fetch_article_content(url)
-            if title and not article.get("title"):
-                article["title"] = title
-            if pub_date:
-                article["date"] = pub_date
-                if not (since_str <= pub_date <= today_str):
-                    print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                    return ""
-            return article["description"]
-        content, title, pub_date = red_team.fetch_article_content(url)
-        if title and not article.get("title"):
-            article["title"] = title
-        if pub_date:
-            article["date"] = pub_date
-            if not (since_str <= pub_date <= today_str):
-                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                return ""
-        return content or ""
-    elif source == "claude_blog":
-        content, title, pub_date = claude_blog.fetch_article_content(url)
-        if title and not article.get("title"):
-            article["title"] = title
-        if pub_date:
-            article["date"] = pub_date
-            if not (since_str <= pub_date <= today_str):
-                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                return ""
-        return content or ""
-    elif source == "transformer_circuits":
-        content, title, pub_date = transformer.fetch_article_content(url)
-        if title and not article.get("title"):
-            article["title"] = title
-        if pub_date:
-            article["date"] = pub_date
-            if not (since_str <= pub_date <= today_str):
-                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                return ""
-        return content or ""
-    elif source == "alignment":
-        if article.get("description"):
-            content, title, pub_date = alignment.fetch_article_content(url)
-            if title and not article.get("title"):
-                article["title"] = title
-            if pub_date:
-                article["date"] = pub_date
-                if not (since_str <= pub_date <= today_str):
-                    print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                    return ""
-            return article["description"]
-        content, title, pub_date = alignment.fetch_article_content(url)
-        if title and not article.get("title"):
-            article["title"] = title
-        if pub_date:
-            article["date"] = pub_date
-            if not (since_str <= pub_date <= today_str):
-                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                return ""
-        return content or ""
-    elif source == "engineering":
-        content, title, pub_date = engineering.fetch_article_content(url)
-        if title and not article.get("title"):
-            article["title"] = title
-        if pub_date:
-            article["date"] = pub_date
-            if not (since_str <= pub_date <= today_str):
-                print(f"  → 真实发布日期 {pub_date} 超出窗口，跳过")
-                return ""
-        return content or ""
-    return ""
-
-
+STATUS_FILE = BASE_DIR / "fetch_status.json"
 SOURCE_LABELS = {
-    "anthropic_news": "Anthropic News",
-    "anthropic_research": "Anthropic Research",
-    "cookbook": "Claude Cookbook",
-    "transformer_circuits": "Transformer Circuits",
-    "red_team": "Red Team",
-    "claude_blog": "Claude Blog",
-    "alignment": "Alignment Science",
-    "engineering": "Engineering Blog",
+    "anthropic_news": "Anthropic News", "anthropic_research": "Anthropic Research",
+    "cookbook": "Claude Cookbook", "transformer_circuits": "Transformer Circuits",
+    "red_team": "Red Team", "claude_blog": "Claude Blog", "alignment": "Alignment Science", "engineering": "Engineering Blog",
 }
+# A specialized source owns articles also present in the general research sitemap.
+SOURCE_PRIORITY = {s: i for i, s in enumerate(SOURCE_LABELS)}
 
 
-def build_digest(new_articles: list[dict], config: dict, today_str: str, since_str: str = "") -> tuple[str, list[dict]]:
-    """生成 Markdown 格式的每日日报"""
-    engine = config.get("translate_engine", "aliyun")
-    mode = config.get("translate_mode", "summary")
-    claude_model = config.get("claude_model", "claude-haiku-4-5-20251001")
+def article_source(url, *sources):
+    source = max((s for s in sources if s), key=lambda s: SOURCE_PRIORITY.get(s, -1))
+    if source in {"anthropic_news", "anthropic_research"}:
+        if "/news/" in url:
+            return "anthropic_news"
+        if "/research/" in url:
+            return "anthropic_research"
+    return source
 
-    lines = [
-        f"# Anthropic 每日简报 {today_str}",
-        f"",
-        f"> 共发现 **{len(new_articles)}** 篇新文章",
-        f"> 翻译引擎：{engine} | 模式：{'摘要' if mode == 'summary' else '全文'}",
-        f"",
-        "---",
-        "",
-    ]
 
-    actually_processed = []  # 只记录真正翻译成功的文章
+def read_json(path, default=None):
+    return json.loads(path.read_text()) if path.exists() else ({} if default is None else default)
 
-    for i, article in enumerate(new_articles, 1):
-        url = article["url"]
-        raw_title = article.get("title", "")
-        source_label = SOURCE_LABELS.get(article["source"], article["source"])
-        date_str = article.get("date", today_str)
 
-        print(f"[{i}/{len(new_articles)}] 处理：{raw_title or url}")
+def write_json(path, value):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.replace(path)
 
-        content = fetch_content(article, since_str, today_str)
-        if not content:
-            # 真实发布日期超出窗口或内容获取失败，跳过，不标记为已处理
+
+def load_config():
+    return read_json(BASE_DIR / "config.json")
+
+
+def load_index():
+    return read_json(INDEX_FILE)
+
+
+def save_index(index):
+    write_json(INDEX_FILE, dict(sorted(index.items(), key=lambda item: (item[1].get("date", ""), item[0]), reverse=True)))
+
+
+def migrate(index, output_dir):
+    """Import the latest *valid* legacy excerpt, once; records become authoritative."""
+    from build_data import parse_digest
+    summaries = {}
+    for path in sorted(output_dir.glob("*/digest.md")):
+        for url, item in parse_digest(path).items():
+            text = re.sub(r"^【机器翻译摘要】\s*", "", item.get("summary_zh", "")).strip()
+            if valid_translation(text):
+                summaries[normalize_url(url)] = {**item, "summary_zh": text}
+    result = {}
+    for url, original in index.items():
+        key, meta = normalize_url(url), dict(original)
+        if "summary_status" not in meta:
+            cached = summaries.get(key, {})
+            meta.update(cached)
+            meta["summary_status"] = "ready" if cached else "pending"
+            meta["processed"] = bool(cached)
+            # Legacy date may be a sitemap lastmod or an estimate; verify before publishing.
+            meta["date_verified"] = False
+            meta["date_precision"] = {10: "day", 7: "month", 4: "year"}.get(len(meta.get("date", "")), "unknown")
+        if not valid_translation(meta.get("summary_zh", "")):
+            meta.pop("summary_zh", None)
+            meta["processed"] = False
+            if meta.get("summary_status") == "ready":
+                meta["summary_status"] = "pending"
+        result[key] = merge_records(result.get(key, {}), meta)
+    return result
+
+
+def merge_records(existing, incoming):
+    """Canonical duplicates keep a valid cached excerpt and verified publication date."""
+    result = {**existing, **incoming}
+    for name in ("summary_zh", "title_zh", "summary_updated_at"):
+        if not incoming.get(name) and existing.get(name):
+            result[name] = existing[name]
+    if existing.get("date_verified") and not incoming.get("date_verified"):
+        for name in ("date", "date_precision", "date_verified"):
+            result[name] = existing[name]
+    if valid_translation(result.get("summary_zh", "")):
+        result.update(summary_status="ready", processed=True)
+    sources = [s for s in (existing.get("source"), incoming.get("source")) if s]
+    if sources:
+        result["source"] = max(sources, key=lambda s: SOURCE_PRIORITY.get(s, -1))
+    result["aliases"] = sorted(set(existing.get("aliases", []) + incoming.get("aliases", [])))
+    return result
+
+
+def recent(meta, since, today):
+    # Month-only/year-only dates stay visible at their actual precision in the archive.
+    return len(meta.get("date", "")) == 10 and since <= meta["date"] <= today
+
+
+def needs_metadata(meta, since, today, repair=False):
+    if recent(meta, since, today) and (repair or not meta.get("date_verified")):
+        return True
+    if not meta.get("metadata_checked_at") and meta.get("first_seen_at", "") >= since:
+        return True
+    if meta.get("fetch_status") == "failed" and meta.get("first_seen_at", "") >= since:
+        return True
+    return repair and meta.get("source") in {"alignment", "transformer_circuits", "cookbook"} and (not meta.get("date") or (not meta.get("metadata_checked_at") and meta["date"].startswith(today[:4])))
+
+
+def should_translate(meta, since, today, force=False):
+    in_scope = recent(meta, since, today) if meta.get("date") else bool(meta.get("first_seen_at") and meta["first_seen_at"] >= since)
+    return in_scope and meta.get("fetch_status") == "ok" and (force or not valid_translation(meta.get("summary_zh", "")))
+
+
+def discover_all(config, previous, stamp):
+    articles, statuses = [], {}
+    for source in SOURCE_LABELS:
+        if not config.get("sources", {}).get(source):
             continue
-        title = article.get("title") or raw_title or url
-
-        zh_text = translate(title, content, engine, mode, claude_model) if content else "[无法获取正文内容]"
-
-        lines += [
-            f"### [{title}]({url})",
-            f"",
-            f"**来源**: {source_label}  ",
-            f"**发布日期**: {date_str}  ",
-            f"**原文**: {url}",
-            f"",
-            f"**中文{'摘要' if mode == 'summary' else '译文'}**：",
-            f"",
-            zh_text,
-            f"",
-            "---",
-            "",
-        ]
-        actually_processed.append(article)
-
-    return "\n".join(lines), actually_processed
+        prior = previous.get("sources", {}).get(source, {})
+        try:
+            found = discover(source)
+            if not found:
+                raise ValueError("source returned zero articles")
+            articles.extend(found)
+            statuses[source] = {"status": "ok", "discovered": len(found), "last_success_at": stamp, "url": SOURCE_URLS[source]}
+            print(f"[{source}] discovered {len(found)}", flush=True)
+        except Exception as exc:
+            statuses[source] = {"status": "failed", "discovered": 0, "last_success_at": prior.get("last_success_at"), "url": SOURCE_URLS[source], "error": type(exc).__name__}
+            print(f"[{source}] FAILED ({type(exc).__name__})", flush=True)
+    return articles, statuses
 
 
-def init_index(config: dict):
-    """初始化索引：抓取全量文章列表，建立基准，无日期文章标记为已知（不再重复处理）"""
-    print("=== 初始化文章索引（只运行一次）===")
-    index = {}
-    for a in fetch_all_articles(config):
-        url = a["url"]
-        has_date = bool(a.get("date"))
-        index[url] = {
-            "title": a.get("title", ""),
-            "date": a.get("date", ""),
-            "source": a["source"],
-            # 无日期文章（Cookbook/transformer）标记为已知，避免首次运行时全量处理
-            "processed": not has_date,
-        }
-    save_index(index)
-    no_date = sum(1 for v in index.values() if not v.get("date"))
-    print(f"索引初始化完成：共 {len(index)} 篇，其中 {no_date} 篇无日期（已标记为已知）")
-    print("之后运行 python3 main.py 即可正常使用。")
+def update_metadata(index, candidates, stamp):
+    def fetch(url):
+        try:
+            return url, fetch_article(url), None
+        except Exception as exc:
+            return url, None, type(exc).__name__
+    contents = {}
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for old_url, details, error in pool.map(fetch, candidates):
+            meta = index[old_url]
+            meta["metadata_checked_at"] = stamp
+            if error:
+                meta.update(fetch_status="failed", summary_status="failed", last_error="正文获取暂时失败")
+                print(f"[metadata] FAILED {old_url}: {error}", flush=True)
+                continue
+            details = dict(details)
+            canonical = details.pop("url")
+            content = details.pop("content")
+            # A non-article redirect must not turn a listing page into a news item.
+            if not any(is_article(canonical, source) for source in SOURCE_LABELS):
+                meta.update(excluded=True, fetch_status="not_article")
+                continue
+            meta.update(details, date_verified=True, fetch_status="ok")
+            meta["source"] = article_source(canonical, meta["source"])
+            if valid_translation(meta.get("summary_zh", "")):
+                meta.update(summary_status="ready", processed=True)
+                meta.pop("last_error", None)
+            if old_url != canonical:
+                meta["aliases"] = sorted(set(meta.get("aliases", []) + [old_url]))
+                index[canonical] = merge_records(index.get(canonical, {}), meta)
+                index[canonical]["source"] = article_source(canonical, index[canonical]["source"])
+                del index[old_url]
+            contents[canonical] = content
+            print(f"[metadata] {details['date'] or 'unknown'} {canonical}", flush=True)
+    return contents
+
+
+def render_digest(records, today):
+    lines = [f"# Anthropic 每日简报 {today}", "", f"> 共 **{len(records)}** 篇中文摘录", "", "---", ""]
+    for url, meta in records:
+        lines += [f"### [{meta.get('title_zh') or meta.get('title')}]({url})", "", f"**来源**: {SOURCE_LABELS.get(meta['source'], meta['source'])}", "", f"**发布日期**: {meta.get('date') or '未提供'}", "", f"**原文**: {url}", "", "**中文摘录**：", "", meta["summary_zh"], "", "---", ""]
+    return "\n".join(lines)
+
+
+def write_run_summary(status):
+    path = os.getenv("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    lines = ["## Anthropic 抓取与中文摘录", "", "| 来源 | 状态 | 发现数 | 最近成功时间 |", "|---|---|---:|---|"]
+    for source, info in status.get("sources", {}).items():
+        lines.append(f"| {SOURCE_LABELS[source]} | {info['status']} | {info['discovered']} | {info.get('last_success_at') or '—'} |")
+    lines += ["", f"本次生成 {status.get('translated', 0)} 篇；失败 {status.get('failed', 0)} 篇。", ""]
+    with open(path, "a", encoding="utf-8") as f:
+        f.write("\n".join(lines))
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Anthropic 内容聚合 & 翻译日报")
-    parser.add_argument("--init", action="store_true", help="初始化索引（首次使用时运行）")
-    parser.add_argument("--date", type=str, default="", help="模拟指定日期运行，格式 YYYY-MM-DD")
-    parser.add_argument("--lookback", type=int, default=3, help="向前看几天内的文章（默认 3 天）")
-    parser.add_argument("--force", action="store_true", help="忽略已处理记录，重新处理符合日期的文章")
-    parser.add_argument("--limit", type=int, default=0, help="单次最多处理 N 篇（0=不限）")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--date", default="")
+    parser.add_argument("--lookback", type=int, default=30)
+    parser.add_argument("--repair-recent", action="store_true", help="重新核验近期元数据并恢复历史漏抓来源")
+    parser.add_argument("--force", action="store_true", help="重做窗口内已有摘录")
+    parser.add_argument("--limit", type=int, default=0, help="限制翻译数量，不限制元数据核验")
+    parser.add_argument("--init", action="store_true", help="建立发现基线，不翻译；保留已有文章")
+    parser.add_argument("--check-health", action="store_true")
     args = parser.parse_args()
-
+    if args.check_health:
+        status = read_json(STATUS_FILE)
+        return 0 if status and status.get("status") == "ok" else 1
+    today = args.date or datetime.now(ZoneInfo("Asia/Taipei")).date().isoformat()
+    since = (date.fromisoformat(today) - timedelta(days=args.lookback)).isoformat()
+    stamp = datetime.now(ZoneInfo("Asia/Taipei")).isoformat(timespec="seconds")
     config = load_config()
-
+    output = BASE_DIR / config.get("output_dir", "output")
+    index = migrate(load_index(), output)
+    previous = read_json(STATUS_FILE)
+    discovered, sources = discover_all(config, previous, stamp)
+    status = {"checked_at": stamp, "sources": sources, "translated": 0, "failed": 0, "status": "ok"}
+    if any(s["status"] != "ok" for s in sources.values()):
+        status["status"] = "source_failed"
+        write_json(STATUS_FILE, status)
+        write_run_summary(status)
+        return 2
+    # Aliases suppress rediscovery under a pre-migration URL.
+    aliases = {alias: url for url, meta in index.items() for alias in meta.get("aliases", [])}
+    for item in discovered:
+        url = aliases.get(item["url"], item["url"])
+        meta = index.setdefault(url, {"summary_status": "pending", "processed": False, "first_seen_at": "" if args.init else today})
+        meta["source"] = article_source(url, meta.get("source", ""), item["source"])
+        if not meta.get("title"):
+            meta["title"] = item.get("title", "")
+        if item.get("sitemap_lastmod"):
+            meta["sitemap_lastmod"] = item["sitemap_lastmod"]
+        if item.get("date") and not meta.get("date_verified"):
+            meta["date"] = item["date"]
+        meta.setdefault("date", "")
+        if args.init:
+            meta["metadata_checked_at"] = stamp
     if args.init:
-        init_index(config)
-        return
-
-    today = date.fromisoformat(args.date) if args.date else date.today()
-    today_str = today.isoformat()
-    since_str = (today - timedelta(days=args.lookback)).isoformat()
-
-    print(f"=== 运行日期：{today_str}，向前看：{args.lookback} 天（≥ {since_str}）===")
-
-    index = load_index()
-
-    print("=== 开始抓取各信息源 ===")
-    all_articles = fetch_all_articles(config)
-    print(f"共发现 {len(all_articles)} 篇文章")
-
-    # 记录运行前的已知 URL 集合（用于判断「首次发现」）
-    known_urls_before = set(index.keys())
-
-    # 更新索引（补充新发现的 URL，不覆盖已有标题）
-    for a in all_articles:
-        url = a["url"]
-        if url not in index:
-            index[url] = {
-                "title": a.get("title", ""),
-                "date": a.get("date", ""),
-                "source": a["source"],
-            }
-        elif not index[url].get("date") and a.get("date"):
-            index[url]["date"] = a["date"]
-
-    def is_new(a: dict) -> bool:
-        url = a["url"]
-        # 优先使用 index 中已修正的日期（避免 sitemap lastmod 误判为新文章）
-        art_date = index.get(url, {}).get("date") or a.get("date", "")
-
-        if not args.force and index.get(url, {}).get("processed"):
-            return False   # 已处理过
-
-        if art_date:
-            # 有日期：必须在时间窗口内
-            return since_str <= art_date <= today_str
-        else:
-            # 无日期（Cookbook/transformer）：只在首次发现时处理
-            return url not in known_urls_before
-
-    new_articles = [a for a in all_articles if is_new(a)]
-
-    # 按日期倒序（最新的先处理）
-    new_articles.sort(key=lambda x: x.get("date", ""), reverse=True)
-
-    print(f"其中近 {args.lookback} 天内有 {len(new_articles)} 篇新文章")
-
-    if not new_articles:
-        print(f"近 {args.lookback} 天无新文章，跳过。")
         save_index(index)
-        return
-
-    if args.limit > 0:
-        new_articles = new_articles[:args.limit]
-        print(f"（已按 --limit {args.limit} 限制处理数量）")
-
-    print("=== 开始翻译 ===")
-    digest, actually_processed = build_digest(new_articles, config, today_str, since_str)
-
-    # 写入日报（同一天多次运行时追加，避免覆盖已有摘要）
-    output_dir = BASE_DIR / config.get("output_dir", "output") / today_str
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / "digest.md"
-    if output_file.exists():
-        # 追加：去掉新 digest 的标题行，只保留文章条目部分
-        existing = output_file.read_text(encoding="utf-8")
-        # 提取新 digest 中的文章块（--- 之后的内容）
-        parts = digest.split("\n---\n", 1)
-        append_content = "\n---\n" + parts[1] if len(parts) > 1 else ""
-        if append_content.strip():
-            with open(output_file, "a", encoding="utf-8") as f:
-                f.write(append_content)
-            print(f"=== 已追加到 {output_file} ===")
-        else:
-            print(f"=== 无新内容可追加 ===")
-    else:
-        with open(output_file, "w", encoding="utf-8") as f:
-            f.write(digest)
-        print(f"=== 日报已保存到 {output_file} ===")
-
-    # 保存所有 new_articles 的真实日期到 index（包括被跳过的），防止下次 sitemap lastmod 误判
-    for a in new_articles:
-        url = a["url"]
-        if a.get("date"):
-            index[url]["date"] = a["date"]
-
-    # 只标记实际翻译成功的文章为已处理（跳过的不标记，下次运行可重试）
-    for a in actually_processed:
-        url = a["url"]
-        index[url]["processed"] = True
-        if a.get("title"):
-            index[url]["title"] = a["title"]
-        if a.get("date"):
-            index[url]["date"] = a["date"]  # 保存真实发布日期（覆盖 sitemap lastmod）
-
+        write_json(STATUS_FILE, status)
+        return 0
+    # Remove known category pages without discarding historic article records.
+    index = {u: m for u, m in index.items() if any(is_article(u, s) for s in SOURCE_LABELS)}
+    candidates = [u for u, m in index.items() if needs_metadata(m, since, today, args.repair_recent)]
+    # Missing excerpts need body retrieval on every retry, even after the 3-day discovery window.
+    candidates += [u for u, m in index.items() if should_translate(m, since, today, args.force) and u not in candidates]
+    print(f"Verifying {len(candidates)} article metadata records", flush=True)
+    contents = update_metadata(index, candidates, stamp)
     save_index(index)
-    processed_count = sum(1 for v in index.values() if v.get("processed"))
-    print(f"article_index.json 已更新，共 {len(index)} 篇，已处理 {processed_count} 篇")
+    translated = []
+    attempted = 0
+    for url, meta in list(index.items()):
+        if not should_translate(meta, since, today, args.force):
+            continue
+        if args.limit and attempted >= args.limit:
+            break
+        attempted += 1
+        try:
+            body = contents.get(url)
+            if not body:
+                body = fetch_article(url)["content"]
+            title_zh = translate(meta.get("title", ""), "", config.get("translate_engine", "aliyun"), "full", config.get("claude_model"))
+            summary = translate("", body, config.get("translate_engine", "aliyun"), "summary", config.get("claude_model"))
+            meta.update(title_zh=title_zh, summary_zh=summary, summary_status="ready", processed=True, summary_updated_at=stamp)
+            meta.pop("last_error", None)
+            translated.append((url, meta))
+            print(f"[translated] {url}", flush=True)
+        except Exception as exc:
+            meta.update(summary_status="failed", processed=False, last_error="中文摘录生成暂时失败")
+            print(f"[translation] FAILED {url}: {type(exc).__name__}", flush=True)
+        save_index(index)
+    status["translated"] = len(translated)
+    status["failed"] = sum((recent(m, since, today) or (not m.get("date") and m.get("first_seen_at", "") >= since)) and (m.get("summary_status") == "failed" or m.get("fetch_status") == "failed") for m in index.values())
+    status["status"] = "degraded" if status["failed"] else "ok"
+    status["last_success_at"] = stamp
+    write_json(STATUS_FILE, status)
+    if translated:
+        # Rebuild today's document from authoritative records, preserving earlier same-day runs.
+        records = [(u, m) for u, m in index.items() if m.get("summary_updated_at", "").startswith(today) and valid_translation(m.get("summary_zh", ""))]
+        destination = output / today / "digest.md"
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_text(render_digest(records, today), encoding="utf-8")
+    write_run_summary(status)
+    print(f"Run: {status['status']}; translated={status['translated']}; failed={status['failed']}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
