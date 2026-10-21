@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-10-20",
+  "generated_at": "2026-10-21",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-20",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/attack-surface-reduction",
+          "title_en": "Using Claude to reduce the attack surface of code",
+          "title_zh": "Using Claude to reduce the attack surface of code",
+          "summary_zh": "使用 Claude 减少代码的攻击面\n\n使用 Claude 减少代码的攻击面\n已发布\n2026年10月20日\n团队\n前沿红队\n克里斯·罗尔夫\n在过去的一年里，我们\n已发布\n大量数据表明，前沿人工智能模型不仅能够\n发现\n和\n利用\n安全漏洞。然而，展示如何利用以前未知的漏洞只是前沿人工智能模型为网络防御所做的事情的开始。在这篇文章中，我们总结了我们对自动攻击surfa的一些初步研究",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-20"
+        },
+        {
+          "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+          "title_en": "How Claude designed protein binders against scorpion neurotoxins",
+          "title_zh": "How Claude designed protein binders against scorpion neurotoxins",
+          "summary_zh": "Claude 如何设计针对蝎子神经毒素的蛋白质粘合剂\n\nClaude 如何设计针对蝎子神经毒素的蛋白质粘合剂\n阅读技术报告\n已发布\n2026年10月20日\n团队\n科学\n主题\n生命科学\n发现\n代理\n研究项目\n全球卫生\n查看更多...\n相关文章\n科学\n2026年9月23日\nClaude 发现具有CRISPR样重复序列的新型酶系统\n查看更多\n摘要：\n作为我们试验 Claude 如何帮助加速药物发现的工作的一部分，我们要求内部研究模型来设计\n微型活页夹\n(attac的小蛋白质",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-20"
+        }
+      ]
+    },
     {
       "date": "2026-10-18",
       "articles": [
@@ -13,6 +36,20 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/distillation-defenses",
+          "title_en": "distillation-defenses",
+          "title_zh": "distillation-defenses",
+          "summary_zh": "",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-17"
         }
       ]
     },
@@ -109,6 +146,33 @@
           "source": "Anthropic News",
           "source_key": "anthropic_news",
           "date": "2026-10-14"
+        },
+        {
+          "url": "https://www.anthropic.com/news/2028-ai-leadership",
+          "title_en": "2028-ai-leadership",
+          "title_zh": "2028-ai-leadership",
+          "summary_zh": "",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-14"
+        },
+        {
+          "url": "https://www.anthropic.com/news/anthropic-institute-agenda",
+          "title_en": "anthropic-institute-agenda",
+          "title_zh": "anthropic-institute-agenda",
+          "summary_zh": "",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-14"
+        },
+        {
+          "url": "https://www.anthropic.com/news/deprecation-updates-opus-3",
+          "title_en": "deprecation-updates-opus-3",
+          "title_zh": "deprecation-updates-opus-3",
+          "summary_zh": "",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-14"
         }
       ]
     },
@@ -122,6 +186,51 @@
           "summary_zh": "",
           "source": "Claude Cookbook",
           "source_key": "cookbook",
+          "date": "2026-10-13"
+        },
+        {
+          "url": "https://www.anthropic.com/research/claude-think-tool",
+          "title_en": "claude-think-tool",
+          "title_zh": "claude-think-tool",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-13"
+        },
+        {
+          "url": "https://www.anthropic.com/research/desktop-extensions",
+          "title_en": "desktop-extensions",
+          "title_zh": "desktop-extensions",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-13"
+        },
+        {
+          "url": "https://www.anthropic.com/research/redesigning-source-control",
+          "title_en": "redesigning-source-control",
+          "title_zh": "redesigning-source-control",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-13"
+        },
+        {
+          "url": "https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+          "title_en": "strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+          "title_zh": "strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-13"
+        },
+        {
+          "url": "https://www.anthropic.com/research/writing-tools-for-agents",
+          "title_en": "writing-tools-for-agents",
+          "title_zh": "writing-tools-for-agents",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
           "date": "2026-10-13"
         }
       ]
@@ -157,6 +266,42 @@
           "title_en": "Investigating unintended model actions in our evaluations and internal use",
           "title_zh": "Investigating unintended model actions in our evaluations and internal use",
           "summary_zh": "调查我们的评估和内部使用中的意外模型行为\n\n对齐\n调查我们的评估和内部使用中的意外模型行为\n2026年10月9日\n此报告描述了我们在评估和内部使用 Claude 期间观察到的意外模型操作的示例。这是我们努力的一部分，发布更频繁的关于模型行为和对齐的独立报告，超出我们的系统卡，我们在每个模型版本中发布，以及我们的风险报告，我们每三到六个月发布一次，作为我们负责任的扩展策略的一部分。我们贝尔",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-09"
+        },
+        {
+          "url": "https://www.anthropic.com/research/claude-code-best-practices",
+          "title_en": "claude-code-best-practices",
+          "title_zh": "claude-code-best-practices",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-09"
+        },
+        {
+          "url": "https://www.anthropic.com/research/golden-gate-claude",
+          "title_en": "golden-gate-claude",
+          "title_zh": "golden-gate-claude",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-09"
+        },
+        {
+          "url": "https://www.anthropic.com/research/long-running-claude",
+          "title_en": "long-running-claude",
+          "title_zh": "long-running-claude",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-09"
+        },
+        {
+          "url": "https://www.anthropic.com/research/multi-agent-research-system",
+          "title_en": "multi-agent-research-system",
+          "title_zh": "multi-agent-research-system",
+          "summary_zh": "",
           "source": "Anthropic Research",
           "source_key": "anthropic_research",
           "date": "2026-10-09"
@@ -362,6 +507,24 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-28"
+        },
+        {
+          "url": "https://www.anthropic.com/news/deprecation-commitments",
+          "title_en": "deprecation-commitments",
+          "title_zh": "deprecation-commitments",
+          "summary_zh": "",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-09-28"
+        },
+        {
+          "url": "https://www.anthropic.com/news/glasswing-initial-update",
+          "title_en": "glasswing-initial-update",
+          "title_zh": "glasswing-initial-update",
+          "summary_zh": "",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-09-28"
         }
       ]
     },
@@ -458,6 +621,15 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-23"
+        },
+        {
+          "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+          "title_en": "claude-discovers-novel-enzyme-system",
+          "title_zh": "claude-discovers-novel-enzyme-system",
+          "summary_zh": "",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-09-23"
         }
       ]
     },
@@ -485,6 +657,12 @@
         "date": "2026-10-18"
       },
       {
+        "url": "https://www.anthropic.com/news/distillation-defenses",
+        "title": "distillation-defenses",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-17"
+      },
+      {
         "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
         "title": "Anthropic update on independent evaluators",
         "desc": "Anthropic 官方新闻与产品公告",
@@ -499,6 +677,24 @@
       {
         "url": "https://www.anthropic.com/news/singapore-office-opening",
         "title": "Singapore office and government MOU | Anthropic",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-14"
+      },
+      {
+        "url": "https://www.anthropic.com/news/2028-ai-leadership",
+        "title": "2028-ai-leadership",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-14"
+      },
+      {
+        "url": "https://www.anthropic.com/news/anthropic-institute-agenda",
+        "title": "anthropic-institute-agenda",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-14"
+      },
+      {
+        "url": "https://www.anthropic.com/news/deprecation-updates-opus-3",
+        "title": "deprecation-updates-opus-3",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-10-14"
       },
@@ -537,6 +733,18 @@
         "title": "Barclays scales Claude to upgrade operations and improve client experience",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2026-10-01"
+      },
+      {
+        "url": "https://www.anthropic.com/news/deprecation-commitments",
+        "title": "deprecation-commitments",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-09-28"
+      },
+      {
+        "url": "https://www.anthropic.com/news/glasswing-initial-update",
+        "title": "glasswing-initial-update",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-09-28"
       },
       {
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -2121,9 +2329,69 @@
         "title": "krishna-rao-joins-anthropic",
         "desc": "Anthropic 官方新闻与产品公告",
         "date": "2024-05-21"
+      },
+      {
+        "url": "https://www.anthropic.com/news/announcements",
+        "title": "Announcements",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/news/features",
+        "title": "Features",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/news/models",
+        "title": "Models",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/news/partnerships",
+        "title": "Partnerships",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/news/policy",
+        "title": "Policy",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/news/product",
+        "title": "Product",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/news/safeguards",
+        "title": "Safeguards",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": ""
+      },
+      {
+        "url": "https://www.anthropic.com/news/security",
+        "title": "Security",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": ""
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/attack-surface-reduction",
+        "title": "Using Claude to reduce the attack surface of code",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-20"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+        "title": "How Claude designed protein binders against scorpion neurotoxins",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-20"
+      },
       {
         "url": "https://www.anthropic.com/research/ai-expectations-gap",
         "title": "The AI expectations gap",
@@ -2155,6 +2423,36 @@
         "date": "2026-10-16"
       },
       {
+        "url": "https://www.anthropic.com/research/claude-think-tool",
+        "title": "claude-think-tool",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-13"
+      },
+      {
+        "url": "https://www.anthropic.com/research/desktop-extensions",
+        "title": "desktop-extensions",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-13"
+      },
+      {
+        "url": "https://www.anthropic.com/research/redesigning-source-control",
+        "title": "redesigning-source-control",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-13"
+      },
+      {
+        "url": "https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+        "title": "strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-13"
+      },
+      {
+        "url": "https://www.anthropic.com/research/writing-tools-for-agents",
+        "title": "writing-tools-for-agents",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-13"
+      },
+      {
         "url": "https://www.anthropic.com/research/distillation-defenses",
         "title": "Strengthening our defenses against distillation attacks",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2169,6 +2467,30 @@
       {
         "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
         "title": "Investigating unintended model actions in our evaluations and internal use",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-09"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-code-best-practices",
+        "title": "claude-code-best-practices",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-09"
+      },
+      {
+        "url": "https://www.anthropic.com/research/golden-gate-claude",
+        "title": "golden-gate-claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-09"
+      },
+      {
+        "url": "https://www.anthropic.com/research/long-running-claude",
+        "title": "long-running-claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-09"
+      },
+      {
+        "url": "https://www.anthropic.com/research/multi-agent-research-system",
+        "title": "multi-agent-research-system",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-10-09"
       },
@@ -2219,6 +2541,12 @@
         "title": "Project Swap: What happens when agents trade for us?",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-09-24"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+        "title": "claude-discovers-novel-enzyme-system",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-09-23"
       },
       {
         "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
@@ -2353,6 +2681,12 @@
         "date": "2026-06-16"
       },
       {
+        "url": "https://www.anthropic.com/research/anthropic-public-record",
+        "title": "anthropic-public-record",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-06-12"
+      },
+      {
         "url": "https://www.anthropic.com/research/agents-in-biology",
         "title": "Paving the way for agents in biology",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2381,6 +2715,12 @@
         "title": "Coding agents in the social sciences",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-05-27"
+      },
+      {
+        "url": "https://www.anthropic.com/research/how-we-contain-claude",
+        "title": "how-we-contain-claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-05-25"
       },
       {
         "url": "https://www.anthropic.com/research/glasswing-initial-update",
@@ -2437,6 +2777,12 @@
         "date": "2026-04-29"
       },
       {
+        "url": "https://www.anthropic.com/research/april-23-postmortem",
+        "title": "april-23-postmortem",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-04-23"
+      },
+      {
         "url": "https://www.anthropic.com/research/81k-economics",
         "title": "What 81,000 people told us about the economics of AI",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2461,6 +2807,12 @@
         "date": "2026-04-09"
       },
       {
+        "url": "https://www.anthropic.com/research/managed-agents",
+        "title": "managed-agents",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-04-08"
+      },
+      {
         "url": "https://www.anthropic.com/research/mythos-preview",
         "title": "mythos-preview",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2479,8 +2831,20 @@
         "date": "2026-03-31"
       },
       {
+        "url": "https://www.anthropic.com/research/claude-code-auto-mode",
+        "title": "claude-code-auto-mode",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-03-25"
+      },
+      {
         "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
         "title": "Anthropic Economic Index report: Learning curves",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-03-24"
+      },
+      {
+        "url": "https://www.anthropic.com/research/harness-design-long-running-apps",
+        "title": "harness-design-long-running-apps",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-24"
       },
@@ -2511,6 +2875,12 @@
       {
         "url": "https://www.anthropic.com/research/exploit",
         "title": "exploit",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-03-06"
+      },
+      {
+        "url": "https://www.anthropic.com/research/eval-awareness-browsecomp",
+        "title": "eval-awareness-browsecomp",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-03-06"
       },
@@ -2563,6 +2933,18 @@
         "date": "2026-02-05"
       },
       {
+        "url": "https://www.anthropic.com/research/building-c-compiler",
+        "title": "building-c-compiler",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-02-05"
+      },
+      {
+        "url": "https://www.anthropic.com/research/infrastructure-noise",
+        "title": "infrastructure-noise",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-02-05"
+      },
+      {
         "url": "https://www.anthropic.com/research/economic-index-primitives",
         "title": "economic-index-primitives",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2573,6 +2955,12 @@
         "title": "disempowerment-patterns",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-01-28"
+      },
+      {
+        "url": "https://www.anthropic.com/research/AI-resistant-technical-evaluations",
+        "title": "AI-resistant-technical-evaluations",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-01-21"
       },
       {
         "url": "https://www.anthropic.com/research/assistant-axis",
@@ -2599,6 +2987,12 @@
         "date": "2026-01-15"
       },
       {
+        "url": "https://www.anthropic.com/research/accelerating-scientific-research",
+        "title": "accelerating-scientific-research",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-01-15"
+      },
+      {
         "url": "https://www.anthropic.com/research/property-based-testing",
         "title": "property-based-testing",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2607,6 +3001,12 @@
       {
         "url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
         "title": "next-generation-constitutional-classifiers",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-01-09"
+      },
+      {
+        "url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
+        "title": "demystifying-evals-for-ai-agents",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2026-01-09"
       },
@@ -2659,8 +3059,20 @@
         "date": "2025-12-01"
       },
       {
+        "url": "https://www.anthropic.com/research/effective-harnesses-for-long-running-agents",
+        "title": "effective-harnesses-for-long-running-agents",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-11-26"
+      },
+      {
         "url": "https://www.anthropic.com/research/prompt-injection-defenses",
         "title": "prompt-injection-defenses",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-11-24"
+      },
+      {
+        "url": "https://www.anthropic.com/research/advanced-tool-use",
+        "title": "advanced-tool-use",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-11-24"
       },
@@ -2773,6 +3185,12 @@
         "date": "2025-11-20"
       },
       {
+        "url": "https://www.anthropic.com/research/political-even-handedness",
+        "title": "political-even-handedness",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-11-13"
+      },
+      {
         "url": "https://www.anthropic.com/research/project-fetch-robot-dog",
         "title": "project-fetch-robot-dog",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2783,6 +3201,24 @@
         "title": "deprecation-commitments",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-11-04"
+      },
+      {
+        "url": "https://www.anthropic.com/research/code-execution-with-mcp",
+        "title": "code-execution-with-mcp",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-11-04"
+      },
+      {
+        "url": "https://www.anthropic.com/research/claude-code-sandboxing",
+        "title": "claude-code-sandboxing",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-10-20"
+      },
+      {
+        "url": "https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills",
+        "title": "equipping-agents-for-the-real-world-with-agent-skills",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-10-16"
       },
       {
         "url": "https://www.anthropic.com/research/economic-policy-responses",
@@ -2807,6 +3243,18 @@
         "title": "building-ai-cyber-defenders",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-10-03"
+      },
+      {
+        "url": "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents",
+        "title": "effective-context-engineering-for-ai-agents",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-09-29"
+      },
+      {
+        "url": "https://www.anthropic.com/research/a-postmortem-of-three-recent-issues",
+        "title": "a-postmortem-of-three-recent-issues",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-09-17"
       },
       {
         "url": "https://www.anthropic.com/research/biorisk",
@@ -2863,6 +3311,12 @@
         "date": "2025-06-27"
       },
       {
+        "url": "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship",
+        "title": "how-people-use-claude-for-support-advice-and-companionship",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-06-27"
+      },
+      {
         "url": "https://www.anthropic.com/research/shade-arena-sabotage-monitoring",
         "title": "shade-arena-sabotage-monitoring",
         "desc": "Anthropic 研究论文与技术博客",
@@ -2897,6 +3351,12 @@
         "title": "exploring-model-welfare",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2025-04-24"
+      },
+      {
+        "url": "https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude",
+        "title": "anthropic-education-report-how-university-students-use-claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2025-04-08"
       },
       {
         "url": "https://www.anthropic.com/research/reasoning-models-dont-say-think",
@@ -3125,6 +3585,12 @@
         "title": "circuits-updates-sept-2024",
         "desc": "Anthropic 研究论文与技术博客",
         "date": "2024-10-01"
+      },
+      {
+        "url": "https://www.anthropic.com/research/contextual-retrieval",
+        "title": "contextual-retrieval",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2024-09-19"
       },
       {
         "url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
