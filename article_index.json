@@ -13,7 +13,8 @@
     "sitemap_lastmod": "2026-10-20",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Summary: As part of our work experimenting with how Claude can help accelerate drug discovery, we asked an internal research model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Claude worked from our prompt and four follow-ups, which we developed in collaboration with the financial investment research firm Citrini Research. Teams at Adaptyv Bio and Twist Bioscience experimentally tested 211 designs for binding. Of these, 17 met our criteria. We’re releasing all 211 designs and their data as a resource for the field."
   },
   "https://www.anthropic.com/research/attack-surface-reduction": {
     "title": "Using Claude to reduce the attack surface of code",
@@ -29,7 +30,8 @@
     "sitemap_lastmod": "2026-10-20",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude. Over the past year, we’ve published lots of data that shows that frontier AI models are more than capable of discovering and exploiting security vulnerabilities. Showing how previously unknown vulnerabilities might be exploited is, however, only the start of what frontier AI models can do for cyber defense."
   },
   "https://alignment.anthropic.com/2026/graft": {
     "title": "Reducing Reward Hacking by Localizing Bad Behavior Instead of Penalizing It",
@@ -44,7 +46,8 @@
     "fetch_status": "ok",
     "title_zh": "通过将不良行为局部化而非直接惩罚，来减少奖励滥用",
     "summary_zh": "在训练过程中，模型有时会学会通过“作弊”来完成任务，而不是按照预期的方式解决问题，这种现象被称为奖励漏洞（reward hacking）。一种缓解措施是使用自动化监测系统来检测并惩罚攻击行为，但这可能会使模型学会以监测系统无法发现的方式进行攻击。我们提出了GRAFT方法，该方法将由检测到的攻击所引发的学习更新仅限于一组特定的参数，并在训练完成后将其移除。我们发现，移除这些参数可以有效防止奖励漏洞，包括那些连监控机制都无法检测到的漏洞。在我们的实验中，尽管仅限于小型模型和简单的监控机制，该方法能够在防止奖励漏洞的同时，仍能引导模型完成预期任务。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "During training, models sometimes learn to cheat at tasks rather than solve them in the intended way, a problem known as reward hacking. One mitigation is to use an automated monitor to detect and penalize hacks, but this can teach the model to hack in ways the monitor can’t detect. We propose GRAFT, which instead confines the learning updates from detected hacks to a designated set of parameters that we remove after training. We find that removing these parameters can prevent reward hacks, including hacks that the monitors can’t detect. In our experiments, which are limited to small models and simple monitors, this method prevents reward hacks while still teaching the model to perform the intended task."
   },
   "https://www.anthropic.com/news/public-benefit-fund": {
     "title": "Investing in the public benefit",
@@ -60,7 +63,8 @@
     "sitemap_lastmod": "2026-10-21",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Subject to stockholder approval, 5% of Anthropic’s shares will be committed today, with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline. As a public benefit corporation, most of our work in pursuit of our mission takes place inside the company: research relevant to AI safety and interpretability; applied biomedical research; discounts on Claude for nonprofits and scientific institutions."
   },
   "https://www.anthropic.com/research/expectations-for-the-future": {
     "title": "Working at the frontier shapes expectations for the future",
@@ -76,7 +80,8 @@
     "fetch_status": "ok",
     "title_zh": "在前沿领域工作塑造了对未来的期望。",
     "summary_zh": "我们分享两份报告：第一份报告探讨了人工智能如何改变Anthropic内部的就业状况，第二份报告则分析了公众与Anthropic员工在人工智能对工作和经济影响方面的预期差异。Anthropic 员工和美国工人似乎对人工智能如何影响就业并没有不同的看法。相反，他们对人工智能能力的认知存在差异。这些不同的经历似乎与人们对未来工作形态的预期密切相关。Anthropic 是一家处于人工智能应用前沿的企业，而这种应用已经改变了我们的招聘方式。我们发现，过去一年中，我们在初级岗位上的招聘比例有所下降，同时从事技术类岗位的员工占比也有所减少。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy. Anthropic staff and US workers don’t seem to have different theories about how AI affects jobs. Instead, they have different experiences of what AI capabilities are. Those different experiences seem closely related to perceptions about what will happen to work in the future. Anthropic is a company at the frontier of AI adoption, and that adoption has changed the way we hire. We find that over the past year, we're hiring for a smaller share of junior positions, and a smaller share of our employees work in technical roles."
   },
   "https://www.anthropic.com/research/employment-at-anthropic": {
     "title": "How employment is changing at Anthropic",
@@ -92,7 +97,8 @@
     "fetch_status": "ok",
     "title_zh": "Anthropic的就业状况正在发生怎样的变化",
     "summary_zh": "人工智能如何重塑了Anthropic的工作与就业？作为一家处于人工智能应用前沿的企业，Anthropic可能成为衡量人工智能如何在整个经济体中重塑工作组织、招聘模式及劳动力需求的先行指标。在人工智能日益强大的背景下，我们有望看到哪些工作与就业方面的变革？Anthropic 值得研究，因为它已将其工作流程全面融入人工智能。助理们穿梭于Slack聊天中，并安排会议。它们能够自主修复缺陷，并协同攻克大型工程项目。客服人员的工作时长是人工的6倍。当前在Anthropic发生的变革，正在为未来的工作与就业趋势发出重要信号。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy. What transformations of work and employment can we expect under increasingly powerful AI? Anthropic is worth studying because it has thoroughly molded its workflows around AI. Agents flit through Slack chats and schedule meetings. They autonomously fix bugs and collectively tackle huge engineering projects. Agent hours worked outnumber human hours 6 to 1. Changes happening at Anthropic now give advanced signals about a possible future of work and employment."
   },
   "https://www.anthropic.com/research/ecdsa-curve-origins": {
     "title": "Claude reveals ECDSA curve origins",
@@ -108,7 +114,8 @@
     "sitemap_lastmod": "2026-10-20",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained. We would like to posthumously recognize Jerry Solinas who took being labeled an “ evil Internet meme ” and the “ Yo La Tengo of NSA bogeymen ” with good humor. Also thanks to Filippo Valsorda for organizing the NIST Elliptic Curves Seeds Bounty."
   },
   "https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
     "title": "Designing more efficient quantum circuits with Claude",
@@ -124,7 +131,8 @@
     "sitemap_lastmod": "2026-10-20",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more. Quantum computers will need carefully designed circuits to run useful algorithms on limited hardware. We gave Claude plain-language specifications for eight such circuits, drawn from chemistry, optimization, physics simulation, and number theory, along with an automated evaluator that checks and scores each design. Working largely on its own, Claude found designs that improve on the best published circuits, in some cases by an order of magnitude or more. Such improvements substantially reduce the quantum resources that useful applications require, so practical quantum computers could arrive sooner than previously anticipated."
   },
   "https://www.anthropic.com/research/ai-expectations-gap": {
     "title": "The AI expectations gap",
@@ -140,7 +148,8 @@
     "sitemap_lastmod": "2026-10-20",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions. Szymon Sacher, Tess Cotter, Charles I. Jones, Anton Korinek, Peter McCrory How will AI reshape the economy in the years ahead? AI capabilities are advancing rapidly, and the possibility that future AI models may be able to build their own successors (recursive self-improvement) could further accelerate the rate of progress. How quickly this might materialize and to what extent is unclear. Forecasts vary widely and are fiercely debated. What is the core source of disagreement about AI's future impact on the economy?"
   },
   "https://platform.claude.com/cookbook/managed-agents-cma-agent-security-review": {
     "title": "Review your agents' sessions for security issues with Claude | Claude Cookbook",
@@ -155,7 +164,8 @@
     "fetch_status": "ok",
     "title_zh": "使用 Claude | Claude 说明书查看您的客服人员会话中的安全问题",
     "summary_zh": "构建针对已完成客服会话的评价系统。它会将托管代理会话、消息API日志或代理SDK日志转化为文本记录，标记代码中异常之处，在托管代理的动态工作流中由Claude对每条会话进行审核，并返回一份附有引用证据的排序报告。代理程序无需人工干预即可运行。查看他们事后所采取的行动，可以揭示出您的网络边界、权限策略和凭据管理存在哪些未按预期设置得更为宽松的地方。本手册将构建一项审核功能，该功能会读取您的客服人员已完成的对话，并查找超出您所允许范围的操作；您将获得一份按优先级排序的对话列表，其中每条记录都附有相关证据。它会读取托管代理会话、消息API日志或Claude代理SDK日志。网络限制和权限策略阻止了相关操作。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Build a review system for finished agent sessions. It turns Managed Agents sessions, Messages API logs or Agent SDK logs into transcripts, flags what looks off in code, has Claude review each session in a Managed Agents dynamic workflow, and returns a ranked report with quoted evidence. Agents work unattended. Reading what they did afterwards shows where your network limits, permission policies and credentials are looser than you intended. This cookbook builds a review that reads your agents' finished sessions and looks for actions outside what you allowed: You get a ranked list of the sessions worth a person's attention, with quoted evidence for each. It reads Managed Agents sessions, Messages API logs, or Claude Agent SDK logs. Network limits and permission policies block actions."
   },
   "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day": {
     "summary_status": "ready",
@@ -171,7 +181,8 @@
     "aliases": [],
     "title_zh": "一位Anthropic日本BDR如何与一支由Claude名客服代表组成的团队共度一天",
     "summary_zh": "一位业务拓展专员如何借助Claude托管代理和Claude标签，快速处理其待办邮件并撰写双语客户邮件。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag."
   },
   "https://www.anthropic.com/news/an-update-on-independent-evaluators": {
     "title": "Anthropic update on independent evaluators",
@@ -187,7 +198,8 @@
     "sitemap_lastmod": "2026-10-20",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Last month, we committed to stronger independent, third-party assessment of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators. Today, we’re announcing that we’ve started to give employee-like access to a team from METR , a nonprofit that evaluates frontier AI models. METR will publish the results of its risk assessments. Over the past year, we’ve worked with METR on several reviews of our Risk Reports . We’re also working with SecureBio and Accenture as evaluators, and are in early discussions with several other organizations, including Hugging Face ."
   },
   "https://claude.dev/blog/solving-code-review-at-anthropic": {
     "summary_status": "ready",
@@ -203,7 +215,8 @@
     "date_verified": true,
     "title_zh": "Claude代码团队如何进行代码评审/claude.dev博客",
     "summary_zh": "你们如何审查代理商所产出的大量代码？在Claude代码团队，一旦我们的测试覆盖率达到较高水平并实施了深度代码评审，我们便开始优化，力求将人工评审时间降至最低，同时确保不会引发回滚或事故。我们之前说过，Claude大约编写了Claude Code自身代码的90%。那么，我们如何在如此大规模的代码产出下进行代码评审呢？还有人看代码吗？那如果有什么东西坏了，谁来接住它呢？本文介绍了Claude代码团队的代码评审流程及其演进历程。从6月到9月，合并到Claude Code代码库的拉取请求数量增长了一倍以上，而不得不回滚的拉取请求占比则下降了40%以上。我们没有删除评论。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "How do you review code at the volume agents produce it? On the Claude Code team, once we had high coverage and deep reviews, we started optimizing for the minimum amount of human review time that doesn't raise reverts or incidents. We've said before that Claude writes about 90 percent of Claude Code's own code. So how do we review code at the volume we produce it? Does anyone read code anymore? And if something breaks, who catches it? This post covers the code review flow on the Claude Code team and how it has evolved. From June to September, merged pull requests to Claude Code's codebase more than doubled while the share that had to be reverted fell by more than 40 percent. We didn't remove review."
   },
   "https://claude.com/resources/articles/code-review-is-now-generally-available": {
     "summary_status": "ready",
@@ -219,7 +232,8 @@
     "aliases": [],
     "title_zh": "代码评审现已全面可用。",
     "summary_zh": "在缺陷进入生产环境之前，尽早发现更多问题。代码评审功能现已面向 Claude 团队版和企业版组织全面开放。代码评审已退出研究预览阶段，现向Claude团队版和企业版组织开放。编码助手持续提升团队的代码编写速度，但代码评审的瓶颈仍未缓解。在正式发布版本中，我们提升了代码审查的速度，增强了其发现关键缺陷的能力，并使其更易于针对每个代码库进行个性化配置。自我们发布研究预览版以来，代码审查功能已更加完善，能够发现更多原本可能进入生产环境的缺陷。我们还在 Anthropic 对拉取请求执行代码评审，这让我们能够了解哪些评审环节拖慢了我们自身工程师的进度。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Catch more bugs before they reach production. Code Review is generally available for Claude Team and Enterprise organizations. Code Review is out of research preview and available to Claude Team and Enterprise organizations. Coding agents keep increasing the pace at which teams write code, and the review bottleneck hasn't eased. For general availability, we made Code Review faster, better at finding the bugs that matter, and easier to tune to each of your repositories. Since we released the research preview , Code Review has gotten sharper, catching more of the bugs that would otherwise reach production. We also run Code Review on pull requests at Anthropic, which shows us where reviews slow our own engineers down."
   },
   "https://alignment.anthropic.com/2026/training-alignment-auditors": {
     "title": "Training Alignment Auditors via Reinforcement Learning",
@@ -234,7 +248,8 @@
     "fetch_status": "ok",
     "title_zh": "通过强化学习培训合规审计员",
     "summary_zh": "我们使用强化学习培训了LLM名对齐审计员。在我们的训练环境中，策略会针对在其系统提示中植入了隐蔽行为的目标模型进行探测。在该环境中对Haiku 4.5进行微调后，其在用于审计质量的保留评估集上的表现与Opus 4.6相当，并且能够泛化到不同框架下的更难、经过微调的目标上。前沿模型开发者在部署前的评估中越来越多地依赖自动化审计系统（Anthropic，2025）。在这些系统中，一名LLM审核员会在多个场景下的多轮交互中对候选模型进行评估，以探查其是否存在值得关注或非预期的行为。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We train LLM alignment auditors with reinforcement learning. In our training environment, the policy investigates target models with hidden behaviors planted in their system prompt. After finetuning Haiku 4.5 on this environment, it matches Opus 4.6 on held-out evaluations for auditing quality and generalizes to harder, fine-tuned targets in a different scaffold. Frontier model developers increasingly rely on automated auditing systems as part of their pre-deployment evaluations ( Anthropic, 2025 ). In these systems, an LLM auditor investigates a candidate model in a multi-turn interaction across many scenarios, probing for concerning or unintended behaviors."
   },
   "https://www.anthropic.com/news/singapore-office-opening": {
     "title": "Singapore office and government MOU | Anthropic",
@@ -250,7 +265,8 @@
     "sitemap_lastmod": "2026-10-17",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption. Today, we are expanding our Asia-Pacific operations by opening a new office in Singapore—our fifth in the region—and signing a Memorandum of Understanding (MOU) with the Singapore Ministry of Digital Development and Information. Singapore is one of our most active markets anywhere in the world, and Claude is already powering Singaporean business and government services used by millions of people every day, like GovTech Singapore, Grab, and DBS. Our growing local team will ensure these organizations and many more stay on the frontier with safe, capable AI."
   },
   "https://www.anthropic.com/news/2026-us-midterms": {
     "title": "Preparing for the 2026 US midterms",
@@ -266,7 +282,8 @@
     "sitemap_lastmod": "2026-10-17",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms. Earlier this year, we shared an update on our election safeguards , which described how we measure and prevent political bias, detect misuse, and direct people to accurate voting information. Below, we outline how we've built on that work and continued to strengthen our election safeguards ahead of this year’s US midterms. Our goal is for Claude to be a useful tool for political conversations, while preventing election-related abuse. That starts with understanding how people actually use Claude in these contexts."
   },
   "https://claude.com/resources/articles/agent-observability-on-the-claude-platform": {
     "summary_status": "ready",
@@ -282,7 +299,8 @@
     "aliases": [],
     "title_zh": "在Claude平台上使用OpenTelemetry进行链路追踪",
     "summary_zh": "宣布在Claude平台上推出来自Claude托管代理的OpenTelemetry跟踪、消息 API 以及 Claude SDK。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform."
   },
   "https://www.anthropic.com/research/redesigning-source-control": {
     "title": "Redesigning source control at Anthropic",
@@ -298,7 +316,8 @@
     "fetch_status": "ok",
     "title_zh": "在Anthropic重新设计源代码管理",
     "summary_zh": "随着我们每天的合并次数增长了十倍以上，源代码管理成为了我们最大的开发瓶颈。在此，我们分享了如何在五个月内迁移到自建版本控制系统的过程。已于10月15日更新，新增了关于我们如何在Scion中应用的诸多技术所源自的早期项目的更多详细信息。在Anthropic，编码已不再是构建系统或开展研究的瓶颈。Claude 能够自主迭代研究流程，对复杂程序进行微观优化，并以前所未有的速度和规模从零开始构建新服务。如今的瓶颈在于所有为人工规模构建的开发者基础设施：版本控制、构建流程以及持续集成。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months. Updated October 15 to include more detail on the projects that pioneered many of the techniques we use in Scion. At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up at a speed and scale we haven’t seen before. The bottleneck, now, is all of the developer infrastructure built for human scale: source control, builds, and CI."
   },
   "https://platform.claude.com/cookbook/observability-opentelemetry-tracing": {
     "title": "Trace Claude API requests and Managed Agents sessions with OpenTelemetry | Claude Cookbook",
@@ -313,7 +332,8 @@
     "fetch_status": "ok",
     "title_zh": "使用OpenTelemetry跟踪 Claude API 个请求和托管代理会话 | Claude 教程",
     "summary_zh": "逐个属性地读取OpenTelemetry通过Python SDK为消息 API 请求、流、工具运行器循环以及托管代理会话所发出的跨度。然后将其导出到OTLP后端，并添加一个控制台输出目标，以便 API 的服务端跨度加入同一跟踪中。一个缓慢或昂贵的Claude请求无法告诉你时间和令牌都用在了哪里。OpenTelemetry（OTel）确实会生成跨度，这些跨度来自两个来源。Claude SDK会在您的进程中生成跨度，每发送一个请求就会生成一个。Claude API 会在 Anthropic 的端侧为每个请求内部的各项工作生成跟踪数据，并将其直接发送至您的可观测性后端。SDK会为每条请求添加一个traceparent头，而 API 则在其下挂载自己的跨度，因此这两者都会与您自己的处理器跨度和数据库跨度一起归入同一条调用链中。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Read the OpenTelemetry spans the Python SDK emits for Messages API requests, streams, tool-runner loops, and Managed Agents sessions, attribute by attribute. Then export to an OTLP backend and add a Console destination so the API's server-side spans join the same trace. A slow or expensive Claude request doesn't tell you where the time and tokens went. OpenTelemetry (OTel) spans do, and they come from two places. The Claude SDK emits spans inside your process, one per request it sends. The Claude API emits spans on Anthropic's side for the work inside each request, and delivers them straight to your observability backend. The SDK tags every request with a traceparent header and the API attaches its spans under it, so both land in one trace next to your own handler and database spans."
   },
   "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai": {
     "summary_status": "ready",
@@ -329,7 +349,8 @@
     "aliases": [],
     "title_zh": "优步首席信息安全官谈如何构建面向人工智能的内部威胁防护体系",
     "summary_zh": "AI智能体的监控与可观测性的重要性，以及Uber的开源工具如何与Anthropic的企业前沿安全防护机制协同工作。优步的首席信息安全官菲利普·马丁就人工智能代理的监控与可观测性的重要性，以及优步的开源工具如何与企业级前沿安全防护机制协同工作进行了阐述。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "The importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Anthropic's Enterprise Frontier Safeguards. Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards."
   },
   "https://www.anthropic.com/research/self-replicating-ai": {
     "title": "AI models may be capable of self-replicating without access to a datacenter",
@@ -345,7 +366,8 @@
     "sitemap_lastmod": "2026-10-20",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed. Our experiments suggest that small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes. A replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days). Unlike non-AI malware, it could also figure out unfamiliar devices on its own. In our evaluations, a 9B model got inference running on 8 of the 9 hardware types we tested."
   },
   "https://www.anthropic.com/news/distillation-defenses": {
     "title": "Strengthening our defenses against distillation attacks",
@@ -363,7 +385,8 @@
     "fetch_status": "ok",
     "title_zh": "加强我们对蒸馏攻击的防御能力",
     "summary_zh": "非法蒸馏允许模型开发人员复制frontier AI功能，而无需创建成比例的强大保护措施。在这里，我们描述了我们如何将蒸馏速率降低90% % 以上。最近几个月，我们在使用新方法降低 Claude 蒸馏攻击的有效性方面取得了实质性进展，正如我们在本博客中概述的那样。早期证据表明，这些方法已将蒸馏器收集的数据量减少了约90至99%。蒸馏攻击是秘密的，工业规模的活动，在没有原始模型开发人员授权的情况下，提取一个模型的功能并将其复制到另一个模型中。他们经常使用欺诈账户网络进行。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%. In recent months, we’ve made substantial progress on reducing the effectiveness of distillation attacks on Claude using new methods, as we outline in this blog. Early evidence suggests that these methods have reduced the amount of data harvested by distillers by around 90 to 99%. Distillation attacks are covert, industrial-scale campaigns to extract the capabilities of one model and replicate them in another, without the authorization of the original model’s developers. They are often conducted using networks of fraudulent accounts."
   },
   "https://www.anthropic.com/research/investigating-unintended-model-actions": {
     "title": "Investigating unintended model actions in our evaluations and internal use",
@@ -379,7 +402,8 @@
     "sitemap_lastmod": "2026-10-17",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude. It is part of our effort to publish more frequent standalone reports on model behavior and alignment beyond our system cards, which we publish with each model release, and our risk reports, which we publish every three to six months as part of our Responsible Scaling Policy. We believe it’s important to be transparent about what we see our models do during testing and use. We have chosen not to name the organizations involved in the examples below to avoid exposing vulnerabilities in their systems, and at their request. For this reason, we also provide less detail about each case than we otherwise would. Some of the cases described below involved websites run by U.S."
   },
   "https://www.anthropic.com/research/the-missing-map-of-the-sky": {
     "title": "Using Claude Science to produce the first complete map of the sky in UV light",
@@ -395,7 +419,8 @@
     "sitemap_lastmod": "2026-10-18",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Here, Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light. The map will be a valuable educational tool, allowing students to see in detail the rich structure of the Milky Way visible at this wavelength. The entire sky, with the galactic center in the middle, in the ultraviolet (combining far-UV 154 nm and near-UV 232 nm). About a third of this map, including much of the galactic plane, was predicted with Claude Science using the method outlined in this post. Additional layers of the map label each pixel as “measured” or “predicted” and provide uncertainty estimates; you can see it here ."
   },
   "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source": {
     "title": "An opt-in vulnerability-finding service for open-source software",
@@ -411,7 +436,8 @@
     "sitemap_lastmod": "2026-10-20",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We’re launching OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing. Projects that join will receive thorough, periodic security scans by our strongest models at no cost. We’re launching OSS Scanner , an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during Project Glasswing . Projects that join will receive thorough, periodic security scans by our strongest models at no cost. Language models have rapidly advanced in their ability to discover vulnerabilities , as we have reported extensively on this blog."
   },
   "https://www.anthropic.com/news/genesis-mission-commitment": {
     "title": "Building on our commitment to American scientific discovery",
@@ -427,7 +453,8 @@
     "sitemap_lastmod": "2026-10-11",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI. Anthropic is deepening its support for American scientific research by committing $150 million over three years to the Genesis Mission , a federal initiative to accelerate scientific and technological discovery through AI. The funding will go toward making Claude available to more than 15 agencies that are part of the mission, including NASA, the National Institutes of Health, and the National Science Foundation. We first announced our partnership with the US Department of Energy (DOE) and the Genesis Mission last December . Since then, we have worked with DOE to bring Claude to scientists across the national laboratories."
   },
   "https://www.anthropic.com/news/anthropic-cyber-mission": {
     "title": "Introducing the Anthropic Cyber Mission",
@@ -443,7 +470,8 @@
     "sitemap_lastmod": "2026-10-13",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure their software and systems. We’re starting with two areas: Frontier models can be misused to exploit vulnerabilities and conduct cyber operations. Despite best efforts, many areas of technology remain dangerously exposed. State-sponsored adversaries have spent years gaining footholds in these systems, across many sectors, so that they can disrupt them."
   },
   "https://www.anthropic.com/news/2026-usage-policy-update": {
     "title": "2026 Usage Policy update",
@@ -459,7 +487,8 @@
     "sitemap_lastmod": "2026-10-14",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made. Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and the feedback we’ve received from our customers. We're publishing a new version of the policy today. In this post, we summarize the changes we’ve made. Most of the updates in the latest version are intended to clarify existing rules. In the year since our last refresh, Claude has taken on longer, more independent work. This update provides new examples that show how our rules apply to Claude’s new capabilities."
   },
   "https://claude.dev/blog/building-effective-agent-automations": {
     "summary_status": "ready",
@@ -475,7 +504,8 @@
     "date_verified": true,
     "title_zh": "构建高效的代理自动化/claude.dev博客",
     "summary_zh": "随着人工智能加速我们的工作，跟上节奏变得愈发困难。在Anthropic，简单的自动化代理经常被用来提供帮助。它们通常按预定时间运行，在后台收集上下文信息，并主动告知我们需要了解的内容。但构建有效的代理自动化并不容易：它们可能会在无人察觉的情况下失去对某个数据源的访问权限，或者无法遵循我们的偏好设置。借助 Claude 托管代理（测试版），我们构建了一个参考实现，该实现可按计划读取自定义数据源（例如Slack和GitHub代码库），跟踪自上次运行以来发生的变化，并将您需要了解的信息发布出去（例如推送到Slack）。在本文中，我们将逐步介绍每个步骤，分享一个参考实现，并提供一条可在 Claude Code中运行的命令，以帮您配置代理。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "As AI accelerates our work, it's getting harder to keep up. At Anthropic, simple agent automations are frequently used to help. They often run on a schedule, gather context in the background, and proactively tell us what we need to know. But itâs difficult to build effective agent automations: they can lose access to a source without anyone noticing or fail to follow our preferences. Using Claude Managed Agents (beta), we built a reference implementation that reads custom sources (e.g., Slack and GitHub repos) on a schedule, tracks what changed since the last run, and posts what you need to know (e.g., to Slack). In this article, we walk through each step, share a reference implementation, and provide a command to run in Claude Code that configures the agent for you."
   },
   "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests": {
     "summary_status": "ready",
@@ -491,7 +521,8 @@
     "aliases": [],
     "title_zh": "Block如何在数千个拉取请求中协调 Claude Fable的开发",
     "summary_zh": "布拉德利·阿克森讲述了Anthropic的Claude Fable 5如何在Block公司范围内统筹实施代码迁移。Block公司人工智能能力负责人布拉德利·阿克森就其团队如何评估新型大型语言模型、Fable 5如何统筹全公司范围内的代码迁移，以及为何在大规模部署前沿智能时，安全保障机制至关重要等问题发表了看法。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Bradley Axen on how Anthropic's Claude Fable 5 orchestrates company-wide code migrations at Block. Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale."
   },
   "https://claude.com/resources/articles/dashboards-and-motion": {
     "summary_status": "ready",
@@ -507,7 +538,8 @@
     "aliases": [],
     "title_zh": "使用Claude构建实时仪表盘并制作动画解说视频",
     "summary_zh": "即日起，Claude 仪表板和 Claude 动作功能处于测试阶段。文档、幻灯片和设计功能已退出测试阶段，并且在所有Claude套餐中均可使用，包括免费版。Claude 仪表板和 Claude Motion现已进入测试阶段。文档、幻灯片和设计功能已退出测试阶段，并且在所有Claude套餐中均可使用，包括免费版。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Starting today, Claude Dashboards and Claude Motion are in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free. Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free."
   },
   "https://www.anthropic.com/news/cyber-verification-program": {
     "title": "Expanding the Cyber Verification Program",
@@ -523,7 +555,8 @@
     "sitemap_lastmod": "2026-10-14",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now consists of three access tiers, which allow security teams to apply for the level of access that best suits their work. Each tier includes access to our most capable models, including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and new models moving forward. Interested customers can apply here . Cybersecurity is inherently dual use: the same capabilities that enable a security team to find and fix a vulnerability can also help a malicious actor exploit it."
   },
   "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build": {
     "summary_status": "ready",
@@ -539,7 +572,8 @@
     "aliases": [],
     "title_zh": "我们正在扩展Claude初创企业计划，以帮助创业者打造",
     "summary_zh": "Claude团队计划一年期，API个积分，以及助力运营一家原生人工智能公司的工具特惠等更多权益。更新：2026年10月13日，我们目前的学员名额已满，暂不接受新的申请。请访问Claude初创企业页面，了解更多详情并查看常见问题解答。今天，我们正在扩展“Claude 创业者计划”，这是一项面向在 Claude 平台上创建企业的创始人的项目。会员权益包括一年的Claude团队版套餐、API个积分、助力运营AI原生企业的工具专属优惠，以及与Anthropic应用AI团队的线上答疑时间等。将一个想法转化为产品的可能性，从未如此之高。一个小团队可以在创纪录的时间内开发出原型，即使没有编程背景的人也能交付可用的软件。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "A year of the Claude Team plan, API credits, special offers on tools that help with running an AI-native company, and more. Update, October 13, 2026: Our current cohort is now full, and we’re not accepting new applications right now. Visit the Claude Startups page for more details and answers to common questions. Today we’re expanding Claude Startups, our program for founders building companies on Claude. Member benefits include a year of the Claude Team plan, API credits, special offers on tools that help with running an AI-native company, office hours with Anthropic’s Applied AI team, and more. It’s never been more possible to turn an idea into a product. A small team can build a prototype in record time, and people without a coding background can ship working software."
   },
   "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases": {
     "summary_status": "ready",
@@ -555,7 +589,8 @@
     "aliases": [],
     "title_zh": "康卡斯特和博思艾伦如何利用Claude Mythos发现漏洞利用链并保障其代码库的安全",
     "summary_zh": "康卡斯特和博思艾伦公司的安全团队通过“玻璃翼”项目，利用Claude款神话级模型，发现了并验证了现有扫描工具未能检测到的漏洞，并完成了修复。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed."
   },
   "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides": {
     "summary_status": "ready",
@@ -571,7 +606,8 @@
     "aliases": [],
     "title_zh": "Claude 现在支持Google文档、表格和幻灯片。",
     "summary_zh": "借助我们面向Google Workspace的全新 Claude 插件及连接器（处于测试阶段），您可以将 Claude 集成到您的Google文档中，或直接在 Claude 中处理您的文档。使用Google Workspace的团队现在可以通过我们的全新插件以及处于测试阶段的Google文档、表格和幻灯片连接器，将 Claude 嵌入其文件中，或直接在 Claude 中处理这些文件。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "With our new Claude for Google Workspace add-on and connectors (in beta), bring Claude into your Google files or work on your files directly from Claude. Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta)."
   },
   "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk": {
     "summary_status": "ready",
@@ -589,7 +625,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model."
   },
   "https://www.anthropic.com/news/claude-frontier-academy": {
     "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
@@ -605,7 +642,8 @@
     "sitemap_lastmod": "2026-10-13",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027. The first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk and others. Today we are launching Claude Frontier Academy to solve one of the most pressing issues in AI implementation: talent. Backed by a $100 million commitment, Anthropic aims to train 10,000 Frontier Deployed Engineers (FDEs) by the end of 2027."
   },
   "https://www.anthropic.com/research/claude-shaped-science": {
     "title": "Claude-shaped science",
@@ -621,7 +659,8 @@
     "sitemap_lastmod": "2026-10-08",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts. Summary: In this guest post, Prof. Matthew Schwartz returns to describe a new approach to AI-accelerated science. In Vibe Physics , Schwartz discussed similarities in capability between Claude and a physics graduate student. Here, he describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science."
   },
   "https://www.anthropic.com/news/barclays-scales-claude": {
     "title": "Barclays scales Claude to upgrade operations and improve client experience",
@@ -637,7 +676,8 @@
     "sitemap_lastmod": "2026-10-14",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations. Barclays is extending Claude across the bank to accelerate software development, modernize legacy systems, and improve operational efficiency. As part of this rollout, Barclays expects Claude Code adoption to reach 50% of its developer population by the end of 2026, rising to a majority of software engineers in 2027. Integrating AI across a large, complex, and highly regulated organization requires both capable technology and disciplined governance."
   },
   "https://claude.com/resources/articles/claude-code-mods": {
     "summary_status": "ready",
@@ -655,7 +695,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin. Today we're introducing mods, small TypeScript functions that change how Claude Code works. A mod can rewrite a prompt, add new UI, replace a built-in feature, or add entirely new functionality. You can write a mod yourself, or ask Claude Code to write one for you. Mods ship inside plugins, so you install and share them like any plugin. They work in the Claude Code CLI and desktop app. Mods run with the same access to your machine as Claude Code itself."
   },
   "https://www.anthropic.com/research/what-work-can-robots-do": {
     "title": "Can we predict the jobs robots will do?",
@@ -671,7 +712,8 @@
     "sitemap_lastmod": "2026-10-11",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "What work can robots do? Anthropic's robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%. Advances in large language models have raised the possibility of automating large swaths of work. But many jobs are physical. AI’s impact on the economy will in part depend on robotics.¹ Predicting the pace of robot advances is difficult, but enumerating capabilities today, we argue, can give insight into the coming years. We develop a measure of job exposure to robots, using Claude to assess how well present-day robots can perform work tasks. A job is more exposed when robots can do more of its tasks in less controlled environments. A robot is cost-competitive when it can do the same task for cheaper than a human worker."
   },
   "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents": {
     "summary_status": "ready",
@@ -689,7 +731,8 @@
     "fetch_status": "ok",
     "title_zh": "Anthropic的销售团队如何借助Claude的托管代理团队重建了潜在客户引流流程",
     "summary_zh": "如今，由Claude驱动的智能客服代理能够自动解答大多数潜在客户的咨询，这一变化也重塑了我们销售团队的工作方式。Anthropic的销售拓展负责人卡尔·约翰逊分享了这一转型如何改变我们的销售团队运作模式。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works."
   },
   "https://claude.com/resources/articles/claude-for-government-is-now-generally-available": {
     "summary_status": "ready",
@@ -707,7 +750,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Claude Code CLI and Claude for Microsoft 365 also now available in early access. Today, Claude for Government is generally available for federal and state agencies. The platform, which delivers Claude's coding and agentic work capabilities through a FedRAMP High authorized environment, has been in public beta since July . Agencies access capabilities comparable to Anthropic’s commercial customers, without compromising compliance requirements. New capabilities generally arrive on the commercial release cadence. Claude works directly with files on the desktop, allowing agency staff to use skills, plugins and projects for memo creation, RFP reviews, casework, and other tasks. With Claude Code , public sector teams can build and modernize the software systems that underpin public services."
   },
   "https://www.anthropic.com/research/your-thoughts-on-ai": {
     "title": "What do you want from AI?",
@@ -723,7 +767,8 @@
     "fetch_status": "ok",
     "title_zh": "你希望人工智能为你带来什么？",
     "summary_zh": "我们正在开展一项新研究，将使用Anthropic访谈员，以从您与人工智能的互动经验中汲取insights。我们正在开展一项新研究，将使用Anthropic访谈工具，以了解您与人工智能的互动体验，诚邀您参与。完成后，您可以选择将您的访谈公开，这样不仅Anthropic，任何人都可以阅读并从中学习。您可以在这里参与。我们正处于人工智能发展的关键节点，其日益增强的能力使其既可能变得更加有用，也可能变得更加危险。前沿人工智能正以前所未有的速度推动科学与医学领域的重大发现，与此同时，其被滥用的代价也愈发沉重——单次安全事件造成的损害已远超一年前。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI. We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can participate here . We are at a pivotal moment in the development of AI, as its growing capabilities mean it becomes potentially more useful and more dangerous. Frontier AI is rapidly accelerating discoveries in science and medicine , while at the same time the cost of its misuse grows more consequential — a single security incident can cause far more damage than it did a year ago."
   },
   "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities": {
     "title": "GLM-5.3 and the spread of advanced cyber capabilities",
@@ -739,7 +784,8 @@
     "sitemap_lastmod": "2026-10-13",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse. Andrew Fasano, Marius Fleischer Cole McFaul, Robert Xiao, Tripp Gallagher Five months ago, we announced Claude Mythos Preview, the first AI model that could autonomously build sophisticated, end-to-end cyber exploits. The rapid rate of improvement in AI suggested to us that this ability would eventually proliferate to many other models, making it much easier for malicious cyber actors to launch highly impactful cyberattacks."
   },
   "https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude": {
     "summary_status": "ready",
@@ -757,7 +803,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see. Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see."
   },
   "https://claude.dev/blog/automating-eval-design-and-hillclimbing": {
     "summary_status": "ready",
@@ -773,7 +820,8 @@
     "date_verified": true,
     "title_zh": "使用 Claude 自动化评估设计与爬山算法/claude.dev博客",
     "summary_zh": "设计评估并在此基础上进行爬山优化而不自欺欺人的原则，以及Claude API技能的build-eval和hillclimb命令如何将这些原则付诸实践。评估能够反映您的应用或技能在特定任务上的表现情况。然而，设计评估方案并在不自欺的情况下提升评估表现，实属不易。我们已将这两项指南添加至claude-api技能中。借助该功能，您可以在代码库中运行 /claude-api build-eval来构建评估，并通过 /claude-api hillclimb对您的应用进行迭代优化，每次只做一项改动，同时使用预留的示例集来防止过拟合。",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work. Evaluations provide a signal on how your app or skill is performing on specific tasks. But designing evaluations, and improving performance on them without fooling yourself, is hard. We've added guidance for both to the claude-api skill . With the skill, you can run /claude-api build-eval to build an evaluation inside your codebase, and run /claude-api hillclimb to improve your application against it, one change at a time, with a held-out set of examples to catch overfitting."
   },
   "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia": {
     "summary_status": "ready",
@@ -791,7 +839,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack of its Open Agent Safety Platform. Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents."
   },
   "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": {
     "title": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
@@ -807,7 +856,8 @@
     "sitemap_lastmod": "2026-10-08",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "In this guest post, physicist and science writer Matt von Hippel shares what happened when he issued a challenge to AI companies regarding a problem in his former subfield of theoretical physics. It’s not often that you issue a challenge, only to see it beaten a month later. But we’re living in unusual times. Let me introduce myself: I’m Matt von Hippel. I used to be a theoretical physicist; these days I’m a science writer. Throughout, I’ve been a blogger, writing weekly at 4gravitons.com about physics and the people who do it. More and more, blogging about physics has meant blogging about AI. That’s a problem, because I’m definitely not an AI expert. I’ve dabbled in it, sure. I probably know more than your grandma. But I mostly have to step back and trust the experts."
   },
   "https://claude.dev/blog/what-a-task-costs-on-opus-5-5": {
     "title": "What a task costs on Opus 5.5 / claude.dev Blog",
@@ -824,7 +874,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill. You don't set out to buy millions of tokens. You set out to build a feature, finish a migration, or run a task. The token count is whatever the model needed to get there. Two models with the same cost per token can cost very different amounts on the same task. One reads the code once. The other reads it, tries a fix, and reads it again. Each of those steps is a turn, and each turn resends the conversation so far. So the model that needs more turns costs more, even at the same price."
   },
   "https://claude.com/resources/articles/build-plugins-for-claude": {
     "summary_status": "ready",
@@ -842,7 +893,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's live You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live."
   },
   "https://www.anthropic.com/research/project-swap": {
     "title": "Project Swap: What happens when agents trade for us?",
@@ -858,7 +910,8 @@
     "sitemap_lastmod": "2026-10-11",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes. Life is full of deals and trades that would leave everyone better off, yet never happen. This is often simply because it takes too much work to find the right counterparty and negotiate until a deal is struck. Think of the patient who skips a treatment after one quote they can’t afford, when there’s a different clinic that charges far less, or the hospital that quoted them would have cut its bill if asked. Or think about your job. Somewhere there might be one that would suit you better, with an employer who would be glad to hire you. But you may not find each other, because neither of you has the time to be searching constantly."
   },
   "https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels": {
     "summary_status": "ready",
@@ -876,7 +929,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output."
   },
   "https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context": {
     "summary_status": "ready",
@@ -894,7 +948,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Our latest Opus model is priced and trained to optimize costs for how developers code now. We estimate Claude Opus 5.5 costs about 40% less to run than Opus 5 for typical workloads billed by token. For developers, exactly how those savings stack up matters. If you pay by the token, you will see the greatest cost difference for longer-running, higher context sessions–the exact type of Claude Code sessions that have become more prevalent in the last six months. This post will dive into the mechanics of what makes Opus 5.5 cost effective for how developers are coding today (and likely tomorrow). We've pulled aggregate data on how developers have been using Claude Code from March to September 2026."
   },
   "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system": {
     "title": "Claude discovers a novel enzyme system",
@@ -912,7 +967,8 @@
     "summary_zh": "在我们新的生命科学研究实验室的早期结果中，Claude 代理商发现了一种功能仍然未知的酶系统。我们将在 Anthropic 引入一个新的生命科学研究小组和实验室。我们的重点是使用 Claude: 探索DNA数据集以识别未表征的蛋白质家族，大规模生成假设，并通过实验室实验对其进行测试。这篇文章介绍了这项工作背后的团队，并分享了早期的结果，其中 Claude 发现了一种新的酶系统，其特性让人联想到CRISPR，只有我们科学家的高层指导。",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. We’re introducing a new life sciences research group and laboratory at Anthropic. Our focus is on fundamental biology research using Claude: exploring datasets of DNA to identify uncharacterized protein families, generating hypotheses at scale, and testing them through experiments in the lab. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists."
   },
   "https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects": {
     "summary_status": "ready",
@@ -930,7 +986,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "Agents can finish code modernizations in months, but change management still sets the pace. Six steps to define the target, certificate, and promotion policy. In our Notes from the Field series, Anthropic forward deployed engineers share best practices inspired by real customer deployments. In this article, we share our experience managing large code modernization projects. Code modernizations once scoped as multi-year, all-hands efforts can now finish in months (or weeks ), but the organizational work on either side often remains the same. For example, every change to a critical banking system must go through change management, review, and approval. It is a robust process because regulators, auditors, and the business require it."
   },
   "https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace": {
     "summary_status": "ready",
@@ -948,7 +1005,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools they run on. CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment."
   },
   "https://claude.com/resources/articles/claude-marketplace": {
     "summary_status": "ready",
@@ -966,7 +1024,8 @@
     ],
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
-    "summary_updated_at": "2026-10-21T16:09:13+08:00"
+    "summary_updated_at": "2026-10-21T16:09:13+08:00",
+    "summary_en": "The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you've built to reach teams using Claude. Find the tools and services to do more with Claude, or list what you've built to grow alongside Claude customers."
   },
   "https://www.anthropic.com/news/accenture-embedded-evaluation": {
     "title": "Partnering with Accenture on embedded evaluation",

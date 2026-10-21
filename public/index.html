@@ -10,30 +10,30 @@
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-<a class="skip-link" href="#js-main">跳到正文</a>
+<a class="skip-link" href="#js-main" data-i18n="skip">跳到正文</a>
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand-link" href="#latest" aria-label="Anthropic 资讯日报首页"><span class="brand-symbol" aria-hidden="true">a.</span><span class="brand-name">Anthropic <span>资讯日报</span></span></a>
-    <nav class="primary-nav" aria-label="主导航"><a href="#latest" data-view="latest" class="active">最新动态</a><a href="#archive" data-view="archive">文章归档</a><a href="#updates" data-view="updates">网站更新<span class="nav-dot" aria-hidden="true"></span></a></nav>
-    <a class="github-link" href="https://github.com/28H2O2/get-anthropic" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    <a class="brand-link" href="#latest" aria-label="Anthropic 资讯日报首页" data-i18n-aria="home"><span class="brand-symbol" aria-hidden="true">a.</span><span class="brand-name">Anthropic <span data-i18n="brand">资讯日报</span></span></a>
+    <nav class="primary-nav" aria-label="主导航" data-i18n-aria="navigation"><a href="#latest" data-view="latest" class="active" data-i18n="latest">最新动态</a><a href="#archive" data-view="archive" data-i18n="archive">文章归档</a><a href="#updates" data-view="updates"><span data-i18n="updatesNav">网站更新</span><span class="nav-dot" aria-hidden="true"></span></a></nav>
+    <div class="header-actions"><div class="language-switch" role="group" aria-label="语言 / Language"><button type="button" data-language="zh" lang="zh-CN" aria-label="切换到简体中文" aria-pressed="true">中文</button><button type="button" data-language="en" lang="en" aria-label="Switch to English" aria-pressed="false">EN</button></div><a class="github-link" href="https://github.com/28H2O2/get-anthropic" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
   </div>
 </header>
 <main class="main" id="js-main" tabindex="-1">
   <div class="page-heading"><div><p class="eyebrow">ANTHROPIC DAILY</p><h1 id="js-page-title" tabindex="-1">最新动态</h1></div><div id="js-health"></div></div>
   <div class="reading-layout">
-    <aside id="js-sidebar" class="sidebar" aria-label="按来源筛选">
-      <p class="sidebar-label">浏览来源 <span>08</span></p>
+    <aside id="js-sidebar" class="sidebar" aria-label="按来源筛选" data-i18n-aria="filterSources">
+      <p class="sidebar-label"><span data-i18n="browseSources">浏览来源</span> <span>08</span></p>
       <div id="js-sources" class="source-list"></div>
-      <a class="sidebar-update" href="#updates">网站更新记录 <span aria-hidden="true">↗</span></a>
+      <a class="sidebar-update" href="#updates"><span data-i18n="updates">网站更新记录</span> <span aria-hidden="true">↗</span></a>
     </aside>
     <div class="content-column">
-      <div class="toolbar" id="js-toolbar" hidden><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" id="js-search" placeholder="搜索标题或内容…" aria-label="搜索标题或内容" autocomplete="off"></div><span id="js-result-count" role="status" aria-live="polite"></span></div>
-      <div id="js-results"><div class="loading-state">正在载入文章…</div></div>
+      <div class="toolbar" id="js-toolbar" hidden><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" id="js-search" placeholder="搜索标题或内容…" aria-label="搜索标题或内容" data-i18n-placeholder="searchPlaceholder" data-i18n-aria="search" autocomplete="off"></div><span id="js-result-count" role="status" aria-live="polite"></span></div>
+      <div id="js-results"><div class="loading-state" data-i18n="loadingArticles">正在载入文章…</div></div>
     </div>
   </div>
 </main>
-<footer class="site-footer"><div class="footer-links"><span>Anthropic 资讯日报</span><a href="#updates">网站更新记录 ↗</a></div><span class="made-by">made by <span class="signature-h2o2">H2O2</span></span></footer>
-<button class="fab-top" id="js-fab" aria-label="回到顶部" hidden>↑</button>
+<footer class="site-footer"><div class="footer-links"><span data-i18n="siteName">Anthropic 资讯日报</span><a href="#updates"><span data-i18n="updates">网站更新记录</span> ↗</a></div><span class="made-by">made by <span class="signature-h2o2">H2O2</span></span></footer>
+<button class="fab-top" id="js-fab" aria-label="回到顶部" data-i18n-aria="backTop" hidden>↑</button>
 <script src="./assets/app.js" defer></script>
 <script defer src="/_vercel/insights/script.js"></script>
 </body>

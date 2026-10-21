@@ -102,6 +102,22 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(merged['summary_zh'])
         self.assertEqual(main.article_source('https://www.anthropic.com/news/distillation-defenses', 'anthropic_news', 'anthropic_research'), 'anthropic_news')
 
+    def test_english_excerpt_is_cached_without_retranslating_chinese(self):
+        url = 'https://www.anthropic.com/news/new'
+        text = 'A complete original sentence about the research. ' * 30
+        index = {url: {'source': 'anthropic_news', 'date': '2026-10-20', 'date_verified': True,
+                       'fetch_status': 'ok', 'summary_zh': '这是已经生成的有效中文摘录。', 'summary_status': 'ready'}}
+        self.assertTrue(main.needs_metadata(index[url], '2026-09-21', '2026-10-21'))
+        article = {'url': url, 'title': 'Research', 'date': '2026-10-20', 'date_precision': 'day', 'content': text}
+        with patch.object(main, 'fetch_article', return_value=article):
+            main.update_metadata(index, [url], '2026-10-21T08:00:00+08:00')
+        self.assertEqual(index[url]['summary_en'], translator.excerpt(text))
+        self.assertEqual(index[url]['summary_zh'], '这是已经生成的有效中文摘录。')
+        self.assertFalse(main.needs_metadata(index[url], '2026-09-21', '2026-10-21'))
+        self.assertFalse(main.should_translate(index[url], '2026-09-21', '2026-10-21'))
+        merged = main.merge_records(index[url], {'summary_en': '', 'source': 'anthropic_news'})
+        self.assertEqual(merged['summary_en'], translator.excerpt(text))
+
     def test_latest_valid_legacy_migration_and_idempotency(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -135,6 +151,23 @@ class PipelineTests(unittest.TestCase):
                 data = build_data.build()
             self.assertEqual(data['health']['summary_coverage']['failed'], 1)
             self.assertEqual(data['digests'][0]['articles'][0]['summary_status'], 'failed')
+
+    def test_build_keeps_original_excerpt_when_chinese_translation_failed(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            today = build_data.datetime.now(build_data.ZoneInfo('Asia/Taipei')).date().isoformat()
+            text = 'This original English sentence remains available when translation fails.'
+            record = {'source': 'anthropic_news', 'title': 'Original title', 'date': today,
+                      'date_verified': True, 'date_precision': 'day', 'summary_status': 'failed', 'summary_en': text}
+            path = root / 'article_index.json'
+            path.write_text(json.dumps({'https://www.anthropic.com/news/new': record}))
+            (root / 'fetch_status.json').write_text(json.dumps({'sources': {'anthropic_news': {'status': 'ok', 'discovered': 1}}, 'status': 'degraded'}))
+            with patch.object(build_data, 'BASE_DIR', root), patch.object(build_data, 'INDEX_FILE', path), patch.object(build_data, 'PUBLIC_DIR', root / 'public'):
+                data = build_data.build()
+            article = data['digests'][0]['articles'][0]
+            self.assertEqual(article['summary_en'], text)
+            self.assertEqual(article['summary_zh'], '')
+            self.assertEqual(article['summary_status'], 'failed')
 
     def test_translation_failure_is_persisted_and_retried(self):
         with tempfile.TemporaryDirectory() as directory:

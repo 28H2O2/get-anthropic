@@ -27,6 +27,7 @@ python3 main.py --check-health   # 部分翻译失败时返回非零
 - 首次迁移从历史日报导入最新有效摘录，之后以文章记录为准。`output/YYYY-MM-DD/digest.md` 是当日成功摘录的派生文档，不再反向覆盖新结果。
 - `fetch_status.json` 记录来源发现数和最近成功时间；`public/data.json` 输出文章状态、覆盖率和来源健康度。密钥始终只通过环境变量注入。
 - 阿里云模式翻译清理后的原文导语或摘要，正文最多约800英文字符并保留完整句子，标题单独翻译。它是中文摘录，并非生成式全文摘要。
+- `summary_en` 保存官网正文中约800英文字符以内的完整句子，作为英文原文摘录；它与中文翻译状态独立，中文翻译失败时仍可阅读英文。近期旧文章缺少此字段时，下次运行会补取原文，不重复翻译有效中文摘录。
 
 ## 自动运行与部署
 
@@ -42,6 +43,8 @@ GitHub Actions 每日 UTC 23:30（UTC+8 次日07:30，实际启动可能延迟�
 
 `public/index.html` 是静态页面入口，样式与交互分别位于 `public/assets/style.css`、`public/assets/app.js`。`#latest` 展示近期中文摘录，`#archive` 提供按来源及关键词筛选的原文归档，`#updates` 展示网站自身的更新记录。来源筛选与搜索在切换阅读视图时保留。
 
-网站功能或体验变更记录在 `public/changelog.json`，按时间倒序排列，每条包含 `date`、`type`、`title` 与 `changes`，历史条目可保留 `description`。每日自动抓取不向此文件追加日志；文章刷新与网站版本更新分别展示。记录中的覆盖率属于对应修复时的快照，首页状态面板读取当前 `data.json`。
+页眉提供中文 / EN 切换，默认中文并记住选择；`?lang=en` 或 `?lang=zh` 可直接分享对应语言，优先于保存的偏好。英文模式显示英文原标题与原文摘录，导航、日期、来源说明、状态及更新记录同时切换，保留当前视图、来源和搜索词。
+
+网站功能或体验变更记录在 `public/changelog.json`，按时间倒序排列，每条包含 `date`、`type`、`title` 与 `changes`，并通过 `type_en`、`title_en`、`changes_en` 提供英文；历史条目可保留 `description`。每日自动抓取不向此文件追加日志；文章刷新与网站版本更新分别展示。记录中的覆盖率属于对应修复时的快照，首页状态面板读取当前 `data.json`。
 
 页脚 H2O2 署名沿用参考站的 Macintosh Skeletal Filled 字体。`public/assets/h2o2-mark.woff2` 仅包含署名所需字符，其他文字使用系统字体。

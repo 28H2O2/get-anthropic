@@ -128,7 +128,7 @@ def build():
         article_status = "ready" if ready else meta.get("summary_status", "pending")
         if article_status not in {"ready", "pending", "failed"}:
             raise ValueError("invalid article status")
-        article = {"url": normalize_url(url), "title_en": meta.get("title") or url.rsplit("/", 1)[-1], "title_zh": meta.get("title_zh", ""), "summary_zh": summary if ready else "", "summary_status": article_status, "source": SOURCE_LABELS[source], "source_key": source, "date": published, "date_precision": meta.get("date_precision", "unknown")}
+        article = {"url": normalize_url(url), "title_en": meta.get("title") or url.rsplit("/", 1)[-1], "title_zh": meta.get("title_zh", ""), "summary_zh": summary if ready else "", "summary_en": meta.get("summary_en", ""), "summary_status": article_status, "source": SOURCE_LABELS[source], "source_key": source, "date": published, "date_precision": meta.get("date_precision", "unknown")}
         days.setdefault(published, []).append(article)
     digests = [{"date": d, "articles": sorted(articles, key=lambda a: (a["source_key"], a["url"]))} for d, articles in sorted(days.items(), reverse=True)]
     for items in archives.values():

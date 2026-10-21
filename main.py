@@ -9,7 +9,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from fetchers.common import SOURCE_URLS, discover, fetch_article, is_article, normalize_url
-from translator import translate, valid_translation
+from translator import excerpt, translate, valid_translation
 
 BASE_DIR = Path(__file__).resolve().parent
 INDEX_FILE = BASE_DIR / "article_index.json"
@@ -88,7 +88,7 @@ def migrate(index, output_dir):
 def merge_records(existing, incoming):
     """Canonical duplicates keep a valid cached excerpt and verified publication date."""
     result = {**existing, **incoming}
-    for name in ("summary_zh", "title_zh", "summary_updated_at"):
+    for name in ("summary_zh", "summary_en", "title_zh", "summary_updated_at"):
         if not incoming.get(name) and existing.get(name):
             result[name] = existing[name]
     if existing.get("date_verified") and not incoming.get("date_verified"):
@@ -109,6 +109,8 @@ def recent(meta, since, today):
 
 
 def needs_metadata(meta, since, today, repair=False):
+    if not meta.get("summary_en") and (recent(meta, since, today) or (not meta.get("date") and meta.get("first_seen_at", "") >= since)):
+        return True
     if recent(meta, since, today) and (repair or not meta.get("date_verified")):
         return True
     if not meta.get("metadata_checked_at") and meta.get("first_seen_at", "") >= since:
@@ -165,6 +167,11 @@ def update_metadata(index, candidates, stamp):
                 meta.update(excluded=True, fetch_status="not_article")
                 continue
             meta.update(details, date_verified=True, fetch_status="ok")
+            try:
+                meta["summary_en"] = excerpt(content)
+            except ValueError:
+                # Keep a valid cached excerpt if the current body has no usable sentence.
+                pass
             meta["source"] = article_source(canonical, meta["source"])
             if valid_translation(meta.get("summary_zh", "")):
                 meta.update(summary_status="ready", processed=True)
