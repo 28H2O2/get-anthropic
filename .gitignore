@@ -24,6 +24,8 @@ logs/
 # 编辑器
 .vscode/
 .idea/
+.playwright-cli/
+output/playwright/
 
 # 本地测试配置
 config_test.json

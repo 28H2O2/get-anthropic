@@ -1,5 +1,7 @@
 # Code Review — get_anthropic
 
+> 本文是2026-04-13的历史检查记录，不代表当前实现；现行运行和验收规则见 [README](../README.md)。
+
 **日期**：2026-04-13  
 **范围**：全仓库 Python 源码（~1700 行）+ GitHub Actions + 前端 HTML
 

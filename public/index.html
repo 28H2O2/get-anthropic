@@ -258,10 +258,7 @@
       color: var(--text-2);
       line-height: 1.7;
       flex: 1;
-      display: -webkit-box;
-      -webkit-line-clamp: 5;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+      overflow-wrap: anywhere;
     }
 
     .card-summary.is-empty {
@@ -603,6 +600,10 @@
       letter-spacing: 0.02em;
     }
 
+    .feed-health { padding: 1rem 0 1.5rem; font-size: .82rem; color: #625d57; line-height: 1.7; overflow-wrap: anywhere; }
+    .feed-health p { margin: .25rem 0; }
+    .feed-health summary { cursor: pointer; }
+    .feed-health ul { padding-left: 1.3rem; }
     /* ── loading / error ── */
     .state-msg {
       text-align: center;
@@ -699,8 +700,8 @@
     anthropic_research:   'https://www.anthropic.com/research',
     cookbook:             'https://platform.claude.com/cookbook',
     transformer_circuits: 'https://transformer-circuits.pub',
-    red_team:             'https://red.anthropic.com',
-    claude_blog:          'https://claude.com/blog',
+    red_team:             'https://www.anthropic.com/research/team/frontier-red-team',
+    claude_blog:          'https://claude.com/resources/articles',
     alignment:            'https://alignment.anthropic.com',
     engineering:          'https://www.anthropic.com/engineering',
   };
@@ -726,6 +727,7 @@
 
   function fmtDate(s) {
     // "2026-04-09" → { year:"2026年", day:"04月09日" }
+    if (!s) return { year: '日期待确认', day: '发布日未提供' };
     const p = s.split('-');
     return { year: p[0] + '年', day: (p[1] || '') + '月' + (p[2] || '') + '日' };
   }
@@ -743,7 +745,7 @@
     </div>
     <span class="source-tag tag-${esc(sk)}">${esc(a.source)}</span>
   </div>
-  <div class="card-summary${hasSummary ? '' : ' is-empty'}">${hasSummary ? esc(a.summary_zh.replace(/^【机器翻译摘要】\n?/, '')) : '暂无摘要'}</div>
+  <div class="card-summary${hasSummary ? '' : ' is-empty'}">${hasSummary ? esc(a.summary_zh.replace(/^【机器翻译摘要】\n?/, '')) : (a.summary_status === 'failed' ? '中文摘录暂时生成失败，将自动重试' : '中文摘录待生成')}</div>
   <div class="card-footer">
     <a class="read-link" href="${esc(a.url)}" target="_blank" rel="noopener noreferrer">阅读原文 →</a>
   </div>
@@ -836,13 +838,21 @@
 
       metaEl.innerHTML = `<strong>最新 ${esc(String(data.lookback_days || 14))} 天内容</strong>&nbsp;&nbsp;更新于 ${esc(data.generated_at || '')}`;
 
+      const coverage = data.health?.summary_coverage;
+      const healthHtml = coverage ? `<section class="feed-health" aria-label="内容更新状态"><p>中文摘录 ${esc(coverage.ready)} / ${esc(coverage.total)} 篇 · 覆盖率 ${Math.round(coverage.ratio * 100)}% · 待生成 ${esc(coverage.pending)} · 暂时失败 ${esc(coverage.failed)}</p><p>最近成功抓取：${esc(data.health.last_success_at || '待确认')}</p><details><summary>各来源运行状态</summary><ul>${Object.entries(data.health.sources || {}).map(([key, info]) => `<li>${esc(SOURCE_TITLE[key] || key)} · ${info.status === 'ok' ? '正常' : '异常'} · 发现 ${esc(info.discovered)} 篇 · 最近成功 ${esc(info.last_success_at || '待确认')}</li>`).join('')}</ul></details><p>中文摘录由原文导语或摘要经机器翻译生成。</p></section>` : '';
+      const sourceFilter = `<label class="feed-health" for="js-source-filter">按来源查看 <select id="js-source-filter"><option value="">所有来源</option>${Object.entries(SOURCE_TITLE).filter(([key]) => key !== 'references').map(([key, name]) => `<option value="${esc(key)}">${esc(name)}</option>`).join('')}</select></label>`;
       main.innerHTML =
-        digestsHtml(data.digests) +
+        healthHtml + sourceFilter + `<div id="js-feed">${digestsHtml(data.digests)}</div>` +
         `<div class="archive-section" id="archive">
            <h2 class="archive-heading">全部引用链接</h2>
            <div class="archive-grid">${archiveHtml(data.all_urls || {}, data.archive_order)}</div>
            ${staticRefsHtml(data.static_refs || [])}
          </div>`;
+      document.getElementById('js-source-filter').addEventListener('change', (event) => {
+        const selected = event.target.value;
+        const days = (data.digests || []).map(day => ({ ...day, articles: day.articles.filter(a => !selected || a.source_key === selected) })).filter(day => day.articles.length);
+        document.getElementById('js-feed').innerHTML = digestsHtml(days);
+      });
 
     } catch (err) {
       main.innerHTML = `<div class="state-msg is-error">数据加载失败：${esc(err.message)}<br><small>请确认 data.json 存在且格式正确</small></div>`;

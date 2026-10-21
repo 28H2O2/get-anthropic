@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-10-21T16:11:10+08:00",
+  "sources": {
+    "anthropic_news": {
+      "status": "ok",
+      "discovered": 267,
+      "last_success_at": "2026-10-21T16:11:10+08:00",
+      "url": "https://www.anthropic.com/sitemap.xml"
+    },
+    "anthropic_research": {
+      "status": "ok",
+      "discovered": 201,
+      "last_success_at": "2026-10-21T16:11:10+08:00",
+      "url": "https://www.anthropic.com/sitemap.xml"
+    },
+    "cookbook": {
+      "status": "ok",
+      "discovered": 99,
+      "last_success_at": "2026-10-21T16:11:10+08:00",
+      "url": "https://platform.claude.com/cookbook"
+    },
+    "transformer_circuits": {
+      "status": "ok",
+      "discovered": 52,
+      "last_success_at": "2026-10-21T16:11:10+08:00",
+      "url": "https://transformer-circuits.pub/"
+    },
+    "red_team": {
+      "status": "ok",
+      "discovered": 25,
+      "last_success_at": "2026-10-21T16:11:10+08:00",
+      "url": "https://www.anthropic.com/research/team/frontier-red-team"
+    },
+    "claude_blog": {
+      "status": "ok",
+      "discovered": 264,
+      "last_success_at": "2026-10-21T16:11:10+08:00",
+      "url": "https://claude.com/resources/articles"
+    },
+    "alignment": {
+      "status": "ok",
+      "discovered": 54,
+      "last_success_at": "2026-10-21T16:11:10+08:00",
+      "url": "https://alignment.anthropic.com/"
+    },
+    "engineering": {
+      "status": "ok",
+      "discovered": 24,
+      "last_success_at": "2026-10-21T16:11:10+08:00",
+      "url": "https://www.anthropic.com/engineering"
+    }
+  },
+  "translated": 0,
+  "failed": 0,
+  "status": "ok",
+  "last_success_at": "2026-10-21T16:11:10+08:00"
+}
