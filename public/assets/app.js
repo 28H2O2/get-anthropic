@@ -160,7 +160,7 @@
       <div class="health-body"><div class="health-overview"><strong>${esc(c.ready ?? 0)}<small> / ${esc(c.total ?? 0)} 篇</small></strong><span>已有中文摘录</span><span class="coverage">${Math.round((c.ratio || 0) * 100)}%</span></div>
       <p class="health-note">待生成 ${esc(c.pending ?? 0)} 篇 · 暂时失败 ${esc(c.failed ?? 0)} 篇</p>
       <ul>${Object.entries(h.sources || {}).map(([key, info]) => `<li><span>${esc(SOURCE_TITLE[key] || key)}</span><span class="source-status ${info.status === 'ok' ? '' : 'warn-text'}">${info.status === 'ok' ? '正常' : '待恢复'}</span></li>`).join('')}</ul>
-      <p class="health-note">最近成功更新：${esc((h.last_success_at || '').slice(0, 4))}年${humanTime(h.last_success_at)} · UTC+8</p><p class="health-note">中文摘录由原文导语或摘要经机器翻译生成。</p></div></details>`;
+      <p class="health-note">最近成功更新：${esc((h.last_success_at || '').slice(0, 4))}年${humanTime(h.last_success_at)} · UTC+8</p><p class="health-note">摘录：机器翻译</p></div></details>`;
   }
 
   function renderFeed() {
@@ -180,7 +180,7 @@
       changesPromise ||= fetch('./changelog.json').then(r => { if (!r.ok) throw new Error('load'); return r.json(); }).catch(e => { changesPromise = null; throw e; });
       const entries = await changesPromise;
       if (state.view !== 'updates') return;
-      result.innerHTML = `<div class="release-list">${entries.map((entry, i) => `<article class="release"><div class="release-meta"><time datetime="${esc(entry.date)}">${esc(entry.date.replaceAll('-', '.'))}</time><span class="release-type">${esc(entry.type)}</span>${i === 0 ? '<span class="release-latest">最新</span>' : ''}</div><h2>${esc(entry.title)}</h2><p class="release-intro">${esc(entry.description)}</p><ul>${entry.changes.map(change => `<li>${esc(change)}</li>`).join('')}</ul></article>`).join('')}</div><p class="release-footnote">这里记录网站功能与体验的变化。文章内容每天自动更新，可在「最新动态」中查看。</p>`;
+      result.innerHTML = `<div class="release-list">${entries.map((entry, i) => `<article class="release"><div class="release-meta"><time datetime="${esc(entry.date)}">${esc(entry.date.replaceAll('-', '.'))}</time><span class="release-type">${esc(entry.type)}</span>${i === 0 ? '<span class="release-latest">最新</span>' : ''}</div><h2>${esc(entry.title)}</h2><ul>${entry.changes.map(change => `<li>${esc(change)}</li>`).join('')}</ul></article>`).join('')}</div>`;
     } catch {
       if (state.view === 'updates') result.innerHTML = '<div class="empty-state"><h3>更新记录暂时无法载入</h3><button class="text-button" data-retry-changes>重新加载</button></div>';
     }
@@ -194,9 +194,7 @@
     document.getElementById('js-toolbar').hidden = updates;
     main.classList.toggle('updates-view', updates);
     const titles = { latest: '最新动态', archive: '文章归档', updates: '网站更新记录' };
-    const descriptions = { latest: `汇集近 ${feedData.lookback_days || 30} 天的研究、产品与工程进展。`, archive: '按来源收录历年文章，回到原文继续探索。', updates: '每一次调整，都在这里留下记录。' };
     document.getElementById('js-page-title').textContent = titles[state.view];
-    document.getElementById('js-page-desc').textContent = descriptions[state.view];
     document.title = `${titles[state.view]} · Anthropic 资讯日报`;
     if (updates) renderChanges(); else renderFeed();
   }
@@ -210,7 +208,6 @@
       document.getElementById('js-toolbar').hidden = false;
       route();
     } catch (err) {
-      document.getElementById('js-page-desc').textContent = '内容暂时无法载入，请稍后重试。';
       result.innerHTML = '<div class="empty-state"><h2>连接暂时中断</h2><p>文章仍保存在网站上，重新加载即可再次尝试。</p><button class="text-button" data-reload>重新加载</button></div>';
       console.error(err);
     }

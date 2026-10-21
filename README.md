@@ -42,4 +42,6 @@ GitHub Actions 每日 UTC 23:30（UTC+8 次日07:30，实际启动可能延迟�
 
 `public/index.html` 是静态页面入口，样式与交互分别位于 `public/assets/style.css`、`public/assets/app.js`。`#latest` 展示近期中文摘录，`#archive` 提供按来源及关键词筛选的原文归档，`#updates` 展示网站自身的更新记录。来源筛选与搜索在切换阅读视图时保留。
 
-网站功能或体验变更记录在 `public/changelog.json`，按时间倒序排列，每条包含 `date`、`type`、`title`、`description` 与 `changes`。每日自动抓取不向此文件追加日志；文章刷新与网站版本更新分别展示。记录中的覆盖率属于对应修复时的快照，首页状态面板读取当前 `data.json`。
+网站功能或体验变更记录在 `public/changelog.json`，按时间倒序排列，每条包含 `date`、`type`、`title` 与 `changes`，历史条目可保留 `description`。每日自动抓取不向此文件追加日志；文章刷新与网站版本更新分别展示。记录中的覆盖率属于对应修复时的快照，首页状态面板读取当前 `data.json`。
+
+页脚 H2O2 署名沿用参考站的 Macintosh Skeletal Filled 字体。`public/assets/h2o2-mark.woff2` 仅包含署名所需字符，其他文字使用系统字体。
