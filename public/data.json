@@ -1,8 +1,61 @@
 {
-  "generated_at": "2026-10-21",
-  "generated_at_iso": "2026-10-21T16:59:41+08:00",
+  "generated_at": "2026-10-22",
+  "generated_at_iso": "2026-10-22T09:42:51+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-21",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "title_en": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+          "title_zh": "物理学家Christopher Stubbs加入 Anthropic 的长期福利信托",
+          "summary_zh": "实验物理学家、哈佛大学前科学系主任Christopher Stubbs博士加入了 Anthropic 的长期福利信托基金。他为我们带来了数十年来在观测宇宙学和精密测量方面的科学专业知识。他还就国家安全和军备控制问题向美国政府提供咨询。“我很荣幸加入 Anthropic 的长期福利信托，并帮助公司实现其公益使命，” Stubbs说。“我每天都在研究中使用人工智能工具，看看它们能带来什么，作为一名教育工作者，我遇到了他们提出的一些难题。作为一名祖父，我想帮助确保人工智能的开发和部署是为了人类的长期利益。“。斯塔布斯是塞缪尔·C。",
+          "summary_en": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control. “I am honored to join Anthropic’s Long-Term Benefit Trust and to help the company deliver on its public benefit mission,” said Stubbs. “I use AI tools in my research every day and see what they make possible, and as an educator I have confronted some of the hard questions they raise. As a grandfather, I want to help ensure that AI is developed and deployed for the long-term benefit of humanity.” Stubbs is the Samuel C.",
+          "summary_status": "ready",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-21",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "title_en": "Introducing Claude Duet",
+          "title_zh": "介绍 Claude 二重奏",
+          "summary_zh": "Claude Duet是一个新的应用程序，Claude 可以作为一个主动代理。waitlist今天为美国的Pro和Max订户打开了研究预览。今天，我们将打开 Claude Duet的研究预览，这是一个新的应用程序，Claude 可以作为主动代理。它会给你带来需要你注意的东西，完成你要求它的任务，即使你离开也要继续工作，并在它代表你行动之前与你核对。我们为专业人士和小企业主制作了 Claude Duet，他们的盘子超出了他们的追踪范围。它可以在iOS和Android以及claude.ai上作为独立应用程序使用。对于此研究预览，Claude Duet包含在Pro和Max计划中，并且使用与 Claude 的其余部分相同的使用限制。要获得访问权限，请加入等待列表 (在新选项卡中打开)。",
+          "summary_en": "Claude Duet is a new app where Claude works as a proactive agent. The research preview opens by waitlist today for Pro and Max subscribers in the US. Today, we’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent. It comes to you with what needs your attention, completes tasks you ask of it, keeps working even when you step away, and checks with you before it acts on your behalf. We built Claude Duet for professionals and small business owners with more on their plates than they can track. It’s available as a standalone app on iOS and Android, and on claude.ai. For this research preview, Claude Duet is included in Pro and Max plans and uses the same usage limits as the rest of Claude. To get access, join the waitlist (opens in new tab) .",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-21",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+          "title_en": "Claude Security now scans continuously and tracks fixes",
+          "title_zh": "Claude Security现在可以连续扫描并跟踪修复情况",
+          "summary_zh": "Claude Security now会在代码更改时监视您的存储库，跟踪结果直至修复，从您的团队添加的上下文中学习，并通过 API 和MCP连接到您的工具。适用于 Claude 企业客户的公共测试版。Claude 安全性现在可以在代码更改时与您的存储库保持同步，跟踪结果直至修复，从您的团队添加的上下文中学习，并通过 API 和MCP连接到您的工具。适用于 Claude 企业客户的公共测试版。",
+          "summary_en": "Claude Security now watches your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers. Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-21",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
+          "title_en": "HCLTech becomes a Global Premier Partner for Claude",
+          "title_zh": "HCLTech成为 Claude 全球卓越合作伙伴",
+          "summary_zh": "HCLTech正在与 Anthropic 合作，将 Claude 和 Claude 代码引入它为银行、医院、电信和制造商运行的it系统中。和制造商。",
+          "summary_en": "HCLTech is partnering with Anthropic to bring Claude and Claude Code into the IT systems it runs for banks, hospitals, telecoms, and manufacturers HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-21",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-10-20",
       "articles": [
@@ -814,6 +867,13 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+        "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-21",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/news/public-benefit-fund",
         "title": "Investing in the public benefit",
@@ -5263,6 +5323,27 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
+        "title": "HCLTech becomes a Global Premier Partner for Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-21",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+        "title": "Claude Security now scans continuously and tracks fixes",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-21",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/claude-duet",
+        "title": "Introducing Claude Duet",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-21",
+        "date_precision": "day"
+      },
+      {
         "url": "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",
         "title": "How an Anthropic Japan BDR runs his day with a fleet of Claude agents",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -8984,60 +9065,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-21T16:16:20+08:00",
+    "last_success_at": "2026-10-22T09:42:39+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
-        "discovered": 267,
-        "last_success_at": "2026-10-21T16:16:20+08:00",
+        "discovered": 268,
+        "last_success_at": "2026-10-22T09:42:39+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 201,
-        "last_success_at": "2026-10-21T16:16:20+08:00",
+        "last_success_at": "2026-10-22T09:42:39+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-21T16:16:20+08:00",
+        "last_success_at": "2026-10-22T09:42:39+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 52,
-        "last_success_at": "2026-10-21T16:16:20+08:00",
+        "last_success_at": "2026-10-22T09:42:39+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-21T16:16:20+08:00",
+        "last_success_at": "2026-10-22T09:42:39+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 264,
-        "last_success_at": "2026-10-21T16:16:20+08:00",
+        "discovered": 266,
+        "last_success_at": "2026-10-22T09:42:39+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 54,
-        "last_success_at": "2026-10-21T16:16:20+08:00",
+        "last_success_at": "2026-10-22T09:42:39+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-21T16:16:20+08:00",
+        "last_success_at": "2026-10-22T09:42:39+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 59,
-      "ready": 59,
+      "total": 63,
+      "ready": 63,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
