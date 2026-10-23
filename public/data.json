@@ -1,8 +1,85 @@
 {
-  "generated_at": "2026-10-22",
-  "generated_at_iso": "2026-10-22T09:42:51+08:00",
+  "generated_at": "2026-10-23",
+  "generated_at_iso": "2026-10-23T09:46:52+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-22",
+      "articles": [
+        {
+          "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode",
+          "title_en": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
+          "title_zh": "Red-Teaming自动模式: 针对恶意编码代理改进阻止分类器",
+          "summary_zh": "We red-team production blocking monitor (Claude 代码中的自动模式，OpenAI 法典中的Guardian)，在实验环境中使用对抗剂，目的是提高编码剂的安全性。我们最有效的攻击策略使用针对监视器的代理生成的提示注入，多代理攻击或恶意压缩来绕过监视器。我们尝试通过提高工具覆盖率，成绩单格式和使用代理监控阶段来提高自动模式的鲁棒性。我们发现，以可接受的成本稳健地防止多上下文攻击仍然是一个开放的问题。编码代理现在可以在很少或没有人工参与的情况下运行数天，端到端地完成软件任务 (Kwa等人，2025)。",
+          "summary_en": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem. Coding agents can now run for days with little or no human involvement, completing software tasks end to end ( Kwa et al., 2025 ).",
+          "summary_status": "ready",
+          "source": "Alignment Science",
+          "source_key": "alignment",
+          "date": "2026-10-22",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "title_en": "Donating Agent Skills to the Agentic AI Foundation",
+          "title_zh": "向Agentic AI基金会捐赠代理技能",
+          "summary_zh": "我们正在向Agentic AI基金会捐赠代理技能，这是为AI代理提供专业知识和工作流程的开放标准。自2025年12月发布标准以来，包括 ChatGPT, Cursor，GitHub Copilot和VS Code在内的70多个代理平台已经集成了代理技能。今天，我们向Agentic AI基金会 (AAIF) 捐赠Agent Skills，这是一个为AI代理提供专业知识和工作流程的开放标准。自2025年12月发布标准以来，包括 ChatGPT, Cursor，GitHub Copilot和VS Code在内的70多个代理平台已经集成了代理技能。技能是一个包含skill.md文件的文件夹，该文件向代理教授特定的任务或域，以及它需要的任何脚本或参考资料。",
+          "summary_en": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025. Today, we’re donating Agent Skills , the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF). More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025. A skill is a folder containing a SKILL.md file that teaches an agent a specific task or domain, along with any scripts or reference material it needs.",
+          "summary_status": "ready",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-22",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+          "title_en": "Open call for guest investigators in the life sciences",
+          "title_zh": "生命科学领域客座调查员的公开电话",
+          "summary_zh": "今天，我们邀请生命科学界的成员申请与我们合作开展特殊项目。我们正在寻找学术机构，非营利组织或政府实验室的主要研究人员及其研究小组的建议，他们希望使用 Claude 调查因果人类生物学，结构和计算分子生物学，药物化学，药物发现和临床科学中的关键问题。在8-12周的时间里，客座调查员将直接与 Anthropic 研究人员就感兴趣的问题进行合作，并产生对他们的工作最有帮助的分析、工件和工具。我们的团队将免费运行我们的模型和线束。我们将共同努力发布这些输出，并开源附带的数据和代码。",
+          "summary_en": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects. We’re looking for proposals from principal investigators and their research groups at academic institutions, nonprofits, or government labs who want to use Claude to investigate key questions in causal human biology, structural and computational molecular biology, medicinal chemistry, drug discovery, and clinical science. Over 8–12 weeks, guest investigators will work directly with Anthropic researchers on a problem of interest and produce the analyses, artifacts, and tools that will be most helpful for them in their work. Our team will run our models and harnesses at no cost to them. We’ll work together to publish these outputs and open-source the accompanying data and code.",
+          "summary_status": "ready",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-22",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+          "title_en": "Building agents: When to fold subagents into your main agent loop",
+          "title_zh": "构建代理: 何时将子代理折叠到主代理循环中",
+          "summary_zh": "何时考虑使用更少的子代理以及如何将迁移到主循环中。在 Claude 平台中构建代理时，使用较少的子代理来支持逐步公开的上下文和工具可以提高质量，同时降低成本和延迟。以下是何时以及如何迁移。",
+          "summary_en": "When to consider using fewer subagents and how to migrate the into your main loop. When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-22",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
+          "title_en": "Claude Platform is now available on Google Cloud",
+          "title_zh": "Claude 平台现已在Google Cloud上可用",
+          "summary_zh": "使用Google Cloud上的 Claude 模型 (Anthropic 托管) 访问具有Google Cloud身份验证、计费和承诺停用功能的 Claude 平台。",
+          "summary_en": "Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-22",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://www.anthropic.com/research/formal-verification",
+          "title_en": "LLMs are making formal software verification feasible at a much larger scale",
+          "title_zh": "LLMs正在使正式软件验证在更大的范围内变得可行",
+          "summary_zh": "Claude 在123个开源库的编译代码中正式证明了其安全属性。在此过程中，它发现了多年来一直未被察觉的漏洞。Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled with bugs, which AI can now easily find and exploit.应对网络攻击的常规防御措施已不再足够：我们需要能够证明代码无漏洞的方法。形式化软件验证可以提供这一保证，但传统上需要耗费多年的专家精力，因此对于大多数实际项目而言并不具有可行性。",
+          "summary_en": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years. Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled with bugs, which AI can now easily find and exploit . The standard defenses against cyberattacks are no longer sufficient: we need ways to prove that code is free of bugs. Formal software verification could provide this guarantee, but it has historically required years of expert effort, making it impractical for most real-world projects.",
+          "summary_status": "ready",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-10-22",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "articles": [
@@ -867,6 +944,20 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+        "title": "Open call for guest investigators in the life sciences",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-22",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+        "title": "Donating Agent Skills to the Agentic AI Foundation",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-22",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
         "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
@@ -5006,6 +5097,13 @@
     ],
     "red_team": [
       {
+        "url": "https://www.anthropic.com/research/formal-verification",
+        "title": "LLMs are making formal software verification feasible at a much larger scale",
+        "desc": "Anthropic 红队安全研究（red.anthropic.com）",
+        "date": "2026-10-22",
+        "date_precision": "day"
+      },
+      {
         "url": "https://www.anthropic.com/research/attack-surface-reduction",
         "title": "Using Claude to reduce the attack surface of code",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
@@ -5322,6 +5420,20 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
+        "title": "Claude Platform is now available on Google Cloud",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-22",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+        "title": "Building agents: When to fold subagents into your main agent loop",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-22",
+        "date_precision": "day"
+      },
       {
         "url": "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
         "title": "HCLTech becomes a Global Premier Partner for Claude",
@@ -8307,6 +8419,13 @@
     ],
     "alignment": [
       {
+        "url": "https://alignment.anthropic.com/2026/red-teaming-auto-mode",
+        "title": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-10-22",
+        "date_precision": "day"
+      },
+      {
         "url": "https://alignment.anthropic.com/2026/graft",
         "title": "Reducing Reward Hacking by Localizing Bad Behavior Instead of Penalizing It",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
@@ -9065,60 +9184,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-22T09:42:39+08:00",
+    "last_success_at": "2026-10-23T09:46:40+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
-        "discovered": 268,
-        "last_success_at": "2026-10-22T09:42:39+08:00",
+        "discovered": 270,
+        "last_success_at": "2026-10-23T09:46:40+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 201,
-        "last_success_at": "2026-10-22T09:42:39+08:00",
+        "discovered": 202,
+        "last_success_at": "2026-10-23T09:46:40+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-22T09:42:39+08:00",
+        "last_success_at": "2026-10-23T09:46:40+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 52,
-        "last_success_at": "2026-10-22T09:42:39+08:00",
+        "last_success_at": "2026-10-23T09:46:40+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-22T09:42:39+08:00",
+        "last_success_at": "2026-10-23T09:46:40+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 266,
-        "last_success_at": "2026-10-22T09:42:39+08:00",
+        "discovered": 267,
+        "last_success_at": "2026-10-23T09:46:40+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
-        "discovered": 54,
-        "last_success_at": "2026-10-22T09:42:39+08:00",
+        "discovered": 55,
+        "last_success_at": "2026-10-23T09:46:40+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-22T09:42:39+08:00",
+        "last_success_at": "2026-10-23T09:46:40+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 63,
-      "ready": 63,
+      "total": 69,
+      "ready": 69,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
