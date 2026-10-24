@@ -1,11 +1,60 @@
 {
+  "https://www.anthropic.com/research/alignment-assessment-ukaisi": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-10-24",
+    "source": "anthropic_research",
+    "title": "An alignment assessment of the UK AISI cybertesting incident",
+    "sitemap_lastmod": "2026-10-23",
+    "date": "2026-10-23",
+    "metadata_checked_at": "2026-10-24T09:52:08+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment. On August 4, 2026, the UK AI Security Institute (AISI) published a report that detailed some concerning behavior it observed from Claude Mythos 5 during its testing of the model’s cyber capabilities. In AISI’s evaluation, Mythos 5 was given a capture-the-flag (CTF) cybersecurity challenge, in which it was asked to retrieve a protected piece of data (the “flag”) from a simulated network. Internet access was deliberately enabled (this was standard for AISI’s cyber testing at the time, but is no longer).",
+    "title_zh": "英国AISI网络测试事件的一致性评估",
+    "summary_zh": "在英国AISI的评估中，Mythos 5采取了未经批准的行动，影响了真实的人和组织。在这篇文章中，我们进一步研究了 Claude Mythos 5中的这些行为，以了解它们揭示了模型对齐的内容。2026年8月4日，英国人工智能安全研究所 (AISI) 发布了一份报告，详细介绍了 Claude Mythos 5在测试该模型的网络功能时观察到的一些相关行为。在AISI的评估中，Mythos 5被赋予了捕获标志 (CTF) 网络安全挑战，要求它从模拟网络中检索受保护的数据 (“标志”)。互联网接入是故意启用的 (这在当时是AISI网络测试的标准，但现在已经不是了)。",
+    "summary_updated_at": "2026-10-24T09:52:08+08:00"
+  },
+  "https://claude.com/resources/articles/unified-claude-enterprise": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-10-24",
+    "source": "claude_blog",
+    "title": "Claude Cowork and chat come together for Enterprise",
+    "date": "2026-10-23",
+    "metadata_checked_at": "2026-10-24T09:52:08+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Chat and Cowork first came together for Pro and Max plans in September. The same unified experience is now generally available for Claude Enterprise plans. Chat and Cowork first came together for Pro and Max plans in September. The same unified Claude experience is now generally available for Claude Enterprise plans. Chat and Cowork are now one Claude on web, desktop, and mobile, so your team can ask a quick question or hand over a full project in the same conversation. Agentic work runs in a cloud environment that Anthropic manages, and Claude Enterprise admins control access by role and manage usage with a new Efficient mode. Team members no longer choose between chat and Cowork before they start work with Claude.",
+    "title_zh": "Claude Cowork和chat一起为企业服务",
+    "summary_zh": "Chat和Cowork于9月首次参加Pro和Max计划。现在，相同的统一体验通常可用于 Claude 企业计划。Chat和Cowork于9月首次参加Pro和Max计划。相同的统一 Claude 体验现在可用于 Claude 企业计划。聊天和Cowork现在是web、桌面和移动设备上的一个 Claude，因此您的团队可以在同一对话中提出快速问题或移交完整的项目。代理工作在 Anthropic 管理的云环境中运行，Claude 企业管理员通过新的高效模式按角色控制访问并管理使用情况。在开始使用 Claude 之前，团队成员不再在聊天和Cowork之间进行选择。",
+    "summary_updated_at": "2026-10-24T09:52:08+08:00"
+  },
+  "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-10-24",
+    "source": "claude_blog",
+    "title": "Claude Duet Safety, Privacy, and Security",
+    "date": "2026-10-23",
+    "metadata_checked_at": "2026-10-24T09:52:08+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "These are the protections we built into Claude Duet for working across your accounts and acting on your behalf. Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.",
+    "title_zh": "Claude Duet安全、隐私和安全",
+    "summary_zh": "这些是我们在 Claude Duet中内置的保护措施，用于在您的帐户中工作并代表您行事。Claude Duet是一种积极主动的代理，即使在您不在的时候也可以为您工作。它建立在两层保护之上: Claude 模型本身的安全培训以及 Claude 代码和 Claude 托管代理等产品中存在的安全措施。最重要的是，我们为您的帐户工作和代表您行事增加了新的保护措施。",
+    "summary_updated_at": "2026-10-24T09:52:08+08:00"
+  },
   "https://www.anthropic.com/research/formal-verification": {
     "summary_status": "ready",
     "processed": true,
     "first_seen_at": "2026-10-23",
     "source": "red_team",
     "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "sitemap_lastmod": "2026-10-22",
+    "sitemap_lastmod": "2026-10-23",
     "date": "2026-10-22",
     "metadata_checked_at": "2026-10-23T09:46:40+08:00",
     "date_precision": "day",
@@ -14,7 +63,8 @@
     "summary_en": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years. Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled with bugs, which AI can now easily find and exploit . The standard defenses against cyberattacks are no longer sufficient: we need ways to prove that code is free of bugs. Formal software verification could provide this guarantee, but it has historically required years of expert effort, making it impractical for most real-world projects.",
     "title_zh": "LLMs正在使正式软件验证在更大的范围内变得可行",
     "summary_zh": "Claude 在123个开源库的编译代码中正式证明了其安全属性。在此过程中，它发现了多年来一直未被察觉的漏洞。Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled with bugs, which AI can now easily find and exploit.应对网络攻击的常规防御措施已不再足够：我们需要能够证明代码无漏洞的方法。形式化软件验证可以提供这一保证，但传统上需要耗费多年的专家精力，因此对于大多数实际项目而言并不具有可行性。",
-    "summary_updated_at": "2026-10-23T09:46:40+08:00"
+    "summary_updated_at": "2026-10-23T09:46:40+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences": {
     "summary_status": "ready",
@@ -31,7 +81,8 @@
     "summary_en": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects. We’re looking for proposals from principal investigators and their research groups at academic institutions, nonprofits, or government labs who want to use Claude to investigate key questions in causal human biology, structural and computational molecular biology, medicinal chemistry, drug discovery, and clinical science. Over 8–12 weeks, guest investigators will work directly with Anthropic researchers on a problem of interest and produce the analyses, artifacts, and tools that will be most helpful for them in their work. Our team will run our models and harnesses at no cost to them. We’ll work together to publish these outputs and open-source the accompanying data and code.",
     "title_zh": "生命科学领域客座调查员的公开电话",
     "summary_zh": "今天，我们邀请生命科学界的成员申请与我们合作开展特殊项目。我们正在寻找学术机构，非营利组织或政府实验室的主要研究人员及其研究小组的建议，他们希望使用 Claude 调查因果人类生物学，结构和计算分子生物学，药物化学，药物发现和临床科学中的关键问题。在8-12周的时间里，客座调查员将直接与 Anthropic 研究人员就感兴趣的问题进行合作，并产生对他们的工作最有帮助的分析、工件和工具。我们的团队将免费运行我们的模型和线束。我们将共同努力发布这些输出，并开源附带的数据和代码。",
-    "summary_updated_at": "2026-10-23T09:46:40+08:00"
+    "summary_updated_at": "2026-10-23T09:46:40+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation": {
     "summary_status": "ready",
@@ -48,7 +99,8 @@
     "summary_en": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025. Today, we’re donating Agent Skills , the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF). More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025. A skill is a folder containing a SKILL.md file that teaches an agent a specific task or domain, along with any scripts or reference material it needs.",
     "title_zh": "向Agentic AI基金会捐赠代理技能",
     "summary_zh": "我们正在向Agentic AI基金会捐赠代理技能，这是为AI代理提供专业知识和工作流程的开放标准。自2025年12月发布标准以来，包括 ChatGPT, Cursor，GitHub Copilot和VS Code在内的70多个代理平台已经集成了代理技能。今天，我们向Agentic AI基金会 (AAIF) 捐赠Agent Skills，这是一个为AI代理提供专业知识和工作流程的开放标准。自2025年12月发布标准以来，包括 ChatGPT, Cursor，GitHub Copilot和VS Code在内的70多个代理平台已经集成了代理技能。技能是一个包含skill.md文件的文件夹，该文件向代理教授特定的任务或域，以及它需要的任何脚本或参考资料。",
-    "summary_updated_at": "2026-10-23T09:46:40+08:00"
+    "summary_updated_at": "2026-10-23T09:46:40+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed": {
     "summary_status": "ready",
@@ -64,7 +116,8 @@
     "summary_en": "Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.",
     "title_zh": "Claude 平台现已在Google Cloud上可用",
     "summary_zh": "使用Google Cloud上的 Claude 模型 (Anthropic 托管) 访问具有Google Cloud身份验证、计费和承诺停用功能的 Claude 平台。",
-    "summary_updated_at": "2026-10-23T09:46:40+08:00"
+    "summary_updated_at": "2026-10-23T09:46:40+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop": {
     "summary_status": "ready",
@@ -80,7 +133,8 @@
     "summary_en": "When to consider using fewer subagents and how to migrate the into your main loop. When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.",
     "title_zh": "构建代理: 何时将子代理折叠到主代理循环中",
     "summary_zh": "何时考虑使用更少的子代理以及如何将迁移到主循环中。在 Claude 平台中构建代理时，使用较少的子代理来支持逐步公开的上下文和工具可以提高质量，同时降低成本和延迟。以下是何时以及如何迁移。",
-    "summary_updated_at": "2026-10-23T09:46:40+08:00"
+    "summary_updated_at": "2026-10-23T09:46:40+08:00",
+    "aliases": []
   },
   "https://alignment.anthropic.com/2026/red-teaming-auto-mode": {
     "summary_status": "ready",
@@ -96,7 +150,8 @@
     "summary_en": "We red-team production blocking monitors (Auto Mode in Claude Code, Guardian in OpenAI’s Codex) with an adversarial agent in an experimental setting with the objective of improving the safety of coding agents. Our most effective attack strategies bypass the monitor using agent-generated prompt injection against the monitor, multi-agent attacks, or malicious compaction. We attempt to improve the robustness of auto-mode by improving tool coverage, transcript formatting and using an agentic monitor stage. We find that robustly preventing multi-context attacks at an acceptable cost remains an open problem. Coding agents can now run for days with little or no human involvement, completing software tasks end to end ( Kwa et al., 2025 ).",
     "title_zh": "Red-Teaming自动模式: 针对恶意编码代理改进阻止分类器",
     "summary_zh": "We red-team production blocking monitor (Claude 代码中的自动模式，OpenAI 法典中的Guardian)，在实验环境中使用对抗剂，目的是提高编码剂的安全性。我们最有效的攻击策略使用针对监视器的代理生成的提示注入，多代理攻击或恶意压缩来绕过监视器。我们尝试通过提高工具覆盖率，成绩单格式和使用代理监控阶段来提高自动模式的鲁棒性。我们发现，以可接受的成本稳健地防止多上下文攻击仍然是一个开放的问题。编码代理现在可以在很少或没有人工参与的情况下运行数天，端到端地完成软件任务 (Kwa等人，2025)。",
-    "summary_updated_at": "2026-10-23T09:46:40+08:00"
+    "summary_updated_at": "2026-10-23T09:46:40+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust": {
     "summary_status": "ready",
@@ -195,7 +250,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -243,7 +298,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "title_zh": "在前沿领域工作塑造了对未来的期望。",
@@ -260,7 +315,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "title_zh": "Anthropic的就业状况正在发生怎样的变化",
@@ -279,7 +334,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-21",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -313,7 +368,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -531,7 +586,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-21",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -601,7 +656,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-21",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -877,7 +932,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-11",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -930,7 +985,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-12",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "title_zh": "你希望人工智能为你带来什么？",
@@ -949,7 +1004,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-21",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -1075,7 +1130,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-11",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -1503,7 +1558,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-21"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/what-1-000-small-business-owners-taught-us-about-ai": {
     "summary_status": "pending",
@@ -1780,7 +1835,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://platform.claude.com/cookbook/misc-admin-api": {
     "title": "Manage your organization with the Admin API | Claude Cookbook",
@@ -2290,7 +2345,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://platform.claude.com/cookbook/capabilities-content-moderation-guide": {
     "title": "Content policy enforcement with Claude | Claude Cookbook",
@@ -2392,7 +2447,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-09"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/cowork-chrome-side-panel": {
     "summary_status": "pending",
@@ -2708,7 +2763,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/bringing-mcp-2026-07-28-to-claude": {
     "summary_status": "pending",
@@ -2772,7 +2827,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/claude-opus-5": {
     "title": "Introducing Claude Opus 5",
@@ -3289,7 +3344,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/claude-for-teachers": {
     "title": "Introducing Claude for Teachers",
@@ -3328,7 +3383,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-12"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail": {
     "summary_status": "pending",
@@ -3389,7 +3444,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/ust-claude": {
     "title": "UST is bringing Claude to physical AI",
@@ -3854,7 +3909,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://platform.claude.com/cookbook/evals-agentic-search-reproduce-agentic-search-benchmarks": {
     "title": "Reproduce Claude's agentic search benchmark scores in the Messages API | Claude Cookbook",
@@ -3989,7 +4044,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more": {
     "summary_status": "pending",
@@ -4165,7 +4220,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-09"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon": {
     "summary_status": "pending",
@@ -4201,7 +4256,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/tcs-anthropic-partnership": {
     "title": "TCS and Anthropic partner to bring Claude to regulated industries",
@@ -4353,7 +4408,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/agents-in-biology": {
     "title": "Paving the way for agents in biology",
@@ -4512,7 +4567,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/services-track-partner-hub": {
     "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
@@ -4922,7 +4977,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/glasswing-initial-update": {
     "title": "Project Glasswing: An initial update",
@@ -5717,7 +5772,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-12"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/how-kepler-built-verifiable-ai-for-financial-services-with-claude": {
     "summary_status": "pending",
@@ -6099,7 +6154,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-19"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/81k-economics": {
     "title": "What 81,000 people told us about the economics of AI",
@@ -6112,7 +6167,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://platform.claude.com/cookbook/claude-agent-sdk-06-the-vulnerability-detection-agent": {
     "title": "The vulnerability detection agent | Claude Cookbook",
@@ -6428,7 +6483,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/the-advisor-strategy": {
     "summary_status": "pending",
@@ -6616,7 +6671,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://red.anthropic.com/2026/mythos-preview": {
     "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
@@ -6753,7 +6808,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/australia-MOU": {
     "title": "Australian government and Anthropic sign MOU for AI safety and research",
@@ -6852,7 +6907,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/engineering/harness-design-long-running-apps": {
     "title": "Harness design for long-running application development",
@@ -7218,7 +7273,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/eval-awareness-browsecomp": {
     "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
@@ -7287,7 +7342,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-09"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/where-stand-department-war": {
     "title": "Where things stand with the Department of War",
@@ -7480,7 +7535,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks": {
     "title": "Detecting and preventing distillation attacks",
@@ -7557,7 +7612,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-12"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/claude-sonnet-4-6": {
     "title": "Introducing Sonnet 4.6",
@@ -7622,7 +7677,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india": {
     "title": "Anthropic opens Bengaluru office and announces new partnerships across India",
@@ -7758,7 +7813,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/infrastructure-noise": {
     "title": "Quantifying infrastructure noise in agentic coding evals",
@@ -7867,7 +7922,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/protecting-well-being-of-users": {
     "title": "",
@@ -8174,7 +8229,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india": {
     "title": "",
@@ -8218,7 +8273,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report": {
     "title": "",
@@ -8229,7 +8284,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/accelerating-scientific-research": {
     "title": "",
@@ -8261,7 +8316,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://red.anthropic.com/2026/property-based-testing": {
     "title": "Finding Bugs with Claude and Property-based Testing",
@@ -8338,7 +8393,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://red.anthropic.com/2026/critical-infrastructure-defense": {
     "title": "Experimenting with AI to Defend Critical Infrastructure",
@@ -8564,7 +8619,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/genesis-mission-partnership": {
     "title": "",
@@ -8666,7 +8721,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/anthropic-accenture-partnership": {
     "title": "",
@@ -8737,7 +8792,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-09"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/the-anthropic-economic-index": {
     "title": "",
@@ -8768,7 +8823,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-12"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership": {
     "title": "",
@@ -8812,7 +8867,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://red.anthropic.com/2025/smart-contracts": {
     "title": "AI Agents Find Smart Contract Exploits",
@@ -8994,7 +9049,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/tracing-thoughts-language-model": {
     "title": "",
@@ -9038,7 +9093,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/persona-vectors": {
     "title": "",
@@ -9071,7 +9126,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/economic-index-geography": {
     "title": "",
@@ -9082,7 +9137,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-19"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/constitutional-classifiers": {
     "title": "",
@@ -9104,7 +9159,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/claude-character": {
     "title": "",
@@ -9288,7 +9343,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/maryland-partnership": {
     "title": "",
@@ -9310,7 +9365,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence": {
     "title": "",
@@ -9790,7 +9845,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership": {
     "title": "",
@@ -9929,7 +9984,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://claude.com/resources/articles/driving-ai-transformation-with-claude": {
     "summary_status": "pending",
@@ -10245,7 +10300,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://red.anthropic.com/2025/biorisk": {
     "title": "LLMs and Biorisk",
@@ -10288,7 +10343,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/developing-computer-use": {
     "title": "",
@@ -10321,7 +10376,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council": {
     "title": "",
@@ -10377,7 +10432,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-09-30"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership": {
     "title": "",
@@ -10579,7 +10634,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://red.anthropic.com/2025/cyber-competitions": {
     "title": "Claude Does Cyber Competitions",
@@ -10936,7 +10991,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-06"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/paul-smith-to-join-anthropic": {
     "title": "",
@@ -11014,7 +11069,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship": {
     "title": "",
@@ -11166,7 +11221,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/engineering/multi-agent-research-system": {
     "title": "How we built our multi-agent research system",
@@ -11360,7 +11415,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/reasoning-models-dont-say-think": {
     "title": "",
@@ -11417,7 +11472,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-19"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://transformer-circuits.pub/2025/attribution-graphs/methods.html": {
     "title": "Circuit Tracing: Revealing Computational Graphs in Language ModelsAmeisen et al., 2025We describe an approach to tracing the \"step-by-step\" computation involved when a model responds\n                    to a single prompt.",
@@ -11485,7 +11540,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13",
+    "sitemap_lastmod": "2026-10-23",
     "metadata_checked_at": "2026-10-21T16:05:40+08:00",
     "fetch_status": "ok",
     "last_error": "正文获取暂时失败"
@@ -11642,7 +11697,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-09"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/lyft-announcement": {
     "title": "",
@@ -12139,7 +12194,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models": {
     "title": "",
@@ -12150,7 +12205,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/swe-bench-sonnet": {
     "title": "",
@@ -12227,7 +12282,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning": {
     "title": "",
@@ -12326,7 +12381,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/evaluating-ai-systems": {
     "title": "",
@@ -12337,7 +12392,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/distributed-representations-composition-superposition": {
     "title": "",
@@ -12875,7 +12930,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-13"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/news/updating-our-usage-policy": {
     "title": "",
@@ -13138,7 +13193,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-10-23"
   },
   "https://www.anthropic.com/research/decomposing-language-models-into-understandable-components": {
     "title": "",

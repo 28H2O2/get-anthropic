@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-10-23",
-  "generated_at_iso": "2026-10-23T09:46:52+08:00",
+  "generated_at": "2026-10-24",
+  "generated_at_iso": "2026-10-24T09:52:16+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-23",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+          "title_en": "An alignment assessment of the UK AISI cybertesting incident",
+          "title_zh": "英国AISI网络测试事件的一致性评估",
+          "summary_zh": "在英国AISI的评估中，Mythos 5采取了未经批准的行动，影响了真实的人和组织。在这篇文章中，我们进一步研究了 Claude Mythos 5中的这些行为，以了解它们揭示了模型对齐的内容。2026年8月4日，英国人工智能安全研究所 (AISI) 发布了一份报告，详细介绍了 Claude Mythos 5在测试该模型的网络功能时观察到的一些相关行为。在AISI的评估中，Mythos 5被赋予了捕获标志 (CTF) 网络安全挑战，要求它从模拟网络中检索受保护的数据 (“标志”)。互联网接入是故意启用的 (这在当时是AISI网络测试的标准，但现在已经不是了)。",
+          "summary_en": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment. On August 4, 2026, the UK AI Security Institute (AISI) published a report that detailed some concerning behavior it observed from Claude Mythos 5 during its testing of the model’s cyber capabilities. In AISI’s evaluation, Mythos 5 was given a capture-the-flag (CTF) cybersecurity challenge, in which it was asked to retrieve a protected piece of data (the “flag”) from a simulated network. Internet access was deliberately enabled (this was standard for AISI’s cyber testing at the time, but is no longer).",
+          "summary_status": "ready",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-23",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
+          "title_en": "Claude Duet Safety, Privacy, and Security",
+          "title_zh": "Claude Duet安全、隐私和安全",
+          "summary_zh": "这些是我们在 Claude Duet中内置的保护措施，用于在您的帐户中工作并代表您行事。Claude Duet是一种积极主动的代理，即使在您不在的时候也可以为您工作。它建立在两层保护之上: Claude 模型本身的安全培训以及 Claude 代码和 Claude 托管代理等产品中存在的安全措施。最重要的是，我们为您的帐户工作和代表您行事增加了新的保护措施。",
+          "summary_en": "These are the protections we built into Claude Duet for working across your accounts and acting on your behalf. Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-23",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/unified-claude-enterprise",
+          "title_en": "Claude Cowork and chat come together for Enterprise",
+          "title_zh": "Claude Cowork和chat一起为企业服务",
+          "summary_zh": "Chat和Cowork于9月首次参加Pro和Max计划。现在，相同的统一体验通常可用于 Claude 企业计划。Chat和Cowork于9月首次参加Pro和Max计划。相同的统一 Claude 体验现在可用于 Claude 企业计划。聊天和Cowork现在是web、桌面和移动设备上的一个 Claude，因此您的团队可以在同一对话中提出快速问题或移交完整的项目。代理工作在 Anthropic 管理的云环境中运行，Claude 企业管理员通过新的高效模式按角色控制访问并管理使用情况。在开始使用 Claude 之前，团队成员不再在聊天和Cowork之间进行选择。",
+          "summary_en": "Chat and Cowork first came together for Pro and Max plans in September. The same unified experience is now generally available for Claude Enterprise plans. Chat and Cowork first came together for Pro and Max plans in September. The same unified Claude experience is now generally available for Claude Enterprise plans. Chat and Cowork are now one Claude on web, desktop, and mobile, so your team can ask a quick question or hand over a full project in the same conversation. Agentic work runs in a cloud environment that Anthropic manages, and Claude Enterprise admins control access by role and manage usage with a new Efficient mode. Team members no longer choose between chat and Cowork before they start work with Claude.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-23",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-10-22",
       "articles": [
@@ -884,59 +925,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-24",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-23",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
-          "title_en": "Claude discovers a novel enzyme system",
-          "title_zh": "Claude 发现一种新的酶系统",
-          "summary_zh": "在我们新的生命科学研究实验室的早期结果中，Claude 代理商发现了一种功能仍然未知的酶系统。我们将在 Anthropic 引入一个新的生命科学研究小组和实验室。我们的重点是使用 Claude: 探索DNA数据集以识别未表征的蛋白质家族，大规模生成假设，并通过实验室实验对其进行测试。这篇文章介绍了这项工作背后的团队，并分享了早期的结果，其中 Claude 发现了一种新的酶系统，其特性让人联想到CRISPR，只有我们科学家的高层指导。",
-          "summary_en": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown. We’re introducing a new life sciences research group and laboratory at Anthropic. Our focus is on fundamental biology research using Claude: exploring datasets of DNA to identify uncharacterized protein families, generating hypotheses at scale, and testing them through experiments in the lab. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.",
-          "summary_status": "ready",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-09-23",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/claude-marketplace",
-          "title_en": "Claude Marketplace: plugins and connectors, products and agents, and service partners",
-          "title_zh": "Claude Marketplace: 插件和连接器、产品和代理以及服务合作伙伴",
-          "summary_zh": "Claude 市场将插件、连接器、代理和服务合作伙伴汇集到一个地方。查找使用 Claude 完成更多工作的工具和服务，或列出您为使用 Claude 的团队构建的内容。查找工具和服务，以便在 Claude 中做更多的事情，或者列出您为与 Claude 客户一起成长而构建的内容。",
-          "summary_en": "The Claude Marketplace brings plugins, connectors, agents, and service partners into one place. Find the tools and services to do more with Claude, or list what you've built to reach teams using Claude. Find the tools and services to do more with Claude, or list what you've built to grow alongside Claude customers.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-23",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
-          "title_en": "CodeRabbit, Power Digital, ThoughtSpot on Claude Marketplace",
-          "title_zh": "CodeRabbit, Power Digital, ThoughtSpot on Claude Marketplace",
-          "summary_zh": "CodeRabbit通过 Claude Marketplace扩展了其Vercel计划，Power Digital和ThoughtSpot将其Snowflake支出用于其 Anthropic 承诺。了解建立在 Claude 基础上的公司如何使用他们已经承诺为其运行的工具付费的预算。CodeRabbit通过 Claude Marketplace扩展了其Vercel计划，Power Digital和ThoughtSpot利用其现有的 Anthropic 承诺扩展了其雪花容量。",
-          "summary_en": "CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot put their Snowflake spend on their Anthropic commitment. See how companies building on Claude use budget they've already committed to pay for the tools they run on. CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-23",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects",
-          "title_en": "How to prepare for AI-driven code modernization projects",
-          "title_zh": "如何为AI驱动的代码现代化项目做准备",
-          "summary_zh": "代理可以在几个月内完成代码现代化，但变更管理仍然决定了步伐。定义目标、证书和促销政策的六个步骤。在我们的现场系列笔记中，Anthropic 前向部署的工程师分享了受实际客户部署启发的最佳实践。在本文中，我们分享了管理大型代码现代化项目的经验。代码现代化曾经是多年的，现在全员努力可以在几个月 (或几周) 内完成，但双方的组织工作通常保持不变。例如，对关键银行系统的每项变更都必须经过变更管理、审查和批准。这是一个强有力的过程，因为监管机构、审计师和企业都需要它。",
-          "summary_en": "Agents can finish code modernizations in months, but change management still sets the pace. Six steps to define the target, certificate, and promotion policy. In our Notes from the Field series, Anthropic forward deployed engineers share best practices inspired by real customer deployments. In this article, we share our experience managing large code modernization projects. Code modernizations once scoped as multi-year, all-hands efforts can now finish in months (or weeks ), but the organizational work on either side often remains the same. For example, every change to a critical banking system must go through change management, review, and approval. It is a robust process because regulators, auditors, and the business require it.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-23",
           "date_precision": "day"
         }
       ]
@@ -2920,6 +2908,13 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+        "title": "An alignment assessment of the UK AISI cybertesting incident",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-23",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
         "title": "How Claude designed protein binders against scorpion neurotoxins",
@@ -5420,6 +5415,20 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/resources/articles/unified-claude-enterprise",
+        "title": "Claude Cowork and chat come together for Enterprise",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-23",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security",
+        "title": "Claude Duet Safety, Privacy, and Security",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-23",
+        "date_precision": "day"
+      },
       {
         "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed",
         "title": "Claude Platform is now available on Google Cloud",
@@ -9184,60 +9193,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-23T09:46:40+08:00",
+    "last_success_at": "2026-10-24T09:52:08+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 270,
-        "last_success_at": "2026-10-23T09:46:40+08:00",
+        "last_success_at": "2026-10-24T09:52:08+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 202,
-        "last_success_at": "2026-10-23T09:46:40+08:00",
+        "discovered": 203,
+        "last_success_at": "2026-10-24T09:52:08+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-23T09:46:40+08:00",
+        "last_success_at": "2026-10-24T09:52:08+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 52,
-        "last_success_at": "2026-10-23T09:46:40+08:00",
+        "last_success_at": "2026-10-24T09:52:08+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-23T09:46:40+08:00",
+        "last_success_at": "2026-10-24T09:52:08+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 267,
-        "last_success_at": "2026-10-23T09:46:40+08:00",
+        "discovered": 269,
+        "last_success_at": "2026-10-24T09:52:08+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 55,
-        "last_success_at": "2026-10-23T09:46:40+08:00",
+        "last_success_at": "2026-10-24T09:52:08+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-23T09:46:40+08:00",
+        "last_success_at": "2026-10-24T09:52:08+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 69,
-      "ready": 69,
+      "total": 68,
+      "ready": 68,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
