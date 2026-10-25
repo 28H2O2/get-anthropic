@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24",
-  "generated_at_iso": "2026-10-24T09:52:16+08:00",
+  "generated_at": "2026-10-25",
+  "generated_at_iso": "2026-10-25T09:27:53+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -884,47 +884,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-25",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/project-swap",
-          "title_en": "Project Swap: What happens when agents trade for us?",
-          "title_zh": "项目交换: 当代理商为我们进行交易时会发生什么？",
-          "summary_zh": "为了了解当代理商被派往市场时什么有效以及什么中断，我们制作了一个 Claudes的微型市场。生活中充满了交易和交易，这会让每个人都过得更好，但永远不会发生。这通常仅仅是因为找到合适的交易对手并进行谈判直到达成交易需要花费太多的工作。想想那些在他们负担不起的报价后跳过治疗的病人，当有一家不同的诊所收费低得多的时候，或者如果被问到，引用他们的医院会削减账单。或者想想你的工作。在某个地方，可能会有一个更适合你的，雇主会很乐意雇用你。但是你们可能找不到彼此，因为你们都没有时间不断地寻找。",
-          "summary_en": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes. Life is full of deals and trades that would leave everyone better off, yet never happen. This is often simply because it takes too much work to find the right counterparty and negotiate until a deal is struck. Think of the patient who skips a treatment after one quote they can’t afford, when there’s a different clinic that charges far less, or the hospital that quoted them would have cut its bill if asked. Or think about your job. Somewhere there might be one that would suit you better, with an employer who would be glad to hire you. But you may not find each other, because neither of you has the time to be searching constantly.",
-          "summary_status": "ready",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-09-24",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
-          "title_en": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
-          "title_zh": "编码会话更长并且使用更多上下文。Claude Opus 5.5就是这样构建的。",
-          "summary_zh": "我们最新的 Opus 模型经过了定价和培训，以优化开发人员现在编写代码的成本。对于按令牌计费的典型工作负载，我们估计 Claude Opus 的运行成本比 Opus 5低约40% 5.5。对于开发人员来说，这些节省的资金到底如何积累很重要。如果您按令牌支付，您将看到运行时间更长、上下文更高的会话的最大成本差异-Claude 代码会话的确切类型在过去六个月中变得更加普遍。这篇文章将深入探讨是什么让 Opus 5.5成本效益的机制，让开发人员今天 (可能明天) 如何编码。我们收集了有关开发人员从3月到2026年9月如何使用 Claude 代码的汇总数据。",
-          "summary_en": "Our latest Opus model is priced and trained to optimize costs for how developers code now. We estimate Claude Opus 5.5 costs about 40% less to run than Opus 5 for typical workloads billed by token. For developers, exactly how those savings stack up matters. If you pay by the token, you will see the greatest cost difference for longer-running, higher context sessions–the exact type of Claude Code sessions that have become more prevalent in the last six months. This post will dive into the mechanics of what makes Opus 5.5 cost effective for how developers are coding today (and likely tomorrow). We've pulled aggregate data on how developers have been using Claude Code from March to September 2026.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-24",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels",
-          "title_en": "Claude Tag now supports personal connectors in channels",
-          "title_zh": "Claude Tag现在支持频道中的个人连接器",
-          "summary_zh": "Claude Tag现在可以使用您的连接器来处理您在通道中发出的请求。没有其他人可以使用它们，您可以控制如何呈现输出。",
-          "summary_en": "Claude Tag can now use your connectors for requests you make in a channel. Nobody else can use them, and you're in control of how to present the output.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-24",
           "date_precision": "day"
         }
       ]
@@ -9193,60 +9152,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-24T09:52:08+08:00",
+    "last_success_at": "2026-10-25T09:27:50+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 270,
-        "last_success_at": "2026-10-24T09:52:08+08:00",
+        "last_success_at": "2026-10-25T09:27:50+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 203,
-        "last_success_at": "2026-10-24T09:52:08+08:00",
+        "last_success_at": "2026-10-25T09:27:50+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-24T09:52:08+08:00",
+        "last_success_at": "2026-10-25T09:27:50+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 52,
-        "last_success_at": "2026-10-24T09:52:08+08:00",
+        "last_success_at": "2026-10-25T09:27:50+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-24T09:52:08+08:00",
+        "last_success_at": "2026-10-25T09:27:50+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 269,
-        "last_success_at": "2026-10-24T09:52:08+08:00",
+        "last_success_at": "2026-10-25T09:27:50+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 55,
-        "last_success_at": "2026-10-24T09:52:08+08:00",
+        "last_success_at": "2026-10-25T09:27:50+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-24T09:52:08+08:00",
+        "last_success_at": "2026-10-25T09:27:50+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 68,
-      "ready": 68,
+      "total": 65,
+      "ready": 65,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
