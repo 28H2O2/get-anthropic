@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25",
-  "generated_at_iso": "2026-10-25T09:27:53+08:00",
+  "generated_at": "2026-10-26",
+  "generated_at_iso": "2026-10-26T09:31:29+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -843,47 +843,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-28",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-          "title_en": "Claude computes a nine-loop amplitude in N=4 super-Yang-Mills",
-          "title_zh": "Claude 在N = 4个超级杨-米尔斯中计算九回路振幅",
-          "summary_zh": "在这篇客座文章中，物理学家兼科学作家马特·冯·希佩尔 (Matt von Hippel) 分享了他向人工智能公司发出关于他以前的理论物理学子领域的问题的挑战时所发生的事情。你发出挑战的情况并不常见，只是在一个月后看到它被击败。但是我们生活在不寻常的时代。让我自我介绍一下: 我是马特·冯·希佩尔。我曾经是一名理论物理学家; 现在我是一名科学作家。自始至终，我一直是一名博主，每周写一篇关于物理学和做物理学的人的t 4gravitons.com。越来越多的关于物理的博客意味着关于AI的博客。这是一个问题，因为我绝对不是AI专家。当然，我已经涉足了。我可能比你奶奶知道的更多。但我大多不得不退后一步，相信专家。",
-          "summary_en": "In this guest post, physicist and science writer Matt von Hippel shares what happened when he issued a challenge to AI companies regarding a problem in his former subfield of theoretical physics. It’s not often that you issue a challenge, only to see it beaten a month later. But we’re living in unusual times. Let me introduce myself: I’m Matt von Hippel. I used to be a theoretical physicist; these days I’m a science writer. Throughout, I’ve been a blogger, writing weekly at 4gravitons.com about physics and the people who do it. More and more, blogging about physics has meant blogging about AI. That’s a problem, because I’m definitely not an AI expert. I’ve dabbled in it, sure. I probably know more than your grandma. But I mostly have to step back and trust the experts.",
-          "summary_status": "ready",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-09-25",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/build-plugins-for-claude",
-          "title_en": "Build plugins for Claude with the directory submission portal",
-          "title_zh": "使用目录提交门户为 Claude 构建插件",
-          "summary_zh": "通过新的目录提交门户将插件提交到 Claude 目录。打包MCP连接器和代理技能，通过审查跟踪您的插件，并查看其使用情况和发现情况。一旦上线，您现在可以通过新的开发人员门户将插件提交到 Claude 目录，通过审查跟踪它们，并在上线后查看使用情况分析。",
-          "summary_en": "Submit plugins to the Claude directory through a new directory submission portal. Package MCP connectors and Agent Skills, track your plugin through review, and see how it's used and found once it's live You can now submit plugins to the Claude directory through a new developer portal, track them through review, and see usage analytics once they’re live.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-25",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.dev/blog/what-a-task-costs-on-opus-5-5",
-          "title_en": "What a task costs on Opus 5.5 / claude.dev Blog",
-          "title_zh": "Opus 5.5/claude.Dev博客",
-          "summary_zh": "相同的代币价格可以为每个任务花费非常不同的金额。了解 Claude 代码任务在 Opus 5.5上的费用以及哪些设置会更改账单。你不打算购买数百万个代币。您开始构建功能、完成迁移或运行任务。令牌计数是到达那里所需的模型。每个令牌成本相同的两个模型在同一任务上的成本可能非常不同。一个读一次代码。另一个读它，尝试修复，然后再读一遍。这些步骤中的每一个都是一个回合，并且每个回合都重新发送到目前为止的对话。因此，即使价格相同，需要更多转弯的模型也会花费更多。",
-          "summary_en": "The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill. You don't set out to buy millions of tokens. You set out to build a feature, finish a migration, or run a task. The token count is whatever the model needed to get there. Two models with the same cost per token can cost very different amounts on the same task. One reads the code once. The other reads it, tries a fix, and reads it again. Each of those steps is a turn, and each turn resends the conversation so far. So the model that needs more turns costs more, even at the same price.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-25",
           "date_precision": "day"
         }
       ]
@@ -9152,60 +9111,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-25T09:27:50+08:00",
+    "last_success_at": "2026-10-26T09:31:26+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 270,
-        "last_success_at": "2026-10-25T09:27:50+08:00",
+        "last_success_at": "2026-10-26T09:31:26+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 203,
-        "last_success_at": "2026-10-25T09:27:50+08:00",
+        "last_success_at": "2026-10-26T09:31:26+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-25T09:27:50+08:00",
+        "last_success_at": "2026-10-26T09:31:26+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 52,
-        "last_success_at": "2026-10-25T09:27:50+08:00",
+        "last_success_at": "2026-10-26T09:31:26+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-25T09:27:50+08:00",
+        "last_success_at": "2026-10-26T09:31:26+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 269,
-        "last_success_at": "2026-10-25T09:27:50+08:00",
+        "last_success_at": "2026-10-26T09:31:26+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 55,
-        "last_success_at": "2026-10-25T09:27:50+08:00",
+        "last_success_at": "2026-10-26T09:31:26+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-25T09:27:50+08:00",
+        "last_success_at": "2026-10-26T09:31:26+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 65,
-      "ready": 65,
+      "total": 62,
+      "ready": 62,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
