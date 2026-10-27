@@ -1,4 +1,37 @@
 {
+  "https://www.anthropic.com/news/s1-sec": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-10-27",
+    "source": "anthropic_news",
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+    "sitemap_lastmod": "2026-10-26",
+    "date": "2026-10-26",
+    "metadata_checked_at": "2026-10-27T10:20:11+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock. Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined. The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co.",
+    "title_zh": "Anthropic 向美国证券交易委员会提交有关拟议首次公开募股的S-1",
+    "summary_zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。今天，Anthropic, PBC以表格S-1向美国证券交易委员会提交了一份关于其a类普通股首次公开发行的注册声明。Anthropic 打算将其A类普通股在纳斯达克全球精选市场上市，股票代码为 “ANT”。拟发行的A类普通股股票数量和拟议发行的价格范围尚未确定。拟议的发行将仅通过招股说明书进行。初步招股说明书的副本如有，可从以下网站获得: 高盛公司。",
+    "summary_updated_at": "2026-10-27T10:20:11+08:00"
+  },
+  "https://claude.com/resources/articles/expanding-claude-for-nonprofits": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-10-27",
+    "source": "claude_blog",
+    "title": "Expanding Claude for Nonprofits",
+    "date": "2026-10-26",
+    "metadata_checked_at": "2026-10-27T10:20:11+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Anthropic's new Claude for Nonprofits plugin brings new skills to verified nonprofit organizations, taking the operational work that stretches small teams. Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.",
+    "title_zh": "扩大非营利组织的 Claude",
+    "summary_zh": "Anthropic 的新的 Claude 非营利插件为经过验证的非营利组织带来了新技能，承担了延伸小型团队的运营工作。我们新的 Claude 非营利组织插件为每个经过验证的非营利组织带来了新的技能，承担了跨筹款，营销和招聘的小型团队的运营工作。",
+    "summary_updated_at": "2026-10-27T10:20:11+08:00"
+  },
   "https://www.anthropic.com/research/alignment-assessment-ukaisi": {
     "summary_status": "ready",
     "processed": true,

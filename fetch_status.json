@@ -1,57 +1,57 @@
 {
-  "checked_at": "2026-10-26T09:31:26+08:00",
+  "checked_at": "2026-10-27T10:20:11+08:00",
   "sources": {
     "anthropic_news": {
       "status": "ok",
-      "discovered": 270,
-      "last_success_at": "2026-10-26T09:31:26+08:00",
+      "discovered": 271,
+      "last_success_at": "2026-10-27T10:20:11+08:00",
       "url": "https://www.anthropic.com/sitemap.xml"
     },
     "anthropic_research": {
       "status": "ok",
       "discovered": 203,
-      "last_success_at": "2026-10-26T09:31:26+08:00",
+      "last_success_at": "2026-10-27T10:20:11+08:00",
       "url": "https://www.anthropic.com/sitemap.xml"
     },
     "cookbook": {
       "status": "ok",
       "discovered": 99,
-      "last_success_at": "2026-10-26T09:31:26+08:00",
+      "last_success_at": "2026-10-27T10:20:11+08:00",
       "url": "https://platform.claude.com/cookbook"
     },
     "transformer_circuits": {
       "status": "ok",
       "discovered": 52,
-      "last_success_at": "2026-10-26T09:31:26+08:00",
+      "last_success_at": "2026-10-27T10:20:11+08:00",
       "url": "https://transformer-circuits.pub/"
     },
     "red_team": {
       "status": "ok",
       "discovered": 25,
-      "last_success_at": "2026-10-26T09:31:26+08:00",
+      "last_success_at": "2026-10-27T10:20:11+08:00",
       "url": "https://www.anthropic.com/research/team/frontier-red-team"
     },
     "claude_blog": {
       "status": "ok",
       "discovered": 269,
-      "last_success_at": "2026-10-26T09:31:26+08:00",
+      "last_success_at": "2026-10-27T10:20:11+08:00",
       "url": "https://claude.com/resources/articles"
     },
     "alignment": {
       "status": "ok",
       "discovered": 55,
-      "last_success_at": "2026-10-26T09:31:26+08:00",
+      "last_success_at": "2026-10-27T10:20:11+08:00",
       "url": "https://alignment.anthropic.com/"
     },
     "engineering": {
       "status": "ok",
       "discovered": 24,
-      "last_success_at": "2026-10-26T09:31:26+08:00",
+      "last_success_at": "2026-10-27T10:20:11+08:00",
       "url": "https://www.anthropic.com/engineering"
     }
   },
-  "translated": 0,
+  "translated": 2,
   "failed": 0,
   "status": "ok",
-  "last_success_at": "2026-10-26T09:31:26+08:00"
+  "last_success_at": "2026-10-27T10:20:11+08:00"
 }

@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-10-26",
-  "generated_at_iso": "2026-10-26T09:31:29+08:00",
+  "generated_at": "2026-10-27",
+  "generated_at_iso": "2026-10-27T10:20:17+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-26",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "title_en": "Anthropic files S-1 with the SEC for proposed initial public offering",
+          "title_zh": "Anthropic 向美国证券交易委员会提交有关拟议首次公开募股的S-1",
+          "summary_zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。今天，Anthropic, PBC以表格S-1向美国证券交易委员会提交了一份关于其a类普通股首次公开发行的注册声明。Anthropic 打算将其A类普通股在纳斯达克全球精选市场上市，股票代码为 “ANT”。拟发行的A类普通股股票数量和拟议发行的价格范围尚未确定。拟议的发行将仅通过招股说明书进行。初步招股说明书的副本如有，可从以下网站获得: 高盛公司。",
+          "summary_en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock. Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined. The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co.",
+          "summary_status": "ready",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-26",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+          "title_en": "Expanding Claude for Nonprofits",
+          "title_zh": "扩大非营利组织的 Claude",
+          "summary_zh": "Anthropic 的新的 Claude 非营利插件为经过验证的非营利组织带来了新技能，承担了延伸小型团队的运营工作。我们新的 Claude 非营利组织插件为每个经过验证的非营利组织带来了新的技能，承担了跨筹款，营销和招聘的小型团队的运营工作。",
+          "summary_en": "Anthropic's new Claude for Nonprofits plugin brings new skills to verified nonprofit organizations, taking the operational work that stretches small teams. Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-26",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "articles": [
@@ -850,6 +879,13 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/s1-sec",
+        "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-26",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
         "title": "Open call for guest investigators in the life sciences",
@@ -5334,6 +5370,13 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+        "title": "Expanding Claude for Nonprofits",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-26",
+        "date_precision": "day"
+      },
+      {
         "url": "https://claude.com/resources/articles/unified-claude-enterprise",
         "title": "Claude Cowork and chat come together for Enterprise",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -9111,60 +9154,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-26T09:31:26+08:00",
+    "last_success_at": "2026-10-27T10:20:11+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
-        "discovered": 270,
-        "last_success_at": "2026-10-26T09:31:26+08:00",
+        "discovered": 271,
+        "last_success_at": "2026-10-27T10:20:11+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 203,
-        "last_success_at": "2026-10-26T09:31:26+08:00",
+        "last_success_at": "2026-10-27T10:20:11+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-26T09:31:26+08:00",
+        "last_success_at": "2026-10-27T10:20:11+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 52,
-        "last_success_at": "2026-10-26T09:31:26+08:00",
+        "last_success_at": "2026-10-27T10:20:11+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-26T09:31:26+08:00",
+        "last_success_at": "2026-10-27T10:20:11+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 269,
-        "last_success_at": "2026-10-26T09:31:26+08:00",
+        "last_success_at": "2026-10-27T10:20:11+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 55,
-        "last_success_at": "2026-10-26T09:31:26+08:00",
+        "last_success_at": "2026-10-27T10:20:11+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-26T09:31:26+08:00",
+        "last_success_at": "2026-10-27T10:20:11+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 62,
-      "ready": 62,
+      "total": 64,
+      "ready": 64,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
