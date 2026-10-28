@@ -1,8 +1,73 @@
 {
-  "generated_at": "2026-10-27",
-  "generated_at_iso": "2026-10-27T10:20:17+08:00",
+  "generated_at": "2026-10-28",
+  "generated_at_iso": "2026-10-28T10:31:10+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-27",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "title_en": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "title_zh": "扩大我们与GSA的合作关系，将 Claude 带给各级政府",
+          "summary_zh": "我们正在通过一项新协议扩大与总务管理局 (GSA) 的合作关系，该协议为政府合作伙伴提供 Claude 企业的40% 折扣，为政府合作伙伴提供 Claude 的 API 折扣。折扣首次适用于每个产品表面，包括代理商今天直接从我们这里购买以及未来几个月通过云提供商购买时。折扣还扩展到州，地方，部落和领土政府。我们还将启动一项专门计划，以帮助代理商实施并充分利用其 Claude 使用。这些计划通常由我们的私营部门客户利用，我们期待在未来几周内将这些最佳实践带给我们的公共部门合作伙伴。",
+          "summary_en": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API. For the first time, the discount applies across every product surface, including when agencies buy from us directly today and through cloud providers in the coming months. The discount also extends to state, local, tribal and territorial governments. We are also launching a dedicated program to help agencies implement and make the most of their Claude use. These programs are commonly leveraged by our private sector customers and we’re looking forward to bringing those best practices to our public sector partners in the coming weeks.",
+          "summary_status": "ready",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-27",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://www.anthropic.com/research/agents-judgment-calls",
+          "title_en": "How AI agents shape experts’ judgment calls",
+          "title_zh": "AI代理商如何塑造专家的判断力",
+          "summary_zh": "在一项随机试验中，与人工智能编码代理一起工作的专业分析师选择了代理被随机分配到86% 支持的选项。我们来看看这对人工智能辅助工作的人类监督意味着什么。当专家将他们的工作交给人工智能代理时，通常的假设是他们仍然做出重要的决定。代理编写代码，运行数字并提供建议，但专家决定测量什么，如何解释模棱两可的证据，以及下一步应该是什么。通常，这些问题有不止一个合理的答案，而决定将取决于打电话的人的经验和价值观。",
+          "summary_en": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work. When experts hand their work to an AI agent, the usual assumption is that they still make the decisions that matter. The agent writes the code, runs the numbers, and offers advice, but the expert decides what to measure, how to interpret ambiguous evidence, and what the next steps should be. Often there is more than one reasonable answer to these questions, and the decision will come down to the experience and values of whoever makes the call.",
+          "summary_status": "ready",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-27",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "title_en": "Early progress on accelerating drug development with Claude",
+          "title_zh": "Claude 加速药物开发的早期进展",
+          "summary_zh": "在过去的几个月里，我们与六个组织合作，加速治愈疾病。我们还开始了自己的药物发现工作，包括针对罕见的儿童形式的肌营养不良症的计划。在这篇文章中，我们提供了我们进展的最新情况。Anthropic 的生命科学团队致力于加速疾病的治疗。在过去的几个月中，我们的科学家与六个开发新药的组织建立了深入的研究合作伙伴关系: BigHat Biosciences，Bristol Myers Squibb，Divergence Labs，Enveda，Generate Biomedicines和Column Group。我们也开始了自己的药物发现工作。",
+          "summary_en": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress. Anthropic’s life sciences team is working to accelerate curing disease. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines: BigHat Biosciences , Bristol Myers Squibb , Divergence Labs , Enveda , Generate Biomedicines , and The Column Group . We've also begun drug discovery efforts of our own.",
+          "summary_status": "ready",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-10-27",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
+          "title_en": "Manage costs and demonstrate ROI for Claude Code on Google Cloud",
+          "title_zh": "管理成本并展示Google Cloud上 Claude 代码的投资回报率",
+          "summary_zh": "管理成本和衡量Google Cloud上 Anthropic 的 Claude 代码的投资回报的最佳做法。管理成本和衡量Google Cloud上 Claude 代码的投资回报的最佳实践。",
+          "summary_en": "Best practices for managing costs and measuring return on investment for Anthropic's Claude Code on Google Cloud. Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-27",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+          "title_en": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+          "title_zh": "使用 Claude 发现和利用关键的真实软件中的漏洞",
+          "summary_zh": "在过去的几个月里，我们使用了一个未发布的内部研究模型来发现一些世界上使用最广泛的软件中的关键漏洞，比如浏览器和操作系统。在这篇文章中，我们分享了五个攻击链的详细信息，这些攻击链导致远程代码执行和其他关键影响，几乎没有用户交互。这些攻击链展示了该模型在开源和专有软件中创建复杂的多步骤漏洞利用的能力。这些产品中的任何漏洞都可能影响数十亿用户。它们也是世界上最安全关键的软件之一，使它们成为测试模型漏洞研究和网络能力的领头羊。",
+          "summary_en": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction. These attack chains demonstrate the model’s ability to create sophisticated, multi-step exploits in both open-source and proprietary software. Any vulnerabilities in these products could affect billions of users. They’re also among the most security-critical software in the world, making them a bellwether for testing models’ vulnerability research and cyber capabilities.",
+          "summary_status": "ready",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-10-27",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "articles": [
@@ -879,6 +944,13 @@
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+        "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-27",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/news/s1-sec",
         "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
@@ -2862,6 +2934,20 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/early-progress-drug-development",
+        "title": "Early progress on accelerating drug development with Claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-27",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://www.anthropic.com/research/agents-judgment-calls",
+        "title": "How AI agents shape experts’ judgment calls",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-10-27",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
         "title": "An alignment assessment of the UK AISI cybertesting incident",
@@ -5046,6 +5132,13 @@
     ],
     "red_team": [
       {
+        "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+        "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+        "desc": "Anthropic 红队安全研究（red.anthropic.com）",
+        "date": "2026-10-27",
+        "date_precision": "day"
+      },
+      {
         "url": "https://www.anthropic.com/research/formal-verification",
         "title": "LLMs are making formal software verification feasible at a much larger scale",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
@@ -5369,6 +5462,13 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
+        "title": "Manage costs and demonstrate ROI for Claude Code on Google Cloud",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-27",
+        "date_precision": "day"
+      },
       {
         "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
         "title": "Expanding Claude for Nonprofits",
@@ -9154,60 +9254,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-27T10:20:11+08:00",
+    "last_success_at": "2026-10-28T10:31:00+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
-        "discovered": 271,
-        "last_success_at": "2026-10-27T10:20:11+08:00",
+        "discovered": 272,
+        "last_success_at": "2026-10-28T10:31:00+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 203,
-        "last_success_at": "2026-10-27T10:20:11+08:00",
+        "discovered": 206,
+        "last_success_at": "2026-10-28T10:31:00+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-27T10:20:11+08:00",
+        "last_success_at": "2026-10-28T10:31:00+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 52,
-        "last_success_at": "2026-10-27T10:20:11+08:00",
+        "last_success_at": "2026-10-28T10:31:00+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-27T10:20:11+08:00",
+        "last_success_at": "2026-10-28T10:31:00+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 269,
-        "last_success_at": "2026-10-27T10:20:11+08:00",
+        "discovered": 270,
+        "last_success_at": "2026-10-28T10:31:00+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 55,
-        "last_success_at": "2026-10-27T10:20:11+08:00",
+        "last_success_at": "2026-10-28T10:31:00+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-27T10:20:11+08:00",
+        "last_success_at": "2026-10-28T10:31:00+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 64,
-      "ready": 64,
+      "total": 69,
+      "ready": 69,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
