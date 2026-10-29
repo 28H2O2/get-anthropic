@@ -1,8 +1,61 @@
 {
-  "generated_at": "2026-10-28",
-  "generated_at_iso": "2026-10-28T10:31:10+08:00",
+  "generated_at": "2026-10-29",
+  "generated_at_iso": "2026-10-29T10:42:05+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-10-28",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+          "title_en": "AI for Science expands to foundations and institutions",
+          "title_zh": "AI for Science扩展到基金会和机构",
+          "summary_zh": "我们重点介绍了来自世界各地的20个科学基金会，机构和研究小组，我们与他们合作扩展了我们的AI for Science计划。我们重点介绍了来自世界各地的20个科学基金会，机构和研究小组，我们与他们合作扩展了AI for Science计划，该计划为从事高影响力科学项目的研究人员提供免费的 Claude 学分。我们于2025年5月启动了人工智能科学计划，相信人工智能可以显著加快科学进步。我们的目标是增加对人工智能工具和资源的访问，使研究人员能够深化和扩展自己的科学工作。",
+          "summary_en": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program. We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program , which gives free Claude credits to researchers working on high-impact scientific projects. We started the AI for Science program in May 2025 with the belief that AI could significantly speed up scientific progress. Our goal is to increase access to AI tools and resources to enable researchers to deepen and expand their own scientific work.",
+          "summary_status": "ready",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-10-28",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
+          "title_en": "IDC brings Quanta into Claude and adopts Claude across the company",
+          "title_zh": "IDC将广达纳入 Claude，并在整个公司采用 Claude",
+          "summary_zh": "IDC将 Claude 集成为其Quanta平台的一部分，并已将 Claude 推出自己的业务",
+          "summary_en": "IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-28",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+          "title_en": "Introducing artifacts for legal work with Claude",
+          "title_zh": "使用 Claude 介绍法律工作的工件",
+          "summary_zh": "Anthropic 的新法律工具和连接器可帮助法律团队完成 Claude 的工作。Claude for Legal现在包括用于法律工作的现成可用的构件，团队可以使用自己的数据和连接器进行调整，并在整个业务范围内共享。",
+          "summary_en": "Anthropic's new legal artifacts and connectors help legal teams get work done with Claude. Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-28",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
+          "title_en": "Smart reports, surveys, and pooled group budgets for Claude Enterprise",
+          "title_zh": "Claude 企业的智能报告、调查和集合集团预算",
+          "summary_zh": "智能报告显示正在进行的工作和在哪里，调查捕获对其的反馈，并汇总组预算为每个团队提供一个共享预算。在许多组织中，成员已经确定了 Claude 可以解锁的独特工作。下一步是将这项工作扩展到每个团队。",
+          "summary_en": "Smart reports show what work is happening and where, surveys capture feedback on it, and pooled group budgets give each team one shared budget. In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-10-28",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "articles": [
@@ -911,39 +964,17 @@
           "date_precision": "day"
         }
       ]
-    },
-    {
-      "date": "2026-09-28",
-      "articles": [
-        {
-          "url": "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia",
-          "title_en": "Giving companies more control over their AI agents, with NVIDIA",
-          "title_zh": "通过NVIDIA为公司提供对AI代理商的更多控制权",
-          "summary_zh": "Anthropic 与NVIDIA合作，为其开放式agent安全平台的Agent堆栈提供额外的安全和控制层。注意: 本博客已从其原始版本进行了更新，以包含有关 Claude 托管代理的其他技术详细信息。",
-          "summary_en": "Anthropic has collaborated with NVIDIA to bring additional layers of security and control to the agent stack of its Open Agent Safety Platform. Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-28",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.dev/blog/automating-eval-design-and-hillclimbing",
-          "title_en": "Automating eval design and hillclimbing with Claude / claude.dev Blog",
-          "title_zh": "使用 Claude 自动化评估设计与爬山算法/claude.dev博客",
-          "summary_zh": "设计评估并在此基础上进行爬山优化而不自欺欺人的原则，以及Claude API技能的build-eval和hillclimb命令如何将这些原则付诸实践。评估能够反映您的应用或技能在特定任务上的表现情况。然而，设计评估方案并在不自欺的情况下提升评估表现，实属不易。我们已将这两项指南添加至claude-api技能中。借助该功能，您可以在代码库中运行 /claude-api build-eval来构建评估，并通过 /claude-api hillclimb对您的应用进行迭代优化，每次只做一项改动，同时使用预留的示例集来防止过拟合。",
-          "summary_en": "Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work. Evaluations provide a signal on how your app or skill is performing on specific tasks. But designing evaluations, and improving performance on them without fooling yourself, is hard. We've added guidance for both to the claude-api skill . With the skill, you can run /claude-api build-eval to build an evaluation inside your codebase, and run /claude-api hillclimb to improve your application against it, one change at a time, with a held-out set of examples to catch overfitting.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-28",
-          "date_precision": "day"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+        "title": "AI for Science expands to foundations and institutions",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-10-28",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
         "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
@@ -5463,6 +5494,27 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets",
+        "title": "Smart reports, surveys, and pooled group budgets for Claude Enterprise",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-28",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+        "title": "Introducing artifacts for legal work with Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-28",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company",
+        "title": "IDC brings Quanta into Claude and adopts Claude across the company",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-10-28",
+        "date_precision": "day"
+      },
+      {
         "url": "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud",
         "title": "Manage costs and demonstrate ROI for Claude Code on Google Cloud",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -9254,60 +9306,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-28T10:31:00+08:00",
+    "last_success_at": "2026-10-29T10:41:55+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
-        "discovered": 272,
-        "last_success_at": "2026-10-28T10:31:00+08:00",
+        "discovered": 273,
+        "last_success_at": "2026-10-29T10:41:55+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 206,
-        "last_success_at": "2026-10-28T10:31:00+08:00",
+        "last_success_at": "2026-10-29T10:41:55+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-28T10:31:00+08:00",
+        "last_success_at": "2026-10-29T10:41:55+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 52,
-        "last_success_at": "2026-10-28T10:31:00+08:00",
+        "last_success_at": "2026-10-29T10:41:55+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-28T10:31:00+08:00",
+        "last_success_at": "2026-10-29T10:41:55+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 270,
-        "last_success_at": "2026-10-28T10:31:00+08:00",
+        "discovered": 273,
+        "last_success_at": "2026-10-29T10:41:55+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 55,
-        "last_success_at": "2026-10-28T10:31:00+08:00",
+        "last_success_at": "2026-10-29T10:41:55+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-28T10:31:00+08:00",
+        "last_success_at": "2026-10-29T10:41:55+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 69,
-      "ready": 69,
+      "total": 71,
+      "ready": 71,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
