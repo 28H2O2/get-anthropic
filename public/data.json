@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29",
-  "generated_at_iso": "2026-10-29T10:42:05+08:00",
+  "generated_at": "2026-10-30",
+  "generated_at_iso": "2026-10-30T10:48:56+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -920,47 +920,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-09-30",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
-          "title_en": "What do you want from AI?",
-          "title_zh": "你希望人工智能为你带来什么？",
-          "summary_zh": "我们正在开展一项新研究，将使用Anthropic访谈员，以从您与人工智能的互动经验中汲取insights。我们正在开展一项新研究，将使用Anthropic访谈工具，以了解您与人工智能的互动体验，诚邀您参与。完成后，您可以选择将您的访谈公开，这样不仅Anthropic，任何人都可以阅读并从中学习。您可以在这里参与。我们正处于人工智能发展的关键节点，其日益增强的能力使其既可能变得更加有用，也可能变得更加危险。前沿人工智能正以前所未有的速度推动科学与医学领域的重大发现，与此同时，其被滥用的代价也愈发沉重——单次安全事件造成的损害已远超一年前。",
-          "summary_en": "We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI. We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can participate here . We are at a pivotal moment in the development of AI, as its growing capabilities mean it becomes potentially more useful and more dangerous. Frontier AI is rapidly accelerating discoveries in science and medicine , while at the same time the cost of its misuse grows more consequential — a single security incident can cause far more damage than it did a year ago.",
-          "summary_status": "ready",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-09-29",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
-          "title_en": "Agents you can coach: how Asana builds human-agent teams with Claude",
-          "title_zh": "您可以指导的代理: Asana如何使用 Claude 构建人工代理团队",
-          "summary_zh": "Asana首席产品官Arnab Bose介绍了Asana如何将 Claude 支持的AI代理作为具有范围角色、共享内存和每个人都能看到的工作的队友来运行。Asana首席产品官Arnab Bose介绍了Asana如何将AI代理作为具有范围角色，共享内存和每个人都能看到的工作的队友来运行。",
-          "summary_en": "Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see. Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-29",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-          "title_en": "GLM-5.3 and the spread of advanced cyber capabilities",
-          "title_zh": "GLM-5.3和先进网络能力的传播",
-          "summary_zh": "GLM-5.3可以自主构建端到端的网络漏洞利用，但与其他前沿模型不同，它的发布没有有意义的保护措施来限制滥用。安德鲁·法萨诺、马里乌斯·弗莱舍·科尔·麦克福尔、罗伯特·肖、特里普·加拉格尔五个月前，我们宣布了 Claude Mythos Preview，这是第一个可以自主构建复杂的端到端网络攻击的人工智能模型。人工智能的快速改进向我们表明，这种能力最终会扩散到许多其他模型，使恶意网络行为者更容易发动极具影响力的网络攻击。",
-          "summary_en": "GLM-5.3 can autonomously build end-to-end cyber exploits, but unlike other frontier models, it was released without meaningful safeguards to limit misuse. Andrew Fasano, Marius Fleischer Cole McFaul, Robert Xiao, Tripp Gallagher Five months ago, we announced Claude Mythos Preview, the first AI model that could autonomously build sophisticated, end-to-end cyber exploits. The rapid rate of improvement in AI suggested to us that this ability would eventually proliferate to many other models, making it much easier for malicious cyber actors to launch highly impactful cyberattacks.",
-          "summary_status": "ready",
-          "source": "Red Team",
-          "source_key": "red_team",
-          "date": "2026-09-29",
           "date_precision": "day"
         }
       ]
@@ -4830,6 +4789,13 @@
         "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
         "date": "2026-04-02",
         "date_precision": "day"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2026/october-update/index.html",
+        "title": "Circuits Updates â October 2026",
+        "desc": "Transformer 可解释性研究（Anthropic Circuits 团队）",
+        "date": "2026",
+        "date_precision": "year"
       },
       {
         "url": "https://transformer-circuits.pub/2026/may-update/index.html",
@@ -9306,60 +9272,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-29T10:41:55+08:00",
+    "last_success_at": "2026-10-30T10:48:53+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-10-29T10:41:55+08:00",
+        "last_success_at": "2026-10-30T10:48:53+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 206,
-        "last_success_at": "2026-10-29T10:41:55+08:00",
+        "last_success_at": "2026-10-30T10:48:53+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-29T10:41:55+08:00",
+        "last_success_at": "2026-10-30T10:48:53+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
-        "discovered": 52,
-        "last_success_at": "2026-10-29T10:41:55+08:00",
+        "discovered": 53,
+        "last_success_at": "2026-10-30T10:48:53+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-29T10:41:55+08:00",
+        "last_success_at": "2026-10-30T10:48:53+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-10-29T10:41:55+08:00",
+        "last_success_at": "2026-10-30T10:48:53+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 55,
-        "last_success_at": "2026-10-29T10:41:55+08:00",
+        "last_success_at": "2026-10-30T10:48:53+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-29T10:41:55+08:00",
+        "last_success_at": "2026-10-30T10:48:53+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 71,
-      "ready": 71,
+      "total": 68,
+      "ready": 68,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0

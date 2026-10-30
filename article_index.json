@@ -5,7 +5,7 @@
     "first_seen_at": "2026-10-29",
     "source": "anthropic_news",
     "title": "AI for Science expands to foundations and institutions",
-    "sitemap_lastmod": "2026-10-28",
+    "sitemap_lastmod": "2026-10-29",
     "date": "2026-10-28",
     "metadata_checked_at": "2026-10-29T10:41:55+08:00",
     "date_precision": "day",
@@ -14,7 +14,8 @@
     "summary_en": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program. We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program , which gives free Claude credits to researchers working on high-impact scientific projects. We started the AI for Science program in May 2025 with the belief that AI could significantly speed up scientific progress. Our goal is to increase access to AI tools and resources to enable researchers to deepen and expand their own scientific work.",
     "title_zh": "AI for Science扩展到基金会和机构",
     "summary_zh": "我们重点介绍了来自世界各地的20个科学基金会，机构和研究小组，我们与他们合作扩展了我们的AI for Science计划。我们重点介绍了来自世界各地的20个科学基金会，机构和研究小组，我们与他们合作扩展了AI for Science计划，该计划为从事高影响力科学项目的研究人员提供免费的 Claude 学分。我们于2025年5月启动了人工智能科学计划，相信人工智能可以显著加快科学进步。我们的目标是增加对人工智能工具和资源的访问，使研究人员能够深化和扩展自己的科学工作。",
-    "summary_updated_at": "2026-10-29T10:41:55+08:00"
+    "summary_updated_at": "2026-10-29T10:41:55+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets": {
     "summary_status": "ready",
@@ -30,7 +31,8 @@
     "summary_en": "Smart reports show what work is happening and where, surveys capture feedback on it, and pooled group budgets give each team one shared budget. In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.",
     "title_zh": "Claude 企业的智能报告、调查和集合集团预算",
     "summary_zh": "智能报告显示正在进行的工作和在哪里，调查捕获对其的反馈，并汇总组预算为每个团队提供一个共享预算。在许多组织中，成员已经确定了 Claude 可以解锁的独特工作。下一步是将这项工作扩展到每个团队。",
-    "summary_updated_at": "2026-10-29T10:41:55+08:00"
+    "summary_updated_at": "2026-10-29T10:41:55+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/introducing-artifacts-for-legal-work": {
     "summary_status": "ready",
@@ -46,7 +48,8 @@
     "summary_en": "Anthropic's new legal artifacts and connectors help legal teams get work done with Claude. Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.",
     "title_zh": "使用 Claude 介绍法律工作的工件",
     "summary_zh": "Anthropic 的新法律工具和连接器可帮助法律团队完成 Claude 的工作。Claude for Legal现在包括用于法律工作的现成可用的构件，团队可以使用自己的数据和连接器进行调整，并在整个业务范围内共享。",
-    "summary_updated_at": "2026-10-29T10:41:55+08:00"
+    "summary_updated_at": "2026-10-29T10:41:55+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company": {
     "summary_status": "ready",
@@ -62,7 +65,8 @@
     "summary_en": "IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business",
     "title_zh": "IDC将广达纳入 Claude，并在整个公司采用 Claude",
     "summary_zh": "IDC将 Claude 集成为其Quanta平台的一部分，并已将 Claude 推出自己的业务",
-    "summary_updated_at": "2026-10-29T10:41:55+08:00"
+    "summary_updated_at": "2026-10-29T10:41:55+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/early-progress-drug-development": {
     "summary_status": "ready",
@@ -124,7 +128,7 @@
     "first_seen_at": "2026-10-28",
     "source": "anthropic_news",
     "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-    "sitemap_lastmod": "2026-10-27",
+    "sitemap_lastmod": "2026-10-29",
     "date": "2026-10-27",
     "metadata_checked_at": "2026-10-28T10:31:00+08:00",
     "date_precision": "day",
@@ -6736,7 +6740,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-10-29"
   },
   "https://www.anthropic.com/engineering/managed-agents": {
     "title": "Scaling Managed Agents: Decoupling the brain from the hands",
@@ -8607,6 +8611,19 @@
     "date_precision": "day",
     "aliases": [],
     "sitemap_lastmod": "2026-10-14"
+  },
+  "https://transformer-circuits.pub/2026/october-update/index.html": {
+    "summary_status": "pending",
+    "processed": false,
+    "first_seen_at": "2026-10-30",
+    "source": "transformer_circuits",
+    "title": "Circuits Updates â October 2026",
+    "date": "2026",
+    "metadata_checked_at": "2026-10-30T10:48:53+08:00",
+    "date_precision": "year",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "We report a number of developing ideas on the Anthropic interpretability team, which might be of interest to researchers working actively in this space. Some of these are emerging strands of research where we expect to publish more on inÂ the coming months. Others are minor points we wish to share, since we're unlikely to ever write a paper about them. We'd ask you to treat these results like those of a colleague sharing some thoughts or preliminary experiments for a few minutes at a lab meeting, rather than a mature paper. In our recent paper , we introduced the Jacobian lens (J-lens), a technique for reading out the concepts that a model represents at its intermediate layers."
   },
   "https://transformer-circuits.pub/2026/nla/index.html": {
     "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM ActivationsFraser-Taliente, Kantamneni, Ong, et al., 2026We train Claude to translate its internal state into natural language.",
@@ -11571,7 +11588,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-09",
+    "sitemap_lastmod": "2026-10-29",
     "metadata_checked_at": "2026-10-21T16:01:22+08:00",
     "fetch_status": "ok"
   },
