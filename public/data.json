@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30",
-  "generated_at_iso": "2026-10-30T10:48:56+08:00",
+  "generated_at": "2026-10-31",
+  "generated_at_iso": "2026-10-31T10:39:19+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -879,47 +879,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-10-01",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/what-work-can-robots-do",
-          "title_en": "Can we predict the jobs robots will do?",
-          "title_zh": "我们能预测机器人会做什么工作吗？",
-          "summary_zh": "机器人能做什么工作？Anthropic 的机器人暴露指数发现，机器人可以完成我们3/4的体力劳动任务，但仅在0.3% 方面具有成本竞争力。大型语言模型的进步提高了自动化大量工作的可能性。但许多工作是体力劳动。人工智能对经济的影响将部分取决于机器人技术。¹ 预测机器人进步的速度是困难的，但我们认为，列举今天的能力可以为未来几年提供洞察力。我们使用 Claude 来评估当今机器人执行工作任务的能力。当机器人能够在更不稳定的环境中完成更多工作任务时，该岗位的自动化风险就会更高。当机器人完成同一项任务的成本低于人工时，它就具备了成本竞争力。",
-          "summary_en": "What work can robots do? Anthropic's robot exposure index finds robots can do 3/4 of US physical job tasks, but are cost-competitive for only 0.3%. Advances in large language models have raised the possibility of automating large swaths of work. But many jobs are physical. AI’s impact on the economy will in part depend on robotics.¹ Predicting the pace of robot advances is difficult, but enumerating capabilities today, we argue, can give insight into the coming years. We develop a measure of job exposure to robots, using Claude to assess how well present-day robots can perform work tasks. A job is more exposed when robots can do more of its tasks in less controlled environments. A robot is cost-competitive when it can do the same task for cheaper than a human worker.",
-          "summary_status": "ready",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-09-30",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/claude-for-government-is-now-generally-available",
-          "title_en": "Claude for Government is now generally available",
-          "title_zh": "Claude 适用于政府",
-          "summary_zh": "Microsoft 365的 Claude 代码CLI和 Claude 现在也可以在early access中使用。今天，联邦和州机构通常可以使用 Claude for dovernment。该平台通过FedRAMP高授权环境提供 Claude 的编码和代理工作功能，自7月以来一直处于公测阶段。代理商可以访问与 Anthropic 的商业客户相当的功能，而不会影响合规性要求。新功能通常以商业发布节奏到达。Claude 直接处理桌面上的文件，允许机构工作人员使用技能、插件和项目来创建备忘录、RFP审查、案例工作和其他任务。通过 Claude 代码，公共部门团队可以构建支撑公共服务的软件系统并使其现代化。",
-          "summary_en": "Claude Code CLI and Claude for Microsoft 365 also now available in early access. Today, Claude for Government is generally available for federal and state agencies. The platform, which delivers Claude's coding and agentic work capabilities through a FedRAMP High authorized environment, has been in public beta since July . Agencies access capabilities comparable to Anthropic’s commercial customers, without compromising compliance requirements. New capabilities generally arrive on the commercial release cadence. Claude works directly with files on the desktop, allowing agency staff to use skills, plugins and projects for memo creation, RFP reviews, casework, and other tasks. With Claude Code , public sector teams can build and modernize the software systems that underpin public services.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-30",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
-          "title_en": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
-          "title_zh": "Anthropic的销售团队如何借助Claude的托管代理团队重建了潜在客户引流流程",
-          "summary_zh": "如今，由Claude驱动的智能客服代理能够自动解答大多数潜在客户的咨询，这一变化也重塑了我们销售团队的工作方式。Anthropic的销售拓展负责人卡尔·约翰逊分享了这一转型如何改变我们的销售团队运作模式。",
-          "summary_en": "How a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-09-30",
           "date_precision": "day"
         }
       ]
@@ -8528,6 +8487,13 @@
         "date_precision": "day"
       },
       {
+        "url": "https://alignment.anthropic.com/2026/automated-em-search",
+        "title": "Automated Subtle Emergent Misalignment Research",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026-10",
+        "date_precision": "month"
+      },
+      {
         "url": "https://alignment.anthropic.com/2026/lie-detectors",
         "title": "Fine-Tuned Lie Detectors Failed to Generalize",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
@@ -8677,6 +8643,13 @@
       {
         "url": "https://alignment.anthropic.com/2026/automated-alignment-agent",
         "title": "A3: An Automated Alignment Agent for Safety Finetuning",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026",
+        "date_precision": "year"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/anthropic-residency",
+        "title": "Anthropic Residency: applications open for established technical leaders",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
         "date": "2026",
         "date_precision": "year"
@@ -9272,60 +9245,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-10-30T10:48:53+08:00",
+    "last_success_at": "2026-10-31T10:39:15+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-10-30T10:48:53+08:00",
+        "last_success_at": "2026-10-31T10:39:15+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 206,
-        "last_success_at": "2026-10-30T10:48:53+08:00",
+        "last_success_at": "2026-10-31T10:39:15+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-10-30T10:48:53+08:00",
+        "last_success_at": "2026-10-31T10:39:15+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-10-30T10:48:53+08:00",
+        "last_success_at": "2026-10-31T10:39:15+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-10-30T10:48:53+08:00",
+        "last_success_at": "2026-10-31T10:39:15+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-10-30T10:48:53+08:00",
+        "last_success_at": "2026-10-31T10:39:15+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
-        "discovered": 55,
-        "last_success_at": "2026-10-30T10:48:53+08:00",
+        "discovered": 57,
+        "last_success_at": "2026-10-31T10:39:15+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-10-30T10:48:53+08:00",
+        "last_success_at": "2026-10-31T10:39:15+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 68,
-      "ready": 68,
+      "total": 65,
+      "ready": 65,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0

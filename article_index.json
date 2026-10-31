@@ -92,7 +92,7 @@
     "first_seen_at": "2026-10-28",
     "source": "red_team",
     "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
-    "sitemap_lastmod": "2026-10-28",
+    "sitemap_lastmod": "2026-10-30",
     "date": "2026-10-27",
     "metadata_checked_at": "2026-10-28T10:31:00+08:00",
     "date_precision": "day",
@@ -1116,6 +1116,19 @@
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
     "summary_en": "Mods are small TypeScript functions that change how Claude Code works. Rewrite prompts, block risky commands, add custom UI, or replace built-in features. Write one yourself or ask Claude Code to write it, then share it as a plugin. Today we're introducing mods, small TypeScript functions that change how Claude Code works. A mod can rewrite a prompt, add new UI, replace a built-in feature, or add entirely new functionality. You can write a mod yourself, or ask Claude Code to write one for you. Mods ship inside plugins, so you install and share them like any plugin. They work in the Claude Code CLI and desktop app. Mods run with the same access to your machine as Claude Code itself."
+  },
+  "https://alignment.anthropic.com/2026/automated-em-search": {
+    "summary_status": "pending",
+    "processed": false,
+    "first_seen_at": "2026-10-31",
+    "source": "alignment",
+    "title": "Automated Subtle Emergent Misalignment Research",
+    "date": "2026-10",
+    "metadata_checked_at": "2026-10-31T10:39:15+08:00",
+    "date_precision": "month",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Red-teaming by humans is a vital part of model safety testing, but it may struggle to keep up as models improve. To test whether automated safety techniques could scale (which would allow us to turn more compute into progressively more safety confidence), we set up a deliberately one-sided game as a first test. We instructed a Claude model to write training data that would make a small research model misaligned while passing a monitor similar to those we use in production — one of several defenses we use — and we gave it that monitor to practice against. Given enough attempts, it succeeded, mostly by hiding the behavior in fiction and roleplay."
   },
   "https://www.anthropic.com/research/what-work-can-robots-do": {
     "title": "Can we predict the jobs robots will do?",
@@ -6740,7 +6753,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-29"
+    "sitemap_lastmod": "2026-10-30"
   },
   "https://www.anthropic.com/engineering/managed-agents": {
     "title": "Scaling Managed Agents: Decoupling the brain from the hands",
@@ -8623,7 +8636,8 @@
     "date_precision": "year",
     "date_verified": true,
     "fetch_status": "ok",
-    "summary_en": "We report a number of developing ideas on the Anthropic interpretability team, which might be of interest to researchers working actively in this space. Some of these are emerging strands of research where we expect to publish more on inÂ the coming months. Others are minor points we wish to share, since we're unlikely to ever write a paper about them. We'd ask you to treat these results like those of a colleague sharing some thoughts or preliminary experiments for a few minutes at a lab meeting, rather than a mature paper. In our recent paper , we introduced the Jacobian lens (J-lens), a technique for reading out the concepts that a model represents at its intermediate layers."
+    "summary_en": "We report a number of developing ideas on the Anthropic interpretability team, which might be of interest to researchers working actively in this space. Some of these are emerging strands of research where we expect to publish more on inÂ the coming months. Others are minor points we wish to share, since we're unlikely to ever write a paper about them. We'd ask you to treat these results like those of a colleague sharing some thoughts or preliminary experiments for a few minutes at a lab meeting, rather than a mature paper. In our recent paper , we introduced the Jacobian lens (J-lens), a technique for reading out the concepts that a model represents at its intermediate layers.",
+    "aliases": []
   },
   "https://transformer-circuits.pub/2026/nla/index.html": {
     "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM ActivationsFraser-Taliente, Kantamneni, Ong, et al., 2026We train Claude to translate its internal state into natural language.",
@@ -8745,6 +8759,19 @@
     "aliases": [],
     "metadata_checked_at": "2026-10-21T16:07:55+08:00",
     "fetch_status": "ok"
+  },
+  "https://alignment.anthropic.com/2026/anthropic-residency": {
+    "summary_status": "pending",
+    "processed": false,
+    "first_seen_at": "2026-10-31",
+    "source": "alignment",
+    "title": "Anthropic Residency: applications open for established technical leaders",
+    "date": "2026",
+    "metadata_checked_at": "2026-10-31T10:39:15+08:00",
+    "date_precision": "year",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Today we are opening applications for the Anthropic Residency, our paid, fixed-term research program with placements lasting between six weeks and six months. We are looking for people who have led ambitious work in a variety of technical fields and want to transition to full-time work focused on making AI systems safe and beneficial for all of humanity. If you are a professor in a quantitative discipline, a technical founder, or a staff-level engineer and want to transition to work on transformative AI, we want to hear from you. Background in machine learning is not required. Applications for this round close on November 22, 2026. Apply here (US) or here (UK) . Machine learning is a young field."
   },
   "https://alignment.anthropic.com/2026/ai-organizations": {
     "title": "AI Organizations Can Be More Effective but Less Aligned than Individual Agents",
