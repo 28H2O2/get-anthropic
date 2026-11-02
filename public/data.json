@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01",
-  "generated_at_iso": "2026-11-01T10:29:14+08:00",
+  "generated_at": "2026-11-02",
+  "generated_at_iso": "2026-11-02T10:41:12+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -821,23 +821,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-10-05",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/claude-frontier-academy",
-          "title_en": "Claude Frontier Academy: $100M to train 10,000 engineers",
-          "title_zh": "Claude Frontier Academy: 100美元培训10,000工程师",
-          "summary_zh": "Claude Frontier Academy trains Frontier按照 Anthropic 自己的标准部署了工程师-10000万美元的承诺在2027年年底之前培训10,000。这所一流的学院使用与 Anthropic 自己的工程师相同的技能标准来培训前沿部署的工程师，从埃森哲、贝恩、凯捷、澳大利亚联邦银行、德勤、麦肯锡、摩根士丹利、诺和诺德等公司的团队开始。今天，我们启动了 Claude Frontier Academy，以解决人工智能实施中最紧迫的问题之一: 人才。在10000万美元的支持下，Anthropic 旨在到2027年底培训10,000名FDEs部署工程师。",
-          "summary_en": "Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027. The first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk and others. Today we are launching Claude Frontier Academy to solve one of the most pressing issues in AI implementation: talent. Backed by a $100 million commitment, Anthropic aims to train 10,000 Frontier Deployed Engineers (FDEs) by the end of 2027.",
-          "summary_status": "ready",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-10-02",
           "date_precision": "day"
         }
       ]
@@ -9204,60 +9187,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-01T10:29:10+08:00",
+    "last_success_at": "2026-11-02T10:41:10+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-11-01T10:29:10+08:00",
+        "last_success_at": "2026-11-02T10:41:10+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 206,
-        "last_success_at": "2026-11-01T10:29:10+08:00",
+        "last_success_at": "2026-11-02T10:41:10+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 99,
-        "last_success_at": "2026-11-01T10:29:10+08:00",
+        "last_success_at": "2026-11-02T10:41:10+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-01T10:29:10+08:00",
+        "last_success_at": "2026-11-02T10:41:10+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-01T10:29:10+08:00",
+        "last_success_at": "2026-11-02T10:41:10+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-11-01T10:29:10+08:00",
+        "last_success_at": "2026-11-02T10:41:10+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 57,
-        "last_success_at": "2026-11-01T10:29:10+08:00",
+        "last_success_at": "2026-11-02T10:41:10+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-01T10:29:10+08:00",
+        "last_success_at": "2026-11-02T10:41:10+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 62,
-      "ready": 62,
+      "total": 61,
+      "ready": 61,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
