@@ -1,4 +1,36 @@
 {
+  "https://platform.claude.com/cookbook/latency-optimization-latency-optimization": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-03",
+    "source": "cookbook",
+    "title": "Latency Optimization on the Claude API | Claude Cookbook",
+    "date": "2026-11-02",
+    "metadata_checked_at": "2026-11-03T11:59:18+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Find the fastest agent configuration that still meets your accuracy bar by testing each of the Claude API's latency levers on a real eval. Optimizing LLM workloads is a balancing act between quality, cost, and latency. Most of our cookbooks cover output quality, and the cost optimization cookbook (opens in new tab) covers spend. This one is about making your Claude-powered experience as fast as possible. You might need lower latency to deliver a real-time product experience, like a call center voice agent. You might have time-sensitive dependencies, like a fraud check that has to be cleared before payment authorization times out. Or the result might lose value the longer it takes, such as in summarizing an earnings call for traders before the market reacts.",
+    "title_zh": "Claude API | Claude 说明书上的延迟优化",
+    "summary_zh": "通过在实际评估中测试 Claude API 的每个延迟杠杆，找到仍然符合您的准确性要求的最快的代理配置。优化 LLM 工作负载是质量、成本和延迟之间的平衡。我们的大多数食谱都涵盖了输出质量，而成本优化食谱 (在新选项卡中打开) 涵盖了支出。这是关于让您的 Claude 供电的体验尽可能快。您可能需要更低的延迟来提供实时产品体验，例如呼叫中心语音代理。您可能有时间敏感的依赖关系，例如必须在付款授权超时之前清除的欺诈检查。或者，花费的时间越长，结果可能会失去价值，例如在市场反应之前为交易者总结收益电话。",
+    "summary_updated_at": "2026-11-03T11:59:18+08:00"
+  },
+  "https://claude.com/resources/articles/message-threads": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-03",
+    "source": "claude_blog",
+    "title": "Make long-running agents faster with message threads",
+    "date": "2026-11-02",
+    "metadata_checked_at": "2026-11-03T11:59:18+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.",
+    "title_zh": "使用消息线程使长时间运行的代理更快",
+    "summary_zh": "消息中的New API, 发送一次您的对话，并且 API 只接收每回合的新内容。",
+    "summary_updated_at": "2026-11-03T11:59:18+08:00"
+  },
   "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions": {
     "summary_status": "ready",
     "processed": true,
@@ -1075,7 +1107,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-08",
+    "sitemap_lastmod": "2026-11-02",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -2442,7 +2474,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-08"
+    "sitemap_lastmod": "2026-11-02"
   },
   "https://claude.com/resources/articles/ai-ci-cd-on-call": {
     "summary_status": "pending",
@@ -7167,7 +7199,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-09"
+    "sitemap_lastmod": "2026-11-02"
   },
   "https://www.anthropic.com/research/long-running-claude": {
     "title": "Long-running Claude for scientific computing",
