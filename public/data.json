@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03",
-  "generated_at_iso": "2026-11-03T11:59:25+08:00",
+  "generated_at": "2026-11-04",
+  "generated_at_iso": "2026-11-04T11:07:06+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -27,6 +27,18 @@
           "summary_status": "ready",
           "source": "Claude Cookbook",
           "source_key": "cookbook",
+          "date": "2026-11-02",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://www.anthropic.com/research/provable-inference",
+          "title_en": "Progress on provable inference for large language models",
+          "title_zh": "大型语言模型的可证明推理研究进展",
+          "summary_zh": "共享称为zkSNARK的强大类型的加密证明的进展，该证明特别适合可证明的推理。Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL),ben Mayer (Anthropic 麻省理工学院研究员计划)，Guy Weissenberg (EPFL) 当您亲自与朋友交谈时，您有很多方法可以知道确实是他们: 您可以看到他们，听到他们，与他们握手。当你与人工智能模型对话时，你几乎没有任何控制权。",
+          "summary_en": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference. Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL), Ben Mayer (Anthropic Fellows Program, MIT), Guy Weissenberg (EPFL) When you talk to a friend in person, you have many ways to know it is really them: you can see them, hear them, shake their hand. When you talk to an AI model, you have almost none.",
+          "summary_status": "ready",
+          "source": "Red Team",
+          "source_key": "red_team",
           "date": "2026-11-02",
           "date_precision": "day"
         }
@@ -5066,6 +5078,13 @@
     ],
     "red_team": [
       {
+        "url": "https://www.anthropic.com/research/provable-inference",
+        "title": "Progress on provable inference for large language models",
+        "desc": "Anthropic 红队安全研究（red.anthropic.com）",
+        "date": "2026-11-02",
+        "date_precision": "day"
+      },
+      {
         "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
         "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
@@ -9230,60 +9249,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-03T11:59:18+08:00",
+    "last_success_at": "2026-11-04T11:07:00+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-11-03T11:59:18+08:00",
+        "last_success_at": "2026-11-04T11:07:00+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 206,
-        "last_success_at": "2026-11-03T11:59:18+08:00",
+        "discovered": 207,
+        "last_success_at": "2026-11-04T11:07:00+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-03T11:59:18+08:00",
+        "last_success_at": "2026-11-04T11:07:00+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-03T11:59:18+08:00",
+        "last_success_at": "2026-11-04T11:07:00+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-03T11:59:18+08:00",
+        "last_success_at": "2026-11-04T11:07:00+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 274,
-        "last_success_at": "2026-11-03T11:59:18+08:00",
+        "last_success_at": "2026-11-04T11:07:00+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 57,
-        "last_success_at": "2026-11-03T11:59:18+08:00",
+        "last_success_at": "2026-11-04T11:07:00+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-03T11:59:18+08:00",
+        "last_success_at": "2026-11-04T11:07:00+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 63,
-      "ready": 63,
+      "total": 64,
+      "ready": 64,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
