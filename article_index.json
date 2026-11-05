@@ -1,4 +1,37 @@
 {
+  "https://www.anthropic.com/research/investigating-vault-particles-with-claude": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-05",
+    "source": "anthropic_research",
+    "title": "Investigating vault particles with Claude",
+    "sitemap_lastmod": "2026-11-04",
+    "date": "2026-11-04",
+    "metadata_checked_at": "2026-11-05T11:39:06+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Biological cells were first detected in 1665, but more than three and a half centuries later, much of how they work remains unknown. Until relatively recently, the existence of some crucial components , let alone their function , was controversial. Even today, more than a third of the roughly 4,400 genes in one of the most comprehensively studied cells, the bacterium E. coli , remain poorly understood . Another such enigma is the vault particle . A vault particle is a large, hollow protein shell found in nearly all the cells in our body. It was discovered in 1986 by Leonard Rome and Nancy Kedersha, but its function remains elusive.",
+    "title_zh": "调查 Claude 的拱顶颗粒",
+    "summary_zh": "我们分享了 Anthropic 生物研究实验室的另一个发现: 在原核细胞中发现的第一个穹顶颗粒的3D结构。首先在1665中发现了生物细胞，但是三个半世纪后，它们的工作原理仍然未知。直到最近，一些关键组件的存在还是有争议的，更不用说它们的功能了。即使在今天，在研究最全面的细胞之一大肠杆菌中，大约4,400个基因中的三分之一以上仍然知之甚少。另一个这样的谜是拱顶粒子。穹窿颗粒是一种巨大的中空蛋白质外壳，几乎存在于我们体内的所有细胞中。伦纳德·罗马和南希·凯德沙1986年发现了它，但它的功能仍然难以捉摸。",
+    "summary_updated_at": "2026-11-05T11:39:06+08:00"
+  },
+  "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-05",
+    "source": "claude_blog",
+    "title": "New agents and products on Claude Marketplace",
+    "date": "2026-11-04",
+    "metadata_checked_at": "2026-11-05T11:39:06+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Explore new agents and products on Claude Marketplace that help teams with security, developer infrastructure, creative work, and productivity. We’ve added new agents and products to Claude Marketplace , where teams find partner tools and services to help them get more from Claude. The additions cover security, developer infrastructure, creative, and productivity. Eligible enterprise customers can apply a portion of their committed Anthropic spend toward these solutions. This lets them use one commitment across Claude and partner products, whether they’re buying something new or expanding with a platform they already use. There are now over 25 partner agents and products on the marketplace. Here are the latest additions and what teams can do with them.",
+    "title_zh": "Claude Marketplace上的新代理商和产品",
+    "summary_zh": "在 Claude Marketplace上探索可帮助团队提高安全性、开发人员基础架构、创造性工作和生产力的新代理和产品。我们向 Claude Marketplace添加了新的代理和产品，团队可以在其中找到合作伙伴工具和服务，以帮助他们从 Claude 中获得更多。新增内容包括安全性、开发人员基础架构、创意和生产力。符合条件的企业客户可以将其承诺的 Anthropic 支出的一部分用于这些解决方案。这使他们可以在 Claude 和合作伙伴产品中使用一个承诺，无论他们是购买新产品还是使用已经使用的平台进行扩展。现在市场上有超过25个合作伙伴代理和产品。以下是最新的补充以及团队可以使用它们做什么。",
+    "summary_updated_at": "2026-11-05T11:39:06+08:00"
+  },
   "https://www.anthropic.com/research/provable-inference": {
     "summary_status": "ready",
     "processed": true,
@@ -14,7 +47,24 @@
     "summary_en": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference. Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL), Ben Mayer (Anthropic Fellows Program, MIT), Guy Weissenberg (EPFL) When you talk to a friend in person, you have many ways to know it is really them: you can see them, hear them, shake their hand. When you talk to an AI model, you have almost none.",
     "title_zh": "大型语言模型的可证明推理研究进展",
     "summary_zh": "共享称为zkSNARK的强大类型的加密证明的进展，该证明特别适合可证明的推理。Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL),ben Mayer (Anthropic 麻省理工学院研究员计划)，Guy Weissenberg (EPFL) 当您亲自与朋友交谈时，您有很多方法可以知道确实是他们: 您可以看到他们，听到他们，与他们握手。当你与人工智能模型对话时，你几乎没有任何控制权。",
-    "summary_updated_at": "2026-11-04T11:07:00+08:00"
+    "summary_updated_at": "2026-11-04T11:07:00+08:00",
+    "aliases": []
+  },
+  "https://platform.claude.com/cookbook/managed-agents-cma-dreaming-with-a-dynamic-workflow": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-05",
+    "source": "cookbook",
+    "title": "Dreaming with a dynamic workflow | Claude Cookbook",
+    "date": "2026-11-02",
+    "metadata_checked_at": "2026-11-05T11:39:06+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Build a small working dream for your agents. A Managed Agents dynamic workflow reads finished sessions, distills them into a wiki-style memory store that future sessions mount read-only, and can run every night from cron. Your agents run many sessions, and when each one starts it knows nothing. Dreaming is a background pass that looks back over past transcripts and notes with hindsight and improves the memory future sessions read: it can correct what turned out to be wrong, build a representation that's easier to search, and keep what matters within easy reach. This cookbook is a small working dream for you to adapt. You choose when it runs, which transcripts it reads, and what it does with them ( Make it yours , near the end, lists the settings).",
+    "title_zh": "用动态工作流做梦 | Claude Cookbook",
+    "summary_zh": "为你的经纪人建立一个小小的工作梦想。托管代理动态工作流读取已完成的会话，将其提取到wiki风格的内存存储中，以便将来的会话以只读方式安装，并且可以每天晚上从cron运行。你的代理运行许多会话，当每个会话启动时，它什么都不知道。做梦是一种背景通行证，可以事后回顾过去的成绩单和笔记，并改善将来的记忆。这本食谱是你适应的一个小工作梦想。您可以选择它何时运行，读取哪些成绩单，以及如何处理它们 (使其成为您的，接近尾声，列出设置)。",
+    "summary_updated_at": "2026-11-05T11:39:06+08:00"
   },
   "https://platform.claude.com/cookbook/latency-optimization-latency-optimization": {
     "summary_status": "ready",
