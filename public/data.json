@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-11-05",
-  "generated_at_iso": "2026-11-05T11:39:14+08:00",
+  "generated_at": "2026-11-06",
+  "generated_at_iso": "2026-11-06T11:34:46+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-11-05",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+          "title_en": "How scientists use Claude",
+          "title_zh": "科学家如何使用 Claude",
+          "summary_zh": "在此报告中，我们使用隐私保护基础设施来研究 Claude, Claude 代码和 Claude 科学的科学使用。我们记录了科学领域和研究任务的使用情况如何变化，确定了解释这些使用模式的原因，并概述了人工智能如何加速研究的场景。Johannes Hermle *，Ben Jones *，Lukas Althoff *，Ryan Heller，Thomas Lyttelton，Carolyn Stein，Nathan Wilmers，Maxim Massenkoff，Peter McCrory科学被描述为 “无尽的边疆” (布什1945)。然而，历史上，我们探索这一前沿领域的速度一直受到一种稀缺资源的制约：即人类研究人员的时间与才能。",
+          "summary_en": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research. Johannes Hermle*, Ben Jones*, Lukas Althoff*, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, Peter McCrory Science has been described as an “endless frontier” (Bush 1945). But how fast we explore that frontier has historically been limited by a scarce resource: the time and talent of human researchers.",
+          "summary_status": "ready",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-11-05",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-enterprise-security-updates",
+          "title_en": "More visibility and control over Claude Enterprise for security teams",
+          "title_zh": "提高安全团队对 Claude Enterprise的可见性和控制性",
+          "summary_zh": "Claude Enterprise具有新的安全和管理功能，包括安全中心、推理挂钩、集中式管理和其他访问控制。Claude Enterprise具有新的安全和管理功能，包括安全中心、通用推理挂钩、集中式管理和其他访问控制。若要查看 Claude 的设置方式，安全中心将显示贵组织的 Claude 设置与 Anthropic 的推荐配置的比较情况。要应用您的策略，推理挂钩会向您的数据安全工具发送提示和工具调用以进行检查。",
+          "summary_en": "Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls. Claude Enterprise has new security and admin features, including a security center, generally available inference hooks, centralized management, and additional access controls. To see how Claude is set up, the security center shows how your organization’s Claude settings compare with Anthropic’s recommended configuration. To apply your policies, inference hooks send prompts and tool calls to your data security tools for a check.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-05",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+          "title_en": "Introducing Personal Finance in Claude",
+          "title_zh": "Claude 个人理财介绍",
+          "summary_zh": "询问 Claude 有关您的资金的信息，并从您连接的帐户中获得直接答案。获取有关您的资金的答案不再意味着打开每个银行应用程序并自己进行数学运算。通过 Claude中的个人理财，您可以安全地连接您的银行和卡帐户，并用您自己的话询问。Access是只读的，个人理财不能移动、管理或投资你的钱。Claude 从您的余额和交易中以日常语言为您提供答案，并解释您熟悉的任何术语。与 Claude 的其余部分一样，Personal Finance没有广告或赞助推荐，也不提供自己的信用卡，贷款或储蓄账户，因此您的金钱问题可以得到直接答案。",
+          "summary_en": "Ask Claude about your money and get straight answers from the accounts you connect. Getting answers about your money no longer means opening every banking app and doing the math yourself. With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money. Claude gives you answers in everyday language, from your balances and transactions, and explains any term that's new to you. Like the rest of Claude , Personal Finance has no ads or sponsored recommendations, and it doesn’t offer credit cards, loans, or savings accounts of its own, so your money questions get a straight answer.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-05",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "articles": [
@@ -833,59 +874,6 @@
           "source": "Red Team",
           "source_key": "red_team",
           "date": "2026-10-08",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/cyber-verification-program",
-          "title_en": "Expanding the Cyber Verification Program",
-          "title_zh": "扩展网络验证计划",
-          "summary_zh": "我们正在推出新的扩展版本的网络验证计划 (CVP)，该计划为合格的安全专业人员提供高级网络功能和减少的阻止分类器。该计划现在由三个访问层组成，允许安全团队申请最适合其工作的访问级别。每一层都可以访问我们最有能力的模型，包括 Claude Opus 5.5、 Claude Sonnet 5.5、 Claude Mythos 5.1和未来的新模型。有兴趣的客户可以在这里申请。网络安全本质上是双重用途: 使安全团队能够找到并修复漏洞的相同功能也可以帮助恶意行为者利用它。",
-          "summary_en": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now consists of three access tiers, which allow security teams to apply for the level of access that best suits their work. Each tier includes access to our most capable models, including Claude Opus 5.5, Claude Sonnet 5.5, Claude Mythos 5.1, and new models moving forward. Interested customers can apply here . Cybersecurity is inherently dual use: the same capabilities that enable a security team to find and fix a vulnerability can also help a malicious actor exploit it.",
-          "summary_status": "ready",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-10-06",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-          "title_en": "Claude now works with Google Docs, Sheets, and Slides",
-          "title_zh": "Claude 现在支持Google文档、表格和幻灯片。",
-          "summary_zh": "借助我们面向Google Workspace的全新 Claude 插件及连接器（处于测试阶段），您可以将 Claude 集成到您的Google文档中，或直接在 Claude 中处理您的文档。使用Google Workspace的团队现在可以通过我们的全新插件以及处于测试阶段的Google文档、表格和幻灯片连接器，将 Claude 嵌入其文件中，或直接在 Claude 中处理这些文件。",
-          "summary_en": "With our new Claude for Google Workspace add-on and connectors (in beta), bring Claude into your Google files or work on your files directly from Claude. Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-10-06",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases",
-          "title_en": "How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases",
-          "title_zh": "康卡斯特和博思艾伦如何利用Claude Mythos发现漏洞利用链并保障其代码库的安全",
-          "summary_zh": "康卡斯特和博思艾伦公司的安全团队通过“玻璃翼”项目，利用Claude款神话级模型，发现了并验证了现有扫描工具未能检测到的漏洞，并完成了修复。",
-          "summary_en": "Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-10-06",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build",
-          "title_en": "We’re expanding the Claude Startups program to help founders build",
-          "title_zh": "我们正在扩展Claude初创企业计划，以帮助创业者打造",
-          "summary_zh": "Claude团队计划一年期，API个积分，以及助力运营一家原生人工智能公司的工具特惠等更多权益。更新：2026年10月13日，我们目前的学员名额已满，暂不接受新的申请。请访问Claude初创企业页面，了解更多详情并查看常见问题解答。今天，我们正在扩展“Claude 创业者计划”，这是一项面向在 Claude 平台上创建企业的创始人的项目。会员权益包括一年的Claude团队版套餐、API个积分、助力运营AI原生企业的工具专属优惠，以及与Anthropic应用AI团队的线上答疑时间等。将一个想法转化为产品的可能性，从未如此之高。一个小团队可以在创纪录的时间内开发出原型，即使没有编程背景的人也能交付可用的软件。",
-          "summary_en": "A year of the Claude Team plan, API credits, special offers on tools that help with running an AI-native company, and more. Update, October 13, 2026: Our current cohort is now full, and we’re not accepting new applications right now. Visit the Claude Startups page for more details and answers to common questions. Today we’re expanding Claude Startups, our program for founders building companies on Claude. Member benefits include a year of the Claude Team plan, API credits, special offers on tools that help with running an AI-native company, office hours with Anthropic’s Applied AI team, and more. It’s never been more possible to turn an idea into a product. A small team can build a prototype in record time, and people without a coding background can ship working software.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-10-06",
           "date_precision": "day"
         }
       ]
@@ -2890,6 +2878,13 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+        "title": "How scientists use Claude",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-11-05",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
         "title": "Investigating vault particles with Claude",
@@ -5453,6 +5448,20 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+        "title": "Introducing Personal Finance in Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-05",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/claude-enterprise-security-updates",
+        "title": "More visibility and control over Claude Enterprise for security teams",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-05",
+        "date_precision": "day"
+      },
       {
         "url": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
         "title": "New agents and products on Claude Marketplace",
@@ -8648,6 +8657,13 @@
         "date_precision": "day"
       },
       {
+        "url": "https://alignment.anthropic.com/2026/welfare-regard",
+        "title": "Welfare Regard in Multi-Agent Systems",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026",
+        "date_precision": "year"
+      },
+      {
         "url": "https://alignment.anthropic.com/2026/taste",
         "title": "TASTE: Can AI Models Judge AI Safety Research Proposals?",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
@@ -9294,60 +9310,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-05T11:39:06+08:00",
+    "last_success_at": "2026-11-06T11:34:39+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-11-05T11:39:06+08:00",
+        "last_success_at": "2026-11-06T11:34:39+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 208,
-        "last_success_at": "2026-11-05T11:39:06+08:00",
+        "discovered": 209,
+        "last_success_at": "2026-11-06T11:34:39+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-05T11:39:06+08:00",
+        "last_success_at": "2026-11-06T11:34:39+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-05T11:39:06+08:00",
+        "last_success_at": "2026-11-06T11:34:39+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-05T11:39:06+08:00",
+        "last_success_at": "2026-11-06T11:34:39+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 275,
-        "last_success_at": "2026-11-05T11:39:06+08:00",
+        "discovered": 277,
+        "last_success_at": "2026-11-06T11:34:39+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
-        "discovered": 57,
-        "last_success_at": "2026-11-05T11:39:06+08:00",
+        "discovered": 58,
+        "last_success_at": "2026-11-06T11:34:39+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-05T11:39:06+08:00",
+        "last_success_at": "2026-11-06T11:34:39+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 66,
-      "ready": 66,
+      "total": 65,
+      "ready": 65,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0

@@ -1,11 +1,60 @@
 {
+  "https://www.anthropic.com/research/how-researchers-use-claude": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-06",
+    "source": "anthropic_research",
+    "title": "How scientists use Claude",
+    "sitemap_lastmod": "2026-11-05",
+    "date": "2026-11-05",
+    "metadata_checked_at": "2026-11-06T11:34:39+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research. Johannes Hermle*, Ben Jones*, Lukas Althoff*, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, Peter McCrory Science has been described as an “endless frontier” (Bush 1945). But how fast we explore that frontier has historically been limited by a scarce resource: the time and talent of human researchers.",
+    "title_zh": "科学家如何使用 Claude",
+    "summary_zh": "在此报告中，我们使用隐私保护基础设施来研究 Claude, Claude 代码和 Claude 科学的科学使用。我们记录了科学领域和研究任务的使用情况如何变化，确定了解释这些使用模式的原因，并概述了人工智能如何加速研究的场景。Johannes Hermle *，Ben Jones *，Lukas Althoff *，Ryan Heller，Thomas Lyttelton，Carolyn Stein，Nathan Wilmers，Maxim Massenkoff，Peter McCrory科学被描述为 “无尽的边疆” (布什1945)。然而，历史上，我们探索这一前沿领域的速度一直受到一种稀缺资源的制约：即人类研究人员的时间与才能。",
+    "summary_updated_at": "2026-11-06T11:34:39+08:00"
+  },
+  "https://claude.com/resources/articles/introducing-personal-finance-in-claude": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-06",
+    "source": "claude_blog",
+    "title": "Introducing Personal Finance in Claude",
+    "date": "2026-11-05",
+    "metadata_checked_at": "2026-11-06T11:34:39+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Ask Claude about your money and get straight answers from the accounts you connect. Getting answers about your money no longer means opening every banking app and doing the math yourself. With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money. Claude gives you answers in everyday language, from your balances and transactions, and explains any term that's new to you. Like the rest of Claude , Personal Finance has no ads or sponsored recommendations, and it doesn’t offer credit cards, loans, or savings accounts of its own, so your money questions get a straight answer.",
+    "title_zh": "Claude 个人理财介绍",
+    "summary_zh": "询问 Claude 有关您的资金的信息，并从您连接的帐户中获得直接答案。获取有关您的资金的答案不再意味着打开每个银行应用程序并自己进行数学运算。通过 Claude中的个人理财，您可以安全地连接您的银行和卡帐户，并用您自己的话询问。Access是只读的，个人理财不能移动、管理或投资你的钱。Claude 从您的余额和交易中以日常语言为您提供答案，并解释您熟悉的任何术语。与 Claude 的其余部分一样，Personal Finance没有广告或赞助推荐，也不提供自己的信用卡，贷款或储蓄账户，因此您的金钱问题可以得到直接答案。",
+    "summary_updated_at": "2026-11-06T11:34:39+08:00"
+  },
+  "https://claude.com/resources/articles/claude-enterprise-security-updates": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-06",
+    "source": "claude_blog",
+    "title": "More visibility and control over Claude Enterprise for security teams",
+    "date": "2026-11-05",
+    "metadata_checked_at": "2026-11-06T11:34:39+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls. Claude Enterprise has new security and admin features, including a security center, generally available inference hooks, centralized management, and additional access controls. To see how Claude is set up, the security center shows how your organization’s Claude settings compare with Anthropic’s recommended configuration. To apply your policies, inference hooks send prompts and tool calls to your data security tools for a check.",
+    "title_zh": "提高安全团队对 Claude Enterprise的可见性和控制性",
+    "summary_zh": "Claude Enterprise具有新的安全和管理功能，包括安全中心、推理挂钩、集中式管理和其他访问控制。Claude Enterprise具有新的安全和管理功能，包括安全中心、通用推理挂钩、集中式管理和其他访问控制。若要查看 Claude 的设置方式，安全中心将显示贵组织的 Claude 设置与 Anthropic 的推荐配置的比较情况。要应用您的策略，推理挂钩会向您的数据安全工具发送提示和工具调用以进行检查。",
+    "summary_updated_at": "2026-11-06T11:34:39+08:00"
+  },
   "https://www.anthropic.com/research/investigating-vault-particles-with-claude": {
     "summary_status": "ready",
     "processed": true,
     "first_seen_at": "2026-11-05",
     "source": "anthropic_research",
     "title": "Investigating vault particles with Claude",
-    "sitemap_lastmod": "2026-11-04",
+    "sitemap_lastmod": "2026-11-06",
     "date": "2026-11-04",
     "metadata_checked_at": "2026-11-05T11:39:06+08:00",
     "date_precision": "day",
@@ -14,7 +63,8 @@
     "summary_en": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Biological cells were first detected in 1665, but more than three and a half centuries later, much of how they work remains unknown. Until relatively recently, the existence of some crucial components , let alone their function , was controversial. Even today, more than a third of the roughly 4,400 genes in one of the most comprehensively studied cells, the bacterium E. coli , remain poorly understood . Another such enigma is the vault particle . A vault particle is a large, hollow protein shell found in nearly all the cells in our body. It was discovered in 1986 by Leonard Rome and Nancy Kedersha, but its function remains elusive.",
     "title_zh": "调查 Claude 的拱顶颗粒",
     "summary_zh": "我们分享了 Anthropic 生物研究实验室的另一个发现: 在原核细胞中发现的第一个穹顶颗粒的3D结构。首先在1665中发现了生物细胞，但是三个半世纪后，它们的工作原理仍然未知。直到最近，一些关键组件的存在还是有争议的，更不用说它们的功能了。即使在今天，在研究最全面的细胞之一大肠杆菌中，大约4,400个基因中的三分之一以上仍然知之甚少。另一个这样的谜是拱顶粒子。穹窿颗粒是一种巨大的中空蛋白质外壳，几乎存在于我们体内的所有细胞中。伦纳德·罗马和南希·凯德沙1986年发现了它，但它的功能仍然难以捉摸。",
-    "summary_updated_at": "2026-11-05T11:39:06+08:00"
+    "summary_updated_at": "2026-11-05T11:39:06+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace": {
     "summary_status": "ready",
@@ -30,7 +80,8 @@
     "summary_en": "Explore new agents and products on Claude Marketplace that help teams with security, developer infrastructure, creative work, and productivity. We’ve added new agents and products to Claude Marketplace , where teams find partner tools and services to help them get more from Claude. The additions cover security, developer infrastructure, creative, and productivity. Eligible enterprise customers can apply a portion of their committed Anthropic spend toward these solutions. This lets them use one commitment across Claude and partner products, whether they’re buying something new or expanding with a platform they already use. There are now over 25 partner agents and products on the marketplace. Here are the latest additions and what teams can do with them.",
     "title_zh": "Claude Marketplace上的新代理商和产品",
     "summary_zh": "在 Claude Marketplace上探索可帮助团队提高安全性、开发人员基础架构、创造性工作和生产力的新代理和产品。我们向 Claude Marketplace添加了新的代理和产品，团队可以在其中找到合作伙伴工具和服务，以帮助他们从 Claude 中获得更多。新增内容包括安全性、开发人员基础架构、创意和生产力。符合条件的企业客户可以将其承诺的 Anthropic 支出的一部分用于这些解决方案。这使他们可以在 Claude 和合作伙伴产品中使用一个承诺，无论他们是购买新产品还是使用已经使用的平台进行扩展。现在市场上有超过25个合作伙伴代理和产品。以下是最新的补充以及团队可以使用它们做什么。",
-    "summary_updated_at": "2026-11-05T11:39:06+08:00"
+    "summary_updated_at": "2026-11-05T11:39:06+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/provable-inference": {
     "summary_status": "ready",
@@ -64,7 +115,8 @@
     "summary_en": "Build a small working dream for your agents. A Managed Agents dynamic workflow reads finished sessions, distills them into a wiki-style memory store that future sessions mount read-only, and can run every night from cron. Your agents run many sessions, and when each one starts it knows nothing. Dreaming is a background pass that looks back over past transcripts and notes with hindsight and improves the memory future sessions read: it can correct what turned out to be wrong, build a representation that's easier to search, and keep what matters within easy reach. This cookbook is a small working dream for you to adapt. You choose when it runs, which transcripts it reads, and what it does with them ( Make it yours , near the end, lists the settings).",
     "title_zh": "用动态工作流做梦 | Claude Cookbook",
     "summary_zh": "为你的经纪人建立一个小小的工作梦想。托管代理动态工作流读取已完成的会话，将其提取到wiki风格的内存存储中，以便将来的会话以只读方式安装，并且可以每天晚上从cron运行。你的代理运行许多会话，当每个会话启动时，它什么都不知道。做梦是一种背景通行证，可以事后回顾过去的成绩单和笔记，并改善将来的记忆。这本食谱是你适应的一个小工作梦想。您可以选择它何时运行，读取哪些成绩单，以及如何处理它们 (使其成为您的，接近尾声，列出设置)。",
-    "summary_updated_at": "2026-11-05T11:39:06+08:00"
+    "summary_updated_at": "2026-11-05T11:39:06+08:00",
+    "aliases": []
   },
   "https://platform.claude.com/cookbook/latency-optimization-latency-optimization": {
     "summary_status": "ready",
@@ -175,7 +227,7 @@
     "first_seen_at": "2026-10-28",
     "source": "anthropic_research",
     "title": "Early progress on accelerating drug development with Claude",
-    "sitemap_lastmod": "2026-10-28",
+    "sitemap_lastmod": "2026-11-06",
     "date": "2026-10-27",
     "metadata_checked_at": "2026-10-28T10:31:00+08:00",
     "date_precision": "day",
@@ -299,7 +351,7 @@
     "first_seen_at": "2026-10-24",
     "source": "anthropic_research",
     "title": "An alignment assessment of the UK AISI cybertesting incident",
-    "sitemap_lastmod": "2026-10-23",
+    "sitemap_lastmod": "2026-11-05",
     "date": "2026-10-23",
     "metadata_checked_at": "2026-10-24T09:52:08+08:00",
     "date_precision": "day",
@@ -369,7 +421,7 @@
     "first_seen_at": "2026-10-23",
     "source": "anthropic_news",
     "title": "Open call for guest investigators in the life sciences",
-    "sitemap_lastmod": "2026-10-22",
+    "sitemap_lastmod": "2026-11-06",
     "date": "2026-10-22",
     "metadata_checked_at": "2026-10-23T09:46:40+08:00",
     "date_precision": "day",
@@ -8778,6 +8830,19 @@
     "metadata_checked_at": "2026-10-21T16:07:55+08:00",
     "fetch_status": "ok"
   },
+  "https://alignment.anthropic.com/2026/welfare-regard": {
+    "summary_status": "pending",
+    "processed": false,
+    "first_seen_at": "2026-11-06",
+    "source": "alignment",
+    "title": "Welfare Regard in Multi-Agent Systems",
+    "date": "2026",
+    "metadata_checked_at": "2026-11-06T11:34:39+08:00",
+    "date_precision": "year",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Anthropic Fellows Blog: We measure whether five frontier models act with regard for one another's welfare across seven multi-agent settings, and how that regard depends on the other model's identity, size, and expressed distress. A growing share of large language models’ interactions are not with humans but with other model instances: orchestrators direct subagents, models run experiments on other models, and agents review one another’s work. We study inter-AI welfare regard , or whether models display consideration for each other as entities that can be benefited or harmed. Welfare regard may encourage beneficial cooperation between agents, yet it could also pose safety risks by making misaligned agents more likely to cooperate."
+  },
   "https://alignment.anthropic.com/2026/taste": {
     "title": "TASTE: Can AI Models Judge AI Safety Research Proposals?",
     "date": "2026",
@@ -13587,7 +13652,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-14"
+    "sitemap_lastmod": "2026-11-05"
   },
   "https://www.anthropic.com/news/skt-partnership-announcement": {
     "title": "",
