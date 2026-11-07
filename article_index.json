@@ -1,11 +1,62 @@
 {
+  "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-07",
+    "source": "anthropic_research",
+    "title": "Teaching AI to build scientific models",
+    "sitemap_lastmod": "2026-11-06",
+    "date": "2026-11-06",
+    "metadata_checked_at": "2026-11-07T11:03:26+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted. In 1951, Cambridge University’s computer went out of action for six months. This was inconvenient for physiologist Andrew Huxley, who, alongside his colleague Alan Hodgkin, had just built a set of equations to describe how a particular squid nerve cell fired. The scientists wanted to understand the “action potential” of these nerve cells: the electrical pulses they use to communicate, which underlie everything brains do, from perception to intelligence. The only way to find out whether the equations worked was to solve them and compare the solutions to data. Huxley had hoped to use the newfangled computer to solve the equations.",
+    "title_zh": "教AI建立科学模型",
+    "summary_zh": "科学的AI资助人Jakob Macke，Daniel Gedon和Stefan Wahl谈到了AI如何开始改变科学模型的构建和解释方式。1951年，剑桥大学的计算机停止运行了六个月。这对生理学家安德鲁·赫胥黎来说是不方便的，他和他的同事艾伦·霍奇金刚刚建立了一组方程来描述特定的鱿鱼神经细胞是如何发射的。科学家们想了解这些神经细胞的 “动作电位”: 它们用来交流的电脉冲，这是大脑从感知到智力所做的一切事情的基础。找出方程是否有效的唯一方法是求解它们并将解与数据进行比较。赫胥黎曾希望使用新型计算机来求解方程。",
+    "summary_updated_at": "2026-11-07T11:03:26+08:00"
+  },
+  "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-07",
+    "source": "red_team",
+    "title": "Project EVE: Claude plays MMORPGs",
+    "sitemap_lastmod": "2026-11-06",
+    "date": "2026-11-06",
+    "metadata_checked_at": "2026-11-07T11:03:26+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need. This post shares research done as part of the Anthropic Fellows Program, April–July 2026. AI models may one day participate in real companies and markets, and several of our projects explored what that might look like. Claude has run a shop in our office , haggled on behalf of colleagues , and written code to fly a drone . In this project, we turned to a different setting: massively multiplayer online role-playing games (MMORPGs). MMORPGs are virtual worlds that in many ways reflect the complexity of the real world.",
+    "title_zh": "夏娃计划: Claude 扮演mmorpg",
+    "summary_zh": "我们将 Claude 放在两个EVE游戏中，研究AI代理商如何处理市场和团队合作，他们在哪里崩溃，以及他们可能需要什么保障措施。这篇文章分享了作为 Anthropic 2026年4月到7月研究员计划的一部分所做的研究。人工智能模型有一天可能会参与到真正的公司和市场中，我们的几个项目探索了它可能是什么样子。Claude 在我们的办公室经营一家商店，代表同事讨价还价，并编写了驾驶无人机的代码。在这个项目中，我们转向了一个不同的设置: 大型多人在线角色扮演游戏 (mmorpg)。Mmorpg是虚拟世界，在许多方面反映了现实世界的复杂性。",
+    "summary_updated_at": "2026-11-07T11:03:26+08:00"
+  },
+  "https://www.anthropic.com/research/components-of-agent-memory": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-07",
+    "source": "engineering",
+    "title": "The components of agent memory",
+    "sitemap_lastmod": "2026-11-06",
+    "date": "2026-11-06",
+    "metadata_checked_at": "2026-11-07T11:03:26+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes. Søren Kierkegaard wrote that life can only be understood backward , but it must be lived forward . We’ve encountered a similar bind when designing memory for AI agents. As humans, we encode memory constantly as we go about our lives. The hippocampus plays a central role in this, capturing experiences in the moment so that memories form quickly and are immediately available. But only some experiences are consolidated into long-term knowledge. Much of that consolidation appears to happen when our brains are offline. As we sleep, and during quiet rest , the hippocampus replays our recent experiences.",
+    "title_zh": "代理内存的组件",
+    "summary_zh": "Claude 要从经验中学习，它必须先决定什么是值得记住的，然后才能知道下一步是什么。以下是 “做梦” 如何帮助它组织记忆和纠正错误。S ø renkierkegaard写道，生活只能向后理解，但必须向前生活。在为AI代理设计内存时，我们遇到了类似的绑定。作为人类，我们在生活中不断编码记忆。海马体在这方面起着核心作用，捕捉当下的经历，以便记忆快速形成并立即可用。但是只有一些经验被整合成长期的知识。大部分整合似乎发生在我们的大脑离线时。当我们睡觉时，在安静的休息中，海马体会重放我们最近的经历。",
+    "summary_updated_at": "2026-11-07T11:03:26+08:00"
+  },
   "https://www.anthropic.com/research/how-researchers-use-claude": {
     "summary_status": "ready",
     "processed": true,
     "first_seen_at": "2026-11-06",
     "source": "anthropic_research",
     "title": "How scientists use Claude",
-    "sitemap_lastmod": "2026-11-05",
+    "sitemap_lastmod": "2026-11-06",
     "date": "2026-11-05",
     "metadata_checked_at": "2026-11-06T11:34:39+08:00",
     "date_precision": "day",
@@ -14,7 +65,8 @@
     "summary_en": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research. Johannes Hermle*, Ben Jones*, Lukas Althoff*, Ryan Heller, Thomas Lyttelton, Carolyn Stein, Nathan Wilmers, Maxim Massenkoff, Peter McCrory Science has been described as an “endless frontier” (Bush 1945). But how fast we explore that frontier has historically been limited by a scarce resource: the time and talent of human researchers.",
     "title_zh": "科学家如何使用 Claude",
     "summary_zh": "在此报告中，我们使用隐私保护基础设施来研究 Claude, Claude 代码和 Claude 科学的科学使用。我们记录了科学领域和研究任务的使用情况如何变化，确定了解释这些使用模式的原因，并概述了人工智能如何加速研究的场景。Johannes Hermle *，Ben Jones *，Lukas Althoff *，Ryan Heller，Thomas Lyttelton，Carolyn Stein，Nathan Wilmers，Maxim Massenkoff，Peter McCrory科学被描述为 “无尽的边疆” (布什1945)。然而，历史上，我们探索这一前沿领域的速度一直受到一种稀缺资源的制约：即人类研究人员的时间与才能。",
-    "summary_updated_at": "2026-11-06T11:34:39+08:00"
+    "summary_updated_at": "2026-11-06T11:34:39+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/introducing-personal-finance-in-claude": {
     "summary_status": "ready",
@@ -30,7 +82,8 @@
     "summary_en": "Ask Claude about your money and get straight answers from the accounts you connect. Getting answers about your money no longer means opening every banking app and doing the math yourself. With Personal Finance in Claude, you can securely connect your bank and card accounts and ask in your own words. Access is read-only, and Personal Finance can’t move, manage, or invest your money. Claude gives you answers in everyday language, from your balances and transactions, and explains any term that's new to you. Like the rest of Claude , Personal Finance has no ads or sponsored recommendations, and it doesn’t offer credit cards, loans, or savings accounts of its own, so your money questions get a straight answer.",
     "title_zh": "Claude 个人理财介绍",
     "summary_zh": "询问 Claude 有关您的资金的信息，并从您连接的帐户中获得直接答案。获取有关您的资金的答案不再意味着打开每个银行应用程序并自己进行数学运算。通过 Claude中的个人理财，您可以安全地连接您的银行和卡帐户，并用您自己的话询问。Access是只读的，个人理财不能移动、管理或投资你的钱。Claude 从您的余额和交易中以日常语言为您提供答案，并解释您熟悉的任何术语。与 Claude 的其余部分一样，Personal Finance没有广告或赞助推荐，也不提供自己的信用卡，贷款或储蓄账户，因此您的金钱问题可以得到直接答案。",
-    "summary_updated_at": "2026-11-06T11:34:39+08:00"
+    "summary_updated_at": "2026-11-06T11:34:39+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/claude-enterprise-security-updates": {
     "summary_status": "ready",
@@ -46,7 +99,8 @@
     "summary_en": "Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls. Claude Enterprise has new security and admin features, including a security center, generally available inference hooks, centralized management, and additional access controls. To see how Claude is set up, the security center shows how your organization’s Claude settings compare with Anthropic’s recommended configuration. To apply your policies, inference hooks send prompts and tool calls to your data security tools for a check.",
     "title_zh": "提高安全团队对 Claude Enterprise的可见性和控制性",
     "summary_zh": "Claude Enterprise具有新的安全和管理功能，包括安全中心、推理挂钩、集中式管理和其他访问控制。Claude Enterprise具有新的安全和管理功能，包括安全中心、通用推理挂钩、集中式管理和其他访问控制。若要查看 Claude 的设置方式，安全中心将显示贵组织的 Claude 设置与 Anthropic 的推荐配置的比较情况。要应用您的策略，推理挂钩会向您的数据安全工具发送提示和工具调用以进行检查。",
-    "summary_updated_at": "2026-11-06T11:34:39+08:00"
+    "summary_updated_at": "2026-11-06T11:34:39+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/investigating-vault-particles-with-claude": {
     "summary_status": "ready",
@@ -8658,7 +8712,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-18"
+    "sitemap_lastmod": "2026-11-06"
   },
   "https://www.anthropic.com/news/accelerating-scientific-research": {
     "title": "",
@@ -8841,7 +8895,8 @@
     "date_precision": "year",
     "date_verified": true,
     "fetch_status": "ok",
-    "summary_en": "Anthropic Fellows Blog: We measure whether five frontier models act with regard for one another's welfare across seven multi-agent settings, and how that regard depends on the other model's identity, size, and expressed distress. A growing share of large language models’ interactions are not with humans but with other model instances: orchestrators direct subagents, models run experiments on other models, and agents review one another’s work. We study inter-AI welfare regard , or whether models display consideration for each other as entities that can be benefited or harmed. Welfare regard may encourage beneficial cooperation between agents, yet it could also pose safety risks by making misaligned agents more likely to cooperate."
+    "summary_en": "Anthropic Fellows Blog: We measure whether five frontier models act with regard for one another's welfare across seven multi-agent settings, and how that regard depends on the other model's identity, size, and expressed distress. A growing share of large language models’ interactions are not with humans but with other model instances: orchestrators direct subagents, models run experiments on other models, and agents review one another’s work. We study inter-AI welfare regard , or whether models display consideration for each other as entities that can be benefited or harmed. Welfare regard may encourage beneficial cooperation between agents, yet it could also pose safety risks by making misaligned agents more likely to cooperate.",
+    "aliases": []
   },
   "https://alignment.anthropic.com/2026/taste": {
     "title": "TASTE: Can AI Models Judge AI Safety Research Proposals?",
