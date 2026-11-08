@@ -5,7 +5,7 @@
     "first_seen_at": "2026-11-07",
     "source": "anthropic_research",
     "title": "Teaching AI to build scientific models",
-    "sitemap_lastmod": "2026-11-06",
+    "sitemap_lastmod": "2026-11-07",
     "date": "2026-11-06",
     "metadata_checked_at": "2026-11-07T11:03:26+08:00",
     "date_precision": "day",
@@ -14,7 +14,8 @@
     "summary_en": "AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted. In 1951, Cambridge University’s computer went out of action for six months. This was inconvenient for physiologist Andrew Huxley, who, alongside his colleague Alan Hodgkin, had just built a set of equations to describe how a particular squid nerve cell fired. The scientists wanted to understand the “action potential” of these nerve cells: the electrical pulses they use to communicate, which underlie everything brains do, from perception to intelligence. The only way to find out whether the equations worked was to solve them and compare the solutions to data. Huxley had hoped to use the newfangled computer to solve the equations.",
     "title_zh": "教AI建立科学模型",
     "summary_zh": "科学的AI资助人Jakob Macke，Daniel Gedon和Stefan Wahl谈到了AI如何开始改变科学模型的构建和解释方式。1951年，剑桥大学的计算机停止运行了六个月。这对生理学家安德鲁·赫胥黎来说是不方便的，他和他的同事艾伦·霍奇金刚刚建立了一组方程来描述特定的鱿鱼神经细胞是如何发射的。科学家们想了解这些神经细胞的 “动作电位”: 它们用来交流的电脉冲，这是大脑从感知到智力所做的一切事情的基础。找出方程是否有效的唯一方法是求解它们并将解与数据进行比较。赫胥黎曾希望使用新型计算机来求解方程。",
-    "summary_updated_at": "2026-11-07T11:03:26+08:00"
+    "summary_updated_at": "2026-11-07T11:03:26+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs": {
     "summary_status": "ready",
@@ -31,7 +32,8 @@
     "summary_en": "We put Claude in two EVE games to study how AI agents handle markets and teamwork, where they break down, and what safeguards they might need. This post shares research done as part of the Anthropic Fellows Program, April–July 2026. AI models may one day participate in real companies and markets, and several of our projects explored what that might look like. Claude has run a shop in our office , haggled on behalf of colleagues , and written code to fly a drone . In this project, we turned to a different setting: massively multiplayer online role-playing games (MMORPGs). MMORPGs are virtual worlds that in many ways reflect the complexity of the real world.",
     "title_zh": "夏娃计划: Claude 扮演mmorpg",
     "summary_zh": "我们将 Claude 放在两个EVE游戏中，研究AI代理商如何处理市场和团队合作，他们在哪里崩溃，以及他们可能需要什么保障措施。这篇文章分享了作为 Anthropic 2026年4月到7月研究员计划的一部分所做的研究。人工智能模型有一天可能会参与到真正的公司和市场中，我们的几个项目探索了它可能是什么样子。Claude 在我们的办公室经营一家商店，代表同事讨价还价，并编写了驾驶无人机的代码。在这个项目中，我们转向了一个不同的设置: 大型多人在线角色扮演游戏 (mmorpg)。Mmorpg是虚拟世界，在许多方面反映了现实世界的复杂性。",
-    "summary_updated_at": "2026-11-07T11:03:26+08:00"
+    "summary_updated_at": "2026-11-07T11:03:26+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/components-of-agent-memory": {
     "summary_status": "ready",
@@ -48,7 +50,8 @@
     "summary_en": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes. Søren Kierkegaard wrote that life can only be understood backward , but it must be lived forward . We’ve encountered a similar bind when designing memory for AI agents. As humans, we encode memory constantly as we go about our lives. The hippocampus plays a central role in this, capturing experiences in the moment so that memories form quickly and are immediately available. But only some experiences are consolidated into long-term knowledge. Much of that consolidation appears to happen when our brains are offline. As we sleep, and during quiet rest , the hippocampus replays our recent experiences.",
     "title_zh": "代理内存的组件",
     "summary_zh": "Claude 要从经验中学习，它必须先决定什么是值得记住的，然后才能知道下一步是什么。以下是 “做梦” 如何帮助它组织记忆和纠正错误。S ø renkierkegaard写道，生活只能向后理解，但必须向前生活。在为AI代理设计内存时，我们遇到了类似的绑定。作为人类，我们在生活中不断编码记忆。海马体在这方面起着核心作用，捕捉当下的经历，以便记忆快速形成并立即可用。但是只有一些经验被整合成长期的知识。大部分整合似乎发生在我们的大脑离线时。当我们睡觉时，在安静的休息中，海马体会重放我们最近的经历。",
-    "summary_updated_at": "2026-11-07T11:03:26+08:00"
+    "summary_updated_at": "2026-11-07T11:03:26+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/how-researchers-use-claude": {
     "summary_status": "ready",
