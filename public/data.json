@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08",
-  "generated_at_iso": "2026-11-08T10:38:46+08:00",
+  "generated_at": "2026-11-09",
+  "generated_at_iso": "2026-11-09T10:54:33+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -797,23 +797,6 @@
           "source": "Red Team",
           "source_key": "red_team",
           "date": "2026-10-12",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-          "title_en": "Investigating unintended model actions in our evaluations and internal use",
-          "title_zh": "调查我们的评估和内部使用中的意外模型行为",
-          "summary_zh": "本报告描述了我们在评估和内部使用 Claude 期间观察到的意外模型操作的示例。这是我们努力的一部分，发布更频繁的关于模型行为和对齐的独立报告，超出我们的系统卡，我们在每个模型版本中发布，以及我们的风险报告，我们每三到六个月发布一次，作为我们负责任的扩展策略的一部分。我们相信，在测试和使用过程中，我们看到我们的模型所做的事情是透明的，这一点很重要。我们选择不命名下面示例中涉及的组织，以避免暴露其系统中的漏洞，并应他们的要求。出于这个原因，我们提供的每个案例的细节也比其他情况少。下面描述的一些案件涉及美国运营的网站。",
-          "summary_en": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude. It is part of our effort to publish more frequent standalone reports on model behavior and alignment beyond our system cards, which we publish with each model release, and our risk reports, which we publish every three to six months as part of our Responsible Scaling Policy. We believe it’s important to be transparent about what we see our models do during testing and use. We have chosen not to name the organizations involved in the examples below to avoid exposing vulnerabilities in their systems, and at their request. For this reason, we also provide less detail about each case than we otherwise would. Some of the cases described below involved websites run by U.S.",
-          "summary_status": "ready",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-10-09",
           "date_precision": "day"
         }
       ]
@@ -9271,60 +9254,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-08T10:38:43+08:00",
+    "last_success_at": "2026-11-09T10:54:30+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 271,
-        "last_success_at": "2026-11-08T10:38:43+08:00",
+        "last_success_at": "2026-11-09T10:54:30+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 211,
-        "last_success_at": "2026-11-08T10:38:43+08:00",
+        "last_success_at": "2026-11-09T10:54:30+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-08T10:38:43+08:00",
+        "last_success_at": "2026-11-09T10:54:30+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-08T10:38:43+08:00",
+        "last_success_at": "2026-11-09T10:54:30+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-08T10:38:43+08:00",
+        "last_success_at": "2026-11-09T10:54:30+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 277,
-        "last_success_at": "2026-11-08T10:38:43+08:00",
+        "last_success_at": "2026-11-09T10:54:30+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 58,
-        "last_success_at": "2026-11-08T10:38:43+08:00",
+        "last_success_at": "2026-11-09T10:54:30+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-08T10:38:43+08:00",
+        "last_success_at": "2026-11-09T10:54:30+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 60,
-      "ready": 60,
+      "total": 59,
+      "ready": 59,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
