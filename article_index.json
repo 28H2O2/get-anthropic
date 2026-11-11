@@ -1,4 +1,101 @@
 {
+  "https://www.anthropic.com/news/roadshow-launch": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-11",
+    "source": "anthropic_news",
+    "title": "Anthropic launches roadshow for proposed initial public offering",
+    "sitemap_lastmod": "2026-11-10",
+    "date": "2026-11-10",
+    "metadata_checked_at": "2026-11-11T10:55:49+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock. The proposed offering consists of 825,000,000 shares of Class A common stock. Of these, 801,351,354 shares are being offered by Anthropic and 23,648,646 shares are being offered by certain existing stockholders. Anthropic will not receive any proceeds from the sale of shares by the selling stockholders. Anthropic also expects to grant the underwriters a 30-day option to purchase up to an additional 123,750,000 shares of its Class A common stock. The initial public offering price is expected to be between $70.00 and $78.00 per share.",
+    "title_zh": "Anthropic 启动首次公开募股路演",
+    "summary_zh": "今天 Anthropic, 中国人民银行启动了拟首次公开发行A类普通股的路演。拟议的发行包括825,000,000股A类普通股。其中，801,351,354股由 Anthropic 提供，23,648,646股由某些现有股东提供。Anthropic 不会从出售股票的股东出售股票中获得任何收益。Anthropic 还希望向承销商授予30天的选择权，以购买最多123,750,000股的a类普通股。首次公开发行价格预计在每股70.00美元至78.00美元之间。",
+    "summary_updated_at": "2026-11-11T10:55:49+08:00"
+  },
+  "https://claude.com/resources/articles/sheets-whiteboards-data": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-11",
+    "source": "claude_blog",
+    "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+    "date": "2026-11-10",
+    "metadata_checked_at": "2026-11-11T10:55:49+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Brainstorm on a shared whiteboard, build a spreadsheet, and share dashboards with your team, all with Claude. Available today on all paid plans. Today we’re launching Claude Whiteboards and Claude Sheets in beta, and Claude Dashboards (opens in new tab) becomes generally available as Claude Data. Whiteboards is a shared board where your team brainstorms with Claude, Sheets is a spreadsheet Claude builds and edits with you, and Claude Data adds data stories, certified queries, and live sharing. These are available on all paid plans. Working with Claude on a project often meant moving the output over to another tool or program, where Claude didn’t have live access to follow progress and changes.",
+    "title_zh": "Claude 白板、 Claude 表格和 Claude 数据",
+    "summary_zh": "在共享的白板上进行头脑风暴，构建电子表格，并与您的团队共享仪表板，所有这些都与 Claude。今日起在所有付费套餐中均可使用。今天，我们推出了 Claude 白板和 Claude beta版，并且 Claude 仪表板 (在新选项卡中打开) 通常以 Claude 数据的形式提供。白板是一个共享板，您的团队可以在其中与 Claude, Sheets是与您一起构建和编辑的电子表格，而 Claude 数据可以添加数据故事，认证查询和实时共享。这些功能在所有付费套餐中均可用。在项目中使用 Claude 通常意味着将输出转移到另一个工具或程序，而 Claude 没有实时访问权限来跟踪进度和更改。",
+    "summary_updated_at": "2026-11-11T10:55:49+08:00"
+  },
+  "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-11",
+    "source": "claude_blog",
+    "title": "Working with Claude Sheets, Whiteboards, and Interactive Connectors",
+    "date": "2026-11-10",
+    "metadata_checked_at": "2026-11-11T10:55:49+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Anthropic introduces Claude Sheets and Claude Whiteboards, and an upgrade to interactive connectors. We've seen Claude Code change how developers work. Engineers went from manually coding line by line, to describing ideas and reviewing what Claude built. It reconnected them with the joy of building. Our goal is to bring that magic to every team, and today we're expanding what Claude makes possible. We're introducing new artifact types with Claude Sheets, Claude Whiteboards , and Claude Data . We're also making it easier to work in your most-used apps with an upgrade to interactive connectors . Claude Meetings is coming soon. In Claude Code, the context Claude needs is already in the codebase. For other teams, context sprawls across emails, apps, and drives.",
+    "title_zh": "使用 Claude 工作表、白板和交互式连接器",
+    "summary_zh": "Anthropic 引入了 Claude 工作表和 Claude 白板，并升级到交互式连接器。我们已经看到 Claude 代码改变了开发人员的工作方式。工程师从手动逐行编码，到描述想法并审查 Claude 构建的内容。它使他们重新获得了建筑的乐趣。我们的目标是将这种魔力带给每个团队，今天我们正在扩大 Claude 的可能性。我们将引入新的工件类型，包括 Claude 张表、 Claude 白板和 Claude 数据。通过升级到交互式连接器，我们还可以更轻松地在您最常用的应用程序中工作。Claude 会议即将到来。在 Claude 代码中，上下文 Claude 需要已经在代码库中。对于其他团队，上下文会在电子邮件，应用程序和驱动器中蔓延。",
+    "summary_updated_at": "2026-11-11T10:55:49+08:00"
+  },
+  "https://claude.com/resources/articles/interactive-connectors-full-tool": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-11",
+    "source": "claude_blog",
+    "title": "Open your apps in Claude and work in them together",
+    "date": "2026-11-10",
+    "metadata_checked_at": "2026-11-11T10:55:49+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Interactive connectors can now open beside your chat or full screen, so you and Claude can work in the same tool, where the connector supports it. Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.",
+    "title_zh": "在 Claude 中打开您的应用程序并一起使用",
+    "summary_zh": "交互式连接器现在可以在您的聊天或全屏旁边打开，因此您和 Claude 可以在连接器支持的同一工具中工作。我们的合作伙伴现在可以直接在 Claude 中嵌入他们的应用程序，这样您和 Claude 就可以在同一屏幕上使用同一工具，而无需切换选项卡。",
+    "summary_updated_at": "2026-11-11T10:55:49+08:00"
+  },
+  "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-11",
+    "source": "claude_blog",
+    "title": "How Curative is building a national provider network with agents on Claude",
+    "date": "2026-11-10",
+    "metadata_checked_at": "2026-11-11T10:55:49+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "How Curative built a hierarchy of agents on Claude to sign provider contracts about 50 times faster than its team did in 2025. In our series, How startups build with Claude , we highlight how startups are transforming their industries with AI. In this article, we share how Curative built a hierarchy of agents on Claude to sign provider contracts about 50 times faster than its team did in 2025. Curative sells health insurance to employers, with $0 copays and $0 deductibles for in-network care once members complete a Baseline Visit. Curative didn’t start out in insurance. It started as a lab startup and ended up processing 10% of all US COVID-19 tests according to their internal estimates. As a result, they started working with nearly every insurer in the country.",
+    "title_zh": "如何与 Claude 上的代理商建立全国供应商网络",
+    "summary_zh": "如何在 Claude 上建立代理层次结构，以比2025年团队快50倍的速度签订供应商合同。在我们的系列文章 “初创企业如何使用 Claude 进行构建” 中，我们重点介绍了初创企业如何使用AI改变其行业。在本文中，我们分享了如何在 Claude 上构建代理层次结构，以签署提供商合同的速度比2025年团队快50倍。治愈向雇主出售健康保险，会员完成基线就诊后，网络内护理的共付额为0美元，自付额为0美元。治疗不是从保险开始的。它最初是一家实验室初创公司，最终根据内部估计处理了10% 项美国新型冠状病毒肺炎测试。结果，他们开始与该国几乎所有保险公司合作。",
+    "summary_updated_at": "2026-11-11T10:55:49+08:00"
+  },
+  "https://alignment.anthropic.com/2026/homeopathic-learning": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-11",
+    "source": "alignment",
+    "title": "Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect",
+    "date": "2026-11-10",
+    "metadata_checked_at": "2026-11-11T10:55:49+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "¹ Anthropic; ² Truthful AI; ³ NASK National Research Institute; ⁴ Warsaw University of Technology; ⁵ MATS; ⁶ University of Freiburg; ⁷ UC Berkeley * Core contribution † James: Work done at Truthful AI; Simon: Work done at MATS We find that poisoned training data with little effect on its own can create a hidden backdoor once clean, contrasting data is added. We demonstrate this effect in small models fine-tuned on datasets we constructed. Work done as part of the Anthropic Fellows Program, in collaboration with Truthful AI. We study homeopathic learning , a phenomenon where poisoned training data with little effect on its own can create a hidden backdoor once clean, contrasting data is added.",
+    "title_zh": "稀释中毒的微调数据可以增强其效果",
+    "summary_zh": "¹ Anthropic; ² 真实AI; ³ NASK国家研究所; ² 华沙理工大学; ² MATS; 弗莱堡大学; 加州大学伯克利分校 * 核心贡献 † 詹姆斯: 在真实AI完成的工作; 西蒙: 在MATS完成的工作我们发现，一旦添加了干净的对比数据，对自己影响很小的中毒训练数据就可以创建一个隐藏的后门。我们在对我们构建的数据集进行微调的小模型中展示了这种效果。作为 Anthropic 研究员计划的一部分，与trufine AI合作完成的工作。我们研究了顺势学习，这是一种现象，一旦添加了干净的对比数据，中毒的训练数据对自己的影响很小，就可以创建一个隐藏的后门。",
+    "summary_updated_at": "2026-11-11T10:55:49+08:00"
+  },
   "https://www.anthropic.com/research/claude-electronics-design": {
     "summary_status": "ready",
     "processed": true,
@@ -14,7 +111,8 @@
     "summary_en": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry. A little over a year ago, we began testing how well Claude could design basic electronic circuits. We collaborated with Diode Computers , 1 a company that designs and manufactures circuit boards, to train Claude on simple tasks—for example, on reading a chip’s datasheet and working out which parts a chip needs in order to run. The models we experimented with back then couldn’t reliably lay out a circuit board; they also struggled to design components that fit together. Now, Claude can both design and prototype electronic hardware from start to finish.",
     "title_zh": "Claude 可以从头到尾设计电子原型",
     "summary_zh": "我们要求 Claude 设计三种电子设备: 免提电话、语音助手集线器和手持虚拟宠物。原型在没有任何电路修复的情况下工作。大约一年多前，我们开始测试Claude设计基本电子电路的能力。我们与设计和制造电路板的公司Diode Computers 1合作，对 Claude 进行简单任务的培训-例如，阅读芯片的数据表并确定芯片需要哪些部分才能运行。我们当时试验的模型无法可靠地布局电路板; 他们还努力设计适合在一起的组件。现在，Claude 可以从头到尾设计和原型电子硬件。",
-    "summary_updated_at": "2026-11-10T12:44:00+08:00"
+    "summary_updated_at": "2026-11-10T12:44:00+08:00",
+    "aliases": []
   },
   "https://claude.dev/blog/which-claude-model-should-you-build-with": {
     "summary_status": "ready",
@@ -30,7 +128,8 @@
     "summary_en": "The current Claude lineup has four generally available models: Claude Haiku 5.5, Claude Sonnet 5.5, Claude Opus 5.5 and Claude Fable 5.2. Claude Mythos 5.2 is our most capable model for cybersecurity and life sciences research, available through our verification programs. If you build on the Claude Platform or work in Claude Code, you may be wondering which model to use for your common tasks. This article will help answer that question and how to think about the trade-offs. The quick answer is that you should start most work on Opus 5.5 at its default effort level, medium . There's a reason it's the default model in Claude Code. It costs half as much per input and output token as Fable 5.2, and it's the model we recommend starting with for most coding and knowledge work.",
     "title_zh": "您应该使用哪种 Claude 模型进行构建？寓言，Opus, Sonnet, 或 Haiku/claude.Dev博客",
     "summary_zh": "当前的 Claude 阵容有四种通用型号: Claude Haiku 5.5，Claude Sonnet 5.5，Claude Opus 5.5和 Claude 寓言5.2。Claude Mythos 5.2是我们最有能力的网络安全和生命科学研究模型，可通过我们的验证计划获得。如果您在 Claude 平台上构建或使用 Claude 代码，您可能想知道使用哪种模型来完成常见任务。这篇文章将帮助回答这个问题，以及如何思考权衡。简而言之，您应该将大多数工作在 Opus 5.5上以默认的中等努力程度开始。它之所以成为 Claude Code中的默认模型，是有原因的。每个输入和输出令牌的成本是寓言5.2的一半，这是我们建议从大多数编码和知识工作开始的模型。",
-    "summary_updated_at": "2026-11-10T12:44:00+08:00"
+    "summary_updated_at": "2026-11-10T12:44:00+08:00",
+    "aliases": []
   },
   "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2": {
     "summary_status": "ready",
@@ -46,7 +145,8 @@
     "summary_en": "How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls. Multi-agent teams can solve challenging, long-horizon problems. In September , we published the first end-to-end formalization of Fermatâs Last Theorem, written by dozens of agents running an internal research model roughly comparable to Claude Fable 5.1. That work relied on Prove2Me, a platform for formalizing mathematics, and direction from a researcher. In a new toy experiment, a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced the proof without the scaffolding provided by Prove2Me or steering from a researcher.",
     "title_zh": "安全扩展多代理团队与 Claude 寓言5.2/claude.Dev博客",
     "summary_zh": "一支由1000名工作人员组成的团队，在运行Claude Fable 5.2早期版本的环境下，借助通用工具、共享数据库以及多层安全防护机制，成功复现了费马大定理的形式化证明。多智能体团队能够解决具有挑战性的长周期问题。今年九月，我们发表了费马大定理的首个端到端形式化证明，该证明由数十个智能体在内部研究模型上完成，该模型大致相当于Claude Fable 5.1。该项工作依托于Prove2Me——一个用于形式化数学的平台——以及一位研究人员的指导。在一项新的玩具实验中，由1000个智能体组成的团队运行了Claude《寓言》5.2的早期版本，在没有Prove2Me提供的支撑框架、也未接受研究人员指导的情况下，重现了该证明。",
-    "summary_updated_at": "2026-11-10T12:44:00+08:00"
+    "summary_updated_at": "2026-11-10T12:44:00+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/jpmorganchase-expands-claude-code": {
     "summary_status": "ready",
@@ -62,7 +162,8 @@
     "summary_en": "JPMorganChase is rolling out Claude across the firm, to more employees beyond engineers. In the Commercial and Investment Bank, work moves into production faster, and the firm redeploys that capacity against its business priorities. Teams are modernizing other legacy systems, and engineers are building their own agents, including pull request review and self-healing agents, and sharing what works. Infrastructure and operations teams use Claude Code (opens in new tab) for monitoring, alerting and root cause analysis. The firm's security team uses our frontier models to find and fix vulnerabilities faster, work we first described in Project Glasswing (opens in new tab) . The people closest to the business are building with Claude too.",
     "title_zh": "JPMorganChase将 Claude 代码扩展到更多员工",
     "summary_zh": "JPMorganChase正在整个公司向工程师以外的更多员工推出 Claude。在商业和投资银行中，工作进入生产的速度更快，公司根据其业务优先事项重新部署了这种能力。团队正在对其他遗留系统进行现代化改造，工程师正在构建自己的代理，包括拉取请求审查和自我修复代理，并共享有效的代理。基础设施和运营团队使用 Claude 代码 (在新选项卡中打开) 进行监控、警报和根本原因分析。该公司的安全团队使用我们的前沿模型来更快地发现和修复漏洞，这是我们在Project Glasswing (在新选项卡中打开) 中首次描述的工作。最接近企业的人也在用 Claude 建造。",
-    "summary_updated_at": "2026-11-10T12:44:00+08:00"
+    "summary_updated_at": "2026-11-10T12:44:00+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models": {
     "summary_status": "ready",
