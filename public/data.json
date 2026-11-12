@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11",
-  "generated_at_iso": "2026-11-11T10:56:05+08:00",
+  "generated_at": "2026-11-12",
+  "generated_at_iso": "2026-11-12T12:01:47+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -898,35 +898,6 @@
           "source": "Engineering Blog",
           "source_key": "engineering",
           "date": "2026-10-13",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/distillation-defenses",
-          "title_en": "Strengthening our defenses against distillation attacks",
-          "title_zh": "加强我们对蒸馏攻击的防御能力",
-          "summary_zh": "非法蒸馏允许模型开发人员复制frontier AI功能，而无需创建成比例的强大保护措施。在这里，我们描述了我们如何将蒸馏速率降低90% % 以上。最近几个月，我们在使用新方法降低 Claude 蒸馏攻击的有效性方面取得了实质性进展，正如我们在本博客中概述的那样。早期证据表明，这些方法已将蒸馏器收集的数据量减少了约90至99%。蒸馏攻击是秘密的，工业规模的活动，在没有原始模型开发人员授权的情况下，提取一个模型的功能并将其复制到另一个模型中。他们经常使用欺诈账户网络进行。",
-          "summary_en": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%. In recent months, we’ve made substantial progress on reducing the effectiveness of distillation attacks on Claude using new methods, as we outline in this blog. Early evidence suggests that these methods have reduced the amount of data harvested by distillers by around 90 to 99%. Distillation attacks are covert, industrial-scale campaigns to extract the capabilities of one model and replicate them in another, without the authorization of the original model’s developers. They are often conducted using networks of fraudulent accounts.",
-          "summary_status": "ready",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-10-12",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://www.anthropic.com/research/self-replicating-ai",
-          "title_en": "AI models may be capable of self-replicating without access to a datacenter",
-          "title_zh": "AI模型可能能够在不访问数据中心的情况下进行自我复制",
-          "summary_zh": "小型人工智能模型可能只有几个月的时间才能在Android电视盒等廉价物联网设备上进行自我复制，而不需要数据中心。我们的实验表明，小型人工智能模型可能需要几个月的时间才能在商业物联网 (IoT) 设备上进行自我复制，如智能烤箱和非品牌Android电视盒。像这样的复制器将是具有挑战性的关闭，因为没有集中点关闭-尽管它可能很慢 (数天的倍增时间)。与非人工智能恶意软件不同，它还可以自己找出不熟悉的设备。在我们的评估中，一个90亿参数的模型能够在我们测试的9种硬件类型中的8种上进行推理。",
-          "summary_en": "Small AI models may be only months away from being able to self-replicate across cheap IoT devices like Android TV boxes, with no datacenter needed. Our experiments suggest that small AI models may be months away from being capable enough to self-replicate on commercial internet-of-things (IoT) devices, like smart ovens and off-brand Android TV boxes. A replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days). Unlike non-AI malware, it could also figure out unfamiliar devices on its own. In our evaluations, a 9B model got inference running on 8 of the 9 hardware types we tested.",
-          "summary_status": "ready",
-          "source": "Red Team",
-          "source_key": "red_team",
-          "date": "2026-10-12",
           "date_precision": "day"
         }
       ]
@@ -8794,6 +8765,13 @@
         "date_precision": "day"
       },
       {
+        "url": "https://alignment.anthropic.com/2026/worse-together",
+        "title": "Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026",
+        "date_precision": "year"
+      },
+      {
         "url": "https://alignment.anthropic.com/2026/welfare-regard",
         "title": "Welfare Regard in Multi-Agent Systems",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
@@ -9454,60 +9432,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-11T10:55:49+08:00",
+    "last_success_at": "2026-11-12T12:01:43+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 272,
-        "last_success_at": "2026-11-11T10:55:49+08:00",
+        "last_success_at": "2026-11-12T12:01:43+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 212,
-        "last_success_at": "2026-11-11T10:55:49+08:00",
+        "last_success_at": "2026-11-12T12:01:43+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-11T10:55:49+08:00",
+        "last_success_at": "2026-11-12T12:01:43+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-11T10:55:49+08:00",
+        "last_success_at": "2026-11-12T12:01:43+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-11T10:55:49+08:00",
+        "last_success_at": "2026-11-12T12:01:43+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 284,
-        "last_success_at": "2026-11-11T10:55:49+08:00",
+        "last_success_at": "2026-11-12T12:01:43+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
-        "discovered": 59,
-        "last_success_at": "2026-11-11T10:55:49+08:00",
+        "discovered": 60,
+        "last_success_at": "2026-11-12T12:01:43+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-11T10:55:49+08:00",
+        "last_success_at": "2026-11-12T12:01:43+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 69,
-      "ready": 69,
+      "total": 67,
+      "ready": 67,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
