@@ -1,8 +1,85 @@
 {
-  "generated_at": "2026-11-12",
-  "generated_at_iso": "2026-11-12T12:01:47+08:00",
+  "generated_at": "2026-11-13",
+  "generated_at_iso": "2026-11-13T11:31:42+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-11-12",
+      "articles": [
+        {
+          "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+          "title_en": "Claude for Manufacturing: AI plugin for plant teams",
+          "title_zh": "Claude 用于制造: 工厂团队的AI插件",
+          "summary_zh": "Claude 从您工厂的记录中获得制造报价草稿、质量报告和供应商请求，以供您的团队审核和批准。一个具有17种技能和四个连接器的新插件可帮助制造商从他们已经运行的系统中起草报价，质量报告和供应商请求。",
+          "summary_en": "Claude for Manufacturing drafts quotes, quality reports, and supplier requests from your plant’s own records, for your team to review and approve. A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-12",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-meetings",
+          "title_en": "Introducing Claude Meetings, now in beta",
+          "title_zh": "介绍 Claude 次会议，目前处于测试阶段",
+          "summary_zh": "将 Claude 添加到您的视频通话中，以便在您的团队交谈时做笔记、回答问题以及构建文档和白板。Claude 现在可以作为可见的参与者加入您的视频通话，关注对话并在会议期间开始工作。Claude 会议现在处于测试阶段。您的团队可以在会议期间大声或在聊天中提出 Claude 个问题。默认情况下，Claude 以书面形式回答，并且可以在您允许的情况下使用您连接的工具。Claude 还与您一起构建文档、白板 (在新选项卡中打开) 或其他工件，而邀请上的队友完善它们。Claude 写笔记和行动项目，所以没有人打电话。Claude 会议开始在团队和企业计划的测试中推出。",
+          "summary_en": "Add Claude to your video calls to take notes, answer questions, and build docs and whiteboards while your team talks. Claude can now join your video calls as a visible participant, follow the conversation and start on work during the meeting. Claude Meetings is now in beta. Your team can ask Claude questions during the meeting, out loud or in chat. By default, Claude answers in writing, and it can use your connected tools with your permission. Claude also works with you live to build docs, whiteboards (opens in new tab) , or other artifacts, while teammates on the invite refine them. Claude writes the notes and action items, so no one on the call has to. Claude Meetings is starting to roll out in beta on Team and Enterprise plans.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-12",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
+          "title_en": "The Claude Tag guide for startups",
+          "title_zh": "Claude 创业标签指南",
+          "summary_zh": "首先要标记 Claude 的Slack频道: 使用案例、入门说明以及来自八家使用 Claude 标签的初创公司的转出清单。初创公司经常与戴着许多帽子的精益团队一起快速工作。在许多方面，Claude Tag (beta) 适合初创公司的工作方式。您 @Claude 转到您的上下文所在的Slack频道，添加连接器，并让您的团队一起分配和指导任务。对于刚开始使用 Claude 标签的创业团队，最常见的问题之一是 “我应该先将 Claude 添加到哪个频道？” 为了帮助回答这个问题，我们采访了八家高增长的初创公司，看看 Claude Tag是如何在他们的团队中工作的。我们从公司的领导者那里听到了从重塑律师事务所到构建下一代资源规划软件的愿景。",
+          "summary_en": "Which Slack channels to tag Claude in first: use cases, starter instructions, and a rollout checklist from eight startups using Claude Tag. Startups frequently work at a fast pace with lean teams wearing many hats. In many ways, Claude Tag (beta) is suited for how startups work. You @Claude to a Slack channel where your context lives, add connectors, and have your team assign and steer tasks together. For startup teams new to using Claude Tag, one of the most frequent questions is “which channels should I add Claude to first?” To help answer it, we spoke with eight high growth startups to see how Claude Tag works inside their teams. We heard from leaders at companies with visions from reinventing law firms to building the next generation of resource planning software.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-12",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
+          "title_en": "J.Crew’s Style Advisor: an AI stylist built with Claude",
+          "title_zh": "J.Crew的风格顾问: 由 Claude 打造的AI造型师",
+          "summary_zh": "J.Crew的新风格顾问使用 Claude 来帮助客户通过完整的服装来p JCrew.com，并借鉴J.Crew自己的造型师创造的外观。J.Crew的新款时尚顾问使用 Claude 提供更个性化的在线购物方式，以完整的外观而不是单个产品。",
+          "summary_en": "J.Crew’s new Style Advisor uses Claude to help customers shop JCrew.com by complete outfit, drawing on looks created by J.Crew’s own stylists. J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-12",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+          "title_en": "Operate Claude Managed Agents inside your security perimeter",
+          "title_zh": "在您的安全边界内操作 Claude 个托管代理",
+          "summary_zh": "在专用测试版中引入自托管 Claude 托管代理。现在，您可以在自己的环境中运行代理，无论是在自己的云中还是在内部部署中。介绍自托管 Claude 托管代理。现在，您可以在自己的环境中运行代理，无论是在自己的云中还是在内部部署中。您可以托管代理、凭据和会话历史记录，并选择向 Claude 发送请求的位置。",
+          "summary_en": "Introducing self-hosted Claude Managed Agents in private beta. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-12",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+          "title_en": "Which Claude model is best to use for knowledge work",
+          "title_zh": "哪种 Claude 模型最适合用于知识工作",
+          "summary_zh": "Opus 5.5是 Claude Pro、Max、Ultra和Team计划中的默认型号。以下是它如何与我们的其他模型进行比较，以及如何从它中获得最大的知识工作。",
+          "summary_en": "Opus 5.5 is the default model in Claude on Pro, Max, Ultra, and Team plans. Here's how it compares with our other models, and how to get the most from it for knowledge work.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-12",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-11-10",
       "articles": [
@@ -857,47 +934,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-10-14",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "articles": [
-        {
-          "url": "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai",
-          "title_en": "Uber's CISO on building an insider threat program for AI",
-          "title_zh": "优步首席信息安全官谈如何构建面向人工智能的内部威胁防护体系",
-          "summary_zh": "AI智能体的监控与可观测性的重要性，以及Uber的开源工具如何与Anthropic的企业前沿安全防护机制协同工作。优步的首席信息安全官菲利普·马丁就人工智能代理的监控与可观测性的重要性，以及优步的开源工具如何与企业级前沿安全防护机制协同工作进行了阐述。",
-          "summary_en": "The importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Anthropic's Enterprise Frontier Safeguards. Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-10-13",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://platform.claude.com/cookbook/observability-opentelemetry-tracing",
-          "title_en": "Trace Claude API requests and Managed Agents sessions with OpenTelemetry | Claude Cookbook",
-          "title_zh": "使用OpenTelemetry跟踪 Claude API 个请求和托管代理会话 | Claude 教程",
-          "summary_zh": "逐个属性地读取OpenTelemetry通过Python SDK为消息 API 请求、流、工具运行器循环以及托管代理会话所发出的跨度。然后将其导出到OTLP后端，并添加一个控制台输出目标，以便 API 的服务端跨度加入同一跟踪中。一个缓慢或昂贵的Claude请求无法告诉你时间和令牌都用在了哪里。OpenTelemetry（OTel）确实会生成跨度，这些跨度来自两个来源。Claude SDK会在您的进程中生成跨度，每发送一个请求就会生成一个。Claude API 会在 Anthropic 的端侧为每个请求内部的各项工作生成跟踪数据，并将其直接发送至您的可观测性后端。SDK会为每条请求添加一个traceparent头，而 API 则在其下挂载自己的跨度，因此这两者都会与您自己的处理器跨度和数据库跨度一起归入同一条调用链中。",
-          "summary_en": "Read the OpenTelemetry spans the Python SDK emits for Messages API requests, streams, tool-runner loops, and Managed Agents sessions, attribute by attribute. Then export to an OTLP backend and add a Console destination so the API's server-side spans join the same trace. A slow or expensive Claude request doesn't tell you where the time and tokens went. OpenTelemetry (OTel) spans do, and they come from two places. The Claude SDK emits spans inside your process, one per request it sends. The Claude API emits spans on Anthropic's side for the work inside each request, and delivers them straight to your observability backend. The SDK tags every request with a traceparent header and the API attaches its spans under it, so both land in one trace next to your own handler and database spans.",
-          "summary_status": "ready",
-          "source": "Claude Cookbook",
-          "source_key": "cookbook",
-          "date": "2026-10-13",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://www.anthropic.com/research/redesigning-source-control",
-          "title_en": "Redesigning source control at Anthropic",
-          "title_zh": "在Anthropic重新设计源代码管理",
-          "summary_zh": "随着我们每天的合并次数增长了十倍以上，源代码管理成为了我们最大的开发瓶颈。在此，我们分享了如何在五个月内迁移到自建版本控制系统的过程。已于10月15日更新，新增了关于我们如何在Scion中应用的诸多技术所源自的早期项目的更多详细信息。在Anthropic，编码已不再是构建系统或开展研究的瓶颈。Claude 能够自主迭代研究流程，对复杂程序进行微观优化，并以前所未有的速度和规模从零开始构建新服务。如今的瓶颈在于所有为人工规模构建的开发者基础设施：版本控制、构建流程以及持续集成。",
-          "summary_en": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months. Updated October 15 to include more detail on the projects that pioneered many of the techniques we use in Scion. At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up at a speed and scale we haven’t seen before. The bottleneck, now, is all of the developer infrastructure built for human scale: source control, builds, and CI.",
-          "summary_status": "ready",
-          "source": "Engineering Blog",
-          "source_key": "engineering",
-          "date": "2026-10-13",
           "date_precision": "day"
         }
       ]
@@ -5501,6 +5537,48 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+        "title": "Which Claude model is best to use for knowledge work",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-12",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+        "title": "Operate Claude Managed Agents inside your security perimeter",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-12",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/j-crew-style-advisor-with-claude",
+        "title": "J.Crew’s Style Advisor: an AI stylist built with Claude",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-12",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/claude-tag-guide-for-startups",
+        "title": "The Claude Tag guide for startups",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-12",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/claude-meetings",
+        "title": "Introducing Claude Meetings, now in beta",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-12",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+        "title": "Claude for Manufacturing: AI plugin for plant teams",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-12",
+        "date_precision": "day"
+      },
+      {
         "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
         "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -9432,60 +9510,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-12T12:01:43+08:00",
+    "last_success_at": "2026-11-13T11:31:29+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 272,
-        "last_success_at": "2026-11-12T12:01:43+08:00",
+        "last_success_at": "2026-11-13T11:31:29+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 212,
-        "last_success_at": "2026-11-12T12:01:43+08:00",
+        "last_success_at": "2026-11-13T11:31:29+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-12T12:01:43+08:00",
+        "last_success_at": "2026-11-13T11:31:29+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-12T12:01:43+08:00",
+        "last_success_at": "2026-11-13T11:31:29+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-12T12:01:43+08:00",
+        "last_success_at": "2026-11-13T11:31:29+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 284,
-        "last_success_at": "2026-11-12T12:01:43+08:00",
+        "discovered": 287,
+        "last_success_at": "2026-11-13T11:31:29+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 60,
-        "last_success_at": "2026-11-12T12:01:43+08:00",
+        "last_success_at": "2026-11-13T11:31:29+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-12T12:01:43+08:00",
+        "last_success_at": "2026-11-13T11:31:29+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 67,
-      "ready": 67,
+      "total": 70,
+      "ready": 70,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
