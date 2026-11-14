@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-11-13",
-  "generated_at_iso": "2026-11-13T11:31:42+08:00",
+  "generated_at": "2026-11-14",
+  "generated_at_iso": "2026-11-14T11:28:19+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-11-13",
+      "articles": [
+        {
+          "url": "https://claude.com/resources/articles/building-always-on-agents",
+          "title_en": "Building always-on agents",
+          "title_zh": "构建始终开启的代理",
+          "summary_zh": "始终开启的代理无限期运行，决定如何以及何时在多个会话中执行操作。本指南将介绍它们的核心原语以及它们如何组合在一起。",
+          "summary_en": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-13",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+          "title_en": "Building strong safety evaluations",
+          "title_zh": "建立强有力的安全评估",
+          "summary_zh": "根据我们自己的经验，设计、运行和报告安全评估的建议。安全评估为我们对人工智能模型做出的一些最重要的决定提供了信息，包括它是否准备好部署，它旁边的保障措施，以及我们下一轮的安全培训和研究应该关注什么。当我们说一个模型 “比它的前辈更安全” 时，我们的意思是它在某人构建的一组evals上得分更高。但是，安全声明仅与背后的评估一样合理，而好的声明很难建立。安全评估衡量模型造成或造成损害的倾向，无论其对请求的响应是否使损害的可能性增加或减少，以及损害的严重程度，而不是衡量特定的能力。",
+          "summary_en": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences. Safety evaluations inform some of the most consequential decisions we make about an AI model, including whether it’s ready to deploy, which safeguards ship alongside it, and what our next round of safety training and research should focus on. When we say a model is “safer than its predecessor,” we mean that it scored better on a set of evals someone built. But a safety claim is only as sound as the eval behind it, and good ones are hard to build. A safety eval measures a model’s propensity to cause or contribute to harm, whether its response to a request makes harm more or less likely, and how severe that harm would be, rather than measuring specific capabilities.",
+          "summary_status": "ready",
+          "source": "Engineering Blog",
+          "source_key": "engineering",
+          "date": "2026-11-13",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-11-12",
       "articles": [
@@ -893,47 +922,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-10-15",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/2026-us-midterms",
-          "title_en": "Preparing for the 2026 US midterms",
-          "title_zh": "为2026年美国中期选举做准备",
-          "summary_zh": "今年早些时候，我们发布了有关选举保障措施的最新进展。在此，我们概述了在本年度美国中期选举前夕，我们如何持续强化这些保障措施。今年早些时候，我们分享了我们的选举保障措施的最新情况，其中描述了我们如何衡量和防止政治偏见，检测滥用，并引导人们获得准确的投票信息。以下，我们概述了如何在这一基础上进一步完善，并在今年美国中期选举前持续强化我们的选举保障措施。我们的目标是使 Claude 成为政治对话的有用工具，同时防止与选举有关的滥用。首先要了解人们在这些情况下如何实际使用 Claude。",
-          "summary_en": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms. Earlier this year, we shared an update on our election safeguards , which described how we measure and prevent political bias, detect misuse, and direct people to accurate voting information. Below, we outline how we've built on that work and continued to strengthen our election safeguards ahead of this year’s US midterms. Our goal is for Claude to be a useful tool for political conversations, while preventing election-related abuse. That starts with understanding how people actually use Claude in these contexts.",
-          "summary_status": "ready",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-10-14",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://www.anthropic.com/news/singapore-office-opening",
-          "title_en": "Singapore office and government MOU | Anthropic",
-          "title_zh": "新加坡办公室与政府的谅解备忘录 | Anthropic",
-          "summary_zh": "Anthropic 在新加坡开设第五个亚太办事处，并与政府签署关于人工智能安全、评估和负责任采用的谅解备忘录。今天，我们通过在新加坡开设新办事处——这是我们在此地区的第五家办事处——并同新加坡数字发展与信息部签署谅解备忘录，进一步拓展我们在亚太地区的业务。新加坡是我们在全球最活跃的市场之一，并且已经为新加坡的商业和政府服务提供动力，每天有数百万人使用，例如新加坡GovTech，Grab和DBS。我们不断壮大的本地团队将确保这些组织和更多组织通过安全、有能力的人工智能留在前沿。",
-          "summary_en": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption. Today, we are expanding our Asia-Pacific operations by opening a new office in Singapore—our fifth in the region—and signing a Memorandum of Understanding (MOU) with the Singapore Ministry of Digital Development and Information. Singapore is one of our most active markets anywhere in the world, and Claude is already powering Singaporean business and government services used by millions of people every day, like GovTech Singapore, Grab, and DBS. Our growing local team will ensure these organizations and many more stay on the frontier with safe, capable AI.",
-          "summary_status": "ready",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-10-14",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
-          "title_en": "Trace agents with OpenTelemetry on the Claude Platform",
-          "title_zh": "在Claude平台上使用OpenTelemetry进行链路追踪",
-          "summary_zh": "宣布在Claude平台上推出来自Claude托管代理的OpenTelemetry跟踪、消息 API 以及 Claude SDK。",
-          "summary_en": "Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-10-14",
           "date_precision": "day"
         }
       ]
@@ -5537,6 +5525,13 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/resources/articles/building-always-on-agents",
+        "title": "Building always-on agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-13",
+        "date_precision": "day"
+      },
+      {
         "url": "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
         "title": "Which Claude model is best to use for knowledge work",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -9125,6 +9120,13 @@
     ],
     "engineering": [
       {
+        "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+        "title": "Building strong safety evaluations",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-11-13",
+        "date_precision": "day"
+      },
+      {
         "url": "https://www.anthropic.com/research/components-of-agent-memory",
         "title": "The components of agent memory",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
@@ -9510,60 +9512,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-13T11:31:29+08:00",
+    "last_success_at": "2026-11-14T11:28:13+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 272,
-        "last_success_at": "2026-11-13T11:31:29+08:00",
+        "last_success_at": "2026-11-14T11:28:13+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 212,
-        "last_success_at": "2026-11-13T11:31:29+08:00",
+        "discovered": 213,
+        "last_success_at": "2026-11-14T11:28:13+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-13T11:31:29+08:00",
+        "last_success_at": "2026-11-14T11:28:13+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-13T11:31:29+08:00",
+        "last_success_at": "2026-11-14T11:28:13+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-13T11:31:29+08:00",
+        "last_success_at": "2026-11-14T11:28:13+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 287,
-        "last_success_at": "2026-11-13T11:31:29+08:00",
+        "discovered": 288,
+        "last_success_at": "2026-11-14T11:28:13+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 60,
-        "last_success_at": "2026-11-13T11:31:29+08:00",
+        "last_success_at": "2026-11-14T11:28:13+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-13T11:31:29+08:00",
+        "last_success_at": "2026-11-14T11:28:13+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 70,
-      "ready": 70,
+      "total": 69,
+      "ready": 69,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
