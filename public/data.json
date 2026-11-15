@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14",
-  "generated_at_iso": "2026-11-14T11:28:19+08:00",
+  "generated_at": "2026-11-15",
+  "generated_at_iso": "2026-11-15T10:58:12+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -869,59 +869,6 @@
           "source": "Red Team",
           "source_key": "red_team",
           "date": "2026-10-16",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "articles": [
-        {
-          "url": "https://alignment.anthropic.com/2026/training-alignment-auditors",
-          "title_en": "Training Alignment Auditors via Reinforcement Learning",
-          "title_zh": "通过强化学习培训合规审计员",
-          "summary_zh": "我们使用强化学习培训了LLM名对齐审计员。在我们的训练环境中，策略会针对在其系统提示中植入了隐蔽行为的目标模型进行探测。在该环境中对Haiku 4.5进行微调后，其在用于审计质量的保留评估集上的表现与Opus 4.6相当，并且能够泛化到不同框架下的更难、经过微调的目标上。前沿模型开发者在部署前的评估中越来越多地依赖自动化审计系统（Anthropic，2025）。在这些系统中，一名LLM审核员会在多个场景下的多轮交互中对候选模型进行评估，以探查其是否存在值得关注或非预期的行为。",
-          "summary_en": "We train LLM alignment auditors with reinforcement learning. In our training environment, the policy investigates target models with hidden behaviors planted in their system prompt. After finetuning Haiku 4.5 on this environment, it matches Opus 4.6 on held-out evaluations for auditing quality and generalizes to harder, fine-tuned targets in a different scaffold. Frontier model developers increasingly rely on automated auditing systems as part of their pre-deployment evaluations ( Anthropic, 2025 ). In these systems, an LLM auditor investigates a candidate model in a multi-turn interaction across many scenarios, probing for concerning or unintended behaviors.",
-          "summary_status": "ready",
-          "source": "Alignment Science",
-          "source_key": "alignment",
-          "date": "2026-10-15",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-          "title_en": "Anthropic update on independent evaluators",
-          "title_zh": "关于独立评估员的Anthropic更新",
-          "summary_zh": "上个月，我们承诺对我们的模型和安全实践进行更强有力的独立第三方评估。我们还签署了《白宫超人工智能协议》，其中各公司承诺与独立的外部审计机构或评估机构开展合作。今天，我们宣布，我们已经开始向员工提供类似METR团队的访问权限，METR是一家评估前沿人工智能模型的非营利组织。METR将公布其风险评估结果。在过去的一年中，我们与METR合作对我们的风险报告进行了多次审查。我们还与SecureBio和埃森哲合作作为评估人员，并正在与其他几个组织进行早期讨论，包括拥抱脸。",
-          "summary_en": "Last month, we committed to stronger independent, third-party assessment of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators. Today, we’re announcing that we’ve started to give employee-like access to a team from METR , a nonprofit that evaluates frontier AI models. METR will publish the results of its risk assessments. Over the past year, we’ve worked with METR on several reviews of our Risk Reports . We’re also working with SecureBio and Accenture as evaluators, and are in early discussions with several other organizations, including Hugging Face .",
-          "summary_status": "ready",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-10-15",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
-          "title_en": "Code Review is now generally available",
-          "title_zh": "代码评审现已全面可用。",
-          "summary_zh": "在缺陷进入生产环境之前，尽早发现更多问题。代码评审功能现已面向 Claude 团队版和企业版组织全面开放。代码评审已退出研究预览阶段，现向Claude团队版和企业版组织开放。编码助手持续提升团队的代码编写速度，但代码评审的瓶颈仍未缓解。在正式发布版本中，我们提升了代码审查的速度，增强了其发现关键缺陷的能力，并使其更易于针对每个代码库进行个性化配置。自我们发布研究预览版以来，代码审查功能已更加完善，能够发现更多原本可能进入生产环境的缺陷。我们还在 Anthropic 对拉取请求执行代码评审，这让我们能够了解哪些评审环节拖慢了我们自身工程师的进度。",
-          "summary_en": "Catch more bugs before they reach production. Code Review is generally available for Claude Team and Enterprise organizations. Code Review is out of research preview and available to Claude Team and Enterprise organizations. Coding agents keep increasing the pace at which teams write code, and the review bottleneck hasn't eased. For general availability, we made Code Review faster, better at finding the bugs that matter, and easier to tune to each of your repositories. Since we released the research preview , Code Review has gotten sharper, catching more of the bugs that would otherwise reach production. We also run Code Review on pull requests at Anthropic, which shows us where reviews slow our own engineers down.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-10-15",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-          "title_en": "How the Claude Code team does code review / claude.dev Blog",
-          "title_zh": "Claude代码团队如何进行代码评审/claude.dev博客",
-          "summary_zh": "你们如何审查代理商所产出的大量代码？在Claude代码团队，一旦我们的测试覆盖率达到较高水平并实施了深度代码评审，我们便开始优化，力求将人工评审时间降至最低，同时确保不会引发回滚或事故。我们之前说过，Claude大约编写了Claude Code自身代码的90%。那么，我们如何在如此大规模的代码产出下进行代码评审呢？还有人看代码吗？那如果有什么东西坏了，谁来接住它呢？本文介绍了Claude代码团队的代码评审流程及其演进历程。从6月到9月，合并到Claude Code代码库的拉取请求数量增长了一倍以上，而不得不回滚的拉取请求占比则下降了40%以上。我们没有删除评论。",
-          "summary_en": "How do you review code at the volume agents produce it? On the Claude Code team, once we had high coverage and deep reviews, we started optimizing for the minimum amount of human review time that doesn't raise reverts or incidents. We've said before that Claude writes about 90 percent of Claude Code's own code. So how do we review code at the volume we produce it? Does anyone read code anymore? And if something breaks, who catches it? This post covers the code review flow on the Claude Code team and how it has evolved. From June to September, merged pull requests to Claude Code's codebase more than doubled while the share that had to be reverted fell by more than 40 percent. We didn't remove review.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-10-15",
           "date_precision": "day"
         }
       ]
@@ -9512,60 +9459,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-14T11:28:13+08:00",
+    "last_success_at": "2026-11-15T10:58:10+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 272,
-        "last_success_at": "2026-11-14T11:28:13+08:00",
+        "last_success_at": "2026-11-15T10:58:10+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 213,
-        "last_success_at": "2026-11-14T11:28:13+08:00",
+        "last_success_at": "2026-11-15T10:58:10+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-14T11:28:13+08:00",
+        "last_success_at": "2026-11-15T10:58:10+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-14T11:28:13+08:00",
+        "last_success_at": "2026-11-15T10:58:10+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-14T11:28:13+08:00",
+        "last_success_at": "2026-11-15T10:58:10+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 288,
-        "last_success_at": "2026-11-14T11:28:13+08:00",
+        "last_success_at": "2026-11-15T10:58:10+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 60,
-        "last_success_at": "2026-11-14T11:28:13+08:00",
+        "last_success_at": "2026-11-15T10:58:10+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-14T11:28:13+08:00",
+        "last_success_at": "2026-11-15T10:58:10+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 69,
-      "ready": 69,
+      "total": 65,
+      "ready": 65,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
