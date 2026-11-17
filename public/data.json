@@ -1,8 +1,25 @@
 {
-  "generated_at": "2026-11-16",
-  "generated_at_iso": "2026-11-16T10:57:23+08:00",
+  "generated_at": "2026-11-17",
+  "generated_at_iso": "2026-11-17T13:11:16+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-11-16",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+          "title_en": "Updating our coordinated vulnerability disclosure policy timelines",
+          "title_zh": "更新我们的协调漏洞披露政策时间表",
+          "summary_zh": "对于严重和严重的问题，我们正在将漏洞披露窗口从90天缩短到30天，对于所有其他问题则缩短到45天。在过去的几个月中，前沿模型在发现漏洞方面变得更好。我们仍然乐观地认为，这将有助于防御者比以往更快地发现和修复漏洞。然而，人工智能改进的速度已经改变了我们对自己的信息披露实践的看法。我们正在将我们的协调漏洞披露 (CVD) 政策中的披露窗口从90天缩短到30天，对于严重和严重问题，将所有其他问题缩短到45天。新的时间表适用于在2027年1月1日时或之后向供应商和维护人员报告的漏洞。",
+          "summary_en": "We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues. Over the last several months, frontier models have become much better at discovering vulnerabilities . We remain optimistic that this will help defenders find and fix vulnerabilities faster than ever before. However, the speed at which AI is improving has changed how we think about our own disclosure practices. We’re shortening the disclosure window in our coordinated vulnerability disclosure (CVD) policy from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues. The new timelines apply to vulnerabilities reported to vendors and maintainers on or after January 1, 2027.",
+          "summary_status": "ready",
+          "source": "Red Team",
+          "source_key": "red_team",
+          "date": "2026-11-16",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "articles": [
@@ -5038,6 +5055,13 @@
     ],
     "red_team": [
       {
+        "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+        "title": "Updating our coordinated vulnerability disclosure policy timelines",
+        "desc": "Anthropic 红队安全研究（red.anthropic.com）",
+        "date": "2026-11-16",
+        "date_precision": "day"
+      },
+      {
         "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
         "title": "Project EVE: Claude plays MMORPGs",
         "desc": "Anthropic 红队安全研究（red.anthropic.com）",
@@ -9370,60 +9394,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-16T10:57:21+08:00",
+    "last_success_at": "2026-11-17T13:11:10+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 272,
-        "last_success_at": "2026-11-16T10:57:21+08:00",
+        "last_success_at": "2026-11-17T13:11:10+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 213,
-        "last_success_at": "2026-11-16T10:57:21+08:00",
+        "discovered": 214,
+        "last_success_at": "2026-11-17T13:11:10+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-16T10:57:21+08:00",
+        "last_success_at": "2026-11-17T13:11:10+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-16T10:57:21+08:00",
+        "last_success_at": "2026-11-17T13:11:10+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-16T10:57:21+08:00",
+        "last_success_at": "2026-11-17T13:11:10+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 288,
-        "last_success_at": "2026-11-16T10:57:21+08:00",
+        "last_success_at": "2026-11-17T13:11:10+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 60,
-        "last_success_at": "2026-11-16T10:57:21+08:00",
+        "last_success_at": "2026-11-17T13:11:10+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-16T10:57:21+08:00",
+        "last_success_at": "2026-11-17T13:11:10+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 58,
-      "ready": 58,
+      "total": 59,
+      "ready": 59,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
