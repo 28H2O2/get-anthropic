@@ -1,8 +1,25 @@
 {
-  "generated_at": "2026-11-17",
-  "generated_at_iso": "2026-11-17T13:11:16+08:00",
+  "generated_at": "2026-11-18",
+  "generated_at_iso": "2026-11-18T12:39:09+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-11-17",
+      "articles": [
+        {
+          "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+          "title_en": "Linked billing on the Claude Platform",
+          "title_zh": "Claude 平台上的关联账单",
+          "summary_zh": "关联计费现已在 Claude 平台上推出测试版。第三方平台可以让客户在不共享 API 密钥的情况下支付 Claude API 的使用费用。今天，我们将在 Claude 平台上以测试版形式推出关联计费功能。第三方平台（如编码代理和工作流自动化工具）可以让其最终客户为 Claude API 的使用付费，而无需共享 API 密钥。最终客户保留其现有的Anthropic计费方式并自行设定支出限额，而平台则获得一种更简便、更安全的方式来提供Claude。在第三方平台上为 Claude API 的使用付费，通常意味着需要共享一个 API 密钥，该密钥的作用类似于密码：任何持有该密钥的人都可以发起由客户付费的请求，因此平台必须妥善保管该密钥。",
+          "summary_en": "Linked billing is now in beta on the Claude Platform. Third-party platforms can let customers pay for Claude API usage without sharing an API key. Today we're introducing linked billing on the Claude Platform in beta. Third-party platforms, such as coding agents and workflow automation tools, can let their end customers pay for Claude API usage without sharing an API key. End customers keep their existing Anthropic billing and set their own spend limits, and platforms get a simpler, more secure way to offer Claude. Paying for Claude API usage on a third-party platform usually means sharing an API key, which works like a password: anyone who has the key can make requests billed to the customer, so the platform has to keep it safe.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-17",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "articles": [
@@ -780,23 +797,6 @@
           "source": "Alignment Science",
           "source_key": "alignment",
           "date": "2026-10-19",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-18",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/public-benefit-fund",
-          "title_en": "Investing in the public benefit",
-          "title_zh": "投资于公共利益",
-          "summary_zh": "我们将Anthropic的部分股份注入Anthropic公益基金，该基金为一家新设立的实体，其架构会随着公司的发展而逐步提升持股比例。今天，我们将 Anthropic 的部分股份投入到 Anthropic 公益基金，这是一个新的实体，其结构会随着公司的发展而增加股份。在获得股东批准的前提下，今日将锁定Anthropic公司5%的股份；此外，当公司估值较设定基准每增长50%时，董事会可酌情再追加2%的股份锁定。作为一家公益公司，我们的大部分工作都在公司内部进行: 与AI安全性和可解释性相关的研究; 应用生物医学研究; 非营利组织和科研机构的 Claude 折扣。",
-          "summary_en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Subject to stockholder approval, 5% of Anthropic’s shares will be committed today, with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline. As a public benefit corporation, most of our work in pursuit of our mission takes place inside the company: research relevant to AI safety and interpretability; applied biomedical research; discounts on Claude for nonprofits and scientific institutions.",
-          "summary_status": "ready",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-10-18",
           "date_precision": "day"
         }
       ]
@@ -5407,6 +5407,13 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+        "title": "Linked billing on the Claude Platform",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-17",
+        "date_precision": "day"
+      },
+      {
         "url": "https://claude.com/resources/articles/building-always-on-agents",
         "title": "Building always-on agents",
         "desc": "Claude 官方博客（面向用户与企业）",
@@ -9394,54 +9401,54 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-17T13:11:10+08:00",
+    "last_success_at": "2026-11-18T12:39:03+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 272,
-        "last_success_at": "2026-11-17T13:11:10+08:00",
+        "last_success_at": "2026-11-18T12:39:03+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 214,
-        "last_success_at": "2026-11-17T13:11:10+08:00",
+        "last_success_at": "2026-11-18T12:39:03+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-17T13:11:10+08:00",
+        "last_success_at": "2026-11-18T12:39:03+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-17T13:11:10+08:00",
+        "last_success_at": "2026-11-18T12:39:03+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-17T13:11:10+08:00",
+        "last_success_at": "2026-11-18T12:39:03+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 288,
-        "last_success_at": "2026-11-17T13:11:10+08:00",
+        "discovered": 289,
+        "last_success_at": "2026-11-18T12:39:03+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 60,
-        "last_success_at": "2026-11-17T13:11:10+08:00",
+        "last_success_at": "2026-11-18T12:39:03+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-17T13:11:10+08:00",
+        "last_success_at": "2026-11-18T12:39:03+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
