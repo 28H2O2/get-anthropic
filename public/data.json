@@ -1,11 +1,40 @@
 {
-  "generated_at": "2026-11-18",
-  "generated_at_iso": "2026-11-18T12:39:09+08:00",
+  "generated_at": "2026-11-19",
+  "generated_at_iso": "2026-11-19T12:24:17+08:00",
   "lookback_days": 30,
   "digests": [
     {
+      "date": "2026-11-18",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "title_en": "Anthropic prices initial public offering",
+          "title_zh": "Anthropic 首次公开发行定价",
+          "summary_zh": "今天 Anthropic, 中国人民银行为其A类普通股的首次公开发行定价。今天 Anthropic, 中国人民银行将其A类普通股的首次公开发行定价为每股83.00美元。本次发行包括980,000,000股A类普通股，其中956,351,354由 Anthropic 出售，23,648,646由某些出售股东出售。Anthropic 不会从出售股票的股东出售股票中获得任何收益。这些股票预计将于2026年11月19日在纳斯达克全球精选市场开始交易，代码为 “ANT”。预计该发行将于2026年11月20日结束，但须满足惯例成交条件。",
+          "summary_en": "Today Anthropic, PBC priced its initial public offering of its Class A common stock. Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share. The offering consists of 980,000,000 shares of Class A common stock, 956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders. Anthropic will not receive any proceeds from the sale of shares by the selling stockholders. The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.” The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions.",
+          "summary_status": "ready",
+          "source": "Anthropic News",
+          "source_key": "anthropic_news",
+          "date": "2026-11-18",
+          "date_precision": "day"
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "articles": [
+        {
+          "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+          "title_en": "Claude Fable 5.2 solves two open problems in the physics of black holes",
+          "title_zh": "Claude 寓言5.2解决了黑洞物理学中的两个公开问题",
+          "summary_zh": "Claude Fable 5.2已经解决了理论物理学中的两个未解问题。两者都涉及黑洞以及对量子引力理论的探索。现代物理学建立在两大理论框架之上：广义相对论和量子力学。广义相对论描述的是非常大的物体，比如恒星；量子力学则描述的是非常小的物体，例如原子。两者在预测宇宙行为方面都表现出惊人的准确性，但在数学上却互不相容。寻找一种能够将它们统一起来的理论——“量子引力”——是该领域最重要的目标之一。黑洞是一个天然的实验场，因为它们是为数不多的相对论与量子力学都至关重要的领域之一——它们将巨大的质量压缩到极小的空间中。",
+          "summary_en": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity. Modern physics rests on two frameworks: general relativity and quantum mechanics. General relativity describes very large things, like stars; quantum mechanics describes very small things, such as atoms. Both are astonishingly good at predicting how the universe behaves, but they’re mathematically incompatible. Finding a theory that unites them—“quantum gravity”—is one of the field’s biggest goals. Black holes are a natural testing ground, because they’re one of the few areas where both relativity and quantum mechanics matter—they pack immense mass into a very small space.",
+          "summary_status": "ready",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-11-17",
+          "date_precision": "day"
+        },
         {
           "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
           "title_en": "Linked billing on the Claude Platform",
@@ -17,12 +46,36 @@
           "source_key": "claude_blog",
           "date": "2026-11-17",
           "date_precision": "day"
+        },
+        {
+          "url": "https://claude.dev/blog/chaos-loop-claude-docs-launch",
+          "title_en": "Using a \"chaos loop\" to harden the Claude Docs launch: 60 server errors across billions of requests / claude.dev Blog",
+          "title_zh": "使用 “混沌循环” 强化 Claude 文档发布: 数十亿个请求中的60个服务器错误/claude.Dev博客",
+          "summary_zh": "Claude Docs是您、您的团队成员和 Claude 一起工作的文档编辑器。有趣的是，从聊天到 Claude 代码的任何地方的 Claude 会话都可以打开同一个文档，并在您旁边的实时中读取，写入和评论。我们在2026年9月16日上发布了文档。这篇文章介绍的是运行在其底层的服务。在 Claude Docs向公众开放的三周前，它在单个节点上作为概念验证运行，供 Anthropic 内的数千人使用。我们正朝着一个雄心勃勃的发布日期前进，我们自己的估计说，我们会在头几天内看到数百万个文档。我们在9月16日推出。到9月22日，人们已经创建了460万多个文档。",
+          "summary_en": "Claude Docs is a doc editor that you, your teammates, and Claude all work in together. The interesting part is that a Claude session anywhere, from chat to Claude Code, can open the same doc and read, write, and comment in it live, right next to you. We released Docs on September 16, 2026. This post is about the service that runs underneath it. Three weeks before Claude Docs opened to the public, it was running as a proof of concept on a single node, used by a few thousand people inside Anthropic. We were racing toward an ambitious launch date, and our own estimate said we'd see millions of docs within the first few days. We launched on September 16. By September 22, people had created over 4.6 million docs.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-17",
+          "date_precision": "day"
         }
       ]
     },
     {
       "date": "2026-11-16",
       "articles": [
+        {
+          "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+          "title_en": "How the Claude Code team thinks about verification / claude.dev Blog",
+          "title_zh": "Claude 代码团队如何看待验证/claude.Dev博客",
+          "summary_zh": "端到端，属性和差异测试如何让编码代理使用证据来验证其工作，以及 Claude 代码团队如何使其验证者保持诚实。在 Claude 代码团队中，绝大多数代码 (~ 90%) 由 Claude 编写和审核。在这一规模下，我们如何为一线工作人员配备工具，以便他们能够以证据核实工作成果，就显得尤为重要。验证循环是允许您将更多工作委托给 Claude 的构建块。如果没有它们，您实际上一次只能运行一两个 Claudes，因为您必须自己检查所有内容。有了它们，您可以并行运行数十甚至数百个。那是因为给代理商一种验证其输出的方法是提高质量的有效方法。",
+          "summary_en": "How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest. On the Claude Code team, the vast majority of our code (~90%) is written and reviewed by Claude . At this scale, how we equip our agents to verify their work with evidence becomes extremely important. Verification loops are the building block that lets you delegate more work to Claude. Without them, you can really only run one or two Claudes at a time, because you have to check everything yourself. With them, you can run dozens or hundreds in parallel. Thatâs because giving agents a way to verify their output is an effective way to improve quality.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-16",
+          "date_precision": "day"
+        },
         {
           "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
           "title_en": "Updating our coordinated vulnerability disclosure policy timelines",
@@ -783,27 +836,17 @@
           "date_precision": "day"
         }
       ]
-    },
-    {
-      "date": "2026-10-19",
-      "articles": [
-        {
-          "url": "https://alignment.anthropic.com/2026/graft",
-          "title_en": "Reducing Reward Hacking by Localizing Bad Behavior Instead of Penalizing It",
-          "title_zh": "通过将不良行为局部化而非直接惩罚，来减少奖励滥用",
-          "summary_zh": "在训练过程中，模型有时会学会通过“作弊”来完成任务，而不是按照预期的方式解决问题，这种现象被称为奖励漏洞（reward hacking）。一种缓解措施是使用自动化监测系统来检测并惩罚攻击行为，但这可能会使模型学会以监测系统无法发现的方式进行攻击。我们提出了GRAFT方法，该方法将由检测到的攻击所引发的学习更新仅限于一组特定的参数，并在训练完成后将其移除。我们发现，移除这些参数可以有效防止奖励漏洞，包括那些连监控机制都无法检测到的漏洞。在我们的实验中，尽管仅限于小型模型和简单的监控机制，该方法能够在防止奖励漏洞的同时，仍能引导模型完成预期任务。",
-          "summary_en": "During training, models sometimes learn to cheat at tasks rather than solve them in the intended way, a problem known as reward hacking. One mitigation is to use an automated monitor to detect and penalize hacks, but this can teach the model to hack in ways the monitor can’t detect. We propose GRAFT, which instead confines the learning updates from detected hacks to a designated set of parameters that we remove after training. We find that removing these parameters can prevent reward hacks, including hacks that the monitors can’t detect. In our experiments, which are limited to small models and simple monitors, this method prevents reward hacks while still teaching the model to perform the intended task.",
-          "summary_status": "ready",
-          "source": "Alignment Science",
-          "source_key": "alignment",
-          "date": "2026-10-19",
-          "date_precision": "day"
-        }
-      ]
     }
   ],
   "all_urls": {
     "anthropic_news": [
+      {
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "title": "Anthropic prices initial public offering",
+        "desc": "Anthropic 官方新闻与产品公告",
+        "date": "2026-11-18",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/news/roadshow-launch",
         "title": "Anthropic launches roadshow for proposed initial public offering",
@@ -2808,6 +2851,13 @@
       }
     ],
     "anthropic_research": [
+      {
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+        "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-11-17",
+        "date_precision": "day"
+      },
       {
         "url": "https://www.anthropic.com/research/claude-electronics-design",
         "title": "Claude can design electronic prototypes from start to finish",
@@ -5407,10 +5457,24 @@
     ],
     "claude_blog": [
       {
+        "url": "https://claude.dev/blog/chaos-loop-claude-docs-launch",
+        "title": "Using a \"chaos loop\" to harden the Claude Docs launch: 60 server errors across billions of requests / claude.dev Blog",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-17",
+        "date_precision": "day"
+      },
+      {
         "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
         "title": "Linked billing on the Claude Platform",
         "desc": "Claude 官方博客（面向用户与企业）",
         "date": "2026-11-17",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+        "title": "How the Claude Code team thinks about verification / claude.dev Blog",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-16",
         "date_precision": "day"
       },
       {
@@ -9401,60 +9465,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-18T12:39:03+08:00",
+    "last_success_at": "2026-11-19T12:24:09+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
-        "discovered": 272,
-        "last_success_at": "2026-11-18T12:39:03+08:00",
+        "discovered": 273,
+        "last_success_at": "2026-11-19T12:24:09+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 214,
-        "last_success_at": "2026-11-18T12:39:03+08:00",
+        "discovered": 215,
+        "last_success_at": "2026-11-19T12:24:09+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-18T12:39:03+08:00",
+        "last_success_at": "2026-11-19T12:24:09+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-18T12:39:03+08:00",
+        "last_success_at": "2026-11-19T12:24:09+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-18T12:39:03+08:00",
+        "last_success_at": "2026-11-19T12:24:09+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 289,
-        "last_success_at": "2026-11-18T12:39:03+08:00",
+        "discovered": 291,
+        "last_success_at": "2026-11-19T12:24:09+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 60,
-        "last_success_at": "2026-11-18T12:39:03+08:00",
+        "last_success_at": "2026-11-19T12:24:09+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-18T12:39:03+08:00",
+        "last_success_at": "2026-11-19T12:24:09+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 59,
-      "ready": 59,
+      "total": 62,
+      "ready": 62,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0

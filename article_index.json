@@ -1,4 +1,54 @@
 {
+  "https://www.anthropic.com/news/anthropic-prices-initial-public-offering": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-19",
+    "source": "anthropic_news",
+    "title": "Anthropic prices initial public offering",
+    "sitemap_lastmod": "2026-11-18",
+    "date": "2026-11-18",
+    "metadata_checked_at": "2026-11-19T12:24:09+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Today Anthropic, PBC priced its initial public offering of its Class A common stock. Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share. The offering consists of 980,000,000 shares of Class A common stock, 956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders. Anthropic will not receive any proceeds from the sale of shares by the selling stockholders. The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.” The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions.",
+    "title_zh": "Anthropic 首次公开发行定价",
+    "summary_zh": "今天 Anthropic, 中国人民银行为其A类普通股的首次公开发行定价。今天 Anthropic, 中国人民银行将其A类普通股的首次公开发行定价为每股83.00美元。本次发行包括980,000,000股A类普通股，其中956,351,354由 Anthropic 出售，23,648,646由某些出售股东出售。Anthropic 不会从出售股票的股东出售股票中获得任何收益。这些股票预计将于2026年11月19日在纳斯达克全球精选市场开始交易，代码为 “ANT”。预计该发行将于2026年11月20日结束，但须满足惯例成交条件。",
+    "summary_updated_at": "2026-11-19T12:24:09+08:00"
+  },
+  "https://www.anthropic.com/research/claude-black-hole-physics": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-19",
+    "source": "anthropic_research",
+    "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
+    "sitemap_lastmod": "2026-11-18",
+    "date": "2026-11-17",
+    "metadata_checked_at": "2026-11-19T12:24:09+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity. Modern physics rests on two frameworks: general relativity and quantum mechanics. General relativity describes very large things, like stars; quantum mechanics describes very small things, such as atoms. Both are astonishingly good at predicting how the universe behaves, but they’re mathematically incompatible. Finding a theory that unites them—“quantum gravity”—is one of the field’s biggest goals. Black holes are a natural testing ground, because they’re one of the few areas where both relativity and quantum mechanics matter—they pack immense mass into a very small space.",
+    "title_zh": "Claude 寓言5.2解决了黑洞物理学中的两个公开问题",
+    "summary_zh": "Claude Fable 5.2已经解决了理论物理学中的两个未解问题。两者都涉及黑洞以及对量子引力理论的探索。现代物理学建立在两大理论框架之上：广义相对论和量子力学。广义相对论描述的是非常大的物体，比如恒星；量子力学则描述的是非常小的物体，例如原子。两者在预测宇宙行为方面都表现出惊人的准确性，但在数学上却互不相容。寻找一种能够将它们统一起来的理论——“量子引力”——是该领域最重要的目标之一。黑洞是一个天然的实验场，因为它们是为数不多的相对论与量子力学都至关重要的领域之一——它们将巨大的质量压缩到极小的空间中。",
+    "summary_updated_at": "2026-11-19T12:24:09+08:00"
+  },
+  "https://claude.dev/blog/chaos-loop-claude-docs-launch": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-19",
+    "source": "claude_blog",
+    "title": "Using a \"chaos loop\" to harden the Claude Docs launch: 60 server errors across billions of requests / claude.dev Blog",
+    "date": "2026-11-17",
+    "metadata_checked_at": "2026-11-19T12:24:09+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Claude Docs is a doc editor that you, your teammates, and Claude all work in together. The interesting part is that a Claude session anywhere, from chat to Claude Code, can open the same doc and read, write, and comment in it live, right next to you. We released Docs on September 16, 2026. This post is about the service that runs underneath it. Three weeks before Claude Docs opened to the public, it was running as a proof of concept on a single node, used by a few thousand people inside Anthropic. We were racing toward an ambitious launch date, and our own estimate said we'd see millions of docs within the first few days. We launched on September 16. By September 22, people had created over 4.6 million docs.",
+    "title_zh": "使用 “混沌循环” 强化 Claude 文档发布: 数十亿个请求中的60个服务器错误/claude.Dev博客",
+    "summary_zh": "Claude Docs是您、您的团队成员和 Claude 一起工作的文档编辑器。有趣的是，从聊天到 Claude 代码的任何地方的 Claude 会话都可以打开同一个文档，并在您旁边的实时中读取，写入和评论。我们在2026年9月16日上发布了文档。这篇文章介绍的是运行在其底层的服务。在 Claude Docs向公众开放的三周前，它在单个节点上作为概念验证运行，供 Anthropic 内的数千人使用。我们正朝着一个雄心勃勃的发布日期前进，我们自己的估计说，我们会在头几天内看到数百万个文档。我们在9月16日推出。到9月22日，人们已经创建了460万多个文档。",
+    "summary_updated_at": "2026-11-19T12:24:09+08:00"
+  },
   "https://claude.com/resources/articles/linked-billing-on-claude-platform": {
     "summary_status": "ready",
     "processed": true,
@@ -13,7 +63,8 @@
     "summary_en": "Linked billing is now in beta on the Claude Platform. Third-party platforms can let customers pay for Claude API usage without sharing an API key. Today we're introducing linked billing on the Claude Platform in beta. Third-party platforms, such as coding agents and workflow automation tools, can let their end customers pay for Claude API usage without sharing an API key. End customers keep their existing Anthropic billing and set their own spend limits, and platforms get a simpler, more secure way to offer Claude. Paying for Claude API usage on a third-party platform usually means sharing an API key, which works like a password: anyone who has the key can make requests billed to the customer, so the platform has to keep it safe.",
     "title_zh": "Claude 平台上的关联账单",
     "summary_zh": "关联计费现已在 Claude 平台上推出测试版。第三方平台可以让客户在不共享 API 密钥的情况下支付 Claude API 的使用费用。今天，我们将在 Claude 平台上以测试版形式推出关联计费功能。第三方平台（如编码代理和工作流自动化工具）可以让其最终客户为 Claude API 的使用付费，而无需共享 API 密钥。最终客户保留其现有的Anthropic计费方式并自行设定支出限额，而平台则获得一种更简便、更安全的方式来提供Claude。在第三方平台上为 Claude API 的使用付费，通常意味着需要共享一个 API 密钥，该密钥的作用类似于密码：任何持有该密钥的人都可以发起由客户付费的请求，因此平台必须妥善保管该密钥。",
-    "summary_updated_at": "2026-11-18T12:39:03+08:00"
+    "summary_updated_at": "2026-11-18T12:39:03+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines": {
     "summary_status": "ready",
@@ -32,6 +83,22 @@
     "summary_zh": "对于严重和严重的问题，我们正在将漏洞披露窗口从90天缩短到30天，对于所有其他问题则缩短到45天。在过去的几个月中，前沿模型在发现漏洞方面变得更好。我们仍然乐观地认为，这将有助于防御者比以往更快地发现和修复漏洞。然而，人工智能改进的速度已经改变了我们对自己的信息披露实践的看法。我们正在将我们的协调漏洞披露 (CVD) 政策中的披露窗口从90天缩短到30天，对于严重和严重问题，将所有其他问题缩短到45天。新的时间表适用于在2027年1月1日时或之后向供应商和维护人员报告的漏洞。",
     "summary_updated_at": "2026-11-17T13:11:10+08:00",
     "aliases": []
+  },
+  "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-19",
+    "source": "claude_blog",
+    "title": "How the Claude Code team thinks about verification / claude.dev Blog",
+    "date": "2026-11-16",
+    "metadata_checked_at": "2026-11-19T12:24:09+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest. On the Claude Code team, the vast majority of our code (~90%) is written and reviewed by Claude . At this scale, how we equip our agents to verify their work with evidence becomes extremely important. Verification loops are the building block that lets you delegate more work to Claude. Without them, you can really only run one or two Claudes at a time, because you have to check everything yourself. With them, you can run dozens or hundreds in parallel. Thatâs because giving agents a way to verify their output is an effective way to improve quality.",
+    "title_zh": "Claude 代码团队如何看待验证/claude.Dev博客",
+    "summary_zh": "端到端，属性和差异测试如何让编码代理使用证据来验证其工作，以及 Claude 代码团队如何使其验证者保持诚实。在 Claude 代码团队中，绝大多数代码 (~ 90%) 由 Claude 编写和审核。在这一规模下，我们如何为一线工作人员配备工具，以便他们能够以证据核实工作成果，就显得尤为重要。验证循环是允许您将更多工作委托给 Claude 的构建块。如果没有它们，您实际上一次只能运行一两个 Claudes，因为您必须自己检查所有内容。有了它们，您可以并行运行数十甚至数百个。那是因为给代理商一种验证其输出的方法是提高质量的有效方法。",
+    "summary_updated_at": "2026-11-19T12:24:09+08:00"
   },
   "https://www.anthropic.com/research/building-strong-safety-evaluations": {
     "summary_status": "ready",
@@ -803,7 +870,7 @@
     "first_seen_at": "2026-10-23",
     "source": "red_team",
     "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "sitemap_lastmod": "2026-11-17",
+    "sitemap_lastmod": "2026-11-18",
     "date": "2026-10-22",
     "metadata_checked_at": "2026-10-23T09:46:40+08:00",
     "date_precision": "day",
@@ -1524,7 +1591,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-14",
+    "sitemap_lastmod": "2026-11-18",
     "metadata_checked_at": "2026-10-21T16:09:13+08:00",
     "fetch_status": "ok",
     "summary_updated_at": "2026-10-21T16:09:13+08:00",
@@ -5555,7 +5622,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-11-13"
+    "sitemap_lastmod": "2026-11-18"
   },
   "https://www.anthropic.com/news/milan-office-opening": {
     "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
@@ -6348,7 +6415,7 @@
     "date_verified": true,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-11-13",
+    "sitemap_lastmod": "2026-11-18",
     "metadata_checked_at": "2026-10-21T16:01:22+08:00",
     "fetch_status": "ok"
   },
@@ -6930,7 +6997,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-11-13"
+    "sitemap_lastmod": "2026-11-18"
   },
   "https://platform.claude.com/cookbook/claude-agent-sdk-06-the-vulnerability-detection-agent": {
     "title": "The vulnerability detection agent | Claude Cookbook",
@@ -8609,7 +8676,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-20"
+    "sitemap_lastmod": "2026-11-18"
   },
   "https://www.anthropic.com/news/claude-opus-4-6": {
     "title": "",
@@ -11899,7 +11966,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-11-13"
+    "sitemap_lastmod": "2026-11-18"
   },
   "https://red.anthropic.com/2025/project-vend": {
     "title": "Project Vend",
@@ -12291,7 +12358,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-23"
+    "sitemap_lastmod": "2026-11-18"
   },
   "https://transformer-circuits.pub/2025/attribution-graphs/methods.html": {
     "title": "Circuit Tracing: Revealing Computational Graphs in Language ModelsAmeisen et al., 2025We describe an approach to tracing the \"step-by-step\" computation involved when a model responds\n                    to a single prompt.",
@@ -12516,7 +12583,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-23"
+    "sitemap_lastmod": "2026-11-18"
   },
   "https://www.anthropic.com/news/lyft-announcement": {
     "title": "",
@@ -13211,7 +13278,7 @@
     "date_verified": false,
     "date_precision": "day",
     "aliases": [],
-    "sitemap_lastmod": "2026-10-23"
+    "sitemap_lastmod": "2026-11-18"
   },
   "https://www.anthropic.com/research/distributed-representations-composition-superposition": {
     "title": "",
