@@ -71,6 +71,9 @@ class PipelineTests(unittest.TestCase):
 
     def test_placeholder_whitespace_and_sentence_budget(self):
         self.assertEqual(translator._restore_nouns('在 {{ 1 }} 工作', {'{{1}}': 'Anthropic'}), '在 Anthropic 工作')
+        protected, mapping = translator._protect_nouns('Today Anthropic, PBC priced shares sold by Anthropic.')
+        self.assertNotIn('PBC', protected)
+        self.assertEqual(translator._restore_nouns(protected, mapping), 'Today Anthropic, PBC priced shares sold by Anthropic.')
         text = 'First complete sentence. ' + ('Long complete sentence about results. ' * 50)
         value = translator.excerpt(text)
         self.assertLessEqual(len(value), 800)

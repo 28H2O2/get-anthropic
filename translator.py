@@ -3,7 +3,7 @@ import os
 import re
 import time
 
-_PROPER_NOUNS = ["Constitutional AI", "Anthropic", "ChatGPT", "Claude", "Sonnet", "Haiku", "Opus", "GPT-4", "GPT-3", "OpenAI", "Gemini", "RLHF", "LLM", "API"]
+_PROPER_NOUNS = ["Constitutional AI", "Anthropic, PBC", "Anthropic", "ChatGPT", "Claude", "Sonnet", "Haiku", "Opus", "GPT-4", "GPT-3", "OpenAI", "Gemini", "RLHF", "LLM", "API"]
 
 
 def _protect_nouns(text):
