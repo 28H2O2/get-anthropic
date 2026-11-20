@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19",
-  "generated_at_iso": "2026-11-19T22:58:24+08:00",
+  "generated_at": "2026-11-20",
+  "generated_at_iso": "2026-11-20T12:11:37+08:00",
   "lookback_days": 30,
   "digests": [
     {
@@ -804,35 +804,6 @@
           "source": "Claude Blog",
           "source_key": "claude_blog",
           "date": "2026-10-21",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-          "title_en": "How Claude designed protein binders against scorpion neurotoxins",
-          "title_zh": "Claude 如何设计蛋白质结合剂对抗蝎子神经毒素",
-          "summary_zh": "我们要求一个内部研究 Claude 模型来设计针对蝎子神经毒素的微型结合物 (紧密附着在靶标上的小蛋白质)。总结: 作为我们研究 Claude 如何帮助加速药物发现的工作的一部分，我们要求一个内部研究模型来设计针对蝎子神经毒素的小结合物 (紧密附着在靶标上的小蛋白质)。Claude 借鉴了我们与金融投资研究公司Citrini research合作开发的prompt和四个后续项目。Adaptyv Bio和Twist Bioscience的团队通过实验测试了211设计的结合。其中17个符合我们的标准。我们将发布所有211设计及其数据作为该领域的资源。",
-          "summary_en": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Summary: As part of our work experimenting with how Claude can help accelerate drug discovery, we asked an internal research model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Claude worked from our prompt and four follow-ups, which we developed in collaboration with the financial investment research firm Citrini Research. Teams at Adaptyv Bio and Twist Bioscience experimentally tested 211 designs for binding. Of these, 17 met our criteria. We’re releasing all 211 designs and their data as a resource for the field.",
-          "summary_status": "ready",
-          "source": "Anthropic Research",
-          "source_key": "anthropic_research",
-          "date": "2026-10-20",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://www.anthropic.com/research/attack-surface-reduction",
-          "title_en": "Using Claude to reduce the attack surface of code",
-          "title_zh": "使用 Claude 减少代码的攻击面",
-          "summary_zh": "自动攻击面分析和减少可以在短期内有意义地提高已部署软件的安全性。在这篇文章中，我们预览了使用 Claude 将攻击面缩减技术应用于大型开源代码库所收集的数据。在过去的一年中，我们发布了大量数据，表明frontier AI模型能够发现和利用安全漏洞。然而，展示此前未知的漏洞可能被如何利用，仅仅只是前沿人工智能模型在网络安全防御领域所能发挥作用的开端。",
-          "summary_en": "Automated attack surface analysis and reduction can meaningfully improve the security of deployed software in the near term. In this post, we preview data we’ve collected from applying attack surface reduction techniques to large open-source codebases using Claude. Over the past year, we’ve published lots of data that shows that frontier AI models are more than capable of discovering and exploiting security vulnerabilities. Showing how previously unknown vulnerabilities might be exploited is, however, only the start of what frontier AI models can do for cyber defense.",
-          "summary_status": "ready",
-          "source": "Red Team",
-          "source_key": "red_team",
-          "date": "2026-10-20",
           "date_precision": "day"
         }
       ]
@@ -9465,60 +9436,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-19T12:24:09+08:00",
+    "last_success_at": "2026-11-20T12:11:32+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 273,
-        "last_success_at": "2026-11-19T12:24:09+08:00",
+        "last_success_at": "2026-11-20T12:11:32+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
         "discovered": 215,
-        "last_success_at": "2026-11-19T12:24:09+08:00",
+        "last_success_at": "2026-11-20T12:11:32+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-19T12:24:09+08:00",
+        "last_success_at": "2026-11-20T12:11:32+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-19T12:24:09+08:00",
+        "last_success_at": "2026-11-20T12:11:32+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-19T12:24:09+08:00",
+        "last_success_at": "2026-11-20T12:11:32+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 291,
-        "last_success_at": "2026-11-19T12:24:09+08:00",
+        "last_success_at": "2026-11-20T12:11:32+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 60,
-        "last_success_at": "2026-11-19T12:24:09+08:00",
+        "last_success_at": "2026-11-20T12:11:32+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-19T12:24:09+08:00",
+        "last_success_at": "2026-11-20T12:11:32+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 62,
-      "ready": 62,
+      "total": 60,
+      "ready": 60,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0

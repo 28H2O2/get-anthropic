@@ -14,7 +14,8 @@
     "summary_en": "Today Anthropic, PBC priced its initial public offering of its Class A common stock at $83.00 per share. The offering consists of 980,000,000 shares of Class A common stock, 956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders. Anthropic will not receive any proceeds from the sale of shares by the selling stockholders. The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.” The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions.",
     "title_zh": "Anthropic 首次公开发行定价",
     "summary_zh": "Anthropic, PBC 将其 A 类普通股的首次公开发行价定为每股 83 美元。本次发行包括980,000,000股A类普通股，其中956,351,354由 Anthropic 出售，23,648,646由某些出售股东出售。Anthropic 不会从出售股票的股东出售股票中获得任何收益。这些股票预计将于2026年11月19日在纳斯达克全球精选市场开始交易，代码为 “ANT”。预计该发行将于2026年11月20日结束，但须满足惯例成交条件。",
-    "summary_updated_at": "2026-11-19T12:24:09+08:00"
+    "summary_updated_at": "2026-11-19T12:24:09+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/claude-black-hole-physics": {
     "summary_status": "ready",
@@ -31,7 +32,8 @@
     "summary_en": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity. Modern physics rests on two frameworks: general relativity and quantum mechanics. General relativity describes very large things, like stars; quantum mechanics describes very small things, such as atoms. Both are astonishingly good at predicting how the universe behaves, but they’re mathematically incompatible. Finding a theory that unites them—“quantum gravity”—is one of the field’s biggest goals. Black holes are a natural testing ground, because they’re one of the few areas where both relativity and quantum mechanics matter—they pack immense mass into a very small space.",
     "title_zh": "Claude 寓言5.2解决了黑洞物理学中的两个公开问题",
     "summary_zh": "Claude Fable 5.2已经解决了理论物理学中的两个未解问题。两者都涉及黑洞以及对量子引力理论的探索。现代物理学建立在两大理论框架之上：广义相对论和量子力学。广义相对论描述的是非常大的物体，比如恒星；量子力学则描述的是非常小的物体，例如原子。两者在预测宇宙行为方面都表现出惊人的准确性，但在数学上却互不相容。寻找一种能够将它们统一起来的理论——“量子引力”——是该领域最重要的目标之一。黑洞是一个天然的实验场，因为它们是为数不多的相对论与量子力学都至关重要的领域之一——它们将巨大的质量压缩到极小的空间中。",
-    "summary_updated_at": "2026-11-19T12:24:09+08:00"
+    "summary_updated_at": "2026-11-19T12:24:09+08:00",
+    "aliases": []
   },
   "https://claude.dev/blog/chaos-loop-claude-docs-launch": {
     "summary_status": "ready",
@@ -47,7 +49,8 @@
     "summary_en": "Claude Docs is a doc editor that you, your teammates, and Claude all work in together. The interesting part is that a Claude session anywhere, from chat to Claude Code, can open the same doc and read, write, and comment in it live, right next to you. We released Docs on September 16, 2026. This post is about the service that runs underneath it. Three weeks before Claude Docs opened to the public, it was running as a proof of concept on a single node, used by a few thousand people inside Anthropic. We were racing toward an ambitious launch date, and our own estimate said we'd see millions of docs within the first few days. We launched on September 16. By September 22, people had created over 4.6 million docs.",
     "title_zh": "使用 “混沌循环” 强化 Claude 文档发布: 数十亿个请求中的60个服务器错误/claude.Dev博客",
     "summary_zh": "Claude Docs是您、您的团队成员和 Claude 一起工作的文档编辑器。有趣的是，从聊天到 Claude 代码的任何地方的 Claude 会话都可以打开同一个文档，并在您旁边的实时中读取，写入和评论。我们在2026年9月16日上发布了文档。这篇文章介绍的是运行在其底层的服务。在 Claude Docs向公众开放的三周前，它在单个节点上作为概念验证运行，供 Anthropic 内的数千人使用。我们正朝着一个雄心勃勃的发布日期前进，我们自己的估计说，我们会在头几天内看到数百万个文档。我们在9月16日推出。到9月22日，人们已经创建了460万多个文档。",
-    "summary_updated_at": "2026-11-19T12:24:09+08:00"
+    "summary_updated_at": "2026-11-19T12:24:09+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/linked-billing-on-claude-platform": {
     "summary_status": "ready",
@@ -98,7 +101,8 @@
     "summary_en": "How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest. On the Claude Code team, the vast majority of our code (~90%) is written and reviewed by Claude . At this scale, how we equip our agents to verify their work with evidence becomes extremely important. Verification loops are the building block that lets you delegate more work to Claude. Without them, you can really only run one or two Claudes at a time, because you have to check everything yourself. With them, you can run dozens or hundreds in parallel. Thatâs because giving agents a way to verify their output is an effective way to improve quality.",
     "title_zh": "Claude 代码团队如何看待验证/claude.Dev博客",
     "summary_zh": "端到端，属性和差异测试如何让编码代理使用证据来验证其工作，以及 Claude 代码团队如何使其验证者保持诚实。在 Claude 代码团队中，绝大多数代码 (~ 90%) 由 Claude 编写和审核。在这一规模下，我们如何为一线工作人员配备工具，以便他们能够以证据核实工作成果，就显得尤为重要。验证循环是允许您将更多工作委托给 Claude 的构建块。如果没有它们，您实际上一次只能运行一两个 Claudes，因为您必须自己检查所有内容。有了它们，您可以并行运行数十甚至数百个。那是因为给代理商一种验证其输出的方法是提高质量的有效方法。",
-    "summary_updated_at": "2026-11-19T12:24:09+08:00"
+    "summary_updated_at": "2026-11-19T12:24:09+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/building-strong-safety-evaluations": {
     "summary_status": "ready",
@@ -870,7 +874,7 @@
     "first_seen_at": "2026-10-23",
     "source": "red_team",
     "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "sitemap_lastmod": "2026-11-18",
+    "sitemap_lastmod": "2026-11-19",
     "date": "2026-10-22",
     "metadata_checked_at": "2026-10-23T09:46:40+08:00",
     "date_precision": "day",
