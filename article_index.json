@@ -1,4 +1,21 @@
 {
+  "https://www.anthropic.com/news/ipo-close": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-21",
+    "source": "anthropic_news",
+    "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+    "sitemap_lastmod": "2026-11-20",
+    "date": "2026-11-20",
+    "metadata_checked_at": "2026-11-21T12:11:29+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price. The offering consisted of 1,103,351,354 shares sold by Anthropic and 23,648,646 shares sold by certain selling stockholders. The aggregate gross proceeds from the offering, before deducting underwriting discounts and commissions and other offering expenses, were approximately $93.5 billion, of which approximately $91.6 billion was received by Anthropic.",
+    "title_zh": "Anthropic 宣布完成首次公开发行，包括全面行使承销商购买额外股份的选择权，以及同时完成私募发行",
+    "summary_zh": "今天 Anthropic, PBC 宣布完成1,127,000,000股A类普通股的首次公开发行，公开发行价格为每股83.00美元，包括承销商完全行使其以首次公开发行价格从 Anthropic 购买额外147,000,000股A类普通股的选择权。此次发行包括 Anthropic 出售的1,103,351,354股和某些出售股东出售的23,648,646股。在扣除承销折扣和佣金及其他发行费用之前，本次发行的总收益约为935亿美元，其中 Anthropic 收到约916亿美元。",
+    "summary_updated_at": "2026-11-21T12:11:29+08:00"
+  },
   "https://www.anthropic.com/news/anthropic-prices-initial-public-offering": {
     "summary_status": "ready",
     "processed": true,
@@ -874,7 +891,7 @@
     "first_seen_at": "2026-10-23",
     "source": "red_team",
     "title": "LLMs are making formal software verification feasible at a much larger scale",
-    "sitemap_lastmod": "2026-11-19",
+    "sitemap_lastmod": "2026-11-20",
     "date": "2026-10-22",
     "metadata_checked_at": "2026-10-23T09:46:40+08:00",
     "date_precision": "day",
