@@ -1,8 +1,73 @@
 {
-  "generated_at": "2026-11-23",
-  "generated_at_iso": "2026-11-23T11:54:34+08:00",
+  "generated_at": "2026-11-24",
+  "generated_at_iso": "2026-11-24T15:01:46+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-11-23",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/working-with-ai",
+          "title_en": "Working with AI",
+          "title_zh": "与AI合作",
+          "summary_zh": "我们采访了58家使用 Claude 的公司的员工，了解AI如何改变他们的工作。他们描述了很少的裁员，但减少了招聘，并表示人工智能最有价值的用途通常涉及围绕它重组角色和工作场所。各行各业的企业如何应用人工智能？他们面临哪些瓶颈和挑战？雇主如何围绕能力越来越强的模型重组人类的专业知识？为了更好地了解企业的体验，我们对 Anthropic 的58位企业客户进行了66次访谈。我们发现: LLMs的使用在整个经济中呈爆炸式增长。人类组织如何重塑这些奇怪的新合作者？想想我们采访过的一家中型律师事务所的一名员工。",
+          "summary_en": "We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it. How are businesses across the economy adopting AI? What bottlenecks and challenges have they faced? How can employers reorganize human expertise around increasingly capable models? To understand businesses’ experiences better, we conducted 66 interviews with 58 of Anthropic’s enterprise customers. We found: The use of LLMs has exploded across the economy. How are human organizations reshaping around these strange new collaborators? Consider an employee at a midsize law firm that we spoke to.",
+          "summary_status": "ready",
+          "source": "Anthropic Research",
+          "source_key": "anthropic_research",
+          "date": "2026-11-23",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
+          "title_en": "The enterprise guide to securing coding agents",
+          "title_zh": "保护编码代理的企业指南",
+          "summary_zh": "安全和技术领导者如何确定和限制编码代理风险: 特定于AI的风险、 Claude 代码的分层防御和集中实施的策略。编码代理可能已经在您的组织中编写代码并打开拉取请求。对于许多龙头企业而言，它们也在对其进行评估、测试并加以整合。例如，在对整个工程组织的 Claude 代码进行标准化后，Salesforce ¹ 报告说: 随着代理商的工作越来越多，技术和安全领导者必须通过分层控制 (如检查权限和有界环境) 来降低即时注入和特权滥用等风险。前两章着重于界定风险范围。我们讨论了每个AI提供商应满足的要求以及要减轻的四个代理风险。",
+          "summary_en": "How security and technical leaders can scope and bound coding agent risk: AI-specific risks, Claude Code’s layered defenses, and centrally enforced policy. Coding agents likely write code and open pull requests at your organization already. For many leading enterprises, they are reviewing, testing, and merging it too. For example, after standardizing on Claude Code across its engineering organization, Salesforce ¹ reported : As agents do more, technical and security leaders must mitigate risks like prompt injection and privilege abuse with layered controls such as checked permissions and bounded environments. The first two chapters focus on scoping the risk. We discuss the requirements every AI provider should meet and four agentic risks to mitigate.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-23",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/introducing-claude-ship",
+          "title_en": "Introducing Claude Ship",
+          "title_zh": "介绍 Claude 艘船",
+          "summary_zh": "打开一个pull request并返回到builing。Claude 现在可以查看拉取请求，修复它们，并批准团队策略允许的请求。",
+          "summary_en": "Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-23",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data",
+          "title_en": "KPMG's Todd Lohr on AI when your data is also your clients' data",
+          "title_zh": "当您的数据也是您客户的数据时，KPMG的Todd Lohr on AI",
+          "summary_zh": "采用前沿人工智能并同时建立保障措施，以及这对拥有客户最敏感数据的公司意味着什么。毕马威美国副主席兼客户技术与创新主管Todd Lohr就采用前沿人工智能和同时建立保障措施，以及这对拥有客户最敏感数据的公司意味着什么。",
+          "summary_en": "Adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data. Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-23",
+          "date_precision": "day"
+        },
+        {
+          "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+          "title_en": "Zero data retention with Enterprise Frontier Safeguards is now in beta",
+          "title_zh": "企业前沿保障措施的零数据保留现已处于测试阶段",
+          "summary_zh": "Enterprise Frontier safety现在处于公开测试阶段，可检测复杂的滥用，同时保持与零数据保留兼容。在过去的几个月里，我们一直在为我们的商业客户开发企业前沿保障 (EFS)。EFS提供最先进的复杂滥用检测，同时保持与零数据保留 (ZDR) 兼容: Anthropic 和任何云提供商都不会保留企业的数据。自9月发布EFS以来，我们一直在与100多名客户进行进一步开发，其中包括四分之一的财富100强公司和许多对数据可见性有严格规定的行业 (如医疗保健、金融服务和法律) 的公司。",
+          "summary_en": "Enterprise Frontier Safeguards is now in public beta, providing detection of sophisticated misuse while remaining compatible with zero data retention. Over the past few months, we've been developing Enterprise Frontier Safeguards (EFS) for our business customers. EFS provides state-of-the-art detection of sophisticated misuse, while remaining compatible with zero data retention (ZDR): neither Anthropic nor any cloud providers retain enterprises' data. Since we announced EFS in September , we've been developing it further with over 100 of our customers—including a quarter of the Fortune 100 and many companies in industries with strict rules on data visibility (like healthcare, financial services, and law).",
+          "summary_status": "ready",
+          "source": "Claude Blog",
+          "source_key": "claude_blog",
+          "date": "2026-11-23",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "articles": [
@@ -2676,6 +2741,13 @@
     ],
     "anthropic_research": [
       {
+        "url": "https://www.anthropic.com/research/working-with-ai",
+        "title": "Working with AI",
+        "desc": "Anthropic 研究论文与技术博客",
+        "date": "2026-11-23",
+        "date_precision": "day"
+      },
+      {
         "url": "https://www.anthropic.com/research/claude-black-hole-physics",
         "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
         "desc": "Anthropic 研究论文与技术博客",
@@ -5280,6 +5352,34 @@
       }
     ],
     "claude_blog": [
+      {
+        "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+        "title": "Zero data retention with Enterprise Frontier Safeguards is now in beta",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-23",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data",
+        "title": "KPMG's Todd Lohr on AI when your data is also your clients' data",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-23",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/introducing-claude-ship",
+        "title": "Introducing Claude Ship",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-23",
+        "date_precision": "day"
+      },
+      {
+        "url": "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents",
+        "title": "The enterprise guide to securing coding agents",
+        "desc": "Claude 官方博客（面向用户与企业）",
+        "date": "2026-11-23",
+        "date_precision": "day"
+      },
       {
         "url": "https://claude.dev/blog/chaos-loop-claude-docs-launch",
         "title": "Using a \"chaos loop\" to harden the Claude Docs launch: 60 server errors across billions of requests / claude.dev Blog",
@@ -8636,6 +8736,20 @@
         "date_precision": "year"
       },
       {
+        "url": "https://alignment.anthropic.com/2026/neuron-basis-theory",
+        "title": "Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026",
+        "date_precision": "year"
+      },
+      {
+        "url": "https://alignment.anthropic.com/2026/neuron-basis-applications",
+        "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
+        "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
+        "date": "2026",
+        "date_precision": "year"
+      },
+      {
         "url": "https://alignment.anthropic.com/2026/hot-mess-of-ai",
         "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
         "desc": "Anthropic 对齐科学专项博客（alignment.anthropic.com）",
@@ -9289,60 +9403,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-23T11:54:31+08:00",
+    "last_success_at": "2026-11-24T15:01:36+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 274,
-        "last_success_at": "2026-11-23T11:54:31+08:00",
+        "last_success_at": "2026-11-24T15:01:36+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 215,
-        "last_success_at": "2026-11-23T11:54:31+08:00",
+        "discovered": 216,
+        "last_success_at": "2026-11-24T15:01:36+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-23T11:54:31+08:00",
+        "last_success_at": "2026-11-24T15:01:36+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-23T11:54:31+08:00",
+        "last_success_at": "2026-11-24T15:01:36+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-23T11:54:31+08:00",
+        "last_success_at": "2026-11-24T15:01:36+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
-        "discovered": 291,
-        "last_success_at": "2026-11-23T11:54:31+08:00",
+        "discovered": 295,
+        "last_success_at": "2026-11-24T15:01:36+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
-        "discovered": 60,
-        "last_success_at": "2026-11-23T11:54:31+08:00",
+        "discovered": 62,
+        "last_success_at": "2026-11-24T15:01:36+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-23T11:54:31+08:00",
+        "last_success_at": "2026-11-24T15:01:36+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 48,
-      "ready": 48,
+      "total": 53,
+      "ready": 53,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0
