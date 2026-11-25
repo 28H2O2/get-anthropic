@@ -1,4 +1,36 @@
 {
+  "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-25",
+    "source": "claude_blog",
+    "title": "MCP servers can now ship skills, run tasks, and more with Claude",
+    "date": "2026-11-24",
+    "metadata_checked_at": "2026-11-25T13:36:33+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Skills over MCP is in public beta in Claude, so MCP servers can ship skills alongside their tools. Tasks and Elicitation are now generally available, and File Uploads is rolling out soon. Skills over MCP is now in public beta in Claude, so MCP servers can ship skills alongside their tools. We're also giving servers ways to handle longer, more interactive work with Claude: Tasks and Elicitation are now generally available, and File Uploads is rolling out soon. Two years ago, Anthropic launched the Model Context Protocol (MCP) as a new standard for connecting AI agents to the systems where data lives. The spec has kept evolving to meet the connectivity needs of agents in production, and is becoming foundational for agentic messaging and orchestration.",
+    "title_zh": "MCP服务器现在可以使用 Claude 提供技能、运行任务等",
+    "summary_zh": "MCP上的技能在 Claude, 所以MCP服务器可以与他们的工具一起运送技能。任务和引导现已全面上线，文件上传功能也即将推出。MCP上的技能现在在 Claude, 所以MCP服务器可以与他们的工具一起运送技能。我们还为服务器提供了处理 Claude 的更长时间、更具交互性的工作的方法: 任务和启发现在普遍可用，文件上传即将推出。两年前，Anthropic 推出了模型上下文协议 (MCP)，作为将AI代理连接到数据所在系统的新标准。该规范不断发展以满足生产中代理的连接需求，并且正在成为代理消息传递和编排的基础。",
+    "summary_updated_at": "2026-11-25T13:36:33+08:00"
+  },
+  "https://claude.com/resources/articles/install-as-app": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-25",
+    "source": "claude_blog",
+    "title": "Turn artifacts into Mac and Windows apps",
+    "date": "2026-11-24",
+    "metadata_checked_at": "2026-11-25T13:36:33+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "Open the artifacts you use every day like any other app, and let them do more on your computer. Rolling out in beta in Claude for Mac and Windows. Starting today, you can use Claude artifacts to create, run, and share desktop apps. The \"Install as app\" feature is rolling out in beta in Claude for Mac and Windows. When an artifact is installed as a Mac or Windows app, it gets its own icon and opens in its own window instead of inside Claude. You can share it with others, and it needs your permission before it can interact with your computer. You choose how much to allow. Each app can use Claude and your connectors, and it updates automatically when the underlying artifact is edited. This simplifies the process for building and maintaining apps for both knowledge workers and developers.",
+    "title_zh": "将工件转换为Mac和Windows应用程序",
+    "summary_zh": "像任何其他应用程序一样打开您每天使用的工件，并让它们在您的计算机上执行更多操作。在适用于Mac和Windows的 Claude 中推出测试版。从今天开始，你可以使用 Claude 项目来创建、运行和共享桌面应用程序。“作为应用程序安装” 功能在Mac和Windows的 Claude 中推出测试版。当工件安装为Mac或Windows应用程序时，它会获得自己的图标并在自己的窗口中打开，而不是在 Claude 内打开。您可以与其他人共享它，它需要您的许可才能与您的计算机交互。您可以自行决定允许的额度。每个应用都可以使用 Claude 和您的连接器，并且在编辑基础工件时会自动更新。这简化了为知识工作者和开发人员构建和维护应用程序的过程。",
+    "summary_updated_at": "2026-11-25T13:36:33+08:00"
+  },
   "https://www.anthropic.com/research/working-with-ai": {
     "summary_status": "ready",
     "processed": true,
@@ -14,7 +46,8 @@
     "summary_en": "We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it. How are businesses across the economy adopting AI? What bottlenecks and challenges have they faced? How can employers reorganize human expertise around increasingly capable models? To understand businesses’ experiences better, we conducted 66 interviews with 58 of Anthropic’s enterprise customers. We found: The use of LLMs has exploded across the economy. How are human organizations reshaping around these strange new collaborators? Consider an employee at a midsize law firm that we spoke to.",
     "title_zh": "与AI合作",
     "summary_zh": "我们采访了58家使用 Claude 的公司的员工，了解AI如何改变他们的工作。他们描述了很少的裁员，但减少了招聘，并表示人工智能最有价值的用途通常涉及围绕它重组角色和工作场所。各行各业的企业如何应用人工智能？他们面临哪些瓶颈和挑战？雇主如何围绕能力越来越强的模型重组人类的专业知识？为了更好地了解企业的体验，我们对 Anthropic 的58位企业客户进行了66次访谈。我们发现: LLMs的使用在整个经济中呈爆炸式增长。人类组织如何重塑这些奇怪的新合作者？想想我们采访过的一家中型律师事务所的一名员工。",
-    "summary_updated_at": "2026-11-24T15:01:36+08:00"
+    "summary_updated_at": "2026-11-24T15:01:36+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards": {
     "summary_status": "ready",
@@ -30,7 +63,8 @@
     "summary_en": "Enterprise Frontier Safeguards is now in public beta, providing detection of sophisticated misuse while remaining compatible with zero data retention. Over the past few months, we've been developing Enterprise Frontier Safeguards (EFS) for our business customers. EFS provides state-of-the-art detection of sophisticated misuse, while remaining compatible with zero data retention (ZDR): neither Anthropic nor any cloud providers retain enterprises' data. Since we announced EFS in September , we've been developing it further with over 100 of our customers—including a quarter of the Fortune 100 and many companies in industries with strict rules on data visibility (like healthcare, financial services, and law).",
     "title_zh": "企业前沿保障措施的零数据保留现已处于测试阶段",
     "summary_zh": "Enterprise Frontier safety现在处于公开测试阶段，可检测复杂的滥用，同时保持与零数据保留兼容。在过去的几个月里，我们一直在为我们的商业客户开发企业前沿保障 (EFS)。EFS提供最先进的复杂滥用检测，同时保持与零数据保留 (ZDR) 兼容: Anthropic 和任何云提供商都不会保留企业的数据。自9月发布EFS以来，我们一直在与100多名客户进行进一步开发，其中包括四分之一的财富100强公司和许多对数据可见性有严格规定的行业 (如医疗保健、金融服务和法律) 的公司。",
-    "summary_updated_at": "2026-11-24T15:01:36+08:00"
+    "summary_updated_at": "2026-11-24T15:01:36+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data": {
     "summary_status": "ready",
@@ -46,7 +80,8 @@
     "summary_en": "Adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data. Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.",
     "title_zh": "当您的数据也是您客户的数据时，KPMG的Todd Lohr on AI",
     "summary_zh": "采用前沿人工智能并同时建立保障措施，以及这对拥有客户最敏感数据的公司意味着什么。毕马威美国副主席兼客户技术与创新主管Todd Lohr就采用前沿人工智能和同时建立保障措施，以及这对拥有客户最敏感数据的公司意味着什么。",
-    "summary_updated_at": "2026-11-24T15:01:36+08:00"
+    "summary_updated_at": "2026-11-24T15:01:36+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/introducing-claude-ship": {
     "summary_status": "ready",
@@ -62,7 +97,8 @@
     "summary_en": "Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.",
     "title_zh": "介绍 Claude 艘船",
     "summary_zh": "打开一个pull request并返回到builing。Claude 现在可以查看拉取请求，修复它们，并批准团队策略允许的请求。",
-    "summary_updated_at": "2026-11-24T15:01:36+08:00"
+    "summary_updated_at": "2026-11-24T15:01:36+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents": {
     "summary_status": "ready",
@@ -78,7 +114,8 @@
     "summary_en": "How security and technical leaders can scope and bound coding agent risk: AI-specific risks, Claude Code’s layered defenses, and centrally enforced policy. Coding agents likely write code and open pull requests at your organization already. For many leading enterprises, they are reviewing, testing, and merging it too. For example, after standardizing on Claude Code across its engineering organization, Salesforce ¹ reported : As agents do more, technical and security leaders must mitigate risks like prompt injection and privilege abuse with layered controls such as checked permissions and bounded environments. The first two chapters focus on scoping the risk. We discuss the requirements every AI provider should meet and four agentic risks to mitigate.",
     "title_zh": "保护编码代理的企业指南",
     "summary_zh": "安全和技术领导者如何确定和限制编码代理风险: 特定于AI的风险、 Claude 代码的分层防御和集中实施的策略。编码代理可能已经在您的组织中编写代码并打开拉取请求。对于许多龙头企业而言，它们也在对其进行评估、测试并加以整合。例如，在对整个工程组织的 Claude 代码进行标准化后，Salesforce ¹ 报告说: 随着代理商的工作越来越多，技术和安全领导者必须通过分层控制 (如检查权限和有界环境) 来降低即时注入和特权滥用等风险。前两章着重于界定风险范围。我们讨论了每个AI提供商应满足的要求以及要减轻的四个代理风险。",
-    "summary_updated_at": "2026-11-24T15:01:36+08:00"
+    "summary_updated_at": "2026-11-24T15:01:36+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/news/ipo-close": {
     "summary_status": "ready",
@@ -9451,7 +9488,8 @@
     "date_precision": "year",
     "date_verified": true,
     "fetch_status": "ok",
-    "summary_en": "Previous interpretability research has suggested that understanding language models by studying their individual neurons is difficult, for three reasons: a single neuron often fires on several unrelated inputs; the way a concept is represented can change between two layers of neurons within a single model; and facts seem to be spread across many neurons. We revisit these objections by looking at what each neuron contributes to a model’s output, not just what causes it to fire, and we test our hypotheses by switching neurons off or by moving their outputs to other layers. We find that a neuron will contribute two unrelated concepts at once in about 1% or fewer of the cases we sampled, and that a neuron’s output keeps roughly the same meaning across most layers."
+    "summary_en": "Previous interpretability research has suggested that understanding language models by studying their individual neurons is difficult, for three reasons: a single neuron often fires on several unrelated inputs; the way a concept is represented can change between two layers of neurons within a single model; and facts seem to be spread across many neurons. We revisit these objections by looking at what each neuron contributes to a model’s output, not just what causes it to fire, and we test our hypotheses by switching neurons off or by moving their outputs to other layers. We find that a neuron will contribute two unrelated concepts at once in about 1% or fewer of the cases we sampled, and that a neuron’s output keeps roughly the same meaning across most layers.",
+    "aliases": []
   },
   "https://alignment.anthropic.com/2026/neuron-basis-applications": {
     "summary_status": "pending",
@@ -9464,7 +9502,8 @@
     "date_precision": "year",
     "date_verified": true,
     "fetch_status": "ok",
-    "summary_en": "In a companion piece , we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how."
+    "summary_en": "In a companion piece , we argue that individual neurons in language models are easier to interpret than earlier work has assumed. Here we see whether they could be useful for safety work. In open-weight models, we select neurons by what makes them fire and what they contribute to a model’s output. These neurons generally detect harmful text better than keyword or similarity search, though usually less well than classifiers trained on labeled examples, and they steer a model’s behavior about as well as trained methods. They also help an auditor find hidden behaviors in finetuned models. Finally, we find that most of the “unlearning” methods we tested appear to hide hazardous knowledge rather than remove it, and neurons help show how.",
+    "aliases": []
   },
   "https://alignment.anthropic.com/2026/hot-mess-of-ai": {
     "title": "The Hot Mess of AI: How Does Misalignment Scale with Model Intelligence and Task Complexity?",
