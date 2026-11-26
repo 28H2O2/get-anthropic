@@ -1,8 +1,25 @@
 {
-  "generated_at": "2026-11-25",
-  "generated_at_iso": "2026-11-25T13:36:40+08:00",
+  "generated_at": "2026-11-26",
+  "generated_at_iso": "2026-11-26T13:20:00+08:00",
   "lookback_days": 30,
   "digests": [
+    {
+      "date": "2026-11-25",
+      "articles": [
+        {
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "title_en": "Migrating our Messages API to Rust",
+          "title_zh": "将我们的消息 API 迁移到Rust",
+          "summary_zh": "我们如何使用现有消息 API 来验证新消息，由 Claude 代理组成的团队跟踪并修复Python和Rust版本之间的差异。许多问题都存在生成器—验证者差距：通常，验证一个解是否正确要比构造出这样一个解容易得多。数独是一个经典例子。验证解法很简单（只需统计每一行、每一列和每一个宫格中的数字个数），但要找到这个解法却可能需要很长时间。许多雄心勃勃的 Claude 项目都依赖于这一差距: 形式化数学证明或迁移大型、经过良好测试的代码库是 Claude 可以承担的任务，只要它有可靠的方法来验证其工作。",
+          "summary_en": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions. Many problems have a generator–verifier gap: it’s often far easier to verify that a solution is correct than to come up with one. Sudoku is a classic example. It’s simple to check the solution (just count the numbers in each row, column, and box), but finding that solution can take a long time. Many ambitious Claude projects have relied on this gap: formalizing proofs in mathematics or migrating large, well-tested codebases are tasks Claude can take on as long as it has a reliable way to verify its work.",
+          "summary_status": "ready",
+          "source": "Engineering Blog",
+          "source_key": "engineering",
+          "date": "2026-11-25",
+          "date_precision": "day"
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "articles": [
@@ -715,35 +732,6 @@
           "source": "Red Team",
           "source_key": "red_team",
           "date": "2026-10-27",
-          "date_precision": "day"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "articles": [
-        {
-          "url": "https://www.anthropic.com/news/s1-sec",
-          "title_en": "Anthropic files S-1 with the SEC for proposed initial public offering",
-          "title_zh": "Anthropic 向美国证券交易委员会提交有关拟议首次公开募股的S-1",
-          "summary_zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。今天，Anthropic, PBC以表格S-1向美国证券交易委员会提交了一份关于其a类普通股首次公开发行的注册声明。Anthropic 打算将其A类普通股在纳斯达克全球精选市场上市，股票代码为 “ANT”。拟发行的A类普通股股票数量和拟议发行的价格范围尚未确定。拟议的发行将仅通过招股说明书进行。初步招股说明书的副本如有，可从以下网站获得: 高盛公司。",
-          "summary_en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock. Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined. The proposed offering will be made only by means of a prospectus. Copies of the preliminary prospectus, when available, may be obtained from: Goldman Sachs & Co.",
-          "summary_status": "ready",
-          "source": "Anthropic News",
-          "source_key": "anthropic_news",
-          "date": "2026-10-26",
-          "date_precision": "day"
-        },
-        {
-          "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
-          "title_en": "Expanding Claude for Nonprofits",
-          "title_zh": "扩大非营利组织的 Claude",
-          "summary_zh": "Anthropic 的新的 Claude 非营利插件为经过验证的非营利组织带来了新技能，承担了延伸小型团队的运营工作。我们新的 Claude 非营利组织插件为每个经过验证的非营利组织带来了新的技能，承担了跨筹款，营销和招聘的小型团队的运营工作。",
-          "summary_en": "Anthropic's new Claude for Nonprofits plugin brings new skills to verified nonprofit organizations, taking the operational work that stretches small teams. Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.",
-          "summary_status": "ready",
-          "source": "Claude Blog",
-          "source_key": "claude_blog",
-          "date": "2026-10-26",
           "date_precision": "day"
         }
       ]
@@ -9054,6 +9042,13 @@
     ],
     "engineering": [
       {
+        "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+        "title": "Migrating our Messages API to Rust",
+        "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
+        "date": "2026-11-25",
+        "date_precision": "day"
+      },
+      {
         "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
         "title": "Building strong safety evaluations",
         "desc": "Anthropic 工程实践博客（anthropic.com/engineering）",
@@ -9446,60 +9441,60 @@
   ],
   "health": {
     "status": "ok",
-    "last_success_at": "2026-11-25T13:36:33+08:00",
+    "last_success_at": "2026-11-26T13:19:55+08:00",
     "sources": {
       "anthropic_news": {
         "status": "ok",
         "discovered": 274,
-        "last_success_at": "2026-11-25T13:36:33+08:00",
+        "last_success_at": "2026-11-26T13:19:55+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "anthropic_research": {
         "status": "ok",
-        "discovered": 216,
-        "last_success_at": "2026-11-25T13:36:33+08:00",
+        "discovered": 217,
+        "last_success_at": "2026-11-26T13:19:55+08:00",
         "url": "https://www.anthropic.com/sitemap.xml"
       },
       "cookbook": {
         "status": "ok",
         "discovered": 100,
-        "last_success_at": "2026-11-25T13:36:33+08:00",
+        "last_success_at": "2026-11-26T13:19:55+08:00",
         "url": "https://platform.claude.com/cookbook"
       },
       "transformer_circuits": {
         "status": "ok",
         "discovered": 53,
-        "last_success_at": "2026-11-25T13:36:33+08:00",
+        "last_success_at": "2026-11-26T13:19:55+08:00",
         "url": "https://transformer-circuits.pub/"
       },
       "red_team": {
         "status": "ok",
         "discovered": 25,
-        "last_success_at": "2026-11-25T13:36:33+08:00",
+        "last_success_at": "2026-11-26T13:19:55+08:00",
         "url": "https://www.anthropic.com/research/team/frontier-red-team"
       },
       "claude_blog": {
         "status": "ok",
         "discovered": 297,
-        "last_success_at": "2026-11-25T13:36:33+08:00",
+        "last_success_at": "2026-11-26T13:19:55+08:00",
         "url": "https://claude.com/resources/articles"
       },
       "alignment": {
         "status": "ok",
         "discovered": 62,
-        "last_success_at": "2026-11-25T13:36:33+08:00",
+        "last_success_at": "2026-11-26T13:19:55+08:00",
         "url": "https://alignment.anthropic.com/"
       },
       "engineering": {
         "status": "ok",
         "discovered": 24,
-        "last_success_at": "2026-11-25T13:36:33+08:00",
+        "last_success_at": "2026-11-26T13:19:55+08:00",
         "url": "https://www.anthropic.com/engineering"
       }
     },
     "summary_coverage": {
-      "total": 55,
-      "ready": 55,
+      "total": 54,
+      "ready": 54,
       "pending": 0,
       "failed": 0,
       "ratio": 1.0

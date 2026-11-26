@@ -1,4 +1,21 @@
 {
+  "https://www.anthropic.com/research/migrating-api-to-rust": {
+    "summary_status": "ready",
+    "processed": true,
+    "first_seen_at": "2026-11-26",
+    "source": "engineering",
+    "title": "Migrating our Messages API to Rust",
+    "sitemap_lastmod": "2026-11-25",
+    "date": "2026-11-25",
+    "metadata_checked_at": "2026-11-26T13:19:55+08:00",
+    "date_precision": "day",
+    "date_verified": true,
+    "fetch_status": "ok",
+    "summary_en": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions. Many problems have a generator–verifier gap: it’s often far easier to verify that a solution is correct than to come up with one. Sudoku is a classic example. It’s simple to check the solution (just count the numbers in each row, column, and box), but finding that solution can take a long time. Many ambitious Claude projects have relied on this gap: formalizing proofs in mathematics or migrating large, well-tested codebases are tasks Claude can take on as long as it has a reliable way to verify its work.",
+    "title_zh": "将我们的消息 API 迁移到Rust",
+    "summary_zh": "我们如何使用现有消息 API 来验证新消息，由 Claude 代理组成的团队跟踪并修复Python和Rust版本之间的差异。许多问题都存在生成器—验证者差距：通常，验证一个解是否正确要比构造出这样一个解容易得多。数独是一个经典例子。验证解法很简单（只需统计每一行、每一列和每一个宫格中的数字个数），但要找到这个解法却可能需要很长时间。许多雄心勃勃的 Claude 项目都依赖于这一差距: 形式化数学证明或迁移大型、经过良好测试的代码库是 Claude 可以承担的任务，只要它有可靠的方法来验证其工作。",
+    "summary_updated_at": "2026-11-26T13:19:55+08:00"
+  },
   "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more": {
     "summary_status": "ready",
     "processed": true,
@@ -13,7 +30,8 @@
     "summary_en": "Skills over MCP is in public beta in Claude, so MCP servers can ship skills alongside their tools. Tasks and Elicitation are now generally available, and File Uploads is rolling out soon. Skills over MCP is now in public beta in Claude, so MCP servers can ship skills alongside their tools. We're also giving servers ways to handle longer, more interactive work with Claude: Tasks and Elicitation are now generally available, and File Uploads is rolling out soon. Two years ago, Anthropic launched the Model Context Protocol (MCP) as a new standard for connecting AI agents to the systems where data lives. The spec has kept evolving to meet the connectivity needs of agents in production, and is becoming foundational for agentic messaging and orchestration.",
     "title_zh": "MCP服务器现在可以使用 Claude 提供技能、运行任务等",
     "summary_zh": "MCP上的技能在 Claude, 所以MCP服务器可以与他们的工具一起运送技能。任务和引导现已全面上线，文件上传功能也即将推出。MCP上的技能现在在 Claude, 所以MCP服务器可以与他们的工具一起运送技能。我们还为服务器提供了处理 Claude 的更长时间、更具交互性的工作的方法: 任务和启发现在普遍可用，文件上传即将推出。两年前，Anthropic 推出了模型上下文协议 (MCP)，作为将AI代理连接到数据所在系统的新标准。该规范不断发展以满足生产中代理的连接需求，并且正在成为代理消息传递和编排的基础。",
-    "summary_updated_at": "2026-11-25T13:36:33+08:00"
+    "summary_updated_at": "2026-11-25T13:36:33+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/install-as-app": {
     "summary_status": "ready",
@@ -29,7 +47,8 @@
     "summary_en": "Open the artifacts you use every day like any other app, and let them do more on your computer. Rolling out in beta in Claude for Mac and Windows. Starting today, you can use Claude artifacts to create, run, and share desktop apps. The \"Install as app\" feature is rolling out in beta in Claude for Mac and Windows. When an artifact is installed as a Mac or Windows app, it gets its own icon and opens in its own window instead of inside Claude. You can share it with others, and it needs your permission before it can interact with your computer. You choose how much to allow. Each app can use Claude and your connectors, and it updates automatically when the underlying artifact is edited. This simplifies the process for building and maintaining apps for both knowledge workers and developers.",
     "title_zh": "将工件转换为Mac和Windows应用程序",
     "summary_zh": "像任何其他应用程序一样打开您每天使用的工件，并让它们在您的计算机上执行更多操作。在适用于Mac和Windows的 Claude 中推出测试版。从今天开始，你可以使用 Claude 项目来创建、运行和共享桌面应用程序。“作为应用程序安装” 功能在Mac和Windows的 Claude 中推出测试版。当工件安装为Mac或Windows应用程序时，它会获得自己的图标并在自己的窗口中打开，而不是在 Claude 内打开。您可以与其他人共享它，它需要您的许可才能与您的计算机交互。您可以自行决定允许的额度。每个应用都可以使用 Claude 和您的连接器，并且在编辑基础工件时会自动更新。这简化了为知识工作者和开发人员构建和维护应用程序的过程。",
-    "summary_updated_at": "2026-11-25T13:36:33+08:00"
+    "summary_updated_at": "2026-11-25T13:36:33+08:00",
+    "aliases": []
   },
   "https://www.anthropic.com/research/working-with-ai": {
     "summary_status": "ready",
