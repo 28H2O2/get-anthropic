@@ -14,7 +14,8 @@
     "summary_en": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions. Many problems have a generator–verifier gap: it’s often far easier to verify that a solution is correct than to come up with one. Sudoku is a classic example. It’s simple to check the solution (just count the numbers in each row, column, and box), but finding that solution can take a long time. Many ambitious Claude projects have relied on this gap: formalizing proofs in mathematics or migrating large, well-tested codebases are tasks Claude can take on as long as it has a reliable way to verify its work.",
     "title_zh": "将我们的消息 API 迁移到Rust",
     "summary_zh": "我们如何使用现有消息 API 来验证新消息，由 Claude 代理组成的团队跟踪并修复Python和Rust版本之间的差异。许多问题都存在生成器—验证者差距：通常，验证一个解是否正确要比构造出这样一个解容易得多。数独是一个经典例子。验证解法很简单（只需统计每一行、每一列和每一个宫格中的数字个数），但要找到这个解法却可能需要很长时间。许多雄心勃勃的 Claude 项目都依赖于这一差距: 形式化数学证明或迁移大型、经过良好测试的代码库是 Claude 可以承担的任务，只要它有可靠的方法来验证其工作。",
-    "summary_updated_at": "2026-11-26T13:19:55+08:00"
+    "summary_updated_at": "2026-11-26T13:19:55+08:00",
+    "aliases": []
   },
   "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more": {
     "summary_status": "ready",
